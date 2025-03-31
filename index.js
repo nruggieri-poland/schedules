@@ -112,6 +112,28 @@ async function run() {
     } catch (err) {
       console.error(`❌ Failed for ${team.sport}: ${err.message}`);
     }
+  
+  // Merge all games across all teams
+  const allGames = [];
+
+  for (const team of teams) {
+    const teamFile = path.join(DATA_DIR, `${team.sport}.json`);
+    if (fs.existsSync(teamFile)) {
+      const games = JSON.parse(fs.readFileSync(teamFile, 'utf-8'));
+      allGames.push(...games);
+    }
+  }
+
+  // Sort by date/time
+  allGames.sort((a, b) => {
+    const aDate = new Date(`${a.date} ${a.time}`);
+    const bDate = new Date(`${b.date} ${b.time}`);
+    return aDate - bDate;
+  });
+
+  const combinedPath = path.join(DATA_DIR, 'combined.json');
+  fs.writeFileSync(combinedPath, JSON.stringify(allGames, null, 2));
+  console.log(`📦 Wrote combined.json with ${allGames.length} total events.`);
   }
 
   console.log("🏁 Done.");
