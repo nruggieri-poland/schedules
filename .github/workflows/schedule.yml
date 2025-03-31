@@ -5,6 +5,10 @@ on:
     - cron: "0 8,12,16,20 * * *"  # 7am ET daily
   workflow_dispatch:       # Manual run button in GitHub UI
 
+permissions:
+  contents: write
+
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -31,3 +35,5 @@ jobs:
           git add data/*.json
           git commit -m "🔄 Auto-update schedule JSONs" || echo "No changes to commit"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
