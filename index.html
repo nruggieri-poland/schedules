@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Poland Bulldogs | Schedule</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      background: #f8f9fa;
+      color: #222;
+    }
+    h1 {
+      text-align: center;
+      color: #00328f;
+    }
+    select {
+      padding: 0.5rem;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    .game {
+      background: white;
+      border: 1px solid #ddd;
+      border-left: 4px solid #00328f;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+    }
+    .title {
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .meta {
+      color: #555;
+      font-size: 0.9rem;
+    }
+    .cancelled {
+      text-decoration: line-through;
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>📅 Poland Bulldogs Schedule</h1>
+
+  <label for="sportFilter">Filter by sport:</label>
+  <select id="sportFilter">
+    <option value="">All Sports</option>
+  </select>
+
+  <div id="schedule"></div>
+
+  <script>
+    const scheduleDiv = document.getElementById("schedule");
+    const sportFilter = document.getElementById("sportFilter");
+
+    async function loadSchedule() {
+      const res = await fetch("data/combined.json");
+      const data = await res.json();
+
+      // Populate sport filter options
+      const sports = [...new Set(data.map(g => g.sport))].sort();
+      sports.forEach(sport => {
+        const opt = document.createElement("option");
+        opt.value = sport;
+        opt.textContent = sport;
+        sportFilter.appendChild(opt);
+      });
+
+      renderSchedule(data);
+      sportFilter.addEventListener("change", () => renderSchedule(data));
+    }
+
+    function renderSchedule(data) {
+      const selectedSport = sportFilter.value;
+      scheduleDiv.innerHTML = "";
+
+      const now = new Date();
+      const upcomingGames = data
+        .filter(game => {
+          const gameDate = new Date(`${game.date} ${game.time}`);
+          return gameDate >= now &&
+            (!selectedSport || game.sport === selectedSport);
+        })
+        .slice(0, 100); // limit to 100 future events
+
+      if (upcomingGames.length === 0) {
+        scheduleDiv.innerHTML = "<p>No upcoming events.</p>";
+        return;
+      }
+
+      upcomingGames.forEach(game => {
+        const gameDate = new Date(`${game.date} ${game.time}`);
+        const formattedDate = gameDate.toLocaleDateString(undefined, {
+          weekday: "short", month: "short", day: "numeric"
+        });
+        const formattedTime = game.time;
+
+        const div = document.createElement("div");
+        div.className = "game";
+
+        const title = document.createElement("div");
+        title.className = "title";
+        title.textContent = `${game.sport}: ${game.vsOrAt} ${game.opponent}`;
+        if (game.isCancelled) {
+          title.classList.add("cancelled");
+        }
+
+        const meta = document.createElement("div");
+        meta.className = "meta";
+        meta.innerHTML = `
+          <strong>${formattedDate}</strong> at ${formattedTime} · ${game.location || "TBD"}
+          ${game.result ? `<br><em>Result:</em> ${game.result}` : ""}
+          ${game.url ? `<br><a href="${game.url}" target="_blank">View on BigTeams</a>` : ""}
+        `;
+
+        div.appendChild(title);
+        div.appendChild(meta);
+        scheduleDiv.appendChild(div);
+      });
+    }
+
+    loadSchedule();
+  </script>
+</body>
+</html>
