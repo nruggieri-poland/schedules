@@ -36,7 +36,7 @@
       flex-wrap: wrap;
       justify-content: center;
       gap: 0.5rem;
-      padding: 1rem;
+      padding: .3rem .5rem;
     }
     select, button {
       padding: 0.4rem 0.7rem;
@@ -56,8 +56,8 @@
     .game-list {
       display: flex;
       flex-direction: column;
-      gap: 1rem;
-      padding: 1rem;
+      gap: 0.4rem;
+      padding: 0 1rem;
     }
 
     .game {
@@ -129,14 +129,16 @@
     <select id="sportFilter">
       <option value="">All Sports</option>
     </select>
+  </div>
+
+  <div id="schedule" class="game-list compact"></div>
+  <div class="controls" style="padding: 1rem 0 0 0">
     <button data-view="today">Today</button>
     <button data-view="week">This Week</button>
     <button data-view="month">This Month</button>
     <button data-view="all">All</button>
     <button id="layoutToggle">Full View</button>
   </div>
-
-  <div id="schedule" class="game-list compact"></div>
 
   <script>
     const scheduleEl = document.getElementById("schedule");
@@ -225,12 +227,11 @@
         const meta = document.createElement("div");
         meta.className = "meta";
         meta.innerHTML = layout === "compact"
-          ? `<div>${dateStr}</div><div>${game.time}</div>`
+          ? `<div>${dateStr} | ${game.time}</div>`
           : `
             ${dateStr} · ${game.time}<br>
             ${game.homeOrAway} @ ${game.location || "TBD"}
             ${game.result ? `<br><em>Result:</em> ${game.result}` : ""}
-            ${game.url ? `<br><a href="${game.url}" target="_blank">View</a>` : ""}
           `;
 
         div.appendChild(title);
