@@ -202,7 +202,7 @@
         if (view === "month") return (
           date.getMonth() === now.getMonth() && date.getFullYear() === now.getFullYear()
         );
-        return date >= now;
+        return date.toDateString() > now.toDateString() || date.toDateString() === now.toDateString();
       });
 
       if (filtered.length === 0) {
