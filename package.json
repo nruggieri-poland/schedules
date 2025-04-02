@@ -11,5 +11,18 @@
     "luxon": "^3.6.1",
     "node-fetch": "^3.3.2"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nruggieri-poland/schedules.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nruggieri-poland/schedules/issues"
+  },
+  "homepage": "https://github.com/nruggieri-poland/schedules#readme",
+  "description": ""
 }

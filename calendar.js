@@ -53,5 +53,7 @@ events.forEach(event => {
   });
 });
 
-cal.saveSync('pshs-athletics.ics');
+import { writeFileSync } from 'fs';
+
+writeFileSync('pshs-athletics.ics', cal.toString());
 console.log('✅ iCal file created: pshs-athletics.ics');
