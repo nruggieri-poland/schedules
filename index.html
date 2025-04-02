@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Poland Bulldogs Schedule</title>
   <style>
     :root {
@@ -21,22 +21,26 @@
     header {
       display: flex;
       align-items: center;
-      justify-content: center;
-      gap: 1rem;
+      justify-content: space-between;
       padding: 1rem;
       background: white;
-      box-shadow: 0  2px 4px rgba(0,0,0,0.05);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     }
     header img {
       height: 40px;
     }
-
+    header .current-date {
+      font-weight: bold;
+      color: var(--primary);
+      font-size: 1rem;
+    }
     .controls {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      align-items: center;
       gap: 0.5rem;
-      padding: .3rem .5rem;
+      padding: .5rem 0 .5rem 0;
     }
     select, button {
       padding: 0.4rem 0.7rem;
@@ -52,50 +56,56 @@
       color: white;
       border-color: var(--primary);
     }
-
     .game-list {
       display: flex;
       flex-direction: column;
       gap: 0.4rem;
       padding: 0 1rem;
     }
-
     .game {
       background: white;
       border-radius: var(--radius);
       padding: 1rem;
-      border-left: 4px solid var(--primary);
+      border-left: 6px solid transparent;
       display: flex;
       flex-direction: column;
     }
-
+    .game.home {
+      border-left-color: var(--primary);
+    }
+    .game.away {
+      border-left-color: #ccc;
+    }
     .game.compact {
       display: grid;
-      grid-template-columns: 1fr 2fr 1fr;
+      grid-template-columns: 1fr 2fr 1fr auto;
       align-items: center;
-      padding: 0.6rem 1rem;
-      border-left: none;
-      border-top: 3px solid var(--primary);
+      padding: 0.4rem 1rem;
       font-size: 0.85rem;
     }
-
     .game.compact .title {
       font-weight: 600;
       font-size: 0.9rem;
       margin: 0;
     }
-
     .game.compact .meta {
       text-align: right;
       line-height: 1.4;
       font-size: 0.8rem;
     }
-
+    .calendar-icon {
+      font-size: 1.2rem;
+      cursor: pointer;
+      padding: 0.5rem;
+    }
+    .calendar-icon:hover {
+      background: #e1e9ff;
+      border-radius: var(--radius);
+    }
     .cancelled {
       text-decoration: line-through;
       color: red;
     }
-
     .status-dot {
       display: inline-block;
       width: 10px;
@@ -107,7 +117,20 @@
     .dot-green { background: green; }
     .dot-yellow { background: orange; }
     .dot-red { background: red; }
-
+    .nav-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .nav-arrows button {
+      font-size: 1.2rem;
+      padding: 0.3rem 0.6rem;
+      border-radius: 50%;
+      background: var(--primary);
+      color: white;
+      border: none;
+    }
     @media (max-width: 600px) {
       .game.compact {
         grid-template-columns: 1fr;
@@ -121,150 +144,171 @@
 </head>
 <body>
 
-  <header>
-    <img src="https://www.polandbulldogs.com/uploaded/emails/bulldog-logo.png" alt="Poland Bulldogs Logo">
-  </header>
+<header>
+  <img src="https://www.polandbulldogs.com/uploaded/emails/bulldog-logo.png" alt="Poland Bulldogs Logo">
+  <div class="current-date" id="currentDateLabel"></div>
+</header>
 
-  <div class="controls">
-    <select id="sportFilter">
-      <option value="">All Sports</option>
-    </select>
-  </div>
+<div class="nav-wrapper controls">
+  <button id="prevDay">&#8592;</button>
+  <select id="sportFilter">
+    <option value="">All Sports</option>
+  </select>
+  <button id="nextDay">&#8594;</button>
+</div>
 
-  <div id="schedule" class="game-list compact"></div>
+<div id="schedule" class="game-list compact"></div>
 
-  <div class="controls" style="padding: 1rem 0 0 0">
-    <button data-view="today">Today</button>
-    <button data-view="week">This Week</button>
-    <button data-view="month">This Month</button>
-    <button data-view="all">All</button>
-    <button id="layoutToggle">Full View</button>
-  </div>
+<div class="controls" style="padding: 1rem 0 0 0">
+  <button data-view="today">Today</button>
+  <button data-view="week">This Week</button>
+  <button data-view="month">This Month</button>
+  <button data-view="all">All</button>
+  <button id="layoutToggle">Full View</button>
+</div>
 
-  <script>
-    const scheduleEl = document.getElementById("schedule");
-    const sportFilter = document.getElementById("sportFilter");
-    const layoutToggle = document.getElementById("layoutToggle");
-    let layout = "compact"; // default view
-    let view = "week"; // default view
-    let allGames = [];
+<script>
+  const scheduleEl = document.getElementById("schedule");
+  const sportFilter = document.getElementById("sportFilter");
+  const layoutToggle = document.getElementById("layoutToggle");
+  const prevDay = document.getElementById("prevDay");
+  const nextDay = document.getElementById("nextDay");
+  const currentDateLabel = document.getElementById("currentDateLabel");
 
-    const getHashView = () => {
-      const hash = location.hash.replace("#", "").toLowerCase();
-      return ["today", "week", "month", "all"].includes(hash) ? hash : "week";
-    };
+  let layout = "compact";
+  let view = "week";
+  let allGames = [];
+  let currentDate = new Date();
 
-    async function loadData() {
-      const res = await fetch("data/combined.json");
-      const data = await res.json();
-      allGames = data;
-      populateSportOptions(data);
-      view = getHashView();
-      highlightView(view);
-      renderSchedule();
-    }
+  const getHashView = () => {
+    const hash = location.hash.replace("#", "").toLowerCase();
+    return ["today", "week", "month", "all"].includes(hash) ? hash : "week";
+  };
 
-    function populateSportOptions(data) {
-      const sports = [...new Set(data.map(g => g.sport))].sort();
-      sports.forEach(sport => {
-        const opt = document.createElement("option");
-        opt.value = sport;
-        opt.textContent = sport;
-        sportFilter.appendChild(opt);
-      });
-    }
+  async function loadData() {
+    const res = await fetch("data/combined.json");
+    const data = await res.json();
+    allGames = data;
+    populateSportOptions(data);
+    view = getHashView();
+    highlightView(view);
+    renderSchedule();
+  }
 
-    function highlightView(v) {
-      document.querySelectorAll("[data-view]").forEach(btn => {
-        btn.classList.toggle("active", btn.dataset.view === v);
-      });
-    }
+  function populateSportOptions(data) {
+    const sports = [...new Set(data.map(g => g.sport))].sort();
+    sports.forEach(sport => {
+      const opt = document.createElement("option");
+      opt.value = sport;
+      opt.textContent = sport;
+      sportFilter.appendChild(opt);
+    });
+  }
 
-    function getStatusDot(game) {
-      if (game.isCancelled) return '<span class="status-dot dot-red"></span>';
-      if (game.isPostponed) return '<span class="status-dot dot-yellow"></span>';
-      return '<span class="status-dot dot-green"></span>';
-    }
-
-    function renderSchedule() {
-      const selectedSport = sportFilter.value;
-      scheduleEl.innerHTML = "";
-      scheduleEl.className = "game-list" + (layout === "compact" ? " compact" : "");
-
-      const now = new Date();
-      const weekEnd = new Date(now);
-      weekEnd.setDate(now.getDate() + 7);
-      const monthEnd = new Date(now.getFullYear(), now.getMonth() + 1, 0);
-
-      const filtered = allGames.filter(game => {
-        const date = new Date(`${game.date} ${game.time}`);
-        if (selectedSport && game.sport !== selectedSport) return false;
-
-        if (view === "today") return date.toDateString() === now.toDateString();
-        if (view === "week") return date >= now && date <= weekEnd;
-        if (view === "month") return (
-          date.getMonth() === now.getMonth() && date.getFullYear() === now.getFullYear()
-        );
-        return date.toDateString() > now.toDateString() || date.toDateString() === now.toDateString();
-      });
-
-      if (filtered.length === 0) {
-        scheduleEl.innerHTML = "<p style='text-align:center'>No games found.</p>";
-        return;
-      }
-
-      filtered.forEach(game => {
-        const dateObj = new Date(`${game.date} ${game.time}`);
-        const dateStr = dateObj.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" });
-
-        const div = document.createElement("div");
-        div.className = "game" + (layout === "compact" ? " compact" : "");
-
-        const title = document.createElement("div");
-        title.className = "title";
-        title.innerHTML = getStatusDot(game) + `<strong>${game.sport}</strong><br>${game.vsOrAt} ${game.opponent}`;
-        if (game.isCancelled) title.classList.add("cancelled");
-
-        const meta = document.createElement("div");
-        meta.className = "meta";
-        meta.innerHTML = layout === "compact"
-          ? `<div>${dateStr} | ${game.time}</div>`
-          : `
-            ${dateStr} · ${game.time}<br>
-            ${game.homeOrAway} @ ${game.location || "TBD"}
-            ${game.result ? `<br><em>Result:</em> ${game.result}` : ""}
-          `;
-
-        div.appendChild(title);
-        div.appendChild(meta);
-        scheduleEl.appendChild(div);
-      });
-    }
-
+  function highlightView(v) {
     document.querySelectorAll("[data-view]").forEach(btn => {
-      btn.addEventListener("click", () => {
-        view = btn.dataset.view;
-        location.hash = view;
-        highlightView(view);
-        renderSchedule();
-      });
+      btn.classList.toggle("active", btn.dataset.view === v);
+    });
+  }
+
+  function getStatusDot(game) {
+    if (game.isCancelled) return '<span class="status-dot dot-red"></span>';
+    if (game.isPostponed) return '<span class="status-dot dot-yellow"></span>';
+    return '<span class="status-dot dot-green"></span>';
+  }
+
+  function renderSchedule() {
+    const selectedSport = sportFilter.value;
+    scheduleEl.innerHTML = "";
+    scheduleEl.className = "game-list" + (layout === "compact" ? " compact" : "");
+
+    currentDateLabel.textContent = currentDate.toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric" });
+
+    const now = currentDate;
+    const weekEnd = new Date(now);
+    weekEnd.setDate(now.getDate() + 7);
+
+    const filtered = allGames.filter(game => {
+      const date = new Date(`${game.date} ${game.time}`);
+      if (selectedSport && game.sport !== selectedSport) return false;
+
+      if (view === "today") return date.toDateString() === now.toDateString();
+      if (view === "week") return date >= now && date <= weekEnd;
+      if (view === "month") return date.getMonth() === now.getMonth() && date.getFullYear() === now.getFullYear();
+      return date >= now;
     });
 
-    layoutToggle.addEventListener("click", () => {
-      layout = layout === "full" ? "compact" : "full";
-      layoutToggle.textContent = layout === "compact" ? "Full View" : "Compact View";
-      renderSchedule();
+    if (filtered.length === 0) {
+      scheduleEl.innerHTML = "<p style='text-align:center'>No games found.</p>";
+      return;
+    }
+
+    filtered.forEach(game => {
+      const dateObj = new Date(`${game.date} ${game.time}`);
+      const dateStr = dateObj.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" });
+
+      const div = document.createElement("div");
+      const isHome = game.homeOrAway.toLowerCase() === 'home';
+      div.className = `game${layout === 'compact' ? ' compact' : ''} ${isHome ? 'home' : 'away'}`;
+      div.title = `${game.sport} game against ${game.opponent} on ${dateStr} at ${game.time}`;
+
+      const title = document.createElement("div");
+      title.className = "title";
+      title.innerHTML = getStatusDot(game) + `<strong>${game.sport}</strong><br>${game.homeOrAway.toUpperCase()} ${game.vsOrAt} ${game.opponent}`;
+      if (game.isCancelled) title.classList.add("cancelled");
+
+      const meta = document.createElement("div");
+      meta.className = "meta";
+      meta.innerHTML = layout === "compact"
+        ? `<div>${dateStr} | ${game.time}</div>`
+        : `${dateStr} · ${game.time}<br>${game.location || "TBD"}${game.result ? `<br><em>Result:</em> ${game.result}` : ""}`;
+
+      div.appendChild(title);
+      div.appendChild(meta);
+      scheduleEl.appendChild(div);
     });
+  }
 
-    sportFilter.addEventListener("change", renderSchedule);
-
-    window.addEventListener("hashchange", () => {
-      view = getHashView();
+  document.querySelectorAll("[data-view]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      view = btn.dataset.view;
+      currentDate = new Date();
+      location.hash = view;
       highlightView(view);
       renderSchedule();
     });
+  });
 
-    loadData();
-  </script>
+  layoutToggle.addEventListener("click", () => {
+    layout = layout === "full" ? "compact" : "full";
+    layoutToggle.textContent = layout === "compact" ? "Full View" : "Compact View";
+    renderSchedule();
+  });
+
+  sportFilter.addEventListener("change", renderSchedule);
+
+  window.addEventListener("hashchange", () => {
+    view = getHashView();
+    currentDate = new Date();
+    highlightView(view);
+    renderSchedule();
+  });
+
+  prevDay.addEventListener("click", () => {
+    currentDate.setDate(currentDate.getDate() - 1);
+    view = "today";
+    highlightView(view);
+    renderSchedule();
+  });
+
+  nextDay.addEventListener("click", () => {
+    currentDate.setDate(currentDate.getDate() + 1);
+    view = "today";
+    highlightView(view);
+    renderSchedule();
+  });
+
+  loadData();
+</script>
 </body>
 </html>
