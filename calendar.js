@@ -1,7 +1,7 @@
 import fs from 'fs';
 import { DateTime } from 'luxon';
 import ical from 'ical-generator';
-import events from 'data/combined.json' assert { type: 'json' };
+import events from '/data/combined.json' assert { type: 'json' };
 
 const cal = ical({ name: 'PSHS Athletics Events' });
 
