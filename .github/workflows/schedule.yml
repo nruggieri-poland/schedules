@@ -2,7 +2,7 @@ name: Fetch Schedule JSONs
 
 on:
   schedule:
-    - cron: "0 8,12,16,20 * * *" 
+    - cron: "0 0-23 * * *" 
   workflow_dispatch:       # Manual run button in GitHub UI
 
 permissions:

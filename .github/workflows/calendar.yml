@@ -20,9 +20,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Fetch schedules
-        run: node index.js
-
       - name: Generate calendar
         run: node calendar.js
 
