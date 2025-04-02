@@ -1,9 +1,9 @@
-const fs = require('fs');
-const { DateTime } = require('luxon');
-const ical = require('ical-generator');
+import fs from 'fs';
+import { DateTime } from 'luxon';
+import ical from 'ical-generator';
+import events from 'data/combined.json' assert { type: 'json' };
 
-const events = require('data/combined.json');
-const cal = ical({ name: 'Poland Bulldogs Events' });
+const cal = ical({ name: 'PSHS Athletics Events' });
 
 events.forEach(event => {
   if (event.isCancelled) return;
@@ -24,5 +24,5 @@ events.forEach(event => {
   });
 });
 
-cal.saveSync('pshs-athletics-schedule.ics');
-console.log('✅ iCal file created: calendar.ics');
+cal.saveSync('pshs-athletics.ics');
+console.log('✅ iCal file created: pshs-athletics.ics');
