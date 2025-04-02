@@ -48,7 +48,7 @@ events.forEach(event => {
     allDay,
     summary: `${event.sport}: ${event.vsOrAt} ${event.opponent}`,
     description: `${event.title}\n\nMore info: ${event.url}`,
-    location: event.location || event.opponent,
+    location: `${event.homeOrAway} - ${event.location || event.opponent}`,
     url: event.url,
   });
 });
