@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Poland Bulldogs Schedule</title>
+  <style>
+    :root {
+      --primary: #00328f;
+      --gray: #f0f0f0;
+      --radius: 8px;
+      --transition: 0.2s ease;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, sans-serif;
+      background: var(--gray);
+      color: #222;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      padding: 1rem;
+      background: white;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    header img {
+      height: 40px;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: .3rem .5rem;
+    }
+    select, button {
+      padding: 0.4rem 0.7rem;
+      font-size: 0.9rem;
+      border-radius: var(--radius);
+      border: 1px solid #ccc;
+      background: white;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    button.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
+    .game-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      padding: 0 1rem;
+    }
+
+    .game {
+      background: white;
+      border-radius: var(--radius);
+      padding: 1rem;
+      border-left: 4px solid var(--primary);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .game.compact {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      align-items: center;
+      padding: 0.6rem 1rem;
+      border-left: none;
+      border-top: 3px solid var(--primary);
+      font-size: 0.85rem;
+    }
+
+    .game.compact .title {
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin: 0;
+    }
+
+    .game.compact .meta {
+      text-align: right;
+      line-height: 1.4;
+      font-size: 0.8rem;
+    }
+
+    .cancelled {
+      text-decoration: line-through;
+      color: red;
+    }
+
+    .status-dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 6px;
+      vertical-align: middle;
+    }
+    .dot-green { background: green; }
+    .dot-yellow { background: orange; }
+    .dot-red { background: red; }
+
+    @media (max-width: 600px) {
+      .game.compact {
+        grid-template-columns: 1fr;
+        text-align: left;
+      }
+      .game.compact .meta {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://www.polandbulldogs.com/uploaded/emails/bulldog-logo.png" alt="Poland Bulldogs Logo">
+  </header>
+
+  <div class="controls">
+    <select id="sportFilter" disabled>
+      <option>All Sports</option>
+    </select>
+  </div>
+
+  <!-- Games will be injected here during build -->
+  <div id="schedule" class="game-list compact">
+    <!-- PRE-RENDERED GAME HTML WILL BE INSERTED HERE -->
+  </div>
+
+  <div class="controls" style="padding: 1rem 0 0 0">
+    <button disabled>Today</button>
+    <button disabled>This Week</button>
+    <button disabled>This Month</button>
+    <button disabled>All</button>
+    <button id="layoutToggle" disabled>Full View</button>
+  </div>
+
+</body>
+</html>

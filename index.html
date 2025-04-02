@@ -126,144 +126,1039 @@
   </header>
 
   <div class="controls">
-    <select id="sportFilter">
-      <option value="">All Sports</option>
+    <select id="sportFilter" disabled>
+      <option>All Sports</option>
     </select>
   </div>
 
-  <div id="schedule" class="game-list compact"></div>
+  <!-- Games will be injected here during build -->
+  <div id="schedule" class="game-list compact">
+
+    <div class="game compact" data-sport="Girls Lacrosse" data-date="03/22/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Girls Lacrosse</strong><br>@ St. Vincent-St. Mary H.S.
+      </div>
+      <div class="meta">
+        <div>Sat, Mar 22 | 01:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Lacrosse" data-date="03/25/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Lacrosse</strong><br>vs Southeast High School
+      </div>
+      <div class="meta">
+        <div>Tue, Mar 25 | 06:30 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Girls Lacrosse" data-date="03/26/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Girls Lacrosse</strong><br>vs Southeast High School
+      </div>
+      <div class="meta">
+        <div>Wed, Mar 26 | 06:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="03/27/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>vs Boardman High School
+      </div>
+      <div class="meta">
+        <div>Thu, Mar 27 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Girls Lacrosse" data-date="03/27/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Girls Lacrosse</strong><br>@ Holy Name High School
+      </div>
+      <div class="meta">
+        <div>Thu, Mar 27 | 05:30 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Lacrosse" data-date="03/27/2025">
+      <div class="title cancelled">
+        <span class="status-dot dot-red"></span><strong>Boys Lacrosse</strong><br>@ Aurora City Schools
+      </div>
+      <div class="meta">
+        <div>Thu, Mar 27 | 06:30 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="03/29/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>@ Steubenville High School
+      </div>
+      <div class="meta">
+        <div>Sat, Mar 29 | 11:00 AM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="03/29/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>@ Parkersburg South High School
+      </div>
+      <div class="meta">
+        <div>Sat, Mar 29 | 01:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Tennis" data-date="03/31/2025">
+      <div class="title">
+        <span class="status-dot dot-yellow"></span><strong>Boys Tennis</strong><br>@ Canfield High School
+      </div>
+      <div class="meta">
+        <div>Mon, Mar 31 | 04:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="03/31/2025">
+      <div class="title">
+        <span class="status-dot dot-yellow"></span><strong>Baseball</strong><br>vs Hubbard High School
+      </div>
+      <div class="meta">
+        <div>Mon, Mar 31 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="03/31/2025">
+      <div class="title">
+        <span class="status-dot dot-yellow"></span><strong>Softball</strong><br>vs Hubbard High School
+      </div>
+      <div class="meta">
+        <div>Mon, Mar 31 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Track & Field" data-date="04/01/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Track & Field</strong><br>vs Niles McKinley High School
+      </div>
+      <div class="meta">
+        <div>Tue, Apr 1 | 04:45 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="04/01/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>@ Hubbard High School
+      </div>
+      <div class="meta">
+        <div>Tue, Apr 1 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="04/01/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>@ Hubbard High School
+      </div>
+      <div class="meta">
+        <div>Tue, Apr 1 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Girls Lacrosse" data-date="04/01/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Girls Lacrosse</strong><br>@ Orange High School
+      </div>
+      <div class="meta">
+        <div>Tue, Apr 1 | 06:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Tennis" data-date="04/02/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Tennis</strong><br>vs Lakeview High School
+      </div>
+      <div class="meta">
+        <div>Wed, Apr 2 | 04:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="04/02/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>vs Hubbard High School
+      </div>
+      <div class="meta">
+        <div>Wed, Apr 2 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Girls Lacrosse" data-date="04/02/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Girls Lacrosse</strong><br>@ Canfield High School
+      </div>
+      <div class="meta">
+        <div>Wed, Apr 2 | 06:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="04/02/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>vs Hubbard High School
+      </div>
+      <div class="meta">
+        <div>Wed, Apr 2 | 07:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="04/03/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>@ Columbiana High School
+      </div>
+      <div class="meta">
+        <div>Thu, Apr 3 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="04/03/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>@ Canfield High School
+      </div>
+      <div class="meta">
+        <div>Thu, Apr 3 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Lacrosse" data-date="04/03/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Lacrosse</strong><br>vs Canfield High School
+      </div>
+      <div class="meta">
+        <div>Thu, Apr 3 | 06:30 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Tennis" data-date="04/04/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Tennis</strong><br>vs Struthers High School
+      </div>
+      <div class="meta">
+        <div>Fri, Apr 4 | 04:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="04/04/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>vs Mineral Ridge High School
+      </div>
+      <div class="meta">
+        <div>Fri, Apr 4 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="04/05/2025">
+      <div class="title cancelled">
+        <span class="status-dot dot-red"></span><strong>Softball</strong><br>@ Mohawk Junior/Senior High School
+      </div>
+      <div class="meta">
+        <div>Sat, Apr 5 | 11:00 AM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Girls Lacrosse" data-date="04/05/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Girls Lacrosse</strong><br>@ Theodore Roosevelt HS
+      </div>
+      <div class="meta">
+        <div>Sat, Apr 5 | 11:00 AM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Tennis" data-date="04/07/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Tennis</strong><br>@ Niles McKinley High School
+      </div>
+      <div class="meta">
+        <div>Mon, Apr 7 | 04:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="04/07/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>vs Struthers High School
+      </div>
+      <div class="meta">
+        <div>Mon, Apr 7 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="04/07/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>vs Struthers High School
+      </div>
+      <div class="meta">
+        <div>Mon, Apr 7 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Girls Lacrosse" data-date="04/07/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Girls Lacrosse</strong><br>vs Louisville High School
+      </div>
+      <div class="meta">
+        <div>Mon, Apr 7 | 06:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Track & Field" data-date="04/08/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Track & Field</strong><br>@ Lakeview High School
+      </div>
+      <div class="meta">
+        <div>Tue, Apr 8 | 04:45 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="04/08/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>@ Struthers High School
+      </div>
+      <div class="meta">
+        <div>Tue, Apr 8 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="04/08/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>@ Struthers High School
+      </div>
+      <div class="meta">
+        <div>Tue, Apr 8 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Lacrosse" data-date="04/08/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Lacrosse</strong><br>vs Boardman High School
+      </div>
+      <div class="meta">
+        <div>Tue, Apr 8 | 06:30 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Tennis" data-date="04/09/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Tennis</strong><br>vs Boardman High School
+      </div>
+      <div class="meta">
+        <div>Wed, Apr 9 | 04:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Girls Lacrosse" data-date="04/09/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Girls Lacrosse</strong><br>vs Cardinal Mooney High School
+      </div>
+      <div class="meta">
+        <div>Wed, Apr 9 | 06:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="04/10/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>vs Boardman High School
+      </div>
+      <div class="meta">
+        <div>Thu, Apr 10 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="04/10/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>vs LaBrae High School
+      </div>
+      <div class="meta">
+        <div>Thu, Apr 10 | 05:30 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Lacrosse" data-date="04/10/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Lacrosse</strong><br>vs Canton Central Catholic HS
+      </div>
+      <div class="meta">
+        <div>Thu, Apr 10 | 06:30 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Tennis" data-date="04/11/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Tennis</strong><br>vs Salem Jr/Sr High School
+      </div>
+      <div class="meta">
+        <div>Fri, Apr 11 | 04:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="04/11/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>@ Salem Jr/Sr High School
+      </div>
+      <div class="meta">
+        <div>Fri, Apr 11 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Girls Lacrosse" data-date="04/11/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Girls Lacrosse</strong><br>vs Aurora City Schools
+      </div>
+      <div class="meta">
+        <div>Fri, Apr 11 | 06:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Track & Field" data-date="04/12/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Track & Field</strong><br>@ OPEN
+      </div>
+      <div class="meta">
+        <div>Sat, Apr 12 | 10:00 AM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="04/12/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>vs Jefferson Area Jr/Sr HS
+      </div>
+      <div class="meta">
+        <div>Sat, Apr 12 | 11:00 AM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="04/12/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>vs Chalker High School
+      </div>
+      <div class="meta">
+        <div>Sat, Apr 12 | 03:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Tennis" data-date="04/14/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Tennis</strong><br>@ West Branch High School
+      </div>
+      <div class="meta">
+        <div>Mon, Apr 14 | 04:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="04/14/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>@ Lakeview High School
+      </div>
+      <div class="meta">
+        <div>Mon, Apr 14 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="04/14/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>@ Lakeview High School
+      </div>
+      <div class="meta">
+        <div>Mon, Apr 14 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Track & Field" data-date="04/15/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Track & Field</strong><br>vs South Range High School
+      </div>
+      <div class="meta">
+        <div>Tue, Apr 15 | 04:45 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="04/15/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>vs Lakeview High School
+      </div>
+      <div class="meta">
+        <div>Tue, Apr 15 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="04/15/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>vs Lakeview High School
+      </div>
+      <div class="meta">
+        <div>Tue, Apr 15 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Lacrosse" data-date="04/15/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Lacrosse</strong><br>@ Louisville High School
+      </div>
+      <div class="meta">
+        <div>Tue, Apr 15 | 06:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Girls Lacrosse" data-date="04/16/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Girls Lacrosse</strong><br>vs Boardman High School
+      </div>
+      <div class="meta">
+        <div>Wed, Apr 16 | 06:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Tennis" data-date="04/17/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Tennis</strong><br>@ Lakeview High School
+      </div>
+      <div class="meta">
+        <div>Thu, Apr 17 | 04:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="04/17/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>@ Edgewood High School
+      </div>
+      <div class="meta">
+        <div>Thu, Apr 17 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="04/17/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>vs McDonald High School
+      </div>
+      <div class="meta">
+        <div>Thu, Apr 17 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="04/18/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>vs West Branch High School
+      </div>
+      <div class="meta">
+        <div>Fri, Apr 18 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="04/21/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>@ Girard Jr/Sr HS
+      </div>
+      <div class="meta">
+        <div>Mon, Apr 21 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="04/22/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>vs Girard Jr/Sr HS
+      </div>
+      <div class="meta">
+        <div>Tue, Apr 22 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Track & Field" data-date="04/23/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Track & Field</strong><br>@ Hubbard High School
+      </div>
+      <div class="meta">
+        <div>Wed, Apr 23 | 04:45 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="04/24/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>@ Crestview HS - Columbiana
+      </div>
+      <div class="meta">
+        <div>Thu, Apr 24 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Track & Field" data-date="04/26/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Track & Field</strong><br>vs Girard Jr/Sr HS
+      </div>
+      <div class="meta">
+        <div>Sat, Apr 26 | 09:00 AM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="04/26/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>@ Springfield Local High School
+      </div>
+      <div class="meta">
+        <div>Sat, Apr 26 | 11:00 AM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Tennis" data-date="04/28/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Tennis</strong><br>@ Struthers High School
+      </div>
+      <div class="meta">
+        <div>Mon, Apr 28 | 04:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="04/28/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>@ South Range High School
+      </div>
+      <div class="meta">
+        <div>Mon, Apr 28 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="04/28/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>@ South Range High School
+      </div>
+      <div class="meta">
+        <div>Mon, Apr 28 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Girls Lacrosse" data-date="04/28/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Girls Lacrosse</strong><br>vs Canfield High School
+      </div>
+      <div class="meta">
+        <div>Mon, Apr 28 | 06:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Tennis" data-date="04/29/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Tennis</strong><br>vs Canfield High School
+      </div>
+      <div class="meta">
+        <div>Tue, Apr 29 | 04:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Track & Field" data-date="04/29/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Track & Field</strong><br>@ Hubbard High School
+      </div>
+      <div class="meta">
+        <div>Tue, Apr 29 | 04:45 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="04/29/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>vs South Range High School
+      </div>
+      <div class="meta">
+        <div>Tue, Apr 29 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="04/29/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>vs South Range High School
+      </div>
+      <div class="meta">
+        <div>Tue, Apr 29 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Lacrosse" data-date="04/29/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Lacrosse</strong><br>vs Cardinal Mooney High School
+      </div>
+      <div class="meta">
+        <div>Tue, Apr 29 | 06:30 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Tennis" data-date="04/30/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Tennis</strong><br>vs Niles McKinley High School
+      </div>
+      <div class="meta">
+        <div>Wed, Apr 30 | 04:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Girls Lacrosse" data-date="04/30/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Girls Lacrosse</strong><br>@ Laurel School
+      </div>
+      <div class="meta">
+        <div>Wed, Apr 30 | 06:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Tennis" data-date="05/01/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Tennis</strong><br>@ Boardman High School
+      </div>
+      <div class="meta">
+        <div>Thu, May 1 | 04:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="05/01/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>@ Girard Jr/Sr HS
+      </div>
+      <div class="meta">
+        <div>Thu, May 1 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="05/01/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>vs Canfield High School
+      </div>
+      <div class="meta">
+        <div>Thu, May 1 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Lacrosse" data-date="05/01/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Lacrosse</strong><br>@ Boardman High School
+      </div>
+      <div class="meta">
+        <div>Thu, May 1 | 06:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Tennis" data-date="05/05/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Tennis</strong><br>vs Heartland Christian School
+      </div>
+      <div class="meta">
+        <div>Mon, May 5 | 04:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="05/05/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>vs Niles McKinley High School
+      </div>
+      <div class="meta">
+        <div>Mon, May 5 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="05/05/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>vs Niles McKinley High School
+      </div>
+      <div class="meta">
+        <div>Mon, May 5 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Lacrosse" data-date="05/05/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Lacrosse</strong><br>vs Glenoak High School
+      </div>
+      <div class="meta">
+        <div>Mon, May 5 | 06:30 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="05/06/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>@ Niles McKinley High School
+      </div>
+      <div class="meta">
+        <div>Tue, May 6 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="05/06/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>@ Niles McKinley High School
+      </div>
+      <div class="meta">
+        <div>Tue, May 6 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Lacrosse" data-date="05/06/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Lacrosse</strong><br>@ Southeast High School
+      </div>
+      <div class="meta">
+        <div>Tue, May 6 | 06:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Girls Lacrosse" data-date="05/06/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Girls Lacrosse</strong><br>@ West Geauga Local Schools
+      </div>
+      <div class="meta">
+        <div>Tue, May 6 | 06:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Tennis" data-date="05/08/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Tennis</strong><br>@ Howland High School
+      </div>
+      <div class="meta">
+        <div>Thu, May 8 | 04:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Track & Field" data-date="05/08/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Track & Field</strong><br>@ South Range High School
+      </div>
+      <div class="meta">
+        <div>Thu, May 8 | 04:45 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="05/08/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>vs McDonald High School
+      </div>
+      <div class="meta">
+        <div>Thu, May 8 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="05/08/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>@ Boardman High School
+      </div>
+      <div class="meta">
+        <div>Thu, May 8 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Lacrosse" data-date="05/08/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Lacrosse</strong><br>@ Canfield High School
+      </div>
+      <div class="meta">
+        <div>Thu, May 8 | 06:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Girls Lacrosse" data-date="05/08/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Girls Lacrosse</strong><br>@ Boardman High School
+      </div>
+      <div class="meta">
+        <div>Thu, May 8 | 06:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="05/10/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>vs Shenango High School
+      </div>
+      <div class="meta">
+        <div>Sat, May 10 | 12:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Boys Lacrosse" data-date="05/10/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Boys Lacrosse</strong><br>@ Cardinal Mooney High School
+      </div>
+      <div class="meta">
+        <div>Sat, May 10 | 02:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="05/12/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>vs West Branch High School
+      </div>
+      <div class="meta">
+        <div>Mon, May 12 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Girls Lacrosse" data-date="05/12/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Girls Lacrosse</strong><br>@ Green High School - Uniontown
+      </div>
+      <div class="meta">
+        <div>Mon, May 12 | 06:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="05/14/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>@ Boardman High School
+      </div>
+      <div class="meta">
+        <div>Wed, May 14 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="05/14/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>vs OPEN
+      </div>
+      <div class="meta">
+        <div>Wed, May 14 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="05/15/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>@ Canfield High School
+      </div>
+      <div class="meta">
+        <div>Thu, May 15 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="05/17/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>vs Girard Jr/Sr HS
+      </div>
+      <div class="meta">
+        <div>Sat, May 17 | 12:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="05/19/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>vs OPEN
+      </div>
+      <div class="meta">
+        <div>Mon, May 19 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Softball" data-date="05/21/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Softball</strong><br>@ OPEN
+      </div>
+      <div class="meta">
+        <div>Wed, May 21 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="05/23/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>vs OPEN
+      </div>
+      <div class="meta">
+        <div>Fri, May 23 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="05/28/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>vs OPEN
+      </div>
+      <div class="meta">
+        <div>Wed, May 28 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Baseball" data-date="05/30/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Baseball</strong><br>@ OPEN
+      </div>
+      <div class="meta">
+        <div>Fri, May 30 | 05:00 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Track & Field" data-date="04/19/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Track & Field</strong><br>@ OPEN
+      </div>
+      <div class="meta">
+        <div>Invalid Date | TBA</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Track & Field" data-date="05/13/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Track & Field</strong><br>@ OPEN
+      </div>
+      <div class="meta">
+        <div>Tue, May 13 | 04:30 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Track & Field" data-date="05/22/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Track & Field</strong><br>@ OPEN
+      </div>
+      <div class="meta">
+        <div>Thu, May 22 | 04:30 PM</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Track & Field" data-date="05/24/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Track & Field</strong><br>@ OPEN
+      </div>
+      <div class="meta">
+        <div>Invalid Date | TBA</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Track & Field" data-date="05/29/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Track & Field</strong><br>@ OPEN
+      </div>
+      <div class="meta">
+        <div>Invalid Date | TBA</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Track & Field" data-date="05/31/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Track & Field</strong><br>@ OPEN
+      </div>
+      <div class="meta">
+        <div>Invalid Date | TBA</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Track & Field" data-date="06/06/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Track & Field</strong><br>@ OPEN
+      </div>
+      <div class="meta">
+        <div>Invalid Date | TBA</div>
+      </div>
+    </div>
+
+    <div class="game compact" data-sport="Track & Field" data-date="06/07/2025">
+      <div class="title">
+        <span class="status-dot dot-green"></span><strong>Track & Field</strong><br>@ OPEN
+      </div>
+      <div class="meta">
+        <div>Invalid Date | TBA</div>
+      </div>
+    </div>
+</div>
+
   <div class="controls" style="padding: 1rem 0 0 0">
-    <button data-view="today">Today</button>
-    <button data-view="week">This Week</button>
-    <button data-view="month">This Month</button>
-    <button data-view="all">All</button>
-    <button id="layoutToggle">Full View</button>
+    <button disabled>Today</button>
+    <button disabled>This Week</button>
+    <button disabled>This Month</button>
+    <button disabled>All</button>
+    <button id="layoutToggle" disabled>Full View</button>
   </div>
 
-  <script>
-    const scheduleEl = document.getElementById("schedule");
-    const sportFilter = document.getElementById("sportFilter");
-    const layoutToggle = document.getElementById("layoutToggle");
-    let layout = "compact"; // default view
-    let view = "week"; // default view
-    let allGames = [];
-
-    const getHashView = () => {
-      const hash = location.hash.replace("#", "").toLowerCase();
-      return ["today", "week", "month", "all"].includes(hash) ? hash : "week";
-    };
-
-    async function loadData() {
-      const res = await fetch("data/combined.json");
-      const data = await res.json();
-      allGames = data;
-      populateSportOptions(data);
-      view = getHashView();
-      highlightView(view);
-      renderSchedule();
-    }
-
-    function populateSportOptions(data) {
-      const sports = [...new Set(data.map(g => g.sport))].sort();
-      sports.forEach(sport => {
-        const opt = document.createElement("option");
-        opt.value = sport;
-        opt.textContent = sport;
-        sportFilter.appendChild(opt);
-      });
-    }
-
-    function highlightView(v) {
-      document.querySelectorAll("[data-view]").forEach(btn => {
-        btn.classList.toggle("active", btn.dataset.view === v);
-      });
-    }
-
-    function getStatusDot(game) {
-      if (game.isCancelled) return '<span class="status-dot dot-red"></span>';
-      if (game.isPostponed) return '<span class="status-dot dot-yellow"></span>';
-      return '<span class="status-dot dot-green"></span>';
-    }
-
-    function renderSchedule() {
-      const selectedSport = sportFilter.value;
-      scheduleEl.innerHTML = "";
-      scheduleEl.className = "game-list" + (layout === "compact" ? " compact" : "");
-
-      const now = new Date();
-      const weekEnd = new Date(now);
-      weekEnd.setDate(now.getDate() + 7);
-      const monthEnd = new Date(now.getFullYear(), now.getMonth() + 1, 0);
-
-      const filtered = allGames.filter(game => {
-        const date = new Date(`${game.date} ${game.time}`);
-        if (selectedSport && game.sport !== selectedSport) return false;
-
-        if (view === "today") return date.toDateString() === now.toDateString();
-        if (view === "week") return date >= now && date <= weekEnd;
-        if (view === "month") return (
-          date.getMonth() === now.getMonth() && date.getFullYear() === now.getFullYear()
-        );
-        return date.toDateString() > now.toDateString() || date.toDateString() === now.toDateString();
-      });
-
-      if (filtered.length === 0) {
-        scheduleEl.innerHTML = "<p style='text-align:center'>No games found.</p>";
-        return;
-      }
-
-      filtered.forEach(game => {
-        const dateObj = new Date(`${game.date} ${game.time}`);
-        const dateStr = dateObj.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" });
-
-        const div = document.createElement("div");
-        div.className = "game" + (layout === "compact" ? " compact" : "");
-
-        const title = document.createElement("div");
-        title.className = "title";
-        title.innerHTML = getStatusDot(game) + `<strong>${game.sport}</strong><br>${game.vsOrAt} ${game.opponent}`;
-        if (game.isCancelled) title.classList.add("cancelled");
-
-        const meta = document.createElement("div");
-        meta.className = "meta";
-        meta.innerHTML = layout === "compact"
-          ? `<div>${dateStr} | ${game.time}</div>`
-          : `
-            ${dateStr} · ${game.time}<br>
-            ${game.homeOrAway} @ ${game.location || "TBD"}
-            ${game.result ? `<br><em>Result:</em> ${game.result}` : ""}
-          `;
-
-        div.appendChild(title);
-        div.appendChild(meta);
-        scheduleEl.appendChild(div);
-      });
-    }
-
-    document.querySelectorAll("[data-view]").forEach(btn => {
-      btn.addEventListener("click", () => {
-        view = btn.dataset.view;
-        location.hash = view;
-        highlightView(view);
-        renderSchedule();
-      });
-    });
-
-    layoutToggle.addEventListener("click", () => {
-      layout = layout === "full" ? "compact" : "full";
-      layoutToggle.textContent = layout === "compact" ? "Full View" : "Compact View";
-      renderSchedule();
-    });
-
-    sportFilter.addEventListener("change", renderSchedule);
-
-    window.addEventListener("hashchange", () => {
-      view = getHashView();
-      highlightView(view);
-      renderSchedule();
-    });
-
-    loadData();
-  </script>
 </body>
 </html>

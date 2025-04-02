@@ -15,20 +15,14 @@ const SCID = 'OH4451495857';
 const RANGE_AFTER = '2024-07-01';
 const RANGE_BEFORE = '2025-07-01';
 
-// In-memory cache
-const cache = {};
-
-// Output folder
+// Output folders
 const DATA_DIR = path.join(__dirname, 'data');
-if (!fs.existsSync(DATA_DIR)) {
-  fs.mkdirSync(DATA_DIR);
-}
+if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR);
 
 // Helper to clean events
 function cleanEvents(edges = [], team) {
   return edges
     .map(({ node }) => {
-      // Filter out practices, scrimmages, and non-athletic events
       if (
         node.eventType === "Practice" ||
         node.eventType === "Scrimmage" ||
@@ -60,7 +54,7 @@ function cleanEvents(edges = [], team) {
         url: node.url
       };
     })
-    .filter(Boolean); // Remove nulls from filtered events
+    .filter(Boolean);
 }
 
 // Fetch and clean schedule
@@ -98,6 +92,55 @@ async function fetchSchedule(team) {
   return cleanEvents(edges, team);
 }
 
+// Generate HTML blocks for each game
+function generateGameHTML(games) {
+  return games.map(game => {
+    const dateObj = new Date(`${game.date} ${game.time}`);
+    const dateStr = dateObj.toLocaleDateString(undefined, {
+      weekday: "short", month: "short", day: "numeric"
+    });
+
+    const statusDot = game.isCancelled
+      ? '<span class="status-dot dot-red"></span>'
+      : game.isPostponed
+      ? '<span class="status-dot dot-yellow"></span>'
+      : '<span class="status-dot dot-green"></span>';
+
+    const titleClass = game.isCancelled ? 'title cancelled' : 'title';
+
+    return `
+    <div class="game compact" data-sport="${game.sport}" data-date="${game.date}">
+      <div class="${titleClass}">
+        ${statusDot}<strong>${game.sport}</strong><br>${game.vsOrAt} ${game.opponent}
+      </div>
+      <div class="meta">
+        <div>${dateStr} | ${game.time}</div>
+      </div>
+    </div>`;
+  }).join('\n');
+}
+
+// Create final static index.html
+function generateStaticHTML(games) {
+  const scheduleHTML = generateGameHTML(games);
+  const templatePath = path.join(__dirname, 'template.html');
+  const template = fs.readFileSync(templatePath, 'utf-8');
+  const outputPath = path.join(__dirname, 'index.html');
+
+  const updated = template.replace(
+    /<div id="schedule" class="game-list compact">[\s\S]*?<\/div>/,
+    `<div id="schedule" class="game-list compact">\n${scheduleHTML}\n</div>`
+  );
+
+  const stripped = updated.replace(
+    /<script>[\s\S]*?<\/script>/g,
+    ''
+  );
+
+  fs.writeFileSync(outputPath, stripped);
+  console.log(`✅ Wrote static index.html with ${games.length} events`);
+}
+
 // Main runner
 async function run() {
   console.log(`📅 Fetching ${teams.length} team schedules...`);
@@ -112,8 +155,9 @@ async function run() {
     } catch (err) {
       console.error(`❌ Failed for ${team.sport}: ${err.message}`);
     }
-  
-  // Merge all games across all teams
+  }
+
+  // Combine all data
   const allGames = [];
 
   for (const team of teams) {
@@ -124,7 +168,6 @@ async function run() {
     }
   }
 
-  // Sort by date/time
   allGames.sort((a, b) => {
     const aDate = new Date(`${a.date} ${a.time}`);
     const bDate = new Date(`${b.date} ${b.time}`);
@@ -134,10 +177,9 @@ async function run() {
   const combinedPath = path.join(DATA_DIR, 'combined.json');
   fs.writeFileSync(combinedPath, JSON.stringify(allGames, null, 2));
   console.log(`📦 Wrote combined.json with ${allGames.length} total events.`);
-  }
 
+  generateStaticHTML(allGames);
   console.log("🏁 Done.");
-  process.exit(0);
 }
 
 // If called directly
