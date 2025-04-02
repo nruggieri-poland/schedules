@@ -15,7 +15,7 @@ const SCID = 'OH4451495857';
 const RANGE_AFTER = '2024-07-01';
 const RANGE_BEFORE = '2025-07-01';
 
-// Output folders
+// Output folder
 const DATA_DIR = path.join(__dirname, 'data');
 if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR);
 
@@ -92,55 +92,6 @@ async function fetchSchedule(team) {
   return cleanEvents(edges, team);
 }
 
-// Generate HTML blocks for each game
-function generateGameHTML(games) {
-  return games.map(game => {
-    const dateObj = new Date(`${game.date} ${game.time}`);
-    const dateStr = dateObj.toLocaleDateString(undefined, {
-      weekday: "short", month: "short", day: "numeric"
-    });
-
-    const statusDot = game.isCancelled
-      ? '<span class="status-dot dot-red"></span>'
-      : game.isPostponed
-      ? '<span class="status-dot dot-yellow"></span>'
-      : '<span class="status-dot dot-green"></span>';
-
-    const titleClass = game.isCancelled ? 'title cancelled' : 'title';
-
-    return `
-    <div class="game compact" data-sport="${game.sport}" data-date="${game.date}">
-      <div class="${titleClass}">
-        ${statusDot}<strong>${game.sport}</strong><br>${game.vsOrAt} ${game.opponent}
-      </div>
-      <div class="meta">
-        <div>${dateStr} | ${game.time}</div>
-      </div>
-    </div>`;
-  }).join('\n');
-}
-
-// Create final static index.html
-function generateStaticHTML(games) {
-  const scheduleHTML = generateGameHTML(games);
-  const templatePath = path.join(__dirname, 'template.html');
-  const template = fs.readFileSync(templatePath, 'utf-8');
-  const outputPath = path.join(__dirname, 'index.html');
-
-  const updated = template.replace(
-    /<div id="schedule" class="game-list compact">[\s\S]*?<\/div>/,
-    `<div id="schedule" class="game-list compact">\n${scheduleHTML}\n</div>`
-  );
-
-  const stripped = updated.replace(
-    /<script>[\s\S]*?<\/script>/g,
-    ''
-  );
-
-  fs.writeFileSync(outputPath, stripped);
-  console.log(`✅ Wrote static index.html with ${games.length} events`);
-}
-
 // Main runner
 async function run() {
   console.log(`📅 Fetching ${teams.length} team schedules...`);
@@ -157,7 +108,6 @@ async function run() {
     }
   }
 
-  // Combine all data
   const allGames = [];
 
   for (const team of teams) {
@@ -178,11 +128,9 @@ async function run() {
   fs.writeFileSync(combinedPath, JSON.stringify(allGames, null, 2));
   console.log(`📦 Wrote combined.json with ${allGames.length} total events.`);
 
-  generateStaticHTML(allGames);
   console.log("🏁 Done.");
 }
 
-// If called directly
 if (import.meta.url === `file://${process.argv[1]}`) {
   run();
 }
