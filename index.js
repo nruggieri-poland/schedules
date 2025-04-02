@@ -118,15 +118,31 @@ async function run() {
     }
   }
 
-  allGames.sort((a, b) => {
+  const todayStr = new Date().toDateString();
+
+  const filteredGames = allGames.filter(game => {
+    const gameDate = new Date(`${game.date} ${game.time}`).toDateString();
+    return !(gameDate === todayStr && (game.isCancelled || game.isPostponed));
+  });
+
+  filteredGames.sort((a, b) => {
     const aDate = new Date(`${a.date} ${a.time}`);
     const bDate = new Date(`${b.date} ${b.time}`);
     return aDate - bDate;
   });
 
   const combinedPath = path.join(DATA_DIR, 'combined.json');
-  fs.writeFileSync(combinedPath, JSON.stringify(allGames, null, 2));
-  console.log(`📦 Wrote combined.json with ${allGames.length} total events.`);
+  fs.writeFileSync(combinedPath, JSON.stringify(filteredGames, null, 2));
+  console.log(`📦 Wrote filtered combined.json with ${filteredGames.length} events (excluding today's cancelled/postponed).`);
+
+  const cancelledToday = allGames.filter(game => {
+    const gameDate = new Date(`${game.date} ${game.time}`).toDateString();
+    return gameDate === todayStr && (game.isCancelled || game.isPostponed);
+  });
+
+  const cancelledPath = path.join(DATA_DIR, 'cancelled-today.json');
+  fs.writeFileSync(cancelledPath, JSON.stringify(cancelledToday, null, 2));
+  console.log(`🚫 Wrote ${cancelledToday.length} cancelled/postponed games to cancelled-today.json`);
 
   console.log("🏁 Done.");
 }

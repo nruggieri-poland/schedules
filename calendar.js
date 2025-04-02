@@ -14,7 +14,7 @@ const events = JSON.parse(raw);
 const cal = ical({ name: 'PSHS Athletics Events' });
 
 events.forEach(event => {
-  if (event.isCancelled) return;
+  if (event.isCancelled || event.isPostponed) return;
   if (!event.date) return;
 
   const isTBA = !event.time || event.time === 'TBA';
@@ -24,7 +24,6 @@ events.forEach(event => {
   let allDay = false;
 
   if (isTBA) {
-    // Use all-day event
     start = DateTime.fromFormat(event.date, 'MM/dd/yyyy', {
       zone: 'America/New_York',
     });
