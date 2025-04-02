@@ -15,16 +15,37 @@ const cal = ical({ name: 'PSHS Athletics Events' });
 
 events.forEach(event => {
   if (event.isCancelled) return;
+  if (!event.date) return;
 
-  const start = DateTime.fromFormat(`${event.date} ${event.time}`, 'MM/dd/yyyy hh:mm a', {
-    zone: 'America/New_York',
-  });
+  const isTBA = !event.time || event.time === 'TBA';
 
-  const end = start.plus({ hours: 2 });
+  let start;
+  let end;
+  let allDay = false;
+
+  if (isTBA) {
+    // Use all-day event
+    start = DateTime.fromFormat(event.date, 'MM/dd/yyyy', {
+      zone: 'America/New_York',
+    });
+    allDay = true;
+  } else {
+    start = DateTime.fromFormat(`${event.date} ${event.time}`, 'MM/dd/yyyy hh:mm a', {
+      zone: 'America/New_York',
+    });
+
+    if (!start.isValid) {
+      console.warn(`⚠️ Skipping invalid date/time: ${event.date} ${event.time} (${event.title})`);
+      return;
+    }
+
+    end = start.plus({ hours: 2 });
+  }
 
   cal.createEvent({
     start: start.toJSDate(),
-    end: end.toJSDate(),
+    ...(end ? { end: end.toJSDate() } : {}),
+    allDay,
     summary: `${event.sport}: ${event.vsOrAt} ${event.opponent}`,
     description: `${event.title}\n\nMore info: ${event.url}`,
     location: event.location || event.opponent,
