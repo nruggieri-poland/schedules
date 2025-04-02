@@ -122,7 +122,7 @@ async function run() {
 
   const filteredGames = allGames.filter(game => {
     const gameDate = new Date(`${game.date} ${game.time}`).toDateString();
-    return !(gameDate === todayStr && (game.isCancelled || game.isPostponed));
+    return !(gameDate === game.isCancelled || game.isPostponed);
   });
 
   filteredGames.sort((a, b) => {
