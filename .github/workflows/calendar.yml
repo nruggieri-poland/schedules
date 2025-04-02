@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Generate calendar
-        run: node generate-ical.js
+        run: node calendar.js
 
       - name: Commit calendar
         run: |
