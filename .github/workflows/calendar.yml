@@ -30,6 +30,11 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add pshs-athletics.ics data/combined.json
-          git commit -m "Update iCal and schedule" || echo "No changes"
-          git push
+
+          if ! git diff --quiet pshs-athletics.ics data/combined.json; then
+            git add pshs-athletics.ics data/combined.json
+            git commit -m "Update iCal and schedule"
+            git push
+          else
+            echo "✅ No changes to commit."
+          fi

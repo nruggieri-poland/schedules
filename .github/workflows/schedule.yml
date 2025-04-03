@@ -31,9 +31,14 @@ jobs:
       - name: Commit and push updated JSONs
         run: |
           git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add data/*.json
-          git commit -m "🔄 Auto-update schedule JSONs" || echo "No changes to commit"
-          git push
+          git config user.email "github-actions@github.com"
+
+          if ! git diff --quiet data/*.json; then
+            git add data/*.json
+            git commit -m "🔄 Auto-update schedule JSONs"
+            git push
+          else
+            echo "✅ No changes to commit."
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
