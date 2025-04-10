@@ -570,21 +570,6 @@
     "url": "https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/79200890/"
   },
   {
-    "eventId": 79583305,
-    "sport": "Baseball",
-    "date": "04/12/2025",
-    "time": "12:00 PM",
-    "title": "Hubbard High School",
-    "homeOrAway": "Home",
-    "vsOrAt": "vs",
-    "location": null,
-    "opponent": "Hubbard High School",
-    "result": null,
-    "isCancelled": false,
-    "isPostponed": false,
-    "url": "https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/79583305/"
-  },
-  {
     "eventId": 79201001,
     "sport": "Softball",
     "date": "04/12/2025",
@@ -1255,9 +1240,24 @@
     "location": "PSHS Baseball Field",
     "opponent": "McDonald High School",
     "result": null,
-    "isCancelled": false,
+    "isCancelled": true,
     "isPostponed": false,
     "url": "https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/79076120/"
+  },
+  {
+    "eventId": 79584942,
+    "sport": "Baseball",
+    "date": "05/08/2025",
+    "time": "05:00 PM",
+    "title": "Hubbard High School",
+    "homeOrAway": "Home",
+    "vsOrAt": "vs",
+    "location": null,
+    "opponent": "Hubbard High School",
+    "result": null,
+    "isCancelled": false,
+    "isPostponed": false,
+    "url": "https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/79584942/"
   },
   {
     "eventId": 79200942,
