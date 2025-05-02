@@ -3,11 +3,10 @@ name: Fetch Schedule JSONs
 on:
   schedule:
     - cron: "0 10-23,0-3 * * *"
-  workflow_dispatch:       # Manual run button in GitHub UI
+  workflow_dispatch:
 
 permissions:
   contents: write
-
 
 jobs:
   update:
@@ -16,6 +15,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Set up Node
         uses: actions/setup-node@v3
@@ -36,9 +37,8 @@ jobs:
           if ! git diff --quiet data/*.json; then
             git add data/*.json
             git commit -m "🔄 Auto-update schedule JSONs"
+            git pull --rebase origin main
             git push
           else
             echo "✅ No changes to commit."
           fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
