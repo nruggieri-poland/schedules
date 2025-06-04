@@ -3,17 +3,20 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
+const startingYear = '2025';
+const endingYear = '2026';
+
 // For __dirname in ES modules
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Load teams from JSON
-const teams = JSON.parse(fs.readFileSync(path.join(__dirname, 'teams.json'), 'utf-8'));
+
+const teams = JSON.parse(fs.readFileSync(path.join(__dirname, 'teams', 'teams.json'), 'utf-8'));
 
 // Config
 const SCID = 'OH4451495857';
-const RANGE_AFTER = '2024-07-01';
-const RANGE_BEFORE = '2025-07-01';
+const RANGE_AFTER =  `${startingYear}-07-01`;
+const RANGE_BEFORE = `${endingYear}-07-01`;
 
 // Output folder
 const DATA_DIR = path.join(__dirname, 'data');
