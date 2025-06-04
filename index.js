@@ -19,7 +19,8 @@ const RANGE_AFTER =  `${startingYear}-07-01`;
 const RANGE_BEFORE = `${endingYear}-07-01`;
 
 // Output folder
-const DATA_DIR = path.join(__dirname, 'data');
+const DATA_DIR = path.join(__dirname, 'dist', 'data');
+fs.mkdirSync(DATA_DIR, { recursive: true });
 if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR);
 
 // Helper to clean events

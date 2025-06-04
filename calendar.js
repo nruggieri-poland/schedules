@@ -8,7 +8,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const raw = fs.readFileSync(path.join(__dirname, 'data', 'combined.json'), 'utf-8');
+const raw = fs.readFileSync(path.join(__dirname, 'dist', 'data', 'combined.json'), 'utf-8');
 const events = JSON.parse(raw);
 
 const cal = ical({ name: 'PSHS Athletics Events' });
@@ -54,5 +54,5 @@ events.forEach(event => {
 
 import { writeFileSync } from 'fs';
 
-writeFileSync('pshs-athletics.ics', cal.toString());
+writeFileSync(path.join(__dirname, 'dist', 'pshs-athletics.ics'), cal.toString());
 console.log('✅ iCal file created: pshs-athletics.ics');
