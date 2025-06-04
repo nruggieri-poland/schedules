@@ -31,6 +31,11 @@ jobs:
       - name: Run calendar.js (generate .ics file)
         run: node calendar.js
 
+      - name: Copy static site files
+        run: |
+          mkdir -p dist
+          cp index.html index.js dist/
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
