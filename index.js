@@ -1,29 +1,24 @@
-import fetch from 'node-fetch';
+// Refactored version with your original fetch method logic
+
 import fs from 'fs';
 import path from 'path';
+import fetch from 'node-fetch';
 import { fileURLToPath } from 'url';
+import ical from 'ical-generator';
+import { DateTime } from 'luxon';
 
-const startingYear = '2025';
-const endingYear = '2026';
-
-// For __dirname in ES modules
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-
-const teams = JSON.parse(fs.readFileSync(path.join(__dirname, 'teams', 'teams.json'), 'utf-8'));
-
-// Config
-const SCID = 'OH4451495857';
-const RANGE_AFTER =  `${startingYear}-07-01`;
-const RANGE_BEFORE = `${endingYear}-07-01`;
-
-// Output folder
+const TEAMS_PATH = path.join(__dirname, 'teams', 'teams.json');
 const DATA_DIR = path.join(__dirname, 'dist', 'data');
-fs.mkdirSync(DATA_DIR, { recursive: true });
-if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR);
+const COMBINED_PATH = path.join(DATA_DIR, 'combined.json');
+const CALENDAR_PATH = path.join(__dirname, 'dist', 'pshs-athletics.ics');
 
-// Helper to clean events
+const SCID = 'OH4451495857';
+const RANGE_AFTER = '2025-07-01';
+const RANGE_BEFORE = '2026-07-01';
+
 function cleanEvents(edges = [], team) {
   return edges
     .map(({ node }) => {
@@ -61,7 +56,6 @@ function cleanEvents(edges = [], team) {
     .filter(Boolean);
 }
 
-// Fetch and clean schedule
 async function fetchSchedule(team) {
   const payload = new URLSearchParams({
     genderid: team.genderid,
@@ -92,13 +86,42 @@ async function fetchSchedule(team) {
   const text = await response.text();
   const data = JSON.parse(text);
   const edges = data?.[0]?.fullSchedule?.edges || [];
-
   return cleanEvents(edges, team);
 }
 
-// Main runner
-async function run() {
-  console.log(`📅 Fetching ${teams.length} team schedules...`);
+function writeCalendar(events) {
+  const cal = ical({ name: 'PSHS Athletics Events' });
+
+  events.forEach(event => {
+    if (event.isCancelled || event.isPostponed || !event.date) return;
+
+    const isTBA = !event.time || event.time === 'TBA';
+    let start = isTBA
+      ? DateTime.fromFormat(event.date, 'MM/dd/yyyy', { zone: 'America/New_York' })
+      : DateTime.fromFormat(`${event.date} ${event.time}`, 'MM/dd/yyyy hh:mm a', { zone: 'America/New_York' });
+
+    if (!start.isValid) return;
+    const end = isTBA ? undefined : start.plus({ hours: 2 });
+
+    cal.createEvent({
+      start: start.toJSDate(),
+      ...(end ? { end: end.toJSDate() } : {}),
+      allDay: isTBA,
+      summary: `${event.sport}: ${event.vsOrAt} ${event.opponent}`,
+      description: `${event.title}\n\nMore info: ${event.url}`,
+      location: `${event.homeOrAway} - ${event.location || event.opponent}`,
+      url: event.url
+    });
+  });
+
+  fs.writeFileSync(CALENDAR_PATH, cal.toString());
+  console.log('✅ iCal file created');
+}
+
+async function main() {
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+  const teams = JSON.parse(fs.readFileSync(TEAMS_PATH, 'utf-8'));
+  const allGames = [];
 
   for (const team of teams) {
     try {
@@ -107,23 +130,13 @@ async function run() {
       const filePath = path.join(DATA_DIR, `${team.sport}.json`);
       fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
       console.log(`✅ Wrote ${data.length} events to ${team.sport}.json`);
+      allGames.push(...data);
     } catch (err) {
       console.error(`❌ Failed for ${team.sport}: ${err.message}`);
     }
   }
 
-  const allGames = [];
-
-  for (const team of teams) {
-    const teamFile = path.join(DATA_DIR, `${team.sport}.json`);
-    if (fs.existsSync(teamFile)) {
-      const games = JSON.parse(fs.readFileSync(teamFile, 'utf-8'));
-      allGames.push(...games);
-    }
-  }
-
   const todayStr = new Date().toDateString();
-
   const filteredGames = allGames.filter(game => {
     const gameDate = new Date(`${game.date} ${game.time}`).toDateString();
     return !(gameDate === game.isCancelled || game.isPostponed);
@@ -135,9 +148,8 @@ async function run() {
     return aDate - bDate;
   });
 
-  const combinedPath = path.join(DATA_DIR, 'combined.json');
-  fs.writeFileSync(combinedPath, JSON.stringify(filteredGames, null, 2));
-  console.log(`📦 Wrote filtered combined.json with ${filteredGames.length} events (excluding today's cancelled/postponed).`);
+  fs.writeFileSync(COMBINED_PATH, JSON.stringify(filteredGames, null, 2));
+  console.log(`📦 Wrote filtered combined.json with ${filteredGames.length} events.`);
 
   const cancelledToday = allGames.filter(game => {
     const gameDate = new Date(`${game.date} ${game.time}`).toDateString();
@@ -148,9 +160,8 @@ async function run() {
   fs.writeFileSync(cancelledPath, JSON.stringify(cancelledToday, null, 2));
   console.log(`🚫 Wrote ${cancelledToday.length} cancelled/postponed games to cancelled-today.json`);
 
+  writeCalendar(filteredGames);
   console.log("🏁 Done.");
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
-  run();
-}
+main();
