@@ -28,7 +28,7 @@ jobs:
         run: npm install
 
       - name: Generate schedule and calendar
-        run: node schedule_app_refactor.js
+        run: node index.js
 
       - name: Commit and push updated JSONs if changed
         run: |
