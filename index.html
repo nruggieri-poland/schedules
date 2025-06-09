@@ -186,7 +186,7 @@
   };
 
   async function loadData() {
-    const res = await fetch("data/combined.json");
+    const res = await fetch("dist/data/combined.json");
     const data = await res.json();
     allGames = data;
     populateSportOptions(data);
