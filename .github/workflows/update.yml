@@ -1,5 +1,5 @@
 # .github/workflows/schedule.yml
-name: Update Schedule JSONs (with optional commit)
+name: Update & Deploy Schedule JSONs
 
 on:
   schedule:
@@ -10,14 +10,12 @@ permissions:
   contents: write
 
 jobs:
-  update:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -27,19 +25,19 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Generate schedule and calendar
+      - name: Generate schedule JSONs
         run: node index.js
 
-      - name: Commit and push updated JSONs if changed
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+      - name: Generate iCal file
+        run: node calendar.js
 
-          if ! git diff --quiet dist/data; then
-            git add dist/data
-            git commit -m "🔄 Auto-update schedule JSONs"
-            git pull --rebase origin main
-            git push
-          else
-            echo "✅ No changes to commit."
-          fi
+      - name: Copy static viewer files
+        run: |
+          mkdir -p dist
+          cp index.html index.js dist/
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
