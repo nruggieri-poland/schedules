@@ -105,21 +105,6 @@
     "url": "https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/79780578/"
   },
   {
-    "eventId": 79512542,
-    "sport": "Boys Golf",
-    "date": "08/06/2025",
-    "time": "08:30 AM",
-    "title": "Brookfield Invitational",
-    "homeOrAway": "Home",
-    "vsOrAt": "vs",
-    "location": "Yankee Run",
-    "opponent": "Brookfield HS",
-    "result": null,
-    "isCancelled": false,
-    "isPostponed": false,
-    "url": "https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/79512542/"
-  },
-  {
     "eventId": 79780591,
     "sport": "Girls Golf",
     "date": "08/07/2025",
@@ -473,7 +458,22 @@
     "homeOrAway": "Away",
     "vsOrAt": "@",
     "location": "The Lake Club",
-    "opponent": "Boardman High School",
+    "opponent": null,
+    "result": null,
+    "isCancelled": false,
+    "isPostponed": false,
+    "url": "https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/79861989/"
+  },
+  {
+    "eventId": 79861989,
+    "sport": "Girls Golf",
+    "date": "09/15/2025",
+    "time": "01:00 PM",
+    "title": "Christine Terlesky Invitational",
+    "homeOrAway": null,
+    "vsOrAt": "@",
+    "location": "The Lake Club",
+    "opponent": null,
     "result": null,
     "isCancelled": false,
     "isPostponed": false,
@@ -718,6 +718,21 @@
     "isCancelled": false,
     "isPostponed": false,
     "url": "https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/79862582/"
+  },
+  {
+    "eventId": 79512542,
+    "sport": "Boys Golf",
+    "date": "08/06/2025",
+    "time": "08:30 AM",
+    "title": "Brookfield Invitational",
+    "homeOrAway": "Home",
+    "vsOrAt": "vs",
+    "location": "Yankee Run",
+    "opponent": "Brookfield HS",
+    "result": null,
+    "isCancelled": false,
+    "isPostponed": false,
+    "url": "https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/79512542/"
   },
   {
     "eventId": 79863934,
