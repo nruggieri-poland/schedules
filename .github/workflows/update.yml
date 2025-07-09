@@ -1,4 +1,3 @@
-# .github/workflows/schedule.yml
 name: Update & Deploy Schedule JSONs
 
 on:
@@ -35,6 +34,18 @@ jobs:
         run: |
           mkdir -p dist
           cp index.html index.js dist/
+
+      - name: Commit and push updated JSONs if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add dist
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "🔄 Auto-update schedule JSONs and iCal"
+            git push
+          fi
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
