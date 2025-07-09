@@ -33,12 +33,12 @@ function cleanEvents(edges = [], team) {
         return null;
       }
 
-      const opponent = node.participants?.find(p => p.school?.name !== "Poland Seminary")?.school?.name || null;
+      let opponent = node.participants?.find(p => p.school?.name !== "Poland Seminary")?.school?.name || null;
       const location = node.facility?.facility?.name || null;
       const title = node.title || (opponent ? `${opponent}` : 'Game');
 
       if (opponent === "OPEN" && node.title) {
-        opponent = title;
+        opponent = node.title || (opponent ? `${opponent}` : 'Game');
       }
 
       return {
