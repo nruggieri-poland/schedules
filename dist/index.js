@@ -37,6 +37,10 @@ function cleanEvents(edges = [], team) {
       const location = node.facility?.facility?.name || null;
       const title = node.title || (opponent ? `${opponent}` : 'Game');
 
+      if (opponent === "OPEN" && e.node.title) {
+        opponent = e.node.title;
+      }
+
       return {
         eventId: node.eventId,
         sport: team.sportTitle,
