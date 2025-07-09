@@ -38,7 +38,7 @@ function cleanEvents(edges = [], team) {
       const title = node.title || (opponent ? `${opponent}` : 'Game');
 
       if (opponent === "OPEN" && e.node.title) {
-        opponent = e.node.title;
+        opponent = title;
       }
 
       return {
