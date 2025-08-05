@@ -4,61 +4,9 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:PSHS Athletics Events
 X-WR-CALNAME:PSHS Athletics Events
 BEGIN:VEVENT
-UID:f2c17e89-ba5c-4b56-a890-929471471280
+UID:2fb575ef-9aa8-4df0-a1aa-6899fab02311
 SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260324T223000Z
-DTEND:20260325T003000Z
-SUMMARY:Boys Lacrosse: vs Cardinal Mooney High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Cardinal Mooney High School\n\nMore info: https://polandbulldo
- gs.bigteams.com/main/event/scid/OH4451495857/eventId/79766469/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79766469/
-END:VEVENT
-BEGIN:VEVENT
-UID:2f602c02-6961-4b1e-a922-0fcc59d2e2c2
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260325T220000Z
-DTEND:20260326T000000Z
-SUMMARY:Girls Lacrosse: @ Cardinal Mooney High School
-LOCATION:Away - Cardinal Mooney High School
-DESCRIPTION:Cardinal Mooney High School\n\nMore info: https://polandbulldo
- gs.bigteams.com/main/event/scid/OH4451495857/eventId/79766472/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79766472/
-END:VEVENT
-BEGIN:VEVENT
-UID:4593c8db-6dd3-49ab-98c6-a96e0e9f1eb4
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260327T220000Z
-DTEND:20260328T000000Z
-SUMMARY:Girls Lacrosse: vs St. Vincent-St. Mary H.S.
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:St. Vincent-St. Mary H.S.\n\nMore info: https://polandbulldogs
- .bigteams.com/main/event/scid/OH4451495857/eventId/79808169/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79808169/
-END:VEVENT
-BEGIN:VEVENT
-UID:1336ab27-b332-4c4a-a669-a9addbd60c5b
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260330T220000Z
-DTEND:20260331T000000Z
-SUMMARY:Girls Lacrosse: @ Boardman High School
-LOCATION:Away - Boardman High School
-DESCRIPTION:Boardman High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/79773127/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79773127/
-END:VEVENT
-BEGIN:VEVENT
-UID:6d22cd7b-3d3f-46b5-afd1-9258f43e5082
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
+DTSTAMP:20250805T152915Z
 DTSTART:20260331T204500Z
 DTEND:20260331T224500Z
 SUMMARY:Track & Field: @ South Range High School
@@ -69,48 +17,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79820663/
 END:VEVENT
 BEGIN:VEVENT
-UID:e321a6aa-718d-4a5f-96fb-1f880cc67526
+UID:98d5e5da-ca2a-4bcd-b27d-988cc3305957
 SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260331T223000Z
-DTEND:20260401T003000Z
-SUMMARY:Boys Lacrosse: @ Glenoak High School
-LOCATION:Away - Glenoak High School
-DESCRIPTION:Glenoak High School\n\nMore info: https://polandbulldogs.bigte
- ams.com/main/event/scid/OH4451495857/eventId/79981063/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79981063/
-END:VEVENT
-BEGIN:VEVENT
-UID:7030dfc7-5d7f-435a-b2df-66efe39cba66
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260401T220000Z
-DTEND:20260402T000000Z
-SUMMARY:Girls Lacrosse: vs Theodore Roosevelt HS
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Theodore Roosevelt HS\n\nMore info: https://polandbulldogs.big
- teams.com/main/event/scid/OH4451495857/eventId/79827481/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79827481/
-END:VEVENT
-BEGIN:VEVENT
-UID:b059e7b1-7775-4020-9588-20f678b15903
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260402T223000Z
-DTEND:20260403T003000Z
-SUMMARY:Boys Lacrosse: vs Aurora City Schools
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Aurora City Schools\n\nMore info: https://polandbulldogs.bigte
- ams.com/main/event/scid/OH4451495857/eventId/79807996/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79807996/
-END:VEVENT
-BEGIN:VEVENT
-UID:ed148746-1d71-405b-802d-5c97ddccc763
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
+DTSTAMP:20250805T152915Z
 DTSTART:20260408T204500Z
 DTEND:20260408T224500Z
 SUMMARY:Track & Field: @ Struthers High School
@@ -121,22 +30,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79820966/
 END:VEVENT
 BEGIN:VEVENT
-UID:817fbe14-d71a-4ac3-8424-9ac8d3abe39c
+UID:698670e8-f48f-43f3-a034-aa562a45358e
 SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260413T220000Z
-DTEND:20260414T000000Z
-SUMMARY:Girls Lacrosse: @ Canfield High School
-LOCATION:Away - Canfield High School
-DESCRIPTION:Canfield High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/79765479/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79765479/
-END:VEVENT
-BEGIN:VEVENT
-UID:d81d92f8-f26b-4e47-a36a-03f4245cdd4b
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
+DTSTAMP:20250805T152915Z
 DTSTART:20260414T204500Z
 DTEND:20260414T224500Z
 SUMMARY:Track & Field: vs Lakeview High School
@@ -147,61 +43,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79820979/
 END:VEVENT
 BEGIN:VEVENT
-UID:9e407161-a77e-48ee-afed-f820a6e15b24
+UID:80f6816b-af39-4a28-9ed0-4edc6efde1b2
 SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260415T220000Z
-DTEND:20260416T000000Z
-SUMMARY:Girls Lacrosse: vs Laurel School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Laurel School\n\nMore info: https://polandbulldogs.bigteams.co
- m/main/event/scid/OH4451495857/eventId/79765730/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79765730/
-END:VEVENT
-BEGIN:VEVENT
-UID:32028936-c648-4dda-98e5-9586f0d1a411
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260416T223000Z
-DTEND:20260417T003000Z
-SUMMARY:Boys Lacrosse: @ Boardman High School
-LOCATION:Away - Boardman High School
-DESCRIPTION:Boardman High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/79773118/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79773118/
-END:VEVENT
-BEGIN:VEVENT
-UID:dd69078d-d3c8-427e-b901-d530688dbdbc
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260418T150000Z
-DTEND:20260418T170000Z
-SUMMARY:Girls Lacrosse: @ Aurora City Schools
-LOCATION:Away - Aurora City Schools
-DESCRIPTION:Aurora City Schools\n\nMore info: https://polandbulldogs.bigte
- ams.com/main/event/scid/OH4451495857/eventId/79807988/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79807988/
-END:VEVENT
-BEGIN:VEVENT
-UID:76a701f1-d93b-4582-b205-0409dd5621ca
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260420T220000Z
-DTEND:20260421T000000Z
-SUMMARY:Girls Lacrosse: vs Boardman High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Boardman High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/79773124/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79773124/
-END:VEVENT
-BEGIN:VEVENT
-UID:401cfe24-b952-4a7a-87c0-5eba23b477fb
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
+DTSTAMP:20250805T152915Z
 DTSTART:20260421T204500Z
 DTEND:20260421T224500Z
 SUMMARY:Track & Field: @ Girard Jr/Sr HS
@@ -212,35 +56,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79821616/
 END:VEVENT
 BEGIN:VEVENT
-UID:932c7e90-e608-4ce1-84e3-2faaa4c7cbb6
+UID:4c43873e-0104-41d2-80e4-f3a40520842f
 SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260421T223000Z
-DTEND:20260422T003000Z
-SUMMARY:Boys Lacrosse: vs Southeast High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Southeast High School\n\nMore info: https://polandbulldogs.big
- teams.com/main/event/scid/OH4451495857/eventId/79774758/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79774758/
-END:VEVENT
-BEGIN:VEVENT
-UID:26af5682-b7d2-429e-9691-a80a038916d2
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260423T223000Z
-DTEND:20260424T003000Z
-SUMMARY:Boys Lacrosse: @ St. Vincent-St. Mary H.S.
-LOCATION:Away - St. Vincent-St. Mary H.S.
-DESCRIPTION:St. Vincent-St. Mary H.S.\n\nMore info: https://polandbulldogs
- .bigteams.com/main/event/scid/OH4451495857/eventId/79868179/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79868179/
-END:VEVENT
-BEGIN:VEVENT
-UID:cf49fbb2-26d4-4788-b856-17f931b8f228
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
+DTSTAMP:20250805T152915Z
 DTSTART:20260425T130000Z
 DTEND:20260425T150000Z
 SUMMARY:Track & Field: vs Girard Jr/Sr HS
@@ -251,22 +69,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79549197/
 END:VEVENT
 BEGIN:VEVENT
-UID:92efa9a7-2aeb-48c8-a463-b61ae47057a5
+UID:0fad05d1-df2b-4dfb-9768-7a21013bf2b9
 SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260427T220000Z
-DTEND:20260428T000000Z
-SUMMARY:Girls Lacrosse: vs Canfield High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Canfield High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/79765376/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79765376/
-END:VEVENT
-BEGIN:VEVENT
-UID:a75e01fd-c66d-48c7-b0a9-48130057b267
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
+DTSTAMP:20250805T152915Z
 DTSTART:20260428T204500Z
 DTEND:20260428T224500Z
 SUMMARY:Track & Field: @ Girard Jr/Sr HS
@@ -277,61 +82,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79821632/
 END:VEVENT
 BEGIN:VEVENT
-UID:0d0facee-ed07-4501-a7c5-1099aac27a89
+UID:e8598289-5f6e-4284-aa4a-b996296b5e9d
 SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260428T223000Z
-DTEND:20260429T003000Z
-SUMMARY:Boys Lacrosse: vs Canfield High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Canfield High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/79765383/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79765383/
-END:VEVENT
-BEGIN:VEVENT
-UID:540842b0-b711-4794-a623-beabbe114727
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260429T220000Z
-DTEND:20260430T000000Z
-SUMMARY:Girls Lacrosse: vs Green High School - Uniontown
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Green High School - Uniontown\n\nMore info: https://polandbull
- dogs.bigteams.com/main/event/scid/OH4451495857/eventId/79756093/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79756093/
-END:VEVENT
-BEGIN:VEVENT
-UID:befcfd3b-e5a4-485c-8e58-7cd60da4f9b4
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260430T223000Z
-DTEND:20260501T003000Z
-SUMMARY:Boys Lacrosse: @ Southeast High School
-LOCATION:Away - Southeast High School
-DESCRIPTION:Southeast High School\n\nMore info: https://polandbulldogs.big
- teams.com/main/event/scid/OH4451495857/eventId/79773113/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79773113/
-END:VEVENT
-BEGIN:VEVENT
-UID:5987f441-cd90-47dd-8aac-b29dfd6224ed
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260504T220000Z
-DTEND:20260505T000000Z
-SUMMARY:Girls Lacrosse: vs Archbishop Hoban High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Archbishop Hoban High School\n\nMore info: https://polandbulld
- ogs.bigteams.com/main/event/scid/OH4451495857/eventId/79759029/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79759029/
-END:VEVENT
-BEGIN:VEVENT
-UID:4b197beb-c722-45c8-8595-7121f2ec2c57
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
+DTSTAMP:20250805T152915Z
 DTSTART:20260505T204500Z
 DTEND:20260505T224500Z
 SUMMARY:Track & Field: @ Mahoning Co. Varsity Championship
@@ -342,35 +95,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79821673/
 END:VEVENT
 BEGIN:VEVENT
-UID:7e151cf2-8bf3-4d7c-ae92-be32bc42f417
+UID:a2963c9a-7cf5-4223-8d6f-ee36ab98c5b4
 SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260506T220000Z
-DTEND:20260507T000000Z
-SUMMARY:Girls Lacrosse: @ Southeast High School
-LOCATION:Away - Southeast High School
-DESCRIPTION:Southeast High School\n\nMore info: https://polandbulldogs.big
- teams.com/main/event/scid/OH4451495857/eventId/79765845/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79765845/
-END:VEVENT
-BEGIN:VEVENT
-UID:1e25b20e-7431-47d3-be5f-ab777e58abe9
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260507T223000Z
-DTEND:20260508T003000Z
-SUMMARY:Boys Lacrosse: @ Canfield High School
-LOCATION:Away - Canfield High School
-DESCRIPTION:Canfield High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/79765464/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79765464/
-END:VEVENT
-BEGIN:VEVENT
-UID:190e27b5-cbef-4107-85a2-537fc4c258cf
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
+DTSTAMP:20250805T152915Z
 DTSTART:20260512T203000Z
 DTEND:20260512T223000Z
 SUMMARY:Track & Field: vs Northeast 8 Championship Meet 
@@ -379,18 +106,5 @@ DESCRIPTION:Northeast 8 Championship Meet\n\nMore info: https://polandbull
  dogs.bigteams.com/main/event/scid/OH4451495857/eventId/78505694/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/78505694/
-END:VEVENT
-BEGIN:VEVENT
-UID:4eab5a64-43e9-4f1f-86ec-6e9e80435c5f
-SEQUENCE:0
-DTSTAMP:20250805T142757Z
-DTSTART:20260514T223000Z
-DTEND:20260515T003000Z
-SUMMARY:Boys Lacrosse: vs Boardman High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Boardman High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/79773120/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79773120/
 END:VEVENT
 END:VCALENDAR
