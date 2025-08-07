@@ -1,96 +1,111 @@
-// Refactored version with your original fetch method logic
-
 import fs from 'fs';
 import path from 'path';
+import icalParse from 'node-ical';
 import fetch from 'node-fetch';
-import { fileURLToPath } from 'url';
-import ical from 'ical-generator';
 import { DateTime } from 'luxon';
+import ical from 'ical-generator';
+import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-const TEAMS_PATH = path.join(__dirname, 'teams', 'teams.json');
 const DATA_DIR = path.join(__dirname, 'dist', 'data');
-const COMBINED_PATH = path.join(DATA_DIR, 'combined.json');
 const CALENDAR_PATH = path.join(__dirname, 'dist', 'pshs-athletics.ics');
+const TEAMS_PATH = path.join(__dirname, 'teams', 'teams.json');
+const COMBINED_PATH = path.join(DATA_DIR, 'combined.json');
+// Refactored version with your original fetch method logic
 
-const SCID = 'OH4451495857';
-const RANGE_AFTER = '2025-07-01';
-const RANGE_BEFORE = '2026-07-01';
+async function fetchICS() {
+  const url = 'https://ical.schedulestar.com/iCal_NOW.cfm?i=3D754529-E9FD-403D-B30214A6512009A0';
 
-function cleanEvents(edges = [], team) {
-  return edges
-    .map(({ node }) => {
-      if (
-        node.eventType === "Practice" ||
-        node.eventType === "Scrimmage" ||
-        node.eventType === "School" ||
-        node.title?.toLowerCase().includes("practice") ||
-        node.title?.toLowerCase().includes("scrimmage") ||
-        node.isScrimmage === true
-      ) {
-        return null;
-      }
+  try {
+    const res = await fetch(url);
+    const text = await res.text();
 
-      let opponent = node.participants?.find(p => p.school?.name !== "Poland Seminary")?.school?.name || null;
-      const location = node.facility?.facility?.name || null;
-      const title = node.title || (opponent ? `${opponent}` : 'Game');
+    console.log("📄 Fetched ICS text:");
+    console.log(text.slice(0, 1000)); // Log the first 1000 characters
 
-      if (opponent === "OPEN" && node.title) {
-        opponent = node.title || (opponent ? `${opponent}` : 'Game');
-      }
+    const data = icalParse.parseICS(text);
+    const events = Object.values(data).filter(e => e.type === 'VEVENT');
 
-      return {
-        eventId: node.eventId,
-        sport: team.sportTitle,
-        date: node.eventDate,
-        time: node.eventTime,
-        title: title.trim(),
-        homeOrAway: node.homeOrAway,
-        vsOrAt: node.homeOrAway === "Home" ? "vs" : "@",
-        location,
-        opponent,
-        result: node.results?.result || null,
-        isCancelled: node.results?.isCancelled || false,
-        isPostponed: node.results?.isPostponed || false,
-        url: node.url
-      };
-    })
-    .filter(Boolean);
+    console.log(`🧾 Total events parsed: ${events.length}`);
+    return events;
+  } catch (err) {
+    console.error("❌ Failed to fetch or parse ICS:", err);
+    return [];
+  }
 }
 
-async function fetchSchedule(team) {
-  const payload = new URLSearchParams({
-    genderid: team.genderid,
-    levelid: '1',
-    sportid: team.sportid,
-    offset: '0',
-    rangeafter: RANGE_AFTER,
-    rangebefore: RANGE_BEFORE,
-    scid: SCID,
-    seasonid: team.seasonid,
-    id: team.id,
-    scoretype: '1',
-    isfan: 'false'
-  });
+function parseICSEvent(evt) {
+  const sportMap = {
+    "Soccer B": "Boys Soccer",
+    "Soccer G": "Girls Soccer",
+    "Tennis G": "Girls Tennis",
+    "Cross Country C": "Cross Country",
+    "Football B": "Football",
+    "Golf B": "Boys Golf",
+    "Golf G": "Girls Golf",
+    "Volleyball G": "Volleyball",
+    "Basketball B": "Boys Basketball",
+    "Basketball G": "Girls Basketball",
+    "Swim & Dive C": "Swim & Dive",
+    "Wrestling B": "Boys Wrestling",
+    "Wrestling G": "Girls Wrestling",
+    "Baseball B": "Baseball",
+    "Softball G": "Softball",
+    "Lacrosse G": "Girls Lacrosse",
+    "Lacrosse B": "Boys Lacrosse",
+    "Track C": "Track & Field",
+    "Tennis B": "Boys Tennis"
+  };
+  const summary = evt.summary || '';
+  if (!summary.includes("Poland Seminary High School")) return null;
+  if (summary.toLowerCase().includes("scrimmage") || summary.toLowerCase().includes("practice")) return null;
 
-  const response = await fetch('https://polandbulldogs.org/main/ajaxteamschedule', {
-    method: 'POST',
-    headers: {
-      'accept': '*/*',
-      'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-      'origin': 'https://polandbulldogs.org',
-      'referer': `https://polandbulldogs.org/main/teamschedule/id/${team.id}/seasonid/${team.seasonid}`,
-      'x-requested-with': 'XMLHttpRequest'
-    },
-    body: payload
-  });
+  const cleaned = summary.replace("Poland Seminary High School ", "").trim();
+  const parts = cleaned.split(" ");
+  const sportCode = `${parts[0]} ${parts[1]}`;
+  const homeOrAway = parts[2];
+  const opponentRaw = parts.slice(3).join(" ");
+  const matchParen = opponentRaw.match(/\(([^)]+)\)/g);
 
-  const text = await response.text();
-  const data = JSON.parse(text);
-  const edges = data?.[0]?.fullSchedule?.edges || [];
-  return cleanEvents(edges, team);
+  // Skip scrimmages
+  if (matchParen && matchParen.some(p => p.toLowerCase().includes("scrimmage"))) return null;
+
+  const extraTitle = matchParen
+    ? matchParen.map(s => s.replace(/[()]/g, "").trim()).filter(t => t && !/scrimmage/i.test(t)).join(" - ")
+    : null;
+
+  const opponentComplete = opponentRaw.replace(/\s*\([^)]*\)/g, "").trim();
+  let opponent = opponentComplete || "TBD";
+  let title = extraTitle || opponent;
+
+  if (opponent === "OPEN") {
+    opponent = title;
+  }
+
+  const sport = sportMap[sportCode] || sportCode;
+  const dateObj = DateTime.fromJSDate(evt.start).setZone("America/New_York");
+  const cleanDate = dateObj.toFormat("yyyy-MM-dd");
+  const eventTime = evt.start ? dateObj.toFormat("h:mm a") : "TBA";
+  const eventId = evt.uid.split(".")[0];
+  const sportSlug = sport.toLowerCase().replace(/\s+/g, "-");
+  const vsOrAt = homeOrAway === "Home" ? "vs" : "@";
+
+  return {
+    eventId: Number(eventId),
+    sport,
+    date: dateObj.toFormat("MM/dd/yyyy"),
+    time: eventTime,
+    title,
+    homeOrAway,
+    vsOrAt,
+    location: evt.location || null,
+    opponent,
+    result: null,
+    isCancelled: false,
+    isPostponed: false,
+    url: `https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/${eventId}/`,
+  };
 }
 
 function writeCalendar(events) {
@@ -124,47 +139,27 @@ function writeCalendar(events) {
 
 async function main() {
   fs.mkdirSync(DATA_DIR, { recursive: true });
-  const teams = JSON.parse(fs.readFileSync(TEAMS_PATH, 'utf-8'));
-  const allGames = [];
 
-  for (const team of teams) {
-    try {
-      console.log(`🔄 ${team.sport}...`);
-      const data = await fetchSchedule(team);
-      const filePath = path.join(DATA_DIR, `${team.sport}.json`);
-      fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-      console.log(`✅ Wrote ${data.length} events to ${team.sport}.json`);
-      allGames.push(...data);
-    } catch (err) {
-      console.error(`❌ Failed for ${team.sport}: ${err.message}`);
-    }
+  const rawEvents = await fetchICS();
+  const parsed = rawEvents.map(parseICSEvent).filter(Boolean);
+
+  parsed.sort((a, b) => new Date(a.eventDate) - new Date(b.eventDate));
+  fs.writeFileSync(COMBINED_PATH, JSON.stringify(parsed, null, 2));
+  console.log(`📦 Wrote ${parsed.length} events to combined.json`);
+
+  // Write per-sport schedule files
+  const teams = JSON.parse(fs.readFileSync(TEAMS_PATH, 'utf-8'));
+  const sports = [...new Set(teams.map(t => t.sportTitle))];
+
+  for (const sportTitle of sports) {
+    const sportGames = parsed.filter(e => e.sport === sportTitle);
+    const sportSlug = sportTitle.toLowerCase().replace(/\s+/g, "-");
+    const filePath = path.join(DATA_DIR, `${sportSlug}.json`);
+    fs.writeFileSync(filePath, JSON.stringify(sportGames, null, 2));
+    console.log(`✅ Wrote ${sportGames.length} events to ${sportSlug}.json`);
   }
 
-  const todayStr = new Date().toDateString();
-  const filteredGames = allGames.filter(game => {
-    const gameDate = new Date(`${game.date} ${game.time}`).toDateString();
-    return !(gameDate === game.isCancelled || game.isPostponed);
-  });
-
-  filteredGames.sort((a, b) => {
-    const aDate = new Date(`${a.date} ${a.time}`);
-    const bDate = new Date(`${b.date} ${b.time}`);
-    return aDate - bDate;
-  });
-
-  fs.writeFileSync(COMBINED_PATH, JSON.stringify(filteredGames, null, 2));
-  console.log(`📦 Wrote filtered combined.json with ${filteredGames.length} events.`);
-
-  const cancelledToday = allGames.filter(game => {
-    const gameDate = new Date(`${game.date} ${game.time}`).toDateString();
-    return gameDate === todayStr && (game.isCancelled || game.isPostponed);
-  });
-
-  const cancelledPath = path.join(DATA_DIR, 'cancelled-today.json');
-  fs.writeFileSync(cancelledPath, JSON.stringify(cancelledToday, null, 2));
-  console.log(`🚫 Wrote ${cancelledToday.length} cancelled/postponed games to cancelled-today.json`);
-
-  writeCalendar(filteredGames);
+  writeCalendar(parsed);
   console.log("🏁 Done.");
 }
 
