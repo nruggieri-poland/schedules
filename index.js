@@ -130,9 +130,9 @@ function writeCalendar(events) {
       start: start.toJSDate(),
       ...(end ? { end: end.toJSDate() } : {}),
       allDay: isTBA,
-      summary: `${event.sport}: ${event.vsOrAt} ${event.opponent}`,
+      summary: `${event.sport}: ${event.homeOrAway} ${event.vsOrAt} ${event.opponent}`,
       description: `${event.title}\n\nMore info: ${event.url}`,
-      location: `${event.homeOrAway} - ${event.location || event.opponent}`,
+      location: `${event.location || event.opponent}`,
       url: event.url
     });
   });
