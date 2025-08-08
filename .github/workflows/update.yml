@@ -2,12 +2,8 @@ name: Update & Deploy Schedule JSONs
 
 on:
   schedule:
-    - cron: "0 8 * * *"
-    - cron: "30 9 * * *"
-    - cron: "0 11 * * *"
-    - cron: "30 12 * * *"
-    - cron: "0 14 * * *"
-    - cron: "30 15 * * *"
+    - cron: "5 12,15,18,21 * * *"   # 8:05 AM, 11:05 AM, 2:05 PM, 5:05 PM ET
+    - cron: "35 13,16,19 * * *"    
   workflow_dispatch:
 
 permissions:
