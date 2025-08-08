@@ -57,40 +57,60 @@ function parseICSEvent(evt) {
     "Track C": "Track & Field",
     "Tennis B": "Boys Tennis"
   };
-  const summary = evt.summary || '';
-  if (!summary.includes("Poland Seminary High School")) return null;
+  const rawSummary = evt.summary || '';
+  // Detect a TBA/TBD tag anywhere (sometimes appears before PSHS name)
+  const isTimeTBATag = /(^|\W)Time:\s*(TBA|TBD)\b/i.test(rawSummary);
+  // Remove a leading "Time: TBA/TBD -" prefix if present so tokenization is stable
+  let summary = rawSummary.replace(/^Time:\s*(TBA|TBD)\s*-\s*/i, '');
+  const pshs = 'Poland Seminary High School ';
+  const idx = summary.indexOf(pshs);
+  if (idx === -1) return null;
+  // Slice from the PSHS tag to avoid any stray prefixes before it
+  summary = summary.slice(idx + pshs.length).trim();
+
   if (summary.toLowerCase().includes("scrimmage") || summary.toLowerCase().includes("practice")) return null;
 
-  const cleaned = summary.replace("Poland Seminary High School ", "").trim();
-  const parts = cleaned.split(" ");
+  const parts = summary.split(" ");
   const hoaIndex = parts.findIndex(p => p === "Home" || p === "Away");
   if (hoaIndex === -1) return null;
 
   const homeOrAway = parts[hoaIndex];
   const sportCode = parts.slice(0, hoaIndex).join(" ");
   const opponentRaw = parts.slice(hoaIndex + 1).join(" ");
+
   const matchParen = opponentRaw.match(/\(([^)]+)\)/g);
+  // Skip scrimmages entirely, even if duplicated
+  if (matchParen && matchParen.some(p => /scrimmage/i.test(p))) return null;
 
-  // Skip scrimmages
-  if (matchParen && matchParen.some(p => p.toLowerCase().includes("scrimmage"))) return null;
+  // Extract extra labels from parentheses, e.g., "(and Lakeview)", "(Kiely Cup)", etc.
+  const parenBits = matchParen
+    ? matchParen.map(s => s.replace(/[()]/g, '').trim()).filter(Boolean)
+    : [];
+  const extraTitle = parenBits.filter(t => !/scrimmage/i.test(t)).join(' - ') || null;
 
-  const extraTitle = matchParen
-    ? matchParen.map(s => s.replace(/[()]/g, "").trim()).filter(t => t && !/scrimmage/i.test(t)).join(" - ")
-    : null;
+  // Opponent without any parens
+  let opponentComplete = opponentRaw.replace(/\s*\([^)]*\)/g, '').trim();
+  // Some feeds emit just "and X" in the parens; keep the main token as opponent
+  let opponent = opponentComplete || 'TBD';
 
-  let opponentComplete = opponentRaw.replace(/\s*\([^)]*\)/g, "").trim();
-  let opponent = opponentComplete || "TBD";
-  let title = extraTitle || opponent;
-
-  if (opponent === "OPEN") {
-    opponent = title;
+  // If opponent token is OPEN, treat paren text as the tournament/meet title
+  let title;
+  if (/^OPEN$/i.test(opponent)) {
+    title = extraTitle || 'OPEN';
+    opponent = title; // keep legacy behavior where OPEN events surface the title in opponent field
     opponentComplete = title;
+  } else {
+    title = extraTitle ? `${opponentComplete} (${extraTitle})` : opponentComplete;
   }
 
   const sport = sportMap[sportCode] || sportCode;
-  const dateObj = DateTime.fromJSDate(evt.start).setZone("America/New_York");
+  const dateObj = DateTime.fromJSDate(evt.start).setZone('America/New_York');
+  const startISO = dateObj.toISO();
   const cleanDate = dateObj.toFormat("yyyy-MM-dd");
-  const eventTime = evt.start ? dateObj.toFormat("h:mm a") : "TBA";
+  // Treat midnight or tagged summaries as TBA
+  const eventTime = (!evt.start || isTimeTBATag || (dateObj.hour === 0 && dateObj.minute === 0))
+    ? 'TBA'
+    : dateObj.toFormat('h:mm a');
   const eventId = evt.uid.split(".")[0];
   const sportSlug = sport.toLowerCase().replace(/\s+/g, "-");
   const vsOrAt = homeOrAway === "Home" ? "vs" : "@";
@@ -109,6 +129,8 @@ function parseICSEvent(evt) {
     isCancelled: false,
     isPostponed: false,
     url: `https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/${eventId}/`,
+    startISO,
+    isTimeTBATag,
   };
 }
 
@@ -118,22 +140,19 @@ function writeCalendar(events) {
   events.forEach(event => {
     if (event.isCancelled || event.isPostponed || !event.date) return;
 
-    // Clean and normalize date/time strings before parsing
-    const cleanDateStr = event.date.trim();
-    const cleanTimeStr = event.time
-      ? event.time.trim().toUpperCase().replace(/\s+/g, ' ')
-      : '';
+    // Prefer machine-readable ISO to avoid locale/format parsing issues
+    const base = event.startISO
+      ? DateTime.fromISO(event.startISO, { zone: 'America/New_York' })
+      : DateTime.invalid('Missing startISO');
 
-    const isTBA = !event.time || /^(TBA|TBD|NA)$/i.test(event.time);
-    let start = isTBA
-      ? DateTime.fromFormat(cleanDateStr, 'MM/dd/yyyy', { zone: 'America/New_York' })
-      : DateTime.fromFormat(`${cleanDateStr} ${cleanTimeStr}`, 'MM/dd/yyyy h:mm a', { zone: 'America/New_York' });
+    const isTBA = Boolean(event.isTimeTBATag) || !event.time || /^(TBA|TBD|NA)$/i.test(event.time || '');
 
-    if (!start.isValid) {
-      const pretty = `${cleanDateStr}${cleanTimeStr ? ' ' + cleanTimeStr : ''}`;
-      console.warn(`\u26a0\ufe0f Skipping invalid date/time: ${pretty} (${event.title})`);
+    if (!base.isValid) {
+      console.warn(`\u26a0\ufe0f Skipping invalid date/time (bad ISO): ${event.date} ${event.time || ''} (${event.title}) — ${base.invalidExplanation || base.invalidReason}`);
       return;
     }
+
+    const start = isTBA ? base.startOf('day') : base;
     const end = isTBA ? undefined : start.plus({ hours: 2 });
 
     cal.createEvent({
@@ -157,14 +176,14 @@ async function main() {
   const rawEvents = await fetchICS();
   const parsed = rawEvents.map(parseICSEvent).filter(Boolean);
 
+  const missingISO = parsed.filter(e => !e.startISO);
+  if (missingISO.length) {
+    console.warn(`Found ${missingISO.length} events with missing startISO. Examples:`, missingISO.slice(0,3).map(e => ({ date: e.date, time: e.time, title: e.title })));
+  }
+
   parsed.sort((a, b) => {
-    const fmt = 'MM/dd/yyyy h:mm a';
-    const aTime = a.time && a.time !== 'TBA' ? `${a.date} ${a.time}` : `${a.date} 11:59 PM`;
-    const bTime = b.time && b.time !== 'TBA' ? `${b.date} ${b.time}` : `${b.date} 11:59 PM`;
-
-    const da = DateTime.fromFormat(aTime, fmt, { zone: 'America/New_York' });
-    const db = DateTime.fromFormat(bTime, fmt, { zone: 'America/New_York' });
-
+    const da = a.startISO ? DateTime.fromISO(a.startISO) : DateTime.invalid('no-start');
+    const db = b.startISO ? DateTime.fromISO(b.startISO) : DateTime.invalid('no-start');
     const aMs = da.isValid ? da.toMillis() : Number.POSITIVE_INFINITY;
     const bMs = db.isValid ? db.toMillis() : Number.POSITIVE_INFINITY;
     return aMs - bMs;
