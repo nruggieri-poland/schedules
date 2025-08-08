@@ -17,7 +17,7 @@ events.forEach(event => {
   if (event.isCancelled || event.isPostponed) return;
   if (!event.date) return;
 
-  const isTBA = !event.time || /^(TBA|TBD)$/i.test(String(event.time).trim());
+  const isTBA = !event.time || /^(TBA|TBD|NA)$/i.test(String(event.time).trim());
 
   let start;
   let end;
@@ -57,13 +57,19 @@ events.forEach(event => {
     end = start.plus({ hours: 2 });
   }
 
+  // Final safety: if start somehow wasn't set (edge case), skip this event
+  if (!start || !DateTime.isDateTime(start) || !start.isValid) {
+    console.warn(`⚠️ Skipping event due to unset/invalid start: ${event.date} ${event.time || ''} (${event.title || event.opponent || 'no title'})`);
+    return;
+  }
+
   cal.createEvent({
     start: start.toJSDate(),
     ...(end ? { end: end.toJSDate() } : {}),
     allDay,
     summary: `${event.sport || 'Event'}: ${event.vsOrAt || ''} ${event.opponent || ''}`.trim(),
     description: `${event.title || ''}\n\nMore info: ${event.url || ''}`.trim(),
-    location: `${event.homeOrAway || ''} - ${(event.location || event.opponent || '').trim()}`.trim(),
+    location: [event.homeOrAway, (event.location || event.opponent || '').trim()].filter(Boolean).join(' - '),
     url: event.url,
   });
 });
