@@ -63,9 +63,12 @@ function parseICSEvent(evt) {
 
   const cleaned = summary.replace("Poland Seminary High School ", "").trim();
   const parts = cleaned.split(" ");
-  const sportCode = `${parts[0]} ${parts[1]}`;
-  const homeOrAway = parts[2];
-  const opponentRaw = parts.slice(3).join(" ");
+  const hoaIndex = parts.findIndex(p => p === "Home" || p === "Away");
+  if (hoaIndex === -1) return null;
+
+  const homeOrAway = parts[hoaIndex];
+  const sportCode = parts.slice(0, hoaIndex).join(" ");
+  const opponentRaw = parts.slice(hoaIndex + 1).join(" ");
   const matchParen = opponentRaw.match(/\(([^)]+)\)/g);
 
   // Skip scrimmages
@@ -81,6 +84,7 @@ function parseICSEvent(evt) {
 
   if (opponent === "OPEN") {
     opponent = title;
+    opponentComplete = title;
   }
 
   const sport = sportMap[sportCode] || sportCode;
@@ -117,7 +121,7 @@ function writeCalendar(events) {
     const isTBA = !event.time || event.time === 'TBA';
     let start = isTBA
       ? DateTime.fromFormat(event.date, 'MM/dd/yyyy', { zone: 'America/New_York' })
-      : DateTime.fromFormat(`${event.date} ${event.time}`, 'MM/dd/yyyy hh:mm a', { zone: 'America/New_York' });
+      : DateTime.fromFormat(`${event.date} ${event.time}`, 'MM/dd/yyyy h:mm a', { zone: 'America/New_York' });
 
     if (!start.isValid) return;
     const end = isTBA ? undefined : start.plus({ hours: 2 });
@@ -126,9 +130,9 @@ function writeCalendar(events) {
       start: start.toJSDate(),
       ...(end ? { end: end.toJSDate() } : {}),
       allDay: isTBA,
-      summary: `${event.sport}: ${event.vsOrAt} ${event.opponent}`,
+      summary: `${event.sport}: ${event.homeOrAway} ${event.vsOrAt} ${event.opponent}`,
       description: `${event.title}\n\nMore info: ${event.url}`,
-      location: `${event.homeOrAway} - ${event.location || event.opponent}`,
+      location: `${event.location || event.opponent}`,
       url: event.url
     });
   });
