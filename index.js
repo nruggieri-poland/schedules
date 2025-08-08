@@ -78,7 +78,7 @@ function parseICSEvent(evt) {
     ? matchParen.map(s => s.replace(/[()]/g, "").trim()).filter(t => t && !/scrimmage/i.test(t)).join(" - ")
     : null;
 
-  const opponentComplete = opponentRaw.replace(/\s*\([^)]*\)/g, "").trim();
+  let opponentComplete = opponentRaw.replace(/\s*\([^)]*\)/g, "").trim();
   let opponent = opponentComplete || "TBD";
   let title = extraTitle || opponent;
 
