@@ -29,9 +29,21 @@ events.forEach(event => {
     });
     allDay = true;
   } else {
-    start = DateTime.fromFormat(`${event.date} ${event.time}`, 'MM/dd/yyyy hh:mm a', {
-      zone: 'America/New_York',
-    });
+    // Normalize whitespace and AM/PM artifacts
+    const dateStr = (event.date || '').trim();
+    const timeStr = (event.time || '').toString().trim().replace(/\s*(AM|PM)\s*$/i, ' $1');
+
+    // Try primary format first: single-digit hour allowed
+    let start = DateTime.fromFormat(`${dateStr} ${timeStr}`, 'MM/dd/yyyy h:mm a', { zone: 'America/New_York' });
+
+    // Fallbacks for edge cases (e.g., non-zero-padded month/day)
+    if (!start.isValid) {
+      start = DateTime.fromFormat(`${dateStr} ${timeStr}`, 'M/d/yyyy h:mm a', { zone: 'America/New_York' });
+    }
+    if (!start.isValid) {
+      // Some feeds might include seconds; try that too
+      start = DateTime.fromFormat(`${dateStr} ${timeStr}`, 'MM/dd/yyyy h:mm:ss a', { zone: 'America/New_York' });
+    }
 
     if (!start.isValid) {
       console.warn(`⚠️ Skipping invalid date/time: ${event.date} ${event.time} (${event.title})`);
