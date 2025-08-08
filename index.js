@@ -15,7 +15,7 @@ const COMBINED_PATH = path.join(DATA_DIR, 'combined.json');
 // Refactored version with your original fetch method logic
 
 async function fetchICS() {
-  const url = 'https://ical.schedulestar.com/iCal_NOW.cfm?i=3D754529-E9FD-403D-B30214A6512009A0';
+  const url = 'https://github.com/nruggieri-poland/athletics-ics-proxy/raw/refs/heads/master/schedule.ics';
 
   try {
     const res = await fetch(url);
