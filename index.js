@@ -124,12 +124,16 @@ function writeCalendar(events) {
       ? event.time.trim().toUpperCase().replace(/\s+/g, ' ')
       : '';
 
-    const isTBA = !event.time || event.time === 'TBA';
+    const isTBA = !event.time || /^(TBA|TBD|NA)$/i.test(event.time);
     let start = isTBA
       ? DateTime.fromFormat(cleanDateStr, 'MM/dd/yyyy', { zone: 'America/New_York' })
       : DateTime.fromFormat(`${cleanDateStr} ${cleanTimeStr}`, 'MM/dd/yyyy h:mm a', { zone: 'America/New_York' });
 
-    if (!start.isValid) return;
+    if (!start.isValid) {
+      const pretty = `${cleanDateStr}${cleanTimeStr ? ' ' + cleanTimeStr : ''}`;
+      console.warn(`\u26a0\ufe0f Skipping invalid date/time: ${pretty} (${event.title})`);
+      return;
+    }
     const end = isTBA ? undefined : start.plus({ hours: 2 });
 
     cal.createEvent({
@@ -153,7 +157,18 @@ async function main() {
   const rawEvents = await fetchICS();
   const parsed = rawEvents.map(parseICSEvent).filter(Boolean);
 
-  parsed.sort((a, b) => new Date(a.eventDate) - new Date(b.eventDate));
+  parsed.sort((a, b) => {
+    const fmt = 'MM/dd/yyyy h:mm a';
+    const aTime = a.time && a.time !== 'TBA' ? `${a.date} ${a.time}` : `${a.date} 11:59 PM`;
+    const bTime = b.time && b.time !== 'TBA' ? `${b.date} ${b.time}` : `${b.date} 11:59 PM`;
+
+    const da = DateTime.fromFormat(aTime, fmt, { zone: 'America/New_York' });
+    const db = DateTime.fromFormat(bTime, fmt, { zone: 'America/New_York' });
+
+    const aMs = da.isValid ? da.toMillis() : Number.POSITIVE_INFINITY;
+    const bMs = db.isValid ? db.toMillis() : Number.POSITIVE_INFINITY;
+    return aMs - bMs;
+  });
   fs.writeFileSync(COMBINED_PATH, JSON.stringify(parsed, null, 2));
   console.log(`📦 Wrote ${parsed.length} events to combined.json`);
 
