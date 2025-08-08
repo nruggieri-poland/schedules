@@ -17,7 +17,7 @@ events.forEach(event => {
   if (event.isCancelled || event.isPostponed) return;
   if (!event.date) return;
 
-  const isTBA = !event.time || event.time === 'TBA';
+  const isTBA = !event.time || /^(TBA|TBD)$/i.test(String(event.time).trim());
 
   let start;
   let end;
@@ -28,13 +28,17 @@ events.forEach(event => {
       zone: 'America/New_York',
     });
     allDay = true;
+    if (!start.isValid) {
+      console.warn(`⚠️ Skipping invalid all-day date: ${event.date} (${event.title || event.opponent || 'no title'})`);
+      return;
+    }
   } else {
     // Normalize whitespace and AM/PM artifacts
     const dateStr = (event.date || '').trim();
     const timeStr = (event.time || '').toString().trim().replace(/\s*(AM|PM)\s*$/i, ' $1');
 
     // Try primary format first: single-digit hour allowed
-    let start = DateTime.fromFormat(`${dateStr} ${timeStr}`, 'MM/dd/yyyy h:mm a', { zone: 'America/New_York' });
+    start = DateTime.fromFormat(`${dateStr} ${timeStr}`, 'MM/dd/yyyy h:mm a', { zone: 'America/New_York' });
 
     // Fallbacks for edge cases (e.g., non-zero-padded month/day)
     if (!start.isValid) {
@@ -46,7 +50,7 @@ events.forEach(event => {
     }
 
     if (!start.isValid) {
-      console.warn(`⚠️ Skipping invalid date/time: ${event.date} ${event.time} (${event.title})`);
+      console.warn(`⚠️ Skipping invalid date/time: ${event.date} ${event.time} (${event.title || event.opponent || 'no title'})`);
       return;
     }
 
@@ -57,9 +61,9 @@ events.forEach(event => {
     start: start.toJSDate(),
     ...(end ? { end: end.toJSDate() } : {}),
     allDay,
-    summary: `${event.sport}: ${event.vsOrAt} ${event.opponent}`,
-    description: `${event.title}\n\nMore info: ${event.url}`,
-    location: `${event.homeOrAway} - ${event.location || event.opponent}`,
+    summary: `${event.sport || 'Event'}: ${event.vsOrAt || ''} ${event.opponent || ''}`.trim(),
+    description: `${event.title || ''}\n\nMore info: ${event.url || ''}`.trim(),
+    location: `${event.homeOrAway || ''} - ${(event.location || event.opponent || '').trim()}`.trim(),
     url: event.url,
   });
 });
