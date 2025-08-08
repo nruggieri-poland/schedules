@@ -118,10 +118,16 @@ function writeCalendar(events) {
   events.forEach(event => {
     if (event.isCancelled || event.isPostponed || !event.date) return;
 
+    // Clean and normalize date/time strings before parsing
+    const cleanDateStr = event.date.trim();
+    const cleanTimeStr = event.time
+      ? event.time.trim().toUpperCase().replace(/\s+/g, ' ')
+      : '';
+
     const isTBA = !event.time || event.time === 'TBA';
     let start = isTBA
-      ? DateTime.fromFormat(event.date, 'MM/dd/yyyy', { zone: 'America/New_York' })
-      : DateTime.fromFormat(`${event.date} ${event.time}`, 'MM/dd/yyyy h:mm a', { zone: 'America/New_York' });
+      ? DateTime.fromFormat(cleanDateStr, 'MM/dd/yyyy', { zone: 'America/New_York' })
+      : DateTime.fromFormat(`${cleanDateStr} ${cleanTimeStr}`, 'MM/dd/yyyy h:mm a', { zone: 'America/New_York' });
 
     if (!start.isValid) return;
     const end = isTBA ? undefined : start.plus({ hours: 2 });
