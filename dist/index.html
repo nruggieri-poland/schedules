@@ -217,6 +217,23 @@
     return '<span class="status-dot dot-green"></span>';
   }
 
+// --- helpers to make rendering robust against null/undefined fields ---
+function parseGameDate(game) {
+  if (!game || !game.date) return null;
+  const dtStr = game.time ? `${game.date} ${game.time}` : `${game.date} 12:00 AM`;
+  const d = new Date(dtStr);
+  return isNaN(d) ? null : d;
+}
+function stripTime(d) {
+  const x = new Date(d);
+  x.setHours(0, 0, 0, 0);
+  return x;
+}
+function safeText(value, fallback) {
+  const v = (value ?? '').toString().trim();
+  return v || fallback;
+}
+
   function renderSchedule() {
     const selectedSport = sportFilter.value;
     scheduleEl.innerHTML = "";
@@ -229,39 +246,71 @@
     weekEnd.setDate(now.getDate() + 7);
 
     const filtered = allGames.filter(game => {
-      const date = new Date(`${game.date} ${game.time}`);
+      const date = parseGameDate(game);
+      if (!date) return false;
+
       if (selectedSport && game.sport !== selectedSport) return false;
 
-      if (view === "today") return date.toDateString() === now.toDateString();
-      if (view === "week") return date >= now && date <= weekEnd;
+      if (view === "today") return date.toDateString() === stripTime(now).toDateString();
+      if (view === "week") return date >= stripTime(now) && date <= weekEnd;
       if (view === "month") return date.getMonth() === now.getMonth() && date.getFullYear() === now.getFullYear();
-      return date >= now;
+
+      return date >= stripTime(now);
     });
 
-    if (filtered.length === 0) {
+    // Ensure chronological order across all views
+    const sorted = filtered.slice().sort((a, b) => {
+      const da = parseGameDate(a);
+      const db = parseGameDate(b);
+      if (da && db) {
+        const diff = da - db;
+        if (diff !== 0) return diff;
+      } else if (da && !db) {
+        return -1; // valid dates first
+      } else if (!da && db) {
+        return 1;
+      }
+      // deterministic fallback sort
+      const sportCmp = safeText(a.sport, "").localeCompare(safeText(b.sport, ""));
+      if (sportCmp !== 0) return sportCmp;
+      return safeText(a.opponent, "").localeCompare(safeText(b.opponent, ""));
+    });
+
+    if (sorted.length === 0) {
       scheduleEl.innerHTML = "<p style='text-align:center'>No games found.</p>";
       return;
     }
 
-    filtered.forEach(game => {
-      const dateObj = new Date(`${game.date} ${game.time}`);
-      const dateStr = dateObj.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" });
+    sorted.forEach(game => {
+      const dateObj = parseGameDate(game);
+      const dateStr = dateObj
+        ? dateObj.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" })
+        : "Date TBD";
+
+      const hoa = safeText(game.homeOrAway, "");
+      const isHome = hoa.toLowerCase() === "home";
+
+      const sport = safeText(game.sport, "Sport");
+      const opponent = safeText(game.opponent, "Opponent TBD");
+      const vsOrAt = safeText(game.vsOrAt, (hoa.toLowerCase() === "home" ? "vs." : "at"));
+      const timeStr = safeText(game.time, "TBD");
+      const locationStr = safeText(game.location, "TBD");
+      const resultStr = safeText(game.result, "");
 
       const div = document.createElement("div");
-      const isHome = game.homeOrAway.toLowerCase() === 'home';
       div.className = `game${layout === 'compact' ? ' compact' : ''} ${isHome ? 'home' : 'away'}`;
-      div.title = `${game.sport} game against ${game.opponent} on ${dateStr} at ${game.time}`;
+      div.title = `${sport} game ${vsOrAt} ${opponent} on ${dateStr}${timeStr ? ` at ${timeStr}` : ""}`;
 
       const title = document.createElement("div");
       title.className = "title";
-      title.innerHTML = getStatusDot(game) + `<strong>${game.sport}</strong><br>${game.homeOrAway.toUpperCase()} ${game.vsOrAt} ${game.opponent}`;
-      if (game.isCancelled) title.classList.add("cancelled");
+      title.innerHTML = getStatusDot(game) + `<strong>${sport}</strong><br>${hoa ? hoa.toUpperCase() : "TBD"} ${vsOrAt} ${opponent}`;
+      if (game && game.isCancelled) title.classList.add("cancelled");
 
       const meta = document.createElement("div");
       meta.className = "meta";
       meta.innerHTML = layout === "compact"
-        ? `<div>${dateStr} | ${game.time}</div>`
-        : `${dateStr} · ${game.time}<br>${game.location || "TBD"}${game.result ? `<br><em>Result:</em> ${game.result}` : ""}`;
+        ? `<div>${dateStr} | ${timeStr}</div>`
+        : `${dateStr} · ${timeStr}<br>${locationStr}${resultStr ? `<br><em>Result:</em> ${resultStr}` : ""}`;
 
       div.appendChild(title);
       div.appendChild(meta);
