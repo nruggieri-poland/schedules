@@ -258,12 +258,30 @@ function safeText(value, fallback) {
       return date >= stripTime(now);
     });
 
-    if (filtered.length === 0) {
+    // Ensure chronological order across all views
+    const sorted = filtered.slice().sort((a, b) => {
+      const da = parseGameDate(a);
+      const db = parseGameDate(b);
+      if (da && db) {
+        const diff = da - db;
+        if (diff !== 0) return diff;
+      } else if (da && !db) {
+        return -1; // valid dates first
+      } else if (!da && db) {
+        return 1;
+      }
+      // deterministic fallback sort
+      const sportCmp = safeText(a.sport, "").localeCompare(safeText(b.sport, ""));
+      if (sportCmp !== 0) return sportCmp;
+      return safeText(a.opponent, "").localeCompare(safeText(b.opponent, ""));
+    });
+
+    if (sorted.length === 0) {
       scheduleEl.innerHTML = "<p style='text-align:center'>No games found.</p>";
       return;
     }
 
-    filtered.forEach(game => {
+    sorted.forEach(game => {
       const dateObj = parseGameDate(game);
       const dateStr = dateObj
         ? dateObj.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" })
