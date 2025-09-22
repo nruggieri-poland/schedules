@@ -63,14 +63,35 @@
       border-bottom: 1px solid rgba(15,23,42,.06);
     }
     .filters-inner {
-       margin: 0 auto; padding: .5rem 1rem; display: grid; gap: .5rem;
+      max-width: 980px;
+      margin: 0 auto;
+      padding: .5rem 1rem;
+      display: grid;
+      gap: .5rem;
+      overflow-x: hidden;
     }
 
     /* Date scroller */
     .date-strip { display: flex; align-items: center; gap: .5rem; }
     .date-btn { border: none; background: var(--card); border-radius: var(--radius); padding: .5rem; box-shadow: var(--shadow); cursor: pointer; }
-    .datescroll { display: grid; grid-auto-flow: column; grid-auto-columns: max-content; gap: .5rem; overflow-x: auto; scrollbar-width: none; }
+    .datescroll {
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: max-content;
+      gap: .5rem;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
     .datescroll::-webkit-scrollbar { display: none; }
+    .sports {
+      display: flex;
+      gap: .4rem;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .sports::-webkit-scrollbar { display: none; }
     .chip {
       padding: .45rem .7rem; background: #fff; border: 1px solid rgba(15,23,42,.08); border-radius: 999px; font-size: .85rem; font-weight: 600; color: var(--muted);
       white-space: nowrap; cursor: pointer; transition: transform .12s ease;
@@ -79,7 +100,7 @@
     .chip.active { color: var(--primary); border-color: rgba(0,50,143,.35); background: #f1f5ff; }
 
     /* Sport chips */
-    .sports { display: flex; gap: .4rem; overflow-x: auto; scrollbar-width: none; }
+    .sports::-webkit-scrollbar { display: none; }
     .sports::-webkit-scrollbar { display: none; }
 
     /* Content */
@@ -322,6 +343,32 @@
             <button class="btn" aria-label="Add to calendar" title="Add to calendar">📅</button>
           </div>
         </div>`;
+      const btn = el.querySelector('.btn');
+      btn.addEventListener('click', () => {
+        // Build a simple ICS link for this event
+        const start = d ? d.toISOString().replace(/[-:]/g,'').split('.')[0]+'Z' : '';
+        const endDate = d ? new Date(d.getTime() + 2*60*60*1000) : null;
+        const end = endDate ? endDate.toISOString().replace(/[-:]/g,'').split('.')[0]+'Z' : start;
+        const ics = `BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+SUMMARY:${sport} ${vsAt} ${opponent}
+DTSTART:${start}
+DTEND:${end}
+LOCATION:${location}
+DESCRIPTION:${sport} ${vsAt} ${opponent} at ${location}
+END:VEVENT
+END:VCALENDAR`;
+        const blob = new Blob([ics], {type: 'text/calendar'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `${sport}-${opponent}.ics`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      });
       return el;
     }
   </script>
