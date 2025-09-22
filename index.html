@@ -100,7 +100,10 @@
       white-space: nowrap; cursor: pointer; transition: transform .12s ease; flex: 0 0 auto;
     }
     @media (max-width: 720px) {
-      body[data-view="all"] .date-header { position: static; top: auto; }
+      body:not([data-view="today"]) .date-header {
+        position: static;
+        top: auto;
+      }
     }
     .chip:active { transform: scale(.98); }
     .chip.active { color: var(--primary); border-color: rgba(0,50,143,.35); background: #f1f5ff; }
