@@ -61,6 +61,7 @@
     .filters {
       position: sticky; top: 56px; z-index: 19; background: linear-gradient(180deg, rgba(255,255,255,.92), rgba(255,255,255,.92));
       border-bottom: 1px solid rgba(15,23,42,.06);
+      overflow-x: hidden;
     }
     .filters-inner {
       max-width: 980px;
@@ -72,7 +73,9 @@
     }
 
     /* Date scroller */
-    .date-strip { display: flex; align-items: center; gap: .5rem; }
+    .date-strip { display: flex; align-items: center; gap: .5rem; width: 100%; overflow: hidden; }
+
+    .date-strip .datescroll { flex: 1; min-width: 0; }
     .date-btn { border: none; background: var(--card); border-radius: var(--radius); padding: .5rem; box-shadow: var(--shadow); cursor: pointer; }
     .datescroll {
       display: grid;
@@ -94,7 +97,10 @@
     .sports::-webkit-scrollbar { display: none; }
     .chip {
       padding: .45rem .7rem; background: #fff; border: 1px solid rgba(15,23,42,.08); border-radius: 999px; font-size: .85rem; font-weight: 600; color: var(--muted);
-      white-space: nowrap; cursor: pointer; transition: transform .12s ease;
+      white-space: nowrap; cursor: pointer; transition: transform .12s ease; flex: 0 0 auto;
+    }
+    @media (max-width: 720px) {
+      body[data-view="all"] .date-header { position: static; top: auto; }
     }
     .chip:active { transform: scale(.98); }
     .chip.active { color: var(--primary); border-color: rgba(0,50,143,.35); background: #f1f5ff; }
@@ -263,6 +269,7 @@
 
     function syncTabs(){
       tabs.forEach(t => t.classList.toggle('active', t.dataset.view === view));
+      document.body.setAttribute('data-view', view);
     }
 
     // -------- Data views --------
