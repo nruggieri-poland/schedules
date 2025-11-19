@@ -4,9 +4,9 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:PSHS Athletics Events
 X-WR-CALNAME:PSHS Athletics Events
 BEGIN:VEVENT
-UID:f3c11d49-a945-4efd-981f-f93a28079803
+UID:4609054a-9138-4394-bab3-c8796f89cbd8
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
 DTSTART:20250728T120000Z
 DTEND:20250728T140000Z
 SUMMARY:Girls Golf: vs Hubbard High School
@@ -17,9 +17,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79780529/
 END:VEVENT
 BEGIN:VEVENT
-UID:09bcbe5a-df63-42c4-b0b1-04ff7640625d
+UID:8d016ba0-d9ca-4e02-ab72-e5b1500cf55b
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
+DTSTART:20250730T120000Z
+DTEND:20250730T140000Z
+SUMMARY:Boys Golf: vs Hubbard High School
+LOCATION:Home - Knoll Run
+DESCRIPTION:Hubbard High School\n\nMore info: https://polandbulldogs.bigte
+ ams.com/main/event/scid/OH4451495857/eventId/79862566/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79862566/
+END:VEVENT
+BEGIN:VEVENT
+UID:3ca69c62-7e06-4e29-9bf4-306f8c171f5c
+SEQUENCE:0
+DTSTAMP:20251119T194522Z
 DTSTART:20250730T160000Z
 DTEND:20250730T180000Z
 SUMMARY:Girls Golf: @ Columbiana High School
@@ -30,9 +43,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79780535/
 END:VEVENT
 BEGIN:VEVENT
-UID:f7b855df-f6be-47f2-971c-9a4633ead220
+UID:fff1096d-fc29-4805-9655-b164635ff027
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
+DTSTART:20250731T120000Z
+DTEND:20250731T140000Z
+SUMMARY:Boys Golf: vs Springfield Local High School
+LOCATION:Home - Knoll Run
+DESCRIPTION:Springfield Local High School\n\nMore info: https://polandbull
+ dogs.bigteams.com/main/event/scid/OH4451495857/eventId/79862569/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79862569/
+END:VEVENT
+BEGIN:VEVENT
+UID:a0c9c847-7dc0-4d2e-ba11-f6c808b617a0
+SEQUENCE:0
+DTSTAMP:20251119T194522Z
 DTSTART:20250731T190000Z
 DTEND:20250731T210000Z
 SUMMARY:Girls Golf: @ Hubbard High School
@@ -43,9 +69,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79780571/
 END:VEVENT
 BEGIN:VEVENT
-UID:769a4bd9-8a27-4447-ba70-4b761f72ffc9
+UID:35126703-466e-437d-b592-6f4c4eac67a7
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
+DTSTART:20250804T140000Z
+DTEND:20250804T160000Z
+SUMMARY:Boys Golf: @ JFK Invitational
+LOCATION:Away - Trumbull CCC
+DESCRIPTION:JFK Invitational\n\nMore info: https://polandbulldogs.bigteams
+ .com/main/event/scid/OH4451495857/eventId/79862578/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79862578/
+END:VEVENT
+BEGIN:VEVENT
+UID:dc167660-54de-4676-9d67-674ca8e32cbe
+SEQUENCE:0
+DTSTAMP:20251119T194522Z
 DTSTART:20250805T130000Z
 DTEND:20250805T150000Z
 SUMMARY:Girls Golf: @ Tiger Invitational
@@ -56,9 +95,35 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79780578/
 END:VEVENT
 BEGIN:VEVENT
-UID:53775c71-6fb4-47e2-91de-229e1203dc8f
+UID:14637ee9-f06c-4082-ac0d-9a6e4e9bc246
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
+DTSTART:20250806T123000Z
+DTEND:20250806T143000Z
+SUMMARY:Boys Golf: @ Brookfield HS
+LOCATION:Away - Yankee Run
+DESCRIPTION:Brookfield Invitational\n\nMore info: https://polandbulldogs.b
+ igteams.com/main/event/scid/OH4451495857/eventId/79512542/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79512542/
+END:VEVENT
+BEGIN:VEVENT
+UID:de765afe-6e5a-4b95-9c6c-c121c0552ce4
+SEQUENCE:0
+DTSTAMP:20251119T194522Z
+DTSTART:20250807T120000Z
+DTEND:20250807T140000Z
+SUMMARY:Boys Golf: @ Ravenna High School
+LOCATION:Away - Windmill Lakes
+DESCRIPTION:Ravenna Yank Heisler Invitational\n\nMore info: https://poland
+ bulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/79863934/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79863934/
+END:VEVENT
+BEGIN:VEVENT
+UID:ac546324-e687-4ae4-8f4e-816554a7f132
+SEQUENCE:0
+DTSTAMP:20251119T194522Z
 DTSTART:20250807T170000Z
 DTEND:20250807T190000Z
 SUMMARY:Girls Golf: @ Lakeview High School
@@ -69,9 +134,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79780591/
 END:VEVENT
 BEGIN:VEVENT
-UID:3342bb17-9ed4-42a9-9885-ee2615e383bf
+UID:75d34cec-a1de-46e1-83b6-a6c5244e98ed
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
+DTSTART:20250808T113000Z
+DTEND:20250808T133000Z
+SUMMARY:Boys Golf: @ Marlington High School
+LOCATION:Away - Tannenhauf Golf Course
+DESCRIPTION:Joe Eaton Golf Invitational\n\nMore info: https://polandbulldo
+ gs.bigteams.com/main/event/scid/OH4451495857/eventId/79512358/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79512358/
+END:VEVENT
+BEGIN:VEVENT
+UID:572d74bd-5208-41e3-b628-3649dbd8f2bb
+SEQUENCE:0
+DTSTAMP:20251119T194522Z
 DTSTART:20250811T120000Z
 DTEND:20250811T140000Z
 SUMMARY:Girls Golf: vs Niles McKinley High School
@@ -82,9 +160,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79780609/
 END:VEVENT
 BEGIN:VEVENT
-UID:75aa8533-3986-47f6-ac24-958110350d69
+UID:7aceb781-2a31-4922-b8ee-43b9795bd086
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
 DTSTART:20250814T120000Z
 DTEND:20250814T140000Z
 SUMMARY:Girls Golf: vs Lakeview High School
@@ -95,9 +173,35 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79863758/
 END:VEVENT
 BEGIN:VEVENT
-UID:8ff9e130-64d0-4b65-b48b-1caabcb2f66d
+UID:a61a9fe2-491b-4cd7-b496-ee4e8f626046
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
+DTSTART:20250814T220000Z
+DTEND:20250815T000000Z
+SUMMARY:Boys Golf: vs Girard Jr/Sr HS
+LOCATION:Home - Knoll Run
+DESCRIPTION:and South Range\n\nMore info: https://polandbulldogs.bigteams.
+ com/main/event/scid/OH4451495857/eventId/80026907/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80026907/
+END:VEVENT
+BEGIN:VEVENT
+UID:ab436597-1f8a-41b9-90de-5b3cbbca04cf
+SEQUENCE:0
+DTSTAMP:20251119T194522Z
+DTSTART:20250815T223000Z
+DTEND:20250816T003000Z
+SUMMARY:Cross Country: vs Senior Night & Family Picnic
+LOCATION:Home - Poland Township Park
+DESCRIPTION:Senior Night & Family Picnic\n\nMore info: https://polandbulld
+ ogs.bigteams.com/main/event/scid/OH4451495857/eventId/79890174/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79890174/
+END:VEVENT
+BEGIN:VEVENT
+UID:c5cbc83e-6c8b-4bdd-8626-bd57957ea36c
+SEQUENCE:0
+DTSTAMP:20251119T194522Z
 DTSTART:20250818T140000Z
 DTEND:20250818T160000Z
 SUMMARY:Girls Golf: @ Niles McKinley High School
@@ -108,61 +212,35 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79780632/
 END:VEVENT
 BEGIN:VEVENT
-UID:8efe95e3-0ba1-41b3-8fd1-65550264f6d9
+UID:095a9c3d-739f-4b93-a311-f11216b9c4fb
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250818T233000Z
-DTEND:20250819T013000Z
-SUMMARY:Girls Soccer: vs Howland High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Howland High School\n\nMore info: https://polandbulldogs.bigte
- ams.com/main/event/scid/OH4451495857/eventId/78669148/
+DTSTAMP:20251119T194522Z
+DTSTART:20250818T143000Z
+DTEND:20250818T163000Z
+SUMMARY:Boys Golf: @ Columbiana High School
+LOCATION:Away - Valley Golf Course
+DESCRIPTION:Columbiana High School\n\nMore info: https://polandbulldogs.bi
+ gteams.com/main/event/scid/OH4451495857/eventId/79862868/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78669148/
+ 5857/eventId/79862868/
 END:VEVENT
 BEGIN:VEVENT
-UID:fe656876-d7d7-43ca-a76e-adc095cb9154
+UID:2e9de2fd-8646-477c-8516-175614bbab84
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250819T233000Z
-DTEND:20250820T013000Z
-SUMMARY:Boys Soccer: vs Boardman High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Boardman High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/78669547/
+DTSTAMP:20251119T194522Z
+DTSTART:20250819T120000Z
+DTEND:20250819T140000Z
+SUMMARY:Boys Golf: vs Struthers High School
+LOCATION:Home - Knoll Run
+DESCRIPTION:Struthers High School\n\nMore info: https://polandbulldogs.big
+ teams.com/main/event/scid/OH4451495857/eventId/79862884/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78669547/
+ 5857/eventId/79862884/
 END:VEVENT
 BEGIN:VEVENT
-UID:62743604-56ea-4811-a79b-d6200bffd5fb
+UID:a8a9c842-9328-4976-b8d3-c21c75ce11c4
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250821T213000Z
-DTEND:20250821T233000Z
-SUMMARY:Boys Soccer: vs Girard Jr/Sr HS
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Girard Jr/Sr HS\n\nMore info: https://polandbulldogs.bigteams.
- com/main/event/scid/OH4451495857/eventId/78688159/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78688159/
-END:VEVENT
-BEGIN:VEVENT
-UID:3c30b602-72bb-49f1-8f55-147cfffdd9d1
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250821T233000Z
-DTEND:20250822T013000Z
-SUMMARY:Girls Soccer: vs Girard Jr/Sr HS
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Girard Jr/Sr HS\n\nMore info: https://polandbulldogs.bigteams.
- com/main/event/scid/OH4451495857/eventId/78688165/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78688165/
-END:VEVENT
-BEGIN:VEVENT
-UID:3451175c-f74e-4d16-b73c-20da02ddce08
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
 DTSTART:20250822T230000Z
 DTEND:20250823T010000Z
 SUMMARY:Football: @ Salem Jr/Sr High School
@@ -173,35 +251,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/78626023/
 END:VEVENT
 BEGIN:VEVENT
-UID:5016c445-9b38-450b-9cfb-54a8886a80a9
+UID:61e735c2-741b-451a-99da-b85b6dddbadd
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250825T213000Z
-DTEND:20250825T233000Z
-SUMMARY:Boys Soccer: vs Hubbard High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Hubbard High School\n\nMore info: https://polandbulldogs.bigte
- ams.com/main/event/scid/OH4451495857/eventId/78688177/
+DTSTAMP:20251119T194522Z
+DTSTART:20250823T150000Z
+DTEND:20250823T170000Z
+SUMMARY:Cross Country: @ Billy Goat Invitational
+LOCATION:Away - Woodland Park
+DESCRIPTION:Billy Goat Invitational\n\nMore info: https://polandbulldogs.b
+ igteams.com/main/event/scid/OH4451495857/eventId/79890181/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78688177/
+ 5857/eventId/79890181/
 END:VEVENT
 BEGIN:VEVENT
-UID:2811d438-8698-4b50-a544-5bfb96c9e2d5
+UID:d8c42590-944d-4f66-bd44-635b4b9a2cfa
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250825T233000Z
-DTEND:20250826T013000Z
-SUMMARY:Girls Soccer: vs Hubbard High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Hubbard High School\n\nMore info: https://polandbulldogs.bigte
- ams.com/main/event/scid/OH4451495857/eventId/78688183/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78688183/
-END:VEVENT
-BEGIN:VEVENT
-UID:e189cc34-5a79-47c7-9f9b-f0ca0d433415
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
 DTSTART:20250826T130000Z
 DTEND:20250826T150000Z
 SUMMARY:Girls Golf: @ South Range High School
@@ -212,9 +277,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79780665/
 END:VEVENT
 BEGIN:VEVENT
-UID:72b7cd68-b92e-4385-8904-8056fe594899
+UID:70abbc7f-cf2c-4b2b-91d7-a4e988605547
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
+DTSTART:20250826T204500Z
+DTEND:20250826T224500Z
+SUMMARY:Cross Country: @ East Palestine HS
+LOCATION:Away - East Palestine City Park
+DESCRIPTION:East Palestine HS\n\nMore info: https://polandbulldogs.bigteam
+ s.com/main/event/scid/OH4451495857/eventId/79890182/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79890182/
+END:VEVENT
+BEGIN:VEVENT
+UID:dd18e582-2b3d-408e-ae75-e5134a25b4f8
+SEQUENCE:0
+DTSTAMP:20251119T194522Z
 DTSTART:20250828T120000Z
 DTEND:20250828T140000Z
 SUMMARY:Girls Golf: vs South Range High School
@@ -225,35 +303,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79780674/
 END:VEVENT
 BEGIN:VEVENT
-UID:cf226140-5a5d-4e5c-bb53-833308789943
+UID:6b32bcf6-3961-47af-bb83-33600b95c716
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250828T213000Z
-DTEND:20250828T233000Z
-SUMMARY:Boys Soccer: @ Niles McKinley High School
-LOCATION:Away - Niles McKinley High School
-DESCRIPTION:Niles McKinley High School\n\nMore info: https://polandbulldog
- s.bigteams.com/main/event/scid/OH4451495857/eventId/78688188/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78688188/
-END:VEVENT
-BEGIN:VEVENT
-UID:e514bbec-2762-43bf-8f7a-0bb667b16e6e
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250828T233000Z
-DTEND:20250829T013000Z
-SUMMARY:Girls Soccer: @ Niles McKinley High School
-LOCATION:Away - Niles McKinley High School
-DESCRIPTION:Niles McKinley High School\n\nMore info: https://polandbulldog
- s.bigteams.com/main/event/scid/OH4451495857/eventId/78688193/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78688193/
-END:VEVENT
-BEGIN:VEVENT
-UID:093423f2-5ab8-44e9-b80a-b13de53c45ed
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
 DTSTART:20250829T230000Z
 DTEND:20250830T010000Z
 SUMMARY:Football: vs East High School (Youngstown)
@@ -264,48 +316,35 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/78651286/
 END:VEVENT
 BEGIN:VEVENT
-UID:b6d1f874-eec5-4b0b-a3e5-38c9f5fa3751
+UID:689e1739-eabf-40a3-a1db-6479fb0e631b
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250902T230000Z
-DTEND:20250903T010000Z
-SUMMARY:Boys Soccer: vs Beaver Local HS
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Beaver Local HS\n\nMore info: https://polandbulldogs.bigteams.
- com/main/event/scid/OH4451495857/eventId/78729498/
+DTSTAMP:20251119T194522Z
+DTSTART:20250830T120000Z
+DTEND:20250830T140000Z
+SUMMARY:Cross Country: vs "The List" Race
+LOCATION:Home - Baird Mitchell
+DESCRIPTION:"The List" Race\n\nMore info: https://polandbulldogs.bigteams.
+ com/main/event/scid/OH4451495857/eventId/79890183/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78729498/
+ 5857/eventId/79890183/
 END:VEVENT
 BEGIN:VEVENT
-UID:039b7402-7a41-4e11-a58c-fd340205c2a6
+UID:56f5f927-cb6f-4ceb-8ab8-afaffaffe40f
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250904T230000Z
-DTEND:20250905T010000Z
-SUMMARY:Girls Soccer: vs Struthers High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Struthers High School\n\nMore info: https://polandbulldogs.big
- teams.com/main/event/scid/OH4451495857/eventId/78688208/
+DTSTAMP:20251119T194522Z
+DTSTART:20250902T204500Z
+DTEND:20250902T224500Z
+SUMMARY:Cross Country: vs OPEN
+LOCATION:Home - Poland Township Park
+DESCRIPTION:OPEN\n\nMore info: https://polandbulldogs.bigteams.com/main/ev
+ ent/scid/OH4451495857/eventId/79890186/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78688208/
+ 5857/eventId/79890186/
 END:VEVENT
 BEGIN:VEVENT
-UID:4cdbd7f0-c9bb-439b-9ce5-d0b10b313987
+UID:e0a936f3-7980-422b-af13-cb488ad4d11e
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250904T230000Z
-DTEND:20250905T010000Z
-SUMMARY:Boys Soccer: @ West Branch High School
-LOCATION:Away - West Branch High School
-DESCRIPTION:West Branch High School\n\nMore info: https://polandbulldogs.b
- igteams.com/main/event/scid/OH4451495857/eventId/78691651/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78691651/
-END:VEVENT
-BEGIN:VEVENT
-UID:0905e2f6-39db-4d9e-85fc-c98e8daca4c8
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
 DTSTART:20250905T133000Z
 DTEND:20250905T153000Z
 SUMMARY:Girls Golf: @ Tam O'Shanter Invitational
@@ -316,9 +355,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79781626/
 END:VEVENT
 BEGIN:VEVENT
-UID:a0d7c975-1c88-4140-ae43-dc7e51b72843
+UID:970996c7-90b0-448a-a6f5-78b41be72591
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
 DTSTART:20250905T230000Z
 DTEND:20250906T010000Z
 SUMMARY:Football: vs Field High School
@@ -329,61 +368,35 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79131012/
 END:VEVENT
 BEGIN:VEVENT
-UID:4253ec6f-b2b1-484a-94d4-be9897d91df2
+UID:060efc9c-9526-46d2-b782-d127bf3607b5
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250906T160000Z
-DTEND:20250906T180000Z
-SUMMARY:Boys Soccer: vs Marlington High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Marlington High School\n\nMore info: https://polandbulldogs.bi
- gteams.com/main/event/scid/OH4451495857/eventId/79056902/
+DTSTAMP:20251119T194522Z
+DTSTART:20250906T141000Z
+DTEND:20250906T161000Z
+SUMMARY:Cross Country: @ Walsh Jesuit High School
+LOCATION:Away - Walsh Jesuit High School
+DESCRIPTION:Walsh Jesuit High School\n\nMore info: https://polandbulldogs.
+ bigteams.com/main/event/scid/OH4451495857/eventId/79890188/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79056902/
+ 5857/eventId/79890188/
 END:VEVENT
 BEGIN:VEVENT
-UID:ee480e61-92b2-449b-8f58-76eb0f07dabe
+UID:83cc0c10-c676-4d28-8bc6-433ae0296cd7
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250908T213000Z
-DTEND:20250908T233000Z
-SUMMARY:Boys Soccer: @ Lakeview High School
-LOCATION:Away - Lakeview High School
-DESCRIPTION:Lakeview High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/78688330/
+DTSTAMP:20251119T194522Z
+DTSTART:20250909T204500Z
+DTEND:20250909T224500Z
+SUMMARY:Cross Country: @ OPEN
+LOCATION:Away - Stevens Park
+DESCRIPTION:OPEN\n\nMore info: https://polandbulldogs.bigteams.com/main/ev
+ ent/scid/OH4451495857/eventId/79890192/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78688330/
+ 5857/eventId/79890192/
 END:VEVENT
 BEGIN:VEVENT
-UID:fc3378bb-fa10-43c3-aae5-70a41d0bbc88
+UID:00489eac-d6b1-4cc5-bc33-6a200f4075cc
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250908T233000Z
-DTEND:20250909T013000Z
-SUMMARY:Girls Soccer: @ Lakeview High School
-LOCATION:Away - Lakeview High School
-DESCRIPTION:Lakeview High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/78688343/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78688343/
-END:VEVENT
-BEGIN:VEVENT
-UID:d1b599d7-de56-4e80-b338-40db439af0e6
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250910T224500Z
-DTEND:20250911T004500Z
-SUMMARY:Girls Soccer: @ St. Vincent-St. Mary H.S.
-LOCATION:Away - St. Vincent-St. Mary H.S.
-DESCRIPTION:St. Vincent-St. Mary H.S.\n\nMore info: https://polandbulldogs
- .bigteams.com/main/event/scid/OH4451495857/eventId/78833880/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78833880/
-END:VEVENT
-BEGIN:VEVENT
-UID:ea877df9-8ef3-4982-8a4c-d586dc998d6d
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
 DTSTART:20250911T123000Z
 DTEND:20250911T143000Z
 SUMMARY:Girls Golf: @ Hubbard High School
@@ -394,22 +407,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79761939/
 END:VEVENT
 BEGIN:VEVENT
-UID:0adcf163-faa4-48b8-b3e8-5e6959b2b5cc
+UID:cf2981d6-3d34-4476-85e5-f78f2f576e1d
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250911T230000Z
-DTEND:20250912T010000Z
-SUMMARY:Boys Soccer: @ Salem Jr/Sr High School
-LOCATION:Away - Salem Jr/Sr High School
-DESCRIPTION:Salem Jr/Sr High School\n\nMore info: https://polandbulldogs.b
- igteams.com/main/event/scid/OH4451495857/eventId/78681689/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78681689/
-END:VEVENT
-BEGIN:VEVENT
-UID:7828692f-a2f9-4884-94cd-035d9634a409
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
 DTSTART:20250912T230000Z
 DTEND:20250913T010000Z
 SUMMARY:Football: vs Canfield High School
@@ -420,22 +420,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/78626033/
 END:VEVENT
 BEGIN:VEVENT
-UID:401eeb79-1d96-4285-a3e8-b6d52c9cecc7
+UID:bc2036ce-68c6-4a53-8b3f-fcf9db86c44e
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250913T160000Z
-DTEND:20250913T180000Z
-SUMMARY:Girls Soccer: vs West Branch High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:West Branch High School\n\nMore info: https://polandbulldogs.b
- igteams.com/main/event/scid/OH4451495857/eventId/78691626/
+DTSTAMP:20251119T194522Z
+DTSTART:20250913T140000Z
+DTEND:20250913T160000Z
+SUMMARY:Cross Country: @ Boardman Spartan Invitational
+LOCATION:Away - Boardman High School
+DESCRIPTION:Boardman Spartan Invitational\n\nMore info: https://polandbull
+ dogs.bigteams.com/main/event/scid/OH4451495857/eventId/79890195/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78691626/
+ 5857/eventId/79890195/
 END:VEVENT
 BEGIN:VEVENT
-UID:4f2d8989-d453-49e0-9dc4-a159b6d85c14
+UID:8dd7fbe0-a79d-43f1-8ad6-069bca732b85
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
 DTSTART:20250915T170000Z
 DTEND:20250915T190000Z
 SUMMARY:Girls Golf: @
@@ -446,9 +446,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79861989/
 END:VEVENT
 BEGIN:VEVENT
-UID:1bd6a8d7-e8ad-440e-9b92-c31faf15fbab
+UID:b4a5487b-5978-4596-b21f-17bbc52ae5dd
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
 DTSTART:20250915T170000Z
 DTEND:20250915T190000Z
 SUMMARY:Girls Golf: @
@@ -459,61 +459,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79861989/
 END:VEVENT
 BEGIN:VEVENT
-UID:0e9bb5ad-8484-40b0-b8d3-8bcccb9f3593
+UID:07c2083f-badd-4227-b238-6be9d87fc525
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250915T213000Z
-DTEND:20250915T233000Z
-SUMMARY:Boys Soccer: vs South Range High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:South Range High School\n\nMore info: https://polandbulldogs.b
- igteams.com/main/event/scid/OH4451495857/eventId/78688357/
+DTSTAMP:20251119T194522Z
+DTSTART:20250916T204500Z
+DTEND:20250916T224500Z
+SUMMARY:Cross Country: @ Suburban Championship
+LOCATION:Away - Canfield Fairgrounds
+DESCRIPTION:Suburban Championship\n\nMore info: https://polandbulldogs.big
+ teams.com/main/event/scid/OH4451495857/eventId/79890201/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78688357/
+ 5857/eventId/79890201/
 END:VEVENT
 BEGIN:VEVENT
-UID:62e7b7e8-79f2-4dbb-8525-a74cc62e0829
+UID:c8ce347a-3b0e-4537-aeb3-fd1839e64e8a
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250915T233000Z
-DTEND:20250916T013000Z
-SUMMARY:Girls Soccer: vs South Range High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:South Range High School\n\nMore info: https://polandbulldogs.b
- igteams.com/main/event/scid/OH4451495857/eventId/78688924/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78688924/
-END:VEVENT
-BEGIN:VEVENT
-UID:d8518b84-1d87-43dc-acfd-ec9586c44636
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250918T213000Z
-DTEND:20250918T233000Z
-SUMMARY:Girls Soccer: @ Girard Jr/Sr HS
-LOCATION:Away - Girard Jr/Sr HS
-DESCRIPTION:Girard Jr/Sr HS\n\nMore info: https://polandbulldogs.bigteams.
- com/main/event/scid/OH4451495857/eventId/78688937/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78688937/
-END:VEVENT
-BEGIN:VEVENT
-UID:32d3630c-a22e-40a1-8fb5-efec2eb09380
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250918T231500Z
-DTEND:20250919T011500Z
-SUMMARY:Boys Soccer: @ Girard Jr/Sr HS
-LOCATION:Away - Girard Jr/Sr HS
-DESCRIPTION:Girard Jr/Sr HS\n\nMore info: https://polandbulldogs.bigteams.
- com/main/event/scid/OH4451495857/eventId/78689428/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78689428/
-END:VEVENT
-BEGIN:VEVENT
-UID:e9974194-6ca0-4016-815e-a10ac04113d6
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
 DTSTART:20250919T230000Z
 DTEND:20250920T010000Z
 SUMMARY:Football: @ Hubbard High School
@@ -524,22 +485,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/78626039/
 END:VEVENT
 BEGIN:VEVENT
-UID:3cae77d0-cbac-415b-9746-4f9181b7a23c
+UID:8b27f3d4-2489-4a65-aba0-fc7d531b569f
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250920T160000Z
-DTEND:20250920T180000Z
-SUMMARY:Girls Soccer: @ Boardman High School
-LOCATION:Away - Boardman High School
-DESCRIPTION:Boardman High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/78953399/
+DTSTAMP:20251119T194522Z
+DTSTART:20250920T233000Z
+DTEND:20250921T013000Z
+SUMMARY:Cross Country: @ OPEN
+LOCATION:Away - Malone College
+DESCRIPTION:OPEN\n\nMore info: https://polandbulldogs.bigteams.com/main/ev
+ ent/scid/OH4451495857/eventId/79890207/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78953399/
+ 5857/eventId/79890207/
 END:VEVENT
 BEGIN:VEVENT
-UID:40cfc026-f7c0-475b-bbe8-3f526502122e
+UID:4369ae4a-2fae-485d-a83a-3665861f9da8
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
 DTSTART:20250922T200000Z
 DTEND:20250922T220000Z
 SUMMARY:Girls Golf: @ Lakeview High School
@@ -550,35 +511,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80173844/
 END:VEVENT
 BEGIN:VEVENT
-UID:981b49dc-1c46-4aff-9b55-1d4519df67b5
+UID:9f36101c-a9b3-43f0-9b3e-f7abb4339d58
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250922T210000Z
-DTEND:20250922T230000Z
-SUMMARY:Girls Soccer: @ Hubbard High School
-LOCATION:Away - Hubbard High School
-DESCRIPTION:Hubbard High School\n\nMore info: https://polandbulldogs.bigte
- ams.com/main/event/scid/OH4451495857/eventId/78689434/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78689434/
-END:VEVENT
-BEGIN:VEVENT
-UID:7a8c7759-7fb8-45d1-acf2-83dec9971852
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250922T230000Z
-DTEND:20250923T010000Z
-SUMMARY:Boys Soccer: @ Hubbard High School
-LOCATION:Away - Hubbard High School
-DESCRIPTION:Hubbard High School\n\nMore info: https://polandbulldogs.bigte
- ams.com/main/event/scid/OH4451495857/eventId/78689458/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78689458/
-END:VEVENT
-BEGIN:VEVENT
-UID:eae0ed2e-7308-442c-bfa5-81e498060ef1
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
 DTSTART:20250923T203000Z
 DTEND:20250923T223000Z
 SUMMARY:Girls Golf: vs  Senior Night
@@ -589,9 +524,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80173877/
 END:VEVENT
 BEGIN:VEVENT
-UID:3ab11e36-2da2-4d5f-a6f5-e764ba66f7f5
+UID:3afcb191-f9bb-47f5-a328-d6a85554e8ab
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
+DTSTART:20250924T204500Z
+DTEND:20250924T224500Z
+SUMMARY:Cross Country: @ Mahoning County Meet
+LOCATION:Away - Austintown Township Park
+DESCRIPTION:Mahoning County Meet\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/79890212/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79890212/
+END:VEVENT
+BEGIN:VEVENT
+UID:27847321-8ff3-4f04-b863-7e949481a651
+SEQUENCE:0
+DTSTAMP:20251119T194522Z
 DTSTART:20250925T120000Z
 DTEND:20250925T140000Z
 SUMMARY:Girls Golf: @ Sectionals
@@ -602,35 +550,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80173883/
 END:VEVENT
 BEGIN:VEVENT
-UID:3044bcd1-2a3a-4adc-85e3-b4e4dc17f3cf
+UID:7a6e7e64-740b-40c3-ae9f-fb4baab47793
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250925T213000Z
-DTEND:20250925T233000Z
-SUMMARY:Girls Soccer: vs Niles McKinley High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Niles McKinley High School\n\nMore info: https://polandbulldog
- s.bigteams.com/main/event/scid/OH4451495857/eventId/78689472/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78689472/
-END:VEVENT
-BEGIN:VEVENT
-UID:72259ad7-e716-471f-9aa1-62b333c955a8
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250925T233000Z
-DTEND:20250926T013000Z
-SUMMARY:Boys Soccer: vs Niles McKinley High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Travel Night\n\nMore info: https://polandbulldogs.bigteams.com
- /main/event/scid/OH4451495857/eventId/78689492/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78689492/
-END:VEVENT
-BEGIN:VEVENT
-UID:63c308c0-1302-4208-9ae2-5e41a826843c
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
 DTSTART:20250926T230000Z
 DTEND:20250927T010000Z
 SUMMARY:Football: vs South Range High School
@@ -641,61 +563,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/78626049/
 END:VEVENT
 BEGIN:VEVENT
-UID:16bc796f-ef53-4e54-9128-6e8867ed1429
+UID:46a524b5-20e1-4603-abb6-b5d32db0f900
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250929T230000Z
-DTEND:20250930T010000Z
-SUMMARY:Girls Soccer: @ Struthers High School
-LOCATION:Away - Struthers High School
-DESCRIPTION:Struthers High School\n\nMore info: https://polandbulldogs.big
- teams.com/main/event/scid/OH4451495857/eventId/78689499/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78689499/
-END:VEVENT
-BEGIN:VEVENT
-UID:e9398e63-53da-4b2d-aa93-67bdd6e365f7
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20250930T220000Z
-DTEND:20251001T000000Z
-SUMMARY:Boys Soccer: @ Champion High School
-LOCATION:Away - Champion High School
-DESCRIPTION:Champion High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/78758357/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78758357/
-END:VEVENT
-BEGIN:VEVENT
-UID:670a5672-d26d-4c71-8d0c-4fc1feb84d0d
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20251002T213000Z
-DTEND:20251002T233000Z
-SUMMARY:Girls Soccer: vs Lakeview High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Senior Night\n\nMore info: https://polandbulldogs.bigteams.com
- /main/event/scid/OH4451495857/eventId/78689516/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78689516/
-END:VEVENT
-BEGIN:VEVENT
-UID:27901d01-edf0-488f-922d-a83806beb4ff
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20251002T233000Z
-DTEND:20251003T013000Z
-SUMMARY:Boys Soccer: vs Lakeview High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Senior Night\n\nMore info: https://polandbulldogs.bigteams.com
- /main/event/scid/OH4451495857/eventId/78689663/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78689663/
-END:VEVENT
-BEGIN:VEVENT
-UID:37b98fbd-8b99-4d8d-b38c-3394d4321212
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194522Z
 DTSTART:20251003T230000Z
 DTEND:20251004T010000Z
 SUMMARY:Football: @ Niles McKinley High School
@@ -706,48 +576,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/78626052/
 END:VEVENT
 BEGIN:VEVENT
-UID:164cbbe7-dd35-43d4-b8c2-92c7c0082e80
+UID:16c2bae6-80b0-40e3-8197-9d27d957f168
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20251006T230000Z
-DTEND:20251007T010000Z
-SUMMARY:Girls Soccer: @ Canfield High School
-LOCATION:Away - Canfield High School
-DESCRIPTION:Canfield High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/78671791/
+DTSTAMP:20251119T194522Z
+DTSTART:20251004T150000Z
+DTEND:20251004T170000Z
+SUMMARY:Cross Country: @ Legends Invite
+LOCATION:Away - Trumbull County Fairgrounds
+DESCRIPTION:Legends Invite\n\nMore info: https://polandbulldogs.bigteams.c
+ om/main/event/scid/OH4451495857/eventId/79890218/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78671791/
+ 5857/eventId/79890218/
 END:VEVENT
 BEGIN:VEVENT
-UID:159e9c9c-ace0-459c-83c5-0e9d4cd22f5d
+UID:fe00bf9c-3709-443b-a247-60109f862eb8
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20251008T213000Z
-DTEND:20251008T233000Z
-SUMMARY:Girls Soccer: @ South Range High School
-LOCATION:Away - South Range High School
-DESCRIPTION:South Range High School\n\nMore info: https://polandbulldogs.b
- igteams.com/main/event/scid/OH4451495857/eventId/78689672/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78689672/
-END:VEVENT
-BEGIN:VEVENT
-UID:145d281b-36cd-463e-8938-b4c206af30cc
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20251008T231500Z
-DTEND:20251009T011500Z
-SUMMARY:Boys Soccer: @ South Range High School
-LOCATION:Away - South Range High School
-DESCRIPTION:South Range High School\n\nMore info: https://polandbulldogs.b
- igteams.com/main/event/scid/OH4451495857/eventId/78689685/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78689685/
-END:VEVENT
-BEGIN:VEVENT
-UID:501b572a-441b-4a05-bf0d-6e45a7407ba4
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20251010T230000Z
 DTEND:20251011T010000Z
 SUMMARY:Football: @ Girard Jr/Sr HS
@@ -758,35 +602,35 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/78626058/
 END:VEVENT
 BEGIN:VEVENT
-UID:dab8fdd7-3634-4d41-92ea-c99f0ccc3a6f
+UID:8be0ae3b-646b-41e2-b6c5-71cbb0760755
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20251013T233000Z
-DTEND:20251014T013000Z
-SUMMARY:Boys Soccer: vs Canfield High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Canfield High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/78671800/
+DTSTAMP:20251119T194523Z
+DTSTART:20251011T140000Z
+DTEND:20251011T160000Z
+SUMMARY:Cross Country: @ NE8 Championship
+LOCATION:Away - NE8 Championship
+DESCRIPTION:NE8 Championship\n\nMore info: https://polandbulldogs.bigteams
+ .com/main/event/scid/OH4451495857/eventId/79890235/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/78671800/
+ 5857/eventId/79890235/
 END:VEVENT
 BEGIN:VEVENT
-UID:9898eef8-3be3-4b01-b4a5-a2ea8bc6caf1
+UID:7ab2ea65-551d-4b97-b101-6c8c016db188
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20251015T230000Z
-DTEND:20251016T010000Z
-SUMMARY:Boys Soccer: vs Conneaut High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Sectional Tournament\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/80249038/
+DTSTAMP:20251119T194523Z
+DTSTART:20251011T220000Z
+DTEND:20251012T000000Z
+SUMMARY:Cross Country: vs Zombie Run
+LOCATION:Home - Poland Township Park
+DESCRIPTION:Zombie Run\n\nMore info: https://polandbulldogs.bigteams.com/m
+ ain/event/scid/OH4451495857/eventId/79890246/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80249038/
+ 5857/eventId/79890246/
 END:VEVENT
 BEGIN:VEVENT
-UID:6c98838e-5bcd-417f-9e7e-7e2ff6738c54
+UID:68b74da6-6314-4055-ae5b-b669f292ba6b
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20251017T230000Z
 DTEND:20251018T010000Z
 SUMMARY:Football: vs Lakeview High School
@@ -797,35 +641,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/78626065/
 END:VEVENT
 BEGIN:VEVENT
-UID:8adf0d89-a4bf-4884-a2ca-86cedc5fb794
+UID:8b3848f5-4b47-4ef9-8068-2793fad95358
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20251021T230000Z
-DTEND:20251022T010000Z
-SUMMARY:Girls Soccer: vs Girard Jr/Sr HS
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:District Semi-Finals\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/80189748/
+DTSTAMP:20251119T194523Z
+DTSTART:20251018T155000Z
+DTEND:20251018T175000Z
+SUMMARY:Cross Country: @ District Championship
+LOCATION:Away - Glen Oak High School
+DESCRIPTION:District Championship\n\nMore info: https://polandbulldogs.big
+ teams.com/main/event/scid/OH4451495857/eventId/79890254/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80189748/
+ 5857/eventId/79890254/
 END:VEVENT
 BEGIN:VEVENT
-UID:6fadd876-ab27-4f7c-8b6e-6fc036cadc2c
+UID:40671297-a00d-4be8-9aac-d002d4bdb8ab
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20251023T230000Z
-DTEND:20251024T010000Z
-SUMMARY:Boys Soccer: vs Hubbard High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:District Semi Finals\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/80189746/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80189746/
-END:VEVENT
-BEGIN:VEVENT
-UID:786f843a-7142-4b74-8d37-9e788f8d05c4
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20251024T230000Z
 DTEND:20251025T010000Z
 SUMMARY:Football: vs Struthers High School
@@ -836,48 +667,35 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/78626075/
 END:VEVENT
 BEGIN:VEVENT
-UID:3df71fed-313a-48af-acbd-3954c1cb33f0
+UID:faf493af-b895-401a-b02b-96798f25a9a4
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20251025T210000Z
-DTEND:20251025T230000Z
-SUMMARY:Girls Soccer: @ Berkshire High School
-LOCATION:Away - Jefferson High School
-DESCRIPTION:District Championship\n\nMore info: https://polandbulldogs.big
- teams.com/main/event/scid/OH4451495857/eventId/80203118/
+DTSTAMP:20251119T194523Z
+DTSTART:20251025T155000Z
+DTEND:20251025T175000Z
+SUMMARY:Cross Country: @ Regional Championship
+LOCATION:Away - Boardman High School
+DESCRIPTION:Regional Championship\n\nMore info: https://polandbulldogs.big
+ teams.com/main/event/scid/OH4451495857/eventId/79890262/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80203118/
+ 5857/eventId/79890262/
 END:VEVENT
 BEGIN:VEVENT
-UID:62304300-ed0c-401d-8ef9-199668d903dd
+UID:1872287d-8d33-438c-9c6a-205315ba212d
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20251025T230000Z
-DTEND:20251026T010000Z
-SUMMARY:Boys Soccer: @ Cardinal Mooney High School
-LOCATION:Away - Girard High School
-DESCRIPTION:Boys District Championship\n\nMore info: https://polandbulldog
- s.bigteams.com/main/event/scid/OH4451495857/eventId/80319620/
+DTSTAMP:20251119T194523Z
+DTSTART:20251101T155000Z
+DTEND:20251101T175000Z
+SUMMARY:Cross Country: @ State Championship
+LOCATION:Away - Fortress Obetz\, Columbus
+DESCRIPTION:State Championship\n\nMore info: https://polandbulldogs.bigtea
+ ms.com/main/event/scid/OH4451495857/eventId/79890271/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80319620/
+ 5857/eventId/79890271/
 END:VEVENT
 BEGIN:VEVENT
-UID:b4cb6cea-7601-4111-8e21-aef82a83783a
+UID:1d85a114-f588-4cf9-a92a-0dc2ab38e977
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20251028T230000Z
-DTEND:20251029T010000Z
-SUMMARY:Girls Soccer: @ Columbus Academy
-LOCATION:Away - Ashland High School
-DESCRIPTION:Regional Semi Finals\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/80357637/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80357637/
-END:VEVENT
-BEGIN:VEVENT
-UID:2e6cb231-d2e1-401a-92b7-ac0f7688156d
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20251108T000000Z
 DTEND:20251108T020000Z
 SUMMARY:Football: vs Liberty High School
@@ -888,9 +706,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80358577/
 END:VEVENT
 BEGIN:VEVENT
-UID:86b1be66-438d-4b11-839e-891a0746f650
+UID:51737a9f-d9d8-484c-a698-56af5fe17276
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20251115T000000Z
 DTEND:20251115T020000Z
 SUMMARY:Football: @ Girard Jr/Sr HS
@@ -901,9 +719,596 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80432456/
 END:VEVENT
 BEGIN:VEVENT
-UID:6efa39b3-0a1c-42ef-b969-f92cbd31ce52
+UID:78485867-037e-405e-b9ef-4b69b315cdd3
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART;VALUE=DATE:20250805
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:Boys Golf: @ South Range High School
+LOCATION:Away - The Links
+DESCRIPTION:and Lakeview\n\nMore info: https://polandbulldogs.bigteams.com
+ /main/event/scid/OH4451495857/eventId/79862582/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79862582/
+END:VEVENT
+BEGIN:VEVENT
+UID:70eb9883-507a-465d-aa55-2884dffa6423
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250813T200000Z
+DTEND:20250813T220000Z
+SUMMARY:Girls Tennis: vs Niles McKinley High School
+LOCATION:Home - PSHS Tennis Courts
+DESCRIPTION:Niles McKinley High School\n\nMore info: https://polandbulldog
+ s.bigteams.com/main/event/scid/OH4451495857/eventId/79925615/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79925615/
+END:VEVENT
+BEGIN:VEVENT
+UID:3741d52d-9dc4-4c8e-99f1-3a81cda81679
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250814T200000Z
+DTEND:20250814T220000Z
+SUMMARY:Girls Tennis: @ Liberty High School
+LOCATION:Away - Liberty High School
+DESCRIPTION:Liberty High School\n\nMore info: https://polandbulldogs.bigte
+ ams.com/main/event/scid/OH4451495857/eventId/79925619/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79925619/
+END:VEVENT
+BEGIN:VEVENT
+UID:3b9747ba-1765-4be3-b69f-6938e9ef3aae
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250815T200000Z
+DTEND:20250815T220000Z
+SUMMARY:Girls Tennis: @ Girard Jr/Sr HS
+LOCATION:Away - Girard Jr/Sr HS
+DESCRIPTION:Girard Jr/Sr HS\n\nMore info: https://polandbulldogs.bigteams.
+ com/main/event/scid/OH4451495857/eventId/79925623/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79925623/
+END:VEVENT
+BEGIN:VEVENT
+UID:b0795552-8034-4a40-aed1-7fc0ea7887f9
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250818T233000Z
+DTEND:20250819T013000Z
+SUMMARY:Girls Soccer: vs Howland High School
+LOCATION:Home - Dave Pavlansky Field
+DESCRIPTION:Howland High School\n\nMore info: https://polandbulldogs.bigte
+ ams.com/main/event/scid/OH4451495857/eventId/78669148/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/78669148/
+END:VEVENT
+BEGIN:VEVENT
+UID:bfa260f9-a61a-4109-bc7d-3d8fd75a656c
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250821T200000Z
+DTEND:20250821T220000Z
+SUMMARY:Girls Tennis: @ Canfield High School
+LOCATION:Away - Canfield High School
+DESCRIPTION:Canfield High School\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/79925629/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79925629/
+END:VEVENT
+BEGIN:VEVENT
+UID:32ca5043-26b9-49fd-9a9a-4f06b82fcb69
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250821T233000Z
+DTEND:20250822T013000Z
+SUMMARY:Girls Soccer: vs Girard Jr/Sr HS
+LOCATION:Home - Dave Pavlansky Field
+DESCRIPTION:Girard Jr/Sr HS\n\nMore info: https://polandbulldogs.bigteams.
+ com/main/event/scid/OH4451495857/eventId/78688165/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/78688165/
+END:VEVENT
+BEGIN:VEVENT
+UID:233391df-b5c1-41e4-b771-763f77952542
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250825T200000Z
+DTEND:20250825T220000Z
+SUMMARY:Girls Tennis: vs Struthers High School
+LOCATION:Home - PSHS Tennis Courts
+DESCRIPTION:Struthers High School\n\nMore info: https://polandbulldogs.big
+ teams.com/main/event/scid/OH4451495857/eventId/79925631/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79925631/
+END:VEVENT
+BEGIN:VEVENT
+UID:f7066b07-966f-4f26-bd3b-04bd45b15865
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250825T233000Z
+DTEND:20250826T013000Z
+SUMMARY:Girls Soccer: vs Hubbard High School
+LOCATION:Home - Dave Pavlansky Field
+DESCRIPTION:Hubbard High School\n\nMore info: https://polandbulldogs.bigte
+ ams.com/main/event/scid/OH4451495857/eventId/78688183/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/78688183/
+END:VEVENT
+BEGIN:VEVENT
+UID:af023faf-2c6b-426b-8b27-96e821160497
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250826T200000Z
+DTEND:20250826T220000Z
+SUMMARY:Girls Tennis: @ Lakeview High School
+LOCATION:Away - Lakeview High School
+DESCRIPTION:Lakeview High School\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/80011982/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80011982/
+END:VEVENT
+BEGIN:VEVENT
+UID:3bf9e4aa-5d55-4330-9b88-f1f622cb16e6
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250826T210000Z
+DTEND:20250826T230000Z
+SUMMARY:Boys Golf: @ Hubbard High School
+LOCATION:Away - Pine Lakes
+DESCRIPTION:Hubbard High School\n\nMore info: https://polandbulldogs.bigte
+ ams.com/main/event/scid/OH4451495857/eventId/79863128/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79863128/
+END:VEVENT
+BEGIN:VEVENT
+UID:095cdb48-2901-4094-a1e8-f249c5b94c75
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250827T200000Z
+DTEND:20250827T220000Z
+SUMMARY:Girls Tennis: vs Boardman High School
+LOCATION:Home - PSHS Tennis Courts
+DESCRIPTION:Boardman High School\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/79925633/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79925633/
+END:VEVENT
+BEGIN:VEVENT
+UID:083e5529-5cac-4a0c-a2ab-20fa23af3d8d
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250828T193000Z
+DTEND:20250828T213000Z
+SUMMARY:Boys Golf: @ Niles McKinley High School
+LOCATION:Away - Old Avalon
+DESCRIPTION:Niles McKinley High School\n\nMore info: https://polandbulldog
+ s.bigteams.com/main/event/scid/OH4451495857/eventId/79863859/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79863859/
+END:VEVENT
+BEGIN:VEVENT
+UID:9c72caab-a07d-42ca-88ca-87d64979baa3
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250828T233000Z
+DTEND:20250829T013000Z
+SUMMARY:Girls Soccer: @ Niles McKinley High School
+LOCATION:Away - Niles McKinley High School
+DESCRIPTION:Niles McKinley High School\n\nMore info: https://polandbulldog
+ s.bigteams.com/main/event/scid/OH4451495857/eventId/78688193/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/78688193/
+END:VEVENT
+BEGIN:VEVENT
+UID:aef055e0-0d43-406e-afb2-c6112e0a9a0c
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250902T200000Z
+DTEND:20250902T220000Z
+SUMMARY:Girls Tennis: vs Liberty High School
+LOCATION:Home - PSHS Tennis Courts
+DESCRIPTION:Liberty High School\n\nMore info: https://polandbulldogs.bigte
+ ams.com/main/event/scid/OH4451495857/eventId/79925637/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79925637/
+END:VEVENT
+BEGIN:VEVENT
+UID:87bb3c32-79a0-4453-8a13-87b1b9d01612
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250903T193000Z
+DTEND:20250903T213000Z
+SUMMARY:Boys Golf: @ Shenango High School
+LOCATION:Away - Sylvan Heights Golf Course
+DESCRIPTION:Shenango High School\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/80055437/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80055437/
+END:VEVENT
+BEGIN:VEVENT
+UID:5b9da72f-6617-40b9-bea6-dca2fd896242
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250904T200000Z
+DTEND:20250904T220000Z
+SUMMARY:Boys Golf: @ Girard Jr/Sr HS
+LOCATION:Away - Mahoning CC
+DESCRIPTION:Girard Jr/Sr HS\n\nMore info: https://polandbulldogs.bigteams.
+ com/main/event/scid/OH4451495857/eventId/79863359/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79863359/
+END:VEVENT
+BEGIN:VEVENT
+UID:5b873574-0721-41ea-b918-c9903a652403
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250904T230000Z
+DTEND:20250905T010000Z
+SUMMARY:Girls Soccer: vs Struthers High School
+LOCATION:Home - Dave Pavlansky Field
+DESCRIPTION:Struthers High School\n\nMore info: https://polandbulldogs.big
+ teams.com/main/event/scid/OH4451495857/eventId/78688208/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/78688208/
+END:VEVENT
+BEGIN:VEVENT
+UID:f3dcb22a-fcd4-481d-aadc-411ed8c57687
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250907T170000Z
+DTEND:20250907T190000Z
+SUMMARY:Boys Golf: @ Kiely Cup
+LOCATION:Away - Canterbury Golf Club Inc
+DESCRIPTION:Kiely Cup\n\nMore info: https://polandbulldogs.bigteams.com/ma
+ in/event/scid/OH4451495857/eventId/79863601/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79863601/
+END:VEVENT
+BEGIN:VEVENT
+UID:413276e9-ac34-4f1e-8e38-187c58490563
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250908T130000Z
+DTEND:20250908T150000Z
+SUMMARY:Boys Golf: @ Kiely Cup
+LOCATION:Away - Canterbury Golf Club Inc
+DESCRIPTION:Kiely Cup\n\nMore info: https://polandbulldogs.bigteams.com/ma
+ in/event/scid/OH4451495857/eventId/79863605/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79863605/
+END:VEVENT
+BEGIN:VEVENT
+UID:d3b7a63d-d2e8-416f-87b3-6985016ff923
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250908T203000Z
+DTEND:20250908T223000Z
+SUMMARY:Girls Tennis: @ Niles McKinley High School
+LOCATION:Away - Niles McKinley High School
+DESCRIPTION:Niles McKinley High School\n\nMore info: https://polandbulldog
+ s.bigteams.com/main/event/scid/OH4451495857/eventId/79925643/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79925643/
+END:VEVENT
+BEGIN:VEVENT
+UID:b4b46a4f-d5a6-4576-a1d7-bfb419f3a54c
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250908T233000Z
+DTEND:20250909T013000Z
+SUMMARY:Girls Soccer: @ Lakeview High School
+LOCATION:Away - Lakeview High School
+DESCRIPTION:Lakeview High School\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/78688343/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/78688343/
+END:VEVENT
+BEGIN:VEVENT
+UID:7deaff7a-ec80-43be-ba08-7b0b81fddfac
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250910T120000Z
+DTEND:20250910T140000Z
+SUMMARY:Boys Golf: @ Lakeview High School
+LOCATION:Away - Squaw Creek
+DESCRIPTION:NE8 Championship\n\nMore info: https://polandbulldogs.bigteams
+ .com/main/event/scid/OH4451495857/eventId/79394513/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79394513/
+END:VEVENT
+BEGIN:VEVENT
+UID:8826a4e6-ee00-4aed-99bb-a9cfd676899d
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250910T200000Z
+DTEND:20250910T220000Z
+SUMMARY:Girls Tennis: vs Girard Jr/Sr HS
+LOCATION:Home - PSHS Tennis Courts
+DESCRIPTION:Girard Jr/Sr HS\n\nMore info: https://polandbulldogs.bigteams.
+ com/main/event/scid/OH4451495857/eventId/79925660/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79925660/
+END:VEVENT
+BEGIN:VEVENT
+UID:0c27e6c7-131d-4ec9-be06-672c95651d42
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250910T224500Z
+DTEND:20250911T004500Z
+SUMMARY:Girls Soccer: @ St. Vincent-St. Mary H.S.
+LOCATION:Away - St. Vincent-St. Mary H.S.
+DESCRIPTION:St. Vincent-St. Mary H.S.\n\nMore info: https://polandbulldogs
+ .bigteams.com/main/event/scid/OH4451495857/eventId/78833880/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/78833880/
+END:VEVENT
+BEGIN:VEVENT
+UID:e66a10c0-1c00-4b5e-8e6e-956bc236d393
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250913T160000Z
+DTEND:20250913T180000Z
+SUMMARY:Girls Soccer: vs West Branch High School
+LOCATION:Home - Dave Pavlansky Field
+DESCRIPTION:West Branch High School\n\nMore info: https://polandbulldogs.b
+ igteams.com/main/event/scid/OH4451495857/eventId/78691626/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/78691626/
+END:VEVENT
+BEGIN:VEVENT
+UID:2b58b5c2-0692-4852-9b0d-2ab4b09512f3
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250915T200000Z
+DTEND:20250915T220000Z
+SUMMARY:Girls Tennis: vs Lakeview High School
+LOCATION:Home - PSHS Tennis Courts
+DESCRIPTION:Senior NIght\n\nMore info: https://polandbulldogs.bigteams.com
+ /main/event/scid/OH4451495857/eventId/79925662/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79925662/
+END:VEVENT
+BEGIN:VEVENT
+UID:28601f60-48bd-47ed-a90e-5eb80ff7da8a
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250916T190000Z
+DTEND:20250916T210000Z
+SUMMARY:Boys Golf: @ Springfield Local High School
+LOCATION:Away - Bedford Trails Golf Course
+DESCRIPTION:Springfield Local High School\n\nMore info: https://polandbull
+ dogs.bigteams.com/main/event/scid/OH4451495857/eventId/79863614/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79863614/
+END:VEVENT
+BEGIN:VEVENT
+UID:9e55a49a-c35d-478d-bfbe-e22d501d73c5
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250917T203000Z
+DTEND:20250917T223000Z
+SUMMARY:Boys Golf: @ Warren John F. Kennedy Catholic School
+LOCATION:Away - Trumbull CCC
+DESCRIPTION:Warren John F. Kennedy Catholic School\n\nMore info: https://p
+ olandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/80055369/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80055369/
+END:VEVENT
+BEGIN:VEVENT
+UID:a163dfd5-767a-4f8d-9e71-d2f07815e681
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART;VALUE=DATE:20250922
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:Boys Golf: @ Sectionals
+LOCATION:Away - Windmill Lakes
+DESCRIPTION:Sectionals\n\nMore info: https://polandbulldogs.bigteams.com/m
+ ain/event/scid/OH4451495857/eventId/80088291/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80088291/
+END:VEVENT
+BEGIN:VEVENT
+UID:81100459-2c01-4a74-b1d7-2949f5ab1828
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250915T233000Z
+DTEND:20250916T013000Z
+SUMMARY:Girls Soccer: vs South Range High School
+LOCATION:Home - Dave Pavlansky Field
+DESCRIPTION:South Range High School\n\nMore info: https://polandbulldogs.b
+ igteams.com/main/event/scid/OH4451495857/eventId/78688924/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/78688924/
+END:VEVENT
+BEGIN:VEVENT
+UID:e1235f15-8b75-49e9-83dd-6b797d519b07
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250916T200000Z
+DTEND:20250916T220000Z
+SUMMARY:Girls Tennis: @ Boardman High School
+LOCATION:Away - Boardman High School
+DESCRIPTION:Boardman High School\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/79925666/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79925666/
+END:VEVENT
+BEGIN:VEVENT
+UID:1b65f2bb-1e62-464c-9457-dfbf285078ab
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250918T213000Z
+DTEND:20250918T233000Z
+SUMMARY:Girls Soccer: @ Girard Jr/Sr HS
+LOCATION:Away - Girard Jr/Sr HS
+DESCRIPTION:Girard Jr/Sr HS\n\nMore info: https://polandbulldogs.bigteams.
+ com/main/event/scid/OH4451495857/eventId/78688937/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/78688937/
+END:VEVENT
+BEGIN:VEVENT
+UID:fb998d7c-eea0-44e7-acda-24be8eb53b04
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250920T160000Z
+DTEND:20250920T180000Z
+SUMMARY:Girls Soccer: @ Boardman High School
+LOCATION:Away - Boardman High School
+DESCRIPTION:Boardman High School\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/78953399/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/78953399/
+END:VEVENT
+BEGIN:VEVENT
+UID:fa228f22-55e0-4342-a35a-448f01b1a9d1
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250922T210000Z
+DTEND:20250922T230000Z
+SUMMARY:Girls Soccer: @ Hubbard High School
+LOCATION:Away - Hubbard High School
+DESCRIPTION:Hubbard High School\n\nMore info: https://polandbulldogs.bigte
+ ams.com/main/event/scid/OH4451495857/eventId/78689434/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/78689434/
+END:VEVENT
+BEGIN:VEVENT
+UID:db7d97d0-ca59-47bd-8b8f-92e29e43cd8f
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250925T213000Z
+DTEND:20250925T233000Z
+SUMMARY:Girls Soccer: vs Niles McKinley High School
+LOCATION:Home - Dave Pavlansky Field
+DESCRIPTION:Niles McKinley High School\n\nMore info: https://polandbulldog
+ s.bigteams.com/main/event/scid/OH4451495857/eventId/78689472/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/78689472/
+END:VEVENT
+BEGIN:VEVENT
+UID:935357bc-10e9-4b1b-9592-806bc6c7e61c
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250929T230000Z
+DTEND:20250930T010000Z
+SUMMARY:Girls Soccer: @ Struthers High School
+LOCATION:Away - Struthers High School
+DESCRIPTION:Struthers High School\n\nMore info: https://polandbulldogs.big
+ teams.com/main/event/scid/OH4451495857/eventId/78689499/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/78689499/
+END:VEVENT
+BEGIN:VEVENT
+UID:4707b9d1-bdaa-4d7d-b63e-cbc88a14b6d2
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20250930T120000Z
+DTEND:20250930T140000Z
+SUMMARY:Boys Golf: @ Districts
+LOCATION:Away - Windmill Lakes
+DESCRIPTION:Districts\n\nMore info: https://polandbulldogs.bigteams.com/ma
+ in/event/scid/OH4451495857/eventId/80088306/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80088306/
+END:VEVENT
+BEGIN:VEVENT
+UID:2b09ca44-3577-40c4-9bc9-15582140c656
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20251001T200000Z
+DTEND:20251001T220000Z
+SUMMARY:Girls Tennis: @ Struthers High School
+LOCATION:Away - Struthers High School
+DESCRIPTION:Struthers High School\n\nMore info: https://polandbulldogs.big
+ teams.com/main/event/scid/OH4451495857/eventId/80212409/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80212409/
+END:VEVENT
+BEGIN:VEVENT
+UID:891a4b44-c18f-4f1c-8972-2b66eb4e8d34
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20251002T213000Z
+DTEND:20251002T233000Z
+SUMMARY:Girls Soccer: vs Lakeview High School
+LOCATION:Home - Dave Pavlansky Field
+DESCRIPTION:Senior Night\n\nMore info: https://polandbulldogs.bigteams.com
+ /main/event/scid/OH4451495857/eventId/78689516/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/78689516/
+END:VEVENT
+BEGIN:VEVENT
+UID:75f6eae2-f09e-4369-92ea-2738c3aa9424
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20251006T230000Z
+DTEND:20251007T010000Z
+SUMMARY:Girls Soccer: @ Canfield High School
+LOCATION:Away - Canfield High School
+DESCRIPTION:Canfield High School\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/78671791/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/78671791/
+END:VEVENT
+BEGIN:VEVENT
+UID:c6b2ed4c-7779-40a3-b983-72e932159d19
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20251008T213000Z
+DTEND:20251008T233000Z
+SUMMARY:Girls Soccer: @ South Range High School
+LOCATION:Away - South Range High School
+DESCRIPTION:South Range High School\n\nMore info: https://polandbulldogs.b
+ igteams.com/main/event/scid/OH4451495857/eventId/78689672/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/78689672/
+END:VEVENT
+BEGIN:VEVENT
+UID:7b0168bd-70f5-4e9a-9065-fe316c1236e0
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20251021T230000Z
+DTEND:20251022T010000Z
+SUMMARY:Girls Soccer: vs Girard Jr/Sr HS
+LOCATION:Home - Dave Pavlansky Field
+DESCRIPTION:District Semi-Finals\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/80189748/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80189748/
+END:VEVENT
+BEGIN:VEVENT
+UID:9faa9c68-d320-43e7-9f05-a76910729b75
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20251025T210000Z
+DTEND:20251025T230000Z
+SUMMARY:Girls Soccer: @ Berkshire High School
+LOCATION:Away - Jefferson High School
+DESCRIPTION:District Championship\n\nMore info: https://polandbulldogs.big
+ teams.com/main/event/scid/OH4451495857/eventId/80203118/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80203118/
+END:VEVENT
+BEGIN:VEVENT
+UID:e88b8c80-e619-46f8-be94-5c08c62681ef
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20251028T230000Z
+DTEND:20251029T010000Z
+SUMMARY:Girls Soccer: @ Columbus Academy
+LOCATION:Away - Ashland High School
+DESCRIPTION:Regional Semi Finals\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/80357637/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80357637/
+END:VEVENT
+BEGIN:VEVENT
+UID:60e2e490-e8de-40ed-b689-95aaaf95bd14
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20251129T160000Z
 DTEND:20251129T180000Z
 SUMMARY:Swim & Dive: @ OPEN
@@ -914,9 +1319,35 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80191713/
 END:VEVENT
 BEGIN:VEVENT
-UID:8d01b322-48ff-45a4-9bfd-b10b69dd189f
+UID:375097b3-d95e-442b-8219-f1b983089251
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20251201T231500Z
+DTEND:20251202T011500Z
+SUMMARY:Girls Basketball: vs Badger HS
+LOCATION:Home - PSHS FieldHouse
+DESCRIPTION:Badger HS\n\nMore info: https://polandbulldogs.bigteams.com/ma
+ in/event/scid/OH4451495857/eventId/79158315/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79158315/
+END:VEVENT
+BEGIN:VEVENT
+UID:46c5e7ef-c8c1-41f1-8624-be79300680c2
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20251204T231500Z
+DTEND:20251205T011500Z
+SUMMARY:Girls Basketball: @ Champion High School
+LOCATION:Away - Champion High School
+DESCRIPTION:Champion High School\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/79159234/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79159234/
+END:VEVENT
+BEGIN:VEVENT
+UID:e78b8d76-f23d-49e8-997c-1f7d8a841c8f
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20251206T150000Z
 DTEND:20251206T170000Z
 SUMMARY:Boys Wrestling: vs Lakeview High School
@@ -927,9 +1358,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80235918/
 END:VEVENT
 BEGIN:VEVENT
-UID:3aa9628f-2800-4d29-8d0e-96807cc2920a
+UID:5b142da8-6030-4b3c-bbe9-b24c206c35d2
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20251206T170000Z
 DTEND:20251206T190000Z
 SUMMARY:Swim & Dive: @ Hubbard High School
@@ -940,9 +1371,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80191726/
 END:VEVENT
 BEGIN:VEVENT
-UID:0abe8141-c106-4361-b783-1bb08d7fe548
+UID:0572ff97-98ec-46db-9e62-530405ebded4
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20251207T140000Z
 DTEND:20251207T160000Z
 SUMMARY:Girls Wrestling: @ Mike Fording Invitational
@@ -953,9 +1384,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80290146/
 END:VEVENT
 BEGIN:VEVENT
-UID:e1f90df1-d123-4256-9742-ab3307070ed4
+UID:edab3580-9966-474d-b6f2-f18730c02a35
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20251209T000000Z
+DTEND:20251209T020000Z
+SUMMARY:Girls Basketball: vs East High School (Youngstown)
+LOCATION:Home - PSHS FieldHouse
+DESCRIPTION:East High School (Youngstown)\n\nMore info: https://polandbull
+ dogs.bigteams.com/main/event/scid/OH4451495857/eventId/79157475/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79157475/
+END:VEVENT
+BEGIN:VEVENT
+UID:9d6b129d-3a63-4aab-80f9-c6d4ee4cf052
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20251210T000000Z
 DTEND:20251210T020000Z
 SUMMARY:Boys Basketball: vs Boardman High School
@@ -966,9 +1410,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79157105/
 END:VEVENT
 BEGIN:VEVENT
-UID:5efeac60-e1e1-4f3b-9ef4-27772545f3cd
+UID:2cd3949d-b96d-420d-b374-f2d43bc1b985
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20251211T230000Z
+DTEND:20251212T010000Z
+SUMMARY:Girls Basketball: @ Hubbard High School
+LOCATION:Away - Hubbard High School
+DESCRIPTION:Hubbard High School\n\nMore info: https://polandbulldogs.bigte
+ ams.com/main/event/scid/OH4451495857/eventId/79147935/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79147935/
+END:VEVENT
+BEGIN:VEVENT
+UID:6b173b9f-da62-49bd-aa32-1729988f0515
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20251212T230000Z
 DTEND:20251213T010000Z
 SUMMARY:Swim & Dive: @ Salem Jr/Sr High School
@@ -979,9 +1436,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80191727/
 END:VEVENT
 BEGIN:VEVENT
-UID:6347817d-4556-49ea-8aef-1559e53a71f8
+UID:d59cf468-ecea-4e79-93a9-a4ea3ac3a2e7
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20251213T000000Z
 DTEND:20251213T020000Z
 SUMMARY:Boys Basketball: vs Hubbard High School
@@ -992,9 +1449,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79147147/
 END:VEVENT
 BEGIN:VEVENT
-UID:1806d176-ec39-4885-b823-b696ebb8afd4
+UID:99830ba9-67b4-405b-bc78-b5e8f49b7925
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20251213T170000Z
+DTEND:20251213T190000Z
+SUMMARY:Girls Basketball: vs Struthers High School
+LOCATION:Home - PSHS FieldHouse
+DESCRIPTION:UNITED WAY CLASSIC\n\nMore info: https://polandbulldogs.bigtea
+ ms.com/main/event/scid/OH4451495857/eventId/79147140/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79147140/
+END:VEVENT
+BEGIN:VEVENT
+UID:96ee2450-9bd9-4a72-af6c-644d3eabd60b
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20251213T221500Z
 DTEND:20251214T001500Z
 SUMMARY:Boys Basketball: vs Canfield High School
@@ -1005,22 +1475,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79147193/
 END:VEVENT
 BEGIN:VEVENT
-UID:e4e3e435-2407-4996-8a4f-55ac739ed615
+UID:cd7af6c2-cca6-469c-9230-4a38d5ec1aa5
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20251214T150000Z
-DTEND:20251214T170000Z
-SUMMARY:Swim & Dive: @ Ashtabula Invite
-LOCATION:Away - Ashtabula Invite
-DESCRIPTION:Ashtabula Invite\n\nMore info: https://polandbulldogs.bigteams
- .com/main/event/scid/OH4451495857/eventId/80191731/
+DTSTAMP:20251119T194523Z
+DTSTART:20251216T000000Z
+DTEND:20251216T020000Z
+SUMMARY:Girls Basketball: vs Girard Jr/Sr HS
+LOCATION:Home - PSHS FieldHouse
+DESCRIPTION:Girard Jr/Sr HS\n\nMore info: https://polandbulldogs.bigteams.
+ com/main/event/scid/OH4451495857/eventId/79148041/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80191731/
+ 5857/eventId/79148041/
 END:VEVENT
 BEGIN:VEVENT
-UID:83fd7149-073d-4093-8840-3b319d29618d
+UID:cc9c2a08-566f-4428-aeda-3d0dfb908d5e
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20251217T000000Z
 DTEND:20251217T020000Z
 SUMMARY:Boys Basketball: @ Girard Jr/Sr HS
@@ -1031,22 +1501,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79147152/
 END:VEVENT
 BEGIN:VEVENT
-UID:548fb21d-f29e-47ed-af10-e54e4d8675bf
+UID:d0430688-677f-4fbc-8249-29947d580bf9
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20251217T220000Z
-DTEND:20251218T000000Z
-SUMMARY:Swim & Dive: vs Ursuline High School
-LOCATION:Home - YSU
-DESCRIPTION:Dive Senior Night\n\nMore info: https://polandbulldogs.bigteam
- s.com/main/event/scid/OH4451495857/eventId/80191742/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80191742/
-END:VEVENT
-BEGIN:VEVENT
-UID:298faf89-9ea9-4219-864a-021bbcfb7e9e
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20251218T230000Z
 DTEND:20251219T010000Z
 SUMMARY:Boys Wrestling: vs Brookfield HS
@@ -1057,9 +1514,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80235924/
 END:VEVENT
 BEGIN:VEVENT
-UID:190b01be-9f34-4d05-86d6-669aa2bfc880
+UID:f4d7a244-93bd-48fd-ae1c-3c5b9a20d15a
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20251219T000000Z
+DTEND:20251219T020000Z
+SUMMARY:Girls Basketball: @ South Range High School
+LOCATION:Away - South Range High School
+DESCRIPTION:South Range High School\n\nMore info: https://polandbulldogs.b
+ igteams.com/main/event/scid/OH4451495857/eventId/79148076/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79148076/
+END:VEVENT
+BEGIN:VEVENT
+UID:5ccfcc25-41e2-4826-b319-e10887d55762
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20251220T000000Z
 DTEND:20251220T020000Z
 SUMMARY:Boys Basketball: vs South Range High School
@@ -1070,22 +1540,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79147157/
 END:VEVENT
 BEGIN:VEVENT
-UID:1ed8529f-bdab-4501-83f2-a13e27b8a2fb
+UID:f08770c5-76f5-47c0-939f-b0e21e28cd99
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20251220T130000Z
-DTEND:20251220T150000Z
-SUMMARY:Swim & Dive: @ Canton Christmas Invite
-LOCATION:Away - Canton Christmas Invite
-DESCRIPTION:Canton Christmas Invite\n\nMore info: https://polandbulldogs.b
- igteams.com/main/event/scid/OH4451495857/eventId/80191746/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80191746/
-END:VEVENT
-BEGIN:VEVENT
-UID:f06244f6-38bb-41c3-a521-d57753a42a0e
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20251220T140000Z
 DTEND:20251220T160000Z
 SUMMARY:Boys Wrestling: @ Beaver Local HS
@@ -1096,9 +1553,48 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80235940/
 END:VEVENT
 BEGIN:VEVENT
-UID:977e4b28-ffbe-435c-96a2-4033b93549c7
+UID:d05c4669-8bd2-4ab8-9431-160f2929de60
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20251220T173000Z
+DTEND:20251220T193000Z
+SUMMARY:Girls Basketball: @ LaBrae High School
+LOCATION:Away - LaBrae High School
+DESCRIPTION:LaBrae High School\n\nMore info: https://polandbulldogs.bigtea
+ ms.com/main/event/scid/OH4451495857/eventId/79201697/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79201697/
+END:VEVENT
+BEGIN:VEVENT
+UID:1888d1a8-0aec-4c5b-8430-7639d470c8e0
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20251221T150000Z
+DTEND:20251221T170000Z
+SUMMARY:Girls Wrestling: @ Hubbard High School
+LOCATION:Away - Hubbard High School
+DESCRIPTION:Hubbard High School\n\nMore info: https://polandbulldogs.bigte
+ ams.com/main/event/scid/OH4451495857/eventId/80290164/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80290164/
+END:VEVENT
+BEGIN:VEVENT
+UID:418ac23e-2700-4534-a741-fa30929dec1e
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20251223T000000Z
+DTEND:20251223T020000Z
+SUMMARY:Girls Basketball: vs Canfield High School
+LOCATION:Home - PSHS FieldHouse
+DESCRIPTION:Canfield High School\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/79171491/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79171491/
+END:VEVENT
+BEGIN:VEVENT
+UID:7bcfeff7-463f-4ef2-89b1-859c8851ac14
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20251224T000000Z
 DTEND:20251224T020000Z
 SUMMARY:Boys Basketball: @ Salem Jr/Sr High School
@@ -1109,9 +1605,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79185957/
 END:VEVENT
 BEGIN:VEVENT
-UID:6ea1dd41-18db-47ad-8987-7e6d1b23607a
+UID:f890613a-ded5-42c8-9ced-31caea96b22b
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20251228T140000Z
 DTEND:20251228T160000Z
 SUMMARY:Girls Wrestling: @ East Liverpool Tournament
@@ -1122,9 +1618,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80290196/
 END:VEVENT
 BEGIN:VEVENT
-UID:89b6e08b-7ad0-45b5-923b-b34dfa43617f
+UID:dbcb07e4-3e4d-4afd-ba41-09b89d5dd66c
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20251230T000000Z
+DTEND:20251230T020000Z
+SUMMARY:Girls Basketball: @ Salem Jr/Sr High School
+LOCATION:Away - Salem Jr/Sr High School
+DESCRIPTION:Salem Jr/Sr High School\n\nMore info: https://polandbulldogs.b
+ igteams.com/main/event/scid/OH4451495857/eventId/79185988/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79185988/
+END:VEVENT
+BEGIN:VEVENT
+UID:18f95c8d-99f8-468b-a848-2955995a6236
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20251231T000000Z
 DTEND:20251231T020000Z
 SUMMARY:Boys Basketball: @ Canfield High School
@@ -1135,9 +1644,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79171943/
 END:VEVENT
 BEGIN:VEVENT
-UID:143bf6ee-c1da-45be-95de-35c648d59416
+UID:c78d56fe-3b18-4372-a00f-8ba2e344285b
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20260102T190000Z
+DTEND:20260102T210000Z
+SUMMARY:Girls Wrestling: @ Fitch Girls Invitational
+LOCATION:Away - Austintown Fitch High School
+DESCRIPTION:Fitch Girls Invitational\n\nMore info: https://polandbulldogs.
+ bigteams.com/main/event/scid/OH4451495857/eventId/80290215/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80290215/
+END:VEVENT
+BEGIN:VEVENT
+UID:d8553ac7-e00d-45dd-9739-e0e9a5884dab
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20260103T140000Z
 DTEND:20260103T160000Z
 SUMMARY:Boys Wrestling: @ Jackson-Milton Local
@@ -1148,9 +1670,35 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80235961/
 END:VEVENT
 BEGIN:VEVENT
-UID:cc5f19f2-8c80-45e3-9b51-17d23139922d
+UID:3f965fbc-9687-4ea0-b07c-13010c31eb0c
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20260103T171500Z
+DTEND:20260103T191500Z
+SUMMARY:Girls Basketball: vs Brookfield HS
+LOCATION:Home - PSHS FieldHouse
+DESCRIPTION:Brookfield HS\n\nMore info: https://polandbulldogs.bigteams.co
+ m/main/event/scid/OH4451495857/eventId/79330793/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79330793/
+END:VEVENT
+BEGIN:VEVENT
+UID:75b18e4c-3afe-415a-b0ba-c58ebdc862aa
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20260106T000000Z
+DTEND:20260106T020000Z
+SUMMARY:Girls Basketball: vs Lakeview High School
+LOCATION:Home - Fieldhouse
+DESCRIPTION:Lakeview High School\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/79148087/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79148087/
+END:VEVENT
+BEGIN:VEVENT
+UID:7db0a8ec-394c-4832-bbcc-fbf415f122c5
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20260107T000000Z
 DTEND:20260107T020000Z
 SUMMARY:Boys Basketball: @ Lakeview High School
@@ -1161,9 +1709,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79147159/
 END:VEVENT
 BEGIN:VEVENT
-UID:4bd69fb9-25a3-4e55-b0fa-ebf6b6cb3800
+UID:0367be73-7e9a-4232-b8be-b49707518147
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20260109T000000Z
+DTEND:20260109T020000Z
+SUMMARY:Girls Basketball: vs Niles McKinley High School
+LOCATION:Home - PSHS FieldHouse
+DESCRIPTION:Niles McKinley High School\n\nMore info: https://polandbulldog
+ s.bigteams.com/main/event/scid/OH4451495857/eventId/79148095/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79148095/
+END:VEVENT
+BEGIN:VEVENT
+UID:973e19c2-9dca-4cde-90ff-ae496ac1d0dd
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20260110T000000Z
 DTEND:20260110T020000Z
 SUMMARY:Boys Basketball: @ Niles McKinley High School
@@ -1174,9 +1735,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79147161/
 END:VEVENT
 BEGIN:VEVENT
-UID:e36d9325-515f-4797-92ca-7a15b1c16729
+UID:b425e245-f61d-4a7e-8727-636ddb7a093d
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260114T000000Z
 DTEND:20260114T020000Z
 SUMMARY:Boys Basketball: vs East High School (Youngstown)
@@ -1187,9 +1748,35 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79257407/
 END:VEVENT
 BEGIN:VEVENT
-UID:c0dd9d46-3081-40d0-bcda-8c4c89f2bf16
+UID:edb4a553-5f83-4896-b6ca-13cb1ffb940a
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20260114T230000Z
+DTEND:20260115T010000Z
+SUMMARY:Boys Wrestling: vs Salem Jr/Sr High School
+LOCATION:Home - PE Gym
+DESCRIPTION:Salem Jr/Sr High School\n\nMore info: https://polandbulldogs.b
+ igteams.com/main/event/scid/OH4451495857/eventId/80235978/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80235978/
+END:VEVENT
+BEGIN:VEVENT
+UID:e65b37a6-17ef-4213-bd8c-fa6dbd0277d6
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20260115T230000Z
+DTEND:20260116T010000Z
+SUMMARY:Girls Basketball: @ Struthers High School
+LOCATION:Away - Struthers High School
+DESCRIPTION:Struthers High School\n\nMore info: https://polandbulldogs.big
+ teams.com/main/event/scid/OH4451495857/eventId/79148103/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79148103/
+END:VEVENT
+BEGIN:VEVENT
+UID:a79626fb-6330-4721-a067-d828d2a3fcb0
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20260117T000000Z
 DTEND:20260117T020000Z
 SUMMARY:Boys Basketball: vs Struthers High School
@@ -1200,9 +1787,48 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79147164/
 END:VEVENT
 BEGIN:VEVENT
-UID:c3f6ab0c-4522-4a70-a51f-1fe4dd1058a0
+UID:639cb9dc-1775-40bc-a549-4f7eaf1de02b
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20260117T140000Z
+DTEND:20260117T160000Z
+SUMMARY:Boys Wrestling: @ Berkshire High School
+LOCATION:Away - Berkshire High School
+DESCRIPTION:Berkshire High School\n\nMore info: https://polandbulldogs.big
+ teams.com/main/event/scid/OH4451495857/eventId/80235983/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80235983/
+END:VEVENT
+BEGIN:VEVENT
+UID:aa5ff9ab-29bb-49e9-942c-4d603c655db3
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20260117T140000Z
+DTEND:20260117T160000Z
+SUMMARY:Girls Wrestling: @ Top Gun Invitational
+LOCATION:Away - Alliance High School
+DESCRIPTION:Top Gun Invitational\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/80290222/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80290222/
+END:VEVENT
+BEGIN:VEVENT
+UID:bf0a167b-293a-4358-8932-2f41a5c7ff26
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20260117T183000Z
+DTEND:20260117T203000Z
+SUMMARY:Girls Basketball: @ Cardinal Mooney High School
+LOCATION:Away - Cardinal Mooney High School
+DESCRIPTION:Cardinal Mooney High School\n\nMore info: https://polandbulldo
+ gs.bigteams.com/main/event/scid/OH4451495857/eventId/79190863/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79190863/
+END:VEVENT
+BEGIN:VEVENT
+UID:1ce47185-27b4-4ad8-b581-6c26935078da
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20260121T000000Z
 DTEND:20260121T020000Z
 SUMMARY:Boys Basketball: @ Hubbard High School
@@ -1213,9 +1839,48 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79147168/
 END:VEVENT
 BEGIN:VEVENT
-UID:11f6b505-46dd-45fa-9a34-852e3881bbc8
+UID:3b86f60b-b777-47b6-a941-ee7535d59610
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20260121T230000Z
+DTEND:20260122T010000Z
+SUMMARY:Boys Wrestling: vs Alliance HS
+LOCATION:Home - PE Gym
+DESCRIPTION:Senior Night\n\nMore info: https://polandbulldogs.bigteams.com
+ /main/event/scid/OH4451495857/eventId/80235988/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80235988/
+END:VEVENT
+BEGIN:VEVENT
+UID:5e7fcc61-240d-4069-b5ab-50e6adeff272
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20260123T000000Z
+DTEND:20260123T020000Z
+SUMMARY:Girls Basketball: vs Hubbard High School
+LOCATION:Home - PSHS FieldHouse
+DESCRIPTION:Hubbard High School\n\nMore info: https://polandbulldogs.bigte
+ ams.com/main/event/scid/OH4451495857/eventId/79148110/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79148110/
+END:VEVENT
+BEGIN:VEVENT
+UID:219d57c7-6072-42ee-ad4f-3142021058b7
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20260123T170000Z
+DTEND:20260123T190000Z
+SUMMARY:Boys Wrestling: @ Hepner Memorial Tournament
+LOCATION:Away - Austintown Fitch High School
+DESCRIPTION:Hepner Memorial Tournament\n\nMore info: https://polandbulldog
+ s.bigteams.com/main/event/scid/OH4451495857/eventId/80235994/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80235994/
+END:VEVENT
+BEGIN:VEVENT
+UID:6c8a810a-93a4-4ec0-a77d-e453ddf03c19
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20260124T000000Z
 DTEND:20260124T020000Z
 SUMMARY:Boys Basketball: vs Girard Jr/Sr HS
@@ -1226,9 +1891,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79147172/
 END:VEVENT
 BEGIN:VEVENT
-UID:80af25ed-c5e3-4229-8107-3b12192a56de
+UID:f83a599f-14d5-470a-8b71-6aec9118b8b1
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20260124T140000Z
+DTEND:20260124T160000Z
+SUMMARY:Boys Wrestling: @ Hepner Memorial Tournament
+LOCATION:Away - Austintown Fitch High School
+DESCRIPTION:Hepner Memorial Tournament\n\nMore info: https://polandbulldog
+ s.bigteams.com/main/event/scid/OH4451495857/eventId/80235997/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80235997/
+END:VEVENT
+BEGIN:VEVENT
+UID:e227431b-b824-427e-8bcf-44f4736e0569
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20260124T213000Z
 DTEND:20260124T233000Z
 SUMMARY:Boys Basketball: vs Springfield Local High School
@@ -1239,9 +1917,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79330771/
 END:VEVENT
 BEGIN:VEVENT
-UID:01256275-4f23-46d9-a0ad-76363c960da7
+UID:537a61a6-2eec-42e5-8b8d-c46fca319828
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20260127T000000Z
+DTEND:20260127T020000Z
+SUMMARY:Girls Basketball: @ Girard Jr/Sr HS
+LOCATION:Away - Girard Jr/Sr HS
+DESCRIPTION:Girard Jr/Sr HS\n\nMore info: https://polandbulldogs.bigteams.
+ com/main/event/scid/OH4451495857/eventId/79148117/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79148117/
+END:VEVENT
+BEGIN:VEVENT
+UID:468b9a04-0244-47dd-9bf3-e0887d2c9363
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20260128T000000Z
 DTEND:20260128T020000Z
 SUMMARY:Boys Basketball: @ South Range High School
@@ -1252,9 +1943,35 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79147175/
 END:VEVENT
 BEGIN:VEVENT
-UID:ce09ec72-7825-44b0-9157-8a86a442bd24
+UID:353479d3-ddb5-4a81-af83-f0a50d0db0b3
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20260130T000000Z
+DTEND:20260130T020000Z
+SUMMARY:Girls Basketball: vs South Range High School
+LOCATION:Home - PSHS FieldHouse
+DESCRIPTION:South Range High School\n\nMore info: https://polandbulldogs.b
+ igteams.com/main/event/scid/OH4451495857/eventId/79148122/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79148122/
+END:VEVENT
+BEGIN:VEVENT
+UID:063e8ca3-6a23-44bd-97ac-28cf98da0e40
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20260130T203000Z
+DTEND:20260130T223000Z
+SUMMARY:Boys Wrestling: @ EOWL Tournament
+LOCATION:Away - Austintown Fitch High School
+DESCRIPTION:EOWL Tournament\n\nMore info: https://polandbulldogs.bigteams.
+ com/main/event/scid/OH4451495857/eventId/80236002/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80236002/
+END:VEVENT
+BEGIN:VEVENT
+UID:e2628619-0db7-4d59-a7a8-ca057e2f6ee4
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20260131T000000Z
 DTEND:20260131T020000Z
 SUMMARY:Boys Basketball: vs Lakeview High School
@@ -1265,9 +1982,48 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79147179/
 END:VEVENT
 BEGIN:VEVENT
-UID:b5b038f1-1067-4253-a5a8-755d625fea79
+UID:8142540d-e2b2-4cfe-baa3-cf07072b9db2
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20260131T150000Z
+DTEND:20260131T170000Z
+SUMMARY:Boys Wrestling: @ EOWL Tournament
+LOCATION:Away - Austintown Fitch High School
+DESCRIPTION:EOWL Tournament\n\nMore info: https://polandbulldogs.bigteams.
+ com/main/event/scid/OH4451495857/eventId/80236007/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80236007/
+END:VEVENT
+BEGIN:VEVENT
+UID:c671dda8-1d9d-40a0-94de-835cc03d6477
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20260131T183000Z
+DTEND:20260131T203000Z
+SUMMARY:Girls Basketball: @ Springfield Local High School
+LOCATION:Away - Springfield Local High School
+DESCRIPTION:Springfield Local High School\n\nMore info: https://polandbull
+ dogs.bigteams.com/main/event/scid/OH4451495857/eventId/79330782/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79330782/
+END:VEVENT
+BEGIN:VEVENT
+UID:01ab914e-10bc-43c6-987b-e2bfec40b1e6
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20260203T000000Z
+DTEND:20260203T020000Z
+SUMMARY:Girls Basketball: @ Lakeview High School
+LOCATION:Away - Lakeview High School
+DESCRIPTION:Lakeview High School\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/79148124/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79148124/
+END:VEVENT
+BEGIN:VEVENT
+UID:b1f2c5b9-4718-437e-a9d0-655d5e9d0539
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20260204T000000Z
 DTEND:20260204T020000Z
 SUMMARY:Boys Basketball: vs Niles McKinley High School
@@ -1278,9 +2034,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79147183/
 END:VEVENT
 BEGIN:VEVENT
-UID:9f500a95-b98f-4579-9d8a-ecb24a3f28a5
+UID:3742d013-207c-4ec4-9ce0-9134fe5b2adb
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20260206T000000Z
+DTEND:20260206T020000Z
+SUMMARY:Girls Basketball: @ Niles McKinley High School
+LOCATION:Away - Niles McKinley High School
+DESCRIPTION:Niles McKinley High School\n\nMore info: https://polandbulldog
+ s.bigteams.com/main/event/scid/OH4451495857/eventId/79148127/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79148127/
+END:VEVENT
+BEGIN:VEVENT
+UID:3f6154a7-3817-47db-bce4-00f76606a5ee
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20260207T000000Z
 DTEND:20260207T020000Z
 SUMMARY:Boys Basketball: @ Chaney High School
@@ -1291,9 +2060,35 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79257434/
 END:VEVENT
 BEGIN:VEVENT
-UID:b954048b-572e-4cb9-894c-eb88b59e45cf
+UID:f9755efe-d6cf-4054-ae06-1413889e3d4e
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20260207T150000Z
+DTEND:20260207T170000Z
+SUMMARY:Boys Wrestling: @ Cleveland Shaw Duals
+LOCATION:Away - Shaw High School
+DESCRIPTION:Cleveland Shaw Duals\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/80236013/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80236013/
+END:VEVENT
+BEGIN:VEVENT
+UID:6225f45b-9c96-4f40-90c9-692db152b9df
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20260207T183000Z
+DTEND:20260207T203000Z
+SUMMARY:Girls Basketball: vs Marlington High School
+LOCATION:Home - PSHS FieldHouse
+DESCRIPTION:Marlington High School\n\nMore info: https://polandbulldogs.bi
+ gteams.com/main/event/scid/OH4451495857/eventId/79313842/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79313842/
+END:VEVENT
+BEGIN:VEVENT
+UID:6899a8ec-506f-4d8d-aa76-7d90b52db78f
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20260207T220000Z
 DTEND:20260208T000000Z
 SUMMARY:Boys Basketball: @ Streetsboro High School
@@ -1304,9 +2099,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79254088/
 END:VEVENT
 BEGIN:VEVENT
-UID:d613a292-cff0-4503-b8fb-16bf56cd4900
+UID:75174d61-21dc-44d0-81df-09d390c7f9de
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20260208T143000Z
+DTEND:20260208T163000Z
+SUMMARY:Girls Wrestling: @ Nordonia High School
+LOCATION:Away - Nordonia High School
+DESCRIPTION:Nordonia Girls Invitational\n\nMore info: https://polandbulldo
+ gs.bigteams.com/main/event/scid/OH4451495857/eventId/80290266/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80290266/
+END:VEVENT
+BEGIN:VEVENT
+UID:58c4993c-7f33-4f76-9d69-01d37bbc0312
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20260211T000000Z
 DTEND:20260211T020000Z
 SUMMARY:Boys Basketball: @ Struthers High School
@@ -1317,9 +2125,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79147188/
 END:VEVENT
 BEGIN:VEVENT
-UID:00437dd4-2b22-4612-9413-32a444a15e9b
+UID:82c86b05-0a88-450b-890c-6844ba1d5f71
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20260211T230000Z
+DTEND:20260212T010000Z
+SUMMARY:Boys Wrestling: @ West Branch High School
+LOCATION:Away - West Branch High School
+DESCRIPTION:and Marlington\n\nMore info: https://polandbulldogs.bigteams.c
+ om/main/event/scid/OH4451495857/eventId/80236075/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80236075/
+END:VEVENT
+BEGIN:VEVENT
+UID:c2618562-fd7a-482f-b306-1f7d01742680
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20260214T000000Z
 DTEND:20260214T020000Z
 SUMMARY:Boys Basketball: vs Campbell Memorial High School
@@ -1330,9 +2151,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79147701/
 END:VEVENT
 BEGIN:VEVENT
-UID:ddff7d64-84f2-464d-beae-11ddbe1f917f
+UID:0ef08538-020c-49ea-9f85-37b39f625565
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260221T000000Z
 DTEND:20260221T020000Z
 SUMMARY:Boys Basketball: @ Howland High School
@@ -1343,9 +2164,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79257731/
 END:VEVENT
 BEGIN:VEVENT
-UID:e1170e01-b925-45ea-8098-f7c924b9a546
+UID:568addef-a5c4-4184-8e3b-d9fb03c06b9b
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART;VALUE=DATE:20260107
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
@@ -1357,22 +2178,48 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80235965/
 END:VEVENT
 BEGIN:VEVENT
-UID:293c52c7-5f1e-4067-ac5f-2aaec2b1d94a
+UID:ba88a057-b470-40fd-9eb3-5d5611c066b7
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20251221T150000Z
-DTEND:20251221T170000Z
-SUMMARY:Girls Wrestling: @ Hubbard High School
-LOCATION:Away - Hubbard High School
-DESCRIPTION:Hubbard High School\n\nMore info: https://polandbulldogs.bigte
- ams.com/main/event/scid/OH4451495857/eventId/80290164/
+DTSTAMP:20251119T194523Z
+DTSTART:20251214T150000Z
+DTEND:20251214T170000Z
+SUMMARY:Swim & Dive: @ Ashtabula Invite
+LOCATION:Away - Ashtabula Invite
+DESCRIPTION:Ashtabula Invite\n\nMore info: https://polandbulldogs.bigteams
+ .com/main/event/scid/OH4451495857/eventId/80191731/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80290164/
+ 5857/eventId/80191731/
 END:VEVENT
 BEGIN:VEVENT
-UID:7f83e360-1c17-4207-8cda-694dc8c1ab7d
+UID:30098b40-0f58-4f54-af5f-cfa2d47f0d98
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20251217T220000Z
+DTEND:20251218T000000Z
+SUMMARY:Swim & Dive: vs Ursuline High School
+LOCATION:Home - YSU
+DESCRIPTION:Dive Senior Night\n\nMore info: https://polandbulldogs.bigteam
+ s.com/main/event/scid/OH4451495857/eventId/80191742/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80191742/
+END:VEVENT
+BEGIN:VEVENT
+UID:ada77685-4be8-485d-b356-3a0b9214df13
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20251220T130000Z
+DTEND:20251220T150000Z
+SUMMARY:Swim & Dive: @ Canton Christmas Invite
+LOCATION:Away - Canton Christmas Invite
+DESCRIPTION:Canton Christmas Invite\n\nMore info: https://polandbulldogs.b
+ igteams.com/main/event/scid/OH4451495857/eventId/80191746/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80191746/
+END:VEVENT
+BEGIN:VEVENT
+UID:c043d3f2-84b4-4e82-9d9a-f829db1af5d1
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20251222T220000Z
 DTEND:20251223T000000Z
 SUMMARY:Swim & Dive: vs Howland High School
@@ -1383,22 +2230,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80191760/
 END:VEVENT
 BEGIN:VEVENT
-UID:469b4655-fcfc-434f-b5e1-303d217735a7
+UID:d60a185d-ec6a-4e1b-87f2-37e92629c18d
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260102T190000Z
-DTEND:20260102T210000Z
-SUMMARY:Girls Wrestling: @ Fitch Girls Invitational
-LOCATION:Away - Austintown Fitch High School
-DESCRIPTION:Fitch Girls Invitational\n\nMore info: https://polandbulldogs.
- bigteams.com/main/event/scid/OH4451495857/eventId/80290215/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80290215/
-END:VEVENT
-BEGIN:VEVENT
-UID:0ab7c162-17c5-4c78-9737-045a3ef7a957
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260102T220000Z
 DTEND:20260103T000000Z
 SUMMARY:Swim & Dive: @ Archbishop Hoban High School
@@ -1409,9 +2243,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80191794/
 END:VEVENT
 BEGIN:VEVENT
-UID:6c8f91f0-56d5-4233-8819-c8b00ca68da2
+UID:3ac76b7f-e57f-4863-a8b9-a9c951e5b53b
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260104T003000Z
 DTEND:20260104T023000Z
 SUMMARY:Swim & Dive: @ NY Classic
@@ -1422,9 +2256,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80191801/
 END:VEVENT
 BEGIN:VEVENT
-UID:8169e71c-dea9-4efc-9328-d57f286090dc
+UID:2a050a41-c0a1-496b-8001-e8be5c3d77ae
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260113T220000Z
 DTEND:20260114T000000Z
 SUMMARY:Swim & Dive: @ Boardman High School
@@ -1435,48 +2269,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80191806/
 END:VEVENT
 BEGIN:VEVENT
-UID:71e456bc-4323-48f8-a515-71e780f27dee
+UID:cb940343-078a-4890-a4dd-aba29f4cfdc6
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260114T230000Z
-DTEND:20260115T010000Z
-SUMMARY:Boys Wrestling: vs Salem Jr/Sr High School
-LOCATION:Home - PE Gym
-DESCRIPTION:Salem Jr/Sr High School\n\nMore info: https://polandbulldogs.b
- igteams.com/main/event/scid/OH4451495857/eventId/80235978/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80235978/
-END:VEVENT
-BEGIN:VEVENT
-UID:737ed6e0-e4ed-4f8c-b468-0b27889be3d9
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260117T140000Z
-DTEND:20260117T160000Z
-SUMMARY:Boys Wrestling: @ Berkshire High School
-LOCATION:Away - Berkshire High School
-DESCRIPTION:Berkshire High School\n\nMore info: https://polandbulldogs.big
- teams.com/main/event/scid/OH4451495857/eventId/80235983/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80235983/
-END:VEVENT
-BEGIN:VEVENT
-UID:290e71ff-d353-4156-afbe-6f22d4915005
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260117T140000Z
-DTEND:20260117T160000Z
-SUMMARY:Girls Wrestling: @ Top Gun Invitational
-LOCATION:Away - Alliance High School
-DESCRIPTION:Top Gun Invitational\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/80290222/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80290222/
-END:VEVENT
-BEGIN:VEVENT
-UID:5d4394bc-3caa-4c74-a7d0-663909e78ef2
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260117T150000Z
 DTEND:20260117T170000Z
 SUMMARY:Swim & Dive: @ NE8 Championship Meet Diving
@@ -1487,152 +2282,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80191812/
 END:VEVENT
 BEGIN:VEVENT
-UID:0810ccc9-0ed8-4b73-8d3d-8b69c5edd3d6
+UID:e60855bd-bf46-4fbb-a0fe-01cd907e6f8a
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260121T230000Z
-DTEND:20260122T010000Z
-SUMMARY:Boys Wrestling: vs Alliance HS
-LOCATION:Home - PE Gym
-DESCRIPTION:Senior Night\n\nMore info: https://polandbulldogs.bigteams.com
- /main/event/scid/OH4451495857/eventId/80235988/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80235988/
-END:VEVENT
-BEGIN:VEVENT
-UID:ca286764-a045-4abf-8632-866472786f41
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260123T170000Z
-DTEND:20260123T190000Z
-SUMMARY:Boys Wrestling: @ Hepner Memorial Tournament
-LOCATION:Away - Austintown Fitch High School
-DESCRIPTION:Hepner Memorial Tournament\n\nMore info: https://polandbulldog
- s.bigteams.com/main/event/scid/OH4451495857/eventId/80235994/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80235994/
-END:VEVENT
-BEGIN:VEVENT
-UID:c5be73f2-2955-4203-86ed-d6454fc0a6be
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260124T140000Z
-DTEND:20260124T160000Z
-SUMMARY:Boys Wrestling: @ Hepner Memorial Tournament
-LOCATION:Away - Austintown Fitch High School
-DESCRIPTION:Hepner Memorial Tournament\n\nMore info: https://polandbulldog
- s.bigteams.com/main/event/scid/OH4451495857/eventId/80235997/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80235997/
-END:VEVENT
-BEGIN:VEVENT
-UID:7ddcffa6-15c5-4317-935b-10a36cf8c941
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260129T220000Z
-DTEND:20260130T000000Z
-SUMMARY:Swim & Dive: @ Canfield High School
-LOCATION:Away - YSU
-DESCRIPTION:Canfield High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/80191823/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80191823/
-END:VEVENT
-BEGIN:VEVENT
-UID:49a77961-2bd4-4c8f-bfa2-53bac706fe0d
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260130T203000Z
-DTEND:20260130T223000Z
-SUMMARY:Boys Wrestling: @ EOWL Tournament
-LOCATION:Away - Austintown Fitch High School
-DESCRIPTION:EOWL Tournament\n\nMore info: https://polandbulldogs.bigteams.
- com/main/event/scid/OH4451495857/eventId/80236002/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80236002/
-END:VEVENT
-BEGIN:VEVENT
-UID:9183573a-b8df-4437-9fb4-f330f2226e72
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260131T150000Z
-DTEND:20260131T170000Z
-SUMMARY:Boys Wrestling: @ EOWL Tournament
-LOCATION:Away - Austintown Fitch High School
-DESCRIPTION:EOWL Tournament\n\nMore info: https://polandbulldogs.bigteams.
- com/main/event/scid/OH4451495857/eventId/80236007/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80236007/
-END:VEVENT
-BEGIN:VEVENT
-UID:f2728937-ab6f-4339-b754-3156edf3164e
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260131T160000Z
-DTEND:20260131T180000Z
-SUMMARY:Swim & Dive: @ Warren G Harding HS
-LOCATION:Away - Warren G Harding HS
-DESCRIPTION:Warren G Harding HS\n\nMore info: https://polandbulldogs.bigte
- ams.com/main/event/scid/OH4451495857/eventId/80191834/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80191834/
-END:VEVENT
-BEGIN:VEVENT
-UID:ee52bd37-10ec-42d1-83af-427eb8dc6d0d
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260207T150000Z
-DTEND:20260207T170000Z
-SUMMARY:Boys Wrestling: @ Cleveland Shaw Duals
-LOCATION:Away - Shaw High School
-DESCRIPTION:Cleveland Shaw Duals\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/80236013/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80236013/
-END:VEVENT
-BEGIN:VEVENT
-UID:4d775fe0-d61c-478d-8197-6e7c1e120e15
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260208T143000Z
-DTEND:20260208T163000Z
-SUMMARY:Girls Wrestling: @ Nordonia High School
-LOCATION:Away - Nordonia High School
-DESCRIPTION:Nordonia Girls Invitational\n\nMore info: https://polandbulldo
- gs.bigteams.com/main/event/scid/OH4451495857/eventId/80290266/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80290266/
-END:VEVENT
-BEGIN:VEVENT
-UID:27adae40-821f-4d1d-a8b2-e7d46c7c4347
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260211T230000Z
-DTEND:20260212T010000Z
-SUMMARY:Boys Wrestling: @ West Branch High School
-LOCATION:Away - West Branch High School
-DESCRIPTION:and Marlington\n\nMore info: https://polandbulldogs.bigteams.c
- om/main/event/scid/OH4451495857/eventId/80236075/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80236075/
-END:VEVENT
-BEGIN:VEVENT
-UID:d3cbebfc-5bb5-453a-b386-eb4cb3916166
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260221T140000Z
-DTEND:20260221T160000Z
-SUMMARY:Girls Wrestling: @ Carrollton Invitational
-LOCATION:Away - Carrollton High School
-DESCRIPTION:Carrollton Invitational\n\nMore info: https://polandbulldogs.b
- igteams.com/main/event/scid/OH4451495857/eventId/80291421/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80291421/
-END:VEVENT
-BEGIN:VEVENT
-UID:f9568bad-18be-441d-a581-edb6eaab941a
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART;VALUE=DATE:20260124
 X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
@@ -1644,9 +2296,48 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80191818/
 END:VEVENT
 BEGIN:VEVENT
-UID:ef7b3100-28d1-4b22-99ae-dad7ca91cd9f
+UID:ef9aac10-64de-4bf5-b893-2d0e77d8f029
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20260129T220000Z
+DTEND:20260130T000000Z
+SUMMARY:Swim & Dive: @ Canfield High School
+LOCATION:Away - YSU
+DESCRIPTION:Canfield High School\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/80191823/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80191823/
+END:VEVENT
+BEGIN:VEVENT
+UID:00f7b86d-f8f0-413e-a1d4-f3682403a2a7
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20260131T160000Z
+DTEND:20260131T180000Z
+SUMMARY:Swim & Dive: @ Warren G Harding HS
+LOCATION:Away - Warren G Harding HS
+DESCRIPTION:Warren G Harding HS\n\nMore info: https://polandbulldogs.bigte
+ ams.com/main/event/scid/OH4451495857/eventId/80191834/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80191834/
+END:VEVENT
+BEGIN:VEVENT
+UID:8c6517d9-675a-48d0-844e-13344fe09a2d
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20260221T140000Z
+DTEND:20260221T160000Z
+SUMMARY:Girls Wrestling: @ Carrollton Invitational
+LOCATION:Away - Carrollton High School
+DESCRIPTION:Carrollton Invitational\n\nMore info: https://polandbulldogs.b
+ igteams.com/main/event/scid/OH4451495857/eventId/80291421/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80291421/
+END:VEVENT
+BEGIN:VEVENT
+UID:85749fb5-9a61-4fe0-a912-db1575ffd5d5
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20260321T160000Z
 DTEND:20260321T180000Z
 SUMMARY:Boys Lacrosse: @ Canton Central Catholic HS
@@ -1657,9 +2348,35 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80137054/
 END:VEVENT
 BEGIN:VEVENT
-UID:8dff523f-97a5-4cb6-955d-888e04e2a7fb
+UID:9cc0ca9e-0dc1-4163-8f2a-e094ca0baf1f
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20260323T210000Z
+DTEND:20260323T230000Z
+SUMMARY:Softball: vs Niles McKinley High School
+LOCATION:Home - PSHS Softball Field
+DESCRIPTION:Niles McKinley High School\n\nMore info: https://polandbulldog
+ s.bigteams.com/main/event/scid/OH4451495857/eventId/80228534/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80228534/
+END:VEVENT
+BEGIN:VEVENT
+UID:e50011c7-d7c5-40f8-9190-00f92100ebfb
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20260324T210000Z
+DTEND:20260324T230000Z
+SUMMARY:Softball: vs South Range High School
+LOCATION:Home - PSHS Softball Field
+DESCRIPTION:South Range High School\n\nMore info: https://polandbulldogs.b
+ igteams.com/main/event/scid/OH4451495857/eventId/80228540/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80228540/
+END:VEVENT
+BEGIN:VEVENT
+UID:d3afcb4f-fd02-4082-8296-5cac37782494
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20260324T223000Z
 DTEND:20260325T003000Z
 SUMMARY:Boys Lacrosse: vs Cardinal Mooney High School
@@ -1670,87 +2387,48 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79766469/
 END:VEVENT
 BEGIN:VEVENT
-UID:8163f740-e975-4e87-b129-1943387616e7
+UID:a87401cc-5b08-480b-a195-be2630b99bfa
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260325T220000Z
-DTEND:20260326T000000Z
-SUMMARY:Girls Lacrosse: @ Cardinal Mooney High School
-LOCATION:Away - Cardinal Mooney High School
-DESCRIPTION:Cardinal Mooney High School\n\nMore info: https://polandbulldo
- gs.bigteams.com/main/event/scid/OH4451495857/eventId/79766472/
+DTSTAMP:20251119T194523Z
+DTSTART:20260327T211500Z
+DTEND:20260327T231500Z
+SUMMARY:Softball: vs United Local High School
+LOCATION:Home - PSHS Softball Field
+DESCRIPTION:United Local High School\n\nMore info: https://polandbulldogs.
+ bigteams.com/main/event/scid/OH4451495857/eventId/80228546/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79766472/
+ 5857/eventId/80228546/
 END:VEVENT
 BEGIN:VEVENT
-UID:ddc3bc3f-ef24-47b1-84a7-7336318b69d5
+UID:3f74a73f-cbc0-480e-9bce-abe966b46afd
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260327T220000Z
-DTEND:20260328T000000Z
-SUMMARY:Girls Lacrosse: vs St. Vincent-St. Mary H.S.
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:St. Vincent-St. Mary H.S.\n\nMore info: https://polandbulldogs
- .bigteams.com/main/event/scid/OH4451495857/eventId/79808169/
+DTSTAMP:20251119T194523Z
+DTSTART:20260328T150000Z
+DTEND:20260328T170000Z
+SUMMARY:Softball: vs Crestview HS - Columbiana
+LOCATION:Home - PSHS Softball Field
+DESCRIPTION:Crestview HS - Columbiana\n\nMore info: https://polandbulldogs
+ .bigteams.com/main/event/scid/OH4451495857/eventId/80228549/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79808169/
+ 5857/eventId/80228549/
 END:VEVENT
 BEGIN:VEVENT
-UID:5deb0af5-a0d3-4041-a3a7-c755f3f4a45b
+UID:dc7f522f-5839-4ea9-b28e-cd53b578eb57
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260328T160000Z
-DTEND:20260328T180000Z
-SUMMARY:Baseball: vs Carrollton HS
-LOCATION:Home - PSHS Baseball Field
-DESCRIPTION:Carrollton HS\n\nMore info: https://polandbulldogs.bigteams.co
- m/main/event/scid/OH4451495857/eventId/80405292/
+DTSTAMP:20251119T194523Z
+DTSTART:20260331T210000Z
+DTEND:20260331T230000Z
+SUMMARY:Softball: @ Girard Jr/Sr HS
+LOCATION:Away - Girard Jr/Sr HS
+DESCRIPTION:Girard Jr/Sr HS\n\nMore info: https://polandbulldogs.bigteams.
+ com/main/event/scid/OH4451495857/eventId/80228566/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80405292/
+ 5857/eventId/80228566/
 END:VEVENT
 BEGIN:VEVENT
-UID:e081c045-b8de-4f6b-87a4-76af3d987b26
+UID:d1c848ec-d316-4afa-bc41-d86557f5e516
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260330T210000Z
-DTEND:20260330T230000Z
-SUMMARY:Baseball: vs Boardman High School
-LOCATION:Home - PSHS Baseball Field
-DESCRIPTION:Boardman High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/80082023/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80082023/
-END:VEVENT
-BEGIN:VEVENT
-UID:c5b1cf44-04a5-47d2-8f80-20f291ed3b25
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260330T220000Z
-DTEND:20260331T000000Z
-SUMMARY:Girls Lacrosse: @ Boardman High School
-LOCATION:Away - Boardman High School
-DESCRIPTION:Boardman High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/79773127/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79773127/
-END:VEVENT
-BEGIN:VEVENT
-UID:66b9eff0-3a6e-436f-98d8-19696d5143dd
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260331T204500Z
-DTEND:20260331T224500Z
-SUMMARY:Track & Field: @ South Range High School
-LOCATION:Away - South Range High School
-DESCRIPTION:with Niles and Lakeview\n\nMore info: https://polandbulldogs.b
- igteams.com/main/event/scid/OH4451495857/eventId/79820663/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79820663/
-END:VEVENT
-BEGIN:VEVENT
-UID:5e212e35-722a-4d0a-b9ba-e2e1b23a9bae
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260331T223000Z
 DTEND:20260401T003000Z
 SUMMARY:Boys Lacrosse: @ Glenoak High School
@@ -1761,48 +2439,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79981063/
 END:VEVENT
 BEGIN:VEVENT
-UID:e95ef80c-2f89-46f4-b138-2b498d71d50b
+UID:7b59a746-34ec-4707-8c24-43d8b2912baa
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260401T210000Z
-DTEND:20260401T230000Z
-SUMMARY:Baseball: @ Austintown Fitch HS
-LOCATION:Away - Austintown Fitch HS
-DESCRIPTION:Austintown Fitch HS\n\nMore info: https://polandbulldogs.bigte
- ams.com/main/event/scid/OH4451495857/eventId/80300359/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80300359/
-END:VEVENT
-BEGIN:VEVENT
-UID:1ae76404-94f9-413a-821f-abc5d6152507
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260401T220000Z
-DTEND:20260402T000000Z
-SUMMARY:Girls Lacrosse: vs Theodore Roosevelt HS
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Theodore Roosevelt HS\n\nMore info: https://polandbulldogs.big
- teams.com/main/event/scid/OH4451495857/eventId/79827481/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79827481/
-END:VEVENT
-BEGIN:VEVENT
-UID:fd3c1171-f416-4d6f-9ba7-41ed9441da52
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260402T210000Z
 DTEND:20260402T230000Z
-SUMMARY:Baseball: vs New Castle HS
-LOCATION:Home - PSHS Baseball Field
-DESCRIPTION:New Castle HS\n\nMore info: https://polandbulldogs.bigteams.co
- m/main/event/scid/OH4451495857/eventId/80405187/
+SUMMARY:Softball: @ Boardman High School
+LOCATION:Away - Boardman High School
+DESCRIPTION:Boardman High School\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/80228573/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80405187/
+ 5857/eventId/80228573/
 END:VEVENT
 BEGIN:VEVENT
-UID:ca6bb7f0-67b1-4b41-beac-abd7ac7b9b5b
+UID:c7f5e3aa-00e8-4502-aa72-d5647a9b29eb
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260402T223000Z
 DTEND:20260403T003000Z
 SUMMARY:Boys Lacrosse: vs Aurora City Schools
@@ -1813,35 +2465,90 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79807996/
 END:VEVENT
 BEGIN:VEVENT
-UID:03204e16-0b47-4605-9b5b-c72b78281a7a
+UID:68819af8-3b13-409d-8857-b2afd41bfe51
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20260404T150000Z
+DTEND:20260404T170000Z
+SUMMARY:Softball: @ West Branch High School
+LOCATION:Away - West Branch High School
+DESCRIPTION:West Branch High School\n\nMore info: https://polandbulldogs.b
+ igteams.com/main/event/scid/OH4451495857/eventId/80228586/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80228586/
+END:VEVENT
+BEGIN:VEVENT
+UID:40a858a8-59c1-4417-bb56-471eb0729fb1
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20260406T210000Z
 DTEND:20260406T230000Z
-SUMMARY:Baseball: @ Niles McKinley High School
-LOCATION:Away - Waddell Park
-DESCRIPTION:Niles McKinley High School\n\nMore info: https://polandbulldog
- s.bigteams.com/main/event/scid/OH4451495857/eventId/80012609/
+SUMMARY:Softball: vs Hubbard High School
+LOCATION:Home - PSHS Softball Field
+DESCRIPTION:Hubbard High School\n\nMore info: https://polandbulldogs.bigte
+ ams.com/main/event/scid/OH4451495857/eventId/80228718/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80012609/
+ 5857/eventId/80228718/
 END:VEVENT
 BEGIN:VEVENT
-UID:66fad319-ccdc-454d-96ba-7137fc653317
+UID:9efb9f21-42a8-48b7-9675-ca02096cd71a
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260407T210000Z
-DTEND:20260407T230000Z
-SUMMARY:Baseball: vs Niles McKinley High School
-LOCATION:Home - PSHS Baseball Field
-DESCRIPTION:Niles McKinley High School\n\nMore info: https://polandbulldog
- s.bigteams.com/main/event/scid/OH4451495857/eventId/80012611/
+DTSTAMP:20251119T194523Z
+DTSTART;VALUE=DATE:20260409
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:Softball: @ Ripken Experience-Pigeon Forge
+LOCATION:Away - Ripken Experience-Pigeon Forge
+DESCRIPTION:Ripken Experience-Pigeon Forge\n\nMore info: https://polandbul
+ ldogs.bigteams.com/main/event/scid/OH4451495857/eventId/80228746/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80012611/
+ 5857/eventId/80228746/
 END:VEVENT
 BEGIN:VEVENT
-UID:99c87260-97bb-48b7-a8d6-6a694ef94391
+UID:1fa70777-d39a-4b41-b87f-8edf1829af41
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART;VALUE=DATE:20260410
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:Softball: @ Ripken Experience-Pigeon Forge
+LOCATION:Away - Ripken Experience-Pigeon Forge
+DESCRIPTION:Ripken Experience-Pigeon Forge\n\nMore info: https://polandbul
+ ldogs.bigteams.com/main/event/scid/OH4451495857/eventId/80228754/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80228754/
+END:VEVENT
+BEGIN:VEVENT
+UID:99dbff04-d570-40c1-87e8-229e1282874c
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART;VALUE=DATE:20260411
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
+X-MICROSOFT-MSNCALENDAR-ALLDAYEVENT:TRUE
+SUMMARY:Softball: @ Ripken Experience-Pigeon Forge
+LOCATION:Away - Ripken Experience-Pigeon Forge
+DESCRIPTION:Ripken Experience-Pigeon Forge\n\nMore info: https://polandbul
+ ldogs.bigteams.com/main/event/scid/OH4451495857/eventId/80228756/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80228756/
+END:VEVENT
+BEGIN:VEVENT
+UID:9aaaa6b0-123e-47c6-bb33-f67aa3b0add5
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
+DTSTART:20260331T204500Z
+DTEND:20260331T224500Z
+SUMMARY:Track & Field: @ South Range High School
+LOCATION:Away - South Range High School
+DESCRIPTION:with Niles and Lakeview\n\nMore info: https://polandbulldogs.b
+ igteams.com/main/event/scid/OH4451495857/eventId/79820663/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/79820663/
+END:VEVENT
+BEGIN:VEVENT
+UID:dd78897e-57dc-426d-957b-1268a15f073e
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20260408T204500Z
 DTEND:20260408T224500Z
 SUMMARY:Track & Field: @ Struthers High School
@@ -1852,48 +2559,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79820966/
 END:VEVENT
 BEGIN:VEVENT
-UID:dfb21220-94d2-40c8-ac48-76ef4b4c323e
+UID:a930d618-5cda-4768-874d-d77d843cfd34
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260410T210000Z
-DTEND:20260410T230000Z
-SUMMARY:Baseball: @ West Branch High School
-LOCATION:Away - West Branch High School
-DESCRIPTION:West Branch High School\n\nMore info: https://polandbulldogs.b
- igteams.com/main/event/scid/OH4451495857/eventId/80135759/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80135759/
-END:VEVENT
-BEGIN:VEVENT
-UID:c0a103d4-c89d-463f-943e-73f60ac90c44
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260413T210000Z
 DTEND:20260413T230000Z
-SUMMARY:Baseball: vs South Range High School
-LOCATION:Home - PSHS Baseball Field
-DESCRIPTION:South Range High School\n\nMore info: https://polandbulldogs.b
- igteams.com/main/event/scid/OH4451495857/eventId/80112541/
+SUMMARY:Softball: @ Struthers High School
+LOCATION:Away - Struthers High School
+DESCRIPTION:Struthers High School\n\nMore info: https://polandbulldogs.big
+ teams.com/main/event/scid/OH4451495857/eventId/80228763/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80112541/
+ 5857/eventId/80228763/
 END:VEVENT
 BEGIN:VEVENT
-UID:408eccaf-b848-4765-a2e8-3ee348c6b3a4
+UID:80213e70-0d2b-4496-bf4e-1989471b390c
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260413T220000Z
-DTEND:20260414T000000Z
-SUMMARY:Girls Lacrosse: @ Canfield High School
-LOCATION:Away - Canfield High School
-DESCRIPTION:Canfield High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/79765479/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79765479/
-END:VEVENT
-BEGIN:VEVENT
-UID:7b659f81-668b-4add-aa6d-fcc4f750fd13
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260414T204500Z
 DTEND:20260414T224500Z
 SUMMARY:Track & Field: vs Lakeview High School
@@ -1904,48 +2585,48 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79820979/
 END:VEVENT
 BEGIN:VEVENT
-UID:2c9f289d-6152-4140-bc32-9c643efba370
+UID:1ee92c6b-1c9d-41fe-9db8-35a0ec9e9a9d
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260414T210000Z
 DTEND:20260414T230000Z
-SUMMARY:Baseball: @ South Range High School
-LOCATION:Away - South Range High School
-DESCRIPTION:South Range High School\n\nMore info: https://polandbulldogs.b
- igteams.com/main/event/scid/OH4451495857/eventId/80112552/
+SUMMARY:Softball: @ Niles McKinley High School
+LOCATION:Away - Niles McKinley High School
+DESCRIPTION:Niles McKinley High School\n\nMore info: https://polandbulldog
+ s.bigteams.com/main/event/scid/OH4451495857/eventId/80228768/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80112552/
+ 5857/eventId/80228768/
 END:VEVENT
 BEGIN:VEVENT
-UID:3448257e-48e1-41bd-9d04-88039e76360a
+UID:e41d97ba-a09c-4e8d-a841-dcafe3a0b81e
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260415T220000Z
-DTEND:20260416T000000Z
-SUMMARY:Girls Lacrosse: vs Laurel School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Laurel School\n\nMore info: https://polandbulldogs.bigteams.co
- m/main/event/scid/OH4451495857/eventId/79765730/
+DTSTAMP:20251119T194523Z
+DTSTART:20260415T210000Z
+DTEND:20260415T230000Z
+SUMMARY:Softball: vs Lakeview High School
+LOCATION:Home - PSHS Softball Field
+DESCRIPTION:Lakeview High School\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/80228774/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79765730/
+ 5857/eventId/80228774/
 END:VEVENT
 BEGIN:VEVENT
-UID:2c0a9970-632b-4020-b82a-e4abb56578e2
+UID:59d4cc2f-c80c-4e7a-9c36-c2a2ce851789
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260416T210000Z
-DTEND:20260416T230000Z
-SUMMARY:Baseball: @ Springfield Local High School
-LOCATION:Away - Springfield Local High School
-DESCRIPTION:Springfield Local High School\n\nMore info: https://polandbull
- dogs.bigteams.com/main/event/scid/OH4451495857/eventId/80082034/
+DTSTAMP:20251119T194523Z
+DTSTART:20260416T213000Z
+DTEND:20260416T233000Z
+SUMMARY:Softball: @ LaBrae High School
+LOCATION:Away - LaBrae High School
+DESCRIPTION:LaBrae High School\n\nMore info: https://polandbulldogs.bigtea
+ ms.com/main/event/scid/OH4451495857/eventId/80228779/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80082034/
+ 5857/eventId/80228779/
 END:VEVENT
 BEGIN:VEVENT
-UID:9b40832a-da3b-46f7-9ccf-c615a8262d25
+UID:fde2a590-bf8b-4cb4-93c0-a0181053404f
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260416T223000Z
 DTEND:20260417T003000Z
 SUMMARY:Boys Lacrosse: @ Boardman High School
@@ -1956,61 +2637,35 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79773118/
 END:VEVENT
 BEGIN:VEVENT
-UID:f47888c1-85ef-4671-ae5b-c2f91d8f3e1c
+UID:5800d992-ad73-4c64-83a4-c71f7a25975d
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260418T150000Z
 DTEND:20260418T170000Z
-SUMMARY:Girls Lacrosse: @ Aurora City Schools
-LOCATION:Away - Aurora City Schools
-DESCRIPTION:Aurora City Schools\n\nMore info: https://polandbulldogs.bigte
- ams.com/main/event/scid/OH4451495857/eventId/79807988/
+SUMMARY:Softball: vs Springfield Local High School
+LOCATION:Home - PSHS Softball Field
+DESCRIPTION:Springfield Local High School\n\nMore info: https://polandbull
+ dogs.bigteams.com/main/event/scid/OH4451495857/eventId/80228788/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79807988/
+ 5857/eventId/80228788/
 END:VEVENT
 BEGIN:VEVENT
-UID:d6308a4f-40e0-47a1-8295-dd6368f3caf5
+UID:62d98f66-27ea-45f0-8301-fdcf8bd3f1e3
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260418T160000Z
-DTEND:20260418T180000Z
-SUMMARY:Baseball: vs Salem Jr/Sr High School
-LOCATION:Home - PSHS Baseball Field
-DESCRIPTION:Salem Jr/Sr High School\n\nMore info: https://polandbulldogs.b
- igteams.com/main/event/scid/OH4451495857/eventId/80300365/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80300365/
-END:VEVENT
-BEGIN:VEVENT
-UID:3e85b48a-e0d0-4758-ae7e-8a3f04723dce
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260420T210000Z
 DTEND:20260420T230000Z
-SUMMARY:Baseball: vs Girard Jr/Sr HS
-LOCATION:Home - PSHS Baseball Field
-DESCRIPTION:Girard Jr/Sr HS\n\nMore info: https://polandbulldogs.bigteams.
- com/main/event/scid/OH4451495857/eventId/79621720/
+SUMMARY:Softball: @ South Range High School
+LOCATION:Away - South Range High School
+DESCRIPTION:South Range High School\n\nMore info: https://polandbulldogs.b
+ igteams.com/main/event/scid/OH4451495857/eventId/80228796/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79621720/
+ 5857/eventId/80228796/
 END:VEVENT
 BEGIN:VEVENT
-UID:aa152c4c-a1bb-4a0e-b740-1eb422a15f16
+UID:080083ff-43be-438e-b2b6-af9d68b4985e
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260420T220000Z
-DTEND:20260421T000000Z
-SUMMARY:Girls Lacrosse: vs Boardman High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Boardman High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/79773124/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79773124/
-END:VEVENT
-BEGIN:VEVENT
-UID:53b8f59d-ec67-43b0-8fd6-a5d2925d83a6
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260421T204500Z
 DTEND:20260421T224500Z
 SUMMARY:Track & Field: @ Girard Jr/Sr HS
@@ -2021,22 +2676,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79821616/
 END:VEVENT
 BEGIN:VEVENT
-UID:762de879-587c-4cd7-a4f2-798c56b75eb2
+UID:d49e3b40-8fdd-4dca-9c79-136931da2137
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260421T210000Z
-DTEND:20260421T230000Z
-SUMMARY:Baseball: @ Girard Jr/Sr HS
-LOCATION:Away - Liberty Park
-DESCRIPTION:Girard Jr/Sr HS\n\nMore info: https://polandbulldogs.bigteams.
- com/main/event/scid/OH4451495857/eventId/79621724/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79621724/
-END:VEVENT
-BEGIN:VEVENT
-UID:8ae3780a-4e97-4ac5-82e4-de6e028b157b
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260421T223000Z
 DTEND:20260422T003000Z
 SUMMARY:Boys Lacrosse: vs Southeast High School
@@ -2047,22 +2689,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79774758/
 END:VEVENT
 BEGIN:VEVENT
-UID:3aab220d-9a08-4f8e-a0f3-8bc15a76d711
+UID:8d82ec2e-d22c-4831-b4fa-8082cc182f1b
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260423T210000Z
 DTEND:20260423T230000Z
-SUMMARY:Baseball: vs Saint John School
-LOCATION:Home - PSHS Baseball Field
-DESCRIPTION:Saint John School\n\nMore info: https://polandbulldogs.bigteam
- s.com/main/event/scid/OH4451495857/eventId/80320835/
+SUMMARY:Softball: vs Canfield High School
+LOCATION:Home - PSHS Softball Field
+DESCRIPTION:Canfield High School\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/80228803/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80320835/
+ 5857/eventId/80228803/
 END:VEVENT
 BEGIN:VEVENT
-UID:bb86a2a9-310d-4a76-bedf-057408d29d70
+UID:4492f348-13c0-4880-8f88-9c7f9ff39b81
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260423T223000Z
 DTEND:20260424T003000Z
 SUMMARY:Boys Lacrosse: @ St. Vincent-St. Mary H.S.
@@ -2073,9 +2715,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79868179/
 END:VEVENT
 BEGIN:VEVENT
-UID:9eb79340-1d3d-4d5c-aacf-300b221e70f6
+UID:95bb0a97-144c-4479-a92c-7cc0afe34b60
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20260424T213000Z
+DTEND:20260424T233000Z
+SUMMARY:Softball: @ Chalker High School
+LOCATION:Away - Chalker High School
+DESCRIPTION:Chalker High School\n\nMore info: https://polandbulldogs.bigte
+ ams.com/main/event/scid/OH4451495857/eventId/80228809/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80228809/
+END:VEVENT
+BEGIN:VEVENT
+UID:4d704955-41e9-4bde-8c75-9af750a7aca8
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20260425T130000Z
 DTEND:20260425T150000Z
 SUMMARY:Track & Field: vs Girard Jr/Sr HS
@@ -2086,35 +2741,35 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79549197/
 END:VEVENT
 BEGIN:VEVENT
-UID:4ec3e15e-cc25-4c33-98e2-29ad9ea1e3ec
+UID:5c98b363-8537-40b6-a875-2822865c9595
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
+DTSTART:20260425T150000Z
+DTEND:20260425T170000Z
+SUMMARY:Softball: vs Salem Jr/Sr High School
+LOCATION:Home - PSHS Softball Field
+DESCRIPTION:Salem Jr/Sr High School\n\nMore info: https://polandbulldogs.b
+ igteams.com/main/event/scid/OH4451495857/eventId/80228823/
+URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
+ 5857/eventId/80228823/
+END:VEVENT
+BEGIN:VEVENT
+UID:8c75a04f-b695-44be-afc5-19830560868b
+SEQUENCE:0
+DTSTAMP:20251119T194523Z
 DTSTART:20260427T210000Z
 DTEND:20260427T230000Z
-SUMMARY:Baseball: vs Lakeview High School
-LOCATION:Home - PSHS Baseball Field
-DESCRIPTION:Lakeview High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/79821788/
+SUMMARY:Softball: vs Girard Jr/Sr HS
+LOCATION:Home - PSHS Softball Field
+DESCRIPTION:Girard Jr/Sr HS\n\nMore info: https://polandbulldogs.bigteams.
+ com/main/event/scid/OH4451495857/eventId/80228829/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79821788/
+ 5857/eventId/80228829/
 END:VEVENT
 BEGIN:VEVENT
-UID:87cb572d-64e6-4a17-8d34-fc02ccbb79bd
+UID:0e9f84f2-b9e8-4794-9d4a-9d5f15b078ed
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260427T220000Z
-DTEND:20260428T000000Z
-SUMMARY:Girls Lacrosse: vs Canfield High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Canfield High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/79765376/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79765376/
-END:VEVENT
-BEGIN:VEVENT
-UID:5dd16362-de80-4281-9e1f-dc6f4cbe9609
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260428T204500Z
 DTEND:20260428T224500Z
 SUMMARY:Track & Field: @ Girard Jr/Sr HS
@@ -2125,22 +2780,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79821632/
 END:VEVENT
 BEGIN:VEVENT
-UID:e95c4049-1c3e-4bcc-897f-c029076c1121
+UID:2d4c67f3-279a-4d04-a43c-98a6fce4a9e7
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260428T210000Z
 DTEND:20260428T230000Z
-SUMMARY:Baseball: @ Lakeview High School
-LOCATION:Away - Lakeview High School
-DESCRIPTION:Lakeview High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/79821804/
+SUMMARY:Softball: @ Hubbard High School
+LOCATION:Away - Hubbard High School
+DESCRIPTION:Hubbard High School\n\nMore info: https://polandbulldogs.bigte
+ ams.com/main/event/scid/OH4451495857/eventId/80228832/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79821804/
+ 5857/eventId/80228832/
 END:VEVENT
 BEGIN:VEVENT
-UID:80a19c64-95be-42cb-aa82-2a9d597db507
+UID:9c419ea3-8ca1-4708-8a71-e95f1cc6e165
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260428T223000Z
 DTEND:20260429T003000Z
 SUMMARY:Boys Lacrosse: vs Canfield High School
@@ -2151,35 +2806,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79765383/
 END:VEVENT
 BEGIN:VEVENT
-UID:3d8b83dc-e522-4819-8cfb-b6ba1afc8739
+UID:c5b040fa-ae91-42db-a450-27c78408a5e8
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260429T220000Z
-DTEND:20260430T000000Z
-SUMMARY:Girls Lacrosse: vs Green High School - Uniontown
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Green High School - Uniontown\n\nMore info: https://polandbull
- dogs.bigteams.com/main/event/scid/OH4451495857/eventId/79756093/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79756093/
-END:VEVENT
-BEGIN:VEVENT
-UID:cc5c14cf-1fa0-46c8-87eb-d6f11602d75f
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260430T210000Z
-DTEND:20260430T230000Z
-SUMMARY:Baseball: @ Howland High School
-LOCATION:Away - Howland High School
-DESCRIPTION:Howland High School\n\nMore info: https://polandbulldogs.bigte
- ams.com/main/event/scid/OH4451495857/eventId/80130932/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80130932/
-END:VEVENT
-BEGIN:VEVENT
-UID:91a06abb-bbeb-434f-a0a1-c666cc1c3543
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260430T223000Z
 DTEND:20260501T003000Z
 SUMMARY:Boys Lacrosse: @ Southeast High School
@@ -2190,35 +2819,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79773113/
 END:VEVENT
 BEGIN:VEVENT
-UID:a4de1002-f260-4258-9aa6-5cb09c0d6d9a
+UID:7a4745e2-b4f5-495d-a4fc-99acfc581816
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260504T210000Z
 DTEND:20260504T230000Z
-SUMMARY:Baseball: @ Struthers High School
-LOCATION:Away - Cene Field #1
-DESCRIPTION:Struthers High School\n\nMore info: https://polandbulldogs.big
- teams.com/main/event/scid/OH4451495857/eventId/80112582/
+SUMMARY:Softball: @ Lakeview High School
+LOCATION:Away - Lakeview High School
+DESCRIPTION:Lakeview High School\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/80228838/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80112582/
+ 5857/eventId/80228838/
 END:VEVENT
 BEGIN:VEVENT
-UID:c0faff4e-bdbf-4f55-ab88-d6d7f28dd08e
+UID:83846e80-2eab-4477-a46d-dbf1371d97d2
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260504T220000Z
-DTEND:20260505T000000Z
-SUMMARY:Girls Lacrosse: vs Archbishop Hoban High School
-LOCATION:Home - Dave Pavlansky Field
-DESCRIPTION:Archbishop Hoban High School\n\nMore info: https://polandbulld
- ogs.bigteams.com/main/event/scid/OH4451495857/eventId/79759029/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79759029/
-END:VEVENT
-BEGIN:VEVENT
-UID:9bbc4627-6683-458d-827e-726e4f94ad3e
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260505T204500Z
 DTEND:20260505T224500Z
 SUMMARY:Track & Field: @ Mahoning Co. Varsity Championship
@@ -2229,48 +2845,35 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79821673/
 END:VEVENT
 BEGIN:VEVENT
-UID:19ae44dd-06be-448c-b498-10a7290f2024
+UID:d65ce76d-7bbf-4ad5-98c7-911ce0ee2bd8
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260505T210000Z
 DTEND:20260505T230000Z
-SUMMARY:Baseball: vs Struthers High School
-LOCATION:Home - PSHS Baseball Field
+SUMMARY:Softball: vs Struthers High School
+LOCATION:Home - PSHS Softball Field
 DESCRIPTION:Struthers High School\n\nMore info: https://polandbulldogs.big
- teams.com/main/event/scid/OH4451495857/eventId/80112585/
+ teams.com/main/event/scid/OH4451495857/eventId/80228844/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80112585/
+ 5857/eventId/80228844/
 END:VEVENT
 BEGIN:VEVENT
-UID:2ba0fe51-fac5-4170-a7f0-bbf5c7dabdd6
+UID:b451587f-2d1e-439e-ad86-edbe57042229
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260506T220000Z
-DTEND:20260507T000000Z
-SUMMARY:Girls Lacrosse: @ Southeast High School
-LOCATION:Away - Southeast High School
-DESCRIPTION:Southeast High School\n\nMore info: https://polandbulldogs.big
- teams.com/main/event/scid/OH4451495857/eventId/79765845/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/79765845/
-END:VEVENT
-BEGIN:VEVENT
-UID:6b0f021c-8423-4692-8886-748fa9ecd0cc
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260507T210000Z
 DTEND:20260507T230000Z
-SUMMARY:Baseball: vs McDonald High School
-LOCATION:Home - PSHS Baseball Field
-DESCRIPTION:Senior Night\n\nMore info: https://polandbulldogs.bigteams.com
- /main/event/scid/OH4451495857/eventId/80082042/
+SUMMARY:Softball: vs McDonald High School
+LOCATION:Home - PSHS Softball Field
+DESCRIPTION:McDonald High School\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/80228846/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80082042/
+ 5857/eventId/80228846/
 END:VEVENT
 BEGIN:VEVENT
-UID:f52886d1-74fa-4fdb-85a8-d5872dbb2043
+UID:ddac2748-0ad5-40b4-a882-6ecf3d06089b
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260507T223000Z
 DTEND:20260508T003000Z
 SUMMARY:Boys Lacrosse: @ Canfield High School
@@ -2281,35 +2884,22 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79765464/
 END:VEVENT
 BEGIN:VEVENT
-UID:dfaa2672-64c5-4a7d-ab7e-8d75b0f16d62
+UID:4db03ff8-4ae7-404f-8e3b-8cef0b4cd519
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260508T210000Z
 DTEND:20260508T230000Z
-SUMMARY:Baseball: vs Mineral Ridge High School
-LOCATION:Home - PSHS Baseball Field
-DESCRIPTION:Mineral Ridge High School\n\nMore info: https://polandbulldogs
- .bigteams.com/main/event/scid/OH4451495857/eventId/80250989/
+SUMMARY:Softball: vs Boardman High School
+LOCATION:Home - PSHS Softball Field
+DESCRIPTION:Boardman High School\n\nMore info: https://polandbulldogs.bigt
+ eams.com/main/event/scid/OH4451495857/eventId/80228851/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80250989/
+ 5857/eventId/80228851/
 END:VEVENT
 BEGIN:VEVENT
-UID:b52822ff-4aec-457d-b020-73da3b509edd
+UID:e0a0585f-a396-458a-aed5-753a7ade48bd
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260511T210000Z
-DTEND:20260511T230000Z
-SUMMARY:Baseball: @ Hubbard High School
-LOCATION:Away - Hubbard High School
-DESCRIPTION:Hubbard High School\n\nMore info: https://polandbulldogs.bigte
- ams.com/main/event/scid/OH4451495857/eventId/80112402/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80112402/
-END:VEVENT
-BEGIN:VEVENT
-UID:16c5de65-0268-47f4-840b-e9b6f3d769d9
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260512T203000Z
 DTEND:20260512T223000Z
 SUMMARY:Track & Field: vs Northeast 8 Championship Meet
@@ -2320,22 +2910,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/78505694/
 END:VEVENT
 BEGIN:VEVENT
-UID:a6e73592-ad52-4d5a-9bed-044de9a88ecb
+UID:91b1d4c0-0a8c-4f92-a798-7599fa2b0774
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260512T210000Z
-DTEND:20260512T230000Z
-SUMMARY:Baseball: vs Hubbard High School
-LOCATION:Home - PSHS Baseball Field
-DESCRIPTION:Hubbard High School\n\nMore info: https://polandbulldogs.bigte
- ams.com/main/event/scid/OH4451495857/eventId/80112404/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80112404/
-END:VEVENT
-BEGIN:VEVENT
-UID:0bc239a8-aa0b-49ee-9110-31d144de88dd
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260512T223000Z
 DTEND:20260513T003000Z
 SUMMARY:Boys Lacrosse: @ Notre Dame - Cathedral Latin
@@ -2346,22 +2923,9 @@ URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/80159303/
 END:VEVENT
 BEGIN:VEVENT
-UID:9c9b3fa1-26a0-414c-985b-7d0dc6ed48a5
+UID:bf89f94f-6a74-4fc5-884e-fe93a3dddb2b
 SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260514T210000Z
-DTEND:20260514T230000Z
-SUMMARY:Baseball: vs Canfield High School
-LOCATION:Home - PSHS Baseball Field
-DESCRIPTION:Canfield High School\n\nMore info: https://polandbulldogs.bigt
- eams.com/main/event/scid/OH4451495857/eventId/80082044/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80082044/
-END:VEVENT
-BEGIN:VEVENT
-UID:dd4a3ef5-be62-47e1-83eb-2088414cf269
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
+DTSTAMP:20251119T194523Z
 DTSTART:20260514T223000Z
 DTEND:20260515T003000Z
 SUMMARY:Boys Lacrosse: vs Boardman High School
@@ -2370,18 +2934,5 @@ DESCRIPTION:Boardman High School\n\nMore info: https://polandbulldogs.bigt
  eams.com/main/event/scid/OH4451495857/eventId/79773120/
 URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
  5857/eventId/79773120/
-END:VEVENT
-BEGIN:VEVENT
-UID:842c02e7-365e-4db2-8716-c5b6e9d8f67f
-SEQUENCE:0
-DTSTAMP:20251119T184318Z
-DTSTART:20260515T211500Z
-DTEND:20260515T231500Z
-SUMMARY:Baseball: @ Carrollton HS
-LOCATION:Away - PSHS Baseball Field
-DESCRIPTION:Carrollton HS\n\nMore info: https://polandbulldogs.bigteams.co
- m/main/event/scid/OH4451495857/eventId/80405311/
-URL;VALUE=URI:https://polandbulldogs.bigteams.com/main/event/scid/OH445149
- 5857/eventId/80405311/
 END:VEVENT
 END:VCALENDAR
