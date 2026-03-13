@@ -7,357 +7,380 @@
   <style>
     :root {
       --primary: #00328f;
-      --gray: #f0f0f0;
-      --radius: 8px;
-      --transition: 0.2s ease;
+      --ink: #0f172a;
+      --muted: #64748b;
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --radius: 12px;
+      --ring: 0 0 0 2px rgba(0,50,143,.15);
+      --shadow: 0 8px 20px rgba(2, 6, 23, 0.08);
     }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
     body {
       margin: 0;
-      padding: 0;
-      font-family: system-ui, sans-serif;
-      background: var(--gray);
-      color: #222;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--ink);
+      background: var(--bg);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
     }
-    header {
+
+    /* App Bar */
+    .appbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: saturate(180%) blur(10px);
+      background: rgba(255,255,255,.8);
+      border-bottom: 1px solid rgba(15,23,42,.06);
+    }
+    .appbar-inner {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      padding: 1rem;
-      background: white;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      gap: .75rem;
+      padding: .75rem 1rem;
+      max-width: 980px;
+      margin: 0 auto;
     }
-    header img {
-      height: 40px;
+    .brand {
+      display: flex; align-items: center; gap: .5rem;
     }
-    header .current-date {
-      font-weight: bold;
-      color: var(--primary);
-      font-size: 1rem;
+    .brand img { height: 28px; }
+    .brand h1 { font-size: 1rem; margin: 0; letter-spacing: .2px; font-weight: 700; color: var(--primary); }
+
+    /* Tabs */
+    .tabs { display: flex; gap: .25rem; margin-left: auto; }
+    .tab {
+      appearance: none; border: none; background: transparent; color: var(--muted);
+      padding: .4rem .7rem; border-radius: 999px; cursor: pointer; font-weight: 600; font-size: .9rem;
     }
-    .controls {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      gap: 0.5rem;
-      padding: .5rem 0 .5rem 0;
+    .tab.active { color: #fff; background: var(--primary); box-shadow: var(--ring); }
+
+    /* Filters row */
+    .filters {
+      position: sticky; top: 56px; z-index: 19; background: linear-gradient(180deg, rgba(255,255,255,.92), rgba(255,255,255,.92));
+      border-bottom: 1px solid rgba(15,23,42,.06);
+      overflow-x: hidden;
     }
-    select, button {
-      padding: 0.4rem 0.7rem;
-      font-size: 0.9rem;
-      border-radius: var(--radius);
-      border: 1px solid #ccc;
-      background: white;
-      cursor: pointer;
-      transition: var(--transition);
-    }
-    button.active {
-      background: var(--primary);
-      color: white;
-      border-color: var(--primary);
-    }
-    .game-list {
-      display: flex;
-      flex-direction: column;
-      gap: 0.4rem;
-      padding: 0 1rem;
-    }
-    .game {
-      background: white;
-      border-radius: var(--radius);
-      padding: 1rem;
-      border-left: 6px solid transparent;
-      display: flex;
-      flex-direction: column;
-    }
-    .game.home {
-      border-left-color: var(--primary);
-    }
-    .game.away {
-      border-left-color: #ccc;
-    }
-    .game.compact {
+    .filters-inner {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: .5rem 1rem;
       display: grid;
-      grid-template-columns: 1fr 2fr 1fr auto;
-      align-items: center;
-      padding: 0.4rem 1rem;
-      font-size: 0.85rem;
+      gap: .5rem;
+      overflow-x: hidden;
     }
-    .game.compact .title {
-      font-weight: 600;
-      font-size: 0.9rem;
-      margin: 0;
+
+    /* Date scroller */
+    .date-strip { display: flex; align-items: center; gap: .5rem; width: 100%; overflow: hidden; }
+
+    .date-strip .datescroll { flex: 1; min-width: 0; }
+    .date-btn { border: none; background: var(--card); border-radius: var(--radius); padding: .5rem; box-shadow: var(--shadow); cursor: pointer; }
+    .datescroll {
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: max-content;
+      gap: .5rem;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
     }
-    .game.compact .meta {
-      text-align: right;
-      line-height: 1.4;
-      font-size: 0.8rem;
-    }
-    .calendar-icon {
-      font-size: 1.2rem;
-      cursor: pointer;
-      padding: 0.5rem;
-    }
-    .calendar-icon:hover {
-      background: #e1e9ff;
-      border-radius: var(--radius);
-    }
-    .cancelled {
-      text-decoration: line-through;
-      color: red;
-    }
-    .status-dot {
-      display: inline-block;
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      margin-right: 6px;
-      vertical-align: middle;
-    }
-    .dot-green { background: green; }
-    .dot-yellow { background: orange; }
-    .dot-red { background: red; }
-    .nav-wrapper {
+    .datescroll::-webkit-scrollbar { display: none; }
+    .sports {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 0.5rem;
+      gap: .4rem;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
     }
-    .nav-arrows button {
-      font-size: 1.2rem;
-      padding: 0.3rem 0.6rem;
-      border-radius: 50%;
-      background: var(--primary);
-      color: white;
-      border: none;
+    .sports::-webkit-scrollbar { display: none; }
+    .chip {
+      padding: .45rem .7rem; background: #fff; border: 1px solid rgba(15,23,42,.08); border-radius: 999px; font-size: .85rem; font-weight: 600; color: var(--muted);
+      white-space: nowrap; cursor: pointer; transition: transform .12s ease; flex: 0 0 auto;
     }
-    @media (max-width: 600px) {
-      .game.compact {
-        grid-template-columns: 1fr;
-        text-align: left;
+    @media (max-width: 720px) {
+      body:not([data-view="today"]) .date-header {
+        position: static;
+        top: auto;
       }
-      .game.compact .meta {
-        text-align: left;
-      }
+    }
+    .chip:active { transform: scale(.98); }
+    .chip.active { color: var(--primary); border-color: rgba(0,50,143,.35); background: #f1f5ff; }
+
+    /* Sport chips */
+    .sports::-webkit-scrollbar { display: none; }
+    .sports::-webkit-scrollbar { display: none; }
+
+    /* Content */
+    .container { max-width: 980px; margin: .75rem auto 6rem; padding: 0 1rem; }
+
+    /* Cards */
+    .card {
+      background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: .9rem; display: grid; gap: .5rem; border: 1px solid rgba(15,23,42,.06);
+    }
+    .card + .date-header { margin-top: 1rem; }
+    .stack { display: grid; gap: .6rem; }
+    .date-header { position: sticky; top: 106px; z-index: 10; background: transparent; margin: .75rem 0 .5rem; }
+    .date-header h3 { margin: 0; font-size: .95rem; color: var(--muted); font-weight: 700; letter-spacing: .2px; }
+
+    .row { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: .5rem; }
+    .title { font-weight: 800; letter-spacing: .2px; }
+    .meta { font-size: .9rem; color: var(--muted); }
+    .badge { padding: .2rem .5rem; border-radius: 999px; font-size: .75rem; font-weight: 800; letter-spacing: .3px; border: 1px solid rgba(15,23,42,.08); }
+    .badge.home { color: #065f46; background: #ecfdf5; border-color: #a7f3d0; }
+    .badge.away { color: #7c2d12; background: #fff7ed; border-color: #fed7aa; }
+    .badge.cancelled { color: #991b1b; background: #fee2e2; border-color: #fecaca; }
+    .badge.postponed { color: #92400e; background: #ffedd5; border-color: #fed7aa; }
+
+    .actions { display: flex; align-items: center; gap: .5rem; }
+    .btn { border: 1px solid rgba(15,23,42,.08); background: #fff; border-radius: 10px; padding: .45rem .6rem; font-weight: 700; font-size: .85rem; cursor: pointer; }
+    .btn:focus-visible { box-shadow: var(--ring); outline: none; }
+
+    /* FAB */
+    .fab { position: fixed; right: 16px; bottom: 16px; background: var(--primary); color: #fff; border: none; border-radius: 999px; padding: .8rem 1rem; font-weight: 800; box-shadow: 0 10px 30px rgba(0,50,143,.35); cursor: pointer; z-index: 30; }
+
+    /* Empty */
+    .empty { text-align: center; color: var(--muted); padding: 2rem 1rem; }
+
+    /* Desktop tweaks */
+    @media (min-width: 720px) {
+      .row { grid-template-columns: 2fr auto; }
     }
   </style>
 </head>
 <body>
+  <header class="appbar">
+    <div class="appbar-inner">
+      <div class="brand">
+        <img src="https://www.polandbulldogs.com/uploaded/emails/bulldog-logo.png" alt="Poland Bulldogs Logo" />
+        <h1>Poland Athletics</h1>
+      </div>
+      <nav class="tabs">
+        <button class="tab" data-view="today">Today</button>
+        <button class="tab" data-view="week">Week</button>
+        <button class="tab" data-view="month">Month</button>
+        <button class="tab" data-view="all">All</button>
+      </nav>
+    </div>
+  </header>
 
-<header>
-  <img src="https://www.polandbulldogs.com/uploaded/emails/bulldog-logo.png" alt="Poland Bulldogs Logo">
-  <div class="current-date" id="currentDateLabel"></div>
-</header>
+  <section class="filters">
+    <div class="filters-inner">
+      <div class="date-strip">
+        <button class="date-btn" id="prevDay" aria-label="Previous day">&#8592;</button>
+        <div id="dateScroll" class="datescroll" role="tablist" aria-label="Pick a date"></div>
+        <button class="date-btn" id="nextDay" aria-label="Next day">&#8594;</button>
+      </div>
+      <div id="sportChips" class="sports" aria-label="Filter by sport"></div>
+    </div>
+  </section>
 
-<div class="nav-wrapper controls">
-  <button id="prevDay">&#8592;</button>
-  <select id="sportFilter">
-    <option value="">All Sports</option>
-  </select>
-  <button id="nextDay">&#8594;</button>
-</div>
+  <main class="container">
+    <div id="list" class="stack" aria-live="polite"></div>
+  </main>
 
-<div id="schedule" class="game-list compact"></div>
+  <button id="fabToday" class="fab">Today</button>
 
-<div class="controls" style="padding: 1rem 0 0 0">
-  <button data-view="today">Today</button>
-  <button data-view="week">This Week</button>
-  <button data-view="month">This Month</button>
-  <button data-view="all">All</button>
-  <button id="layoutToggle">Full View</button>
-</div>
+  <script>
+    // -------- Data + State --------
+    const listEl = document.getElementById('list');
+    const dateScroll = document.getElementById('dateScroll');
+    const sportChips = document.getElementById('sportChips');
+    const tabs = [...document.querySelectorAll('.tab')];
+    const fabToday = document.getElementById('fabToday');
+    const prevDay = document.getElementById('prevDay');
+    const nextDay = document.getElementById('nextDay');
 
-<script>
-  const scheduleEl = document.getElementById("schedule");
-  const sportFilter = document.getElementById("sportFilter");
-  const layoutToggle = document.getElementById("layoutToggle");
-  const prevDay = document.getElementById("prevDay");
-  const nextDay = document.getElementById("nextDay");
-  const currentDateLabel = document.getElementById("currentDateLabel");
+    let allGames = [];
+    let currentDate = new Date();
+    let view = getHashView();
+    let selectedSport = '';
 
-  let layout = "compact";
-  let view = "week";
-  let allGames = [];
-  let currentDate = new Date();
-
-  const getHashView = () => {
-    const hash = location.hash.replace("#", "").toLowerCase();
-    return ["today", "week", "month", "all"].includes(hash) ? hash : "week";
-  };
-
-  async function loadData() {
-    const res = await fetch("dist/data/combined.json");
-    const data = await res.json();
-    allGames = data;
-    populateSportOptions(data);
-    view = getHashView();
-    highlightView(view);
-    renderSchedule();
-  }
-
-  function populateSportOptions(data) {
-    const sports = [...new Set(data.map(g => g.sport))].sort();
-    sports.forEach(sport => {
-      const opt = document.createElement("option");
-      opt.value = sport;
-      opt.textContent = sport;
-      sportFilter.appendChild(opt);
-    });
-  }
-
-  function highlightView(v) {
-    document.querySelectorAll("[data-view]").forEach(btn => {
-      btn.classList.toggle("active", btn.dataset.view === v);
-    });
-  }
-
-  function getStatusDot(game) {
-    if (game.isCancelled) return '<span class="status-dot dot-red"></span>';
-    if (game.isPostponed) return '<span class="status-dot dot-yellow"></span>';
-    return '<span class="status-dot dot-green"></span>';
-  }
-
-// --- helpers to make rendering robust against null/undefined fields ---
-function parseGameDate(game) {
-  if (!game || !game.date) return null;
-  const dtStr = game.time ? `${game.date} ${game.time}` : `${game.date} 12:00 AM`;
-  const d = new Date(dtStr);
-  return isNaN(d) ? null : d;
-}
-function stripTime(d) {
-  const x = new Date(d);
-  x.setHours(0, 0, 0, 0);
-  return x;
-}
-function safeText(value, fallback) {
-  const v = (value ?? '').toString().trim();
-  return v || fallback;
-}
-
-  function renderSchedule() {
-    const selectedSport = sportFilter.value;
-    scheduleEl.innerHTML = "";
-    scheduleEl.className = "game-list" + (layout === "compact" ? " compact" : "");
-
-    currentDateLabel.textContent = currentDate.toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric" });
-
-    const now = currentDate;
-    const weekEnd = new Date(now);
-    weekEnd.setDate(now.getDate() + 7);
-
-    const filtered = allGames.filter(game => {
-      const date = parseGameDate(game);
-      if (!date) return false;
-
-      if (selectedSport && game.sport !== selectedSport) return false;
-
-      if (view === "today") return date.toDateString() === stripTime(now).toDateString();
-      if (view === "week") return date >= stripTime(now) && date <= weekEnd;
-      if (view === "month") return date.getMonth() === now.getMonth() && date.getFullYear() === now.getFullYear();
-
-      return date >= stripTime(now);
-    });
-
-    // Ensure chronological order across all views
-    const sorted = filtered.slice().sort((a, b) => {
-      const da = parseGameDate(a);
-      const db = parseGameDate(b);
-      if (da && db) {
-        const diff = da - db;
-        if (diff !== 0) return diff;
-      } else if (da && !db) {
-        return -1; // valid dates first
-      } else if (!da && db) {
-        return 1;
-      }
-      // deterministic fallback sort
-      const sportCmp = safeText(a.sport, "").localeCompare(safeText(b.sport, ""));
-      if (sportCmp !== 0) return sportCmp;
-      return safeText(a.opponent, "").localeCompare(safeText(b.opponent, ""));
-    });
-
-    if (sorted.length === 0) {
-      scheduleEl.innerHTML = "<p style='text-align:center'>No games found.</p>";
-      return;
+    function getHashView(){
+      const hash = location.hash.replace('#','').toLowerCase();
+      return ['today','week','month','all'].includes(hash) ? hash : 'week';
     }
 
-    sorted.forEach(game => {
-      const dateObj = parseGameDate(game);
-      const dateStr = dateObj
-        ? dateObj.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" })
-        : "Date TBD";
+    function fmtDate(d, opts){ return new Intl.DateTimeFormat(undefined, opts).format(d); }
 
-      const hoa = safeText(game.homeOrAway, "");
-      const isHome = hoa.toLowerCase() === "home";
+    function parseGameDate(g){
+      if(!g || !g.date){ return null; }
+      const dtStr = g.time ? `${g.date} ${g.time}` : `${g.date} 12:00 AM`;
+      const d = new Date(dtStr);
+      return isNaN(d) ? null : d;
+    }
+    function stripTime(d){ const x = new Date(d); x.setHours(0,0,0,0); return x; }
+    const safe = (v,f='') => (v ?? '').toString().trim() || f;
 
-      const sport = safeText(game.sport, "Sport");
-      const opponent = safeText(game.opponent, "Opponent TBD");
-      const vsOrAt = safeText(game.vsOrAt, (hoa.toLowerCase() === "home" ? "vs." : "at"));
-      const timeStr = safeText(game.time, "TBD");
-      const locationStr = safeText(game.location, "TBD");
-      const resultStr = safeText(game.result, "");
+    // -------- Load --------
+    load();
+    async function load(){
+      listEl.innerHTML = '<div class="empty">Loading…</div>';
+      try {
+        const res = await fetch('dist/data/combined.json', { cache: 'no-cache' });
+        allGames = await res.json();
+      } catch(e){
+        listEl.innerHTML = '<div class="empty">Could not load schedule.</div>';
+        return;
+      }
+      buildSportChips();
+      buildDateStrip(currentDate);
+      syncTabs();
+      render();
+    }
 
-      const div = document.createElement("div");
-      div.className = `game${layout === 'compact' ? ' compact' : ''} ${isHome ? 'home' : 'away'}`;
-      div.title = `${sport} game ${vsOrAt} ${opponent} on ${dateStr}${timeStr ? ` at ${timeStr}` : ""}`;
+    // -------- UI Builders --------
+    function buildSportChips(){
+      const sports = [...new Set(allGames.map(g => g.sport).filter(Boolean))].sort();
+      sportChips.innerHTML = '';
+      const allChip = chipEl('All Sports', '', selectedSport === '');
+      sportChips.appendChild(allChip);
+      sports.forEach(s => sportChips.appendChild(chipEl(s, s, selectedSport === s)));
+    }
+    function chipEl(label, value, active){
+      const el = document.createElement('button');
+      el.className = 'chip' + (active ? ' active' : '');
+      el.setAttribute('role','checkbox');
+      el.setAttribute('aria-checked', active ? 'true' : 'false');
+      el.textContent = label;
+      el.addEventListener('click', () => { selectedSport = value; buildSportChips(); render(); });
+      return el;
+    }
 
-      const title = document.createElement("div");
-      title.className = "title";
-      title.innerHTML = getStatusDot(game) + `<strong>${sport}</strong><br>${hoa ? hoa.toUpperCase() : "TBD"} ${vsOrAt} ${opponent}`;
-      if (game && game.isCancelled) title.classList.add("cancelled");
+    function buildDateStrip(anchor){
+      // Build a 14-day strip centered on anchor
+      const start = new Date(stripTime(anchor));
+      start.setDate(start.getDate() - 3);
+      dateScroll.innerHTML = '';
+      for(let i=0;i<14;i++){
+        const d = new Date(start); d.setDate(start.getDate()+i);
+        const b = document.createElement('button');
+        b.className = 'chip' + (stripTime(d).getTime() === stripTime(currentDate).getTime() && view==='today' ? ' active' : '');
+        b.innerHTML = `<strong>${fmtDate(d,{weekday:'short'})}</strong> ${fmtDate(d,{month:'short', day:'numeric'})}`;
+        b.addEventListener('click', () => { currentDate = d; view = 'today'; syncTabs(); render(); });
+        dateScroll.appendChild(b);
+      }
+    }
 
-      const meta = document.createElement("div");
-      meta.className = "meta";
-      meta.innerHTML = layout === "compact"
-        ? `<div>${dateStr} | ${timeStr}</div>`
-        : `${dateStr} · ${timeStr}<br>${locationStr}${resultStr ? `<br><em>Result:</em> ${resultStr}` : ""}`;
+    // -------- Interactions --------
+    tabs.forEach(t => t.addEventListener('click', () => { view = t.dataset.view; location.hash = view; syncTabs(); render(); }));
+    window.addEventListener('hashchange', () => { view = getHashView(); syncTabs(); render(); });
+    fabToday.addEventListener('click', () => { currentDate = new Date(); view = 'today'; buildDateStrip(currentDate); syncTabs(); render(); });
+    prevDay.addEventListener('click', () => { currentDate.setDate(currentDate.getDate()-1); view = 'today'; buildDateStrip(currentDate); syncTabs(); render(); });
+    nextDay.addEventListener('click', () => { currentDate.setDate(currentDate.getDate()+1); view = 'today'; buildDateStrip(currentDate); syncTabs(); render(); });
 
-      div.appendChild(title);
-      div.appendChild(meta);
-      scheduleEl.appendChild(div);
-    });
-  }
+    function syncTabs(){
+      tabs.forEach(t => t.classList.toggle('active', t.dataset.view === view));
+      document.body.setAttribute('data-view', view);
+    }
 
-  document.querySelectorAll("[data-view]").forEach(btn => {
-    btn.addEventListener("click", () => {
-      view = btn.dataset.view;
-      currentDate = new Date();
-      location.hash = view;
-      highlightView(view);
-      renderSchedule();
-    });
-  });
+    // -------- Data views --------
+    function inRange(g){
+      const d = parseGameDate(g);
+      if(!d) return false;
+      const today = stripTime(currentDate);
+      // Always ignore past events
+      if(d < today) return false;
 
-  layoutToggle.addEventListener("click", () => {
-    layout = layout === "full" ? "compact" : "full";
-    layoutToggle.textContent = layout === "compact" ? "Full View" : "Compact View";
-    renderSchedule();
-  });
+      if(view==='today') return stripTime(d).getTime() === today.getTime();
+      if(view==='week') { 
+        const end = new Date(today); 
+        end.setDate(end.getDate()+7); 
+        return d >= today && d < end; 
+      }
+      if(view==='month') { 
+        return d.getMonth()===today.getMonth() && d.getFullYear()===today.getFullYear(); 
+      }
+      // 'all' = upcoming from today onward
+      return d >= today;
+    }
 
-  sportFilter.addEventListener("change", renderSchedule);
+    function sortGames(a,b){
+      const da = parseGameDate(a), db = parseGameDate(b);
+      if(da && db){ if(da - db !== 0) return da - db; }
+      else if(da && !db) return -1; else if(!da && db) return 1;
+      const sa = safe(a.sport), sb = safe(b.sport); if(sa!==sb) return sa.localeCompare(sb);
+      return safe(a.opponent).localeCompare(safe(b.opponent));
+    }
 
-  window.addEventListener("hashchange", () => {
-    view = getHashView();
-    currentDate = new Date();
-    highlightView(view);
-    renderSchedule();
-  });
+    function render(){
+      const filtered = allGames.filter(g => (!selectedSport || g.sport===selectedSport) && inRange(g)).sort(sortGames);
+      if(filtered.length===0){ listEl.innerHTML = '<div class="empty">No events for this view.</div>'; return; }
 
-  prevDay.addEventListener("click", () => {
-    currentDate.setDate(currentDate.getDate() - 1);
-    view = "today";
-    highlightView(view);
-    renderSchedule();
-  });
+      // Group by date
+      const byDate = new Map();
+      for(const g of filtered){
+        const d = parseGameDate(g);
+        const key = d ? fmtDate(d,{weekday:'long', month:'long', day:'numeric'}) : 'Date TBD';
+        if(!byDate.has(key)) byDate.set(key, []);
+        byDate.get(key).push(g);
+      }
 
-  nextDay.addEventListener("click", () => {
-    currentDate.setDate(currentDate.getDate() + 1);
-    view = "today";
-    highlightView(view);
-    renderSchedule();
-  });
+      listEl.innerHTML = '';
+      for(const [label, games] of byDate){
+        const hdr = document.createElement('div');
+        hdr.className = 'date-header';
+        hdr.innerHTML = `<h3>${label}</h3>`;
+        listEl.appendChild(hdr);
+        games.forEach(g => listEl.appendChild(cardFor(g)));
+      }
+    }
 
-  loadData();
-</script>
+    function cardFor(g){
+      const d = parseGameDate(g);
+      const time = d ? fmtDate(d,{ hour: 'numeric', minute: '2-digit'}) : 'TBD';
+      const sport = safe(g.sport,'Sport');
+      const hoa = safe(g.homeOrAway).toLowerCase();
+      const vsAt = safe(g.vsOrAt, hoa==='home' ? 'vs.' : 'at');
+      const opponent = safe(g.opponent,'Opponent TBD');
+      const location = safe(g.location,'Location TBD');
+      const result = safe(g.result,'');
+
+      const status = g.isCancelled ? 'cancelled' : g.isPostponed ? 'postponed' : hoa==='home' ? 'home' : 'away';
+      const statusLabel = g.isCancelled ? 'Cancelled' : g.isPostponed ? 'Postponed' : hoa==='home' ? 'Home' : 'Away';
+
+      const el = document.createElement('article');
+      el.className = 'card';
+      el.innerHTML = `
+        <div class="row">
+          <div class="title">${sport} <span class="meta">${vsAt} ${opponent}</span></div>
+          <span class="badge ${status}">${statusLabel}</span>
+        </div>
+        <div class="row">
+          <div class="meta">${time} · ${location}${result ? ` · Result: ${result}` : ''}</div>
+          <div class="actions">
+            <button class="btn" aria-label="Add to calendar" title="Add to calendar">📅</button>
+          </div>
+        </div>`;
+      const btn = el.querySelector('.btn');
+      btn.addEventListener('click', () => {
+        // Build a simple ICS link for this event
+        const start = d ? d.toISOString().replace(/[-:]/g,'').split('.')[0]+'Z' : '';
+        const endDate = d ? new Date(d.getTime() + 2*60*60*1000) : null;
+        const end = endDate ? endDate.toISOString().replace(/[-:]/g,'').split('.')[0]+'Z' : start;
+        const ics = `BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+SUMMARY:${sport} ${vsAt} ${opponent}
+DTSTART:${start}
+DTEND:${end}
+LOCATION:${location}
+DESCRIPTION:${sport} ${vsAt} ${opponent} at ${location}
+END:VEVENT
+END:VCALENDAR`;
+        const blob = new Blob([ics], {type: 'text/calendar'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `${sport}-${opponent}.ics`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      });
+      return el;
+    }
+  </script>
 </body>
 </html>
