@@ -55,7 +55,7 @@
     "location": null,
     "opponent": "Glenoak High School",
     "result": null,
-    "isCancelled": false,
+    "isCancelled": true,
     "isPostponed": false,
     "url": "https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/79981063/"
   },
@@ -73,6 +73,21 @@
     "isCancelled": false,
     "isPostponed": false,
     "url": "https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/79807996/"
+  },
+  {
+    "eventId": 80967428,
+    "sport": "Boys Lacrosse",
+    "date": "04/14/2026",
+    "time": "07:00 PM",
+    "title": "Kirtland High School",
+    "homeOrAway": "Away",
+    "vsOrAt": "@",
+    "location": null,
+    "opponent": "Kirtland High School",
+    "result": null,
+    "isCancelled": false,
+    "isPostponed": false,
+    "url": "https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/80967428/"
   },
   {
     "eventId": 79773118,
@@ -154,7 +169,7 @@
     "sport": "Boys Lacrosse",
     "date": "05/05/2026",
     "time": "06:30 PM",
-    "title": "Louisville High School",
+    "title": "Senior NIght",
     "homeOrAway": "Home",
     "vsOrAt": "vs",
     "location": "Dave Pavlansky Field",
