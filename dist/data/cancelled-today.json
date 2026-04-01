@@ -1,17 +1,47 @@
 [
   {
-    "eventId": 79981063,
-    "sport": "Boys Lacrosse",
-    "date": "03/31/2026",
-    "time": "06:30 PM",
-    "title": "Glenoak High School",
+    "eventId": 80300359,
+    "sport": "Baseball",
+    "date": "04/01/2026",
+    "time": "05:00 PM",
+    "title": "Austintown Fitch HS",
     "homeOrAway": "Away",
     "vsOrAt": "@",
     "location": null,
-    "opponent": "Glenoak High School",
+    "opponent": "Austintown Fitch HS",
+    "result": null,
+    "isCancelled": false,
+    "isPostponed": true,
+    "url": "https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/80300359/"
+  },
+  {
+    "eventId": 80944858,
+    "sport": "Softball",
+    "date": "04/01/2026",
+    "time": "05:00 PM",
+    "title": "South Range High School",
+    "homeOrAway": "Home",
+    "vsOrAt": "vs",
+    "location": "PSHS Softball Field",
+    "opponent": "South Range High School",
+    "result": null,
+    "isCancelled": false,
+    "isPostponed": true,
+    "url": "https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/80944858/"
+  },
+  {
+    "eventId": 80766877,
+    "sport": "Boys Tennis",
+    "date": "04/01/2026",
+    "time": "05:00 PM",
+    "title": "East Liverpool High School",
+    "homeOrAway": "Away",
+    "vsOrAt": "@",
+    "location": null,
+    "opponent": "East Liverpool High School",
     "result": null,
     "isCancelled": true,
     "isPostponed": false,
-    "url": "https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/79981063/"
+    "url": "https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/80766877/"
   }
 ]
