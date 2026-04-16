@@ -1,5 +1,20 @@
 [
   {
+    "eventId": 80082034,
+    "sport": "Baseball",
+    "date": "04/16/2026",
+    "time": "05:00 PM",
+    "title": "Springfield Local High School",
+    "homeOrAway": "Away",
+    "vsOrAt": "@",
+    "location": null,
+    "opponent": "Springfield Local High School",
+    "result": null,
+    "isCancelled": false,
+    "isPostponed": true,
+    "url": "https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/80082034/"
+  },
+  {
     "eventId": 80228779,
     "sport": "Softball",
     "date": "04/16/2026",
@@ -13,5 +28,20 @@
     "isCancelled": false,
     "isPostponed": true,
     "url": "https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/80228779/"
+  },
+  {
+    "eventId": 80739606,
+    "sport": "Boys Tennis",
+    "date": "04/16/2026",
+    "time": "04:30 PM",
+    "title": "Warren G Harding HS",
+    "homeOrAway": "Away",
+    "vsOrAt": "@",
+    "location": "Lincoln Middle School",
+    "opponent": "Warren G Harding HS",
+    "result": null,
+    "isCancelled": true,
+    "isPostponed": false,
+    "url": "https://polandbulldogs.bigteams.com/main/event/scid/OH4451495857/eventId/80739606/"
   }
 ]
