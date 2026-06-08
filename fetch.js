@@ -11,6 +11,8 @@ const __dirname = path.dirname(__filename);
 const DATA_DIR      = path.join(__dirname, 'dist', 'data');
 const COMBINED      = path.join(DATA_DIR, 'combined.json');
 const COMBINED_CSV  = path.join(DATA_DIR, 'combined.csv');
+const UPCOMING      = path.join(DATA_DIR, 'upcoming.json');
+const UPCOMING_CSV  = path.join(DATA_DIR, 'upcoming.csv');
 const CANCELLED     = path.join(DATA_DIR, 'cancelled-today.json');
 const CANCELLED_CSV = path.join(DATA_DIR, 'cancelled-today.csv');
 const ICS_FILE      = path.join(__dirname, 'dist', 'pshs-athletics.ics');
@@ -316,8 +318,14 @@ async function main() {
   writeCsv(combined, COMBINED_CSV);
   console.log(`combined.json / .csv → ${combined.length}`);
 
-  // cancelled-today
+  // upcoming — combined filtered to today and future
   const today = new Date().toISOString().split('T')[0];
+  const upcoming = combined.filter(e => e.eventDate >= today);
+  fs.writeFileSync(UPCOMING, JSON.stringify(upcoming, null, 2));
+  writeCsv(upcoming, UPCOMING_CSV);
+  console.log(`upcoming.json / .csv → ${upcoming.length}`);
+
+  // cancelled-today
   const cancelledToday = events.filter(e => e.isCancelled && e.eventDate === today);
   fs.writeFileSync(CANCELLED, JSON.stringify(cancelledToday, null, 2));
   writeCsv(cancelledToday, CANCELLED_CSV);
