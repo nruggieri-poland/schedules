@@ -1,0 +1,13 @@
+{
+  "name": "eventlink-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "node fetch.js"
+  },
+  "dependencies": {
+    "ical-generator": "^8.1.1",
+    "luxon": "^3.7.1",
+    "node-fetch": "^3.3.2"
+  }
+}

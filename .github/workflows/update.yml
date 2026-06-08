@@ -1,0 +1,49 @@
+name: Fetch & Deploy Schedules
+
+on:
+  schedule:
+    - cron: "*/15 12-22 * * *"  # Every 30 min, 8 AM – 6:30 PM EDT (noon–10:30 PM UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  fetch-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch schedules from EventLink
+        run: node fetch.js
+
+      - name: Commit updated data files
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add dist/
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Auto-update schedules"
+            git push
+          fi
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
