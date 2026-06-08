@@ -8,58 +8,78 @@ import { DateTime } from 'luxon';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const DATA_DIR      = path.join(__dirname, 'dist', 'data');
-const COMBINED      = path.join(DATA_DIR, 'combined.json');
-const COMBINED_CSV  = path.join(DATA_DIR, 'combined.csv');
-const UPCOMING      = path.join(DATA_DIR, 'upcoming.json');
-const UPCOMING_CSV  = path.join(DATA_DIR, 'upcoming.csv');
-const CANCELLED     = path.join(DATA_DIR, 'cancelled-today.json');
-const CANCELLED_CSV = path.join(DATA_DIR, 'cancelled-today.csv');
-const ICS_FILE      = path.join(__dirname, 'dist', 'pshs-athletics.ics');
+const DATA_DIR = path.join(__dirname, 'dist', 'data');
+const ICS_DIR  = path.join(__dirname, 'dist');
 
 const HOME_VENUE = 'Poland Seminary High School';
 const ICAL_URL   =
-  'https://api.eventlink.com/?m=Calendar&a=ICalFeedAthleticsByOrganizationID' +
-  '&id=66ee88b6-0df2-42d7-b892-5a267a72ce9f' +
+  'https://api.eventlink.com/?m=Calendar&a=iCalFeedSubscriptions' +
   '&token=76f8c41e-9ca2-4f93-abf8-d1a55411ba8d' +
-  '&extra=false';
+  '&id=66ee88b6-0df2-42d7-b892-5a267a72ce9f';
 
-// Maps "Sport (Gender Level)" from iCal SUMMARY → { slug, title }
-// Only Varsity (V) entries are listed; everything else is silently dropped.
-const SPORT_MAP = {
-  'Football (Boys V)':       { slug: 'football',        title: 'Football' },
-  'Basketball (Boys V)':     { slug: 'boys-basketball',  title: 'Boys Basketball' },
-  'Basketball (Girls V)':    { slug: 'girls-basketball', title: 'Girls Basketball' },
-  'Golf (Boys V)':           { slug: 'boys-golf',        title: 'Boys Golf' },
-  'Golf (Girls V)':          { slug: 'girls-golf',       title: 'Girls Golf' },
-  'Soccer (Boys V)':         { slug: 'boys-soccer',      title: 'Boys Soccer' },
-  'Soccer (Girls V)':        { slug: 'girls-soccer',     title: 'Girls Soccer' },
-  'Tennis (Boys V)':         { slug: 'boys-tennis',      title: 'Boys Tennis' },
-  'Tennis (Girls V)':        { slug: 'girls-tennis',     title: 'Girls Tennis' },
-  'Volleyball (Girls V)':    { slug: 'volleyball',       title: 'Volleyball' },
-  'Cross Country (Coed V)':  { slug: 'cross-country',    title: 'Cross Country' },
-  'Wrestling (Boys V)':      { slug: 'boys-wrestling',   title: 'Boys Wrestling' },
-  'Wrestling (Girls V)':     { slug: 'girls-wrestling',  title: 'Girls Wrestling' },
-  'Swimming (Coed V)':       { slug: 'swim-dive',        title: 'Swim & Dive' },
-  'Swim & Dive (Coed V)':    { slug: 'swim-dive',        title: 'Swim & Dive' },
-  'Baseball (Boys V)':       { slug: 'baseball',         title: 'Baseball' },
-  'Softball (Girls V)':      { slug: 'softball',         title: 'Softball' },
-  'Lacrosse (Boys V)':       { slug: 'boys-lacrosse',    title: 'Boys Lacrosse' },
-  'Lacrosse (Girls V)':      { slug: 'girls-lacrosse',   title: 'Girls Lacrosse' },
-  'Track & Field (Coed V)':  { slug: 'track-field',      title: 'Track & Field' },
-  'Cheerleading (Girls V)':  { slug: 'cheerleading',     title: 'Cheerleading' },
+// Keyed on "Sport (Gender)" — level code is parsed separately.
+const SPORT_BASE_MAP = {
+  'Baseball (Boys)':       { slug: 'baseball',        title: 'Baseball' },
+  'Basketball (Boys)':     { slug: 'boys-basketball',  title: 'Boys Basketball' },
+  'Basketball (Girls)':    { slug: 'girls-basketball', title: 'Girls Basketball' },
+  'Cheerleading (Girls)':  { slug: 'cheerleading',     title: 'Cheerleading' },
+  'Cross Country (Coed)':  { slug: 'cross-country',    title: 'Cross Country' },
+  'Football (Boys)':       { slug: 'football',         title: 'Football' },
+  'Golf (Boys)':           { slug: 'boys-golf',        title: 'Boys Golf' },
+  'Golf (Girls)':          { slug: 'girls-golf',       title: 'Girls Golf' },
+  'Lacrosse (Boys)':       { slug: 'boys-lacrosse',    title: 'Boys Lacrosse' },
+  'Lacrosse (Girls)':      { slug: 'girls-lacrosse',   title: 'Girls Lacrosse' },
+  'Soccer (Boys)':         { slug: 'boys-soccer',      title: 'Boys Soccer' },
+  'Soccer (Girls)':        { slug: 'girls-soccer',     title: 'Girls Soccer' },
+  'Softball (Girls)':      { slug: 'softball',         title: 'Softball' },
+  'Swimming (Coed)':       { slug: 'swim-dive',        title: 'Swim & Dive' },
+  'Swim & Dive (Coed)':    { slug: 'swim-dive',        title: 'Swim & Dive' },
+  'Tennis (Boys)':         { slug: 'boys-tennis',      title: 'Boys Tennis' },
+  'Tennis (Girls)':        { slug: 'girls-tennis',     title: 'Girls Tennis' },
+  'Track & Field (Coed)':  { slug: 'track-field',      title: 'Track & Field' },
+  'Volleyball (Girls)':    { slug: 'volleyball',       title: 'Volleyball' },
+  'Wrestling (Boys)':      { slug: 'boys-wrestling',   title: 'Boys Wrestling' },
+  'Wrestling (Girls)':     { slug: 'girls-wrestling',  title: 'Girls Wrestling' },
 };
 
-// Titles that are banquets, meetings, photos, clinics, etc. — not athletic events.
-// Uses word boundaries so "Campbell" is not caught by "camp".
-const NON_EVENT_RE = /\b(banquet|meeting|pictures?|clinic|dinner|tryouts?|practice|scrimmage|camp|zombie|kindness)\b/i;
+// Level codes as they appear in iCal SUMMARY parentheses.
+const LEVEL_MAP = {
+  'V':  { slug: 'varsity',  label: 'Varsity',       group: 'varsity' },
+  'JV': { slug: 'jv',       label: 'JV',            group: 'jv-freshman' },
+  'F':  { slug: 'freshman', label: 'Freshman',      group: 'jv-freshman' },
+  '8':  { slug: '8th',      label: '8th Grade',     group: 'junior-high' },
+  '7':  { slug: '7th',      label: '7th Grade',     group: 'junior-high' },
+  'MS': { slug: 'ms',       label: 'Middle School', group: 'junior-high' },
+};
+
+// The four iCal files to produce. levels: null = all events.
+const ICAL_GROUPS = [
+  {
+    name:   'PSHS Athletics',
+    file:   'pshs-all.ics',
+    levels: null,
+  },
+  {
+    name:   'PSHS Athletics – Varsity',
+    file:   'pshs-athletics.ics',
+    levels: ['varsity'],
+  },
+  {
+    name:   'PSHS Athletics – JV & Freshman',
+    file:   'pshs-jv-freshman.ics',
+    levels: ['jv', 'freshman'],
+  },
+  {
+    name:   'PSHS Athletics – Junior High',
+    file:   'pshs-junior-high.ics',
+    levels: ['7th', '8th', 'ms'],
+  },
+];
 
 function pad(n) {
   return String(n).padStart(2, '0');
 }
 
-// Normalize an opponent title for lookup:
-// strips trailing "(disambiguation)" and common suffix variants.
 function normalizeTitle(title) {
   const noDisambig = title.replace(/\s*\([^)]+\)\s*$/, '').trim();
   return noDisambig
@@ -70,8 +90,6 @@ function normalizeTitle(title) {
     .trim();
 }
 
-// Resolve an opponent title to a { name, mascot } entry from opponents.json.
-// Returns the raw title as name if no match is found, and logs a warning.
 function resolveOpponent(title, opponents) {
   const attempts = [title, normalizeTitle(title)];
   for (const attempt of attempts) {
@@ -81,7 +99,6 @@ function resolveOpponent(title, opponents) {
   return { name: title, mascot: null, matched: false };
 }
 
-// Convert 24-hour "HH:MM" → 12-hour "hh:mm AM/PM", or "TBA" if null.
 function formatTime12h(time24) {
   if (!time24) return 'TBA';
   const [h, m] = time24.split(':').map(Number);
@@ -98,9 +115,11 @@ function sortByDateTime(events) {
   );
 }
 
+// --- CSV ---
+
 const CSV_COLUMNS = [
-  'eventDate', 'cleanDate', 'sport', 'sportSlug', 'eventTime',
-  'homeOrAway', 'vsOrAt', 'opponent', 'opponentMascot', 'opponentComplete',
+  'eventDate', 'cleanDate', 'sport', 'sportSlug', 'levelSlug', 'levelLabel',
+  'eventTime', 'homeOrAway', 'vsOrAt', 'opponent', 'opponentMascot', 'opponentComplete',
   'location', 'isCancelled', 'isTimeTBD', 'postSlug', 'posterFile', 'eventId',
 ];
 
@@ -115,8 +134,10 @@ function writeCsv(events, filePath) {
   fs.writeFileSync(filePath, [header, ...rows].join('\n'));
 }
 
-function writeIcal(events) {
-  const cal = ical({ name: 'PSHS Athletics' });
+// --- iCal output ---
+
+function writeIcal(events, filePath, calName) {
+  const cal = ical({ name: calName });
 
   for (const e of events) {
     if (e.isCancelled || !e.eventDate) continue;
@@ -132,22 +153,20 @@ function writeIcal(events) {
       start:    start.toJSDate(),
       ...(allDay ? {} : { end: start.plus({ hours: 2 }).toJSDate() }),
       allDay,
-      summary:  `${e.sport}: ${e.vsOrAt} ${e.opponentComplete}`,
+      summary:  `${e.levelLabel !== 'Varsity' ? `[${e.levelLabel}] ` : ''}${e.sport}: ${e.vsOrAt} ${e.opponentComplete}`,
       location: e.location || undefined,
     });
   }
 
-  fs.writeFileSync(ICS_FILE, cal.toString());
+  fs.writeFileSync(filePath, cal.toString());
 }
 
 // --- iCal parsing ---
 
-// iCal folds long lines by inserting CRLF + a leading space/tab.
 function unfoldIcal(text) {
   return text.replace(/\r?\n[ \t]/g, '');
 }
 
-// Parse all VEVENT blocks from the raw iCal text.
 function parseVevents(text) {
   const unfolded = unfoldIcal(text);
   const events   = [];
@@ -162,7 +181,6 @@ function parseVevents(text) {
       return fm ? fm[1] : null;
     };
 
-    // DTSTART may carry a TZID param, a VALUE=DATE param, or no param.
     let dtstart = null;
     const tzidM = /(?:^|\r?\n)DTSTART;TZID=([^:]+):([^\r\n]+)/i.exec(block);
     const dateM = /(?:^|\r?\n)DTSTART;VALUE=DATE:([^\r\n]+)/i.exec(block);
@@ -183,50 +201,49 @@ function parseVevents(text) {
   return events;
 }
 
-// Convert one VEVENT → our normalized shape, or null if it should be dropped.
+// Parse "Sport Name (Gender LevelCode)" from the beginning of a SUMMARY string.
+// Returns { sport, level } or null if unrecognized.
+function parseSportAndLevel(summary) {
+  const m = summary.match(/^(.+?)\s+\((\w+)\s+(\w+)\)/);
+  if (!m) return null;
+  const sport = SPORT_BASE_MAP[`${m[1].trim()} (${m[2].trim()})`];
+  const level = LEVEL_MAP[m[3].trim()];
+  if (!sport || !level) return null;
+  return { sport, level };
+}
+
 function parseEvent(vevent, opponents) {
-  const rawSummary = vevent.summary || '';
+  const rawSummary  = vevent.summary || '';
   const isCancelled = rawSummary.startsWith('CANCELED - ');
   // 'CANCELED - '.length === 11
   const summary = isCancelled ? rawSummary.slice(11) : rawSummary;
 
-  // Match sport key — format is "Sport (Gender V)" in iCal SUMMARY (same as JSON API)
-  let sport    = null;
-  let sportKey = null;
-  for (const [key, val] of Object.entries(SPORT_MAP)) {
-    if (summary.startsWith(key + ' ') || summary === key) {
-      sport    = val;
-      sportKey = key;
-      break;
-    }
-  }
-  if (!sport) return null;
-  if (NON_EVENT_RE.test(summary)) return null;
+  const parsed = parseSportAndLevel(summary);
+  if (!parsed) return null;
+  const { sport, level } = parsed;
 
-  // Home: LOCATION is the school itself; Away: LOCATION is the opponent's venue.
   const isHome = vevent.location === HOME_VENUE;
 
-  // Prefer the structured "Opponent(s):" field in DESCRIPTION; fall back to
-  // the tail of SUMMARY (covers tournaments/invitationals with no named opponent).
-  const desc       = vevent.description || '';
+  // Prefer structured "Opponent(s):" in DESCRIPTION; fall back to the SUMMARY tail
+  // for tournaments / invitationals that have no named opponent.
+  const desc        = vevent.description || '';
   const oppFromDesc = desc.match(/\\nOpponent\(s\):\s*([^\\]+)/);
   const opponentTitle = oppFromDesc
     ? oppFromDesc[1].trim()
-    : summary.slice(sportKey.length).replace(/^\s*[@\-]\s*/, '').trim();
+    : summary.slice(summary.indexOf(')') + 1).replace(/^\s*[@\-]\s*/, '').trim();
   if (!opponentTitle) return null;
 
-  // Parse date/time from DTSTART
   const ds = vevent.dtstart;
   if (!ds) return null;
 
   let eventDate, time24, isTimeTBD;
   if (ds.type === 'date') {
-    const v  = ds.value.replace(/\D/g, '');               // "20270206"
+    const v   = ds.value.replace(/\D/g, '');
     eventDate = `${v.slice(0, 4)}-${v.slice(4, 6)}-${v.slice(6, 8)}`;
     time24    = null;
     isTimeTBD = true;
   } else {
-    const v   = ds.value;                                  // "20260204T170000"
+    const v   = ds.value;
     eventDate = `${v.slice(0, 4)}-${v.slice(4, 6)}-${v.slice(6, 8)}`;
     const t   = v.includes('T') ? v.split('T')[1] : null;
     time24    = t ? `${t.slice(0, 2)}:${t.slice(2, 4)}` : null;
@@ -234,7 +251,11 @@ function parseEvent(vevent, opponents) {
   }
 
   const cleanDate = `${eventDate.slice(5, 7)}/${eventDate.slice(8, 10)}`;
-  const baseSlug  = `${eventDate}_${sport.slug}`;
+
+  // Varsity keeps the existing slug shape; other levels include the level to avoid collisions.
+  const baseSlug = level.slug === 'varsity'
+    ? `${eventDate}_${sport.slug}`
+    : `${eventDate}_${level.slug}_${sport.slug}`;
 
   const { name: opponent, mascot } = resolveOpponent(opponentTitle, opponents);
   const opponentMascot   = mascot || null;
@@ -245,6 +266,9 @@ function parseEvent(vevent, opponents) {
     eventDate,
     sport:            sport.title,
     sportSlug:        sport.slug,
+    levelSlug:        level.slug,
+    levelLabel:       level.label,
+    levelGroup:       level.group,
     eventTime:        formatTime12h(time24),
     homeOrAway:       isHome ? 'Home' : 'Away',
     vsOrAt:           isHome ? 'vs' : '@',
@@ -260,6 +284,24 @@ function parseEvent(vevent, opponents) {
     isTimeTBD,
     _time24:          time24,
   };
+}
+
+// Write combined / upcoming / cancelled-today for a given directory + event list.
+function writeDataFiles(dir, allEvents, today) {
+  const combined       = sortByDateTime(allEvents.filter(e => !e.isCancelled));
+  const upcoming       = combined.filter(e => e.eventDate >= today);
+  const cancelledToday = allEvents.filter(e => e.isCancelled && e.eventDate === today);
+
+  fs.writeFileSync(path.join(dir, 'combined.json'), JSON.stringify(combined, null, 2));
+  writeCsv(combined, path.join(dir, 'combined.csv'));
+
+  fs.writeFileSync(path.join(dir, 'upcoming.json'), JSON.stringify(upcoming, null, 2));
+  writeCsv(upcoming, path.join(dir, 'upcoming.csv'));
+
+  fs.writeFileSync(path.join(dir, 'cancelled-today.json'), JSON.stringify(cancelledToday, null, 2));
+  writeCsv(cancelledToday, path.join(dir, 'cancelled-today.csv'));
+
+  return { combined: combined.length, upcoming: upcoming.length };
 }
 
 async function main() {
@@ -282,59 +324,58 @@ async function main() {
   console.log(`Parsed ${vevents.length} VEVENTs`);
 
   const events = vevents.map(v => parseEvent(v, opponents)).filter(Boolean);
-  console.log(`Kept ${events.length} varsity events after filtering`);
+  console.log(`Kept ${events.length} events after filtering\n`);
 
-  // Per-sport files — also applies doubleheader suffixes to postSlug / posterFile
-  const bySport = {};
+  const today = new Date().toISOString().split('T')[0];
+
+  // Group by level → by sport
+  const byLevel = {};
   for (const e of events) {
-    (bySport[e.sportSlug] ??= []).push(e);
+    (byLevel[e.levelSlug] ??= {})[e.sportSlug] ??= [];
+    byLevel[e.levelSlug][e.sportSlug].push(e);
   }
-  for (const [slug, list] of Object.entries(bySport)) {
-    const sorted = sortByDateTime(list);
 
-    // Number any same-day games: second game becomes slug-1, third becomes slug-2, etc.
-    const slugSeen = {};
-    for (const e of sorted) {
-      const base  = e.postSlug;
-      const count = slugSeen[base] ?? 0;
-      if (count > 0) {
-        e.postSlug   = `${base}-${count}`;
-        e.posterFile = `${base}-${count}.jpg`;
+  for (const [levelSlug, bySport] of Object.entries(byLevel)) {
+    const dir = levelSlug === 'varsity' ? DATA_DIR : path.join(DATA_DIR, levelSlug);
+    fs.mkdirSync(dir, { recursive: true });
+
+    const allForLevel = [];
+
+    for (const [slug, list] of Object.entries(bySport)) {
+      const sorted = sortByDateTime(list);
+
+      // Number same-day events: second becomes slug-1, third slug-2, etc.
+      const slugSeen = {};
+      for (const e of sorted) {
+        const base  = e.postSlug;
+        const count = slugSeen[base] ?? 0;
+        if (count > 0) {
+          e.postSlug   = `${base}-${count}`;
+          e.posterFile = `${base}-${count}.jpg`;
+        }
+        slugSeen[base] = count + 1;
       }
-      slugSeen[base] = count + 1;
+
+      fs.writeFileSync(path.join(dir, `${slug}.json`), JSON.stringify(sorted, null, 2));
+      writeCsv(sorted, path.join(dir, `${slug}.csv`));
+      allForLevel.push(...sorted);
+      console.log(`  [${levelSlug}] ${slug} → ${sorted.length}`);
     }
 
-    fs.writeFileSync(
-      path.join(DATA_DIR, `${slug}.json`),
-      JSON.stringify(sorted, null, 2)
-    );
-    writeCsv(sorted, path.join(DATA_DIR, `${slug}.csv`));
-    console.log(`  ${slug}.json / .csv → ${sorted.length}`);
+    const { combined, upcoming } = writeDataFiles(dir, allForLevel, today);
+    console.log(`  [${levelSlug}] combined=${combined} upcoming=${upcoming}\n`);
   }
 
-  // combined — active games only, sorted
-  const combined = sortByDateTime(events.filter(e => !e.isCancelled));
-  fs.writeFileSync(COMBINED, JSON.stringify(combined, null, 2));
-  writeCsv(combined, COMBINED_CSV);
-  console.log(`combined.json / .csv → ${combined.length}`);
+  // iCal files
+  for (const group of ICAL_GROUPS) {
+    const filtered = events.filter(
+      e => !e.isCancelled && (group.levels === null || group.levels.includes(e.levelSlug))
+    );
+    writeIcal(filtered, path.join(ICS_DIR, group.file), group.name);
+    console.log(`${group.file} → ${filtered.length} events`);
+  }
 
-  // upcoming — combined filtered to today and future
-  const today = new Date().toISOString().split('T')[0];
-  const upcoming = combined.filter(e => e.eventDate >= today);
-  fs.writeFileSync(UPCOMING, JSON.stringify(upcoming, null, 2));
-  writeCsv(upcoming, UPCOMING_CSV);
-  console.log(`upcoming.json / .csv → ${upcoming.length}`);
-
-  // cancelled-today
-  const cancelledToday = events.filter(e => e.isCancelled && e.eventDate === today);
-  fs.writeFileSync(CANCELLED, JSON.stringify(cancelledToday, null, 2));
-  writeCsv(cancelledToday, CANCELLED_CSV);
-  console.log(`cancelled-today.json / .csv → ${cancelledToday.length}`);
-
-  // iCal
-  writeIcal(combined);
-  console.log('pshs-athletics.ics written');
-  console.log('Done.');
+  console.log('\nDone.');
 }
 
 main().catch(err => {
