@@ -286,6 +286,57 @@ function parseEvent(vevent, opponents) {
   };
 }
 
+// Fields that matter for change detection — structural/scheduling data only.
+const TRACKED_FIELDS = [
+  'eventDate', 'eventTime', 'homeOrAway', 'opponent', 'location',
+  'isCancelled', 'isTimeTBD', 'sport', 'levelSlug',
+];
+
+function diffEvents(prevEvents, nextEvents) {
+  const prevById = Object.fromEntries(prevEvents.map(e => [e.eventId, e]));
+  const nextById = Object.fromEntries(nextEvents.map(e => [e.eventId, e]));
+
+  const added   = nextEvents.filter(e => !prevById[e.eventId]);
+  const removed = prevEvents.filter(e => !nextById[e.eventId]);
+  const changed = [];
+
+  for (const next of nextEvents) {
+    const prev = prevById[next.eventId];
+    if (!prev) continue;
+    const fields = TRACKED_FIELDS.filter(f => String(prev[f]) !== String(next[f]));
+    if (fields.length) changed.push({ before: prev, after: next, fields });
+  }
+
+  return { added, removed, changed };
+}
+
+function logDiff({ added, removed, changed }) {
+  const total = added.length + removed.length + changed.length;
+  if (total === 0) {
+    console.log('No event changes detected.\n');
+    return;
+  }
+
+  const label = e => `${e.eventDate} ${e.sport} (${e.levelLabel}) ${e.vsOrAt} ${e.opponentComplete}`;
+
+  if (added.length) {
+    console.log(`Added (${added.length}):`);
+    for (const e of added) console.log(`  + ${label(e)}`);
+  }
+  if (removed.length) {
+    console.log(`Removed (${removed.length}):`);
+    for (const e of removed) console.log(`  - ${label(e)}`);
+  }
+  if (changed.length) {
+    console.log(`Changed (${changed.length}):`);
+    for (const { before, after, fields } of changed) {
+      console.log(`  ~ ${label(after)}`);
+      for (const f of fields) console.log(`      ${f}: ${JSON.stringify(before[f])} → ${JSON.stringify(after[f])}`);
+    }
+  }
+  console.log();
+}
+
 // Write combined / upcoming / cancelled-today for a given directory + event list.
 function writeDataFiles(dir, allEvents, today) {
   const combined       = sortByDateTime(allEvents.filter(e => !e.isCancelled));
@@ -306,6 +357,12 @@ function writeDataFiles(dir, allEvents, today) {
 
 async function main() {
   fs.mkdirSync(DATA_DIR, { recursive: true });
+
+  // Read previous combined data for diffing before anything is overwritten.
+  const prevCombinedPath = path.join(DATA_DIR, 'combined.json');
+  const prevEvents = fs.existsSync(prevCombinedPath)
+    ? JSON.parse(fs.readFileSync(prevCombinedPath, 'utf-8'))
+    : [];
 
   const opponents = JSON.parse(
     fs.readFileSync(path.join(__dirname, 'opponents.json'), 'utf-8')
@@ -365,6 +422,21 @@ async function main() {
     const { combined, upcoming } = writeDataFiles(dir, allForLevel, today);
     console.log(`  [${levelSlug}] combined=${combined} upcoming=${upcoming}\n`);
   }
+
+  // Diff against previous run and write change log.
+  const allNonCancelled = sortByDateTime(events.filter(e => !e.isCancelled));
+  const diff = diffEvents(prevEvents, allNonCancelled);
+  console.log('--- Change detection ---');
+  logDiff(diff);
+  fs.writeFileSync(
+    path.join(DATA_DIR, 'changes.json'),
+    JSON.stringify({
+      generatedAt: new Date().toISOString(),
+      added:   diff.added,
+      removed: diff.removed,
+      changed: diff.changed,
+    }, null, 2)
+  );
 
   // iCal files
   for (const group of ICAL_GROUPS) {
