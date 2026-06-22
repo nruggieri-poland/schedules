@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T16:45:14.685Z",
+  "generatedAt": "2026-06-22T19:57:55.716Z",
   "added": [
     {
       "eventId": "43f6818c-a6a7-4c67-853e-9709639a35ff",
@@ -11019,53 +11019,6 @@
       "_time24": "17:30"
     }
   ],
-  "removed": [
-    {
-      "eventId": "7ceca640-f243-480e-94d5-e5488bc13acc",
-      "eventDate": "2025-06-21",
-      "sport": "Volleyball",
-      "sportSlug": "volleyball",
-      "levelSlug": "varsity",
-      "levelLabel": "Varsity",
-      "levelGroup": "varsity",
-      "eventTime": "08:00 PM",
-      "homeOrAway": "Home",
-      "vsOrAt": "vs",
-      "opponent": "Practice: Volleyball Open Gyms",
-      "opponentMascot": null,
-      "opponentComplete": "Practice: Volleyball Open Gyms",
-      "cleanDate": "06/21",
-      "posterFile": "2025-06-21_volleyball.jpg",
-      "postSlug": "2025-06-21_volleyball",
-      "title": "Practice: Volleyball Open Gyms",
-      "location": "Poland Seminary High School",
-      "isCancelled": false,
-      "isTimeTBD": false,
-      "_time24": "20:00"
-    },
-    {
-      "eventId": "10b0b923-c1a5-4c56-a525-70006b5dc9dc",
-      "eventDate": "2025-06-22",
-      "sport": "Girls Lacrosse",
-      "sportSlug": "girls-lacrosse",
-      "levelSlug": "varsity",
-      "levelLabel": "Varsity",
-      "levelGroup": "varsity",
-      "eventTime": "06:00 PM",
-      "homeOrAway": "Home",
-      "vsOrAt": "vs",
-      "opponent": "Practice: Lacrosse (Girls V) Practice",
-      "opponentMascot": null,
-      "opponentComplete": "Practice: Lacrosse (Girls V) Practice",
-      "cleanDate": "06/22",
-      "posterFile": "2025-06-22_girls-lacrosse.jpg",
-      "postSlug": "2025-06-22_girls-lacrosse",
-      "title": "Practice: Lacrosse (Girls V) Practice",
-      "location": "Poland Seminary High School",
-      "isCancelled": false,
-      "isTimeTBD": false,
-      "_time24": "18:00"
-    }
-  ],
+  "removed": [],
   "changed": []
 }
