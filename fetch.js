@@ -12,10 +12,13 @@ const DATA_DIR = path.join(__dirname, 'dist', 'data');
 const ICS_DIR  = path.join(__dirname, 'dist');
 
 const HOME_VENUE = 'Poland Seminary High School';
-const ICAL_URL   =
-  'https://api.eventlink.com/?m=Calendar&a=iCalFeedSubscriptions' +
-  '&token=76f8c41e-9ca2-4f93-abf8-d1a55411ba8d' +
-  '&id=66ee88b6-0df2-42d7-b892-5a267a72ce9f';
+// Feed URL (contains an access token) lives in CI secrets / a local .env file,
+// never in source — this repo is public, so anything hardcoded here is exposed
+// in git history forever.
+const ICAL_URL = process.env.EVENTLINK_ICAL_URL;
+if (!ICAL_URL) {
+  throw new Error('EVENTLINK_ICAL_URL environment variable is not set.');
+}
 
 // Keyed on "Sport (Gender)" — level code is parsed separately.
 // season: which of Poland's three OHSAA sport seasons (Fall/Winter/Spring) this sport runs in.
@@ -88,10 +91,6 @@ const ICAL_GROUPS = [
   },
 ];
 
-function pad(n) {
-  return String(n).padStart(2, '0');
-}
-
 function normalizeTitle(title) {
   const noDisambig = title.replace(/\s*\([^)]+\)\s*$/, '').trim();
   return noDisambig
@@ -144,8 +143,11 @@ const CSV_COLUMNS = [
   'homeScore', 'awayScore', 'result', 'postSlug', 'posterFile', 'eventId',
 ];
 
+// Neutralize leading =/+/-/@ so spreadsheet apps don't treat externally-sourced
+// text (opponent names, etc.) as a formula when this CSV is opened in Excel/Sheets.
 function csvCell(val) {
-  const s = val == null ? '' : String(val);
+  let s = val == null ? '' : String(val);
+  if (/^[=+\-@\t]/.test(s)) s = `'${s}`;
   return /[,"\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
 }
 
@@ -171,6 +173,12 @@ function writeIcal(events, filePath, calName) {
     if (!start.isValid) continue;
 
     cal.createEvent({
+      id:       e.eventId,
+      // Stamp off the event's own start time (not "now") so regenerating the
+      // file from unchanged source data produces byte-identical output —
+      // otherwise every VEVENT gets a fresh random UID + DTSTAMP on every run
+      // and the .ics "changes" on every 15-minute fetch even when nothing did.
+      stamp:    start.toJSDate(),
       start:    start.toJSDate(),
       ...(allDay ? {} : { end: start.plus({ hours: 2 }).toJSDate() }),
       allDay,
@@ -227,9 +235,16 @@ function parseVevents(text) {
 function parseSportAndLevel(summary) {
   const m = summary.match(/^(.+?)\s+\((\w+)\s+(\w+)\)/);
   if (!m) return null;
-  const sport = SPORT_BASE_MAP[`${m[1].trim()} (${m[2].trim()})`];
-  const level = LEVEL_MAP[m[3].trim()];
-  if (!sport || !level) return null;
+  const sportKey = `${m[1].trim()} (${m[2].trim()})`;
+  const sport    = SPORT_BASE_MAP[sportKey];
+  const level    = LEVEL_MAP[m[3].trim()];
+  // The parens pattern matched but we don't recognize the sport/level — likely
+  // EventLink renamed/added one (this has happened before: Swimming → Swim & Dive).
+  // Warn instead of silently dropping every event for that sport.
+  if (!sport || !level) {
+    console.warn(`  [unrecognized sport/level] sport=${JSON.stringify(sportKey)} level=${JSON.stringify(m[3])} in ${JSON.stringify(summary)}`);
+    return null;
+  }
   return { sport, level };
 }
 
@@ -244,7 +259,9 @@ function parseEvent(vevent, opponents) {
   if (!parsed) return null;
   const { sport, level } = parsed;
 
-  const isHome = vevent.location === HOME_VENUE;
+  // Tolerate minor formatting drift (extra room/building suffix, whitespace)
+  // around the venue name rather than requiring an exact string match.
+  const isHome = !!vevent.location && vevent.location.includes(HOME_VENUE);
 
   // Prefer structured "Opponent(s):" in DESCRIPTION; fall back to the SUMMARY tail
   // for tournaments / invitationals that have no named opponent.
@@ -253,12 +270,18 @@ function parseEvent(vevent, opponents) {
   const opponentTitle = oppFromDesc
     ? oppFromDesc[1].trim()
     : summary.slice(summary.indexOf(')') + 1).replace(/^\s*[@\-]\s*/, '').trim();
-  if (!opponentTitle) return null;
+  if (!opponentTitle) {
+    console.warn(`  [no opponent text] ${JSON.stringify(summary)} (uid=${vevent.uid})`);
+    return null;
+  }
 
   const eventType = classifyEventType(opponentTitle);
 
   const ds = vevent.dtstart;
-  if (!ds) return null;
+  if (!ds) {
+    console.warn(`  [no DTSTART] ${JSON.stringify(opponentTitle)} (uid=${vevent.uid})`);
+    return null;
+  }
 
   let eventDate, time24, isTimeTBD;
   if (ds.type === 'date') {
@@ -389,13 +412,26 @@ function writeDataFiles(dir, allEvents, today) {
   return { combined: combined.length, upcoming: upcoming.length };
 }
 
+// All-levels event snapshot used purely for diffing — separate from the
+// per-level combined.json files below, which only ever hold one level's
+// events (reusing one of those as the diff baseline made every other
+// level's events look "added" on every single run).
+const DIFF_SNAPSHOT_PATH = path.join(DATA_DIR, 'diff-snapshot.json');
+const CHANGELOG_PATH     = path.join(DATA_DIR, 'changelog.json');
+const CHANGELOG_MAX_ENTRIES = 200;
+const FETCH_TIMEOUT_MS = 30_000;
+
+// Below this fraction of VEVENTs surviving parseEvent (when the feed has a
+// meaningful number of events), assume an EventLink feed/format regression
+// rather than a real schedule and abort before overwriting existing data.
+const MIN_KEPT_RATIO = 0.5;
+const MIN_VEVENTS_FOR_RATIO_CHECK = 50;
+
 async function main() {
   fs.mkdirSync(DATA_DIR, { recursive: true });
 
-  // Read previous combined data for diffing before anything is overwritten.
-  const prevCombinedPath = path.join(DATA_DIR, 'combined.json');
-  const prevEvents = fs.existsSync(prevCombinedPath)
-    ? JSON.parse(fs.readFileSync(prevCombinedPath, 'utf-8'))
+  const prevEvents = fs.existsSync(DIFF_SNAPSHOT_PATH)
+    ? JSON.parse(fs.readFileSync(DIFF_SNAPSHOT_PATH, 'utf-8'))
     : [];
 
   const opponents = JSON.parse(
@@ -403,19 +439,55 @@ async function main() {
   );
 
   console.log(`Fetching iCal feed…`);
-  const res = await fetch(ICAL_URL, {
-    headers: { 'User-Agent': 'pshs-schedule-proxy/3.0' },
-  });
-  if (!res.ok) throw new Error(`EventLink iCal ${res.status} ${res.statusText}`);
-
-  const icalText = await res.text();
+  const controller = new AbortController();
+  // Covers the whole request including body read — a stalled response body
+  // after headers arrive would otherwise hang past this timeout uncaught.
+  const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+  let icalText;
+  try {
+    const res = await fetch(ICAL_URL, {
+      headers: { 'User-Agent': 'pshs-schedule-proxy/3.0' },
+      signal:  controller.signal,
+    });
+    if (!res.ok) throw new Error(`EventLink iCal ${res.status} ${res.statusText}`);
+    icalText = await res.text();
+  } finally {
+    clearTimeout(timeout);
+  }
   console.log(`Received ${icalText.length} bytes`);
 
-  const vevents = parseVevents(icalText);
-  console.log(`Parsed ${vevents.length} VEVENTs`);
+  const rawVevents = parseVevents(icalText);
+  console.log(`Parsed ${rawVevents.length} VEVENTs`);
+
+  // Guard against a degenerate feed response (outage, gateway error page,
+  // revoked token) wiping out every committed schedule file with empty data.
+  if (rawVevents.length === 0) {
+    throw new Error('EventLink feed returned zero VEVENTs — aborting before overwriting existing data.');
+  }
+
+  // De-duplicate by UID (defensive — duplicate UIDs would silently corrupt
+  // the added/removed diff, since they collide as the same map key).
+  const seenUids = new Set();
+  const vevents  = [];
+  for (const v of rawVevents) {
+    if (v.uid && seenUids.has(v.uid)) {
+      console.warn(`  [duplicate UID] ${v.uid}`);
+      continue;
+    }
+    if (v.uid) seenUids.add(v.uid);
+    vevents.push(v);
+  }
 
   const events = vevents.map(v => parseEvent(v, opponents)).filter(Boolean);
   console.log(`Kept ${events.length} events after filtering\n`);
+
+  const keptRatio = events.length / vevents.length;
+  if (vevents.length > MIN_VEVENTS_FOR_RATIO_CHECK && keptRatio < MIN_KEPT_RATIO) {
+    throw new Error(
+      `Only kept ${events.length}/${vevents.length} events (${Math.round(keptRatio * 100)}%) — ` +
+      `likely an EventLink format change, aborting before overwriting existing data.`
+    );
+  }
 
   const today = new Date().toISOString().split('T')[0];
 
@@ -457,20 +529,37 @@ async function main() {
     console.log(`  [${levelSlug}] combined=${combined} upcoming=${upcoming}\n`);
   }
 
-  // Diff against previous run and write change log.
-  const allNonCancelled = sortByDateTime(events.filter(e => !e.isCancelled));
-  const diff = diffEvents(prevEvents, allNonCancelled);
+  // Diff against the previous full snapshot (all levels, cancelled events
+  // included — so a cancellation surfaces as "Changed: isCancelled" rather
+  // than "Removed", and JV/Freshman/Junior High aren't permanently "added").
+  const allEvents = sortByDateTime(events);
+  const diff = diffEvents(prevEvents, allEvents);
   console.log('--- Change detection ---');
   logDiff(diff);
-  fs.writeFileSync(
-    path.join(DATA_DIR, 'changes.json'),
-    JSON.stringify({
+  fs.writeFileSync(DIFF_SNAPSHOT_PATH, JSON.stringify(allEvents, null, 2));
+
+  // Only touch changes.json/changelog.json when something actually changed —
+  // previously these rewrote with a fresh timestamp on every run (every 15
+  // minutes, all day), forcing a no-op git commit + Pages deploy each time.
+  const hasChanges = diff.added.length || diff.removed.length || diff.changed.length;
+  if (hasChanges) {
+    const entry = {
       generatedAt: new Date().toISOString(),
       added:   diff.added,
       removed: diff.removed,
       changed: diff.changed,
-    }, null, 2)
-  );
+    };
+    fs.writeFileSync(path.join(DATA_DIR, 'changes.json'), JSON.stringify(entry, null, 2));
+
+    const changelog = fs.existsSync(CHANGELOG_PATH)
+      ? JSON.parse(fs.readFileSync(CHANGELOG_PATH, 'utf-8'))
+      : [];
+    changelog.push(entry);
+    while (changelog.length > CHANGELOG_MAX_ENTRIES) changelog.shift();
+    fs.writeFileSync(CHANGELOG_PATH, JSON.stringify(changelog, null, 2));
+  } else {
+    console.log('No changes — leaving changes.json/changelog.json untouched.\n');
+  }
 
   // iCal files
   for (const group of ICAL_GROUPS) {

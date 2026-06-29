@@ -29,6 +29,8 @@ jobs:
 
       - name: Fetch schedules from EventLink
         run: node fetch.js
+        env:
+          EVENTLINK_ICAL_URL: ${{ secrets.EVENTLINK_ICAL_URL }}
 
       - name: Commit updated data files
         run: |
