@@ -18,29 +18,41 @@ const ICAL_URL   =
   '&id=66ee88b6-0df2-42d7-b892-5a267a72ce9f';
 
 // Keyed on "Sport (Gender)" — level code is parsed separately.
+// season: which of Poland's three OHSAA sport seasons (Fall/Winter/Spring) this sport runs in.
 const SPORT_BASE_MAP = {
-  'Baseball (Boys)':       { slug: 'baseball',        title: 'Baseball' },
-  'Basketball (Boys)':     { slug: 'boys-basketball',  title: 'Boys Basketball' },
-  'Basketball (Girls)':    { slug: 'girls-basketball', title: 'Girls Basketball' },
-  'Cheerleading (Girls)':  { slug: 'cheerleading',     title: 'Cheerleading' },
-  'Cross Country (Coed)':  { slug: 'cross-country',    title: 'Cross Country' },
-  'Football (Boys)':       { slug: 'football',         title: 'Football' },
-  'Golf (Boys)':           { slug: 'boys-golf',        title: 'Boys Golf' },
-  'Golf (Girls)':          { slug: 'girls-golf',       title: 'Girls Golf' },
-  'Lacrosse (Boys)':       { slug: 'boys-lacrosse',    title: 'Boys Lacrosse' },
-  'Lacrosse (Girls)':      { slug: 'girls-lacrosse',   title: 'Girls Lacrosse' },
-  'Soccer (Boys)':         { slug: 'boys-soccer',      title: 'Boys Soccer' },
-  'Soccer (Girls)':        { slug: 'girls-soccer',     title: 'Girls Soccer' },
-  'Softball (Girls)':      { slug: 'softball',         title: 'Softball' },
-  'Swimming (Coed)':       { slug: 'swim-dive',        title: 'Swim & Dive' },
-  'Swim & Dive (Coed)':    { slug: 'swim-dive',        title: 'Swim & Dive' },
-  'Tennis (Boys)':         { slug: 'boys-tennis',      title: 'Boys Tennis' },
-  'Tennis (Girls)':        { slug: 'girls-tennis',     title: 'Girls Tennis' },
-  'Track & Field (Coed)':  { slug: 'track-field',      title: 'Track & Field' },
-  'Volleyball (Girls)':    { slug: 'volleyball',       title: 'Volleyball' },
-  'Wrestling (Boys)':      { slug: 'boys-wrestling',   title: 'Boys Wrestling' },
-  'Wrestling (Girls)':     { slug: 'girls-wrestling',  title: 'Girls Wrestling' },
+  'Baseball (Boys)':       { slug: 'baseball',        title: 'Baseball',        season: 'Spring' },
+  'Basketball (Boys)':     { slug: 'boys-basketball',  title: 'Boys Basketball', season: 'Winter' },
+  'Basketball (Girls)':    { slug: 'girls-basketball', title: 'Girls Basketball', season: 'Winter' },
+  'Cheerleading (Girls)':  { slug: 'cheerleading',     title: 'Cheerleading',   season: 'Fall' },
+  'Cross Country (Coed)':  { slug: 'cross-country',    title: 'Cross Country', season: 'Fall' },
+  'Football (Boys)':       { slug: 'football',         title: 'Football',      season: 'Fall' },
+  'Golf (Boys)':           { slug: 'boys-golf',        title: 'Boys Golf',     season: 'Fall' },
+  'Golf (Girls)':          { slug: 'girls-golf',       title: 'Girls Golf',    season: 'Fall' },
+  'Lacrosse (Boys)':       { slug: 'boys-lacrosse',    title: 'Boys Lacrosse', season: 'Spring' },
+  'Lacrosse (Girls)':      { slug: 'girls-lacrosse',   title: 'Girls Lacrosse', season: 'Spring' },
+  'Soccer (Boys)':         { slug: 'boys-soccer',      title: 'Boys Soccer',   season: 'Fall' },
+  'Soccer (Girls)':        { slug: 'girls-soccer',     title: 'Girls Soccer',  season: 'Fall' },
+  'Softball (Girls)':      { slug: 'softball',         title: 'Softball',      season: 'Spring' },
+  'Swimming (Coed)':       { slug: 'swim-dive',        title: 'Swim & Dive',   season: 'Winter' },
+  'Swim & Dive (Coed)':    { slug: 'swim-dive',        title: 'Swim & Dive',   season: 'Winter' },
+  'Tennis (Boys)':         { slug: 'boys-tennis',      title: 'Boys Tennis',   season: 'Spring' },
+  'Tennis (Girls)':        { slug: 'girls-tennis',     title: 'Girls Tennis',  season: 'Fall' },
+  'Track & Field (Coed)':  { slug: 'track-field',      title: 'Track & Field', season: 'Spring' },
+  'Volleyball (Girls)':    { slug: 'volleyball',       title: 'Volleyball',    season: 'Fall' },
+  'Wrestling (Boys)':      { slug: 'boys-wrestling',   title: 'Boys Wrestling', season: 'Winter' },
+  'Wrestling (Girls)':     { slug: 'girls-wrestling',  title: 'Girls Wrestling', season: 'Winter' },
 };
+
+// School year runs 07/01–06/30. Season label: Fall = start year, Winter = both
+// years, Spring = end year — e.g. school year 2026-2027 → Fall "2026",
+// Winter "2026-2027", Spring "2027".
+function computeSeason(eventDate, sportSeason) {
+  const [year, month] = eventDate.split('-').map(Number);
+  const schoolYearStart = month >= 7 ? year : year - 1;
+  if (sportSeason === 'Fall')   return `${schoolYearStart}`;
+  if (sportSeason === 'Winter') return `${schoolYearStart}-${schoolYearStart + 1}`;
+  return `${schoolYearStart + 1}`; // Spring
+}
 
 // Level codes as they appear in iCal SUMMARY parentheses.
 const LEVEL_MAP = {
@@ -90,13 +102,21 @@ function normalizeTitle(title) {
     .trim();
 }
 
-function resolveOpponent(title, opponents) {
+function resolveOpponent(title, opponents, quiet = false) {
   const attempts = [title, normalizeTitle(title)];
   for (const attempt of attempts) {
-    if (opponents[attempt]) return { ...opponents[attempt], matched: true };
+    if (opponents[attempt]) return { conference: false, ...opponents[attempt], matched: true };
   }
-  console.warn(`  [unmatched] ${JSON.stringify(title)}`);
-  return { name: title, mascot: null, matched: false };
+  if (!quiet) console.warn(`  [unmatched] ${JSON.stringify(title)}`);
+  return { name: title, mascot: null, matched: false, conference: false };
+}
+
+// Classify the non-opponent placeholder events (practices, scrimmages) that
+// EventLink mixes into the same feed as real games.
+function classifyEventType(opponentTitle) {
+  if (/^practice\b/i.test(opponentTitle)) return 'Practice';
+  if (/\bscrimmage\b/i.test(opponentTitle)) return 'Scrimmage';
+  return 'Game';
 }
 
 function formatTime12h(time24) {
@@ -118,9 +138,10 @@ function sortByDateTime(events) {
 // --- CSV ---
 
 const CSV_COLUMNS = [
-  'eventDate', 'cleanDate', 'sport', 'sportSlug', 'levelSlug', 'levelLabel',
+  'eventDate', 'cleanDate', 'season', 'sport', 'sportSlug', 'levelSlug', 'levelLabel',
   'eventTime', 'homeOrAway', 'vsOrAt', 'opponent', 'opponentMascot', 'opponentComplete',
-  'location', 'isCancelled', 'isTimeTBD', 'postSlug', 'posterFile', 'eventId',
+  'location', 'eventType', 'isCancelled', 'isPostponed', 'isTimeTBD', 'conferenceGame',
+  'homeScore', 'awayScore', 'result', 'postSlug', 'posterFile', 'eventId',
 ];
 
 function csvCell(val) {
@@ -153,7 +174,7 @@ function writeIcal(events, filePath, calName) {
       start:    start.toJSDate(),
       ...(allDay ? {} : { end: start.plus({ hours: 2 }).toJSDate() }),
       allDay,
-      summary:  `${e.levelLabel !== 'Varsity' ? `[${e.levelLabel}] ` : ''}${e.sport}: ${e.vsOrAt} ${e.opponentComplete}`,
+      summary:  `${e.isPostponed ? '[POSTPONED] ' : ''}${e.levelLabel !== 'Varsity' ? `[${e.levelLabel}] ` : ''}${e.sport}: ${e.vsOrAt} ${e.opponentComplete}`,
       location: e.location || undefined,
     });
   }
@@ -215,8 +236,9 @@ function parseSportAndLevel(summary) {
 function parseEvent(vevent, opponents) {
   const rawSummary  = vevent.summary || '';
   const isCancelled = rawSummary.startsWith('CANCELED - ');
-  // 'CANCELED - '.length === 11
-  const summary = isCancelled ? rawSummary.slice(11) : rawSummary;
+  const isPostponed = rawSummary.startsWith('POSTPONED - ');
+  // 'CANCELED - '.length === 11, 'POSTPONED - '.length === 12
+  const summary = isCancelled ? rawSummary.slice(11) : isPostponed ? rawSummary.slice(12) : rawSummary;
 
   const parsed = parseSportAndLevel(summary);
   if (!parsed) return null;
@@ -232,6 +254,8 @@ function parseEvent(vevent, opponents) {
     ? oppFromDesc[1].trim()
     : summary.slice(summary.indexOf(')') + 1).replace(/^\s*[@\-]\s*/, '').trim();
   if (!opponentTitle) return null;
+
+  const eventType = classifyEventType(opponentTitle);
 
   const ds = vevent.dtstart;
   if (!ds) return null;
@@ -251,19 +275,23 @@ function parseEvent(vevent, opponents) {
   }
 
   const cleanDate = `${eventDate.slice(5, 7)}/${eventDate.slice(8, 10)}`;
+  const season    = computeSeason(eventDate, sport.season);
 
   // Varsity keeps the existing slug shape; other levels include the level to avoid collisions.
   const baseSlug = level.slug === 'varsity'
     ? `${eventDate}_${sport.slug}`
     : `${eventDate}_${level.slug}_${sport.slug}`;
 
-  const { name: opponent, mascot } = resolveOpponent(opponentTitle, opponents);
+  const { name: opponent, mascot, conference } = resolveOpponent(
+    opponentTitle, opponents, eventType !== 'Game'
+  );
   const opponentMascot   = mascot || null;
   const opponentComplete = opponentMascot ? `${opponent} ${opponentMascot}` : opponent;
 
   return {
     eventId:          vevent.uid,
     eventDate,
+    season,
     sport:            sport.title,
     sportSlug:        sport.slug,
     levelSlug:        level.slug,
@@ -280,8 +308,14 @@ function parseEvent(vevent, opponents) {
     postSlug:         baseSlug,
     title:            opponentTitle,
     location:         vevent.location || null,
+    eventType,
     isCancelled,
+    isPostponed,
     isTimeTBD,
+    conferenceGame:   eventType === 'Game' && !!conference,
+    homeScore:        null,
+    awayScore:        null,
+    result:           null,
     _time24:          time24,
   };
 }
@@ -289,7 +323,7 @@ function parseEvent(vevent, opponents) {
 // Fields that matter for change detection — structural/scheduling data only.
 const TRACKED_FIELDS = [
   'eventDate', 'eventTime', 'homeOrAway', 'opponent', 'location',
-  'isCancelled', 'isTimeTBD', 'sport', 'levelSlug',
+  'isCancelled', 'isPostponed', 'isTimeTBD', 'sport', 'levelSlug',
 ];
 
 function diffEvents(prevEvents, nextEvents) {
