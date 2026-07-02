@@ -3,6 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import ical from 'ical-generator';
 import { DateTime } from 'luxon';
+import { createHash } from 'node:crypto';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -231,6 +232,7 @@ function parseVevents(text) {
       summary:     field('SUMMARY'),
       description: field('DESCRIPTION'),
       location:    field('LOCATION'),
+      status:      field('STATUS'),   // e.g. CANCELLED, TENTATIVE, CONFIRMED
       dtstart,
     });
   }
@@ -259,10 +261,18 @@ function parseSportAndLevel(summary) {
 
 function parseEvent(vevent, opponents) {
   const rawSummary  = vevent.summary || '';
-  const isCancelled = rawSummary.startsWith('CANCELED - ');
+  // EventLink uses American spelling ("CANCELED") but has shipped British ("CANCELLED")
+  // before. The iCal STATUS:CANCELLED field is a third path some calendar systems take.
+  const isCancelled = rawSummary.startsWith('CANCELED - ')
+                   || rawSummary.startsWith('CANCELLED - ')
+                   || vevent.status === 'CANCELLED';
   const isPostponed = rawSummary.startsWith('POSTPONED - ');
-  // 'CANCELED - '.length === 11, 'POSTPONED - '.length === 12
-  const summary = isCancelled ? rawSummary.slice(11) : isPostponed ? rawSummary.slice(12) : rawSummary;
+  // Strip the prefix so the rest of the string parses as "Sport (Gender Level) @ Opponent".
+  const summary = isCancelled
+    ? rawSummary.replace(/^CANCELL?ED - /, '')
+    : isPostponed
+    ? rawSummary.slice(12)
+    : rawSummary;
 
   const parsed = parseSportAndLevel(summary);
   if (!parsed) return null;
@@ -299,10 +309,30 @@ function parseEvent(vevent, opponents) {
     time24    = null;
     isTimeTBD = true;
   } else {
-    const v   = ds.value;
-    eventDate = `${v.slice(0, 4)}-${v.slice(4, 6)}-${v.slice(6, 8)}`;
-    const t   = v.includes('T') ? v.split('T')[1] : null;
-    time24    = t ? `${t.slice(0, 2)}:${t.slice(2, 4)}` : null;
+    // DTSTART without TZID — could be floating local time or UTC (Z suffix).
+    // Slice the compacted form into ISO so Luxon can parse it cleanly.
+    const v = ds.value;
+    const iso = v.includes('T')
+      ? v.replace(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})(Z?)$/, '$1-$2-$3T$4:$5:$6$7')
+      : null;
+
+    let eventDt;
+    if (iso && v.endsWith('Z')) {
+      // UTC timestamp — convert to Eastern before extracting date+time so a game
+      // at 20260904T000000Z ("midnight UTC" = "8 PM Eastern Sept 3") shows on Sept 3.
+      eventDt = DateTime.fromISO(iso, { setZone: true }).setZone('America/New_York');
+    } else if (iso) {
+      // No timezone specified — treat as Eastern (EventLink is US-based).
+      eventDt = DateTime.fromISO(iso, { zone: 'America/New_York' });
+    } else {
+      // DATE-only form without VALUE=DATE qualifier — rare but defensive.
+      eventDt = DateTime.fromISO(v.replace(/^(\d{4})(\d{2})(\d{2})$/, '$1-$2-$3'), { zone: 'America/New_York' });
+    }
+
+    eventDate = eventDt.isValid ? eventDt.toISODate() : `${v.slice(0, 4)}-${v.slice(4, 6)}-${v.slice(6, 8)}`;
+    time24    = (eventDt.isValid && v.includes('T'))
+      ? `${String(eventDt.hour).padStart(2, '0')}:${String(eventDt.minute).padStart(2, '0')}`
+      : null;
     isTimeTBD = !time24;
   }
 
@@ -314,7 +344,7 @@ function parseEvent(vevent, opponents) {
     ? `${eventDate}_${sport.slug}`
     : `${eventDate}_${level.slug}_${sport.slug}`;
 
-  const { name: opponent, mascot, conference } = resolveOpponent(
+  const { name: opponent, mascot, logo: opponentLogo, conference } = resolveOpponent(
     opponentTitle, opponents, eventType !== 'Game'
   );
   const opponentMascot   = mascot || null;
@@ -337,6 +367,7 @@ function parseEvent(vevent, opponents) {
     opponent,
     opponentMascot,
     opponentComplete,
+    opponentLogo:     opponentLogo || null,
     cleanDate,
     posterFile:       `${baseSlug}.jpg`,
     postSlug:         baseSlug,
@@ -566,8 +597,18 @@ async function main() {
   const seenUids = new Set();
   const vevents  = [];
   for (const v of rawVevents) {
-    if (v.uid && seenUids.has(v.uid)) { console.warn(`  [duplicate UID] ${v.uid}`); continue; }
-    if (v.uid) seenUids.add(v.uid);
+    // EventLink occasionally emits events with no UID. Generate a stable synthetic one
+    // from the event's content so these events get a consistent identity across runs
+    // (required for upsert keying on the WordPress side). Two events with identical
+    // summary + start + location would collapse to the same key — intentional, since
+    // they'd be indistinguishable anyway.
+    if (!v.uid) {
+      const sig = `${v.summary ?? ''}|${v.dtstart?.value ?? ''}|${v.location ?? ''}`;
+      v.uid     = 'pshs-syn-' + createHash('sha1').update(sig).digest('hex').slice(0, 16);
+      console.warn(`  [synthetic UID] ${v.summary} → ${v.uid}`);
+    }
+    if (seenUids.has(v.uid)) { console.warn(`  [duplicate UID] ${v.uid}`); continue; }
+    seenUids.add(v.uid);
     vevents.push(v);
   }
 
