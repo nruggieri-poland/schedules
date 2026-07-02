@@ -1,6 +1,5 @@
 import fs from 'fs';
 import path from 'path';
-import fetch from 'node-fetch';
 import { fileURLToPath } from 'url';
 import ical from 'ical-generator';
 import { DateTime } from 'luxon';
@@ -8,43 +7,75 @@ import { DateTime } from 'luxon';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const DATA_DIR = path.join(__dirname, 'dist', 'data');
-const ICS_DIR  = path.join(__dirname, 'dist');
+// ── Paths & runtime constants ─────────────────────────────────────────────────
 
+const DATA_DIR   = path.join(__dirname, 'dist', 'data');
+const ICS_DIR    = path.join(__dirname, 'dist');
 const HOME_VENUE = 'Poland Seminary High School';
+
 // Feed URL (contains an access token) lives in CI secrets / a local .env file,
 // never in source — this repo is public, so anything hardcoded here is exposed
 // in git history forever.
 const ICAL_URL = process.env.EVENTLINK_ICAL_URL;
-if (!ICAL_URL) {
-  throw new Error('EVENTLINK_ICAL_URL environment variable is not set.');
-}
+
+const DIFF_SNAPSHOT_PATH     = path.join(DATA_DIR, 'diff-snapshot.json');
+const CHANGELOG_PATH         = path.join(DATA_DIR, 'changelog.json');
+const CHANGELOG_MAX_ENTRIES  = 200;
+const FETCH_TIMEOUT_MS       = 30_000;
+
+// Below this fraction of VEVENTs surviving parseEvent (when the feed has a
+// meaningful number of events), assume a feed/format regression rather than a
+// real schedule and abort before overwriting existing data.
+const MIN_KEPT_RATIO             = 0.5;
+const MIN_VEVENTS_FOR_RATIO_CHECK = 50;
+
+// ── Sport & level lookup tables ───────────────────────────────────────────────
 
 // Keyed on "Sport (Gender)" — level code is parsed separately.
-// season: which of Poland's three OHSAA sport seasons (Fall/Winter/Spring) this sport runs in.
+// season: which of Poland's three OHSAA sport seasons (Fall/Winter/Spring).
 const SPORT_BASE_MAP = {
-  'Baseball (Boys)':       { slug: 'baseball',        title: 'Baseball',        season: 'Spring' },
-  'Basketball (Boys)':     { slug: 'boys-basketball',  title: 'Boys Basketball', season: 'Winter' },
+  'Baseball (Boys)':       { slug: 'baseball',        title: 'Baseball',         season: 'Spring' },
+  'Basketball (Boys)':     { slug: 'boys-basketball',  title: 'Boys Basketball',  season: 'Winter' },
   'Basketball (Girls)':    { slug: 'girls-basketball', title: 'Girls Basketball', season: 'Winter' },
-  'Cheerleading (Girls)':  { slug: 'cheerleading',     title: 'Cheerleading',   season: 'Fall' },
-  'Cross Country (Coed)':  { slug: 'cross-country',    title: 'Cross Country', season: 'Fall' },
-  'Football (Boys)':       { slug: 'football',         title: 'Football',      season: 'Fall' },
-  'Golf (Boys)':           { slug: 'boys-golf',        title: 'Boys Golf',     season: 'Fall' },
-  'Golf (Girls)':          { slug: 'girls-golf',       title: 'Girls Golf',    season: 'Fall' },
-  'Lacrosse (Boys)':       { slug: 'boys-lacrosse',    title: 'Boys Lacrosse', season: 'Spring' },
-  'Lacrosse (Girls)':      { slug: 'girls-lacrosse',   title: 'Girls Lacrosse', season: 'Spring' },
-  'Soccer (Boys)':         { slug: 'boys-soccer',      title: 'Boys Soccer',   season: 'Fall' },
-  'Soccer (Girls)':        { slug: 'girls-soccer',     title: 'Girls Soccer',  season: 'Fall' },
-  'Softball (Girls)':      { slug: 'softball',         title: 'Softball',      season: 'Spring' },
-  'Swimming (Coed)':       { slug: 'swim-dive',        title: 'Swim & Dive',   season: 'Winter' },
-  'Swim & Dive (Coed)':    { slug: 'swim-dive',        title: 'Swim & Dive',   season: 'Winter' },
-  'Tennis (Boys)':         { slug: 'boys-tennis',      title: 'Boys Tennis',   season: 'Spring' },
-  'Tennis (Girls)':        { slug: 'girls-tennis',     title: 'Girls Tennis',  season: 'Fall' },
-  'Track & Field (Coed)':  { slug: 'track-field',      title: 'Track & Field', season: 'Spring' },
-  'Volleyball (Girls)':    { slug: 'volleyball',       title: 'Volleyball',    season: 'Fall' },
-  'Wrestling (Boys)':      { slug: 'boys-wrestling',   title: 'Boys Wrestling', season: 'Winter' },
-  'Wrestling (Girls)':     { slug: 'girls-wrestling',  title: 'Girls Wrestling', season: 'Winter' },
+  'Cheerleading (Girls)':  { slug: 'cheerleading',     title: 'Cheerleading',     season: 'Fall'   },
+  'Cross Country (Coed)':  { slug: 'cross-country',    title: 'Cross Country',    season: 'Fall'   },
+  'Football (Boys)':       { slug: 'football',         title: 'Football',         season: 'Fall'   },
+  'Golf (Boys)':           { slug: 'boys-golf',        title: 'Boys Golf',        season: 'Fall'   },
+  'Golf (Girls)':          { slug: 'girls-golf',       title: 'Girls Golf',       season: 'Fall'   },
+  'Lacrosse (Boys)':       { slug: 'boys-lacrosse',    title: 'Boys Lacrosse',    season: 'Spring' },
+  'Lacrosse (Girls)':      { slug: 'girls-lacrosse',   title: 'Girls Lacrosse',   season: 'Spring' },
+  'Soccer (Boys)':         { slug: 'boys-soccer',      title: 'Boys Soccer',      season: 'Fall'   },
+  'Soccer (Girls)':        { slug: 'girls-soccer',     title: 'Girls Soccer',     season: 'Fall'   },
+  'Softball (Girls)':      { slug: 'softball',         title: 'Softball',         season: 'Spring' },
+  'Swimming (Coed)':       { slug: 'swim-dive',        title: 'Swim & Dive',      season: 'Winter' },
+  'Swim & Dive (Coed)':    { slug: 'swim-dive',        title: 'Swim & Dive',      season: 'Winter' },
+  'Tennis (Boys)':         { slug: 'boys-tennis',      title: 'Boys Tennis',      season: 'Spring' },
+  'Tennis (Girls)':        { slug: 'girls-tennis',     title: 'Girls Tennis',     season: 'Fall'   },
+  'Track & Field (Coed)':  { slug: 'track-field',      title: 'Track & Field',    season: 'Spring' },
+  'Volleyball (Girls)':    { slug: 'volleyball',       title: 'Volleyball',       season: 'Fall'   },
+  'Wrestling (Boys)':      { slug: 'boys-wrestling',   title: 'Boys Wrestling',   season: 'Winter' },
+  'Wrestling (Girls)':     { slug: 'girls-wrestling',  title: 'Girls Wrestling',  season: 'Winter' },
 };
+
+// Level codes as they appear in iCal SUMMARY parentheses.
+const LEVEL_MAP = {
+  'V':  { slug: 'varsity',  label: 'Varsity',       group: 'varsity'     },
+  'JV': { slug: 'jv',       label: 'JV',            group: 'jv-freshman' },
+  'F':  { slug: 'freshman', label: 'Freshman',      group: 'jv-freshman' },
+  '8':  { slug: '8th',      label: '8th Grade',     group: 'junior-high' },
+  '7':  { slug: '7th',      label: '7th Grade',     group: 'junior-high' },
+  'MS': { slug: 'ms',       label: 'Middle School', group: 'junior-high' },
+};
+
+// The four iCal files to produce. levels: null = all events.
+const ICAL_GROUPS = [
+  { name: 'PSHS Athletics',                  file: 'pshs-all.ics',         levels: null },
+  { name: 'PSHS Athletics – Varsity',        file: 'pshs-athletics.ics',   levels: ['varsity'] },
+  { name: 'PSHS Athletics – JV & Freshman',  file: 'pshs-jv-freshman.ics', levels: ['jv', 'freshman'] },
+  { name: 'PSHS Athletics – Junior High',    file: 'pshs-junior-high.ics', levels: ['7th', '8th', 'ms'] },
+];
+
+// ── Pure utility ──────────────────────────────────────────────────────────────
 
 // School year runs 07/01–06/30. Season label: Fall = start year, Winter = both
 // years, Spring = end year — e.g. school year 2026-2027 → Fall "2026",
@@ -57,40 +88,6 @@ function computeSeason(eventDate, sportSeason) {
   return `${schoolYearStart + 1}`; // Spring
 }
 
-// Level codes as they appear in iCal SUMMARY parentheses.
-const LEVEL_MAP = {
-  'V':  { slug: 'varsity',  label: 'Varsity',       group: 'varsity' },
-  'JV': { slug: 'jv',       label: 'JV',            group: 'jv-freshman' },
-  'F':  { slug: 'freshman', label: 'Freshman',      group: 'jv-freshman' },
-  '8':  { slug: '8th',      label: '8th Grade',     group: 'junior-high' },
-  '7':  { slug: '7th',      label: '7th Grade',     group: 'junior-high' },
-  'MS': { slug: 'ms',       label: 'Middle School', group: 'junior-high' },
-};
-
-// The four iCal files to produce. levels: null = all events.
-const ICAL_GROUPS = [
-  {
-    name:   'PSHS Athletics',
-    file:   'pshs-all.ics',
-    levels: null,
-  },
-  {
-    name:   'PSHS Athletics – Varsity',
-    file:   'pshs-athletics.ics',
-    levels: ['varsity'],
-  },
-  {
-    name:   'PSHS Athletics – JV & Freshman',
-    file:   'pshs-jv-freshman.ics',
-    levels: ['jv', 'freshman'],
-  },
-  {
-    name:   'PSHS Athletics – Junior High',
-    file:   'pshs-junior-high.ics',
-    levels: ['7th', '8th', 'ms'],
-  },
-];
-
 function normalizeTitle(title) {
   const noDisambig = title.replace(/\s*\([^)]+\)\s*$/, '').trim();
   return noDisambig
@@ -102,12 +99,22 @@ function normalizeTitle(title) {
 }
 
 function resolveOpponent(title, opponents, quiet = false) {
-  const attempts = [title, normalizeTitle(title)];
-  for (const attempt of attempts) {
+  for (const attempt of [title, normalizeTitle(title)]) {
     if (opponents[attempt]) return { conference: false, ...opponents[attempt], matched: true };
   }
   if (!quiet) console.warn(`  [unmatched] ${JSON.stringify(title)}`);
   return { name: title, mascot: null, matched: false, conference: false };
+}
+
+function validateOpponents(data) {
+  if (!data || typeof data !== 'object' || Array.isArray(data))
+    throw new Error('opponents.json must be a plain object');
+  if (Object.keys(data).length === 0)
+    throw new Error('opponents.json is empty');
+  for (const [key, val] of Object.entries(data)) {
+    if (!val || typeof val.name !== 'string')
+      throw new Error(`opponents.json: entry "${key}" is missing a name string`);
+  }
 }
 
 // Classify the non-opponent placeholder events (practices, scrimmages) that
@@ -134,10 +141,11 @@ function sortByDateTime(events) {
   );
 }
 
-// --- CSV ---
+// ── CSV ───────────────────────────────────────────────────────────────────────
 
 const CSV_COLUMNS = [
-  'eventDate', 'cleanDate', 'season', 'sport', 'sportSlug', 'levelSlug', 'levelLabel',
+  'eventDate', 'cleanDate', 'season', 'seasonType', 'sport', 'sportSlug', 'gender',
+  'levelSlug', 'levelLabel',
   'eventTime', 'homeOrAway', 'vsOrAt', 'opponent', 'opponentMascot', 'opponentComplete',
   'location', 'eventType', 'isCancelled', 'isPostponed', 'isTimeTBD', 'conferenceGame',
   'homeScore', 'awayScore', 'result', 'postSlug', 'posterFile', 'eventId',
@@ -157,7 +165,7 @@ function writeCsv(events, filePath) {
   fs.writeFileSync(filePath, [header, ...rows].join('\n'));
 }
 
-// --- iCal output ---
+// ── iCal output ───────────────────────────────────────────────────────────────
 
 function writeIcal(events, filePath, calName) {
   const cal = ical({ name: calName });
@@ -173,16 +181,16 @@ function writeIcal(events, filePath, calName) {
     if (!start.isValid) continue;
 
     cal.createEvent({
-      id:       e.eventId,
+      id:    e.eventId,
       // Stamp off the event's own start time (not "now") so regenerating the
       // file from unchanged source data produces byte-identical output —
-      // otherwise every VEVENT gets a fresh random UID + DTSTAMP on every run
-      // and the .ics "changes" on every 15-minute fetch even when nothing did.
-      stamp:    start.toJSDate(),
-      start:    start.toJSDate(),
+      // otherwise every VEVENT gets a fresh DTSTAMP on every run and the .ics
+      // "changes" on every 15-minute fetch even when nothing did.
+      stamp:  start.toJSDate(),
+      start:  start.toJSDate(),
       ...(allDay ? {} : { end: start.plus({ hours: 2 }).toJSDate() }),
       allDay,
-      summary:  `${e.isPostponed ? '[POSTPONED] ' : ''}${e.levelLabel !== 'Varsity' ? `[${e.levelLabel}] ` : ''}${e.sport}: ${e.vsOrAt} ${e.opponentComplete}`,
+      summary: `${e.isPostponed ? '[POSTPONED] ' : ''}${e.levelLabel !== 'Varsity' ? `[${e.levelLabel}] ` : ''}${e.sport}: ${e.vsOrAt} ${e.opponentComplete}`,
       location: e.location || undefined,
     });
   }
@@ -190,7 +198,7 @@ function writeIcal(events, filePath, calName) {
   fs.writeFileSync(filePath, cal.toString());
 }
 
-// --- iCal parsing ---
+// ── iCal parsing ──────────────────────────────────────────────────────────────
 
 function unfoldIcal(text) {
   return text.replace(/\r?\n[ \t]/g, '');
@@ -231,7 +239,7 @@ function parseVevents(text) {
 }
 
 // Parse "Sport Name (Gender LevelCode)" from the beginning of a SUMMARY string.
-// Returns { sport, level } or null if unrecognized.
+// Returns { sport, level, gender } or null if unrecognized.
 function parseSportAndLevel(summary) {
   const m = summary.match(/^(.+?)\s+\((\w+)\s+(\w+)\)/);
   if (!m) return null;
@@ -240,12 +248,13 @@ function parseSportAndLevel(summary) {
   const level    = LEVEL_MAP[m[3].trim()];
   // The parens pattern matched but we don't recognize the sport/level — likely
   // EventLink renamed/added one (this has happened before: Swimming → Swim & Dive).
-  // Warn instead of silently dropping every event for that sport.
   if (!sport || !level) {
     console.warn(`  [unrecognized sport/level] sport=${JSON.stringify(sportKey)} level=${JSON.stringify(m[3])} in ${JSON.stringify(summary)}`);
     return null;
   }
-  return { sport, level };
+  // "Coed" in the EventLink key normalizes to "Co-ed" to match the plugin's GENDERS list.
+  const gender = m[2].trim() === 'Coed' ? 'Co-ed' : m[2].trim();
+  return { sport, level, gender };
 }
 
 function parseEvent(vevent, opponents) {
@@ -257,7 +266,7 @@ function parseEvent(vevent, opponents) {
 
   const parsed = parseSportAndLevel(summary);
   if (!parsed) return null;
-  const { sport, level } = parsed;
+  const { sport, level, gender } = parsed;
 
   // Tolerate minor formatting drift (extra room/building suffix, whitespace)
   // around the venue name rather than requiring an exact string match.
@@ -265,8 +274,8 @@ function parseEvent(vevent, opponents) {
 
   // Prefer structured "Opponent(s):" in DESCRIPTION; fall back to the SUMMARY tail
   // for tournaments / invitationals that have no named opponent.
-  const desc        = vevent.description || '';
-  const oppFromDesc = desc.match(/\\nOpponent\(s\):\s*([^\\]+)/);
+  const desc         = vevent.description || '';
+  const oppFromDesc  = desc.match(/\\nOpponent\(s\):\s*([^\\]+)/);
   const opponentTitle = oppFromDesc
     ? oppFromDesc[1].trim()
     : summary.slice(summary.indexOf(')') + 1).replace(/^\s*[@\-]\s*/, '').trim();
@@ -315,8 +324,10 @@ function parseEvent(vevent, opponents) {
     eventId:          vevent.uid,
     eventDate,
     season,
+    seasonType:       sport.season,
     sport:            sport.title,
     sportSlug:        sport.slug,
+    gender,
     levelSlug:        level.slug,
     levelLabel:       level.label,
     levelGroup:       level.group,
@@ -342,6 +353,8 @@ function parseEvent(vevent, opponents) {
     _time24:          time24,
   };
 }
+
+// ── Diff & changelog ──────────────────────────────────────────────────────────
 
 // Fields that matter for change detection — structural/scheduling data only.
 const TRACKED_FIELDS = [
@@ -369,10 +382,7 @@ function diffEvents(prevEvents, nextEvents) {
 
 function logDiff({ added, removed, changed }) {
   const total = added.length + removed.length + changed.length;
-  if (total === 0) {
-    console.log('No event changes detected.\n');
-    return;
-  }
+  if (total === 0) { console.log('No event changes detected.\n'); return; }
 
   const label = e => `${e.eventDate} ${e.sport} (${e.levelLabel}) ${e.vsOrAt} ${e.opponentComplete}`;
 
@@ -394,6 +404,46 @@ function logDiff({ added, removed, changed }) {
   console.log();
 }
 
+// Slim representation stored in changes.json and changelog.json — just enough
+// to understand what changed without duplicating the full event object.
+function summariseEvent(e) {
+  return {
+    eventId:          e.eventId,
+    eventDate:        e.eventDate,
+    sport:            e.sport,
+    levelLabel:       e.levelLabel,
+    vsOrAt:           e.vsOrAt,
+    opponentComplete: e.opponentComplete,
+    isCancelled:      e.isCancelled,
+    isPostponed:      e.isPostponed,
+  };
+}
+
+function writeChangelog(diff) {
+  const entry = {
+    generatedAt: new Date().toISOString(),
+    added:   diff.added.map(summariseEvent),
+    removed: diff.removed.map(summariseEvent),
+    changed: diff.changed.map(({ before, after, fields }) => ({
+      ...summariseEvent(after),
+      fields,
+      before: Object.fromEntries(fields.map(f => [f, before[f]])),
+      after:  Object.fromEntries(fields.map(f => [f, after[f]])),
+    })),
+  };
+
+  fs.writeFileSync(path.join(DATA_DIR, 'changes.json'), JSON.stringify(entry, null, 2));
+
+  const changelog = fs.existsSync(CHANGELOG_PATH)
+    ? JSON.parse(fs.readFileSync(CHANGELOG_PATH, 'utf-8'))
+    : [];
+  changelog.push(entry);
+  while (changelog.length > CHANGELOG_MAX_ENTRIES) changelog.shift();
+  fs.writeFileSync(CHANGELOG_PATH, JSON.stringify(changelog, null, 2));
+}
+
+// ── File output ───────────────────────────────────────────────────────────────
+
 // Write combined / upcoming / cancelled-today for a given directory + event list.
 function writeDataFiles(dir, allEvents, today) {
   const combined       = sortByDateTime(allEvents.filter(e => !e.isCancelled));
@@ -412,20 +462,79 @@ function writeDataFiles(dir, allEvents, today) {
   return { combined: combined.length, upcoming: upcoming.length };
 }
 
-// All-levels event snapshot used purely for diffing — separate from the
-// per-level combined.json files below, which only ever hold one level's
-// events (reusing one of those as the diff baseline made every other
-// level's events look "added" on every single run).
-const DIFF_SNAPSHOT_PATH = path.join(DATA_DIR, 'diff-snapshot.json');
-const CHANGELOG_PATH     = path.join(DATA_DIR, 'changelog.json');
-const CHANGELOG_MAX_ENTRIES = 200;
-const FETCH_TIMEOUT_MS = 30_000;
+// Write per-sport files for one level, return index entries for that level.
+function writeLevel(levelSlug, bySport, today) {
+  const dir = levelSlug === 'varsity' ? DATA_DIR : path.join(DATA_DIR, levelSlug);
+  fs.mkdirSync(dir, { recursive: true });
 
-// Below this fraction of VEVENTs surviving parseEvent (when the feed has a
-// meaningful number of events), assume an EventLink feed/format regression
-// rather than a real schedule and abort before overwriting existing data.
-const MIN_KEPT_RATIO = 0.5;
-const MIN_VEVENTS_FOR_RATIO_CHECK = 50;
+  const allForLevel  = [];
+  const indexEntries = [];
+
+  for (const [sportSlug, list] of Object.entries(bySport)) {
+    const sorted = sortByDateTime(list);
+
+    // Number same-day events: second becomes slug-1, third slug-2, etc.
+    const slugSeen = {};
+    for (const e of sorted) {
+      const base  = e.postSlug;
+      const count = slugSeen[base] ?? 0;
+      if (count > 0) {
+        e.postSlug   = `${base}-${count}`;
+        e.posterFile = `${base}-${count}.jpg`;
+      }
+      slugSeen[base] = count + 1;
+    }
+
+    fs.writeFileSync(path.join(dir, `${sportSlug}.json`), JSON.stringify(sorted, null, 2));
+    writeCsv(sorted, path.join(dir, `${sportSlug}.csv`));
+    allForLevel.push(...sorted);
+    console.log(`  [${levelSlug}] ${sportSlug} → ${sorted.length}`);
+
+    const e         = sorted[0];
+    const dataFile  = levelSlug === 'varsity' ? `data/${sportSlug}.json` : `data/${levelSlug}/${sportSlug}.json`;
+    const icalGroup = ICAL_GROUPS.find(g => g.levels?.includes(levelSlug));
+    indexEntries.push({
+      sport:      e.sport,
+      sportSlug:  e.sportSlug,
+      level:      e.levelLabel,
+      levelSlug:  e.levelSlug,
+      levelGroup: e.levelGroup,
+      gender:     e.gender,
+      seasonType: e.seasonType,
+      dataFile,
+      icalFile:   icalGroup?.file ?? 'pshs-all.ics',
+    });
+  }
+
+  const { combined, upcoming } = writeDataFiles(dir, allForLevel, today);
+  console.log(`  [${levelSlug}] combined=${combined} upcoming=${upcoming}\n`);
+
+  return indexEntries;
+}
+
+// ── Network ───────────────────────────────────────────────────────────────────
+
+async function fetchFeed() {
+  console.log('Fetching iCal feed…');
+  const controller = new AbortController();
+  // Covers the whole request including body read — a stalled response body
+  // after headers arrive would otherwise hang past this timeout uncaught.
+  const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+  try {
+    const res = await fetch(ICAL_URL, {
+      headers: { 'User-Agent': 'pshs-schedule-proxy/3.0' },
+      signal:  controller.signal,
+    });
+    if (!res.ok) throw new Error(`EventLink iCal ${res.status} ${res.statusText}`);
+    const text = await res.text();
+    console.log(`Received ${text.length} bytes`);
+    return text;
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+// ── Main ──────────────────────────────────────────────────────────────────────
 
 async function main() {
   fs.mkdirSync(DATA_DIR, { recursive: true });
@@ -434,27 +543,14 @@ async function main() {
     ? JSON.parse(fs.readFileSync(DIFF_SNAPSHOT_PATH, 'utf-8'))
     : [];
 
+  if (!ICAL_URL) throw new Error('EVENTLINK_ICAL_URL environment variable is not set.');
+
   const opponents = JSON.parse(
     fs.readFileSync(path.join(__dirname, 'opponents.json'), 'utf-8')
   );
+  validateOpponents(opponents);
 
-  console.log(`Fetching iCal feed…`);
-  const controller = new AbortController();
-  // Covers the whole request including body read — a stalled response body
-  // after headers arrive would otherwise hang past this timeout uncaught.
-  const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
-  let icalText;
-  try {
-    const res = await fetch(ICAL_URL, {
-      headers: { 'User-Agent': 'pshs-schedule-proxy/3.0' },
-      signal:  controller.signal,
-    });
-    if (!res.ok) throw new Error(`EventLink iCal ${res.status} ${res.statusText}`);
-    icalText = await res.text();
-  } finally {
-    clearTimeout(timeout);
-  }
-  console.log(`Received ${icalText.length} bytes`);
+  const icalText = await fetchFeed();
 
   const rawVevents = parseVevents(icalText);
   console.log(`Parsed ${rawVevents.length} VEVENTs`);
@@ -470,10 +566,7 @@ async function main() {
   const seenUids = new Set();
   const vevents  = [];
   for (const v of rawVevents) {
-    if (v.uid && seenUids.has(v.uid)) {
-      console.warn(`  [duplicate UID] ${v.uid}`);
-      continue;
-    }
+    if (v.uid && seenUids.has(v.uid)) { console.warn(`  [duplicate UID] ${v.uid}`); continue; }
     if (v.uid) seenUids.add(v.uid);
     vevents.push(v);
   }
@@ -491,43 +584,26 @@ async function main() {
 
   const today = new Date().toISOString().split('T')[0];
 
-  // Group by level → by sport
   const byLevel = {};
   for (const e of events) {
     (byLevel[e.levelSlug] ??= {})[e.sportSlug] ??= [];
     byLevel[e.levelSlug][e.sportSlug].push(e);
   }
 
+  // Write per-sport files and collect index entries in one pass.
+  const allIndexEntries = [];
   for (const [levelSlug, bySport] of Object.entries(byLevel)) {
-    const dir = levelSlug === 'varsity' ? DATA_DIR : path.join(DATA_DIR, levelSlug);
-    fs.mkdirSync(dir, { recursive: true });
-
-    const allForLevel = [];
-
-    for (const [slug, list] of Object.entries(bySport)) {
-      const sorted = sortByDateTime(list);
-
-      // Number same-day events: second becomes slug-1, third slug-2, etc.
-      const slugSeen = {};
-      for (const e of sorted) {
-        const base  = e.postSlug;
-        const count = slugSeen[base] ?? 0;
-        if (count > 0) {
-          e.postSlug   = `${base}-${count}`;
-          e.posterFile = `${base}-${count}.jpg`;
-        }
-        slugSeen[base] = count + 1;
-      }
-
-      fs.writeFileSync(path.join(dir, `${slug}.json`), JSON.stringify(sorted, null, 2));
-      writeCsv(sorted, path.join(dir, `${slug}.csv`));
-      allForLevel.push(...sorted);
-      console.log(`  [${levelSlug}] ${slug} → ${sorted.length}`);
-    }
-
-    const { combined, upcoming } = writeDataFiles(dir, allForLevel, today);
-    console.log(`  [${levelSlug}] combined=${combined} upcoming=${upcoming}\n`);
+    allIndexEntries.push(...writeLevel(levelSlug, bySport, today));
   }
+
+  allIndexEntries.sort((a, b) => {
+    const order = ['varsity', 'jv-freshman', 'junior-high'];
+    return (order.indexOf(a.levelGroup) - order.indexOf(b.levelGroup))
+      || a.sport.localeCompare(b.sport)
+      || a.level.localeCompare(b.level);
+  });
+  fs.writeFileSync(path.join(DATA_DIR, 'index.json'), JSON.stringify(allIndexEntries, null, 2));
+  console.log(`index.json → ${allIndexEntries.length} entries`);
 
   // Diff against the previous full snapshot (all levels, cancelled events
   // included — so a cancellation surfaces as "Changed: isCancelled" rather
@@ -539,29 +615,14 @@ async function main() {
   fs.writeFileSync(DIFF_SNAPSHOT_PATH, JSON.stringify(allEvents, null, 2));
 
   // Only touch changes.json/changelog.json when something actually changed —
-  // previously these rewrote with a fresh timestamp on every run (every 15
-  // minutes, all day), forcing a no-op git commit + Pages deploy each time.
-  const hasChanges = diff.added.length || diff.removed.length || diff.changed.length;
-  if (hasChanges) {
-    const entry = {
-      generatedAt: new Date().toISOString(),
-      added:   diff.added,
-      removed: diff.removed,
-      changed: diff.changed,
-    };
-    fs.writeFileSync(path.join(DATA_DIR, 'changes.json'), JSON.stringify(entry, null, 2));
-
-    const changelog = fs.existsSync(CHANGELOG_PATH)
-      ? JSON.parse(fs.readFileSync(CHANGELOG_PATH, 'utf-8'))
-      : [];
-    changelog.push(entry);
-    while (changelog.length > CHANGELOG_MAX_ENTRIES) changelog.shift();
-    fs.writeFileSync(CHANGELOG_PATH, JSON.stringify(changelog, null, 2));
+  // otherwise every 15-minute fetch rewrites with a fresh timestamp even when
+  // nothing did, forcing a no-op git commit + Pages deploy each time.
+  if (diff.added.length || diff.removed.length || diff.changed.length) {
+    writeChangelog(diff);
   } else {
     console.log('No changes — leaving changes.json/changelog.json untouched.\n');
   }
 
-  // iCal files
   for (const group of ICAL_GROUPS) {
     const filtered = events.filter(
       e => !e.isCancelled && (group.levels === null || group.levels.includes(e.levelSlug))
@@ -570,10 +631,21 @@ async function main() {
     console.log(`${group.file} → ${filtered.length} events`);
   }
 
+  fs.writeFileSync(path.join(DATA_DIR, 'status.json'), JSON.stringify({
+    fetchedAt:  new Date().toISOString(),
+    vevents:    rawVevents.length,
+    kept:       events.length,
+    hasChanges: diff.added.length > 0 || diff.removed.length > 0 || diff.changed.length > 0,
+  }, null, 2));
+
   console.log('\nDone.');
 }
 
-main().catch(err => {
-  console.error(err);
-  process.exit(1);
-});
+export { computeSeason, formatTime12h, parseSportAndLevel, diffEvents, summariseEvent };
+
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  main().catch(err => {
+    console.error(err);
+    process.exit(1);
+  });
+}

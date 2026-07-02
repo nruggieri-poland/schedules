@@ -2,7 +2,7 @@ name: Fetch & Deploy Schedules
 
 on:
   schedule:
-    - cron: "*/15 12-22 * * *"  # Every 30 min, 8 AM – 6:30 PM EDT (noon–10:30 PM UTC)
+    - cron: "*/15 12-22 * * *"  # Every 15 min, 8 AM – 6:30 PM EDT (noon–10:30 PM UTC)
   workflow_dispatch:
 
 permissions:
