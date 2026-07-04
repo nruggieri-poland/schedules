@@ -10,17 +10,27 @@ const __dirname = path.dirname(__filename);
 
 // ── Paths & runtime constants ─────────────────────────────────────────────────
 
-const DATA_DIR   = path.join(__dirname, 'dist', 'data');
-const ICS_DIR    = path.join(__dirname, 'dist');
-const HOME_VENUE = 'Poland Seminary High School';
+// dist/ layout — kept deliberately separated so "give me one team's schedule"
+// and "give me an aggregate view" are never mixed in the same directory:
+//   teams/    one JSON + one CSV per team (the canonical, site-consumed files)
+//   rollups/  per-level conglomerate views (combined/upcoming/cancelled-today)
+//   ics/      one .ics per team, plus ics/groups/ for the broader multi-team calendars
+//   meta/     pipeline bookkeeping (index, status, diff/changelog) — not schedule data
+const DIST_DIR       = path.join(__dirname, 'dist');
+const TEAMS_DIR      = path.join(DIST_DIR, 'teams');
+const ROLLUPS_DIR    = path.join(DIST_DIR, 'rollups');
+const META_DIR       = path.join(DIST_DIR, 'meta');
+const ICS_DIR        = path.join(DIST_DIR, 'ics');
+const ICS_GROUPS_DIR = path.join(ICS_DIR, 'groups');
+const HOME_VENUE     = 'Poland Seminary High School';
 
 // Feed URL (contains an access token) lives in CI secrets / a local .env file,
 // never in source — this repo is public, so anything hardcoded here is exposed
 // in git history forever.
 const ICAL_URL = process.env.EVENTLINK_ICAL_URL;
 
-const DIFF_SNAPSHOT_PATH     = path.join(DATA_DIR, 'diff-snapshot.json');
-const CHANGELOG_PATH         = path.join(DATA_DIR, 'changelog.json');
+const DIFF_SNAPSHOT_PATH     = path.join(META_DIR, 'diff-snapshot.json');
+const CHANGELOG_PATH         = path.join(META_DIR, 'changelog.json');
 const CHANGELOG_MAX_ENTRIES  = 200;
 const FETCH_TIMEOUT_MS       = 30_000;
 
@@ -75,6 +85,53 @@ const ICAL_GROUPS = [
   { name: 'PSHS Athletics – JV & Freshman',  file: 'pshs-jv-freshman.ics', levels: ['jv', 'freshman'] },
   { name: 'PSHS Athletics – Junior High',    file: 'pshs-junior-high.ics', levels: ['7th', '8th', 'ms'] },
 ];
+
+// ── Team registry (pshs-athletics-teams.csv) ─────────────────────────────────
+
+// fetch.js's sport.title / levelLabel values that don't match the CSV's
+// "Sport" / "Levels" columns verbatim.
+const CSV_SPORT_ALIASES = { 'Swim & Dive': 'Swimming & Diving' };
+const CSV_LEVEL_ALIASES = { 'JV': 'Junior Varsity', 'Middle School': 'Junior High' };
+
+function parseTeamsCsv(text) {
+  const lines  = text.trim().split(/\r?\n/);
+  const header = lines[0].split(',').map(h => h.trim());
+  return lines.slice(1).map(line => {
+    const cols = line.split(',');
+    return Object.fromEntries(header.map((h, i) => [h, (cols[i] ?? '').trim()]));
+  });
+}
+
+function buildTeamSlugIndex(rows) {
+  const index = new Map();
+  for (const row of rows) index.set(`${row.Sport}|${row.Levels}`, row.Slug);
+  return index;
+}
+
+const warnedUnmatchedTeams = new Set();
+
+// Resolves the canonical team-page slug (e.g. "football-varsity") for a parsed
+// event's sport/level. 7th/8th grade sports that don't split by grade fall back
+// to the CSV's combined "Junior High" row. Returns null (warning once per
+// distinct combo) when the team isn't in the registry — likely naming drift
+// between EventLink and pshs-athletics-teams.csv that needs reconciling by hand.
+function resolveTeamSlug(teamIndex, sportTitle, levelLabel) {
+  const csvSport = CSV_SPORT_ALIASES[sportTitle] ?? sportTitle;
+  const csvLevel = CSV_LEVEL_ALIASES[levelLabel] ?? levelLabel;
+
+  let slug = teamIndex.get(`${csvSport}|${csvLevel}`);
+  if (!slug && (levelLabel === '8th Grade' || levelLabel === '7th Grade')) {
+    slug = teamIndex.get(`${csvSport}|Junior High`);
+  }
+  if (!slug) {
+    const key = `${csvSport}|${csvLevel}`;
+    if (!warnedUnmatchedTeams.has(key)) {
+      warnedUnmatchedTeams.add(key);
+      console.warn(`  [unmatched team] no entry in pshs-athletics-teams.csv for "${sportTitle}" / "${levelLabel}"`);
+    }
+  }
+  return slug ?? null;
+}
 
 // ── Pure utility ──────────────────────────────────────────────────────────────
 
@@ -146,10 +203,10 @@ function sortByDateTime(events) {
 
 const CSV_COLUMNS = [
   'eventDate', 'cleanDate', 'season', 'seasonType', 'sport', 'sportSlug', 'gender',
-  'levelSlug', 'levelLabel',
+  'levelSlug', 'levelLabel', 'teamSlug',
   'eventTime', 'homeOrAway', 'vsOrAt', 'opponent', 'opponentMascot', 'opponentComplete',
   'location', 'eventType', 'isCancelled', 'isPostponed', 'isTimeTBD', 'conferenceGame',
-  'homeScore', 'awayScore', 'result', 'postSlug', 'posterFile', 'eventId',
+  'postSlug', 'posterFile', 'eventId',
 ];
 
 // Neutralize leading =/+/-/@ so spreadsheet apps don't treat externally-sourced
@@ -259,7 +316,7 @@ function parseSportAndLevel(summary) {
   return { sport, level, gender };
 }
 
-function parseEvent(vevent, opponents) {
+function parseEvent(vevent, opponents, teamIndex) {
   const rawSummary  = vevent.summary || '';
   // EventLink uses American spelling ("CANCELED") but has shipped British ("CANCELLED")
   // before. The iCal STATUS:CANCELLED field is a third path some calendar systems take.
@@ -361,6 +418,7 @@ function parseEvent(vevent, opponents) {
     levelSlug:        level.slug,
     levelLabel:       level.label,
     levelGroup:       level.group,
+    teamSlug:         resolveTeamSlug(teamIndex, sport.title, level.label),
     eventTime:        formatTime12h(time24),
     homeOrAway:       isHome ? 'Home' : 'Away',
     vsOrAt:           isHome ? 'vs' : '@',
@@ -378,9 +436,6 @@ function parseEvent(vevent, opponents) {
     isPostponed,
     isTimeTBD,
     conferenceGame:   eventType === 'Game' && !!conference,
-    homeScore:        null,
-    awayScore:        null,
-    result:           null,
     _time24:          time24,
   };
 }
@@ -463,7 +518,7 @@ function writeChangelog(diff) {
     })),
   };
 
-  fs.writeFileSync(path.join(DATA_DIR, 'changes.json'), JSON.stringify(entry, null, 2));
+  fs.writeFileSync(path.join(META_DIR, 'changes.json'), JSON.stringify(entry, null, 2));
 
   const changelog = fs.existsSync(CHANGELOG_PATH)
     ? JSON.parse(fs.readFileSync(CHANGELOG_PATH, 'utf-8'))
@@ -493,10 +548,13 @@ function writeDataFiles(dir, allEvents, today) {
   return { combined: combined.length, upcoming: upcoming.length };
 }
 
-// Write per-sport files for one level, return index entries for that level.
+// Write per-team files for one level, return index entries for that level.
 function writeLevel(levelSlug, bySport, today) {
-  const dir = levelSlug === 'varsity' ? DATA_DIR : path.join(DATA_DIR, levelSlug);
-  fs.mkdirSync(dir, { recursive: true });
+  // Rollups (combined/upcoming/cancelled-today) are conglomerate views and
+  // stay grouped per level under rollups/ — kept out of teams/ entirely so
+  // "every file in teams/ is exactly one team's schedule" always holds.
+  const rollupDir = path.join(ROLLUPS_DIR, levelSlug);
+  fs.mkdirSync(rollupDir, { recursive: true });
 
   const allForLevel  = [];
   const indexEntries = [];
@@ -516,28 +574,35 @@ function writeLevel(levelSlug, bySport, today) {
       slugSeen[base] = count + 1;
     }
 
-    fs.writeFileSync(path.join(dir, `${sportSlug}.json`), JSON.stringify(sorted, null, 2));
-    writeCsv(sorted, path.join(dir, `${sportSlug}.csv`));
+    // Flat, per-team files (e.g. football-varsity.json) — teamSlug already
+    // encodes the level, so no per-level subdirectory is needed here. Falls
+    // back to a level-sport name if the team isn't in the registry, so data
+    // still gets written (just not under its normal canonical name).
+    const teamSlug = sorted[0].teamSlug ?? `${levelSlug}-${sportSlug}`;
+    fs.writeFileSync(path.join(TEAMS_DIR, `${teamSlug}.json`), JSON.stringify(sorted, null, 2));
+    writeCsv(sorted, path.join(TEAMS_DIR, `${teamSlug}.csv`));
     allForLevel.push(...sorted);
-    console.log(`  [${levelSlug}] ${sportSlug} → ${sorted.length}`);
+    console.log(`  [${levelSlug}] ${sportSlug} → ${sorted.length} (${teamSlug})`);
 
     const e         = sorted[0];
-    const dataFile  = levelSlug === 'varsity' ? `data/${sportSlug}.json` : `data/${levelSlug}/${sportSlug}.json`;
     const icalGroup = ICAL_GROUPS.find(g => g.levels?.includes(levelSlug));
     indexEntries.push({
-      sport:      e.sport,
-      sportSlug:  e.sportSlug,
-      level:      e.levelLabel,
-      levelSlug:  e.levelSlug,
-      levelGroup: e.levelGroup,
-      gender:     e.gender,
-      seasonType: e.seasonType,
-      dataFile,
-      icalFile:   icalGroup?.file ?? 'pshs-all.ics',
+      sport:         e.sport,
+      sportSlug:     e.sportSlug,
+      level:         e.levelLabel,
+      levelSlug:     e.levelSlug,
+      levelGroup:    e.levelGroup,
+      gender:        e.gender,
+      seasonType:    e.seasonType,
+      teamSlug,
+      dataFile:      `teams/${teamSlug}.json`,
+      csvFile:       `teams/${teamSlug}.csv`,
+      icalFile:      `ics/${teamSlug}.ics`,
+      groupIcalFile: `ics/groups/${icalGroup?.file ?? 'pshs-all.ics'}`,
     });
   }
 
-  const { combined, upcoming } = writeDataFiles(dir, allForLevel, today);
+  const { combined, upcoming } = writeDataFiles(rollupDir, allForLevel, today);
   console.log(`  [${levelSlug}] combined=${combined} upcoming=${upcoming}\n`);
 
   return indexEntries;
@@ -568,7 +633,9 @@ async function fetchFeed() {
 // ── Main ──────────────────────────────────────────────────────────────────────
 
 async function main() {
-  fs.mkdirSync(DATA_DIR, { recursive: true });
+  for (const dir of [TEAMS_DIR, ROLLUPS_DIR, META_DIR, ICS_DIR, ICS_GROUPS_DIR]) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
 
   const prevEvents = fs.existsSync(DIFF_SNAPSHOT_PATH)
     ? JSON.parse(fs.readFileSync(DIFF_SNAPSHOT_PATH, 'utf-8'))
@@ -580,6 +647,12 @@ async function main() {
     fs.readFileSync(path.join(__dirname, 'opponents.json'), 'utf-8')
   );
   validateOpponents(opponents);
+
+  const teamRows = parseTeamsCsv(
+    fs.readFileSync(path.join(__dirname, 'pshs-athletics-teams.csv'), 'utf-8')
+  );
+  if (teamRows.length === 0) throw new Error('pshs-athletics-teams.csv is empty');
+  const teamIndex = buildTeamSlugIndex(teamRows);
 
   const icalText = await fetchFeed();
 
@@ -612,7 +685,7 @@ async function main() {
     vevents.push(v);
   }
 
-  const events = vevents.map(v => parseEvent(v, opponents)).filter(Boolean);
+  const events = vevents.map(v => parseEvent(v, opponents, teamIndex)).filter(Boolean);
   console.log(`Kept ${events.length} events after filtering\n`);
 
   const keptRatio = events.length / vevents.length;
@@ -643,7 +716,7 @@ async function main() {
       || a.sport.localeCompare(b.sport)
       || a.level.localeCompare(b.level);
   });
-  fs.writeFileSync(path.join(DATA_DIR, 'index.json'), JSON.stringify(allIndexEntries, null, 2));
+  fs.writeFileSync(path.join(META_DIR, 'index.json'), JSON.stringify(allIndexEntries, null, 2));
   console.log(`index.json → ${allIndexEntries.length} entries`);
 
   // Diff against the previous full snapshot (all levels, cancelled events
@@ -668,11 +741,24 @@ async function main() {
     const filtered = events.filter(
       e => !e.isCancelled && (group.levels === null || group.levels.includes(e.levelSlug))
     );
-    writeIcal(filtered, path.join(ICS_DIR, group.file), group.name);
-    console.log(`${group.file} → ${filtered.length} events`);
+    writeIcal(filtered, path.join(ICS_GROUPS_DIR, group.file), group.name);
+    console.log(`groups/${group.file} → ${filtered.length} events`);
   }
 
-  fs.writeFileSync(path.join(DATA_DIR, 'status.json'), JSON.stringify({
+  // Per-team ICS files (e.g. football-varsity.ics) — one subscribable calendar
+  // per team, alongside the broader level-group calendars above.
+  const eventsByTeamSlug = {};
+  for (const e of events) {
+    const slug = e.teamSlug ?? `${e.levelSlug}-${e.sportSlug}`;
+    (eventsByTeamSlug[slug] ??= []).push(e);
+  }
+  for (const [slug, list] of Object.entries(eventsByTeamSlug)) {
+    const { sport, levelLabel } = list[0];
+    writeIcal(list, path.join(ICS_DIR, `${slug}.ics`), `PSHS Athletics – ${sport} (${levelLabel})`);
+  }
+  console.log(`${Object.keys(eventsByTeamSlug).length} per-team .ics files written`);
+
+  fs.writeFileSync(path.join(META_DIR, 'status.json'), JSON.stringify({
     fetchedAt:  new Date().toISOString(),
     vevents:    rawVevents.length,
     kept:       events.length,
@@ -682,7 +768,10 @@ async function main() {
   console.log('\nDone.');
 }
 
-export { computeSeason, formatTime12h, parseSportAndLevel, diffEvents, summariseEvent };
+export {
+  computeSeason, formatTime12h, parseSportAndLevel, diffEvents, summariseEvent,
+  parseTeamsCsv, buildTeamSlugIndex, resolveTeamSlug,
+};
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   main().catch(err => {
