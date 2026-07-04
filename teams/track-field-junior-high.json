@@ -18,6 +18,7 @@
     "opponentMascot": null,
     "opponentComplete": "Practice: Track & Field (Coed MS) Practice",
     "opponentLogo": null,
+    "otherOpponents": [],
     "cleanDate": "03/11",
     "posterFile": "2026-03-11_ms_track-field.jpg",
     "postSlug": "2026-03-11_ms_track-field",
@@ -49,6 +50,7 @@
     "opponentMascot": null,
     "opponentComplete": "Practice: Track & Field (Coed MS) Practice",
     "opponentLogo": null,
+    "otherOpponents": [],
     "cleanDate": "03/12",
     "posterFile": "2026-03-12_ms_track-field.jpg",
     "postSlug": "2026-03-12_ms_track-field",
@@ -76,10 +78,22 @@
     "eventTime": "04:45 PM",
     "homeOrAway": "Home",
     "vsOrAt": "vs",
-    "opponent": "Niles Middle School\\, LAKEVIEW MIDDLE SCHOOL\\, South Range Middle School",
-    "opponentMascot": null,
-    "opponentComplete": "Niles Middle School\\, LAKEVIEW MIDDLE SCHOOL\\, South Range Middle School",
+    "opponent": "Niles",
+    "opponentMascot": "Red Dragons",
+    "opponentComplete": "Niles Red Dragons",
     "opponentLogo": null,
+    "otherOpponents": [
+      {
+        "name": "Lakeview",
+        "mascot": "Bulldogs",
+        "conference": true
+      },
+      {
+        "name": "South Range",
+        "mascot": "Raiders",
+        "conference": true
+      }
+    ],
     "cleanDate": "03/30",
     "posterFile": "2026-03-30_ms_track-field.jpg",
     "postSlug": "2026-03-30_ms_track-field",
@@ -89,7 +103,7 @@
     "isCancelled": false,
     "isPostponed": false,
     "isTimeTBD": false,
-    "conferenceGame": false,
+    "conferenceGame": true,
     "_time24": "16:45"
   },
   {
@@ -107,10 +121,22 @@
     "eventTime": "04:45 PM",
     "homeOrAway": "Away",
     "vsOrAt": "@",
-    "opponent": "LAKEVIEW MIDDLE SCHOOL\\, STRUTHERS MIDDLE SCHOOL\\, Hubbard MS",
-    "opponentMascot": null,
-    "opponentComplete": "LAKEVIEW MIDDLE SCHOOL\\, STRUTHERS MIDDLE SCHOOL\\, Hubbard MS",
+    "opponent": "Lakeview",
+    "opponentMascot": "Bulldogs",
+    "opponentComplete": "Lakeview Bulldogs",
     "opponentLogo": null,
+    "otherOpponents": [
+      {
+        "name": "Struthers",
+        "mascot": "Wildcats",
+        "conference": true
+      },
+      {
+        "name": "Hubbard",
+        "mascot": "Eagles",
+        "conference": true
+      }
+    ],
     "cleanDate": "04/06",
     "posterFile": "2026-04-06_ms_track-field.jpg",
     "postSlug": "2026-04-06_ms_track-field",
@@ -120,7 +146,7 @@
     "isCancelled": true,
     "isPostponed": false,
     "isTimeTBD": false,
-    "conferenceGame": false,
+    "conferenceGame": true,
     "_time24": "16:45"
   },
   {
@@ -142,6 +168,7 @@
     "opponentMascot": null,
     "opponentComplete": "Girard Invitational",
     "opponentLogo": null,
+    "otherOpponents": [],
     "cleanDate": "04/09",
     "posterFile": "2026-04-09_ms_track-field.jpg",
     "postSlug": "2026-04-09_ms_track-field",
@@ -169,10 +196,17 @@
     "eventTime": "04:45 PM",
     "homeOrAway": "Home",
     "vsOrAt": "vs",
-    "opponent": "Niles Middle School\\, Hubbard MS",
-    "opponentMascot": null,
-    "opponentComplete": "Niles Middle School\\, Hubbard MS",
+    "opponent": "Niles",
+    "opponentMascot": "Red Dragons",
+    "opponentComplete": "Niles Red Dragons",
     "opponentLogo": null,
+    "otherOpponents": [
+      {
+        "name": "Hubbard",
+        "mascot": "Eagles",
+        "conference": true
+      }
+    ],
     "cleanDate": "04/13",
     "posterFile": "2026-04-13_ms_track-field.jpg",
     "postSlug": "2026-04-13_ms_track-field",
@@ -182,7 +216,7 @@
     "isCancelled": false,
     "isPostponed": false,
     "isTimeTBD": false,
-    "conferenceGame": false,
+    "conferenceGame": true,
     "_time24": "16:45"
   },
   {
@@ -204,6 +238,7 @@
     "opponentMascot": null,
     "opponentComplete": "Middle School Track Pictures",
     "opponentLogo": null,
+    "otherOpponents": [],
     "cleanDate": "04/15",
     "posterFile": "2026-04-15_ms_track-field.jpg",
     "postSlug": "2026-04-15_ms_track-field",
@@ -235,6 +270,7 @@
     "opponentMascot": null,
     "opponentComplete": "South Range Invitational",
     "opponentLogo": null,
+    "otherOpponents": [],
     "cleanDate": "04/24",
     "posterFile": "2026-04-24_ms_track-field.jpg",
     "postSlug": "2026-04-24_ms_track-field",
@@ -266,6 +302,7 @@
     "opponentMascot": null,
     "opponentComplete": "Mahoning County Meet",
     "opponentLogo": null,
+    "otherOpponents": [],
     "cleanDate": "04/27",
     "posterFile": "2026-04-27_ms_track-field.jpg",
     "postSlug": "2026-04-27_ms_track-field",
@@ -293,10 +330,17 @@
     "eventTime": "04:45 PM",
     "homeOrAway": "Away",
     "vsOrAt": "@",
-    "opponent": "South Range Middle School\\, STRUTHERS MIDDLE SCHOOL",
-    "opponentMascot": null,
-    "opponentComplete": "South Range Middle School\\, STRUTHERS MIDDLE SCHOOL",
+    "opponent": "South Range",
+    "opponentMascot": "Raiders",
+    "opponentComplete": "South Range Raiders",
     "opponentLogo": null,
+    "otherOpponents": [
+      {
+        "name": "Struthers",
+        "mascot": "Wildcats",
+        "conference": true
+      }
+    ],
     "cleanDate": "04/29",
     "posterFile": "2026-04-29_ms_track-field.jpg",
     "postSlug": "2026-04-29_ms_track-field",
@@ -306,7 +350,7 @@
     "isCancelled": false,
     "isPostponed": false,
     "isTimeTBD": false,
-    "conferenceGame": false,
+    "conferenceGame": true,
     "_time24": "16:45"
   },
   {
@@ -324,10 +368,11 @@
     "eventTime": "04:45 PM",
     "homeOrAway": "Away",
     "vsOrAt": "@",
-    "opponent": "Hubbard MS",
-    "opponentMascot": null,
-    "opponentComplete": "Hubbard MS",
+    "opponent": "Hubbard",
+    "opponentMascot": "Eagles",
+    "opponentComplete": "Hubbard Eagles",
     "opponentLogo": null,
+    "otherOpponents": [],
     "cleanDate": "05/04",
     "posterFile": "2026-05-04_ms_track-field.jpg",
     "postSlug": "2026-05-04_ms_track-field",
@@ -337,7 +382,7 @@
     "isCancelled": false,
     "isPostponed": false,
     "isTimeTBD": false,
-    "conferenceGame": false,
+    "conferenceGame": true,
     "_time24": "16:45"
   },
   {
@@ -359,6 +404,7 @@
     "opponentMascot": null,
     "opponentComplete": "NE 8 Conference Championship",
     "opponentLogo": null,
+    "otherOpponents": [],
     "cleanDate": "05/06",
     "posterFile": "2026-05-06_ms_track-field.jpg",
     "postSlug": "2026-05-06_ms_track-field",
