@@ -164,6 +164,15 @@ function resolveOpponent(title, opponents, quiet = false) {
   return { name: title, mascot: null, matched: false, conference: false };
 }
 
+// Some sports (track & field, swim & dive, golf, wrestling) list every
+// participating school in one string instead of a single opponent — iCal
+// escapes the literal separator comma as "\,". Splits into individual names;
+// a plain single-opponent title (no "\,") comes back as a one-element array,
+// so this is a no-op for every normal dual-meet event.
+function splitOpponentNames(title) {
+  return title.split('\\,').map(s => s.trim()).filter(Boolean);
+}
+
 function validateOpponents(data) {
   if (!data || typeof data !== 'object' || Array.isArray(data))
     throw new Error('opponents.json must be a plain object');
@@ -316,7 +325,7 @@ function parseSportAndLevel(summary) {
   return { sport, level, gender };
 }
 
-function parseEvent(vevent, opponents, teamIndex) {
+function parseEvent(vevent, opponents, juniorHighOpponents, teamIndex) {
   const rawSummary  = vevent.summary || '';
   // EventLink uses American spelling ("CANCELED") but has shipped British ("CANCELLED")
   // before. The iCal STATUS:CANCELLED field is a third path some calendar systems take.
@@ -401,11 +410,26 @@ function parseEvent(vevent, opponents, teamIndex) {
     ? `${eventDate}_${sport.slug}`
     : `${eventDate}_${level.slug}_${sport.slug}`;
 
+  // Junior high opponent names (e.g. "LAKEVIEW MIDDLE SCHOOL") don't match the
+  // HS opponents.json strings at all, so junior-high events look themselves up
+  // in a separate, purpose-built registry instead.
+  const opponentMap = level.group === 'junior-high' ? juniorHighOpponents : opponents;
+
+  // Multi-team meets (see splitOpponentNames) resolve the first listed school
+  // into the existing singular fields — unverified whether EventLink always
+  // lists the host first, but even a wrong guess here is a real school name
+  // instead of an unmatched, unsplit "\,"-joined string. The rest are exposed
+  // separately for anything that wants the full participant list.
+  const [primaryName, ...otherNames] = splitOpponentNames(opponentTitle);
   const { name: opponent, mascot, logo: opponentLogo, conference } = resolveOpponent(
-    opponentTitle, opponents, eventType !== 'Game'
+    primaryName, opponentMap, eventType !== 'Game'
   );
   const opponentMascot   = mascot || null;
   const opponentComplete = opponentMascot ? `${opponent} ${opponentMascot}` : opponent;
+  const otherOpponents = otherNames.map(name => {
+    const r = resolveOpponent(name, opponentMap, eventType !== 'Game');
+    return { name: r.name, mascot: r.mascot || null, conference: r.conference };
+  });
 
   return {
     eventId:          vevent.uid,
@@ -426,6 +450,10 @@ function parseEvent(vevent, opponents, teamIndex) {
     opponentMascot,
     opponentComplete,
     opponentLogo:     opponentLogo || null,
+    // Populated only for multi-team meets (track/swim/golf/wrestling); empty
+    // for a normal single-opponent game. Not in the CSV output — arrays don't
+    // fit a flat cell, and CSV consumers only ever needed the primary opponent.
+    otherOpponents,
     cleanDate,
     posterFile:       `${baseSlug}.jpg`,
     postSlug:         baseSlug,
@@ -648,6 +676,11 @@ async function main() {
   );
   validateOpponents(opponents);
 
+  const juniorHighOpponents = JSON.parse(
+    fs.readFileSync(path.join(__dirname, 'junior-high-opponents.json'), 'utf-8')
+  );
+  validateOpponents(juniorHighOpponents);
+
   const teamRows = parseTeamsCsv(
     fs.readFileSync(path.join(__dirname, 'pshs-athletics-teams.csv'), 'utf-8')
   );
@@ -685,7 +718,7 @@ async function main() {
     vevents.push(v);
   }
 
-  const events = vevents.map(v => parseEvent(v, opponents, teamIndex)).filter(Boolean);
+  const events = vevents.map(v => parseEvent(v, opponents, juniorHighOpponents, teamIndex)).filter(Boolean);
   console.log(`Kept ${events.length} events after filtering\n`);
 
   const keptRatio = events.length / vevents.length;
@@ -771,6 +804,7 @@ async function main() {
 export {
   computeSeason, formatTime12h, parseSportAndLevel, diffEvents, summariseEvent,
   parseTeamsCsv, buildTeamSlugIndex, resolveTeamSlug,
+  resolveOpponent,
 };
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {

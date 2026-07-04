@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "fetch": "node fetch.js",
-    "test": "node --test 'test/**/*.test.js'"
+    "fetch": "node fetch.js"
   },
   "dependencies": {
     "ical-generator": "^8.1.1",
