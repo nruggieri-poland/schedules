@@ -18,6 +18,7 @@
     "opponentMascot": null,
     "opponentComplete": "High School Track Team Meeting",
     "opponentLogo": null,
+    "otherOpponents": [],
     "cleanDate": "02/23",
     "posterFile": "2026-02-23_track-field.jpg",
     "postSlug": "2026-02-23_track-field",
@@ -49,6 +50,7 @@
     "opponentMascot": null,
     "opponentComplete": "Media Day Pictures",
     "opponentLogo": null,
+    "otherOpponents": [],
     "cleanDate": "03/27",
     "posterFile": "2026-03-27_track-field.jpg",
     "postSlug": "2026-03-27_track-field",
@@ -76,10 +78,17 @@
     "eventTime": "04:45 PM",
     "homeOrAway": "Away",
     "vsOrAt": "@",
-    "opponent": "\\, Niles McKinley High School\\, Lakeview High School",
-    "opponentMascot": null,
-    "opponentComplete": "\\, Niles McKinley High School\\, Lakeview High School",
-    "opponentLogo": null,
+    "opponent": "Niles",
+    "opponentMascot": "Red Dragons",
+    "opponentComplete": "Niles Red Dragons",
+    "opponentLogo": "mckinley-high-school-red-dragons",
+    "otherOpponents": [
+      {
+        "name": "Lakeview",
+        "mascot": "Bulldogs",
+        "conference": true
+      }
+    ],
     "cleanDate": "03/31",
     "posterFile": "2026-03-31_track-field.jpg",
     "postSlug": "2026-03-31_track-field",
@@ -89,7 +98,7 @@
     "isCancelled": false,
     "isPostponed": false,
     "isTimeTBD": false,
-    "conferenceGame": false,
+    "conferenceGame": true,
     "_time24": "16:45"
   },
   {
@@ -107,10 +116,17 @@
     "eventTime": "04:45 PM",
     "homeOrAway": "Away",
     "vsOrAt": "@",
-    "opponent": "Struthers High School\\, Niles McKinley High School",
-    "opponentMascot": null,
-    "opponentComplete": "Struthers High School\\, Niles McKinley High School",
-    "opponentLogo": null,
+    "opponent": "Struthers",
+    "opponentMascot": "Wildcats",
+    "opponentComplete": "Struthers Wildcats",
+    "opponentLogo": "struthers-high-school-wildcats",
+    "otherOpponents": [
+      {
+        "name": "Niles",
+        "mascot": "Red Dragons",
+        "conference": true
+      }
+    ],
     "cleanDate": "04/08",
     "posterFile": "2026-04-08_track-field.jpg",
     "postSlug": "2026-04-08_track-field",
@@ -120,7 +136,7 @@
     "isCancelled": false,
     "isPostponed": false,
     "isTimeTBD": false,
-    "conferenceGame": false,
+    "conferenceGame": true,
     "_time24": "16:45"
   },
   {
@@ -138,10 +154,22 @@
     "eventTime": "04:45 PM",
     "homeOrAway": "Home",
     "vsOrAt": "vs",
-    "opponent": "Lakeview High School\\, Struthers High School\\, Girard Sr High School",
-    "opponentMascot": null,
-    "opponentComplete": "Lakeview High School\\, Struthers High School\\, Girard Sr High School",
-    "opponentLogo": null,
+    "opponent": "Lakeview",
+    "opponentMascot": "Bulldogs",
+    "opponentComplete": "Lakeview Bulldogs",
+    "opponentLogo": "lakeview-high-school-bulldogs",
+    "otherOpponents": [
+      {
+        "name": "Struthers",
+        "mascot": "Wildcats",
+        "conference": true
+      },
+      {
+        "name": "Girard",
+        "mascot": "Indians",
+        "conference": true
+      }
+    ],
     "cleanDate": "04/14",
     "posterFile": "2026-04-14_track-field.jpg",
     "postSlug": "2026-04-14_track-field",
@@ -151,7 +179,7 @@
     "isCancelled": false,
     "isPostponed": false,
     "isTimeTBD": false,
-    "conferenceGame": false,
+    "conferenceGame": true,
     "_time24": "16:45"
   },
   {
@@ -173,6 +201,7 @@
     "opponentMascot": null,
     "opponentComplete": "Boardman Invite",
     "opponentLogo": null,
+    "otherOpponents": [],
     "cleanDate": "04/18",
     "posterFile": "2026-04-18_track-field.jpg",
     "postSlug": "2026-04-18_track-field",
@@ -200,10 +229,22 @@
     "eventTime": "04:45 PM",
     "homeOrAway": "Away",
     "vsOrAt": "@",
-    "opponent": "Girard Sr High School\\, Struthers High School\\, Niles McKinley High School",
-    "opponentMascot": null,
-    "opponentComplete": "Girard Sr High School\\, Struthers High School\\, Niles McKinley High School",
-    "opponentLogo": null,
+    "opponent": "Girard",
+    "opponentMascot": "Indians",
+    "opponentComplete": "Girard Indians",
+    "opponentLogo": "girard-high-school-indians",
+    "otherOpponents": [
+      {
+        "name": "Struthers",
+        "mascot": "Wildcats",
+        "conference": true
+      },
+      {
+        "name": "Niles",
+        "mascot": "Red Dragons",
+        "conference": true
+      }
+    ],
     "cleanDate": "04/21",
     "posterFile": "2026-04-21_track-field.jpg",
     "postSlug": "2026-04-21_track-field",
@@ -213,7 +254,7 @@
     "isCancelled": false,
     "isPostponed": false,
     "isTimeTBD": false,
-    "conferenceGame": false,
+    "conferenceGame": true,
     "_time24": "16:45"
   },
   {
@@ -235,6 +276,7 @@
     "opponentMascot": null,
     "opponentComplete": "Poland Track and Field Invite 30th Year",
     "opponentLogo": null,
+    "otherOpponents": [],
     "cleanDate": "04/25",
     "posterFile": "2026-04-25_track-field.jpg",
     "postSlug": "2026-04-25_track-field",
@@ -262,10 +304,22 @@
     "eventTime": "04:45 PM",
     "homeOrAway": "Away",
     "vsOrAt": "@",
-    "opponent": "Girard Sr High School\\, Lakeview High School\\, Niles McKinley High School",
-    "opponentMascot": null,
-    "opponentComplete": "Girard Sr High School\\, Lakeview High School\\, Niles McKinley High School",
-    "opponentLogo": null,
+    "opponent": "Girard",
+    "opponentMascot": "Indians",
+    "opponentComplete": "Girard Indians",
+    "opponentLogo": "girard-high-school-indians",
+    "otherOpponents": [
+      {
+        "name": "Lakeview",
+        "mascot": "Bulldogs",
+        "conference": true
+      },
+      {
+        "name": "Niles",
+        "mascot": "Red Dragons",
+        "conference": true
+      }
+    ],
     "cleanDate": "04/28",
     "posterFile": "2026-04-28_track-field.jpg",
     "postSlug": "2026-04-28_track-field",
@@ -275,7 +329,7 @@
     "isCancelled": false,
     "isPostponed": false,
     "isTimeTBD": false,
-    "conferenceGame": false,
+    "conferenceGame": true,
     "_time24": "16:45"
   },
   {
@@ -297,6 +351,7 @@
     "opponentMascot": null,
     "opponentComplete": "Track Senior Night",
     "opponentLogo": null,
+    "otherOpponents": [],
     "cleanDate": "05/04",
     "posterFile": "2026-05-04_track-field.jpg",
     "postSlug": "2026-05-04_track-field",
@@ -328,6 +383,7 @@
     "opponentMascot": null,
     "opponentComplete": "Mahoning Co. Varsity Championship",
     "opponentLogo": null,
+    "otherOpponents": [],
     "cleanDate": "05/05",
     "posterFile": "2026-05-05_track-field.jpg",
     "postSlug": "2026-05-05_track-field",
@@ -359,6 +415,7 @@
     "opponentMascot": null,
     "opponentComplete": "Northeast 8 Championship Meet",
     "opponentLogo": null,
+    "otherOpponents": [],
     "cleanDate": "05/12",
     "posterFile": "2026-05-12_track-field.jpg",
     "postSlug": "2026-05-12_track-field",
