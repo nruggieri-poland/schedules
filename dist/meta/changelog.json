@@ -16603,5 +16603,163 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-07-06T15:20:12.146Z",
+    "added": [
+      {
+        "eventId": "1b426da9-9c3f-48d7-a9cb-7fe33b5ac8b7",
+        "eventDate": "2026-08-29",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Early Bird Invite",
+        "isCancelled": false,
+        "isPostponed": false
+      },
+      {
+        "eventId": "967a8cc4-e199-4a04-9379-5944027acd1b",
+        "eventDate": "2026-09-01",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "McDonald Blue Devils",
+        "isCancelled": false,
+        "isPostponed": false
+      },
+      {
+        "eventId": "4d3f43c1-f601-4be0-9653-821d33d75fd6",
+        "eventDate": "2026-09-05",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "\"The List Race\"",
+        "isCancelled": false,
+        "isPostponed": false
+      },
+      {
+        "eventId": "523ae937-1755-4d2a-b2ed-6887c27ae7eb",
+        "eventDate": "2026-09-08",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Poland Township Park",
+        "isCancelled": false,
+        "isPostponed": false
+      },
+      {
+        "eventId": "db403d57-9979-4b77-930b-2698255b94a5",
+        "eventDate": "2026-09-12",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Streetsboro Invitational",
+        "isCancelled": false,
+        "isPostponed": false
+      },
+      {
+        "eventId": "1f834ca3-f286-4d02-98b2-4957e2fd2d96",
+        "eventDate": "2026-09-15",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Columbiana Clippers",
+        "isCancelled": false,
+        "isPostponed": false
+      },
+      {
+        "eventId": "a6b4badc-264e-45a3-85f1-2dc447d8b4aa",
+        "eventDate": "2026-09-22",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Suburban Championships",
+        "isCancelled": false,
+        "isPostponed": false
+      },
+      {
+        "eventId": "7c3c87b6-8f19-445f-bfde-611dc212678a",
+        "eventDate": "2026-09-26",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Sharpsville Invitational",
+        "isCancelled": false,
+        "isPostponed": false
+      },
+      {
+        "eventId": "3f8b0385-b868-47ae-86e7-b1b3803d8c18",
+        "eventDate": "2026-09-30",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Mahoning County Meet",
+        "isCancelled": false,
+        "isPostponed": false
+      },
+      {
+        "eventId": "392b640d-7dc2-4a6a-bcd5-43980421e9f7",
+        "eventDate": "2026-10-03",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Zombie Run",
+        "isCancelled": false,
+        "isPostponed": false
+      },
+      {
+        "eventId": "fc08e693-cf92-4e1a-90f3-f0435489da07",
+        "eventDate": "2026-10-10",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Legends Invite",
+        "isCancelled": false,
+        "isPostponed": false
+      },
+      {
+        "eventId": "478b7dc6-189f-4904-b7b2-09c404954fbc",
+        "eventDate": "2026-10-24",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "District Championship",
+        "isCancelled": false,
+        "isPostponed": false
+      },
+      {
+        "eventId": "4324826b-e35b-4974-be58-a6f73abceb62",
+        "eventDate": "2026-10-31",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Regional Championship",
+        "isCancelled": false,
+        "isPostponed": false
+      },
+      {
+        "eventId": "392c85e8-7dea-457e-838b-608505a94653",
+        "eventDate": "2026-11-07",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "State Championship",
+        "isCancelled": false,
+        "isPostponed": false
+      }
+    ],
+    "removed": [
+      {
+        "eventId": "2bbf0825-7ddf-41c8-806f-9a7a2dd128a7",
+        "eventDate": "2025-07-06",
+        "sport": "Girls Lacrosse",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Practice: Lacrosse (Girls V) Practice",
+        "isCancelled": false,
+        "isPostponed": false
+      }
+    ],
+    "changed": []
   }
 ]
