@@ -16959,5 +16959,31 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-07-08T13:49:51.157Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "a3ceedef-54e7-436f-a282-d5ed55485239",
+        "eventDate": "2026-09-17",
+        "sport": "Football",
+        "levelLabel": "7th Grade",
+        "vsOrAt": "@",
+        "opponentComplete": "HOLY FAMILY ELEMENTARY SCHOOL",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "HOLY FAMILY ELEMENTARY SCHOOL"
+        },
+        "after": {
+          "location": "TBD"
+        }
+      }
+    ]
   }
 ]
