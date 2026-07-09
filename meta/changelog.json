@@ -17012,5 +17012,468 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-07-09T18:29:10.176Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "ad7afba4-2f36-439e-aedb-c615f752e17d",
+        "eventDate": "2025-07-28",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "47e527fb-9396-475d-af16-5ab0c54c4fc8",
+        "eventDate": "2025-07-30",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "783bbf40-b0bc-42dc-8e16-0c417b082611",
+        "eventDate": "2025-07-31",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Springfield Tigers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "496ba308-cc0f-44af-943e-56b1e80d7b4b",
+        "eventDate": "2025-08-11",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "ff332357-0e76-43ba-b80d-2c0aa194542a",
+        "eventDate": "2025-08-14",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "a140e580-4ceb-4687-938d-c234c8ecee24",
+        "eventDate": "2025-08-14",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "691e5d7b-4794-4144-bc33-73849be57181",
+        "eventDate": "2025-08-19",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "43fcfbdd-af0d-4654-b268-f2b0684b4c81",
+        "eventDate": "2025-08-21",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "24d07bc5-8946-4045-8eec-abb34e9c6854",
+        "eventDate": "2025-08-28",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "South Range Raiders",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "f4be32fa-65f4-4ac4-bf14-b4c13bbef437",
+        "eventDate": "2025-09-09",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": true,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "5c401b5a-36c2-4684-bd9e-ea14eddea0b2",
+        "eventDate": "2025-09-15",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": true,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "1c30d67f-8416-401a-8c15-3b87d9dfa8e2",
+        "eventDate": "2025-09-23",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "OPEN Senior Night",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "d412b3b8-1a2f-4f76-b9ef-1688c78fb4d8",
+        "eventDate": "2026-07-28",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Columbiana Clippers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "8c0b0314-0081-410f-bcad-2b6ed02ea366",
+        "eventDate": "2026-08-03",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "72f101df-9ddf-4ac9-b251-b1d884287168",
+        "eventDate": "2026-08-05",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Brookfield Invitational",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "1a03c939-160e-4ffc-9b06-927db9c2a8fb",
+        "eventDate": "2026-08-06",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "d94f2422-4e39-4c4a-815f-47820e4c7126",
+        "eventDate": "2026-08-10",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Columbiana Clippers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "8a357477-57f9-4ee7-993a-ac7f1a5e660b",
+        "eventDate": "2026-08-12",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "bb607043-4a39-4194-8d2a-f05b9ea27158",
+        "eventDate": "2026-08-13",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Canfield Cardinals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "536f85f2-c674-472c-b863-f58003238e35",
+        "eventDate": "2026-08-17",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "f6bd18ee-5427-4ac3-a7c1-028c74605d43",
+        "eventDate": "2026-08-18",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "028c5c1c-96d6-417f-8ff7-6dcb4bb61ce4",
+        "eventDate": "2026-08-20",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "South Range Raiders",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "c49d48e6-26da-44ef-a760-1d979effc18e",
+        "eventDate": "2026-08-24",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      },
+      {
+        "eventId": "3a9a68eb-1aa4-455d-abe9-63cd15021a4f",
+        "eventDate": "2026-09-10",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "OPEN Senior Night",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "location": "Knoll Run Golf Course"
+        }
+      }
+    ]
   }
 ]
