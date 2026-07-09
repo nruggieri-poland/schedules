@@ -24,13 +24,18 @@ const ICS_DIR        = path.join(DIST_DIR, 'ics');
 const ICS_GROUPS_DIR = path.join(ICS_DIR, 'groups');
 const HOME_VENUE     = 'Poland Seminary High School';
 
-// Golf isn't played at the school building — EventLink's home-event LOCATION
-// still says HOME_VENUE (used below for home/away detection), but the real
-// home course is Knoll Run for both boys and girls golf. Away golf locations
-// come through fine from EventLink (opponent's course/school or an
-// invitational venue), so only the home case needs overriding.
-const GOLF_HOME_VENUE = 'Knoll Run Golf Course';
+// Several sports aren't actually played at the school building EventLink
+// stamps as the home-event LOCATION (used above for home/away detection).
+// Each rule below only overrides that generic placeholder for home events —
+// away locations, and any home event where EventLink already noted something
+// more specific, are left alone (see applyHomeVenueOverrides).
 const GOLF_SPORT_SLUGS = new Set(['boys-golf', 'girls-golf']);
+const JR_HIGH_COURT_SPORT_SLUGS = new Set(['boys-basketball', 'girls-basketball', 'volleyball']);
+const HOME_VENUE_OVERRIDES = [
+  { venue: 'Knoll Run Golf Course', matches: e => GOLF_SPORT_SLUGS.has(e.sportSlug) },
+  { venue: 'Poland Middle School',  matches: e => e.levelGroup === 'junior-high' && JR_HIGH_COURT_SPORT_SLUGS.has(e.sportSlug) },
+  { venue: 'Poland Township Park', matches: e => e.sportSlug === 'cross-country' },
+];
 
 // Feed URL (contains an access token) lives in CI secrets / a local .env file,
 // never in source — this repo is public, so anything hardcoded here is exposed
@@ -476,14 +481,15 @@ function parseEvent(vevent, opponents, juniorHighOpponents, teamIndex) {
   };
 }
 
-// Swaps in the real home course for home golf events (see GOLF_HOME_VENUE).
-// Applied as a post-processing step, after level/sport grouping, so it stays
-// out of parseEvent's already-long body and is easy to extend to other
-// off-campus sports (e.g. cross country) later if needed.
-function applyGolfHomeVenue(event) {
-  if (GOLF_SPORT_SLUGS.has(event.sportSlug) && event.homeOrAway === 'Home') {
-    event.location = GOLF_HOME_VENUE;
-  }
+// Swaps in the real venue for home events whose sport isn't actually played
+// at HOME_VENUE (see HOME_VENUE_OVERRIDES). Applied as a post-processing step
+// so it stays out of parseEvent's already-long body. Only touches the generic
+// HOME_VENUE placeholder — if EventLink already noted a more specific location
+// for a home event, that's kept as-is.
+function applyHomeVenueOverrides(event) {
+  if (event.homeOrAway !== 'Home' || (event.location && event.location !== HOME_VENUE)) return event;
+  const rule = HOME_VENUE_OVERRIDES.find(r => r.matches(event));
+  if (rule) event.location = rule.venue;
   return event;
 }
 
@@ -740,7 +746,7 @@ async function main() {
   const events = vevents
     .map(v => parseEvent(v, opponents, juniorHighOpponents, teamIndex))
     .filter(Boolean)
-    .map(applyGolfHomeVenue);
+    .map(applyHomeVenueOverrides);
   console.log(`Kept ${events.length} events after filtering\n`);
 
   const keptRatio = events.length / vevents.length;
@@ -826,7 +832,7 @@ async function main() {
 export {
   computeSeason, formatTime12h, parseSportAndLevel, diffEvents, summariseEvent,
   parseTeamsCsv, buildTeamSlugIndex, resolveTeamSlug,
-  resolveOpponent, applyGolfHomeVenue,
+  resolveOpponent, applyHomeVenueOverrides,
 };
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
