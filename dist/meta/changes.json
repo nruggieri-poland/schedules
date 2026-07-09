@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-09T18:29:10.176Z",
+  "generatedAt": "2026-07-09T23:44:13.443Z",
   "added": [],
   "removed": [],
   "changed": [
     {
-      "eventId": "ad7afba4-2f36-439e-aedb-c615f752e17d",
-      "eventDate": "2025-07-28",
-      "sport": "Girls Golf",
-      "levelLabel": "Varsity",
+      "eventId": "1bf5bb13-deb4-4a4e-a56b-ad6c40ccfa1f",
+      "eventDate": "2025-07-21",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
       "vsOrAt": "vs",
-      "opponentComplete": "Hubbard Eagles",
+      "opponentComplete": "MS Volleyball Open Gym",
       "isCancelled": false,
       "isPostponed": false,
       "fields": [
@@ -19,16 +19,16 @@
         "location": "Poland Seminary High School"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Poland Middle School"
       }
     },
     {
-      "eventId": "47e527fb-9396-475d-af16-5ab0c54c4fc8",
-      "eventDate": "2025-07-30",
-      "sport": "Boys Golf",
-      "levelLabel": "Varsity",
+      "eventId": "2fcad8d5-6a8f-423e-8507-a0965f9775bb",
+      "eventDate": "2025-07-23",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
       "vsOrAt": "vs",
-      "opponentComplete": "Hubbard Eagles",
+      "opponentComplete": "MS Volleyball Open Gym",
       "isCancelled": false,
       "isPostponed": false,
       "fields": [
@@ -38,16 +38,16 @@
         "location": "Poland Seminary High School"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Poland Middle School"
       }
     },
     {
-      "eventId": "783bbf40-b0bc-42dc-8e16-0c417b082611",
-      "eventDate": "2025-07-31",
-      "sport": "Boys Golf",
-      "levelLabel": "Varsity",
+      "eventId": "19b5209a-7cb5-44d3-beca-550c9e360241",
+      "eventDate": "2025-08-14",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
       "vsOrAt": "vs",
-      "opponentComplete": "Springfield Tigers",
+      "opponentComplete": "Lordstown High School",
       "isCancelled": false,
       "isPostponed": false,
       "fields": [
@@ -57,14 +57,52 @@
         "location": "Poland Seminary High School"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Poland Middle School"
       }
     },
     {
-      "eventId": "496ba308-cc0f-44af-943e-56b1e80d7b4b",
-      "eventDate": "2025-08-11",
-      "sport": "Girls Golf",
+      "eventId": "33fa9712-e56c-4ae6-b506-b4fdcabac7c0",
+      "eventDate": "2025-08-15",
+      "sport": "Cross Country",
       "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Senior Night & Family Picnic",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Township Park"
+      }
+    },
+    {
+      "eventId": "b6cfd1ff-b3e5-405c-88b3-03fa6a172887",
+      "eventDate": "2025-08-15",
+      "sport": "Cross Country",
+      "levelLabel": "Middle School",
+      "vsOrAt": "vs",
+      "opponentComplete": "Senior Night and Family Picnic",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Township Park"
+      }
+    },
+    {
+      "eventId": "e9348a36-7001-45d8-941d-3438da1ae13e",
+      "eventDate": "2025-08-18",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
       "vsOrAt": "vs",
       "opponentComplete": "Niles Red Dragons",
       "isCancelled": false,
@@ -76,16 +114,16 @@
         "location": "Poland Seminary High School"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Poland Middle School"
       }
     },
     {
-      "eventId": "ff332357-0e76-43ba-b80d-2c0aa194542a",
-      "eventDate": "2025-08-14",
-      "sport": "Girls Golf",
-      "levelLabel": "Varsity",
+      "eventId": "16f5c479-24e2-4a3c-99d8-819bd6b3d64b",
+      "eventDate": "2025-08-18",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
       "vsOrAt": "vs",
-      "opponentComplete": "Lakeview Bulldogs",
+      "opponentComplete": "Niles Red Dragons",
       "isCancelled": false,
       "isPostponed": false,
       "fields": [
@@ -95,16 +133,16 @@
         "location": "Poland Seminary High School"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Poland Middle School"
       }
     },
     {
-      "eventId": "a140e580-4ceb-4687-938d-c234c8ecee24",
-      "eventDate": "2025-08-14",
-      "sport": "Boys Golf",
+      "eventId": "33521b0d-70b1-4885-b2a7-067b7b9dc59c",
+      "eventDate": "2025-08-30",
+      "sport": "Cross Country",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "Girard Indians",
+      "opponentComplete": "\"The List\" Race",
       "isCancelled": false,
       "isPostponed": false,
       "fields": [
@@ -114,14 +152,90 @@
         "location": "Poland Seminary High School"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Poland Township Park"
       }
     },
     {
-      "eventId": "691e5d7b-4794-4144-bc33-73849be57181",
-      "eventDate": "2025-08-19",
-      "sport": "Boys Golf",
+      "eventId": "291444b0-9d9e-44d5-b456-b2a12eba5628",
+      "eventDate": "2025-09-02",
+      "sport": "Cross Country",
       "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "OPEN",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Township Park"
+      }
+    },
+    {
+      "eventId": "037118cd-8c8e-4113-95f1-092e48533c58",
+      "eventDate": "2025-09-02",
+      "sport": "Cross Country",
+      "levelLabel": "Middle School",
+      "vsOrAt": "vs",
+      "opponentComplete": "OPEN",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Township Park"
+      }
+    },
+    {
+      "eventId": "db6c5cc3-db8d-49e8-8c4b-de77a3dd6d46",
+      "eventDate": "2025-09-04",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Boardman Spartans",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "2a6e83e2-cccf-4ba4-b2ca-1a3511edce5f",
+      "eventDate": "2025-09-04",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Boardman Spartans",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "9c247730-b38d-417c-bcb3-60cbb378cc5a",
+      "eventDate": "2025-09-08",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
       "vsOrAt": "vs",
       "opponentComplete": "Struthers Wildcats",
       "isCancelled": false,
@@ -133,14 +247,14 @@
         "location": "Poland Seminary High School"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Poland Middle School"
       }
     },
     {
-      "eventId": "43fcfbdd-af0d-4654-b268-f2b0684b4c81",
-      "eventDate": "2025-08-21",
-      "sport": "Girls Golf",
-      "levelLabel": "Varsity",
+      "eventId": "87c23f88-d5ca-409d-832c-f2e3a119ff14",
+      "eventDate": "2025-09-08",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
       "vsOrAt": "vs",
       "opponentComplete": "Struthers Wildcats",
       "isCancelled": false,
@@ -152,14 +266,14 @@
         "location": "Poland Seminary High School"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Poland Middle School"
       }
     },
     {
-      "eventId": "24d07bc5-8946-4045-8eec-abb34e9c6854",
-      "eventDate": "2025-08-28",
-      "sport": "Girls Golf",
-      "levelLabel": "Varsity",
+      "eventId": "f72756ef-b60d-406e-9c45-2b5ecc85d9c9",
+      "eventDate": "2025-09-15",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
       "vsOrAt": "vs",
       "opponentComplete": "South Range Raiders",
       "isCancelled": false,
@@ -171,14 +285,869 @@
         "location": "Poland Seminary High School"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Poland Middle School"
       }
     },
     {
-      "eventId": "f4be32fa-65f4-4ac4-bf14-b4c13bbef437",
-      "eventDate": "2025-09-09",
-      "sport": "Girls Golf",
+      "eventId": "7d816119-1cfb-4fe5-89f4-ced690fabffd",
+      "eventDate": "2025-09-15",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "100d3ca1-5b41-4933-9cd4-858890ba99d6",
+      "eventDate": "2025-09-17",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "03752471-b9a5-4494-a372-06d75e7317ac",
+      "eventDate": "2025-09-17",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "8eb9899d-8cd9-4d8d-a163-fc6b0ec8eccb",
+      "eventDate": "2025-09-22",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Girard Sr High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "ae744ebc-62f1-4429-bc6c-2a5cb00b1b6b",
+      "eventDate": "2025-09-22",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Girard Sr High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "bc221c68-5ed1-4f91-877b-13eb8e3849d4",
+      "eventDate": "2025-09-24",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "acd2b3ef-7661-4088-bb7d-9d8effa1eaf0",
+      "eventDate": "2025-09-24",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "02e2c982-aa1e-4727-9647-cac82c59eb3b",
+      "eventDate": "2025-10-06",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "02f312dd-71ad-44f5-906f-15b5a7e0ca98",
+      "eventDate": "2025-10-06",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Girard Sr High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "f88cb2e7-7869-4109-b811-9b62e6860534",
+      "eventDate": "2025-10-08",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "NE 8 Championship",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "a1fdd874-f5fe-4df9-bdd5-7696470fee94",
+      "eventDate": "2025-10-08",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "NE 8 Championship",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "9079bb7f-0f43-48ca-8ecc-f8ba23ff0203",
+      "eventDate": "2025-10-11",
+      "sport": "Cross Country",
       "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Zombie Run",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Township Park"
+      }
+    },
+    {
+      "eventId": "f0f659ef-36fb-4894-b5ac-eae5634295e8",
+      "eventDate": "2025-10-11",
+      "sport": "Cross Country",
+      "levelLabel": "Middle School",
+      "vsOrAt": "vs",
+      "opponentComplete": "Zombie Run",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Township Park"
+      }
+    },
+    {
+      "eventId": "07e4f8c5-1931-45d2-bcc6-5bc31318c49e",
+      "eventDate": "2025-11-03",
+      "sport": "Boys Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "7th grade boys basketball tryouts",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "79e82eb8-9fcb-4fbe-b3d2-fbca63c32a25",
+      "eventDate": "2025-11-04",
+      "sport": "Boys Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "7th grade boys basketball tryouts",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "8d619409-2458-4b06-b1d5-5a786fae1d1a",
+      "eventDate": "2025-11-05",
+      "sport": "Boys Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "7th grade boys basketball tryouts",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "b49cbcaa-ae1f-413c-9c6f-fdd3974ad47c",
+      "eventDate": "2025-11-19",
+      "sport": "Boys Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Warren G Harding High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "e0df71fc-2f41-4b01-ba03-efd380a63588",
+      "eventDate": "2025-11-19",
+      "sport": "Boys Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Warren G Harding High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "7a982913-a38a-4345-8ef4-42cd08359c90",
+      "eventDate": "2025-11-25",
+      "sport": "Boys Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Howland High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "b34d90ab-d165-4f98-8279-3feae051a0b7",
+      "eventDate": "2025-11-25",
+      "sport": "Boys Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Howland High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "6d5fcea4-097c-4a10-b760-b88707dee62e",
+      "eventDate": "2025-12-03",
+      "sport": "Boys Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "af8f2b64-63dc-425d-ae94-79156ffc68bf",
+      "eventDate": "2025-12-03",
+      "sport": "Boys Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "5d1b03d4-8cea-494f-aed8-2c4630d77466",
+      "eventDate": "2025-12-10",
+      "sport": "Boys Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "d29e5929-b532-4a3a-bed4-7ae7e07f34a1",
+      "eventDate": "2025-12-10",
+      "sport": "Boys Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "9c98bc9d-1ea3-4f4c-8b3a-2a1c1b2c3113",
+      "eventDate": "2025-12-15",
+      "sport": "Girls Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Girard Sr High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "986590a4-4d85-400a-bbb5-8061ed93c817",
+      "eventDate": "2025-12-15",
+      "sport": "Girls Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Girard Sr High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "bf651ae2-a777-4f2a-8576-53198d22770d",
+      "eventDate": "2025-12-17",
+      "sport": "Girls Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "c62a0fb0-fb00-445b-8002-3d0b30084694",
+      "eventDate": "2025-12-17",
+      "sport": "Girls Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "d695de0d-dbe1-4a47-b062-8da7c487199e",
+      "eventDate": "2026-01-05",
+      "sport": "Girls Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "5cb36a11-45f8-4f9f-8bb8-c307c9d08fef",
+      "eventDate": "2026-01-07",
+      "sport": "Boys Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "2e1bd595-c322-4e39-bc08-6f6171570bb5",
+      "eventDate": "2026-01-07",
+      "sport": "Boys Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "4f85a2a2-7c06-464a-b0ef-cf6d075fb2a8",
+      "eventDate": "2026-01-12",
+      "sport": "Girls Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Boardman Spartans",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "2db53762-c212-482c-9f01-ed02d43dff04",
+      "eventDate": "2026-01-12",
+      "sport": "Girls Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Boardman Spartans",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "0d113802-49b0-4338-9eab-7110bf566264",
+      "eventDate": "2026-01-14",
+      "sport": "Girls Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "396dc76c-0724-4514-897b-9b6823605942",
+      "eventDate": "2026-01-14",
+      "sport": "Girls Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "f2c97894-90a8-48a2-8eff-6e8e7f21f57e",
+      "eventDate": "2026-01-15",
+      "sport": "Girls Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Canfield High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "3c6bd1ec-5fd0-46f3-aa4c-1d435fc3cf16",
+      "eventDate": "2026-01-15",
+      "sport": "Girls Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Canfield High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "1c21627f-ee4c-4c3e-9e13-e611114d05aa",
+      "eventDate": "2026-01-21",
+      "sport": "Girls Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "1939d395-75ad-4a5b-94d2-c4956fd0d9cb",
+      "eventDate": "2026-01-21",
+      "sport": "Girls Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "da4257d8-b926-46fb-9eaf-8d9519903a6c",
+      "eventDate": "2026-01-26",
+      "sport": "Boys Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Girard Sr High School",
+      "isCancelled": true,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "9cfcf0ab-c7fc-48e7-8579-27c89d78c434",
+      "eventDate": "2026-01-26",
+      "sport": "Boys Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Girard Sr High School",
+      "isCancelled": true,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "64e22454-9f6d-437e-9c30-bfb32dc28881",
+      "eventDate": "2026-01-28",
+      "sport": "Boys Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": true,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "86f3138a-df12-4262-b2a4-f597baa869ce",
+      "eventDate": "2026-01-28",
+      "sport": "Boys Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": true,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "bb62dfe7-c624-4ac4-9192-4cd07cb2252f",
+      "eventDate": "2026-02-02",
+      "sport": "Boys Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "3172635c-16a6-4a00-b370-d41b83576ae3",
+      "eventDate": "2026-02-02",
+      "sport": "Boys Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "1f7f3013-eab8-4e39-91de-1543d1ed3338",
+      "eventDate": "2026-02-04",
+      "sport": "Girls Basketball",
+      "levelLabel": "7th Grade",
       "vsOrAt": "vs",
       "opponentComplete": "Struthers Wildcats",
       "isCancelled": true,
@@ -190,35 +1159,16 @@
         "location": "Poland Seminary High School"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Poland Middle School"
       }
     },
     {
-      "eventId": "5c401b5a-36c2-4684-bd9e-ea14eddea0b2",
-      "eventDate": "2025-09-15",
-      "sport": "Boys Golf",
-      "levelLabel": "Varsity",
+      "eventId": "71581208-6dc6-4400-bf95-ba7c99c7e85c",
+      "eventDate": "2026-02-04",
+      "sport": "Girls Basketball",
+      "levelLabel": "8th Grade",
       "vsOrAt": "vs",
-      "opponentComplete": "Lakeview Bulldogs",
-      "isCancelled": true,
-      "isPostponed": false,
-      "fields": [
-        "location"
-      ],
-      "before": {
-        "location": "Poland Seminary High School"
-      },
-      "after": {
-        "location": "Knoll Run Golf Course"
-      }
-    },
-    {
-      "eventId": "1c30d67f-8416-401a-8c15-3b87d9dfa8e2",
-      "eventDate": "2025-09-23",
-      "sport": "Girls Golf",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "OPEN Senior Night",
+      "opponentComplete": "Struthers Wildcats",
       "isCancelled": false,
       "isPostponed": false,
       "fields": [
@@ -228,16 +1178,16 @@
         "location": "Poland Seminary High School"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Poland Middle School"
       }
     },
     {
-      "eventId": "d412b3b8-1a2f-4f76-b9ef-1688c78fb4d8",
-      "eventDate": "2026-07-28",
-      "sport": "Girls Golf",
-      "levelLabel": "Varsity",
+      "eventId": "0123fb38-1320-4420-8297-c1d2d1616c7e",
+      "eventDate": "2026-02-09",
+      "sport": "Boys Basketball",
+      "levelLabel": "8th Grade",
       "vsOrAt": "vs",
-      "opponentComplete": "Columbiana Clippers",
+      "opponentComplete": "Practice: Basketball (Boys 8) Practice",
       "isCancelled": false,
       "isPostponed": false,
       "fields": [
@@ -247,52 +1197,14 @@
         "location": "Poland Seminary High School"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Poland Middle School"
       }
     },
     {
-      "eventId": "8c0b0314-0081-410f-bcad-2b6ed02ea366",
-      "eventDate": "2026-08-03",
-      "sport": "Boys Golf",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Girard Indians",
-      "isCancelled": false,
-      "isPostponed": false,
-      "fields": [
-        "location"
-      ],
-      "before": {
-        "location": "Poland Seminary High School"
-      },
-      "after": {
-        "location": "Knoll Run Golf Course"
-      }
-    },
-    {
-      "eventId": "72f101df-9ddf-4ac9-b251-b1d884287168",
-      "eventDate": "2026-08-05",
-      "sport": "Boys Golf",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Brookfield Invitational",
-      "isCancelled": false,
-      "isPostponed": false,
-      "fields": [
-        "location"
-      ],
-      "before": {
-        "location": "Poland Seminary High School"
-      },
-      "after": {
-        "location": "Knoll Run Golf Course"
-      }
-    },
-    {
-      "eventId": "1a03c939-160e-4ffc-9b06-927db9c2a8fb",
-      "eventDate": "2026-08-06",
-      "sport": "Girls Golf",
-      "levelLabel": "Varsity",
+      "eventId": "7e3f8b31-e95c-4d28-b1e9-9bd93a7b1f7c",
+      "eventDate": "2026-02-09",
+      "sport": "Girls Basketball",
+      "levelLabel": "7th Grade",
       "vsOrAt": "vs",
       "opponentComplete": "Lakeview Bulldogs",
       "isCancelled": false,
@@ -304,16 +1216,16 @@
         "location": "Poland Seminary High School"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Poland Middle School"
       }
     },
     {
-      "eventId": "d94f2422-4e39-4c4a-815f-47820e4c7126",
-      "eventDate": "2026-08-10",
-      "sport": "Boys Golf",
-      "levelLabel": "Varsity",
+      "eventId": "d274c66b-0904-4c0b-a8f0-99bae20d97e0",
+      "eventDate": "2026-08-26",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
       "vsOrAt": "vs",
-      "opponentComplete": "Columbiana Clippers",
+      "opponentComplete": "South Range Raiders",
       "isCancelled": false,
       "isPostponed": false,
       "fields": [
@@ -323,16 +1235,16 @@
         "location": "Poland Seminary High School"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Poland Middle School"
       }
     },
     {
-      "eventId": "8a357477-57f9-4ee7-993a-ac7f1a5e660b",
-      "eventDate": "2026-08-12",
-      "sport": "Girls Golf",
-      "levelLabel": "Varsity",
+      "eventId": "361f09e3-26a4-46b9-b4d6-1438acc6b2c6",
+      "eventDate": "2026-08-26",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
       "vsOrAt": "vs",
-      "opponentComplete": "Girard Indians",
+      "opponentComplete": "South Range Raiders",
       "isCancelled": false,
       "isPostponed": false,
       "fields": [
@@ -342,14 +1254,869 @@
         "location": "Poland Seminary High School"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Poland Middle School"
       }
     },
     {
-      "eventId": "bb607043-4a39-4194-8d2a-f05b9ea27158",
-      "eventDate": "2026-08-13",
-      "sport": "Boys Golf",
+      "eventId": "8eb087b0-f68d-4021-98ee-0a598bbc21fa",
+      "eventDate": "2026-08-31",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Girard Sr High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "f0c05c16-25a4-4859-b4e7-75d2f1a2f43a",
+      "eventDate": "2026-08-31",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Girard Sr High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "523ae937-1755-4d2a-b2ed-6887c27ae7eb",
+      "eventDate": "2026-09-08",
+      "sport": "Cross Country",
       "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Poland Township Park",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Township Park"
+      }
+    },
+    {
+      "eventId": "0f5f7a87-d68e-4746-8d5c-6d2a5b0d6050",
+      "eventDate": "2026-09-08",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Campbell Middle School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "53c49dc3-1804-43cc-a593-cee94c7910c1",
+      "eventDate": "2026-09-08",
+      "sport": "Cross Country",
+      "levelLabel": "Middle School",
+      "vsOrAt": "vs",
+      "opponentComplete": "Poland Township Park",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Township Park"
+      }
+    },
+    {
+      "eventId": "2af69dfa-5c4d-4186-87d3-5a0dd91155f8",
+      "eventDate": "2026-09-08",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Campbell Middle School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "4f9ede0d-9cce-4549-a38e-e19009c8adb4",
+      "eventDate": "2026-09-09",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "2b34b2a0-2780-4967-b4d2-0a3b6574a149",
+      "eventDate": "2026-09-09",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "dbdee475-e7de-4f12-b256-599829d0c01f",
+      "eventDate": "2026-09-16",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "d6eed08d-b771-45e7-a43b-f1c99025e740",
+      "eventDate": "2026-09-16",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "b8ee3472-9b55-4a51-a7ac-813a67167332",
+      "eventDate": "2026-09-28",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "66787687-1374-4151-a5b2-57fea8ff4d62",
+      "eventDate": "2026-09-28",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "f3f99db7-0de7-410c-8928-1346de2d5313",
+      "eventDate": "2026-09-30",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Boardman Spartans",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "886ab2f8-a31d-44b3-bbfd-2c8bcc9b9f02",
+      "eventDate": "2026-09-30",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Boardman Spartans",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "a3b00fec-9064-4a6e-bc29-f8fd24279df6",
+      "eventDate": "2026-10-03",
+      "sport": "Cross Country",
+      "levelLabel": "Middle School",
+      "vsOrAt": "vs",
+      "opponentComplete": "Zombie Run",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Township Park"
+      }
+    },
+    {
+      "eventId": "b98335ab-42b7-457d-9eec-acbb43b635f5",
+      "eventDate": "2026-10-07",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "5e7d3b81-d762-4098-a973-1a79f16f2a43",
+      "eventDate": "2026-10-07",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "de09d206-235d-43f4-af55-56bf79591f9e",
+      "eventDate": "2026-10-17",
+      "sport": "Cross Country",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Northeast 8 Cross Country Championship",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Township Park"
+      }
+    },
+    {
+      "eventId": "e1bfa6ed-61d3-4a97-a85e-151cf3e08d11",
+      "eventDate": "2026-10-17",
+      "sport": "Cross Country",
+      "levelLabel": "Middle School",
+      "vsOrAt": "vs",
+      "opponentComplete": "Northeast 8 Cross Country Championship",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Township Park"
+      }
+    },
+    {
+      "eventId": "31050fdc-1112-4e03-ab7c-5024a3516738",
+      "eventDate": "2026-12-07",
+      "sport": "Boys Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "c76f067d-88b2-4e24-8789-e28246ba87e0",
+      "eventDate": "2026-12-07",
+      "sport": "Boys Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "777b4574-471b-4201-aae5-ba02a8d4a6c4",
+      "eventDate": "2026-12-09",
+      "sport": "Girls Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "4a316bfc-da58-4528-a98f-d475d632f5d2",
+      "eventDate": "2026-12-09",
+      "sport": "Girls Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "980cff5e-cd73-43c1-8784-9be620f7548e",
+      "eventDate": "2026-12-14",
+      "sport": "Girls Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "7fe643af-22e7-4dab-af0b-1b3e965865c4",
+      "eventDate": "2026-12-14",
+      "sport": "Girls Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "0d3dc8ba-7370-4185-94d4-7ddee014dd5e",
+      "eventDate": "2026-12-16",
+      "sport": "Girls Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "291a109c-422b-4e8e-9780-4c4f4909d025",
+      "eventDate": "2026-12-16",
+      "sport": "Girls Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "56205abd-f1d6-482f-ab3c-301c47473d75",
+      "eventDate": "2026-12-21",
+      "sport": "Girls Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Girard Sr High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "34ea8cc3-99a4-4471-a4f2-aef49e933c56",
+      "eventDate": "2026-12-21",
+      "sport": "Girls Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Girard Sr High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "9e6691fb-2ee8-4c26-8dfd-d043b0bcd62c",
+      "eventDate": "2026-12-23",
+      "sport": "Boys Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Boardman Spartans",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "a0eb9783-e8f9-4310-ac5c-613520992cbc",
+      "eventDate": "2026-12-23",
+      "sport": "Boys Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Boardman Spartans",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "6c527223-e19e-416c-a828-b1f37fc6e42f",
+      "eventDate": "2027-01-06",
+      "sport": "Boys Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "7422829d-d899-4f48-b12c-b9d980b51176",
+      "eventDate": "2027-01-06",
+      "sport": "Boys Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "4039910d-f2f9-4c10-a520-4a08ff8b7a73",
+      "eventDate": "2027-01-11",
+      "sport": "Boys Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "0a2b970e-b76c-415a-bc64-c3a8366451ad",
+      "eventDate": "2027-01-11",
+      "sport": "Boys Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "2cfd8198-adc9-4e49-8135-6a45b447fb30",
+      "eventDate": "2027-01-13",
+      "sport": "Girls Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "687ea4cf-485b-427a-ba8a-a5315f100c84",
+      "eventDate": "2027-01-13",
+      "sport": "Girls Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "5c70a638-91ae-4182-8d8f-2eab64537975",
+      "eventDate": "2027-01-20",
+      "sport": "Boys Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "167c255c-b2b5-4a06-b642-63e8008c04d1",
+      "eventDate": "2027-01-20",
+      "sport": "Boys Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "cbdf53e2-2830-494b-852a-5af53f4c0e96",
+      "eventDate": "2027-01-25",
+      "sport": "Boys Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "0a3d9443-9ad1-4945-a5e9-c31c36a080ce",
+      "eventDate": "2027-01-25",
+      "sport": "Boys Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "8236eba1-bef7-4832-97be-99c8976a2dc9",
+      "eventDate": "2027-01-27",
+      "sport": "Boys Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Girard Sr High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "20cd98ac-c8bd-4d13-bd62-6160d06d2ad5",
+      "eventDate": "2027-01-27",
+      "sport": "Boys Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Girard Sr High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "64fc1751-3405-463a-9932-2c7a608a4fa4",
+      "eventDate": "2027-02-03",
+      "sport": "Girls Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "9bf9720f-95b7-4098-8382-1ce3098baa53",
+      "eventDate": "2027-02-03",
+      "sport": "Girls Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "location": "Poland Middle School"
+      }
+    },
+    {
+      "eventId": "ea8d9e6c-478e-4ea0-97eb-9d3f1bc9fcbf",
+      "eventDate": "2027-02-04",
+      "sport": "Boys Basketball",
+      "levelLabel": "7th Grade",
       "vsOrAt": "vs",
       "opponentComplete": "Canfield Cardinals",
       "isCancelled": false,
@@ -361,16 +2128,16 @@
         "location": "Poland Seminary High School"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Poland Middle School"
       }
     },
     {
-      "eventId": "536f85f2-c674-472c-b863-f58003238e35",
-      "eventDate": "2026-08-17",
-      "sport": "Girls Golf",
-      "levelLabel": "Varsity",
+      "eventId": "2bb58d54-37f2-4ae7-8e6f-a909c7023c7e",
+      "eventDate": "2027-02-04",
+      "sport": "Boys Basketball",
+      "levelLabel": "8th Grade",
       "vsOrAt": "vs",
-      "opponentComplete": "Hubbard Eagles",
+      "opponentComplete": "Canfield Cardinals",
       "isCancelled": false,
       "isPostponed": false,
       "fields": [
@@ -380,83 +2147,7 @@
         "location": "Poland Seminary High School"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
-      }
-    },
-    {
-      "eventId": "f6bd18ee-5427-4ac3-a7c1-028c74605d43",
-      "eventDate": "2026-08-18",
-      "sport": "Boys Golf",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Niles Red Dragons",
-      "isCancelled": false,
-      "isPostponed": false,
-      "fields": [
-        "location"
-      ],
-      "before": {
-        "location": "Poland Seminary High School"
-      },
-      "after": {
-        "location": "Knoll Run Golf Course"
-      }
-    },
-    {
-      "eventId": "028c5c1c-96d6-417f-8ff7-6dcb4bb61ce4",
-      "eventDate": "2026-08-20",
-      "sport": "Boys Golf",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "South Range Raiders",
-      "isCancelled": false,
-      "isPostponed": false,
-      "fields": [
-        "location"
-      ],
-      "before": {
-        "location": "Poland Seminary High School"
-      },
-      "after": {
-        "location": "Knoll Run Golf Course"
-      }
-    },
-    {
-      "eventId": "c49d48e6-26da-44ef-a760-1d979effc18e",
-      "eventDate": "2026-08-24",
-      "sport": "Boys Golf",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Hubbard Eagles",
-      "isCancelled": false,
-      "isPostponed": false,
-      "fields": [
-        "location"
-      ],
-      "before": {
-        "location": "Poland Seminary High School"
-      },
-      "after": {
-        "location": "Knoll Run Golf Course"
-      }
-    },
-    {
-      "eventId": "3a9a68eb-1aa4-455d-abe9-63cd15021a4f",
-      "eventDate": "2026-09-10",
-      "sport": "Boys Golf",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "OPEN Senior Night",
-      "isCancelled": false,
-      "isPostponed": false,
-      "fields": [
-        "location"
-      ],
-      "before": {
-        "location": "Poland Seminary High School"
-      },
-      "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Poland Middle School"
       }
     }
   ]
