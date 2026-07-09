@@ -24,6 +24,14 @@ const ICS_DIR        = path.join(DIST_DIR, 'ics');
 const ICS_GROUPS_DIR = path.join(ICS_DIR, 'groups');
 const HOME_VENUE     = 'Poland Seminary High School';
 
+// Golf isn't played at the school building — EventLink's home-event LOCATION
+// still says HOME_VENUE (used below for home/away detection), but the real
+// home course is Knoll Run for both boys and girls golf. Away golf locations
+// come through fine from EventLink (opponent's course/school or an
+// invitational venue), so only the home case needs overriding.
+const GOLF_HOME_VENUE = 'Knoll Run Golf Course';
+const GOLF_SPORT_SLUGS = new Set(['boys-golf', 'girls-golf']);
+
 // Feed URL (contains an access token) lives in CI secrets / a local .env file,
 // never in source — this repo is public, so anything hardcoded here is exposed
 // in git history forever.
@@ -468,6 +476,17 @@ function parseEvent(vevent, opponents, juniorHighOpponents, teamIndex) {
   };
 }
 
+// Swaps in the real home course for home golf events (see GOLF_HOME_VENUE).
+// Applied as a post-processing step, after level/sport grouping, so it stays
+// out of parseEvent's already-long body and is easy to extend to other
+// off-campus sports (e.g. cross country) later if needed.
+function applyGolfHomeVenue(event) {
+  if (GOLF_SPORT_SLUGS.has(event.sportSlug) && event.homeOrAway === 'Home') {
+    event.location = GOLF_HOME_VENUE;
+  }
+  return event;
+}
+
 // ── Diff & changelog ──────────────────────────────────────────────────────────
 
 // Fields that matter for change detection — structural/scheduling data only.
@@ -718,7 +737,10 @@ async function main() {
     vevents.push(v);
   }
 
-  const events = vevents.map(v => parseEvent(v, opponents, juniorHighOpponents, teamIndex)).filter(Boolean);
+  const events = vevents
+    .map(v => parseEvent(v, opponents, juniorHighOpponents, teamIndex))
+    .filter(Boolean)
+    .map(applyGolfHomeVenue);
   console.log(`Kept ${events.length} events after filtering\n`);
 
   const keptRatio = events.length / vevents.length;
@@ -804,7 +826,7 @@ async function main() {
 export {
   computeSeason, formatTime12h, parseSportAndLevel, diffEvents, summariseEvent,
   parseTeamsCsv, buildTeamSlugIndex, resolveTeamSlug,
-  resolveOpponent,
+  resolveOpponent, applyGolfHomeVenue,
 };
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
