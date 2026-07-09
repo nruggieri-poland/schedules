@@ -1,26 +1,27 @@
 {
-  "generatedAt": "2026-07-08T13:49:51.157Z",
+  "generatedAt": "2026-07-09T14:44:30.883Z",
   "added": [],
-  "removed": [],
-  "changed": [
+  "removed": [
     {
-      "eventId": "a3ceedef-54e7-436f-a282-d5ed55485239",
-      "eventDate": "2026-09-17",
-      "sport": "Football",
-      "levelLabel": "7th Grade",
-      "vsOrAt": "@",
-      "opponentComplete": "HOLY FAMILY ELEMENTARY SCHOOL",
+      "eventId": "71258230-9bdd-4f6b-93e9-d8c791980430",
+      "eventDate": "2025-07-09",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
       "isCancelled": false,
-      "isPostponed": false,
-      "fields": [
-        "location"
-      ],
-      "before": {
-        "location": "HOLY FAMILY ELEMENTARY SCHOOL"
-      },
-      "after": {
-        "location": "TBD"
-      }
+      "isPostponed": false
+    },
+    {
+      "eventId": "d559dda7-7ee6-4ea7-aca1-3d23e1ee1cfa",
+      "eventDate": "2025-07-09",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "MS Volleyball Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
     }
-  ]
+  ],
+  "changed": []
 }
