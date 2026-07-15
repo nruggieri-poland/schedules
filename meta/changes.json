@@ -1,17 +1,45 @@
 {
-  "generatedAt": "2026-07-14T13:20:33.346Z",
+  "generatedAt": "2026-07-15T13:24:02.297Z",
   "added": [],
-  "removed": [
+  "removed": [],
+  "changed": [
     {
-      "eventId": "ad07898f-7751-4cbf-9069-907f31dd4593",
-      "eventDate": "2025-07-14",
-      "sport": "Football",
+      "eventId": "89bda499-3d21-40c8-bf60-72114eee0686",
+      "eventDate": "2026-12-12",
+      "sport": "Girls Basketball",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "Practice: Football 7 on 7",
+      "opponentComplete": "United Way (vs Fitch)",
       "isCancelled": false,
-      "isPostponed": false
+      "isPostponed": false,
+      "fields": [
+        "opponent"
+      ],
+      "before": {
+        "opponent": "UNITED WAY CLASSIC"
+      },
+      "after": {
+        "opponent": "United Way (vs Fitch)"
+      }
+    },
+    {
+      "eventId": "1d2369fe-7af9-4166-9677-69bb82073e4f",
+      "eventDate": "2026-12-12",
+      "sport": "Boys Basketball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "United Way (vs Neshannock)",
+      "isCancelled": false,
+      "isPostponed": false,
+      "fields": [
+        "opponent"
+      ],
+      "before": {
+        "opponent": "United Way Classic"
+      },
+      "after": {
+        "opponent": "United Way (vs Neshannock)"
+      }
     }
-  ],
-  "changed": []
+  ]
 }
