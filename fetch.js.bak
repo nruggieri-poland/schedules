@@ -833,15 +833,6 @@ export {
   computeSeason, formatTime12h, parseSportAndLevel, diffEvents, summariseEvent,
   parseTeamsCsv, buildTeamSlugIndex, resolveTeamSlug,
   resolveOpponent, applyHomeVenueOverrides,
-  // Additive exports below — added so fetch-eventlink-api.js (a separate,
-  // alternate-source script) can reuse this file's file-writing/diff/pipeline
-  // logic verbatim instead of duplicating it. None of the above changed;
-  // nothing here alters main()'s behavior when this file runs standalone.
-  parseEvent, writeLevel, writeIcal,
-  writeChangelog, logDiff, validateOpponents, sortByDateTime,
-  TEAMS_DIR, ROLLUPS_DIR, META_DIR, ICS_DIR, ICS_GROUPS_DIR,
-  DIFF_SNAPSHOT_PATH, ICAL_GROUPS,
-  MIN_KEPT_RATIO, MIN_VEVENTS_FOR_RATIO_CHECK,
 };
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {

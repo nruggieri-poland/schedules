@@ -28,8 +28,15 @@ jobs:
         run: npm ci
 
       - name: Fetch schedules from EventLink
-        run: node fetch.js
+        # Tries the JSON API mirror first (fetch-eventlink-api.js); if it throws
+        # for any reason (missing calendar, bad response, its own kept-ratio
+        # sanity check), falls through to the original iCal path (fetch.js),
+        # unchanged. Both write the same dist/ layout, so a fallback run fully
+        # overwrites anything a failed/partial primary run left behind.
+        run: node fetch-eventlink-api.js || node fetch.js
         env:
+          EVENTLINK_API_TOKEN: ${{ secrets.EVENTLINK_API_TOKEN }}
+          EVENTLINK_CALENDAR_IDS: ${{ secrets.EVENTLINK_CALENDAR_IDS }}
           EVENTLINK_ICAL_URL: ${{ secrets.EVENTLINK_ICAL_URL }}
 
       - name: Commit updated data files
