@@ -1,166 +1,1557 @@
 {
-  "generatedAt": "2026-07-22T13:29:38.624Z",
-  "added": [
-    {
-      "eventId": "d0daa18f-21bb-4302-ba21-55854557ba76",
-      "eventDate": "2026-08-17",
-      "sport": "Volleyball",
-      "levelLabel": "7th Grade",
-      "vsOrAt": "@",
-      "opponentComplete": "Columbiana Middle School",
-      "isCancelled": false,
-      "isPostponed": false
-    },
-    {
-      "eventId": "359fe5df-8489-4150-ad4c-424c4e290225",
-      "eventDate": "2026-08-17",
-      "sport": "Volleyball",
-      "levelLabel": "8th Grade",
-      "vsOrAt": "@",
-      "opponentComplete": "Columbiana Middle School",
-      "isCancelled": false,
-      "isPostponed": false
-    },
-    {
-      "eventId": "dac71b45-345f-48ad-9e1c-5e2e56b2220b",
-      "eventDate": "2026-08-19",
-      "sport": "Volleyball",
-      "levelLabel": "7th Grade",
-      "vsOrAt": "@",
-      "opponentComplete": "East Palestine High School",
-      "isCancelled": false,
-      "isPostponed": false
-    },
-    {
-      "eventId": "ae7f4fb3-7380-483e-adf4-3825f191c26c",
-      "eventDate": "2026-08-19",
-      "sport": "Volleyball",
-      "levelLabel": "8th Grade",
-      "vsOrAt": "@",
-      "opponentComplete": "East Palestine High School",
-      "isCancelled": false,
-      "isPostponed": false
-    }
-  ],
+  "generatedAt": "2026-07-22T16:45:47.128Z",
+  "added": [],
   "removed": [
     {
-      "eventId": "3bc49a5c-dd30-4c2a-a97d-29041d346b15",
-      "eventDate": "2025-07-22",
+      "eventId": "ab1eef68-06b4-4cc1-9c90-f2d59065060a",
+      "eventDate": "2025-07-24",
       "sport": "Volleyball",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
       "opponentComplete": "Practice: Open Gym",
       "isCancelled": false,
       "isPostponed": false
+    },
+    {
+      "eventId": "820cd40b-c692-49f9-9839-91c0d5e6c7cd",
+      "eventDate": "2025-07-26",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "73e03fef-f6a5-4335-8d01-9f8aa9333613",
+      "eventDate": "2025-07-27",
+      "sport": "Girls Lacrosse",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lacrosse (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "5d64006a-dca2-4d2a-a7b4-7dd60b199105",
+      "eventDate": "2025-08-09",
+      "sport": "Football",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Football Team Picnic",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "4ef2ef5c-7997-4990-8816-a5f9764b821c",
+      "eventDate": "2025-10-15",
+      "sport": "Cheerleading",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Cheerleading (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "532db186-7892-4fb0-87c6-9760e4ceba3c",
+      "eventDate": "2025-10-16",
+      "sport": "Cheerleading",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Cheerleading (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "f0e44546-fecc-46b9-994b-e7b283b37c2f",
+      "eventDate": "2025-10-22",
+      "sport": "Cheerleading",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Cheerleading (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "4a871555-bdd8-4185-9fd9-3310e6b2a968",
+      "eventDate": "2025-11-01",
+      "sport": "Football",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Football (Boys V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "bc125a0d-4d5a-43e2-ac24-69a6736d5d39",
+      "eventDate": "2025-11-02",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lacrosse (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "b045dd00-2d21-4b41-ab8c-742331c25719",
+      "eventDate": "2025-11-06",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "9d4da8d2-615d-4d43-a3f2-861646a45abb",
+      "eventDate": "2025-11-11",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "b5366f98-c2c9-4eda-984d-2eaa70331036",
+      "eventDate": "2025-11-13",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "e7480faa-3fa1-448f-a755-5d684d80dc0c",
+      "eventDate": "2025-11-18",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "906bb92a-b4f7-4fcd-945d-4d8a5792e79e",
+      "eventDate": "2025-11-23",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lacrosse (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "ddd4f1fe-5791-4114-a5e4-b8505faef91e",
+      "eventDate": "2025-11-30",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lacrosse (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "a36ff0f0-3503-4c4b-9795-734d9d515b96",
+      "eventDate": "2025-12-04",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "848cd90d-0521-4feb-a4da-0b1eb27b7765",
+      "eventDate": "2025-12-11",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "6af4ee51-a71a-4e1d-9fb0-4974d2ed214e",
+      "eventDate": "2025-12-21",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "364e18d3-8063-48d0-8805-fbcbc224f4ab",
+      "eventDate": "2025-12-28",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "a409aeb7-5d30-4acd-bce7-5b61021e6950",
+      "eventDate": "2026-01-04",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "a8bee73d-bba6-4a02-9da3-9f222a4469ef",
+      "eventDate": "2026-01-05",
+      "sport": "Girls Lacrosse",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym Girls Lacrosse",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "bb07d9c2-bdc8-477a-825f-cdf051ad1d17",
+      "eventDate": "2026-01-08",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "ccaac666-92f1-4f52-b078-6e9f6258f28a",
+      "eventDate": "2026-01-10",
+      "sport": "Girls Lacrosse",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "cea8f2e8-40bb-440e-9614-75ca38613f71",
+      "eventDate": "2026-01-11",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "4d5b5698-3606-45b8-9e28-6762e56720fd",
+      "eventDate": "2026-01-12",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "eba4fabe-e41d-420e-9c1d-ee72c7705f6c",
+      "eventDate": "2026-01-13",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "18bbba41-a4ea-45c3-8f9a-270642d84c9d",
+      "eventDate": "2026-01-14",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "c0983e2a-b6a1-4d56-be70-06e8d422acc7",
+      "eventDate": "2026-01-16",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "4c56696d-d76f-4ca4-b133-7ed4bb19e8fa",
+      "eventDate": "2026-01-17",
+      "sport": "Girls Lacrosse",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "453e058e-13b4-4d1a-bf38-fe9f55f3c7b3",
+      "eventDate": "2026-01-17",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "25f10ee9-3d1a-4970-9698-9c4574eba6f1",
+      "eventDate": "2026-01-18",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "320b229d-be8b-40fe-8233-d2565ebd3ceb",
+      "eventDate": "2026-01-18",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: GYM",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "589d272d-39e4-42d2-b849-a160452e078e",
+      "eventDate": "2026-01-19",
+      "sport": "Girls Lacrosse",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "523876d8-118f-4b92-b609-e01dacfc021f",
+      "eventDate": "2026-01-20",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "8ea908dd-b779-4fa0-89e7-bbe0b0299ebe",
+      "eventDate": "2026-01-22",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "095d28a1-dc51-4760-9d4f-ba1d8db32ea4",
+      "eventDate": "2026-01-24",
+      "sport": "Girls Lacrosse",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "c6703ca5-764b-42f5-9e86-0bd0605ef548",
+      "eventDate": "2026-01-24",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "ac45b626-c772-4d97-b1dc-ae8886d108b0",
+      "eventDate": "2026-01-25",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "67a86413-15ec-49d3-abc5-1d0f90dc0007",
+      "eventDate": "2026-01-25",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: GYM",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "e8579a6a-f060-4d61-935d-eee0f2e586f6",
+      "eventDate": "2026-01-26",
+      "sport": "Girls Lacrosse",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "516ba923-82b1-4c78-babc-9d4fcd6c23d0",
+      "eventDate": "2026-01-27",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "aec35b87-8e4c-4af6-a422-00a374f7cd46",
+      "eventDate": "2026-01-29",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "9caab0a0-3b6b-45eb-8bf6-d03bb3a238f2",
+      "eventDate": "2026-02-04",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "30856a9a-01c0-4bdb-96ec-2336831be8ac",
+      "eventDate": "2026-02-05",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "e8421e4f-94d0-4a7e-811e-7ef5e6ed882f",
+      "eventDate": "2026-02-05",
+      "sport": "Boys Basketball",
+      "levelLabel": "Freshman",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Basketball (Boys F) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "56724139-8d75-4e71-ac2b-fa6a9d933e6e",
+      "eventDate": "2026-02-05",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "06a00d81-af2d-40e9-bb25-1062e50a32bd",
+      "eventDate": "2026-02-06",
+      "sport": "Boys Basketball",
+      "levelLabel": "Freshman",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Basketball (Boys F) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "0123fb38-1320-4420-8297-c1d2d1616c7e",
+      "eventDate": "2026-02-09",
+      "sport": "Boys Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Basketball (Boys 8) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "1b3cdf70-8e66-4e37-af31-42d963b22115",
+      "eventDate": "2026-02-09",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "dc2bfb9f-2c86-4607-a18c-43445dded63d",
+      "eventDate": "2026-02-10",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "84ffb1f4-197f-49c0-86d3-35c257177378",
+      "eventDate": "2026-02-10",
+      "sport": "Boys Basketball",
+      "levelLabel": "Freshman",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Basketball (Boys F) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "7e1e8719-87ad-44fb-9fc1-1eb10b40d67f",
+      "eventDate": "2026-02-11",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "9bbf7fbb-7411-45c5-ab18-614c5fd64cf3",
+      "eventDate": "2026-02-12",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "d843881d-693e-4b2a-97c7-f24e3bdda51f",
+      "eventDate": "2026-02-16",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "d7c80b0f-0a68-416b-9817-5ea012db9ac2",
+      "eventDate": "2026-02-17",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "603cf897-092d-4565-8e56-da2f0924499c",
+      "eventDate": "2026-02-18",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "33ae9625-a37c-4b53-812d-b0e53558a9b8",
+      "eventDate": "2026-02-19",
+      "sport": "Girls Basketball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Basketball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "786836a6-6a45-446f-845e-841395f0d8a4",
+      "eventDate": "2026-02-19",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "8c5c4fd2-b827-4d95-a3c1-d1f022c26979",
+      "eventDate": "2026-02-19",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "3bfdd498-7845-4111-b8ec-cb2917c4edef",
+      "eventDate": "2026-02-20",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "d761d3f0-7ef9-41ce-8d45-ffc694fc4af9",
+      "eventDate": "2026-02-23",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "bfb2ec31-793a-4c58-9ad6-de615b3d8a4d",
+      "eventDate": "2026-02-23",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "11fe072a-b41b-4ec4-9101-f0f6a1e61bd2",
+      "eventDate": "2026-02-24",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "f319452f-7a5a-4dea-95ce-5c7f12cc843a",
+      "eventDate": "2026-02-24",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "380596c8-7f92-4ee6-82c2-c26e77d5d1e3",
+      "eventDate": "2026-02-25",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "e4f52564-2bcf-4967-9720-dbba3a461e5f",
+      "eventDate": "2026-02-25",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "5f740709-8d4b-48a4-a895-eb1dc5c675d9",
+      "eventDate": "2026-02-26",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "0857dfcc-1492-4ce1-98ea-1dbae47c49ae",
+      "eventDate": "2026-02-26",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "31329657-f147-454c-88ba-ae2a87e69a56",
+      "eventDate": "2026-02-27",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "05032201-7c8d-403a-99f6-008bd0eff64b",
+      "eventDate": "2026-02-27",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "e136a8f3-d8ed-4a1d-a81e-745ded8144dd",
+      "eventDate": "2026-02-28",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "1e3fc34f-6b8f-44ae-a561-d31f41304111",
+      "eventDate": "2026-02-28",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "70a897d9-12e0-48d4-8565-ddc3cd9ef960",
+      "eventDate": "2026-03-02",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "901ebde1-7f68-498f-aa8e-1753de6bda2f",
+      "eventDate": "2026-03-02",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "47e92c42-4425-485f-bc35-6b8f1b1818e5",
+      "eventDate": "2026-03-03",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "0ac3d0cb-5df5-4bd7-8bd6-75302121ef3d",
+      "eventDate": "2026-03-03",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "791e98aa-5a40-48a3-bac2-d41956e3da7f",
+      "eventDate": "2026-03-04",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "ba2c8edd-cb0a-44e1-a1dc-0e1eea05aae9",
+      "eventDate": "2026-03-04",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "c12328a9-b914-4349-aed8-2ba8bbdb7e02",
+      "eventDate": "2026-03-05",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "c6975d0e-5a34-4b82-9b1a-294deb9685a3",
+      "eventDate": "2026-03-05",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "cc54d4b6-f635-426a-8619-be138c43e615",
+      "eventDate": "2026-03-06",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "6629a0f6-f477-40fc-be20-82647aff3dbf",
+      "eventDate": "2026-03-06",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "7631d8ae-f8bf-4578-a5aa-5e884f8b655e",
+      "eventDate": "2026-03-07",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Youth Softball Skills Clinic",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "8880d740-fd31-40a5-a688-38b38d39fc3a",
+      "eventDate": "2026-03-07",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "0abe0b8c-bc3e-4899-9376-c2e4d61a7683",
+      "eventDate": "2026-03-09",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "4168bdcb-8bbb-44fa-8517-e905610ea64c",
+      "eventDate": "2026-03-09",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "33afdab4-5224-4392-9381-8af81d781abd",
+      "eventDate": "2026-03-10",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "c7e5387c-5e37-4154-8f26-94050d17f814",
+      "eventDate": "2026-03-10",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "3974a2e4-c605-44b4-a1c8-fb455caf0fa0",
+      "eventDate": "2026-03-11",
+      "sport": "Track & Field",
+      "levelLabel": "Middle School",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Track & Field (Coed MS) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "2d08d888-3ead-4c31-b39e-00b1f7b3883b",
+      "eventDate": "2026-03-11",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "c165b24a-63cb-444d-b30c-2de9729c44c3",
+      "eventDate": "2026-03-11",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "76bd9c37-4429-4464-80f6-84b51b228268",
+      "eventDate": "2026-03-12",
+      "sport": "Track & Field",
+      "levelLabel": "Middle School",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Track & Field (Coed MS) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "1c66f640-bfb9-4147-ba21-821edd9c0c78",
+      "eventDate": "2026-03-12",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "6aa04767-2897-4057-88a4-17590f36756d",
+      "eventDate": "2026-03-12",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "2e84227f-4d4e-48e6-ad5f-bd78f39e63a9",
+      "eventDate": "2026-03-13",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "ed0c748e-791b-44a7-8327-d53ac9422913",
+      "eventDate": "2026-03-13",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "519dd02e-fd9b-42de-a37b-7ad54402054d",
+      "eventDate": "2026-03-14",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "cbbce691-37a9-4ddc-82e7-a8e81fee4207",
+      "eventDate": "2026-03-15",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Soccer (Boys V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "8068fc21-777c-4cdb-bf02-5ff965bece68",
+      "eventDate": "2026-03-16",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "20b69328-0283-4817-90a0-e5e380ec167c",
+      "eventDate": "2026-03-16",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "2c5308d7-c8a0-4cc9-958d-e70eb2bb67f2",
+      "eventDate": "2026-03-17",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "094eb232-6204-43ea-b6a8-9d62a6547cfb",
+      "eventDate": "2026-03-17",
+      "sport": "Girls Lacrosse",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lacrosse (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "46fef370-2f04-467c-8212-8a2488fa6d26",
+      "eventDate": "2026-03-17",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "708a758b-d3db-4d92-b202-3f604479ce51",
+      "eventDate": "2026-03-18",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "f8081317-a069-4466-8d75-2d9354076d6e",
+      "eventDate": "2026-03-18",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "673372d9-be41-40e3-8099-2e3ea09ff2cf",
+      "eventDate": "2026-03-19",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "d5c6dd40-09aa-41be-864a-68e7ed43707d",
+      "eventDate": "2026-03-19",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "a2447119-810e-4902-8aec-8ab9887ea797",
+      "eventDate": "2026-03-20",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "f3f2b1c7-1edf-4fd3-be47-d44b46b05010",
+      "eventDate": "2026-03-20",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "b657dd70-faf8-4aa6-ba67-34193cd957d6",
+      "eventDate": "2026-03-21",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "94987b37-79ef-4a35-9099-4c3dbf05f96f",
+      "eventDate": "2026-03-21",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "372235aa-d50a-4426-9fb8-2bed6a0d87e6",
+      "eventDate": "2026-03-22",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Soccer (Boys V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "8cfd855e-2aa0-4e6d-8ead-b3038a093042",
+      "eventDate": "2026-03-23",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "aa2c069d-4536-4a5d-a367-f0281b3b58be",
+      "eventDate": "2026-03-24",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "aee02438-516b-46f6-adaf-5335274c467e",
+      "eventDate": "2026-03-25",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "2d04c0c1-ebe5-4e7c-b1a5-178e25123378",
+      "eventDate": "2026-03-26",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "aa685fe5-b6c8-48d1-b1d6-be081dc94586",
+      "eventDate": "2026-03-27",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "eab7154a-db11-4ff1-bd08-772be61d9adb",
+      "eventDate": "2026-03-28",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "388f0dde-3c8f-4aa3-a770-37cb9fca0ec6",
+      "eventDate": "2026-03-28",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "62d202cc-e263-4d76-b7d5-bd9ee1f2b86a",
+      "eventDate": "2026-04-11",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "c3c0b7e8-5f55-485d-855c-68fa689f8bdb",
+      "eventDate": "2026-04-11",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "0c414e64-5786-47d7-a6a1-59dd40588fea",
+      "eventDate": "2026-04-15",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lift and Conditioning",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "3832f708-0351-4cab-a302-cb287cffbe4b",
+      "eventDate": "2026-04-16",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lift and Conditioning",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "13d5b6c0-6df6-437d-8833-cb855ef744bb",
+      "eventDate": "2026-04-18",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Soccer (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "ad82894f-1308-49ce-8356-a904dbdb97a9",
+      "eventDate": "2026-04-18",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "215dd860-2b43-4c45-82b6-fd64273995a8",
+      "eventDate": "2026-04-19",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Soccer (Boys V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "bcd7619d-fadb-40be-af73-0f06c054d01a",
+      "eventDate": "2026-04-20",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lift and Conditioning",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "c5d60bac-e64d-4929-9878-d847dcdd9c64",
+      "eventDate": "2026-04-21",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "c5e8667a-cba7-4364-bc55-9913c2324ad6",
+      "eventDate": "2026-04-22",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lift and Conditioning",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "c4e42441-3d67-496e-b30b-ee0e549c8c6f",
+      "eventDate": "2026-04-25",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Soccer (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "2035a085-6128-4ece-8ca7-24066dffdf34",
+      "eventDate": "2026-04-25",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Softball (Girls V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "cd18596b-821e-4112-be94-a8f7c9cb7fc4",
+      "eventDate": "2026-04-26",
+      "sport": "Football",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Sunday Fun Football",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "2ddffd2c-d6c6-463b-b27b-b8d050258310",
+      "eventDate": "2026-04-26",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Soccer (Boys V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "2b5b9b58-7924-4f69-9d6d-437697252c04",
+      "eventDate": "2026-04-27",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lift and Conditioning",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "3a028156-e157-4831-ae2d-01daa93e4f0b",
+      "eventDate": "2026-04-28",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Open Gym",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "96acec40-11b0-4bdd-9f31-31fa32ee25c2",
+      "eventDate": "2026-04-29",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lift and Conditioning",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "6097f7e9-2c50-4e04-9239-51f7a9ca7451",
+      "eventDate": "2026-05-03",
+      "sport": "Football",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Sunday Fun Football",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "ce979d17-7ef7-4bf1-90a2-c46f1e186204",
+      "eventDate": "2026-05-03",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Soccer (Boys V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "ac5140ba-925d-4572-8b0d-223de7d725b5",
+      "eventDate": "2026-05-04",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lift and Conditioning",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "e4520bb7-9541-46ea-9633-0177269f9cbc",
+      "eventDate": "2026-05-06",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lift and Conditioning",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "6a684e64-c84c-44c7-9c41-4220af5fd32d",
+      "eventDate": "2026-05-11",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lift and Conditioning",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "4474a58d-7426-4851-b44f-091b3341c4d9",
+      "eventDate": "2026-05-13",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lift and Conditioning",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "317274a2-2821-42c1-a208-333b3012ee87",
+      "eventDate": "2026-05-17",
+      "sport": "Football",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Sunday Fun Football",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "1bb61e48-524f-426e-9bb3-8eef13e980d0",
+      "eventDate": "2026-05-17",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Soccer (Boys V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "d327001b-6907-4d19-92c6-6a2423a8ea8a",
+      "eventDate": "2026-05-18",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lift and Conditioning",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "1defd140-1121-40af-9029-c6f0c8146324",
+      "eventDate": "2026-05-19",
+      "sport": "Football",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Skill Day",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "312aa902-658b-4794-91a2-21ad8bab2323",
+      "eventDate": "2026-05-20",
+      "sport": "Football",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Skill Day",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "78b7dfed-2ced-4ec5-98f8-66ee24b3153d",
+      "eventDate": "2026-05-21",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lift and Conditioning",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "8859a97c-ee6c-4469-bb9d-918342c573b4",
+      "eventDate": "2026-05-22",
+      "sport": "Football",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Skill Day",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "0e70eff6-8af1-4deb-87d1-e6b3bd1f60f0",
+      "eventDate": "2026-05-24",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Soccer (Boys V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "f54ab8dc-3479-479a-b680-6b7bc325cd02",
+      "eventDate": "2026-05-26",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lift and Conditioning",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "3e1748a5-f8fc-48e2-a495-b2f3212b8a13",
+      "eventDate": "2026-05-28",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lift and Conditioning",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "b7e3041c-524f-451f-b522-5f459715b3f3",
+      "eventDate": "2026-05-31",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Soccer (Boys V) Practice",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "b5a29b61-6c47-4c6a-909f-2ec34f4207d2",
+      "eventDate": "2026-06-01",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lift and Conditioning",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "018dc21a-825a-4542-b3b3-10d0867724c7",
+      "eventDate": "2026-06-04",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Practice: Lift and Conditioning",
+      "isCancelled": false,
+      "isPostponed": false
     }
   ],
-  "changed": [
-    {
-      "eventId": "6fabda4c-ceec-4edb-8703-38f154d9faed",
-      "eventDate": "2026-08-07",
-      "sport": "Girls Tennis",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Austintown Fitch Falcons",
-      "isCancelled": false,
-      "isPostponed": false,
-      "fields": [
-        "homeOrAway",
-        "location"
-      ],
-      "before": {
-        "homeOrAway": "Home",
-        "location": "Poland Seminary High School"
-      },
-      "after": {
-        "homeOrAway": "Away",
-        "location": "Austintown Fitch High School"
-      }
-    },
-    {
-      "eventId": "cb85a889-e5d4-4aca-b0eb-aaf9a6274071",
-      "eventDate": "2026-08-10",
-      "sport": "Girls Tennis",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Ursuline Fighting Irish",
-      "isCancelled": false,
-      "isPostponed": false,
-      "fields": [
-        "eventTime",
-        "homeOrAway",
-        "location"
-      ],
-      "before": {
-        "eventTime": "04:00 PM",
-        "homeOrAway": "Home",
-        "location": "Poland Seminary High School"
-      },
-      "after": {
-        "eventTime": "06:00 PM",
-        "homeOrAway": "Away",
-        "location": "YSU"
-      }
-    },
-    {
-      "eventId": "e2c2f3e5-903a-434f-b5f9-02a4b01b1ba2",
-      "eventDate": "2026-08-13",
-      "sport": "Girls Tennis",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Liberty Leopards",
-      "isCancelled": false,
-      "isPostponed": false,
-      "fields": [
-        "homeOrAway",
-        "location"
-      ],
-      "before": {
-        "homeOrAway": "Home",
-        "location": "Poland Seminary High School"
-      },
-      "after": {
-        "homeOrAway": "Away",
-        "location": "Liberty High School"
-      }
-    },
-    {
-      "eventId": "cf230b77-13df-4c2f-bc74-9bf725cbe3d7",
-      "eventDate": "2026-08-25",
-      "sport": "Girls Tennis",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Lakeview Bulldogs",
-      "isCancelled": false,
-      "isPostponed": false,
-      "fields": [
-        "eventDate"
-      ],
-      "before": {
-        "eventDate": "2026-08-24"
-      },
-      "after": {
-        "eventDate": "2026-08-25"
-      }
-    },
-    {
-      "eventId": "ac2ddb42-27c8-44a7-b09b-ac0001afc5e4",
-      "eventDate": "2026-08-26",
-      "sport": "Girls Tennis",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Struthers Wildcats",
-      "isCancelled": false,
-      "isPostponed": false,
-      "fields": [
-        "eventDate"
-      ],
-      "before": {
-        "eventDate": "2026-08-12"
-      },
-      "after": {
-        "eventDate": "2026-08-26"
-      }
-    }
-  ]
+  "changed": []
 }
