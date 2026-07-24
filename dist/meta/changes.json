@@ -1,17 +1,29 @@
 {
-  "generatedAt": "2026-07-24T13:24:47.754Z",
+  "generatedAt": "2026-07-24T17:53:26.507Z",
   "added": [],
-  "removed": [
+  "removed": [],
+  "changed": [
     {
-      "eventId": "2fcad8d5-6a8f-423e-8507-a0965f9775bb",
-      "eventDate": "2025-07-23",
-      "sport": "Volleyball",
-      "levelLabel": "8th Grade",
+      "eventId": "3a9a68eb-1aa4-455d-abe9-63cd15021a4f",
+      "eventDate": "2026-08-30",
+      "sport": "Boys Golf",
+      "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "MS Volleyball Open Gym",
+      "opponentComplete": "OPEN Senior Night",
       "isCancelled": false,
-      "isPostponed": false
+      "isPostponed": false,
+      "fields": [
+        "eventDate",
+        "eventTime"
+      ],
+      "before": {
+        "eventDate": "2026-09-10",
+        "eventTime": "05:45 PM"
+      },
+      "after": {
+        "eventDate": "2026-08-30",
+        "eventTime": "05:00 PM"
+      }
     }
-  ],
-  "changed": []
+  ]
 }
