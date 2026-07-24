@@ -21559,5 +21559,34 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-07-24T17:53:26.507Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "3a9a68eb-1aa4-455d-abe9-63cd15021a4f",
+        "eventDate": "2026-08-30",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "OPEN Senior Night",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "eventDate",
+          "eventTime"
+        ],
+        "before": {
+          "eventDate": "2026-09-10",
+          "eventTime": "05:45 PM"
+        },
+        "after": {
+          "eventDate": "2026-08-30",
+          "eventTime": "05:00 PM"
+        }
+      }
+    ]
   }
 ]
