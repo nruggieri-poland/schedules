@@ -1,29 +1,17 @@
 {
-  "generatedAt": "2026-07-24T17:53:26.507Z",
-  "added": [],
-  "removed": [],
-  "changed": [
+  "generatedAt": "2026-07-27T15:37:42.899Z",
+  "added": [
     {
-      "eventId": "3a9a68eb-1aa4-455d-abe9-63cd15021a4f",
-      "eventDate": "2026-08-30",
-      "sport": "Boys Golf",
+      "eventId": "9683c889-636c-4631-b804-8ad4fc3cdb0a",
+      "eventDate": "2026-07-30",
+      "sport": "Volleyball",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "OPEN Senior Night",
+      "opponentComplete": "Scrimmage",
       "isCancelled": false,
-      "isPostponed": false,
-      "fields": [
-        "eventDate",
-        "eventTime"
-      ],
-      "before": {
-        "eventDate": "2026-09-10",
-        "eventTime": "05:45 PM"
-      },
-      "after": {
-        "eventDate": "2026-08-30",
-        "eventTime": "05:00 PM"
-      }
+      "isPostponed": false
     }
-  ]
+  ],
+  "removed": [],
+  "changed": []
 }
