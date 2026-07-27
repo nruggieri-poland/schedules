@@ -21622,5 +21622,50 @@
     ],
     "removed": [],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-07-27T18:53:10.899Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "7beb835f-85b5-4de9-ab2e-4e82bf5c4cb1",
+        "eventDate": "2026-08-06",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Louisville Leopards",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "eventType"
+        ],
+        "before": {
+          "eventType": "Game"
+        },
+        "after": {
+          "eventType": "Scrimmage"
+        }
+      },
+      {
+        "eventId": "cb4f29b9-904f-46f8-a2af-d0003b02c1ec",
+        "eventDate": "2026-08-12",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Chagrin Falls Tigers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "eventType"
+        ],
+        "before": {
+          "eventType": "Game"
+        },
+        "after": {
+          "eventType": "Scrimmage"
+        }
+      }
+    ]
   }
 ]
