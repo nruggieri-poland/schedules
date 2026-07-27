@@ -520,7 +520,7 @@ function applyConferenceGameOverrides(event) {
 // Fields that matter for change detection — structural/scheduling data only.
 const TRACKED_FIELDS = [
   'eventDate', 'eventTime', 'homeOrAway', 'opponent', 'location',
-  'isCancelled', 'isPostponed', 'isTimeTBD', 'sport', 'levelSlug',
+  'isCancelled', 'isPostponed', 'isTimeTBD', 'sport', 'levelSlug', 'eventType',
 ];
 
 function diffEvents(prevEvents, nextEvents) {
