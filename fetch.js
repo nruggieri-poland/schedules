@@ -37,6 +37,16 @@ const HOME_VENUE_OVERRIDES = [
   { venue: 'Poland Township Park', matches: e => e.sportSlug === 'cross-country' },
 ];
 
+// One-off conferenceGame corrections for a specific season, where a scheduled
+// opponent isn't actually a conference game despite what opponents.json's
+// default `conference` flag says (or vice versa). Scoped to `season` so it
+// self-expires — safe to delete individual entries (or this whole block) once
+// that season has passed.
+const CONFERENCE_GAME_OVERRIDES = [
+  // Salem football games are non-conference for the 2026 season only.
+  { season: '2026', sportSlug: 'football', opponent: 'Salem', conferenceGame: false },
+];
+
 // Feed URL (contains an access token) lives in CI secrets / a local .env file,
 // never in source — this repo is public, so anything hardcoded here is exposed
 // in git history forever.
@@ -493,6 +503,18 @@ function applyHomeVenueOverrides(event) {
   return event;
 }
 
+// Applies CONFERENCE_GAME_OVERRIDES on top of the default conference-flag
+// lookup in parseEvent. Kept as its own post-processing step (rather than
+// baked into parseEvent) so it's a single obvious place to add/remove
+// season-scoped exceptions.
+function applyConferenceGameOverrides(event) {
+  const rule = CONFERENCE_GAME_OVERRIDES.find(r =>
+    r.season === event.season && r.sportSlug === event.sportSlug && r.opponent === event.opponent
+  );
+  if (rule) event.conferenceGame = rule.conferenceGame;
+  return event;
+}
+
 // ── Diff & changelog ──────────────────────────────────────────────────────────
 
 // Fields that matter for change detection — structural/scheduling data only.
@@ -746,7 +768,8 @@ async function main() {
   const events = vevents
     .map(v => parseEvent(v, opponents, juniorHighOpponents, teamIndex))
     .filter(Boolean)
-    .map(applyHomeVenueOverrides);
+    .map(applyHomeVenueOverrides)
+    .map(applyConferenceGameOverrides);
   console.log(`Kept ${events.length} events after filtering\n`);
 
   const keptRatio = events.length / vevents.length;
@@ -832,7 +855,7 @@ async function main() {
 export {
   computeSeason, formatTime12h, parseSportAndLevel, diffEvents, summariseEvent,
   parseTeamsCsv, buildTeamSlugIndex, resolveTeamSlug,
-  resolveOpponent, applyHomeVenueOverrides,
+  resolveOpponent, applyHomeVenueOverrides, applyConferenceGameOverrides,
   // Additive exports below — added so fetch-eventlink-api.js (a separate,
   // alternate-source script) can reuse this file's file-writing/diff/pipeline
   // logic verbatim instead of duplicating it. None of the above changed;
