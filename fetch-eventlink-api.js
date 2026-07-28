@@ -8,7 +8,7 @@ import {
   validateOpponents, diffEvents, sortByDateTime, buildTeamSlugIndex,
   parseTeamsCsv, applyHomeVenueOverrides, TEAMS_DIR, ROLLUPS_DIR, META_DIR,
   ICS_DIR, ICS_GROUPS_DIR, DIFF_SNAPSHOT_PATH, ICAL_GROUPS, MIN_KEPT_RATIO,
-  MIN_VEVENTS_FOR_RATIO_CHECK,
+  MIN_VEVENTS_FOR_RATIO_CHECK, GOLF_SPORT_SLUGS,
 } from './fetch.js';
 
 // This is a mirror of fetch.js that sources events from EventLink's JSON
@@ -170,6 +170,7 @@ async function main() {
   const seenUids = new Set();
   const vevents  = [];
   const apiEventTypeByUid = new Map();
+  const facilityTitleByUid = new Map();
   for (const record of records) {
     const v = adaptRecordToVevent(record);
     if (!v) { console.warn(`  [unparseable StartDateTime] ${record.Title} (id=${record.ID})`); continue; }
@@ -180,6 +181,7 @@ async function main() {
     if (seenUids.has(v.uid)) { console.warn(`  [duplicate UID] ${v.uid}`); continue; }
     seenUids.add(v.uid);
     apiEventTypeByUid.set(v.uid, record.EventType);
+    if (record.Facility?.Title) facilityTitleByUid.set(v.uid, record.Facility.Title);
     vevents.push(v);
   }
 
@@ -187,6 +189,18 @@ async function main() {
     .map(v => parseEvent(v, opponents, juniorHighOpponents, teamIndex))
     .filter(Boolean)
     .map(applyHomeVenueOverrides);
+
+  // Location (record.Location) is just the host school, which for golf tells
+  // you nothing about which course the match is actually played at — home and
+  // away golf matches alike happen at whatever course was booked. The API's
+  // Facility.Title field is the actual course name (e.g. "Knoll Run", "Pine
+  // Lakes"), so it wins over both the raw Location and the home-venue-override
+  // guess for every golf event, home or away.
+  for (const e of events) {
+    if (!GOLF_SPORT_SLUGS.has(e.sportSlug)) continue;
+    const facilityTitle = facilityTitleByUid.get(e.eventId);
+    if (facilityTitle) e.location = facilityTitle;
+  }
 
   // Override eventType straight from the API's own clean field rather than
   // trusting classifyEventType()'s regex-on-opponent-text guess — see

@@ -864,7 +864,7 @@ export {
   writeChangelog, logDiff, validateOpponents, sortByDateTime,
   TEAMS_DIR, ROLLUPS_DIR, META_DIR, ICS_DIR, ICS_GROUPS_DIR,
   DIFF_SNAPSHOT_PATH, ICAL_GROUPS,
-  MIN_KEPT_RATIO, MIN_VEVENTS_FOR_RATIO_CHECK,
+  MIN_KEPT_RATIO, MIN_VEVENTS_FOR_RATIO_CHECK, GOLF_SPORT_SLUGS,
 };
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
