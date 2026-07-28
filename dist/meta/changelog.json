@@ -21712,5 +21712,1019 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-07-28T02:47:25.143Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "ad7afba4-2f36-439e-aedb-c615f752e17d",
+        "eventDate": "2025-07-28",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "47e527fb-9396-475d-af16-5ab0c54c4fc8",
+        "eventDate": "2025-07-30",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "2ba30bfc-312f-4f48-843a-ad836b93a803",
+        "eventDate": "2025-07-30",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Columbiana Clippers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Columbiana High School"
+        },
+        "after": {
+          "location": "Valley Golf Course"
+        }
+      },
+      {
+        "eventId": "783bbf40-b0bc-42dc-8e16-0c417b082611",
+        "eventDate": "2025-07-31",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Springfield Tigers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "59a76e53-3356-400b-89a9-6fd1b584bd0d",
+        "eventDate": "2025-07-31",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Hubbard High School"
+        },
+        "after": {
+          "location": "Deer Creek"
+        }
+      },
+      {
+        "eventId": "76fede97-9742-435d-9276-56d757a22dea",
+        "eventDate": "2025-08-04",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "JFK Invitational",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Trumbull CCC"
+        },
+        "after": {
+          "location": "Trumbull CC"
+        }
+      },
+      {
+        "eventId": "c3cd01dc-977d-4346-ac64-82770d0fb64b",
+        "eventDate": "2025-08-05",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "South Range HS",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "South Range High School"
+        },
+        "after": {
+          "location": "The Links"
+        }
+      },
+      {
+        "eventId": "d4f1e41e-7538-48bd-a394-d10d5dd5d470",
+        "eventDate": "2025-08-06",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Brookfield Invitational",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Brookfield High School"
+        },
+        "after": {
+          "location": "Yankee Run"
+        }
+      },
+      {
+        "eventId": "7d61eabd-acd7-4483-ade0-9e32fb432ba3",
+        "eventDate": "2025-08-07",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Lakeview High School"
+        },
+        "after": {
+          "location": "Tamer Win"
+        }
+      },
+      {
+        "eventId": "496ba308-cc0f-44af-943e-56b1e80d7b4b",
+        "eventDate": "2025-08-11",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "ff332357-0e76-43ba-b80d-2c0aa194542a",
+        "eventDate": "2025-08-14",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "a140e580-4ceb-4687-938d-c234c8ecee24",
+        "eventDate": "2025-08-14",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "9c318e64-535e-46f5-ab5a-99c7a4714f9b",
+        "eventDate": "2025-08-18",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Niles McKinley High School"
+        },
+        "after": {
+          "location": "Tamer Win"
+        }
+      },
+      {
+        "eventId": "66df51f5-163f-403d-8252-910a3c538422",
+        "eventDate": "2025-08-18",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Columbiana Clippers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Columbiana High School"
+        },
+        "after": {
+          "location": "Valley Golf Course"
+        }
+      },
+      {
+        "eventId": "691e5d7b-4794-4144-bc33-73849be57181",
+        "eventDate": "2025-08-19",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "43fcfbdd-af0d-4654-b268-f2b0684b4c81",
+        "eventDate": "2025-08-21",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Deer Creek"
+        }
+      },
+      {
+        "eventId": "1b8de627-dfea-4043-9820-6ba15e3238a7",
+        "eventDate": "2025-08-26",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "South Range Raiders",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "South Range High School"
+        },
+        "after": {
+          "location": "Valley Golf Course"
+        }
+      },
+      {
+        "eventId": "96e86840-d338-4796-9b1a-a4662ddfc2e1",
+        "eventDate": "2025-08-26",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Hubbard High School"
+        },
+        "after": {
+          "location": "Pine Lakes"
+        }
+      },
+      {
+        "eventId": "24d07bc5-8946-4045-8eec-abb34e9c6854",
+        "eventDate": "2025-08-28",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "South Range Raiders",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "8389a5e7-50ad-4f0b-b334-5f8eb659cee9",
+        "eventDate": "2025-08-28",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Niles McKinley High School"
+        },
+        "after": {
+          "location": "Old Avalon"
+        }
+      },
+      {
+        "eventId": "eaad5bf5-ec18-49a0-b791-3ca0f0a12b51",
+        "eventDate": "2025-09-03",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Shenango Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Shenango High School"
+        },
+        "after": {
+          "location": "Sylvan Heights Golf Course"
+        }
+      },
+      {
+        "eventId": "7c060add-60b2-4c4b-b307-f3a2dfd08fcc",
+        "eventDate": "2025-09-04",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Girard Sr High School"
+        },
+        "after": {
+          "location": "Mahoning CC"
+        }
+      },
+      {
+        "eventId": "0aac0d5d-38da-40ef-8746-ce0e1b93dce6",
+        "eventDate": "2025-09-05",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Tam O'Shanter Invitational",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Tam O'Shanter"
+        },
+        "after": {
+          "location": "Tam O Shanter"
+        }
+      },
+      {
+        "eventId": "f4be32fa-65f4-4ac4-bf14-b4c13bbef437",
+        "eventDate": "2025-09-09",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": true,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "5c401b5a-36c2-4684-bd9e-ea14eddea0b2",
+        "eventDate": "2025-09-15",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": true,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "384c7888-de6b-43da-b251-627f9564bff8",
+        "eventDate": "2025-09-16",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Springfield Tigers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Springfield High School"
+        },
+        "after": {
+          "location": "Bedford Trails Golf Course"
+        }
+      },
+      {
+        "eventId": "e8351d02-fa2a-4712-aaa5-e4b3c4b0421b",
+        "eventDate": "2025-09-17",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "John F. Kennedy Fighting Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "John F Kennedy High School"
+        },
+        "after": {
+          "location": "Trumbull CC"
+        }
+      },
+      {
+        "eventId": "544a05f8-e9e2-4402-ad78-afb70861201a",
+        "eventDate": "2025-09-22",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Lakeview High School"
+        },
+        "after": {
+          "location": "Tamer Win"
+        }
+      },
+      {
+        "eventId": "1c30d67f-8416-401a-8c15-3b87d9dfa8e2",
+        "eventDate": "2025-09-23",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "OPEN Senior Night",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "d412b3b8-1a2f-4f76-b9ef-1688c78fb4d8",
+        "eventDate": "2026-07-28",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Columbiana Clippers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "379767ed-86ec-4153-aea7-fedbf29941a5",
+        "eventDate": "2026-07-30",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Hubbard High School"
+        },
+        "after": {
+          "location": "Pine Lakes"
+        }
+      },
+      {
+        "eventId": "8c0b0314-0081-410f-bcad-2b6ed02ea366",
+        "eventDate": "2026-08-03",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "25047dca-266c-4a4a-9c72-4faf2fdc7319",
+        "eventDate": "2026-08-03",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "South Range Raiders",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "South Range High School"
+        },
+        "after": {
+          "location": "Lake Milton Golf Course"
+        }
+      },
+      {
+        "eventId": "51397ffc-d9c7-4b7f-b935-7248250b0077",
+        "eventDate": "2026-08-04",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Lakeview High School"
+        },
+        "after": {
+          "location": "Links Golf Course"
+        }
+      },
+      {
+        "eventId": "72f101df-9ddf-4ac9-b251-b1d884287168",
+        "eventDate": "2026-08-05",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Brookfield Invitational",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Yankee Run"
+        }
+      },
+      {
+        "eventId": "1a03c939-160e-4ffc-9b06-927db9c2a8fb",
+        "eventDate": "2026-08-06",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "d94f2422-4e39-4c4a-815f-47820e4c7126",
+        "eventDate": "2026-08-10",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Columbiana Clippers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "0090d3aa-48ba-4acb-9f0d-74df024e001c",
+        "eventDate": "2026-08-11",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Girard Sr High School"
+        },
+        "after": {
+          "location": "Mahoning CC"
+        }
+      },
+      {
+        "eventId": "8a357477-57f9-4ee7-993a-ac7f1a5e660b",
+        "eventDate": "2026-08-12",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "bb607043-4a39-4194-8d2a-f05b9ea27158",
+        "eventDate": "2026-08-13",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Canfield Cardinals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "03b53d1a-b757-45c5-a038-370dfc28912e",
+        "eventDate": "2026-08-13",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Boardman Spartans",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Boardman High School"
+        },
+        "after": {
+          "location": "Mill Creek"
+        }
+      },
+      {
+        "eventId": "536f85f2-c674-472c-b863-f58003238e35",
+        "eventDate": "2026-08-17",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "bafe1fed-3cd9-437a-a753-16b84949e56a",
+        "eventDate": "2026-08-17",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Hubbard High School"
+        },
+        "after": {
+          "location": "Pine Lakes"
+        }
+      },
+      {
+        "eventId": "f6bd18ee-5427-4ac3-a7c1-028c74605d43",
+        "eventDate": "2026-08-18",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "028c5c1c-96d6-417f-8ff7-6dcb4bb61ce4",
+        "eventDate": "2026-08-20",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "South Range Raiders",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "c49d48e6-26da-44ef-a760-1d979effc18e",
+        "eventDate": "2026-08-24",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "1951ee51-f230-493e-b592-f663f62d7fab",
+        "eventDate": "2026-08-24",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Lakeview High School"
+        },
+        "after": {
+          "location": "Tamer Win"
+        }
+      },
+      {
+        "eventId": "0c8e69fe-6672-448b-b308-4775862116d7",
+        "eventDate": "2026-08-26",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Girard Sr High School"
+        },
+        "after": {
+          "location": "Mahoning CC"
+        }
+      },
+      {
+        "eventId": "9583a6c3-ef90-4e15-a9ae-c054c6898c94",
+        "eventDate": "2026-08-27",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Niles McKinley High School"
+        },
+        "after": {
+          "location": "Old Avalon"
+        }
+      },
+      {
+        "eventId": "3a9a68eb-1aa4-455d-abe9-63cd15021a4f",
+        "eventDate": "2026-08-30",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "OPEN Senior Night",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Knoll Run Golf Course"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "bd809743-dbc0-4a02-8a3d-9c9d3833491b",
+        "eventDate": "2026-09-01",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Struthers High School"
+        },
+        "after": {
+          "location": "Knoll Run"
+        }
+      },
+      {
+        "eventId": "0d94abb1-2623-4cd6-87dd-42d61466d3ad",
+        "eventDate": "2026-09-03",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Columbiana Clippers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Columbiana High School"
+        },
+        "after": {
+          "location": "Valley Golf Course"
+        }
+      },
+      {
+        "eventId": "3280cc66-3a39-4886-a5f3-53db90ce6492",
+        "eventDate": "2026-09-08",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Canfield Cardinals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "Canfield High School"
+        },
+        "after": {
+          "location": "Mill Creek"
+        }
+      }
+    ]
   }
 ]
