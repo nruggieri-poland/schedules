@@ -22726,5 +22726,88 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-07-28T13:41:05.311Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "72f101df-9ddf-4ac9-b251-b1d884287168",
+        "eventDate": "2026-08-05",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Brookfield Invitational",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "homeOrAway"
+        ],
+        "before": {
+          "homeOrAway": "Home"
+        },
+        "after": {
+          "homeOrAway": "Away"
+        }
+      },
+      {
+        "eventId": "f09aecf9-f738-4d87-8aae-c476719e0ba3",
+        "eventDate": "2026-09-03",
+        "sport": "Volleyball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "06:30 PM"
+        },
+        "after": {
+          "eventTime": "07:00 PM"
+        }
+      },
+      {
+        "eventId": "d77fb5a6-bf8c-4936-99b9-ad45ebe673bd",
+        "eventDate": "2026-09-28",
+        "sport": "Volleyball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Champion Golden Flashes",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "07:00 PM"
+        },
+        "after": {
+          "eventTime": "06:45 PM"
+        }
+      },
+      {
+        "eventId": "b4f53dff-f2d5-443b-91d2-c575d0160de0",
+        "eventDate": "2026-09-29",
+        "sport": "Volleyball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "06:30 PM"
+        },
+        "after": {
+          "eventTime": "07:00 PM"
+        }
+      }
+    ]
   }
 ]
