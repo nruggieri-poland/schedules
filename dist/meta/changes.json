@@ -1,17 +1,27 @@
 {
-  "generatedAt": "2026-07-29T20:34:14.521Z",
-  "added": [
+  "generatedAt": "2026-07-31T11:52:43.171Z",
+  "added": [],
+  "removed": [
     {
-      "eventId": "8f5b5612-e247-40c7-bf40-190de6fddfd9",
-      "eventDate": "2026-08-07",
-      "sport": "Girls Soccer",
+      "eventId": "47e527fb-9396-475d-af16-5ab0c54c4fc8",
+      "eventDate": "2025-07-30",
+      "sport": "Boys Golf",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "John F. Kennedy Fighting Eagles",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "2ba30bfc-312f-4f48-843a-ad836b93a803",
+      "eventDate": "2025-07-30",
+      "sport": "Girls Golf",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Columbiana Clippers",
       "isCancelled": false,
       "isPostponed": false
     }
   ],
-  "removed": [],
   "changed": []
 }
