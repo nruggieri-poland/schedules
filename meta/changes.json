@@ -1,24 +1,45 @@
 {
-  "generatedAt": "2026-08-01T11:10:52.564Z",
-  "added": [],
-  "removed": [
+  "generatedAt": "2026-08-01T15:56:35.491Z",
+  "added": [
     {
-      "eventId": "783bbf40-b0bc-42dc-8e16-0c417b082611",
-      "eventDate": "2025-07-31",
-      "sport": "Boys Golf",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Springfield Tigers",
+      "eventId": "fc3f38b6-65ea-41a3-83bd-097a18cff95a",
+      "eventDate": "2026-08-19",
+      "sport": "Football",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "@",
+      "opponentComplete": "Boardman High School",
       "isCancelled": false,
       "isPostponed": false
     },
     {
-      "eventId": "59a76e53-3356-400b-89a9-6fd1b584bd0d",
-      "eventDate": "2025-07-31",
-      "sport": "Girls Golf",
-      "levelLabel": "Varsity",
+      "eventId": "9fd02d89-006e-415f-8bd2-fa75cd6fb4a0",
+      "eventDate": "2026-08-19",
+      "sport": "Football",
+      "levelLabel": "8th Grade",
       "vsOrAt": "@",
-      "opponentComplete": "Hubbard Eagles",
+      "opponentComplete": "Boardman High School",
+      "isCancelled": false,
+      "isPostponed": false
+    }
+  ],
+  "removed": [
+    {
+      "eventId": "d15ca1e6-9f62-425c-8839-ebb640c80b3d",
+      "eventDate": "2026-09-03",
+      "sport": "Football",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": false,
+      "isPostponed": false
+    },
+    {
+      "eventId": "7ad0a651-2c50-496f-a29e-ef86ae5e8e3d",
+      "eventDate": "2026-09-03",
+      "sport": "Football",
+      "levelLabel": "Freshman",
+      "vsOrAt": "vs",
+      "opponentComplete": "Struthers Wildcats",
       "isCancelled": false,
       "isPostponed": false
     }
