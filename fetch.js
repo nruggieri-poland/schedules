@@ -250,17 +250,27 @@ const CSV_COLUMNS = [
   'postSlug', 'posterFile', 'eventId',
 ];
 
+// Only these columns hold text sourced from other schools' EventLink entries
+// (semi-trusted third-party input) — everything else is drawn from our own
+// fixed maps (SPORT_BASE_MAP, LEVEL_MAP, etc.) and can never start with a
+// formula-triggering character, so leave it alone (this is also what was
+// turning fixed internal values like vsOrAt's "@" into "'@").
+const EXTERNAL_TEXT_COLUMNS = new Set(['opponent', 'opponentMascot', 'opponentComplete', 'location']);
+
 // Neutralize leading =/+/-/@ so spreadsheet apps don't treat externally-sourced
 // text (opponent names, etc.) as a formula when this CSV is opened in Excel/Sheets.
-function csvCell(val) {
-  let s = val == null ? '' : String(val);
-  if (/^[=+\-@\t]/.test(s)) s = `'${s}`;
+function csvCell(val, { escapeFormulas = true, emptyPlaceholder = '' } = {}) {
+  if (val == null || val === '') return emptyPlaceholder;
+  let s = String(val);
+  if (escapeFormulas && /^[=+\-@\t]/.test(s)) s = `'${s}`;
   return /[,"\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
 }
 
-function writeCsv(events, filePath, columns = CSV_COLUMNS) {
+function writeCsv(events, filePath, columns = CSV_COLUMNS, { emptyPlaceholder = '' } = {}) {
   const header = columns.join(',');
-  const rows   = events.map(e => columns.map(col => csvCell(e[col])).join(','));
+  const rows   = events.map(e => columns.map(col => csvCell(
+    e[col], { escapeFormulas: EXTERNAL_TEXT_COLUMNS.has(col), emptyPlaceholder }
+  )).join(','));
   fs.writeFileSync(filePath, [header, ...rows].join('\n'));
 }
 
@@ -643,7 +653,7 @@ function writeGamedayFile(dir, allEvents, today) {
   const trimmed = upcoming.map(e => Object.fromEntries(GAMEDAY_FIELDS.map(f => [f, e[f]])));
 
   fs.writeFileSync(path.join(dir, 'gameday.json'), JSON.stringify(trimmed, null, 2));
-  writeCsv(trimmed, path.join(dir, 'gameday.csv'), GAMEDAY_FIELDS);
+  writeCsv(trimmed, path.join(dir, 'gameday.csv'), GAMEDAY_FIELDS, { emptyPlaceholder: '-' });
 
   return trimmed.length;
 }
