@@ -28674,5 +28674,91 @@
     ],
     "removed": [],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-08-03T20:37:10.720Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "b110f827-872a-4f65-976b-76aaf6cc870f",
+        "eventDate": "2026-08-07",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Joe Eaton Golf Invitational",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "08:00 AM"
+        },
+        "after": {
+          "eventTime": "12:10 PM"
+        }
+      },
+      {
+        "eventId": "3e5623b2-3dbe-4126-980b-284a43ae9b89",
+        "eventDate": "2026-08-11",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "NE Ohio Invitational",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "07:30 AM"
+        },
+        "after": {
+          "eventTime": "08:15 AM"
+        }
+      },
+      {
+        "eventId": "bd809743-dbc0-4a02-8a3d-9c9d3833491b",
+        "eventDate": "2026-09-01",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "eventTime",
+          "isTimeTBD"
+        ],
+        "before": {
+          "eventTime": "TBA",
+          "isTimeTBD": true
+        },
+        "after": {
+          "eventTime": "06:00 PM",
+          "isTimeTBD": false
+        }
+      },
+      {
+        "eventId": "0d94abb1-2623-4cd6-87dd-42d61466d3ad",
+        "eventDate": "2026-09-03",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Columbiana Clippers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "03:00 PM"
+        },
+        "after": {
+          "eventTime": "03:15 PM"
+        }
+      }
+    ]
   }
 ]
