@@ -114,20 +114,6 @@
   {
     "eventDate": "2026-08-07",
     "cleanDate": "08/07",
-    "sport": "Boys Golf",
-    "eventTime": "08:00 AM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Joe Eaton Golf Invitational",
-    "opponentMascot": null,
-    "opponentComplete": "Joe Eaton Golf Invitational",
-    "location": "Tannenhauf Golf Course",
-    "postSlug": "2026-08-07_boys-golf",
-    "posterFile": "2026-08-07_boys-golf.jpg"
-  },
-  {
-    "eventDate": "2026-08-07",
-    "cleanDate": "08/07",
     "sport": "Football",
     "eventTime": "10:00 AM",
     "vsOrAt": "vs",
@@ -152,6 +138,20 @@
     "location": "Austintown Fitch High School",
     "postSlug": "2026-08-07_girls-tennis",
     "posterFile": "2026-08-07_girls-tennis.jpg"
+  },
+  {
+    "eventDate": "2026-08-07",
+    "cleanDate": "08/07",
+    "sport": "Boys Golf",
+    "eventTime": "12:10 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Joe Eaton Golf Invitational",
+    "opponentMascot": null,
+    "opponentComplete": "Joe Eaton Golf Invitational",
+    "location": "Tannenhauf Golf Course",
+    "postSlug": "2026-08-07_boys-golf",
+    "posterFile": "2026-08-07_boys-golf.jpg"
   },
   {
     "eventDate": "2026-08-07",
@@ -213,7 +213,7 @@
     "eventDate": "2026-08-11",
     "cleanDate": "08/11",
     "sport": "Boys Golf",
-    "eventTime": "07:30 AM",
+    "eventTime": "08:15 AM",
     "vsOrAt": "@",
     "homeOrAway": "Away",
     "opponent": "NE Ohio Invitational",
