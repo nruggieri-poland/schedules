@@ -57,6 +57,15 @@ const CHANGELOG_PATH         = path.join(META_DIR, 'changelog.json');
 const CHANGELOG_MAX_ENTRIES  = 200;
 const FETCH_TIMEOUT_MS       = 30_000;
 
+// "gameday" is a slimmed-down varsity-only rollup (rollups/varsity/gameday.*)
+// for a WordPress widget: upcoming games within a fixed window, trimmed to
+// just the fields a gameday display needs — no season/eventId/postSlug/etc.
+const GAMEDAY_WINDOW_DAYS = 21;
+const GAMEDAY_FIELDS = [
+  'cleanDate', 'sport', 'eventTime', 'vsOrAt', 'homeOrAway',
+  'opponent', 'opponentMascot', 'opponentComplete', 'location',
+];
+
 // Below this fraction of VEVENTs surviving parseEvent (when the feed has a
 // meaningful number of events), assume a feed/format regression rather than a
 // real schedule and abort before overwriting existing data.
@@ -249,9 +258,9 @@ function csvCell(val) {
   return /[,"\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
 }
 
-function writeCsv(events, filePath) {
-  const header = CSV_COLUMNS.join(',');
-  const rows   = events.map(e => CSV_COLUMNS.map(col => csvCell(e[col])).join(','));
+function writeCsv(events, filePath, columns = CSV_COLUMNS) {
+  const header = columns.join(',');
+  const rows   = events.map(e => columns.map(col => csvCell(e[col])).join(','));
   fs.writeFileSync(filePath, [header, ...rows].join('\n'));
 }
 
@@ -623,6 +632,22 @@ function writeDataFiles(dir, allEvents, today) {
   return { combined: combined.length, upcoming: upcoming.length };
 }
 
+// Varsity-only "gameday" rollup: upcoming events within GAMEDAY_WINDOW_DAYS,
+// trimmed to GAMEDAY_FIELDS for a WordPress widget that doesn't need the full
+// event object. See writeLevel — only called for the varsity level.
+function writeGamedayFile(dir, allEvents, today) {
+  const windowEnd = DateTime.fromISO(today).plus({ days: GAMEDAY_WINDOW_DAYS }).toISODate();
+  const upcoming  = sortByDateTime(
+    allEvents.filter(e => !e.isCancelled && e.eventDate >= today && e.eventDate <= windowEnd)
+  );
+  const trimmed = upcoming.map(e => Object.fromEntries(GAMEDAY_FIELDS.map(f => [f, e[f]])));
+
+  fs.writeFileSync(path.join(dir, 'gameday.json'), JSON.stringify(trimmed, null, 2));
+  writeCsv(trimmed, path.join(dir, 'gameday.csv'), GAMEDAY_FIELDS);
+
+  return trimmed.length;
+}
+
 // Write per-team files for one level, return index entries for that level.
 function writeLevel(levelSlug, bySport, today) {
   // Rollups (combined/upcoming/cancelled-today) are conglomerate views and
@@ -679,6 +704,11 @@ function writeLevel(levelSlug, bySport, today) {
 
   const { combined, upcoming } = writeDataFiles(rollupDir, allForLevel, today);
   console.log(`  [${levelSlug}] combined=${combined} upcoming=${upcoming}\n`);
+
+  if (levelSlug === 'varsity') {
+    const gameday = writeGamedayFile(rollupDir, allForLevel, today);
+    console.log(`  [${levelSlug}] gameday=${gameday}\n`);
+  }
 
   return indexEntries;
 }
@@ -860,11 +890,12 @@ export {
   // alternate-source script) can reuse this file's file-writing/diff/pipeline
   // logic verbatim instead of duplicating it. None of the above changed;
   // nothing here alters main()'s behavior when this file runs standalone.
-  parseEvent, writeLevel, writeIcal,
+  parseEvent, writeLevel, writeIcal, writeGamedayFile,
   writeChangelog, logDiff, validateOpponents, sortByDateTime,
   TEAMS_DIR, ROLLUPS_DIR, META_DIR, ICS_DIR, ICS_GROUPS_DIR,
   DIFF_SNAPSHOT_PATH, ICAL_GROUPS,
   MIN_KEPT_RATIO, MIN_VEVENTS_FOR_RATIO_CHECK, GOLF_SPORT_SLUGS,
+  GAMEDAY_WINDOW_DAYS, GAMEDAY_FIELDS,
 };
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
