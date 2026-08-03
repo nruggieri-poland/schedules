@@ -29,6 +29,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "10:00"
   },
   {
@@ -67,6 +71,10 @@
     "isPostponed": false,
     "isTimeTBD": true,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": null
   },
   {
@@ -99,6 +107,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "08:30"
   },
   {
@@ -131,6 +143,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "08:00"
   },
   {
@@ -163,6 +179,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "07:30"
   },
   {
@@ -195,6 +215,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "18:00"
   },
   {
@@ -227,6 +251,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "10:30"
   },
   {
@@ -259,6 +287,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "08:00"
   },
   {
@@ -291,6 +323,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "17:00"
   },
   {
@@ -323,6 +359,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "15:30"
   },
   {
@@ -355,6 +395,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "15:30"
   },
   {
@@ -387,6 +431,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "16:00"
   },
   {
@@ -419,6 +467,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "13:00"
   },
   {
@@ -451,6 +503,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "09:00"
   },
   {
@@ -483,6 +539,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "17:30"
   },
   {
@@ -515,6 +575,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "15:00"
   },
   {
@@ -547,6 +611,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "16:30"
   },
   {
@@ -579,6 +647,10 @@
     "isPostponed": false,
     "isTimeTBD": true,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": null
   },
   {
@@ -611,6 +683,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "08:00"
   },
   {
@@ -643,6 +719,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
+    "teamScore": 155,
+    "opponentScore": 188,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Girard Sr High School",
+        "teamScore": 155,
+        "opponentScore": 188,
+        "result": "Win"
+      }
+    ],
     "_time24": "08:00"
   },
   {
@@ -675,6 +762,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "09:00"
   },
   {
@@ -707,6 +798,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "08:30"
   },
   {
@@ -739,6 +834,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "08:00"
   },
   {
@@ -771,6 +870,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "12:10"
   },
   {
@@ -803,6 +906,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "08:00"
   },
   {
@@ -835,6 +942,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "08:15"
   },
   {
@@ -867,6 +978,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "08:00"
   },
   {
@@ -899,6 +1014,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "13:00"
   },
   {
@@ -931,6 +1050,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "13:00"
   },
   {
@@ -963,6 +1086,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "08:00"
   },
   {
@@ -995,6 +1122,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "08:00"
   },
   {
@@ -1027,6 +1158,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "08:00"
   },
   {
@@ -1059,6 +1194,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "16:30"
   },
   {
@@ -1091,6 +1230,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "16:00"
   },
   {
@@ -1123,6 +1266,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "17:00"
   },
   {
@@ -1155,6 +1302,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "18:00"
   },
   {
@@ -1187,6 +1338,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "15:15"
   },
   {
@@ -1219,6 +1374,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "15:30"
   },
   {
@@ -1251,6 +1410,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "08:00"
   },
   {
@@ -1283,6 +1446,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "13:00"
   },
   {
@@ -1315,6 +1482,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "09:00"
   }
 ]
