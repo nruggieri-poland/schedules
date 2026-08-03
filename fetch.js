@@ -64,6 +64,7 @@ const GAMEDAY_WINDOW_DAYS = 21;
 const GAMEDAY_FIELDS = [
   'cleanDate', 'sport', 'eventTime', 'vsOrAt', 'homeOrAway',
   'opponent', 'opponentMascot', 'opponentComplete', 'location',
+  'postSlug', 'posterFile',
 ];
 
 // Below this fraction of VEVENTs surviving parseEvent (when the feed has a
