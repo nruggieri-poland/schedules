@@ -52,6 +52,38 @@ const CONFERENCE_GAME_OVERRIDES = [
 // in git history forever.
 const ICAL_URL = process.env.EVENTLINK_ICAL_URL;
 
+// Calendar IDs for EventLink's "GetForEventWidget" endpoint — unlike the
+// schedule feed (iCal or GetByCalendarIDsWithToken), this endpoint's response
+// includes each event's final score/result. No token required. One ID per
+// varsity team, captured from the "Varsity Sports Results" widget config on
+// the school site — EventLink's per-team CalendarID happens to double as
+// this endpoint's `id` param. No JV/Freshman/Junior High IDs are known yet;
+// merging is by eventId, so events from those levels simply stay null —
+// extending coverage to another level later is just adding its calendar IDs
+// to this list.
+const VARSITY_RESULTS_CALENDAR_IDS = [
+  '3518d31b-6eaa-4563-b8f8-02f15f4a667e', // Volleyball (Girls V)
+  '1ff1a6c9-fdd4-4e58-b512-0fedab850712', // Tennis (Boys V)
+  'ca76e27f-dc00-4888-9a5a-13fc20a5753d', // Track & Field (Coed V)
+  'd7923c24-3d64-4335-925a-1db32b476f58', // Tennis (Girls V)
+  '236004e3-49ed-4928-830f-2005e8d2672f', // Soccer (Girls V)
+  'ed58864c-a4f5-4c3a-9b4b-30f93d11f7a0', // Wrestling (Boys V)
+  '8d895a47-0c33-4d6e-badb-31857feb5935', // Cross Country (Coed V)
+  'fb707cb6-68e9-4a26-97b3-469e15f2381d', // Basketball (Boys V)
+  'bdac086a-ee16-4ba2-81dd-4d0a9235fa80', // Basketball (Girls V)
+  'd60547c2-bb1a-4002-85b1-59c937c48daa', // Golf (Girls V)
+  'dbb19d41-0e5e-4386-97fc-61a65d6acdcf', // Wrestling (Girls V)
+  'ad851d54-02d2-4fc5-af92-6478eb946ae0', // Swimming (Coed V)
+  '28043f42-ff44-4cd6-83c2-872f347fab7d', // Cheerleading (Girls V)
+  '561b013b-6e77-407e-975e-8fc4fa81cf45', // Baseball (Boys V)
+  'd4fdcc08-53b2-4f23-818e-98db99adacff', // Lacrosse (Girls V)
+  'c3fb148f-03be-4bad-9ef6-ef06d7dcf227', // Soccer (Boys V)
+  'd284e8b2-a349-40f1-97de-f17ad06e9ec9', // Softball (Girls V)
+  'e072812b-b04c-4f6f-99c9-f1c25d62a2b9', // Football (Boys V)
+  '8b1eb581-d40f-4338-a4d8-f5095044646c', // Golf (Boys V)
+  '8ec94e09-d5ae-47f7-9fc5-fc4480ae4e1f', // Lacrosse (Boys V)
+];
+
 const DIFF_SNAPSHOT_PATH     = path.join(META_DIR, 'diff-snapshot.json');
 const CHANGELOG_PATH         = path.join(META_DIR, 'changelog.json');
 const CHANGELOG_MAX_ENTRIES  = 200;
@@ -247,7 +279,8 @@ const CSV_COLUMNS = [
   'eventDate', 'cleanDate', 'season', 'seasonType', 'sport', 'sportSlug', 'gender',
   'levelSlug', 'levelLabel', 'teamSlug',
   'eventTime', 'homeOrAway', 'vsOrAt', 'opponent', 'opponentMascot', 'opponentComplete',
-  'location', 'eventType', 'isCancelled', 'isPostponed', 'isTimeTBD', 'conferenceGame',
+  'location', 'eventType', 'teamScore', 'opponentScore', 'result',
+  'isCancelled', 'isPostponed', 'isTimeTBD', 'conferenceGame',
   'postSlug', 'posterFile', 'eventId',
 ];
 
@@ -507,6 +540,14 @@ function parseEvent(vevent, opponents, juniorHighOpponents, teamIndex) {
     isPostponed,
     isTimeTBD,
     conferenceGame:   eventType === 'Game' && !!conference,
+    // Populated later by applyResults() — EventLink's schedule feed (iCal or
+    // GetByCalendarIDsWithToken) carries no score data at all, only a
+    // separate per-team "GetForEventWidget" endpoint does. Defaulted here so
+    // the shape is consistent even before that enrichment step runs.
+    teamScore:        null,
+    opponentScore:    null,
+    result:           null,
+    allResults:       [],
     _time24:          time24,
   };
 }
@@ -540,7 +581,7 @@ function applyConferenceGameOverrides(event) {
 // Fields that matter for change detection — structural/scheduling data only.
 const TRACKED_FIELDS = [
   'eventDate', 'eventTime', 'homeOrAway', 'opponent', 'location',
-  'isCancelled', 'isPostponed', 'isTimeTBD', 'sport', 'levelSlug', 'eventType',
+  'isCancelled', 'isPostponed', 'isTimeTBD', 'sport', 'levelSlug', 'eventType', 'result',
 ];
 
 function diffEvents(prevEvents, nextEvents) {
@@ -597,6 +638,9 @@ function summariseEvent(e) {
     opponentComplete: e.opponentComplete,
     isCancelled:      e.isCancelled,
     isPostponed:      e.isPostponed,
+    teamScore:        e.teamScore,
+    opponentScore:    e.opponentScore,
+    result:           e.result,
   };
 }
 
@@ -724,6 +768,87 @@ function writeLevel(levelSlug, bySport, today) {
   return indexEntries;
 }
 
+// ── Results (scores/wins) ─────────────────────────────────────────────────────
+
+async function fetchEventResults(calendarId, startISO, endISO) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+  try {
+    const url = `https://api.eventlink.com/?a=GetForEventWidget&id=${calendarId}`
+      + `&start=${startISO}&end=${endISO}&m=Event&tz=${encodeURIComponent('America/New_York')}`;
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'pshs-schedule-proxy/3.0', accept: 'application/json, text/plain, */*' },
+      signal:  controller.signal,
+    });
+    if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+    const json = await res.json();
+    if (json.Error) throw new Error(json.Error);
+    return json.Data?.Events ?? [];
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+// Fetches final scores/results for every known varsity calendar and returns a
+// map of eventId → { teamScore, opponentScore, result, allResults }.
+// Best-effort: one calendar failing (rate limit, transient error) is logged
+// and skipped rather than aborting the run — this is supplementary data, so
+// missing it for one team just leaves those events null until the next fetch.
+async function fetchResultsByEventId(startISO, endISO) {
+  const resultsByEventId = new Map();
+
+  await Promise.all(VARSITY_RESULTS_CALENDAR_IDS.map(async (calendarId) => {
+    let events;
+    try {
+      events = await fetchEventResults(calendarId, startISO, endISO);
+    } catch (err) {
+      console.warn(`  [results fetch failed] calendar ${calendarId}: ${err.message}`);
+      return;
+    }
+
+    for (const ev of events) {
+      if (!ev.EventResults?.length) continue;
+
+      const allResults = ev.EventResults.map(r => ({
+        opponentName:  r.Opponent?.Title ?? null,
+        teamScore:     r.ScoreSelf,
+        opponentScore: r.ScoreOpponent,
+        result:        r.Result,
+      }));
+
+      // Multi-opponent events (track/swim/golf meets) can carry more than one
+      // EventResults entry — prefer the one matching the primary opponent
+      // resolveOpponent() would have picked, falling back to the first entry.
+      const primaryOpponentId = ev.OpponentDetails?.[0]?.Opponent?.ID;
+      const primary = ev.EventResults.find(r => r.OpponentID === primaryOpponentId) ?? ev.EventResults[0];
+
+      resultsByEventId.set(ev.ID, {
+        teamScore:     primary.ScoreSelf,
+        opponentScore: primary.ScoreOpponent,
+        result:        primary.Result,
+        allResults,
+      });
+    }
+  }));
+
+  return resultsByEventId;
+}
+
+// Merges fetchResultsByEventId()'s map onto already-parsed events, in place.
+// A no-op (fields stay null) for any event whose eventId isn't in the map —
+// expected for non-varsity levels (no calendar ID known yet) and for games
+// that haven't been played/scored yet.
+function applyResults(events, resultsByEventId) {
+  for (const e of events) {
+    const r = resultsByEventId.get(e.eventId);
+    e.teamScore     = r?.teamScore ?? null;
+    e.opponentScore = r?.opponentScore ?? null;
+    e.result        = r?.result ?? null;
+    e.allResults    = r?.allResults ?? [];
+  }
+  return events;
+}
+
 // ── Network ───────────────────────────────────────────────────────────────────
 
 async function fetchFeed() {
@@ -823,6 +948,16 @@ async function main() {
 
   const today = new Date().toISOString().split('T')[0];
 
+  // Scores/results live on a separate EventLink endpoint from the schedule
+  // itself (see fetchResultsByEventId) — fetch and merge them in before
+  // writing anything out. Best-effort: failures here are logged per-calendar
+  // and don't abort the run (see fetchEventResults).
+  const resultsWindowStart = DateTime.now().minus({ years: 1 }).toISODate();
+  const resultsWindowEnd   = DateTime.now().plus({ years: 1 }).toISODate();
+  const resultsByEventId   = await fetchResultsByEventId(resultsWindowStart, resultsWindowEnd);
+  applyResults(events, resultsByEventId);
+  console.log(`Merged results for ${resultsByEventId.size} events\n`);
+
   const byLevel = {};
   for (const e of events) {
     (byLevel[e.levelSlug] ??= {})[e.sportSlug] ??= [];
@@ -907,6 +1042,7 @@ export {
   DIFF_SNAPSHOT_PATH, ICAL_GROUPS,
   MIN_KEPT_RATIO, MIN_VEVENTS_FOR_RATIO_CHECK, GOLF_SPORT_SLUGS,
   GAMEDAY_WINDOW_DAYS, GAMEDAY_FIELDS,
+  fetchResultsByEventId, applyResults, VARSITY_RESULTS_CALENDAR_IDS,
 };
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {

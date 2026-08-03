@@ -9,6 +9,7 @@ import {
   parseTeamsCsv, applyHomeVenueOverrides, TEAMS_DIR, ROLLUPS_DIR, META_DIR,
   ICS_DIR, ICS_GROUPS_DIR, DIFF_SNAPSHOT_PATH, ICAL_GROUPS, MIN_KEPT_RATIO,
   MIN_VEVENTS_FOR_RATIO_CHECK, GOLF_SPORT_SLUGS,
+  fetchResultsByEventId, applyResults,
 } from './fetch.js';
 
 // This is a mirror of fetch.js that sources events from EventLink's JSON
@@ -226,6 +227,15 @@ async function main() {
   }
 
   const today = new Date().toISOString().split('T')[0];
+
+  // Scores/results come from a separate EventLink endpoint (see fetch.js's
+  // fetchResultsByEventId) regardless of which source produced the schedule
+  // itself — merge them in the same way fetch.js does.
+  const resultsWindowStart = DateTime.now().minus({ years: 1 }).toISODate();
+  const resultsWindowEnd   = DateTime.now().plus({ years: 1 }).toISODate();
+  const resultsByEventId   = await fetchResultsByEventId(resultsWindowStart, resultsWindowEnd);
+  applyResults(events, resultsByEventId);
+  console.log(`Merged results for ${resultsByEventId.size} events\n`);
 
   const byLevel = {};
   for (const e of events) {
