@@ -62,7 +62,7 @@ const FETCH_TIMEOUT_MS       = 30_000;
 // just the fields a gameday display needs — no season/eventId/postSlug/etc.
 const GAMEDAY_WINDOW_DAYS = 21;
 const GAMEDAY_FIELDS = [
-  'cleanDate', 'sport', 'eventTime', 'vsOrAt', 'homeOrAway',
+  'eventDate', 'cleanDate', 'sport', 'eventTime', 'vsOrAt', 'homeOrAway',
   'opponent', 'opponentMascot', 'opponentComplete', 'location',
   'postSlug', 'posterFile',
 ];
