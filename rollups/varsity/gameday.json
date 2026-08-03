@@ -1,17 +1,6 @@
 [
   {
     "cleanDate": "08/03",
-    "sport": "Boys Golf",
-    "eventTime": "08:00 AM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Girard",
-    "opponentMascot": "Indians",
-    "opponentComplete": "Girard Indians",
-    "location": "Knoll Run"
-  },
-  {
-    "cleanDate": "08/03",
     "sport": "Girls Golf",
     "eventTime": "08:00 AM",
     "vsOrAt": "@",
@@ -19,18 +8,22 @@
     "opponent": "South Range",
     "opponentMascot": "Raiders",
     "opponentComplete": "South Range Raiders",
-    "location": "Lake Milton Golf Course"
+    "location": "South Range High School",
+    "postSlug": "2026-08-03_girls-golf",
+    "posterFile": "2026-08-03_girls-golf.jpg"
   },
   {
-    "cleanDate": "08/04",
+    "cleanDate": "08/03",
     "sport": "Boys Golf",
-    "eventTime": "09:00 AM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Lakeview",
-    "opponentMascot": "Bulldogs",
-    "opponentComplete": "Lakeview Bulldogs",
-    "location": "Links Golf Course"
+    "eventTime": "08:00 AM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Girard",
+    "opponentMascot": "Indians",
+    "opponentComplete": "Girard Indians",
+    "location": "Knoll Run Golf Course",
+    "postSlug": "2026-08-03_boys-golf",
+    "posterFile": "2026-08-03_boys-golf.jpg"
   },
   {
     "cleanDate": "08/04",
@@ -41,7 +34,22 @@
     "opponent": "Tiger Invitational",
     "opponentMascot": null,
     "opponentComplete": "Tiger Invitational",
-    "location": "Old Avalon"
+    "location": "Old Avalon",
+    "postSlug": "2026-08-04_girls-golf",
+    "posterFile": "2026-08-04_girls-golf.jpg"
+  },
+  {
+    "cleanDate": "08/04",
+    "sport": "Boys Golf",
+    "eventTime": "09:00 AM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Lakeview",
+    "opponentMascot": "Bulldogs",
+    "opponentComplete": "Lakeview Bulldogs",
+    "location": "Lakeview High School",
+    "postSlug": "2026-08-04_boys-golf",
+    "posterFile": "2026-08-04_boys-golf.jpg"
   },
   {
     "cleanDate": "08/05",
@@ -52,7 +60,22 @@
     "opponent": "Brookfield Invitational",
     "opponentMascot": null,
     "opponentComplete": "Brookfield Invitational",
-    "location": "Yankee Run"
+    "location": "Brookfield High School",
+    "postSlug": "2026-08-05_boys-golf",
+    "posterFile": "2026-08-05_boys-golf.jpg"
+  },
+  {
+    "cleanDate": "08/06",
+    "sport": "Girls Golf",
+    "eventTime": "08:00 AM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Lakeview",
+    "opponentMascot": "Bulldogs",
+    "opponentComplete": "Lakeview Bulldogs",
+    "location": "Knoll Run Golf Course",
+    "postSlug": "2026-08-06_girls-golf",
+    "posterFile": "2026-08-06_girls-golf.jpg"
   },
   {
     "cleanDate": "08/06",
@@ -63,18 +86,9 @@
     "opponent": "Yank Heisler Invitational",
     "opponentMascot": null,
     "opponentComplete": "Yank Heisler Invitational",
-    "location": "Windmill Lakes"
-  },
-  {
-    "cleanDate": "08/06",
-    "sport": "Girls Golf",
-    "eventTime": "08:00 AM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Lakeview",
-    "opponentMascot": "Bulldogs",
-    "opponentComplete": "Lakeview Bulldogs",
-    "location": "Knoll Run"
+    "location": "Windmill Lakes",
+    "postSlug": "2026-08-06_boys-golf",
+    "posterFile": "2026-08-06_boys-golf.jpg"
   },
   {
     "cleanDate": "08/06",
@@ -85,7 +99,9 @@
     "opponent": "Louisville",
     "opponentMascot": "Leopards",
     "opponentComplete": "Louisville Leopards",
-    "location": "Poland Seminary High School"
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-08-06_boys-soccer",
+    "posterFile": "2026-08-06_boys-soccer.jpg"
   },
   {
     "cleanDate": "08/07",
@@ -96,7 +112,9 @@
     "opponent": "Joe Eaton Golf Invitational",
     "opponentMascot": null,
     "opponentComplete": "Joe Eaton Golf Invitational",
-    "location": "Tannenhauf Golf Course"
+    "location": "Tannenhauf Golf Course",
+    "postSlug": "2026-08-07_boys-golf",
+    "posterFile": "2026-08-07_boys-golf.jpg"
   },
   {
     "cleanDate": "08/07",
@@ -107,7 +125,9 @@
     "opponent": "Streetsboro",
     "opponentMascot": "Rockets",
     "opponentComplete": "Streetsboro Rockets",
-    "location": "Poland Seminary High School"
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-08-07_football",
+    "posterFile": "2026-08-07_football.jpg"
   },
   {
     "cleanDate": "08/07",
@@ -118,7 +138,9 @@
     "opponent": "Austintown Fitch",
     "opponentMascot": "Falcons",
     "opponentComplete": "Austintown Fitch Falcons",
-    "location": "Austintown Fitch High School"
+    "location": "Austintown Fitch High School",
+    "postSlug": "2026-08-07_girls-tennis",
+    "posterFile": "2026-08-07_girls-tennis.jpg"
   },
   {
     "cleanDate": "08/07",
@@ -129,7 +151,9 @@
     "opponent": "John F. Kennedy",
     "opponentMascot": "Fighting Eagles",
     "opponentComplete": "John F. Kennedy Fighting Eagles",
-    "location": "Poland Seminary High School"
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-08-07_girls-soccer",
+    "posterFile": "2026-08-07_girls-soccer.jpg"
   },
   {
     "cleanDate": "08/08",
@@ -140,7 +164,9 @@
     "opponent": "Howland",
     "opponentMascot": "Tigers",
     "opponentComplete": "Howland Tigers",
-    "location": "Howland High School"
+    "location": "Howland High School",
+    "postSlug": "2026-08-08_boys-soccer",
+    "posterFile": "2026-08-08_boys-soccer.jpg"
   },
   {
     "cleanDate": "08/10",
@@ -151,7 +177,9 @@
     "opponent": "Columbiana",
     "opponentMascot": "Clippers",
     "opponentComplete": "Columbiana Clippers",
-    "location": "Knoll Run"
+    "location": "Knoll Run Golf Course",
+    "postSlug": "2026-08-10_boys-golf",
+    "posterFile": "2026-08-10_boys-golf.jpg"
   },
   {
     "cleanDate": "08/10",
@@ -162,7 +190,9 @@
     "opponent": "Ursuline",
     "opponentMascot": "Fighting Irish",
     "opponentComplete": "Ursuline Fighting Irish",
-    "location": "YSU"
+    "location": "YSU",
+    "postSlug": "2026-08-10_girls-tennis",
+    "posterFile": "2026-08-10_girls-tennis.jpg"
   },
   {
     "cleanDate": "08/11",
@@ -173,7 +203,9 @@
     "opponent": "NE Ohio Invitational",
     "opponentMascot": null,
     "opponentComplete": "NE Ohio Invitational",
-    "location": "JE Good Park"
+    "location": "JE Good Park",
+    "postSlug": "2026-08-11_boys-golf",
+    "posterFile": "2026-08-11_boys-golf.jpg"
   },
   {
     "cleanDate": "08/11",
@@ -184,7 +216,9 @@
     "opponent": "Girard",
     "opponentMascot": "Indians",
     "opponentComplete": "Girard Indians",
-    "location": "Mahoning CC"
+    "location": "Girard Sr High School",
+    "postSlug": "2026-08-11_girls-golf",
+    "posterFile": "2026-08-11_girls-golf.jpg"
   },
   {
     "cleanDate": "08/12",
@@ -195,7 +229,9 @@
     "opponent": "Girard",
     "opponentMascot": "Indians",
     "opponentComplete": "Girard Indians",
-    "location": "Knoll Run"
+    "location": "Knoll Run Golf Course",
+    "postSlug": "2026-08-12_girls-golf",
+    "posterFile": "2026-08-12_girls-golf.jpg"
   },
   {
     "cleanDate": "08/12",
@@ -206,7 +242,9 @@
     "opponent": "Chagrin Falls",
     "opponentMascot": "Tigers",
     "opponentComplete": "Chagrin Falls Tigers",
-    "location": "Chagrin Falls High School"
+    "location": "Chagrin Falls High School",
+    "postSlug": "2026-08-12_boys-soccer",
+    "posterFile": "2026-08-12_boys-soccer.jpg"
   },
   {
     "cleanDate": "08/13",
@@ -217,7 +255,9 @@
     "opponent": "Canfield",
     "opponentMascot": "Cardinals",
     "opponentComplete": "Canfield Cardinals",
-    "location": "Knoll Run"
+    "location": "Knoll Run Golf Course",
+    "postSlug": "2026-08-13_boys-golf",
+    "posterFile": "2026-08-13_boys-golf.jpg"
   },
   {
     "cleanDate": "08/13",
@@ -228,7 +268,9 @@
     "opponent": "Boardman",
     "opponentMascot": "Spartans",
     "opponentComplete": "Boardman Spartans",
-    "location": "Mill Creek"
+    "location": "Boardman High School",
+    "postSlug": "2026-08-13_girls-golf",
+    "posterFile": "2026-08-13_girls-golf.jpg"
   },
   {
     "cleanDate": "08/13",
@@ -239,7 +281,9 @@
     "opponent": "Liberty",
     "opponentMascot": "Leopards",
     "opponentComplete": "Liberty Leopards",
-    "location": "Liberty High School"
+    "location": "Liberty High School",
+    "postSlug": "2026-08-13_girls-tennis",
+    "posterFile": "2026-08-13_girls-tennis.jpg"
   },
   {
     "cleanDate": "08/13",
@@ -250,7 +294,9 @@
     "opponent": "Louisville",
     "opponentMascot": "Leopards",
     "opponentComplete": "Louisville Leopards",
-    "location": "Poland Seminary High School"
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-08-13_football",
+    "posterFile": "2026-08-13_football.jpg"
   },
   {
     "cleanDate": "08/14",
@@ -261,7 +307,9 @@
     "opponent": "Cardinal Classic",
     "opponentMascot": null,
     "opponentComplete": "Cardinal Classic",
-    "location": "Mill Creek"
+    "location": "Mill Creek",
+    "postSlug": "2026-08-14_boys-golf",
+    "posterFile": "2026-08-14_boys-golf.jpg"
   },
   {
     "cleanDate": "08/15",
@@ -272,7 +320,9 @@
     "opponent": "Marlington",
     "opponentMascot": "Dukes",
     "opponentComplete": "Marlington Dukes",
-    "location": "Marlington High School"
+    "location": "Marlington High School",
+    "postSlug": "2026-08-15_boys-soccer",
+    "posterFile": "2026-08-15_boys-soccer.jpg"
   },
   {
     "cleanDate": "08/17",
@@ -283,7 +333,9 @@
     "opponent": "Hubbard",
     "opponentMascot": "Eagles",
     "opponentComplete": "Hubbard Eagles",
-    "location": "Knoll Run"
+    "location": "Knoll Run Golf Course",
+    "postSlug": "2026-08-17_girls-golf",
+    "posterFile": "2026-08-17_girls-golf.jpg"
   },
   {
     "cleanDate": "08/17",
@@ -294,7 +346,9 @@
     "opponent": "Hubbard",
     "opponentMascot": "Eagles",
     "opponentComplete": "Hubbard Eagles",
-    "location": "Pine Lakes"
+    "location": "Hubbard High School",
+    "postSlug": "2026-08-17_boys-golf",
+    "posterFile": "2026-08-17_boys-golf.jpg"
   },
   {
     "cleanDate": "08/17",
@@ -305,7 +359,9 @@
     "opponent": "Niles",
     "opponentMascot": "Red Dragons",
     "opponentComplete": "Niles Red Dragons",
-    "location": "Poland Seminary High School"
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-08-17_girls-tennis",
+    "posterFile": "2026-08-17_girls-tennis.jpg"
   },
   {
     "cleanDate": "08/17",
@@ -316,7 +372,9 @@
     "opponent": "Howland",
     "opponentMascot": "Tigers",
     "opponentComplete": "Howland Tigers",
-    "location": "Howland High School"
+    "location": "Howland High School",
+    "postSlug": "2026-08-17_girls-soccer",
+    "posterFile": "2026-08-17_girls-soccer.jpg"
   },
   {
     "cleanDate": "08/18",
@@ -327,7 +385,9 @@
     "opponent": "Niles",
     "opponentMascot": "Red Dragons",
     "opponentComplete": "Niles Red Dragons",
-    "location": "Knoll Run"
+    "location": "Knoll Run Golf Course",
+    "postSlug": "2026-08-18_boys-golf",
+    "posterFile": "2026-08-18_boys-golf.jpg"
   },
   {
     "cleanDate": "08/18",
@@ -338,7 +398,9 @@
     "opponent": "Ursuline",
     "opponentMascot": "Fighting Irish",
     "opponentComplete": "Ursuline Fighting Irish",
-    "location": "Poland Seminary High School"
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-08-18_girls-tennis",
+    "posterFile": "2026-08-18_girls-tennis.jpg"
   },
   {
     "cleanDate": "08/18",
@@ -349,7 +411,9 @@
     "opponent": "Boardman",
     "opponentMascot": "Spartans",
     "opponentComplete": "Boardman Spartans",
-    "location": "Boardman High School"
+    "location": "Boardman High School",
+    "postSlug": "2026-08-18_boys-soccer",
+    "posterFile": "2026-08-18_boys-soccer.jpg"
   },
   {
     "cleanDate": "08/19",
@@ -360,7 +424,9 @@
     "opponent": "South Range Tournament",
     "opponentMascot": null,
     "opponentComplete": "South Range Tournament",
-    "location": "South Range High School"
+    "location": "South Range High School",
+    "postSlug": "2026-08-19_girls-golf",
+    "posterFile": "2026-08-19_girls-golf.jpg"
   },
   {
     "cleanDate": "08/19",
@@ -371,7 +437,9 @@
     "opponent": "Girard",
     "opponentMascot": "Indians",
     "opponentComplete": "Girard Indians",
-    "location": "Poland Seminary High School"
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-08-19_girls-tennis",
+    "posterFile": "2026-08-19_girls-tennis.jpg"
   },
   {
     "cleanDate": "08/20",
@@ -382,7 +450,9 @@
     "opponent": "South Range",
     "opponentMascot": "Raiders",
     "opponentComplete": "South Range Raiders",
-    "location": "Knoll Run"
+    "location": "Knoll Run Golf Course",
+    "postSlug": "2026-08-20_boys-golf",
+    "posterFile": "2026-08-20_boys-golf.jpg"
   },
   {
     "cleanDate": "08/20",
@@ -393,7 +463,9 @@
     "opponent": "Niles",
     "opponentMascot": "Red Dragons",
     "opponentComplete": "Niles Red Dragons",
-    "location": "Niles McKinley High School"
+    "location": "Niles McKinley High School",
+    "postSlug": "2026-08-20_girls-golf",
+    "posterFile": "2026-08-20_girls-golf.jpg"
   },
   {
     "cleanDate": "08/20",
@@ -404,7 +476,9 @@
     "opponent": "Hubbard",
     "opponentMascot": "Eagles",
     "opponentComplete": "Hubbard Eagles",
-    "location": "Hubbard High School"
+    "location": "Hubbard High School",
+    "postSlug": "2026-08-20_boys-soccer",
+    "posterFile": "2026-08-20_boys-soccer.jpg"
   },
   {
     "cleanDate": "08/20",
@@ -415,7 +489,9 @@
     "opponent": "Hubbard",
     "opponentMascot": "Eagles",
     "opponentComplete": "Hubbard Eagles",
-    "location": "Hubbard High School"
+    "location": "Hubbard High School",
+    "postSlug": "2026-08-20_girls-soccer",
+    "posterFile": "2026-08-20_girls-soccer.jpg"
   },
   {
     "cleanDate": "08/21",
@@ -426,7 +502,9 @@
     "opponent": "Salem",
     "opponentMascot": "Quakers",
     "opponentComplete": "Salem Quakers",
-    "location": "Poland Seminary High School"
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-08-21_football",
+    "posterFile": "2026-08-21_football.jpg"
   },
   {
     "cleanDate": "08/24",
@@ -437,7 +515,9 @@
     "opponent": "Hubbard",
     "opponentMascot": "Eagles",
     "opponentComplete": "Hubbard Eagles",
-    "location": "Knoll Run"
+    "location": "Knoll Run Golf Course",
+    "postSlug": "2026-08-24_boys-golf",
+    "posterFile": "2026-08-24_boys-golf.jpg"
   },
   {
     "cleanDate": "08/24",
@@ -448,7 +528,9 @@
     "opponent": "Lakeview",
     "opponentMascot": "Bulldogs",
     "opponentComplete": "Lakeview Bulldogs",
-    "location": "Tamer Win"
+    "location": "Lakeview High School",
+    "postSlug": "2026-08-24_girls-golf",
+    "posterFile": "2026-08-24_girls-golf.jpg"
   },
   {
     "cleanDate": "08/24",
@@ -459,18 +541,9 @@
     "opponent": "Niles",
     "opponentMascot": "Red Dragons",
     "opponentComplete": "Niles Red Dragons",
-    "location": "Niles McKinley High School"
-  },
-  {
-    "cleanDate": "08/24",
-    "sport": "Girls Soccer",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Niles",
-    "opponentMascot": "Red Dragons",
-    "opponentComplete": "Niles Red Dragons",
-    "location": "Niles McKinley High School"
+    "location": "Niles McKinley High School",
+    "postSlug": "2026-08-24_boys-soccer",
+    "posterFile": "2026-08-24_boys-soccer.jpg"
   },
   {
     "cleanDate": "08/24",
@@ -481,6 +554,21 @@
     "opponent": "Campbell",
     "opponentMascot": "Red Devils",
     "opponentComplete": "Campbell Red Devils",
-    "location": "Poland Seminary High School"
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-08-24_volleyball",
+    "posterFile": "2026-08-24_volleyball.jpg"
+  },
+  {
+    "cleanDate": "08/24",
+    "sport": "Girls Soccer",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Niles",
+    "opponentMascot": "Red Dragons",
+    "opponentComplete": "Niles Red Dragons",
+    "location": "Niles McKinley High School",
+    "postSlug": "2026-08-24_girls-soccer",
+    "posterFile": "2026-08-24_girls-soccer.jpg"
   }
 ]
