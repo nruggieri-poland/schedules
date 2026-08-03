@@ -6,7 +6,7 @@ import { createHash } from 'node:crypto';
 import {
   parseEvent, writeLevel, writeIcal, writeChangelog, logDiff,
   validateOpponents, diffEvents, sortByDateTime, buildTeamSlugIndex,
-  parseTeamsCsv, applyHomeVenueOverrides, TEAMS_DIR, ROLLUPS_DIR, META_DIR,
+  parseTeamsCsv, applyHomeVenueOverrides, applyConferenceGameOverrides, TEAMS_DIR, ROLLUPS_DIR, META_DIR,
   ICS_DIR, ICS_GROUPS_DIR, DIFF_SNAPSHOT_PATH, ICAL_GROUPS, MIN_KEPT_RATIO,
   MIN_VEVENTS_FOR_RATIO_CHECK, GOLF_SPORT_SLUGS,
   fetchResultsByEventId, applyResults,
@@ -189,7 +189,8 @@ async function main() {
   const events = vevents
     .map(v => parseEvent(v, opponents, juniorHighOpponents, teamIndex))
     .filter(Boolean)
-    .map(applyHomeVenueOverrides);
+    .map(applyHomeVenueOverrides)
+    .map(applyConferenceGameOverrides);
 
   // Location (record.Location) is just the host school, which for golf tells
   // you nothing about which course the match is actually played at — home and
