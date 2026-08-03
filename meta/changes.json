@@ -1,45 +1,27 @@
 {
-  "generatedAt": "2026-08-01T16:54:21.586Z",
+  "generatedAt": "2026-08-03T04:06:54.003Z",
   "added": [],
-  "removed": [],
-  "changed": [
+  "removed": [
     {
-      "eventId": "6fabda4c-ceec-4edb-8703-38f154d9faed",
-      "eventDate": "2026-08-07",
-      "sport": "Girls Tennis",
-      "levelLabel": "Varsity",
+      "eventId": "1733918d-3f0b-4558-85ce-9771ca257ca1",
+      "eventDate": "2025-08-02",
+      "sport": "Boys Soccer",
+      "levelLabel": "JV",
       "vsOrAt": "@",
-      "opponentComplete": "Austintown Fitch Falcons",
+      "opponentComplete": "Louisville Leopards",
       "isCancelled": false,
-      "isPostponed": false,
-      "fields": [
-        "eventTime"
-      ],
-      "before": {
-        "eventTime": "04:00 PM"
-      },
-      "after": {
-        "eventTime": "11:00 AM"
-      }
+      "isPostponed": false
     },
     {
-      "eventId": "9fd02d89-006e-415f-8bd2-fa75cd6fb4a0",
-      "eventDate": "2026-08-19",
-      "sport": "Football",
-      "levelLabel": "8th Grade",
+      "eventId": "547412db-70c5-4a07-ba10-fcf340ddb24b",
+      "eventDate": "2025-08-02",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Boardman High School",
+      "opponentComplete": "Louisville Leopards",
       "isCancelled": false,
-      "isPostponed": false,
-      "fields": [
-        "eventTime"
-      ],
-      "before": {
-        "eventTime": "06:45 PM"
-      },
-      "after": {
-        "eventTime": "07:15 PM"
-      }
+      "isPostponed": false
     }
-  ]
+  ],
+  "changed": []
 }

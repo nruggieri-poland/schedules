@@ -22990,5 +22990,32 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-03T04:06:54.003Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "1733918d-3f0b-4558-85ce-9771ca257ca1",
+        "eventDate": "2025-08-02",
+        "sport": "Boys Soccer",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "Louisville Leopards",
+        "isCancelled": false,
+        "isPostponed": false
+      },
+      {
+        "eventId": "547412db-70c5-4a07-ba10-fcf340ddb24b",
+        "eventDate": "2025-08-02",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Louisville Leopards",
+        "isCancelled": false,
+        "isPostponed": false
+      }
+    ],
+    "changed": []
   }
 ]
