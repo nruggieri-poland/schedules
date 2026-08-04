@@ -50895,5 +50895,129 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-04T13:59:40.507Z",
+    "added": [
+      {
+        "eventId": "28a4ae61-fdb0-4d1c-bd3f-3f199ee57d67",
+        "eventDate": "2026-08-06",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Springfield Local",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "411e2df7-e7e9-4f93-92a5-357bfc95161b",
+        "eventDate": "2027-04-02",
+        "sport": "Baseball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Springfield Local",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "1d28f262-4701-4716-a5d0-03d7830a03f9",
+        "eventDate": "2027-04-02",
+        "sport": "Baseball",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "Springfield Local",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "a0a0b149-c5ef-4d28-ab84-e8d213b08ff8",
+        "eventDate": "2027-04-08",
+        "sport": "Baseball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Howland Tigers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "cb68c5a8-a9fe-4d79-952c-f4b3e5f33313",
+        "eventDate": "2027-04-08",
+        "sport": "Baseball",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "Howland Tigers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "71b182bd-bf12-4f40-b2b9-6153fa61abf0",
+        "eventDate": "2027-04-15",
+        "sport": "Baseball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Boardman Spartans",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "93c94678-ab74-4cbf-8923-8c47ed1081af",
+        "eventDate": "2027-04-15",
+        "sport": "Baseball",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "Boardman Spartans",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "17147a0e-54b2-47cc-8abd-3bf0fd1ad840",
+        "eventDate": "2027-04-22",
+        "sport": "Baseball",
+        "levelLabel": "JV",
+        "vsOrAt": "vs",
+        "opponentComplete": "Canfield Cardinals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "3d6c7ad6-a4be-4b39-ac1b-01e404dc4593",
+        "eventDate": "2027-04-22",
+        "sport": "Baseball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Canfield Cardinals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "removed": [],
+    "changed": []
   }
 ]
