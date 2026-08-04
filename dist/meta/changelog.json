@@ -51075,5 +51075,34 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-04T21:02:27.044Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "51397ffc-d9c7-4b7f-b935-7248250b0077",
+        "eventDate": "2026-08-04",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 168,
+        "opponentScore": 159,
+        "result": "Loss",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": "Win"
+        },
+        "after": {
+          "result": "Loss"
+        }
+      }
+    ]
   }
 ]
