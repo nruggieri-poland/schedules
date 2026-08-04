@@ -1,33 +1,5 @@
 [
   {
-    "eventDate": "2026-08-03",
-    "cleanDate": "08/03",
-    "sport": "Boys Golf",
-    "eventTime": "08:00 AM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Girard",
-    "opponentMascot": "Indians",
-    "opponentComplete": "Girard Indians",
-    "location": "Knoll Run",
-    "postSlug": "2026-08-03_boys-golf",
-    "posterFile": "2026-08-03_boys-golf.jpg"
-  },
-  {
-    "eventDate": "2026-08-03",
-    "cleanDate": "08/03",
-    "sport": "Girls Golf",
-    "eventTime": "08:00 AM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "South Range",
-    "opponentMascot": "Raiders",
-    "opponentComplete": "South Range Raiders",
-    "location": "Lake Milton Golf Course",
-    "postSlug": "2026-08-03_girls-golf",
-    "posterFile": "2026-08-03_girls-golf.jpg"
-  },
-  {
     "eventDate": "2026-08-04",
     "cleanDate": "08/04",
     "sport": "Boys Golf",
@@ -614,5 +586,33 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-08-24_volleyball",
     "posterFile": "2026-08-24_volleyball.jpg"
+  },
+  {
+    "eventDate": "2026-08-25",
+    "cleanDate": "08/25",
+    "sport": "Girls Tennis",
+    "eventTime": "04:00 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Lakeview",
+    "opponentMascot": "Bulldogs",
+    "opponentComplete": "Lakeview Bulldogs",
+    "location": "Lakeview High School",
+    "postSlug": "2026-08-25_girls-tennis",
+    "posterFile": "2026-08-25_girls-tennis.jpg"
+  },
+  {
+    "eventDate": "2026-08-25",
+    "cleanDate": "08/25",
+    "sport": "Volleyball",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Lakeview",
+    "opponentMascot": "Bulldogs",
+    "opponentComplete": "Lakeview Bulldogs",
+    "location": "Lakeview High School",
+    "postSlug": "2026-08-25_volleyball",
+    "posterFile": "2026-08-25_volleyball.jpg"
   }
 ]
