@@ -51019,5 +51019,61 @@
     ],
     "removed": [],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-08-04T16:14:10.252Z",
+    "added": [
+      {
+        "eventId": "afe53264-444f-4c20-9a4f-3e0a3c4350e8",
+        "eventDate": "2027-05-14",
+        "sport": "Baseball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Salem Quakers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "0a564b4e-1821-4d04-be49-eb69e4837256",
+        "eventDate": "2027-05-14",
+        "sport": "Baseball",
+        "levelLabel": "JV",
+        "vsOrAt": "vs",
+        "opponentComplete": "Salem Quakers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "51397ffc-d9c7-4b7f-b935-7248250b0077",
+        "eventDate": "2026-08-04",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 168,
+        "opponentScore": 159,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
