@@ -1,33 +1,5 @@
 [
   {
-    "eventDate": "2026-08-04",
-    "cleanDate": "08/04",
-    "sport": "Boys Golf",
-    "eventTime": "09:00 AM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Lakeview",
-    "opponentMascot": "Bulldogs",
-    "opponentComplete": "Lakeview Bulldogs",
-    "location": "Links Golf Course",
-    "postSlug": "2026-08-04_boys-golf",
-    "posterFile": "2026-08-04_boys-golf.jpg"
-  },
-  {
-    "eventDate": "2026-08-04",
-    "cleanDate": "08/04",
-    "sport": "Girls Golf",
-    "eventTime": "09:00 AM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Tiger Invitational",
-    "opponentMascot": null,
-    "opponentComplete": "Tiger Invitational",
-    "location": "Old Avalon",
-    "postSlug": "2026-08-04_girls-golf",
-    "posterFile": "2026-08-04_girls-golf.jpg"
-  },
-  {
     "eventDate": "2026-08-05",
     "cleanDate": "08/05",
     "sport": "Boys Golf",
@@ -628,5 +600,33 @@
     "location": "Lakeview High School",
     "postSlug": "2026-08-25_volleyball",
     "posterFile": "2026-08-25_volleyball.jpg"
+  },
+  {
+    "eventDate": "2026-08-26",
+    "cleanDate": "08/26",
+    "sport": "Girls Tennis",
+    "eventTime": "04:00 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Struthers",
+    "opponentMascot": "Wildcats",
+    "opponentComplete": "Struthers Wildcats",
+    "location": "Struthers High School",
+    "postSlug": "2026-08-26_girls-tennis",
+    "posterFile": "2026-08-26_girls-tennis.jpg"
+  },
+  {
+    "eventDate": "2026-08-26",
+    "cleanDate": "08/26",
+    "sport": "Boys Golf",
+    "eventTime": "04:30 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Girard",
+    "opponentMascot": "Indians",
+    "opponentComplete": "Girard Indians",
+    "location": "Mahoning CC",
+    "postSlug": "2026-08-26_boys-golf",
+    "posterFile": "2026-08-26_boys-golf.jpg"
   }
 ]
