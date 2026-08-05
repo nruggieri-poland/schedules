@@ -1,20 +1,29 @@
 {
-  "generatedAt": "2026-08-05T17:20:50.517Z",
+  "generatedAt": "2026-08-05T18:59:36.354Z",
   "added": [],
-  "removed": [
+  "removed": [],
+  "changed": [
     {
-      "eventId": "838dbb4a-68a7-44e3-b867-5c3ee886db9b",
-      "eventDate": "2026-08-14",
+      "eventId": "72f101df-9ddf-4ac9-b251-b1d884287168",
+      "eventDate": "2026-08-05",
       "sport": "Boys Golf",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Cardinal Classic",
+      "opponentComplete": "Brookfield Invitational",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
+      "teamScore": 318,
       "opponentScore": null,
-      "result": null
+      "result": "Second",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Second"
+      }
     }
-  ],
-  "changed": []
+  ]
 }

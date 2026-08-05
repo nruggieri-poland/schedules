@@ -769,10 +769,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
+    "teamScore": 318,
     "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "result": "Second",
+    "allResults": [
+      {
+        "opponentName": "Brookfield High School",
+        "teamScore": 318,
+        "opponentScore": null,
+        "result": "Second"
+      }
+    ],
     "_time24": "08:30"
   },
   {
