@@ -16,20 +16,6 @@
   {
     "eventDate": "2026-08-06",
     "cleanDate": "08/06",
-    "sport": "Boys Golf",
-    "eventTime": "08:00 AM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Yank Heisler Invitational",
-    "opponentMascot": null,
-    "opponentComplete": "Yank Heisler Invitational",
-    "location": "Windmill Lakes",
-    "postSlug": "2026-08-06_boys-golf",
-    "posterFile": "2026-08-06_boys-golf.jpg"
-  },
-  {
-    "eventDate": "2026-08-06",
-    "cleanDate": "08/06",
     "sport": "Girls Golf",
     "eventTime": "08:00 AM",
     "vsOrAt": "vs",
@@ -40,6 +26,20 @@
     "location": "Knoll Run",
     "postSlug": "2026-08-06_girls-golf",
     "posterFile": "2026-08-06_girls-golf.jpg"
+  },
+  {
+    "eventDate": "2026-08-06",
+    "cleanDate": "08/06",
+    "sport": "Boys Golf",
+    "eventTime": "08:00 AM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Yank Heisler Invitational",
+    "opponentMascot": null,
+    "opponentComplete": "Yank Heisler Invitational",
+    "location": "Windmill Lakes",
+    "postSlug": "2026-08-06_boys-golf",
+    "posterFile": "2026-08-06_boys-golf.jpg"
   },
   {
     "eventDate": "2026-08-06",
@@ -548,20 +548,6 @@
   {
     "eventDate": "2026-08-24",
     "cleanDate": "08/24",
-    "sport": "Girls Soccer",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Niles",
-    "opponentMascot": "Red Dragons",
-    "opponentComplete": "Niles Red Dragons",
-    "location": "Niles McKinley High School",
-    "postSlug": "2026-08-24_girls-soccer",
-    "posterFile": "2026-08-24_girls-soccer.jpg"
-  },
-  {
-    "eventDate": "2026-08-24",
-    "cleanDate": "08/24",
     "sport": "Volleyball",
     "eventTime": "07:00 PM",
     "vsOrAt": "vs",
@@ -572,6 +558,20 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-08-24_volleyball",
     "posterFile": "2026-08-24_volleyball.jpg"
+  },
+  {
+    "eventDate": "2026-08-24",
+    "cleanDate": "08/24",
+    "sport": "Girls Soccer",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Niles",
+    "opponentMascot": "Red Dragons",
+    "opponentComplete": "Niles Red Dragons",
+    "location": "Niles McKinley High School",
+    "postSlug": "2026-08-24_girls-soccer",
+    "posterFile": "2026-08-24_girls-soccer.jpg"
   },
   {
     "eventDate": "2026-08-25",
