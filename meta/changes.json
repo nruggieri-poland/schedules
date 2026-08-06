@@ -1,29 +1,46 @@
 {
-  "generatedAt": "2026-08-05T18:59:36.354Z",
+  "generatedAt": "2026-08-06T11:57:22.322Z",
   "added": [],
-  "removed": [],
-  "changed": [
+  "removed": [
     {
-      "eventId": "72f101df-9ddf-4ac9-b251-b1d884287168",
-      "eventDate": "2026-08-05",
+      "eventId": "756db717-7ab7-47cf-b502-7cf543ef2e9f",
+      "eventDate": "2025-08-05",
+      "sport": "Girls Golf",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Tiger Invitational",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "21e5bde5-b66e-43c5-8895-389b023c4a62",
+      "eventDate": "2025-08-05",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Ursuline Fighting Irish",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "c3cd01dc-977d-4346-ac64-82770d0fb64b",
+      "eventDate": "2025-08-05",
       "sport": "Boys Golf",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Brookfield Invitational",
+      "opponentComplete": "South Range HS",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 318,
+      "teamScore": null,
       "opponentScore": null,
-      "result": "Second",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Second"
-      }
+      "result": null
     }
-  ]
+  ],
+  "changed": []
 }
