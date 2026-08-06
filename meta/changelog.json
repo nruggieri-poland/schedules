@@ -51285,5 +51285,48 @@
     ],
     "removed": [],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-08-06T23:57:44.479Z",
+    "added": [
+      {
+        "eventId": "5cda1433-db7d-41d8-a50c-4739ceb911fa",
+        "eventDate": "2026-08-12",
+        "sport": "Girls Tennis",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "03b53d1a-b757-45c5-a038-370dfc28912e",
+        "eventDate": "2026-08-13",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Boardman Spartans",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "10:00 AM"
+        },
+        "after": {
+          "eventTime": "12:00 PM"
+        }
+      }
+    ]
   }
 ]
