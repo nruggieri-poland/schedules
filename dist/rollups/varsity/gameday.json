@@ -1,19 +1,5 @@
 [
   {
-    "eventDate": "2026-08-05",
-    "cleanDate": "08/05",
-    "sport": "Boys Golf",
-    "eventTime": "08:30 AM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Brookfield Invitational",
-    "opponentMascot": null,
-    "opponentComplete": "Brookfield Invitational",
-    "location": "Yankee Run",
-    "postSlug": "2026-08-05_boys-golf",
-    "posterFile": "2026-08-05_boys-golf.jpg"
-  },
-  {
     "eventDate": "2026-08-06",
     "cleanDate": "08/06",
     "sport": "Girls Golf",
@@ -614,5 +600,61 @@
     "location": "Mahoning CC",
     "postSlug": "2026-08-26_boys-golf",
     "posterFile": "2026-08-26_boys-golf.jpg"
+  },
+  {
+    "eventDate": "2026-08-27",
+    "cleanDate": "08/27",
+    "sport": "Boys Golf",
+    "eventTime": "04:00 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Niles",
+    "opponentMascot": "Red Dragons",
+    "opponentComplete": "Niles Red Dragons",
+    "location": "Old Avalon",
+    "postSlug": "2026-08-27_boys-golf",
+    "posterFile": "2026-08-27_boys-golf.jpg"
+  },
+  {
+    "eventDate": "2026-08-27",
+    "cleanDate": "08/27",
+    "sport": "Boys Soccer",
+    "eventTime": "05:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Crestview",
+    "opponentMascot": "Rebels",
+    "opponentComplete": "Crestview Rebels",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-08-27_boys-soccer",
+    "posterFile": "2026-08-27_boys-soccer.jpg"
+  },
+  {
+    "eventDate": "2026-08-27",
+    "cleanDate": "08/27",
+    "sport": "Volleyball",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "South Range",
+    "opponentMascot": "Raiders",
+    "opponentComplete": "South Range Raiders",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-08-27_volleyball",
+    "posterFile": "2026-08-27_volleyball.jpg"
+  },
+  {
+    "eventDate": "2026-08-27",
+    "cleanDate": "08/27",
+    "sport": "Girls Soccer",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Struthers",
+    "opponentMascot": "Wildcats",
+    "opponentComplete": "Struthers Wildcats",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-08-27_girls-soccer",
+    "posterFile": "2026-08-27_girls-soccer.jpg"
   }
 ]
