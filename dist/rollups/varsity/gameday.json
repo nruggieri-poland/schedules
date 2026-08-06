@@ -2,20 +2,6 @@
   {
     "eventDate": "2026-08-06",
     "cleanDate": "08/06",
-    "sport": "Girls Golf",
-    "eventTime": "08:00 AM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Lakeview",
-    "opponentMascot": "Bulldogs",
-    "opponentComplete": "Lakeview Bulldogs",
-    "location": "Knoll Run",
-    "postSlug": "2026-08-06_girls-golf",
-    "posterFile": "2026-08-06_girls-golf.jpg"
-  },
-  {
-    "eventDate": "2026-08-06",
-    "cleanDate": "08/06",
     "sport": "Boys Golf",
     "eventTime": "08:00 AM",
     "vsOrAt": "@",
@@ -26,6 +12,20 @@
     "location": "Windmill Lakes",
     "postSlug": "2026-08-06_boys-golf",
     "posterFile": "2026-08-06_boys-golf.jpg"
+  },
+  {
+    "eventDate": "2026-08-06",
+    "cleanDate": "08/06",
+    "sport": "Girls Golf",
+    "eventTime": "08:00 AM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Lakeview",
+    "opponentMascot": "Bulldogs",
+    "opponentComplete": "Lakeview Bulldogs",
+    "location": "Knoll Run",
+    "postSlug": "2026-08-06_girls-golf",
+    "posterFile": "2026-08-06_girls-golf.jpg"
   },
   {
     "eventDate": "2026-08-06",
@@ -520,20 +520,6 @@
   {
     "eventDate": "2026-08-24",
     "cleanDate": "08/24",
-    "sport": "Volleyball",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Campbell",
-    "opponentMascot": "Red Devils",
-    "opponentComplete": "Campbell Red Devils",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-08-24_volleyball",
-    "posterFile": "2026-08-24_volleyball.jpg"
-  },
-  {
-    "eventDate": "2026-08-24",
-    "cleanDate": "08/24",
     "sport": "Girls Soccer",
     "eventTime": "07:00 PM",
     "vsOrAt": "@",
@@ -544,6 +530,20 @@
     "location": "Niles McKinley High School",
     "postSlug": "2026-08-24_girls-soccer",
     "posterFile": "2026-08-24_girls-soccer.jpg"
+  },
+  {
+    "eventDate": "2026-08-24",
+    "cleanDate": "08/24",
+    "sport": "Volleyball",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Campbell",
+    "opponentMascot": "Red Devils",
+    "opponentComplete": "Campbell Red Devils",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-08-24_volleyball",
+    "posterFile": "2026-08-24_volleyball.jpg"
   },
   {
     "eventDate": "2026-08-25",
@@ -632,20 +632,6 @@
   {
     "eventDate": "2026-08-27",
     "cleanDate": "08/27",
-    "sport": "Volleyball",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "South Range",
-    "opponentMascot": "Raiders",
-    "opponentComplete": "South Range Raiders",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-08-27_volleyball",
-    "posterFile": "2026-08-27_volleyball.jpg"
-  },
-  {
-    "eventDate": "2026-08-27",
-    "cleanDate": "08/27",
     "sport": "Girls Soccer",
     "eventTime": "07:00 PM",
     "vsOrAt": "vs",
@@ -656,5 +642,19 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-08-27_girls-soccer",
     "posterFile": "2026-08-27_girls-soccer.jpg"
+  },
+  {
+    "eventDate": "2026-08-27",
+    "cleanDate": "08/27",
+    "sport": "Volleyball",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "South Range",
+    "opponentMascot": "Raiders",
+    "opponentComplete": "South Range Raiders",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-08-27_volleyball",
+    "posterFile": "2026-08-27_volleyball.jpg"
   }
 ]
