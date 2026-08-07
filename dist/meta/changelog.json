@@ -51400,5 +51400,38 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-08-07T13:46:35.809Z",
+    "added": [
+      {
+        "eventId": "cdd23091-b419-4f1a-afde-174979a59e6f",
+        "eventDate": "2026-08-13",
+        "sport": "Girls Soccer",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "Austintown Fitch Falcons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "a4273591-388f-4fb7-a195-60cbb102bb36",
+        "eventDate": "2026-08-13",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Austintown Fitch Falcons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "removed": [],
+    "changed": []
   }
 ]
