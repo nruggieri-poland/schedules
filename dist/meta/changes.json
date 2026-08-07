@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-07T13:46:35.809Z",
+  "generatedAt": "2026-08-07T16:29:58.388Z",
   "added": [
     {
-      "eventId": "cdd23091-b419-4f1a-afde-174979a59e6f",
-      "eventDate": "2026-08-13",
-      "sport": "Girls Soccer",
+      "eventId": "84dcd463-6db6-405c-9149-88daea885215",
+      "eventDate": "2026-08-31",
+      "sport": "Boys Soccer",
       "levelLabel": "JV",
       "vsOrAt": "@",
-      "opponentComplete": "Austintown Fitch Falcons",
+      "opponentComplete": "Louisville Leopards",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -15,10 +15,23 @@
       "result": null
     },
     {
-      "eventId": "a4273591-388f-4fb7-a195-60cbb102bb36",
-      "eventDate": "2026-08-13",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
+      "eventId": "e8d1af2d-5d14-4dc5-bbbe-e93040b923cd",
+      "eventDate": "2026-09-08",
+      "sport": "Boys Soccer",
+      "levelLabel": "JV",
+      "vsOrAt": "vs",
+      "opponentComplete": "Boardman Spartans",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "44f712da-e832-4c00-ba61-9228850f5360",
+      "eventDate": "2026-10-17",
+      "sport": "Boys Soccer",
+      "levelLabel": "JV",
       "vsOrAt": "@",
       "opponentComplete": "Austintown Fitch Falcons",
       "isCancelled": false,
