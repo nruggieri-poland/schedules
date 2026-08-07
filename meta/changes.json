@@ -1,13 +1,66 @@
 {
-  "generatedAt": "2026-08-06T23:57:44.479Z",
-  "added": [
+  "generatedAt": "2026-08-07T10:43:00.830Z",
+  "added": [],
+  "removed": [
     {
-      "eventId": "5cda1433-db7d-41d8-a50c-4739ceb911fa",
-      "eventDate": "2026-08-12",
-      "sport": "Girls Tennis",
+      "eventId": "d4f1e41e-7538-48bd-a394-d10d5dd5d470",
+      "eventDate": "2025-08-06",
+      "sport": "Boys Golf",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Struthers Wildcats",
+      "opponentComplete": "Brookfield Invitational",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "a11e2250-44a8-4d0a-97f5-9420b6e31e71",
+      "eventDate": "2025-08-06",
+      "sport": "Boys Soccer",
+      "levelLabel": "JV",
+      "vsOrAt": "@",
+      "opponentComplete": "Warren G. Harding Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "0ab0f051-a2e3-416c-af8d-0583fa013481",
+      "eventDate": "2025-08-06",
+      "sport": "Girls Soccer",
+      "levelLabel": "JV",
+      "vsOrAt": "vs",
+      "opponentComplete": "Austintown Fitch Falcons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "6384f45c-f43a-4bf4-a546-6f273e5a1471",
+      "eventDate": "2025-08-06",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Warren G. Harding Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "d34bba11-e9db-48ae-95a3-6bdf0a2ac26c",
+      "eventDate": "2025-08-06",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Austintown Fitch Falcons",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -15,29 +68,5 @@
       "result": null
     }
   ],
-  "removed": [],
-  "changed": [
-    {
-      "eventId": "03b53d1a-b757-45c5-a038-370dfc28912e",
-      "eventDate": "2026-08-13",
-      "sport": "Girls Golf",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Boardman Spartans",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
-      "fields": [
-        "eventTime"
-      ],
-      "before": {
-        "eventTime": "10:00 AM"
-      },
-      "after": {
-        "eventTime": "12:00 PM"
-      }
-    }
-  ]
+  "changed": []
 }

@@ -1,61 +1,5 @@
 [
   {
-    "eventDate": "2026-08-06",
-    "cleanDate": "08/06",
-    "sport": "Boys Golf",
-    "eventTime": "08:00 AM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Yank Heisler Invitational",
-    "opponentMascot": null,
-    "opponentComplete": "Yank Heisler Invitational",
-    "location": "Windmill Lakes",
-    "postSlug": "2026-08-06_boys-golf",
-    "posterFile": "2026-08-06_boys-golf.jpg"
-  },
-  {
-    "eventDate": "2026-08-06",
-    "cleanDate": "08/06",
-    "sport": "Girls Golf",
-    "eventTime": "08:00 AM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Lakeview",
-    "opponentMascot": "Bulldogs",
-    "opponentComplete": "Lakeview Bulldogs",
-    "location": "Knoll Run",
-    "postSlug": "2026-08-06_girls-golf",
-    "posterFile": "2026-08-06_girls-golf.jpg"
-  },
-  {
-    "eventDate": "2026-08-06",
-    "cleanDate": "08/06",
-    "sport": "Girls Soccer",
-    "eventTime": "06:30 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Springfield Local",
-    "opponentMascot": null,
-    "opponentComplete": "Springfield Local",
-    "location": "Springfield Local High School",
-    "postSlug": "2026-08-06_girls-soccer",
-    "posterFile": "2026-08-06_girls-soccer.jpg"
-  },
-  {
-    "eventDate": "2026-08-06",
-    "cleanDate": "08/06",
-    "sport": "Boys Soccer",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Louisville",
-    "opponentMascot": "Leopards",
-    "opponentComplete": "Louisville Leopards",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-08-06_boys-soccer",
-    "posterFile": "2026-08-06_boys-soccer.jpg"
-  },
-  {
     "eventDate": "2026-08-07",
     "cleanDate": "08/07",
     "sport": "Football",
@@ -684,5 +628,19 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-08-27_volleyball",
     "posterFile": "2026-08-27_volleyball.jpg"
+  },
+  {
+    "eventDate": "2026-08-28",
+    "cleanDate": "08/28",
+    "sport": "Football",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Kirtland",
+    "opponentMascot": "Hornets",
+    "opponentComplete": "Kirtland Hornets",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-08-28_football",
+    "posterFile": "2026-08-28_football.jpg"
   }
 ]
