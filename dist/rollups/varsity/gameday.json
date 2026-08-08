@@ -1,61 +1,5 @@
 [
   {
-    "eventDate": "2026-08-07",
-    "cleanDate": "08/07",
-    "sport": "Football",
-    "eventTime": "10:00 AM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Streetsboro",
-    "opponentMascot": "Rockets",
-    "opponentComplete": "Streetsboro Rockets",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-08-07_football",
-    "posterFile": "2026-08-07_football.jpg"
-  },
-  {
-    "eventDate": "2026-08-07",
-    "cleanDate": "08/07",
-    "sport": "Girls Tennis",
-    "eventTime": "11:00 AM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Austintown Fitch",
-    "opponentMascot": "Falcons",
-    "opponentComplete": "Austintown Fitch Falcons",
-    "location": "Austintown Fitch High School",
-    "postSlug": "2026-08-07_girls-tennis",
-    "posterFile": "2026-08-07_girls-tennis.jpg"
-  },
-  {
-    "eventDate": "2026-08-07",
-    "cleanDate": "08/07",
-    "sport": "Boys Golf",
-    "eventTime": "12:10 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Joe Eaton Golf Invitational",
-    "opponentMascot": null,
-    "opponentComplete": "Joe Eaton Golf Invitational",
-    "location": "Tannenhauf Golf Course",
-    "postSlug": "2026-08-07_boys-golf",
-    "posterFile": "2026-08-07_boys-golf.jpg"
-  },
-  {
-    "eventDate": "2026-08-07",
-    "cleanDate": "08/07",
-    "sport": "Girls Soccer",
-    "eventTime": "06:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "John F. Kennedy",
-    "opponentMascot": "Fighting Eagles",
-    "opponentComplete": "John F. Kennedy Fighting Eagles",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-08-07_girls-soccer",
-    "posterFile": "2026-08-07_girls-soccer.jpg"
-  },
-  {
     "eventDate": "2026-08-08",
     "cleanDate": "08/08",
     "sport": "Boys Soccer",
@@ -656,5 +600,19 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-08-28_football",
     "posterFile": "2026-08-28_football.jpg"
+  },
+  {
+    "eventDate": "2026-08-29",
+    "cleanDate": "08/29",
+    "sport": "Cross Country",
+    "eventTime": "10:30 AM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Salem Early Bird Invite",
+    "opponentMascot": null,
+    "opponentComplete": "Salem Early Bird Invite",
+    "location": "Waterworth Memorial Park",
+    "postSlug": "2026-08-29_cross-country",
+    "posterFile": "2026-08-29_cross-country.jpg"
   }
 ]

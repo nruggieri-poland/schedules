@@ -51512,5 +51512,38 @@
     ],
     "removed": [],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-08-08T10:22:16.288Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "20ff6804-f2a4-4fbe-bd7d-de8cafff3ff6",
+        "eventDate": "2025-08-07",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Ravenna Yank Heisler Invitational",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "7d61eabd-acd7-4483-ade0-9e32fb432ba3",
+        "eventDate": "2025-08-07",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]

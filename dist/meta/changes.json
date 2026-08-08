@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-08-07T21:22:42.627Z",
-  "added": [
+  "generatedAt": "2026-08-08T10:22:16.288Z",
+  "added": [],
+  "removed": [
     {
-      "eventId": "8bde5501-a250-4ff3-9ccb-f85c5ff074d7",
-      "eventDate": "2026-09-19",
-      "sport": "Volleyball",
-      "levelLabel": "JV",
+      "eventId": "20ff6804-f2a4-4fbe-bd7d-de8cafff3ff6",
+      "eventDate": "2025-08-07",
+      "sport": "Boys Golf",
+      "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Campbell Red Devils",
+      "opponentComplete": "Ravenna Yank Heisler Invitational",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -15,12 +16,12 @@
       "result": null
     },
     {
-      "eventId": "8ddbebc3-bea1-491f-9932-f3a50d56e1bd",
-      "eventDate": "2026-09-26",
-      "sport": "Volleyball",
-      "levelLabel": "JV",
+      "eventId": "7d61eabd-acd7-4483-ade0-9e32fb432ba3",
+      "eventDate": "2025-08-07",
+      "sport": "Girls Golf",
+      "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Campbell Red Devils",
+      "opponentComplete": "Lakeview Bulldogs",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -28,6 +29,5 @@
       "result": null
     }
   ],
-  "removed": [],
   "changed": []
 }
