@@ -1,19 +1,5 @@
 [
   {
-    "eventDate": "2026-08-08",
-    "cleanDate": "08/08",
-    "sport": "Boys Soccer",
-    "eventTime": "11:00 AM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Howland",
-    "opponentMascot": "Tigers",
-    "opponentComplete": "Howland Tigers",
-    "location": "Howland High School",
-    "postSlug": "2026-08-08_boys-soccer",
-    "posterFile": "2026-08-08_boys-soccer.jpg"
-  },
-  {
     "eventDate": "2026-08-10",
     "cleanDate": "08/10",
     "sport": "Boys Golf",
@@ -614,5 +600,19 @@
     "location": "Waterworth Memorial Park",
     "postSlug": "2026-08-29_cross-country",
     "posterFile": "2026-08-29_cross-country.jpg"
+  },
+  {
+    "eventDate": "2026-08-30",
+    "cleanDate": "08/30",
+    "sport": "Boys Golf",
+    "eventTime": "05:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "OPEN Senior Night",
+    "opponentMascot": null,
+    "opponentComplete": "OPEN Senior Night",
+    "location": "Knoll Run",
+    "postSlug": "2026-08-30_boys-golf",
+    "posterFile": "2026-08-30_boys-golf.jpg"
   }
 ]
