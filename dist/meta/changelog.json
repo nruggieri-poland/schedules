@@ -58119,5 +58119,38 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-09T10:23:16.615Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "0cb42221-50fd-4530-87cc-d5122a45737c",
+        "eventDate": "2025-08-08",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Joe Eaton Golf Invitational",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "f86953e1-935a-447f-ae70-7bcc06321498",
+        "eventDate": "2025-08-08",
+        "sport": "Football",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Streetsboro Rockets",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
