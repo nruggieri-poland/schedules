@@ -436,20 +436,6 @@
   {
     "eventDate": "2026-08-24",
     "cleanDate": "08/24",
-    "sport": "Girls Soccer",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Niles",
-    "opponentMascot": "Red Dragons",
-    "opponentComplete": "Niles Red Dragons",
-    "location": "Niles McKinley High School",
-    "postSlug": "2026-08-24_girls-soccer",
-    "posterFile": "2026-08-24_girls-soccer.jpg"
-  },
-  {
-    "eventDate": "2026-08-24",
-    "cleanDate": "08/24",
     "sport": "Volleyball",
     "eventTime": "07:00 PM",
     "vsOrAt": "vs",
@@ -460,6 +446,20 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-08-24_volleyball",
     "posterFile": "2026-08-24_volleyball.jpg"
+  },
+  {
+    "eventDate": "2026-08-24",
+    "cleanDate": "08/24",
+    "sport": "Girls Soccer",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Niles",
+    "opponentMascot": "Red Dragons",
+    "opponentComplete": "Niles Red Dragons",
+    "location": "Niles McKinley High School",
+    "postSlug": "2026-08-24_girls-soccer",
+    "posterFile": "2026-08-24_girls-soccer.jpg"
   },
   {
     "eventDate": "2026-08-25",
@@ -548,20 +548,6 @@
   {
     "eventDate": "2026-08-27",
     "cleanDate": "08/27",
-    "sport": "Girls Soccer",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Struthers",
-    "opponentMascot": "Wildcats",
-    "opponentComplete": "Struthers Wildcats",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-08-27_girls-soccer",
-    "posterFile": "2026-08-27_girls-soccer.jpg"
-  },
-  {
-    "eventDate": "2026-08-27",
-    "cleanDate": "08/27",
     "sport": "Volleyball",
     "eventTime": "07:00 PM",
     "vsOrAt": "vs",
@@ -572,6 +558,20 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-08-27_volleyball",
     "posterFile": "2026-08-27_volleyball.jpg"
+  },
+  {
+    "eventDate": "2026-08-27",
+    "cleanDate": "08/27",
+    "sport": "Girls Soccer",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Struthers",
+    "opponentMascot": "Wildcats",
+    "opponentComplete": "Struthers Wildcats",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-08-27_girls-soccer",
+    "posterFile": "2026-08-27_girls-soccer.jpg"
   },
   {
     "eventDate": "2026-08-28",
@@ -614,5 +614,33 @@
     "location": "Knoll Run",
     "postSlug": "2026-08-30_boys-golf",
     "posterFile": "2026-08-30_boys-golf.jpg"
+  },
+  {
+    "eventDate": "2026-08-31",
+    "cleanDate": "08/31",
+    "sport": "Girls Tennis",
+    "eventTime": "04:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Austintown Fitch",
+    "opponentMascot": "Falcons",
+    "opponentComplete": "Austintown Fitch Falcons",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-08-31_girls-tennis",
+    "posterFile": "2026-08-31_girls-tennis.jpg"
+  },
+  {
+    "eventDate": "2026-08-31",
+    "cleanDate": "08/31",
+    "sport": "Volleyball",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Howland",
+    "opponentMascot": "Tigers",
+    "opponentComplete": "Howland Tigers",
+    "location": "Howland High School",
+    "postSlug": "2026-08-31_volleyball",
+    "posterFile": "2026-08-31_volleyball.jpg"
   }
 ]

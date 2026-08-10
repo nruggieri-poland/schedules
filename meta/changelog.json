@@ -58152,5 +58152,38 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-08-10T10:59:04.694Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "5191a5a9-7350-4c00-9b9b-16631c317c48",
+        "eventDate": "2025-08-09",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Streetsboro Rockets",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "a42c9ec8-8f49-4c49-8ce7-f4508b4d7a7a",
+        "eventDate": "2025-08-09",
+        "sport": "Volleyball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Champion Golden Flashes",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
