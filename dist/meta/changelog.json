@@ -58303,5 +58303,78 @@
     ],
     "removed": [],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-08-10T16:10:00.322Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "50cf8b4f-12ba-4969-a5bf-06c5c070d6e9",
+        "eventDate": "2026-08-10",
+        "sport": "Volleyball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Springfield Local",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "eventType"
+        ],
+        "before": {
+          "eventType": "Game"
+        },
+        "after": {
+          "eventType": "Scrimmage"
+        }
+      },
+      {
+        "eventId": "8d0c2bae-914f-4ab1-b655-e92c632d4348",
+        "eventDate": "2026-08-26",
+        "sport": "Football",
+        "levelLabel": "Freshman",
+        "vsOrAt": "vs",
+        "opponentComplete": "Mineral Ridge Rams",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "07:30 PM"
+        },
+        "after": {
+          "eventTime": "07:15 PM"
+        }
+      },
+      {
+        "eventId": "7f04e218-9e69-4a3f-aa4c-ce95b436e39e",
+        "eventDate": "2026-09-03",
+        "sport": "Football",
+        "levelLabel": "Freshman",
+        "vsOrAt": "vs",
+        "opponentComplete": "Boardman Spartans",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "07:30 PM"
+        },
+        "after": {
+          "eventTime": "07:15 PM"
+        }
+      }
+    ]
   }
 ]
