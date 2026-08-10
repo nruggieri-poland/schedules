@@ -58270,5 +58270,38 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-10T15:11:03.089Z",
+    "added": [
+      {
+        "eventId": "8d0c2bae-914f-4ab1-b655-e92c632d4348",
+        "eventDate": "2026-08-26",
+        "sport": "Football",
+        "levelLabel": "Freshman",
+        "vsOrAt": "vs",
+        "opponentComplete": "Mineral Ridge Rams",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "7f04e218-9e69-4a3f-aa4c-ce95b436e39e",
+        "eventDate": "2026-09-03",
+        "sport": "Football",
+        "levelLabel": "Freshman",
+        "vsOrAt": "vs",
+        "opponentComplete": "Boardman Spartans",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "removed": [],
+    "changed": []
   }
 ]
