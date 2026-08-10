@@ -1,27 +1,13 @@
 {
-  "generatedAt": "2026-08-10T10:59:04.694Z",
-  "added": [],
-  "removed": [
+  "generatedAt": "2026-08-10T12:34:21.797Z",
+  "added": [
     {
-      "eventId": "5191a5a9-7350-4c00-9b9b-16631c317c48",
-      "eventDate": "2025-08-09",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Streetsboro Rockets",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "a42c9ec8-8f49-4c49-8ce7-f4508b4d7a7a",
-      "eventDate": "2025-08-09",
+      "eventId": "50cf8b4f-12ba-4969-a5bf-06c5c070d6e9",
+      "eventDate": "2026-08-10",
       "sport": "Volleyball",
       "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Champion Golden Flashes",
+      "vsOrAt": "@",
+      "opponentComplete": "Springfield Local",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -29,5 +15,6 @@
       "result": null
     }
   ],
+  "removed": [],
   "changed": []
 }
