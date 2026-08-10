@@ -1,13 +1,26 @@
 {
-  "generatedAt": "2026-08-10T14:01:33.192Z",
+  "generatedAt": "2026-08-10T15:11:03.089Z",
   "added": [
     {
-      "eventId": "f501eba7-00ce-4c1a-992b-e54a3c7240a3",
-      "eventDate": "2026-08-15",
-      "sport": "Volleyball",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Canfield Cardinals",
+      "eventId": "8d0c2bae-914f-4ab1-b655-e92c632d4348",
+      "eventDate": "2026-08-26",
+      "sport": "Football",
+      "levelLabel": "Freshman",
+      "vsOrAt": "vs",
+      "opponentComplete": "Mineral Ridge Rams",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "7f04e218-9e69-4a3f-aa4c-ce95b436e39e",
+      "eventDate": "2026-09-03",
+      "sport": "Football",
+      "levelLabel": "Freshman",
+      "vsOrAt": "vs",
+      "opponentComplete": "Boardman Spartans",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -16,50 +29,5 @@
     }
   ],
   "removed": [],
-  "changed": [
-    {
-      "eventId": "71202167-5110-4f26-8b65-ad4281abb650",
-      "eventDate": "2026-08-18",
-      "sport": "Boys Soccer",
-      "levelLabel": "JV",
-      "vsOrAt": "@",
-      "opponentComplete": "Boardman Spartans",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
-      "fields": [
-        "eventTime"
-      ],
-      "before": {
-        "eventTime": "05:00 PM"
-      },
-      "after": {
-        "eventTime": "05:30 PM"
-      }
-    },
-    {
-      "eventId": "eb029393-8b44-4e64-9d34-89a0b644a22f",
-      "eventDate": "2026-08-18",
-      "sport": "Boys Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Boardman Spartans",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
-      "fields": [
-        "eventTime"
-      ],
-      "before": {
-        "eventTime": "07:00 PM"
-      },
-      "after": {
-        "eventTime": "07:15 PM"
-      }
-    }
-  ]
+  "changed": []
 }
