@@ -58408,5 +58408,39 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-11T13:50:54.721Z",
+    "added": [
+      {
+        "eventId": "cb765002-408d-4bcb-8168-2d5e6ce93de3",
+        "eventDate": "2026-09-17",
+        "sport": "Football",
+        "levelLabel": "Freshman",
+        "vsOrAt": "@",
+        "opponentComplete": "Alliance Aviators",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "removed": [
+      {
+        "eventId": "a2fe1ede-3006-4742-8242-0851491683f2",
+        "eventDate": "2026-09-16",
+        "sport": "Football",
+        "levelLabel": "Freshman",
+        "vsOrAt": "@",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
