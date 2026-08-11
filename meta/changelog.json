@@ -58376,5 +58376,37 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-11T12:26:03.270Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "0090d3aa-48ba-4acb-9f0d-74df024e001c",
+        "eventDate": "2026-08-11",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": true,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "location",
+          "isCancelled"
+        ],
+        "before": {
+          "location": "Mahoning CC",
+          "isCancelled": false
+        },
+        "after": {
+          "location": "Girard Sr High School",
+          "isCancelled": true
+        }
+      }
+    ]
   }
 ]
