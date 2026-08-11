@@ -1,13 +1,26 @@
 {
-  "generatedAt": "2026-08-11T13:50:54.721Z",
+  "generatedAt": "2026-08-11T18:37:46.041Z",
   "added": [
     {
-      "eventId": "cb765002-408d-4bcb-8168-2d5e6ce93de3",
-      "eventDate": "2026-09-17",
-      "sport": "Football",
-      "levelLabel": "Freshman",
-      "vsOrAt": "@",
-      "opponentComplete": "Alliance Aviators",
+      "eventId": "0e90b4af-70d1-48a2-9a02-092062add4bd",
+      "eventDate": "2026-09-08",
+      "sport": "Girls Soccer",
+      "levelLabel": "JV",
+      "vsOrAt": "vs",
+      "opponentComplete": "Kenston Bombers",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "28d705a5-f4a5-4d80-b927-ce8a52b48b67",
+      "eventDate": "2026-09-08",
+      "sport": "Boys Soccer",
+      "levelLabel": "JV",
+      "vsOrAt": "vs",
+      "opponentComplete": "Boardman Spartans",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -17,12 +30,25 @@
   ],
   "removed": [
     {
-      "eventId": "a2fe1ede-3006-4742-8242-0851491683f2",
-      "eventDate": "2026-09-16",
-      "sport": "Football",
-      "levelLabel": "Freshman",
-      "vsOrAt": "@",
-      "opponentComplete": "Hubbard Eagles",
+      "eventId": "e8d1af2d-5d14-4dc5-bbbe-e93040b923cd",
+      "eventDate": "2026-09-08",
+      "sport": "Boys Soccer",
+      "levelLabel": "JV",
+      "vsOrAt": "vs",
+      "opponentComplete": "Boardman Spartans",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "013618e4-b8b9-4ea4-9836-9cdc59666982",
+      "eventDate": "2026-10-03",
+      "sport": "Girls Soccer",
+      "levelLabel": "JV",
+      "vsOrAt": "vs",
+      "opponentComplete": "Boardman Spartans",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -30,5 +56,28 @@
       "result": null
     }
   ],
-  "changed": []
+  "changed": [
+    {
+      "eventId": "493c93ea-e5c9-434d-902e-b5c4b5d67581",
+      "eventDate": "2026-10-03",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Boardman Spartans",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "eventTime"
+      ],
+      "before": {
+        "eventTime": "12:00 PM"
+      },
+      "after": {
+        "eventTime": "10:00 AM"
+      }
+    }
+  ]
 }
