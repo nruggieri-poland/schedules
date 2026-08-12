@@ -947,7 +947,7 @@
     "levelLabel": "Varsity",
     "levelGroup": "varsity",
     "teamSlug": "girls-tennis-varsity",
-    "eventTime": "TBA",
+    "eventTime": "04:00 PM",
     "homeOrAway": "Home",
     "vsOrAt": "vs",
     "opponent": "Salem",
@@ -963,13 +963,13 @@
     "eventType": "Game",
     "isCancelled": false,
     "isPostponed": false,
-    "isTimeTBD": true,
+    "isTimeTBD": false,
     "conferenceGame": true,
     "teamScore": null,
     "opponentScore": null,
     "result": null,
     "allResults": [],
-    "_time24": null
+    "_time24": "16:00"
   },
   {
     "eventId": "2db4a838-f95e-457d-90e0-504e9a973dc4",
