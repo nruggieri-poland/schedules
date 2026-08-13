@@ -58717,5 +58717,34 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-13T16:07:26.956Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "bb607043-4a39-4194-8d2a-f05b9ea27158",
+        "eventDate": "2026-08-13",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Canfield Cardinals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 154,
+        "opponentScore": 157,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
