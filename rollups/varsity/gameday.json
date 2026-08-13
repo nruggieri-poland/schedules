@@ -1,33 +1,5 @@
 [
   {
-    "eventDate": "2026-08-12",
-    "cleanDate": "08/12",
-    "sport": "Girls Golf",
-    "eventTime": "08:00 AM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Girard",
-    "opponentMascot": "Indians",
-    "opponentComplete": "Girard Indians",
-    "location": "Knoll Run",
-    "postSlug": "2026-08-12_girls-golf",
-    "posterFile": "2026-08-12_girls-golf.jpg"
-  },
-  {
-    "eventDate": "2026-08-12",
-    "cleanDate": "08/12",
-    "sport": "Boys Soccer",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Chagrin Falls",
-    "opponentMascot": "Tigers",
-    "opponentComplete": "Chagrin Falls Tigers",
-    "location": "Chagrin Falls High School",
-    "postSlug": "2026-08-12_boys-soccer",
-    "posterFile": "2026-08-12_boys-soccer.jpg"
-  },
-  {
     "eventDate": "2026-08-13",
     "cleanDate": "08/13",
     "sport": "Boys Golf",
@@ -698,5 +670,47 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-09-02_girls-soccer",
     "posterFile": "2026-09-02_girls-soccer.jpg"
+  },
+  {
+    "eventDate": "2026-09-03",
+    "cleanDate": "09/03",
+    "sport": "Boys Golf",
+    "eventTime": "03:15 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Columbiana",
+    "opponentMascot": "Clippers",
+    "opponentComplete": "Columbiana Clippers",
+    "location": "Valley Golf Course",
+    "postSlug": "2026-09-03_boys-golf",
+    "posterFile": "2026-09-03_boys-golf.jpg"
+  },
+  {
+    "eventDate": "2026-09-03",
+    "cleanDate": "09/03",
+    "sport": "Volleyball",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Hubbard",
+    "opponentMascot": "Eagles",
+    "opponentComplete": "Hubbard Eagles",
+    "location": "Hubbard High School",
+    "postSlug": "2026-09-03_volleyball",
+    "posterFile": "2026-09-03_volleyball.jpg"
+  },
+  {
+    "eventDate": "2026-09-03",
+    "cleanDate": "09/03",
+    "sport": "Boys Soccer",
+    "eventTime": "07:15 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Canfield",
+    "opponentMascot": "Cardinals",
+    "opponentComplete": "Canfield Cardinals",
+    "location": "Canfield High School",
+    "postSlug": "2026-09-03_boys-soccer",
+    "posterFile": "2026-09-03_boys-soccer.jpg"
   }
 ]
