@@ -1,31 +1,99 @@
 {
-  "generatedAt": "2026-08-12T16:46:43.918Z",
+  "generatedAt": "2026-08-13T04:23:54.165Z",
   "added": [],
-  "removed": [],
-  "changed": [
+  "removed": [
     {
-      "eventId": "7e09fe41-df57-4128-9561-cb1235d2988c",
-      "eventDate": "2026-09-15",
-      "sport": "Girls Tennis",
+      "eventId": "44a4b1e9-582e-4e7e-9659-d0ba21456da6",
+      "eventDate": "2025-08-12",
+      "sport": "Volleyball",
       "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Salem Quakers",
+      "vsOrAt": "@",
+      "opponentComplete": "East Palestine Bulldogs",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null,
+      "result": null
+    },
+    {
+      "eventId": "475274b2-0ffa-4b8b-8f90-5afb8230920f",
+      "eventDate": "2025-08-12",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "United Golden Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    }
+  ],
+  "changed": [
+    {
+      "eventId": "5635c68f-ecef-4431-8c2b-8831dddd0e5d",
+      "eventDate": "2026-08-06",
+      "sport": "Boys Golf",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Yank Heisler Invitational",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 287,
+      "opponentScore": null,
+      "result": "First",
       "fields": [
-        "eventTime",
-        "isTimeTBD"
+        "result"
       ],
       "before": {
-        "eventTime": "TBA",
-        "isTimeTBD": true
+        "result": null
       },
       "after": {
-        "eventTime": "04:00 PM",
-        "isTimeTBD": false
+        "result": "First"
+      }
+    },
+    {
+      "eventId": "b110f827-872a-4f65-976b-76aaf6cc870f",
+      "eventDate": "2026-08-07",
+      "sport": "Boys Golf",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Joe Eaton Golf Invitational",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 303,
+      "opponentScore": null,
+      "result": "First",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "First"
+      }
+    },
+    {
+      "eventId": "3e5623b2-3dbe-4126-980b-284a43ae9b89",
+      "eventDate": "2026-08-11",
+      "sport": "Boys Golf",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "NE Ohio Invitational",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 303,
+      "opponentScore": null,
+      "result": "First",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "First"
       }
     }
   ]
