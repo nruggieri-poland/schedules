@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T17:27:00.976Z",
+  "generatedAt": "2026-08-14T18:23:30.757Z",
   "added": [],
   "removed": [],
   "changed": [
@@ -12,17 +12,17 @@
       "opponentComplete": "Ursuline Fighting Irish",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 1,
+      "opponentScore": 4,
+      "result": "Loss",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Loss"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Loss"
       }
     },
     {
@@ -34,30 +34,8 @@
       "opponentComplete": "Liberty Leopards",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": "Win"
-      },
-      "after": {
-        "result": null
-      }
-    },
-    {
-      "eventId": "df1cfd6e-0a74-4a6c-839c-577d4d7a3e92",
-      "eventDate": "2026-08-14",
-      "sport": "Boys Golf",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Shenango Wildcats",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 189,
-      "opponentScore": 218,
+      "teamScore": 4,
+      "opponentScore": 1,
       "result": "Win",
       "fields": [
         "result"
