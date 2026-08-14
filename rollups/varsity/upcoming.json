@@ -29,10 +29,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 189,
+    "opponentScore": 218,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Shenango High School",
+        "teamScore": 189,
+        "opponentScore": 218,
+        "result": "Win"
+      }
+    ],
     "_time24": "11:00"
   },
   {
