@@ -1,75 +1,5 @@
 [
   {
-    "eventDate": "2026-08-13",
-    "cleanDate": "08/13",
-    "sport": "Boys Golf",
-    "eventTime": "08:00 AM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Canfield",
-    "opponentMascot": "Cardinals",
-    "opponentComplete": "Canfield Cardinals",
-    "location": "Knoll Run",
-    "postSlug": "2026-08-13_boys-golf",
-    "posterFile": "2026-08-13_boys-golf.jpg"
-  },
-  {
-    "eventDate": "2026-08-13",
-    "cleanDate": "08/13",
-    "sport": "Girls Golf",
-    "eventTime": "12:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Boardman",
-    "opponentMascot": "Spartans",
-    "opponentComplete": "Boardman Spartans",
-    "location": "Mill Creek",
-    "postSlug": "2026-08-13_girls-golf",
-    "posterFile": "2026-08-13_girls-golf.jpg"
-  },
-  {
-    "eventDate": "2026-08-13",
-    "cleanDate": "08/13",
-    "sport": "Girls Tennis",
-    "eventTime": "04:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Liberty",
-    "opponentMascot": "Leopards",
-    "opponentComplete": "Liberty Leopards",
-    "location": "Liberty High School",
-    "postSlug": "2026-08-13_girls-tennis",
-    "posterFile": "2026-08-13_girls-tennis.jpg"
-  },
-  {
-    "eventDate": "2026-08-13",
-    "cleanDate": "08/13",
-    "sport": "Football",
-    "eventTime": "06:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Louisville",
-    "opponentMascot": "Leopards",
-    "opponentComplete": "Louisville Leopards",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-08-13_football",
-    "posterFile": "2026-08-13_football.jpg"
-  },
-  {
-    "eventDate": "2026-08-13",
-    "cleanDate": "08/13",
-    "sport": "Girls Soccer",
-    "eventTime": "06:30 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Austintown Fitch",
-    "opponentMascot": "Falcons",
-    "opponentComplete": "Austintown Fitch Falcons",
-    "location": "Austintown Fitch High School",
-    "postSlug": "2026-08-13_girls-soccer",
-    "posterFile": "2026-08-13_girls-soccer.jpg"
-  },
-  {
     "eventDate": "2026-08-14",
     "cleanDate": "08/14",
     "sport": "Boys Golf",
@@ -352,20 +282,6 @@
   {
     "eventDate": "2026-08-24",
     "cleanDate": "08/24",
-    "sport": "Girls Soccer",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Niles",
-    "opponentMascot": "Red Dragons",
-    "opponentComplete": "Niles Red Dragons",
-    "location": "Niles McKinley High School",
-    "postSlug": "2026-08-24_girls-soccer",
-    "posterFile": "2026-08-24_girls-soccer.jpg"
-  },
-  {
-    "eventDate": "2026-08-24",
-    "cleanDate": "08/24",
     "sport": "Volleyball",
     "eventTime": "07:00 PM",
     "vsOrAt": "vs",
@@ -376,6 +292,20 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-08-24_volleyball",
     "posterFile": "2026-08-24_volleyball.jpg"
+  },
+  {
+    "eventDate": "2026-08-24",
+    "cleanDate": "08/24",
+    "sport": "Girls Soccer",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Niles",
+    "opponentMascot": "Red Dragons",
+    "opponentComplete": "Niles Red Dragons",
+    "location": "Niles McKinley High School",
+    "postSlug": "2026-08-24_girls-soccer",
+    "posterFile": "2026-08-24_girls-soccer.jpg"
   },
   {
     "eventDate": "2026-08-25",
@@ -464,20 +394,6 @@
   {
     "eventDate": "2026-08-27",
     "cleanDate": "08/27",
-    "sport": "Girls Soccer",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Struthers",
-    "opponentMascot": "Wildcats",
-    "opponentComplete": "Struthers Wildcats",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-08-27_girls-soccer",
-    "posterFile": "2026-08-27_girls-soccer.jpg"
-  },
-  {
-    "eventDate": "2026-08-27",
-    "cleanDate": "08/27",
     "sport": "Volleyball",
     "eventTime": "07:00 PM",
     "vsOrAt": "vs",
@@ -488,6 +404,20 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-08-27_volleyball",
     "posterFile": "2026-08-27_volleyball.jpg"
+  },
+  {
+    "eventDate": "2026-08-27",
+    "cleanDate": "08/27",
+    "sport": "Girls Soccer",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Struthers",
+    "opponentMascot": "Wildcats",
+    "opponentComplete": "Struthers Wildcats",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-08-27_girls-soccer",
+    "posterFile": "2026-08-27_girls-soccer.jpg"
   },
   {
     "eventDate": "2026-08-28",
@@ -618,20 +548,6 @@
   {
     "eventDate": "2026-09-01",
     "cleanDate": "09/01",
-    "sport": "Girls Soccer",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Lakeview",
-    "opponentMascot": "Bulldogs",
-    "opponentComplete": "Lakeview Bulldogs",
-    "location": "Lakeview High School",
-    "postSlug": "2026-09-01_girls-soccer",
-    "posterFile": "2026-09-01_girls-soccer.jpg"
-  },
-  {
-    "eventDate": "2026-09-01",
-    "cleanDate": "09/01",
     "sport": "Volleyball",
     "eventTime": "07:00 PM",
     "vsOrAt": "vs",
@@ -642,6 +558,20 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-09-01_volleyball",
     "posterFile": "2026-09-01_volleyball.jpg"
+  },
+  {
+    "eventDate": "2026-09-01",
+    "cleanDate": "09/01",
+    "sport": "Girls Soccer",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Lakeview",
+    "opponentMascot": "Bulldogs",
+    "opponentComplete": "Lakeview Bulldogs",
+    "location": "Lakeview High School",
+    "postSlug": "2026-09-01_girls-soccer",
+    "posterFile": "2026-09-01_girls-soccer.jpg"
   },
   {
     "eventDate": "2026-09-02",
@@ -712,5 +642,19 @@
     "location": "Canfield High School",
     "postSlug": "2026-09-03_boys-soccer",
     "posterFile": "2026-09-03_boys-soccer.jpg"
+  },
+  {
+    "eventDate": "2026-09-04",
+    "cleanDate": "09/04",
+    "sport": "Football",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Field",
+    "opponentMascot": "Falcons",
+    "opponentComplete": "Field Falcons",
+    "location": "Field High School",
+    "postSlug": "2026-09-04_football",
+    "posterFile": "2026-09-04_football.jpg"
   }
 ]
