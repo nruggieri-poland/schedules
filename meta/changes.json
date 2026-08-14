@@ -1,6 +1,73 @@
 {
-  "generatedAt": "2026-08-14T22:13:16.820Z",
+  "generatedAt": "2026-08-14T22:42:06.143Z",
   "added": [
+    {
+      "eventId": "ff332357-0e76-43ba-b80d-2c0aa194542a",
+      "eventDate": "2025-08-14",
+      "sport": "Girls Golf",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "a5f4485a-3991-46b0-ad7d-6e5f3aba719e",
+      "eventDate": "2025-08-14",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Liberty Leopards",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "19b5209a-7cb5-44d3-beca-550c9e360241",
+      "eventDate": "2025-08-14",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lordstown High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "a140e580-4ceb-4687-938d-c234c8ecee24",
+      "eventDate": "2025-08-14",
+      "sport": "Boys Golf",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Girard Indians",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "545692ba-7171-42e3-ac0a-b15a8e55cba5",
+      "eventDate": "2025-08-14",
+      "sport": "Football",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Kirtland Hornets",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    }
+  ],
+  "removed": [
     {
       "eventId": "4ef2ef5c-7997-4990-8816-a5f9764b821c",
       "eventDate": "2025-10-15",
@@ -1965,73 +2032,6 @@
       "result": null
     }
   ],
-  "removed": [
-    {
-      "eventId": "ff332357-0e76-43ba-b80d-2c0aa194542a",
-      "eventDate": "2025-08-14",
-      "sport": "Girls Golf",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Lakeview Bulldogs",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "a5f4485a-3991-46b0-ad7d-6e5f3aba719e",
-      "eventDate": "2025-08-14",
-      "sport": "Girls Tennis",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Liberty Leopards",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "19b5209a-7cb5-44d3-beca-550c9e360241",
-      "eventDate": "2025-08-14",
-      "sport": "Volleyball",
-      "levelLabel": "8th Grade",
-      "vsOrAt": "vs",
-      "opponentComplete": "Lordstown High School",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "a140e580-4ceb-4687-938d-c234c8ecee24",
-      "eventDate": "2025-08-14",
-      "sport": "Boys Golf",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Girard Indians",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "545692ba-7171-42e3-ac0a-b15a8e55cba5",
-      "eventDate": "2025-08-14",
-      "sport": "Football",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Kirtland Hornets",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    }
-  ],
   "changed": [
     {
       "eventId": "9c318e64-535e-46f5-ab5a-99c7a4714f9b",
@@ -2049,10 +2049,10 @@
         "location"
       ],
       "before": {
-        "location": "Tamer Win"
+        "location": "Niles McKinley High School"
       },
       "after": {
-        "location": "Niles McKinley High School"
+        "location": "Tamer Win"
       }
     },
     {
@@ -2071,10 +2071,10 @@
         "location"
       ],
       "before": {
-        "location": "Valley Golf Course"
+        "location": "Columbiana High School"
       },
       "after": {
-        "location": "Columbiana High School"
+        "location": "Valley Golf Course"
       }
     },
     {
@@ -2093,10 +2093,10 @@
         "location"
       ],
       "before": {
-        "location": "Knoll Run"
+        "location": "Knoll Run Golf Course"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Knoll Run"
       }
     },
     {
@@ -2115,10 +2115,10 @@
         "location"
       ],
       "before": {
-        "location": "Deer Creek"
+        "location": "Knoll Run Golf Course"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Deer Creek"
       }
     },
     {
@@ -2137,10 +2137,10 @@
         "location"
       ],
       "before": {
-        "location": "Valley Golf Course"
+        "location": "South Range High School"
       },
       "after": {
-        "location": "South Range High School"
+        "location": "Valley Golf Course"
       }
     },
     {
@@ -2159,10 +2159,10 @@
         "location"
       ],
       "before": {
-        "location": "Pine Lakes"
+        "location": "Hubbard High School"
       },
       "after": {
-        "location": "Hubbard High School"
+        "location": "Pine Lakes"
       }
     },
     {
@@ -2181,10 +2181,10 @@
         "location"
       ],
       "before": {
-        "location": "Knoll Run"
+        "location": "Knoll Run Golf Course"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Knoll Run"
       }
     },
     {
@@ -2203,10 +2203,10 @@
         "location"
       ],
       "before": {
-        "location": "Old Avalon"
+        "location": "Niles McKinley High School"
       },
       "after": {
-        "location": "Niles McKinley High School"
+        "location": "Old Avalon"
       }
     },
     {
@@ -2225,10 +2225,10 @@
         "location"
       ],
       "before": {
-        "location": "Sylvan Heights Golf Course"
+        "location": "Shenango High School"
       },
       "after": {
-        "location": "Shenango High School"
+        "location": "Sylvan Heights Golf Course"
       }
     },
     {
@@ -2247,10 +2247,10 @@
         "location"
       ],
       "before": {
-        "location": "Mahoning CC"
+        "location": "Girard Sr High School"
       },
       "after": {
-        "location": "Girard Sr High School"
+        "location": "Mahoning CC"
       }
     },
     {
@@ -2269,10 +2269,10 @@
         "location"
       ],
       "before": {
-        "location": "Tam O Shanter"
+        "location": "Tam O'Shanter"
       },
       "after": {
-        "location": "Tam O'Shanter"
+        "location": "Tam O Shanter"
       }
     },
     {
@@ -2291,10 +2291,10 @@
         "location"
       ],
       "before": {
-        "location": "Knoll Run"
+        "location": "Knoll Run Golf Course"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Knoll Run"
       }
     },
     {
@@ -2313,10 +2313,10 @@
         "location"
       ],
       "before": {
-        "location": "Knoll Run"
+        "location": "Knoll Run Golf Course"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Knoll Run"
       }
     },
     {
@@ -2335,10 +2335,10 @@
         "location"
       ],
       "before": {
-        "location": "Bedford Trails Golf Course"
+        "location": "Springfield High School"
       },
       "after": {
-        "location": "Springfield High School"
+        "location": "Bedford Trails Golf Course"
       }
     },
     {
@@ -2357,10 +2357,10 @@
         "location"
       ],
       "before": {
-        "location": "Trumbull CC"
+        "location": "John F Kennedy High School"
       },
       "after": {
-        "location": "John F Kennedy High School"
+        "location": "Trumbull CC"
       }
     },
     {
@@ -2379,10 +2379,10 @@
         "location"
       ],
       "before": {
-        "location": "Tamer Win"
+        "location": "Lakeview High School"
       },
       "after": {
-        "location": "Lakeview High School"
+        "location": "Tamer Win"
       }
     },
     {
@@ -2401,32 +2401,10 @@
         "location"
       ],
       "before": {
-        "location": "Knoll Run"
-      },
-      "after": {
         "location": "Knoll Run Golf Course"
-      }
-    },
-    {
-      "eventId": "7a982913-a38a-4345-8ef4-42cd08359c90",
-      "eventDate": "2025-11-25",
-      "sport": "Boys Basketball",
-      "levelLabel": "8th Grade",
-      "vsOrAt": "vs",
-      "opponentComplete": "Howland High School",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
-      "fields": [
-        "eventType"
-      ],
-      "before": {
-        "eventType": "Scrimmage"
       },
       "after": {
-        "eventType": "Game"
+        "location": "Knoll Run"
       }
     },
     {
@@ -2445,10 +2423,32 @@
         "eventType"
       ],
       "before": {
-        "eventType": "Scrimmage"
+        "eventType": "Game"
       },
       "after": {
+        "eventType": "Scrimmage"
+      }
+    },
+    {
+      "eventId": "7a982913-a38a-4345-8ef4-42cd08359c90",
+      "eventDate": "2025-11-25",
+      "sport": "Boys Basketball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Howland High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "eventType"
+      ],
+      "before": {
         "eventType": "Game"
+      },
+      "after": {
+        "eventType": "Scrimmage"
       }
     },
     {
@@ -2467,10 +2467,10 @@
         "eventType"
       ],
       "before": {
-        "eventType": "Scrimmage"
+        "eventType": "Game"
       },
       "after": {
-        "eventType": "Game"
+        "eventType": "Scrimmage"
       }
     },
     {
@@ -2489,10 +2489,10 @@
         "location"
       ],
       "before": {
-        "location": "Knoll Run"
+        "location": "Knoll Run Golf Course"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Knoll Run"
       }
     },
     {
@@ -2511,32 +2511,10 @@
         "location"
       ],
       "before": {
-        "location": "Pine Lakes"
-      },
-      "after": {
         "location": "Hubbard High School"
-      }
-    },
-    {
-      "eventId": "25047dca-266c-4a4a-9c72-4faf2fdc7319",
-      "eventDate": "2026-08-03",
-      "sport": "Girls Golf",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "South Range Raiders",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
-      "fields": [
-        "location"
-      ],
-      "before": {
-        "location": "Lake Milton Golf Course"
       },
       "after": {
-        "location": "South Range High School"
+        "location": "Pine Lakes"
       }
     },
     {
@@ -2555,10 +2533,32 @@
         "location"
       ],
       "before": {
-        "location": "Knoll Run"
+        "location": "Knoll Run Golf Course"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Knoll Run"
+      }
+    },
+    {
+      "eventId": "25047dca-266c-4a4a-9c72-4faf2fdc7319",
+      "eventDate": "2026-08-03",
+      "sport": "Girls Golf",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "South Range High School"
+      },
+      "after": {
+        "location": "Lake Milton Golf Course"
       }
     },
     {
@@ -2577,10 +2577,10 @@
         "location"
       ],
       "before": {
-        "location": "Links Golf Course"
+        "location": "Lakeview High School"
       },
       "after": {
-        "location": "Lakeview High School"
+        "location": "Links Golf Course"
       }
     },
     {
@@ -2599,10 +2599,10 @@
         "location"
       ],
       "before": {
-        "location": "Yankee Run"
+        "location": "Brookfield High School"
       },
       "after": {
-        "location": "Brookfield High School"
+        "location": "Yankee Run"
       }
     },
     {
@@ -2621,10 +2621,10 @@
         "location"
       ],
       "before": {
-        "location": "Knoll Run"
+        "location": "Knoll Run Golf Course"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Knoll Run"
       }
     },
     {
@@ -2643,10 +2643,10 @@
         "eventType"
       ],
       "before": {
-        "eventType": "Scrimmage"
+        "eventType": "Game"
       },
       "after": {
-        "eventType": "Game"
+        "eventType": "Scrimmage"
       }
     },
     {
@@ -2665,10 +2665,10 @@
         "eventType"
       ],
       "before": {
-        "eventType": "Scrimmage"
+        "eventType": "Game"
       },
       "after": {
-        "eventType": "Game"
+        "eventType": "Scrimmage"
       }
     },
     {
@@ -2687,10 +2687,10 @@
         "eventType"
       ],
       "before": {
-        "eventType": "Scrimmage"
+        "eventType": "Game"
       },
       "after": {
-        "eventType": "Game"
+        "eventType": "Scrimmage"
       }
     },
     {
@@ -2709,10 +2709,10 @@
         "eventType"
       ],
       "before": {
-        "eventType": "Scrimmage"
+        "eventType": "Game"
       },
       "after": {
-        "eventType": "Game"
+        "eventType": "Scrimmage"
       }
     },
     {
@@ -2731,10 +2731,10 @@
         "eventType"
       ],
       "before": {
-        "eventType": "Scrimmage"
+        "eventType": "Game"
       },
       "after": {
-        "eventType": "Game"
+        "eventType": "Scrimmage"
       }
     },
     {
@@ -2753,10 +2753,10 @@
         "eventType"
       ],
       "before": {
-        "eventType": "Scrimmage"
+        "eventType": "Game"
       },
       "after": {
-        "eventType": "Game"
+        "eventType": "Scrimmage"
       }
     },
     {
@@ -2775,10 +2775,10 @@
         "eventType"
       ],
       "before": {
-        "eventType": "Scrimmage"
+        "eventType": "Game"
       },
       "after": {
-        "eventType": "Game"
+        "eventType": "Scrimmage"
       }
     },
     {
@@ -2797,10 +2797,10 @@
         "location"
       ],
       "before": {
-        "location": "Knoll Run"
+        "location": "Knoll Run Golf Course"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Knoll Run"
       }
     },
     {
@@ -2819,10 +2819,10 @@
         "eventType"
       ],
       "before": {
-        "eventType": "Scrimmage"
+        "eventType": "Game"
       },
       "after": {
-        "eventType": "Game"
+        "eventType": "Scrimmage"
       }
     },
     {
@@ -2841,10 +2841,10 @@
         "location"
       ],
       "before": {
-        "location": "Knoll Run"
+        "location": "Knoll Run Golf Course"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Knoll Run"
       }
     },
     {
@@ -2863,10 +2863,10 @@
         "eventType"
       ],
       "before": {
-        "eventType": "Scrimmage"
+        "eventType": "Game"
       },
       "after": {
-        "eventType": "Game"
+        "eventType": "Scrimmage"
       }
     },
     {
@@ -2885,10 +2885,10 @@
         "eventType"
       ],
       "before": {
-        "eventType": "Scrimmage"
+        "eventType": "Game"
       },
       "after": {
-        "eventType": "Game"
+        "eventType": "Scrimmage"
       }
     },
     {
@@ -2907,10 +2907,10 @@
         "location"
       ],
       "before": {
-        "location": "Knoll Run"
+        "location": "Knoll Run Golf Course"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Knoll Run"
       }
     },
     {
@@ -2929,10 +2929,10 @@
         "location"
       ],
       "before": {
-        "location": "Mill Creek"
+        "location": "Boardman High School"
       },
       "after": {
-        "location": "Boardman High School"
+        "location": "Mill Creek"
       }
     },
     {
@@ -2951,10 +2951,10 @@
         "eventType"
       ],
       "before": {
-        "eventType": "Scrimmage"
+        "eventType": "Game"
       },
       "after": {
-        "eventType": "Game"
+        "eventType": "Scrimmage"
       }
     },
     {
@@ -2973,10 +2973,10 @@
         "location"
       ],
       "before": {
-        "location": "Knoll Run"
+        "location": "Knoll Run Golf Course"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Knoll Run"
       }
     },
     {
@@ -2995,10 +2995,10 @@
         "location"
       ],
       "before": {
-        "location": "Pine Lakes"
+        "location": "Hubbard High School"
       },
       "after": {
-        "location": "Hubbard High School"
+        "location": "Pine Lakes"
       }
     },
     {
@@ -3017,10 +3017,10 @@
         "location"
       ],
       "before": {
-        "location": "Knoll Run"
+        "location": "Knoll Run Golf Course"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Knoll Run"
       }
     },
     {
@@ -3039,10 +3039,10 @@
         "location"
       ],
       "before": {
-        "location": "Knoll Run"
+        "location": "Knoll Run Golf Course"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Knoll Run"
       }
     },
     {
@@ -3061,10 +3061,10 @@
         "location"
       ],
       "before": {
-        "location": "Knoll Run"
+        "location": "Knoll Run Golf Course"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Knoll Run"
       }
     },
     {
@@ -3083,10 +3083,10 @@
         "location"
       ],
       "before": {
-        "location": "Tamer Win"
+        "location": "Lakeview High School"
       },
       "after": {
-        "location": "Lakeview High School"
+        "location": "Tamer Win"
       }
     },
     {
@@ -3105,10 +3105,10 @@
         "location"
       ],
       "before": {
-        "location": "Mahoning CC"
+        "location": "Girard Sr High School"
       },
       "after": {
-        "location": "Girard Sr High School"
+        "location": "Mahoning CC"
       }
     },
     {
@@ -3127,10 +3127,10 @@
         "location"
       ],
       "before": {
-        "location": "Old Avalon"
+        "location": "Niles McKinley High School"
       },
       "after": {
-        "location": "Niles McKinley High School"
+        "location": "Old Avalon"
       }
     },
     {
@@ -3149,10 +3149,10 @@
         "location"
       ],
       "before": {
-        "location": "Knoll Run"
+        "location": "Knoll Run Golf Course"
       },
       "after": {
-        "location": "Knoll Run Golf Course"
+        "location": "Knoll Run"
       }
     },
     {
@@ -3171,10 +3171,10 @@
         "location"
       ],
       "before": {
-        "location": "Knoll Run"
+        "location": "Struthers High School"
       },
       "after": {
-        "location": "Struthers High School"
+        "location": "Knoll Run"
       }
     },
     {
@@ -3193,10 +3193,10 @@
         "location"
       ],
       "before": {
-        "location": "Valley Golf Course"
+        "location": "Columbiana High School"
       },
       "after": {
-        "location": "Columbiana High School"
+        "location": "Valley Golf Course"
       }
     }
   ]
