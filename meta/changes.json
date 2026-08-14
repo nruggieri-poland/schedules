@@ -1,19 +1,94 @@
 {
-  "generatedAt": "2026-08-13T16:07:26.956Z",
+  "generatedAt": "2026-08-14T04:24:36.385Z",
   "added": [],
-  "removed": [],
-  "changed": [
+  "removed": [
     {
-      "eventId": "bb607043-4a39-4194-8d2a-f05b9ea27158",
-      "eventDate": "2026-08-13",
-      "sport": "Boys Golf",
+      "eventId": "8f75359e-6c78-44a3-b46c-776f8d22bc17",
+      "eventDate": "2025-08-13",
+      "sport": "Girls Tennis",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "Canfield Cardinals",
+      "opponentComplete": "Niles Red Dragons",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 154,
-      "opponentScore": 157,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "0d4245a0-aff4-4b6a-b254-32b5c1328c50",
+      "eventDate": "2025-08-13",
+      "sport": "Girls Soccer",
+      "levelLabel": "JV",
+      "vsOrAt": "vs",
+      "opponentComplete": "Salem Quakers",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "3adb468b-95d2-4cb7-a086-9ab628869847",
+      "eventDate": "2025-08-13",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Salem Quakers",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "91a86840-4744-4d8f-9810-f601abc5242e",
+      "eventDate": "2025-08-13",
+      "sport": "Girls Golf",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Girard Indians",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    }
+  ],
+  "changed": [
+    {
+      "eventId": "cb85a889-e5d4-4aca-b0eb-aaf9a6274071",
+      "eventDate": "2026-08-10",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Ursuline Fighting Irish",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 1,
+      "opponentScore": 4,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
+    },
+    {
+      "eventId": "e2c2f3e5-903a-434f-b5f9-02a4b01b1ba2",
+      "eventDate": "2026-08-13",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Liberty Leopards",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 4,
+      "opponentScore": 1,
       "result": "Win",
       "fields": [
         "result"

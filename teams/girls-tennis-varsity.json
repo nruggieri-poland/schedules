@@ -1,41 +1,5 @@
 [
   {
-    "eventId": "8f75359e-6c78-44a3-b46c-776f8d22bc17",
-    "eventDate": "2025-08-13",
-    "season": "2025",
-    "seasonType": "Fall",
-    "sport": "Girls Tennis",
-    "sportSlug": "girls-tennis",
-    "gender": "Girls",
-    "levelSlug": "varsity",
-    "levelLabel": "Varsity",
-    "levelGroup": "varsity",
-    "teamSlug": "girls-tennis-varsity",
-    "eventTime": "04:00 PM",
-    "homeOrAway": "Home",
-    "vsOrAt": "vs",
-    "opponent": "Niles",
-    "opponentMascot": "Red Dragons",
-    "opponentComplete": "Niles Red Dragons",
-    "opponentLogo": "mckinley-high-school-red-dragons",
-    "otherOpponents": [],
-    "cleanDate": "08/13",
-    "posterFile": "2025-08-13_girls-tennis.jpg",
-    "postSlug": "2025-08-13_girls-tennis",
-    "title": "Niles McKinley High School",
-    "location": "Poland Seminary High School",
-    "eventType": "Game",
-    "isCancelled": false,
-    "isPostponed": false,
-    "isTimeTBD": false,
-    "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
-    "_time24": "16:00"
-  },
-  {
     "eventId": "a5f4485a-3991-46b0-ad7d-6e5f3aba719e",
     "eventDate": "2025-08-14",
     "season": "2025",
@@ -569,10 +533,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 1,
+    "opponentScore": 4,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "Ursuline High School",
+        "teamScore": 1,
+        "opponentScore": 4,
+        "result": "Loss"
+      }
+    ],
     "_time24": "18:00"
   },
   {
@@ -605,10 +576,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 4,
+    "opponentScore": 1,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Liberty High School",
+        "teamScore": 4,
+        "opponentScore": 1,
+        "result": "Win"
+      }
+    ],
     "_time24": "16:00"
   },
   {
