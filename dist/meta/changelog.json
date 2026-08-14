@@ -59025,5 +59025,56 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-14T18:23:30.757Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "cb85a889-e5d4-4aca-b0eb-aaf9a6274071",
+        "eventDate": "2026-08-10",
+        "sport": "Girls Tennis",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Ursuline Fighting Irish",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 1,
+        "opponentScore": 4,
+        "result": "Loss",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Loss"
+        }
+      },
+      {
+        "eventId": "e2c2f3e5-903a-434f-b5f9-02a4b01b1ba2",
+        "eventDate": "2026-08-13",
+        "sport": "Girls Tennis",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Liberty Leopards",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 4,
+        "opponentScore": 1,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
