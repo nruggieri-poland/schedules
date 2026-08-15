@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T20:06:28.048Z",
+  "generatedAt": "2026-08-15T23:11:49.304Z",
   "added": [],
   "removed": [],
   "changed": [
@@ -12,17 +12,17 @@
       "opponentComplete": "Marlington Dukes",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 0,
-      "opponentScore": 4,
-      "result": "Loss",
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
       "fields": [
         "result"
       ],
       "before": {
-        "result": null
+        "result": "Loss"
       },
       "after": {
-        "result": "Loss"
+        "result": null
       }
     }
   ]

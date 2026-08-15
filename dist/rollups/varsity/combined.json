@@ -14340,17 +14340,10 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": 0,
-    "opponentScore": 4,
-    "result": "Loss",
-    "allResults": [
-      {
-        "opponentName": "Marlington High School",
-        "teamScore": 0,
-        "opponentScore": 4,
-        "result": "Loss"
-      }
-    ],
+    "teamScore": null,
+    "opponentScore": null,
+    "result": null,
+    "allResults": [],
     "_time24": "13:00"
   },
   {
