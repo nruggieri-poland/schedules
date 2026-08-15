@@ -42,10 +42,12 @@ const HOME_VENUE_OVERRIDES = [
 // default `conference` flag says (or vice versa). Scoped to `season` so it
 // self-expires — safe to delete individual entries (or this whole block) once
 // that season has passed.
-const CONFERENCE_GAME_OVERRIDES = [
-  // Salem football games are non-conference for the 2026 season only.
-  { season: '2026', sportSlug: 'football', opponent: 'Salem', conferenceGame: false },
-];
+//
+// (Salem's 2026 non-conference override was removed 2026-08-15 — opponents.json's
+// `conference` flag for Salem is now false directly, since they don't join the
+// conference until Fall 2027. Kept this array + applyConferenceGameOverrides in
+// place for the next time a one-season exception like this comes up.)
+const CONFERENCE_GAME_OVERRIDES = [];
 
 // Feed URL (contains an access token) lives in CI secrets / a local .env file,
 // never in source — this repo is public, so anything hardcoded here is exposed
