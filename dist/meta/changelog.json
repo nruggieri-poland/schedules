@@ -65482,5 +65482,77 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-15T10:13:25.590Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "ff332357-0e76-43ba-b80d-2c0aa194542a",
+        "eventDate": "2025-08-14",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "a5f4485a-3991-46b0-ad7d-6e5f3aba719e",
+        "eventDate": "2025-08-14",
+        "sport": "Girls Tennis",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Liberty Leopards",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "19b5209a-7cb5-44d3-beca-550c9e360241",
+        "eventDate": "2025-08-14",
+        "sport": "Volleyball",
+        "levelLabel": "8th Grade",
+        "vsOrAt": "vs",
+        "opponentComplete": "Lordstown High School",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "a140e580-4ceb-4687-938d-c234c8ecee24",
+        "eventDate": "2025-08-14",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "545692ba-7171-42e3-ac0a-b15a8e55cba5",
+        "eventDate": "2025-08-14",
+        "sport": "Football",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Kirtland Hornets",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
