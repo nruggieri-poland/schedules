@@ -65583,5 +65583,34 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-15T23:11:49.304Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "5c7c22b5-1ce9-4f44-b45f-1e3bedf06ef9",
+        "eventDate": "2026-08-15",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Marlington Dukes",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": "Loss"
+        },
+        "after": {
+          "result": null
+        }
+      }
+    ]
   }
 ]
