@@ -1,29 +1,46 @@
 {
-  "generatedAt": "2026-08-15T23:35:06.246Z",
+  "generatedAt": "2026-08-16T10:14:21.895Z",
   "added": [],
-  "removed": [],
-  "changed": [
+  "removed": [
     {
-      "eventId": "5c7c22b5-1ce9-4f44-b45f-1e3bedf06ef9",
-      "eventDate": "2026-08-15",
-      "sport": "Boys Soccer",
+      "eventId": "0dfa4deb-7c26-4551-bfbf-5919c637defd",
+      "eventDate": "2025-08-15",
+      "sport": "Girls Tennis",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Marlington Dukes",
+      "opponentComplete": "Girard Indians",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 0,
-      "opponentScore": 4,
-      "result": "Loss",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Loss"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "33fa9712-e56c-4ae6-b506-b4fdcabac7c0",
+      "eventDate": "2025-08-15",
+      "sport": "Cross Country",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Senior Night & Family Picnic",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "b6cfd1ff-b3e5-405c-88b3-03fa6a172887",
+      "eventDate": "2025-08-15",
+      "sport": "Cross Country",
+      "levelLabel": "Middle School",
+      "vsOrAt": "vs",
+      "opponentComplete": "Senior Night and Family Picnic",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     }
-  ]
+  ],
+  "changed": []
 }
