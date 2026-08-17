@@ -65716,5 +65716,34 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-17T23:32:13.775Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "7551ab6f-6312-4033-b4a8-52d22d985e82",
+        "eventDate": "2026-08-17",
+        "sport": "Girls Tennis",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 5,
+        "opponentScore": 0,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
