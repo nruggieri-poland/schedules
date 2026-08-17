@@ -65687,5 +65687,34 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-08-17T21:35:09.486Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "bafe1fed-3cd9-437a-a753-16b84949e56a",
+        "eventDate": "2026-08-17",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 149,
+        "opponentScore": 180,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
