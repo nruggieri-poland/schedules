@@ -65803,5 +65803,56 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-18T19:09:38.374Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "4f8dcb4f-95bc-4ed2-ae05-5e8c9f9d7212",
+        "eventDate": "2026-09-21",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "07:00 PM"
+        },
+        "after": {
+          "eventTime": "05:00 PM"
+        }
+      },
+      {
+        "eventId": "3dcc5406-b3ac-4964-a658-0720e0f5753b",
+        "eventDate": "2026-09-21",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "05:00 PM"
+        },
+        "after": {
+          "eventTime": "07:00 PM"
+        }
+      }
+    ]
   }
 ]
