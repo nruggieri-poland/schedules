@@ -13867,10 +13867,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 1,
+    "opponentScore": 4,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "Ursuline High School",
+        "teamScore": 1,
+        "opponentScore": 4,
+        "result": "Loss"
+      }
+    ],
     "_time24": "18:00"
   },
   {
@@ -14103,10 +14110,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 4,
+    "opponentScore": 1,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Liberty High School",
+        "teamScore": 4,
+        "opponentScore": 1,
+        "result": "Win"
+      }
+    ],
     "_time24": "16:00"
   },
   {
@@ -14418,10 +14432,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 5,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Niles McKinley High School",
+        "teamScore": 5,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "16:00"
   },
   {
