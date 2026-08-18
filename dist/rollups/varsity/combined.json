@@ -14518,10 +14518,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 147,
+    "opponentScore": 188,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Niles McKinley High School",
+        "teamScore": 147,
+        "opponentScore": 188,
+        "result": "Win"
+      }
+    ],
     "_time24": "08:00"
   },
   {
