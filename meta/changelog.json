@@ -65774,5 +65774,34 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-18T14:23:09.697Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "f6bd18ee-5427-4ac3-a7c1-028c74605d43",
+        "eventDate": "2026-08-18",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 147,
+        "opponentScore": 188,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
