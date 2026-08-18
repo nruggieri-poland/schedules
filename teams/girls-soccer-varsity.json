@@ -929,10 +929,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 6,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Howland High School",
+        "teamScore": 6,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "19:00"
   },
   {
