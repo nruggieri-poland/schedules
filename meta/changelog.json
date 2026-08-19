@@ -66198,5 +66198,34 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-19T21:41:33.682Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "38b424c4-7263-4314-90c2-c69aaa139682",
+        "eventDate": "2026-08-19",
+        "sport": "Girls Tennis",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 4,
+        "opponentScore": 1,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
