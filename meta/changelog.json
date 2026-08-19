@@ -66000,5 +66000,34 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-19T02:34:12.079Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "eb029393-8b44-4e64-9d34-89a0b644a22f",
+        "eventDate": "2026-08-18",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Boardman Spartans",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 1,
+        "opponentScore": 0,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
