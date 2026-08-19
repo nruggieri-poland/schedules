@@ -1,47 +1,5 @@
 [
   {
-    "eventDate": "2026-08-18",
-    "cleanDate": "08/18",
-    "sport": "Boys Golf",
-    "eventTime": "08:00 AM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Niles",
-    "opponentMascot": "Red Dragons",
-    "opponentComplete": "Niles Red Dragons",
-    "location": "Knoll Run",
-    "postSlug": "2026-08-18_boys-golf",
-    "posterFile": "2026-08-18_boys-golf.jpg"
-  },
-  {
-    "eventDate": "2026-08-18",
-    "cleanDate": "08/18",
-    "sport": "Girls Tennis",
-    "eventTime": "04:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Ursuline",
-    "opponentMascot": "Fighting Irish",
-    "opponentComplete": "Ursuline Fighting Irish",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-08-18_girls-tennis",
-    "posterFile": "2026-08-18_girls-tennis.jpg"
-  },
-  {
-    "eventDate": "2026-08-18",
-    "cleanDate": "08/18",
-    "sport": "Boys Soccer",
-    "eventTime": "07:15 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Boardman",
-    "opponentMascot": "Spartans",
-    "opponentComplete": "Boardman Spartans",
-    "location": "Boardman High School",
-    "postSlug": "2026-08-18_boys-soccer",
-    "posterFile": "2026-08-18_boys-soccer.jpg"
-  },
-  {
     "eventDate": "2026-08-19",
     "cleanDate": "08/19",
     "sport": "Girls Golf",
@@ -614,5 +572,33 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-09-08_volleyball",
     "posterFile": "2026-09-08_volleyball.jpg"
+  },
+  {
+    "eventDate": "2026-09-09",
+    "cleanDate": "09/09",
+    "sport": "Boys Golf",
+    "eventTime": "08:00 AM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "NorthEast 8 Championship",
+    "opponentMascot": null,
+    "opponentComplete": "NorthEast 8 Championship",
+    "location": "Squaw Creek",
+    "postSlug": "2026-09-09_boys-golf",
+    "posterFile": "2026-09-09_boys-golf.jpg"
+  },
+  {
+    "eventDate": "2026-09-09",
+    "cleanDate": "09/09",
+    "sport": "Girls Tennis",
+    "eventTime": "04:00 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Niles",
+    "opponentMascot": "Red Dragons",
+    "opponentComplete": "Niles Red Dragons",
+    "location": "Niles McKinley High School",
+    "postSlug": "2026-09-09_girls-tennis",
+    "posterFile": "2026-09-09_girls-tennis.jpg"
   }
 ]
