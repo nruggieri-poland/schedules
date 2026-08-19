@@ -1,111 +1,29 @@
 {
-  "generatedAt": "2026-08-19T04:10:36.337Z",
+  "generatedAt": "2026-08-19T17:54:17.195Z",
   "added": [],
-  "removed": [
+  "removed": [],
+  "changed": [
     {
-      "eventId": "9c318e64-535e-46f5-ab5a-99c7a4714f9b",
-      "eventDate": "2025-08-18",
-      "sport": "Girls Golf",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Niles Red Dragons",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "66df51f5-163f-403d-8252-910a3c538422",
-      "eventDate": "2025-08-18",
-      "sport": "Boys Golf",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Columbiana Clippers",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "e9348a36-7001-45d8-941d-3438da1ae13e",
-      "eventDate": "2025-08-18",
-      "sport": "Volleyball",
-      "levelLabel": "7th Grade",
-      "vsOrAt": "vs",
-      "opponentComplete": "Niles Red Dragons",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "5e27eebf-7aeb-43ee-83a8-674c5597f620",
-      "eventDate": "2025-08-18",
-      "sport": "Volleyball",
-      "levelLabel": "JV",
-      "vsOrAt": "@",
-      "opponentComplete": "Campbell Red Devils",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "16f5c479-24e2-4a3c-99d8-819bd6b3d64b",
-      "eventDate": "2025-08-18",
-      "sport": "Volleyball",
-      "levelLabel": "8th Grade",
-      "vsOrAt": "vs",
-      "opponentComplete": "Niles Red Dragons",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "83dae2c4-4a86-4743-9841-21614ab4dbd4",
-      "eventDate": "2025-08-18",
+      "eventId": "ad73135e-9436-4522-a25a-947245f0cf39",
+      "eventDate": "2026-08-17",
       "sport": "Girls Soccer",
-      "levelLabel": "JV",
-      "vsOrAt": "vs",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
       "opponentComplete": "Howland Tigers",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "fca66071-0272-49b7-be4d-dc811d0c570d",
-      "eventDate": "2025-08-18",
-      "sport": "Volleyball",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Campbell Red Devils",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "b67bb46b-540a-4c10-8c89-b06132cbbb25",
-      "eventDate": "2025-08-18",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Howland Tigers",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
     }
-  ],
-  "changed": []
+  ]
 }
