@@ -1,33 +1,5 @@
 [
   {
-    "eventDate": "2026-08-19",
-    "cleanDate": "08/19",
-    "sport": "Girls Golf",
-    "eventTime": "09:00 AM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "South Range Tournament",
-    "opponentMascot": null,
-    "opponentComplete": "South Range Tournament",
-    "location": "South Range High School",
-    "postSlug": "2026-08-19_girls-golf",
-    "posterFile": "2026-08-19_girls-golf.jpg"
-  },
-  {
-    "eventDate": "2026-08-19",
-    "cleanDate": "08/19",
-    "sport": "Girls Tennis",
-    "eventTime": "04:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Girard",
-    "opponentMascot": "Indians",
-    "opponentComplete": "Girard Indians",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-08-19_girls-tennis",
-    "posterFile": "2026-08-19_girls-tennis.jpg"
-  },
-  {
     "eventDate": "2026-08-20",
     "cleanDate": "08/20",
     "sport": "Boys Golf",
@@ -600,5 +572,47 @@
     "location": "Niles McKinley High School",
     "postSlug": "2026-09-09_girls-tennis",
     "posterFile": "2026-09-09_girls-tennis.jpg"
+  },
+  {
+    "eventDate": "2026-09-10",
+    "cleanDate": "09/10",
+    "sport": "Boys Soccer",
+    "eventTime": "05:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "South Range",
+    "opponentMascot": "Raiders",
+    "opponentComplete": "South Range Raiders",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-09-10_boys-soccer",
+    "posterFile": "2026-09-10_boys-soccer.jpg"
+  },
+  {
+    "eventDate": "2026-09-10",
+    "cleanDate": "09/10",
+    "sport": "Volleyball",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Struthers",
+    "opponentMascot": "Wildcats",
+    "opponentComplete": "Struthers Wildcats",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-09-10_volleyball",
+    "posterFile": "2026-09-10_volleyball.jpg"
+  },
+  {
+    "eventDate": "2026-09-10",
+    "cleanDate": "09/10",
+    "sport": "Girls Soccer",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "South Range",
+    "opponentMascot": "Raiders",
+    "opponentComplete": "South Range Raiders",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-09-10_girls-soccer",
+    "posterFile": "2026-09-10_girls-soccer.jpg"
   }
 ]
