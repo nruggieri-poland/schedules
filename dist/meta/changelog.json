@@ -72678,5 +72678,34 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-21T15:32:25.331Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "97b26edd-f3b0-4a4e-9dee-ad29d173038f",
+        "eventDate": "2026-08-22",
+        "sport": "Girls Soccer",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "Boardman Spartans",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "03:00 PM"
+        },
+        "after": {
+          "eventTime": "03:30 PM"
+        }
+      }
+    ]
   }
 ]
