@@ -1,51 +1,72 @@
 {
-  "generatedAt": "2026-08-21T02:51:13.351Z",
+  "generatedAt": "2026-08-21T04:46:09.301Z",
   "added": [],
-  "removed": [],
-  "changed": [
+  "removed": [
     {
-      "eventId": "414fc8e2-195f-44e4-8848-e4379dea0074",
-      "eventDate": "2026-08-20",
-      "sport": "Boys Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Hubbard Eagles",
+      "eventId": "6e3592e4-fd80-4087-8556-baa4e2e1915a",
+      "eventDate": "2025-08-20",
+      "sport": "Football",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Salem Quakers",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 2,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     },
     {
-      "eventId": "5a52d88a-ed64-48a2-8dd9-f16707c82a4b",
-      "eventDate": "2026-08-20",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
+      "eventId": "83f8d12c-b6a9-4836-a6b1-2a600a476de2",
+      "eventDate": "2025-08-20",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
       "vsOrAt": "@",
-      "opponentComplete": "Hubbard Eagles",
+      "opponentComplete": "South Range Raiders",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 6,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "a590469b-e810-42c6-ab7f-c69550761099",
+      "eventDate": "2025-08-20",
+      "sport": "Football",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Salem Quakers",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "6ff36af2-729f-4491-acb8-65e8256727e3",
+      "eventDate": "2025-08-20",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "@",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "d10fa2b2-c065-4ec8-a367-6a6be0543003",
+      "eventDate": "2025-08-20",
+      "sport": "Football",
+      "levelLabel": "Freshman",
+      "vsOrAt": "vs",
+      "opponentComplete": "Salem Quakers",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     }
-  ]
+  ],
+  "changed": []
 }
