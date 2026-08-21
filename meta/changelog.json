@@ -66299,5 +66299,56 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-08-21T02:51:13.351Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "414fc8e2-195f-44e4-8848-e4379dea0074",
+        "eventDate": "2026-08-20",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 2,
+        "opponentScore": 0,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      },
+      {
+        "eventId": "5a52d88a-ed64-48a2-8dd9-f16707c82a4b",
+        "eventDate": "2026-08-20",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 6,
+        "opponentScore": 0,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]

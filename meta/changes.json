@@ -1,72 +1,51 @@
 {
-  "generatedAt": "2026-08-20T04:20:28.572Z",
+  "generatedAt": "2026-08-21T02:51:13.351Z",
   "added": [],
-  "removed": [
+  "removed": [],
+  "changed": [
     {
-      "eventId": "691e5d7b-4794-4144-bc33-73849be57181",
-      "eventDate": "2025-08-19",
-      "sport": "Boys Golf",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Struthers Wildcats",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "e2e368c8-e9db-459e-9fdf-64c30efc2dc9",
-      "eventDate": "2025-08-19",
-      "sport": "Boys Soccer",
-      "levelLabel": "JV",
-      "vsOrAt": "vs",
-      "opponentComplete": "Boardman Spartans",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "13f9da89-5a3b-496e-b77c-a1a0be4b9073",
-      "eventDate": "2025-08-19",
-      "sport": "Volleyball",
-      "levelLabel": "JV",
-      "vsOrAt": "vs",
-      "opponentComplete": "Niles Red Dragons",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "a22b3a10-d3d6-4f7d-92d9-d90d1fb343d5",
-      "eventDate": "2025-08-19",
-      "sport": "Volleyball",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Niles Red Dragons",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "41257f3f-beef-43dd-b815-5bd83da7f0ce",
-      "eventDate": "2025-08-19",
+      "eventId": "414fc8e2-195f-44e4-8848-e4379dea0074",
+      "eventDate": "2026-08-20",
       "sport": "Boys Soccer",
       "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Boardman Spartans",
+      "vsOrAt": "@",
+      "opponentComplete": "Hubbard Eagles",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
+      "teamScore": 2,
+      "opponentScore": 0,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "5a52d88a-ed64-48a2-8dd9-f16707c82a4b",
+      "eventDate": "2026-08-20",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 6,
+      "opponentScore": 0,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
     }
-  ],
-  "changed": []
+  ]
 }
