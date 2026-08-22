@@ -1,19 +1,5 @@
 [
   {
-    "eventDate": "2026-08-21",
-    "cleanDate": "08/21",
-    "sport": "Football",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Salem",
-    "opponentMascot": "Quakers",
-    "opponentComplete": "Salem Quakers",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-08-21_football",
-    "posterFile": "2026-08-21_football.jpg"
-  },
-  {
     "eventDate": "2026-08-24",
     "cleanDate": "08/24",
     "sport": "Boys Golf",
@@ -572,5 +558,19 @@
     "location": "Canfield High School",
     "postSlug": "2026-09-11_football",
     "posterFile": "2026-09-11_football.jpg"
+  },
+  {
+    "eventDate": "2026-09-12",
+    "cleanDate": "09/12",
+    "sport": "Cross Country",
+    "eventTime": "11:00 AM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Streetsboro Invitational",
+    "opponentMascot": null,
+    "opponentComplete": "Streetsboro Invitational",
+    "location": "Streetsboro Invitational",
+    "postSlug": "2026-09-12_cross-country",
+    "posterFile": "2026-09-12_cross-country.jpg"
   }
 ]
