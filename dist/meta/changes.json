@@ -1,85 +1,29 @@
 {
-  "generatedAt": "2026-08-22T04:09:28.351Z",
+  "generatedAt": "2026-08-22T05:51:18.237Z",
   "added": [],
-  "removed": [
+  "removed": [],
+  "changed": [
     {
-      "eventId": "43fcfbdd-af0d-4654-b268-f2b0684b4c81",
-      "eventDate": "2025-08-21",
-      "sport": "Girls Golf",
+      "eventId": "96f48919-2fe3-4600-b17c-c96e8e12fb8d",
+      "eventDate": "2026-08-21",
+      "sport": "Football",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "Struthers Wildcats",
+      "opponentComplete": "Salem Quakers",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "4e63f1d7-8346-4310-850a-3ffbe61ffc22",
-      "eventDate": "2025-08-21",
-      "sport": "Girls Tennis",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Canfield Cardinals",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "f10956e0-c68b-4d29-a4e8-9380e65f6c16",
-      "eventDate": "2025-08-21",
-      "sport": "Boys Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Girard Indians",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "1ca354cc-043d-42ae-a8b8-2c66dacf1c84",
-      "eventDate": "2025-08-21",
-      "sport": "Volleyball",
-      "levelLabel": "JV",
-      "vsOrAt": "@",
-      "opponentComplete": "South Range Raiders",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "d383db1c-dc61-4b6f-8eee-187edb99b417",
-      "eventDate": "2025-08-21",
-      "sport": "Volleyball",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "South Range Raiders",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "96b0c3b1-d2ef-4d51-90cd-eb76660545a5",
-      "eventDate": "2025-08-21",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Girard Indians",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
+      "teamScore": 17,
+      "opponentScore": 21,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
     }
-  ],
-  "changed": []
+  ]
 }

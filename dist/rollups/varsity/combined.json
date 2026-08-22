@@ -14445,10 +14445,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 17,
+    "opponentScore": 21,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "Salem High School",
+        "teamScore": 17,
+        "opponentScore": 21,
+        "result": "Loss"
+      }
+    ],
     "_time24": "19:00"
   },
   {
