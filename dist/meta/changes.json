@@ -1,29 +1,20 @@
 {
-  "generatedAt": "2026-08-22T05:51:18.237Z",
+  "generatedAt": "2026-08-23T04:44:00.619Z",
   "added": [],
-  "removed": [],
-  "changed": [
+  "removed": [
     {
-      "eventId": "96f48919-2fe3-4600-b17c-c96e8e12fb8d",
-      "eventDate": "2026-08-21",
+      "eventId": "93593bd5-5b46-43a3-adee-f560da046c53",
+      "eventDate": "2025-08-22",
       "sport": "Football",
       "levelLabel": "Varsity",
-      "vsOrAt": "vs",
+      "vsOrAt": "@",
       "opponentComplete": "Salem Quakers",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 17,
-      "opponentScore": 21,
-      "result": "Loss",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Loss"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     }
-  ]
+  ],
+  "changed": []
 }

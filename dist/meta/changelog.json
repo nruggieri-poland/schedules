@@ -72821,5 +72821,25 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-23T04:44:00.619Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "93593bd5-5b46-43a3-adee-f560da046c53",
+        "eventDate": "2025-08-22",
+        "sport": "Football",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Salem Quakers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
