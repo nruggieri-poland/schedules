@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T10:11:31.055Z",
+  "generatedAt": "2026-08-23T10:41:05.313Z",
   "added": [],
   "removed": [],
   "changed": [
@@ -12,17 +12,17 @@
       "opponentComplete": "Howland Tigers",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 6,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -34,17 +34,17 @@
       "opponentComplete": "Hubbard Eagles",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 6,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     }
   ]
