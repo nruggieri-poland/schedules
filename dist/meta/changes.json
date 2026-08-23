@@ -1,20 +1,51 @@
 {
-  "generatedAt": "2026-08-23T04:44:00.619Z",
+  "generatedAt": "2026-08-23T10:11:31.055Z",
   "added": [],
-  "removed": [
+  "removed": [],
+  "changed": [
     {
-      "eventId": "93593bd5-5b46-43a3-adee-f560da046c53",
-      "eventDate": "2025-08-22",
-      "sport": "Football",
+      "eventId": "ad73135e-9436-4522-a25a-947245f0cf39",
+      "eventDate": "2026-08-17",
+      "sport": "Girls Soccer",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Salem Quakers",
+      "opponentComplete": "Howland Tigers",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "5a52d88a-ed64-48a2-8dd9-f16707c82a4b",
+      "eventDate": "2026-08-20",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
     }
-  ],
-  "changed": []
+  ]
 }
