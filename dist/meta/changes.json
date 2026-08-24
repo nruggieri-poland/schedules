@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-08-24T14:56:27.911Z",
+  "generatedAt": "2026-08-24T15:29:55.987Z",
   "added": [],
   "removed": [],
   "changed": [
     {
-      "eventId": "c49d48e6-26da-44ef-a760-1d979effc18e",
-      "eventDate": "2026-08-24",
-      "sport": "Boys Golf",
+      "eventId": "ac2ddb42-27c8-44a7-b09b-ac0001afc5e4",
+      "eventDate": "2026-09-14",
+      "sport": "Girls Tennis",
       "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Hubbard Eagles",
+      "vsOrAt": "@",
+      "opponentComplete": "Struthers Wildcats",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 147,
-      "opponentScore": 177,
-      "result": "Win",
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
       "fields": [
-        "result"
+        "eventDate"
       ],
       "before": {
-        "result": null
+        "eventDate": "2026-08-26"
       },
       "after": {
-        "result": "Win"
+        "eventDate": "2026-09-14"
       }
     }
   ]
