@@ -1,51 +1,46 @@
 {
-  "generatedAt": "2026-08-23T10:41:05.313Z",
+  "generatedAt": "2026-08-24T04:56:09.737Z",
   "added": [],
-  "removed": [],
-  "changed": [
+  "removed": [
     {
-      "eventId": "ad73135e-9436-4522-a25a-947245f0cf39",
-      "eventDate": "2026-08-17",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
+      "eventId": "a57a2e96-8f9b-4408-a73b-8f05a34011c7",
+      "eventDate": "2025-08-23",
+      "sport": "Cross Country",
+      "levelLabel": "Middle School",
       "vsOrAt": "@",
-      "opponentComplete": "Howland Tigers",
+      "opponentComplete": "Billy Goat Invitational",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 6,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     },
     {
-      "eventId": "5a52d88a-ed64-48a2-8dd9-f16707c82a4b",
-      "eventDate": "2026-08-20",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Hubbard Eagles",
+      "eventId": "300ae109-bd1c-4d1d-8a8d-10724e80dfac",
+      "eventDate": "2025-08-23",
+      "sport": "Football",
+      "levelLabel": "JV",
+      "vsOrAt": "vs",
+      "opponentComplete": "Salem Quakers",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 6,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "ff99e3e7-b480-4671-a8bf-841f0552c010",
+      "eventDate": "2025-08-23",
+      "sport": "Cross Country",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Billy Goat Invitational",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     }
-  ]
+  ],
+  "changed": []
 }
