@@ -1,85 +1,19 @@
 {
-  "generatedAt": "2026-08-24T11:53:00.822Z",
+  "generatedAt": "2026-08-24T14:56:27.911Z",
   "added": [],
   "removed": [],
   "changed": [
     {
-      "eventId": "cb85a889-e5d4-4aca-b0eb-aaf9a6274071",
-      "eventDate": "2026-08-10",
-      "sport": "Girls Tennis",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Ursuline Fighting Irish",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 1,
-      "opponentScore": 4,
-      "result": "Loss",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Loss"
-      }
-    },
-    {
-      "eventId": "e2c2f3e5-903a-434f-b5f9-02a4b01b1ba2",
-      "eventDate": "2026-08-13",
-      "sport": "Girls Tennis",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Liberty Leopards",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 4,
-      "opponentScore": 1,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
-    },
-    {
-      "eventId": "7551ab6f-6312-4033-b4a8-52d22d985e82",
-      "eventDate": "2026-08-17",
-      "sport": "Girls Tennis",
+      "eventId": "c49d48e6-26da-44ef-a760-1d979effc18e",
+      "eventDate": "2026-08-24",
+      "sport": "Boys Golf",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "Niles Red Dragons",
+      "opponentComplete": "Hubbard Eagles",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 5,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
-    },
-    {
-      "eventId": "38b424c4-7263-4314-90c2-c69aaa139682",
-      "eventDate": "2026-08-19",
-      "sport": "Girls Tennis",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Girard Indians",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 4,
-      "opponentScore": 1,
+      "teamScore": 147,
+      "opponentScore": 177,
       "result": "Win",
       "fields": [
         "result"
