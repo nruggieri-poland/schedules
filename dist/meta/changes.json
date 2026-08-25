@@ -1,28 +1,72 @@
 {
-  "generatedAt": "2026-08-24T15:29:55.987Z",
+  "generatedAt": "2026-08-25T01:39:51.715Z",
   "added": [],
   "removed": [],
   "changed": [
     {
-      "eventId": "ac2ddb42-27c8-44a7-b09b-ac0001afc5e4",
-      "eventDate": "2026-09-14",
-      "sport": "Girls Tennis",
+      "eventId": "ca25f6d9-0d80-46ab-8d9a-6350cc0c683e",
+      "eventDate": "2026-08-24",
+      "sport": "Boys Soccer",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Struthers Wildcats",
+      "opponentComplete": "Niles Red Dragons",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 5,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
-        "eventDate"
+        "result"
       ],
       "before": {
-        "eventDate": "2026-08-26"
+        "result": null
       },
       "after": {
-        "eventDate": "2026-09-14"
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "ec820665-ff3c-4540-96cf-009e98eba533",
+      "eventDate": "2026-08-24",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Campbell Red Devils",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 0,
+      "opponentScore": 3,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
+    },
+    {
+      "eventId": "01568123-b0ad-43b2-ad25-ab44100d3682",
+      "eventDate": "2026-08-24",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 1,
+      "opponentScore": 5,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
       }
     }
   ]

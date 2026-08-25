@@ -14495,10 +14495,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 5,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Niles McKinley High School",
+        "teamScore": 5,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "17:00"
   },
   {
@@ -14531,10 +14538,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 0,
+    "opponentScore": 3,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "Campbell Memorial High School",
+        "teamScore": 0,
+        "opponentScore": 3,
+        "result": "Loss"
+      }
+    ],
     "_time24": "19:00"
   },
   {
@@ -14567,10 +14581,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 1,
+    "opponentScore": 5,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "Niles McKinley High School",
+        "teamScore": 1,
+        "opponentScore": 5,
+        "result": "Loss"
+      }
+    ],
     "_time24": "19:00"
   },
   {

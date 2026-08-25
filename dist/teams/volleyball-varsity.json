@@ -821,10 +821,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 0,
+    "opponentScore": 3,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "Campbell Memorial High School",
+        "teamScore": 0,
+        "opponentScore": 3,
+        "result": "Loss"
+      }
+    ],
     "_time24": "19:00"
   },
   {
