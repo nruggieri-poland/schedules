@@ -73310,5 +73310,34 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-25T23:34:09.077Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "cf230b77-13df-4c2f-bc74-9bf725cbe3d7",
+        "eventDate": "2026-08-25",
+        "sport": "Girls Tennis",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 3,
+        "opponentScore": 2,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
