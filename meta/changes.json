@@ -1,27 +1,13 @@
 {
-  "generatedAt": "2026-08-26T04:50:03.302Z",
-  "added": [],
-  "removed": [
+  "generatedAt": "2026-08-26T16:42:56.473Z",
+  "added": [
     {
-      "eventId": "cba172b7-067b-4db2-921c-1cae96ee29b1",
-      "eventDate": "2025-08-25",
-      "sport": "Girls Tennis",
+      "eventId": "6e6f75b0-7154-4c14-a516-32770cb5133a",
+      "eventDate": "2027-04-07",
+      "sport": "Baseball",
       "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Struthers Wildcats",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "2592a65b-1138-41bb-a95f-bf2e96cddd8e",
-      "eventDate": "2025-08-25",
-      "sport": "Volleyball",
-      "levelLabel": "7th Grade",
       "vsOrAt": "@",
-      "opponentComplete": "Lakeview Bulldogs",
+      "opponentComplete": "Ursuline Fighting Irish",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -29,64 +15,12 @@
       "result": null
     },
     {
-      "eventId": "59f64520-6571-4491-96e9-c3b6d84c61fc",
-      "eventDate": "2025-08-25",
-      "sport": "Volleyball",
+      "eventId": "21436cba-079f-462c-9cd6-c7d851a1c028",
+      "eventDate": "2027-04-07",
+      "sport": "Baseball",
       "levelLabel": "JV",
-      "vsOrAt": "@",
-      "opponentComplete": "Canfield Cardinals",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "c06478a4-b7d8-4189-a03d-3e23945b668d",
-      "eventDate": "2025-08-25",
-      "sport": "Boys Soccer",
-      "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "Hubbard Eagles",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "4eb0bb27-dfb2-4584-ab83-c8285a530c95",
-      "eventDate": "2025-08-25",
-      "sport": "Volleyball",
-      "levelLabel": "8th Grade",
-      "vsOrAt": "@",
-      "opponentComplete": "Lakeview Bulldogs",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "51579128-46ce-492d-8652-81d208fbb96f",
-      "eventDate": "2025-08-25",
-      "sport": "Volleyball",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Canfield Cardinals",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "b04fe330-9729-47da-9ff4-f0243c4dcd6f",
-      "eventDate": "2025-08-25",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Hubbard Eagles",
+      "opponentComplete": "Ursuline Fighting Irish",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -94,5 +28,51 @@
       "result": null
     }
   ],
-  "changed": []
+  "removed": [],
+  "changed": [
+    {
+      "eventId": "0e918c8f-17bd-4cd1-a82b-92c5e1b5f697",
+      "eventDate": "2026-08-26",
+      "sport": "Football",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": true,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "isCancelled"
+      ],
+      "before": {
+        "isCancelled": false
+      },
+      "after": {
+        "isCancelled": true
+      }
+    },
+    {
+      "eventId": "b2e69da6-8f5f-4ec6-abef-cd8bdc7ee4fa",
+      "eventDate": "2026-08-26",
+      "sport": "Football",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "eventTime"
+      ],
+      "before": {
+        "eventTime": "06:00 PM"
+      },
+      "after": {
+        "eventTime": "05:45 PM"
+      }
+    }
+  ]
 }

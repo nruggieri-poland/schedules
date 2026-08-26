@@ -73437,5 +73437,83 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-08-26T16:42:56.473Z",
+    "added": [
+      {
+        "eventId": "6e6f75b0-7154-4c14-a516-32770cb5133a",
+        "eventDate": "2027-04-07",
+        "sport": "Baseball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Ursuline Fighting Irish",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "21436cba-079f-462c-9cd6-c7d851a1c028",
+        "eventDate": "2027-04-07",
+        "sport": "Baseball",
+        "levelLabel": "JV",
+        "vsOrAt": "vs",
+        "opponentComplete": "Ursuline Fighting Irish",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "0e918c8f-17bd-4cd1-a82b-92c5e1b5f697",
+        "eventDate": "2026-08-26",
+        "sport": "Football",
+        "levelLabel": "7th Grade",
+        "vsOrAt": "vs",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": true,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "isCancelled"
+        ],
+        "before": {
+          "isCancelled": false
+        },
+        "after": {
+          "isCancelled": true
+        }
+      },
+      {
+        "eventId": "b2e69da6-8f5f-4ec6-abef-cd8bdc7ee4fa",
+        "eventDate": "2026-08-26",
+        "sport": "Football",
+        "levelLabel": "8th Grade",
+        "vsOrAt": "vs",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "06:00 PM"
+        },
+        "after": {
+          "eventTime": "05:45 PM"
+        }
+      }
+    ]
   }
 ]
