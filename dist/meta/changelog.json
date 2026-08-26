@@ -73339,5 +73339,103 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-26T04:50:03.302Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "cba172b7-067b-4db2-921c-1cae96ee29b1",
+        "eventDate": "2025-08-25",
+        "sport": "Girls Tennis",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "2592a65b-1138-41bb-a95f-bf2e96cddd8e",
+        "eventDate": "2025-08-25",
+        "sport": "Volleyball",
+        "levelLabel": "7th Grade",
+        "vsOrAt": "@",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "59f64520-6571-4491-96e9-c3b6d84c61fc",
+        "eventDate": "2025-08-25",
+        "sport": "Volleyball",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "Canfield Cardinals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "c06478a4-b7d8-4189-a03d-3e23945b668d",
+        "eventDate": "2025-08-25",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "4eb0bb27-dfb2-4584-ab83-c8285a530c95",
+        "eventDate": "2025-08-25",
+        "sport": "Volleyball",
+        "levelLabel": "8th Grade",
+        "vsOrAt": "@",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "51579128-46ce-492d-8652-81d208fbb96f",
+        "eventDate": "2025-08-25",
+        "sport": "Volleyball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Canfield Cardinals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "b04fe330-9729-47da-9ff4-f0243c4dcd6f",
+        "eventDate": "2025-08-25",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
