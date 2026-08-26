@@ -73580,5 +73580,34 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-26T23:37:55.161Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "0c8e69fe-6672-448b-b308-4775862116d7",
+        "eventDate": "2026-08-26",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 144,
+        "opponentScore": 163,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]

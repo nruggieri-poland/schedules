@@ -1,64 +1,28 @@
 {
-  "generatedAt": "2026-08-26T18:25:23.939Z",
-  "added": [
-    {
-      "eventId": "b1ffa245-4438-4f54-aef3-890746a80977",
-      "eventDate": "2026-10-07",
-      "sport": "Football",
-      "levelLabel": "7th Grade",
-      "vsOrAt": "@",
-      "opponentComplete": "Liberty High School",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    }
-  ],
+  "generatedAt": "2026-08-26T23:37:55.161Z",
+  "added": [],
   "removed": [],
   "changed": [
     {
-      "eventId": "52cbe4f6-67e7-494d-aa34-bfc88be95264",
-      "eventDate": "2026-09-28",
-      "sport": "Boys Soccer",
+      "eventId": "0c8e69fe-6672-448b-b308-4775862116d7",
+      "eventDate": "2026-08-26",
+      "sport": "Boys Golf",
       "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Lakeview Bulldogs",
+      "vsOrAt": "@",
+      "opponentComplete": "Girard Indians",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 144,
+      "opponentScore": 163,
+      "result": "Win",
       "fields": [
-        "eventTime"
+        "result"
       ],
       "before": {
-        "eventTime": "07:00 PM"
+        "result": null
       },
       "after": {
-        "eventTime": "05:00 PM"
-      }
-    },
-    {
-      "eventId": "c9cdbb4c-0ad0-4e03-a13e-22191694e612",
-      "eventDate": "2026-09-28",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Lakeview Bulldogs",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
-      "fields": [
-        "eventTime"
-      ],
-      "before": {
-        "eventTime": "05:00 PM"
-      },
-      "after": {
-        "eventTime": "07:00 PM"
+        "result": "Win"
       }
     }
   ]
