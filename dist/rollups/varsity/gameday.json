@@ -1,33 +1,5 @@
 [
   {
-    "eventDate": "2026-08-25",
-    "cleanDate": "08/25",
-    "sport": "Girls Tennis",
-    "eventTime": "04:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Lakeview",
-    "opponentMascot": "Bulldogs",
-    "opponentComplete": "Lakeview Bulldogs",
-    "location": "Lakeview High School",
-    "postSlug": "2026-08-25_girls-tennis",
-    "posterFile": "2026-08-25_girls-tennis.jpg"
-  },
-  {
-    "eventDate": "2026-08-25",
-    "cleanDate": "08/25",
-    "sport": "Volleyball",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Lakeview",
-    "opponentMascot": "Bulldogs",
-    "opponentComplete": "Lakeview Bulldogs",
-    "location": "Lakeview High School",
-    "postSlug": "2026-08-25_volleyball",
-    "posterFile": "2026-08-25_volleyball.jpg"
-  },
-  {
     "eventDate": "2026-08-26",
     "cleanDate": "08/26",
     "sport": "Boys Golf",
@@ -628,5 +600,19 @@
     "location": "Niles McKinley High School",
     "postSlug": "2026-09-15_volleyball",
     "posterFile": "2026-09-15_volleyball.jpg"
+  },
+  {
+    "eventDate": "2026-09-16",
+    "cleanDate": "09/16",
+    "sport": "Girls Tennis",
+    "eventTime": "04:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Lakeview",
+    "opponentMascot": "Bulldogs",
+    "opponentComplete": "Lakeview Bulldogs",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-09-16_girls-tennis",
+    "posterFile": "2026-09-16_girls-tennis.jpg"
   }
 ]
