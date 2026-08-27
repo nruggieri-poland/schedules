@@ -506,8 +506,22 @@
   {
     "eventDate": "2026-09-14",
     "cleanDate": "09/14",
-    "sport": "Boys Soccer",
+    "sport": "Girls Soccer",
     "eventTime": "05:00 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Girard",
+    "opponentMascot": "Indians",
+    "opponentComplete": "Girard Indians",
+    "location": "Girard Sr High School",
+    "postSlug": "2026-09-14_girls-soccer",
+    "posterFile": "2026-09-14_girls-soccer.jpg"
+  },
+  {
+    "eventDate": "2026-09-14",
+    "cleanDate": "09/14",
+    "sport": "Boys Soccer",
+    "eventTime": "07:00 PM",
     "vsOrAt": "@",
     "homeOrAway": "Away",
     "opponent": "Girard",
@@ -530,20 +544,6 @@
     "location": "United High School",
     "postSlug": "2026-09-14_volleyball",
     "posterFile": "2026-09-14_volleyball.jpg"
-  },
-  {
-    "eventDate": "2026-09-14",
-    "cleanDate": "09/14",
-    "sport": "Girls Soccer",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Girard",
-    "opponentMascot": "Indians",
-    "opponentComplete": "Girard Indians",
-    "location": "Girard Sr High School",
-    "postSlug": "2026-09-14_girls-soccer",
-    "posterFile": "2026-09-14_girls-soccer.jpg"
   },
   {
     "eventDate": "2026-09-15",
