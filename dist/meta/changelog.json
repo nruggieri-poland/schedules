@@ -73720,5 +73720,70 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-08-27T20:01:59.850Z",
+    "added": [
+      {
+        "eventId": "6e5b1ea6-8a5c-4b92-b915-593e2824c680",
+        "eventDate": "2027-04-10",
+        "sport": "Baseball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Mineral Ridge Rams",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "b6d1bf28-ef0a-4380-8a4e-ffc624b48c56",
+        "eventDate": "2026-09-14",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "07:00 PM"
+        },
+        "after": {
+          "eventTime": "05:00 PM"
+        }
+      },
+      {
+        "eventId": "1b36103b-92e2-46c5-a9cc-5fce5aebe374",
+        "eventDate": "2026-09-14",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "05:00 PM"
+        },
+        "after": {
+          "eventTime": "07:00 PM"
+        }
+      }
+    ]
   }
 ]
