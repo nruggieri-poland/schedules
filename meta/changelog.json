@@ -73609,5 +73609,116 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-27T04:59:47.048Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "33ca47ee-67da-45d2-9447-2813832d533a",
+        "eventDate": "2025-08-26",
+        "sport": "Cheerleading",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "cheer practice",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "1b8de627-dfea-4043-9820-6ba15e3238a7",
+        "eventDate": "2025-08-26",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "South Range Raiders",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "05aaf0e7-52a0-41fe-8ac7-a6aaa61b17c1",
+        "eventDate": "2025-08-26",
+        "sport": "Girls Tennis",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "5d5ba1c0-9d60-45df-a3a1-7c509d8b736f",
+        "eventDate": "2025-08-26",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "East Palestine Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "96e86840-d338-4796-9b1a-a4662ddfc2e1",
+        "eventDate": "2025-08-26",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "34fb2a75-540d-44c5-a7ed-72d8d4aea86e",
+        "eventDate": "2025-08-26",
+        "sport": "Volleyball",
+        "levelLabel": "JV",
+        "vsOrAt": "vs",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "14ac486f-312f-4ad0-bb05-36f315cf8eab",
+        "eventDate": "2025-08-26",
+        "sport": "Cross Country",
+        "levelLabel": "Middle School",
+        "vsOrAt": "@",
+        "opponentComplete": "East Palestine High School",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "bc507696-5dfd-40b5-8ca6-68352b5c6407",
+        "eventDate": "2025-08-26",
+        "sport": "Volleyball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
