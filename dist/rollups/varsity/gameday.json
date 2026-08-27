@@ -1,19 +1,5 @@
 [
   {
-    "eventDate": "2026-08-26",
-    "cleanDate": "08/26",
-    "sport": "Boys Golf",
-    "eventTime": "04:30 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Girard",
-    "opponentMascot": "Indians",
-    "opponentComplete": "Girard Indians",
-    "location": "Mahoning CC",
-    "postSlug": "2026-08-26_boys-golf",
-    "posterFile": "2026-08-26_boys-golf.jpg"
-  },
-  {
     "eventDate": "2026-08-27",
     "cleanDate": "08/27",
     "sport": "Boys Golf",
@@ -614,5 +600,61 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-09-16_girls-tennis",
     "posterFile": "2026-09-16_girls-tennis.jpg"
+  },
+  {
+    "eventDate": "2026-09-17",
+    "cleanDate": "09/17",
+    "sport": "Girls Tennis",
+    "eventTime": "04:00 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Boardman",
+    "opponentMascot": "Spartans",
+    "opponentComplete": "Boardman Spartans",
+    "location": "Boardman High School",
+    "postSlug": "2026-09-17_girls-tennis",
+    "posterFile": "2026-09-17_girls-tennis.jpg"
+  },
+  {
+    "eventDate": "2026-09-17",
+    "cleanDate": "09/17",
+    "sport": "Girls Soccer",
+    "eventTime": "05:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Hubbard",
+    "opponentMascot": "Eagles",
+    "opponentComplete": "Hubbard Eagles",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-09-17_girls-soccer",
+    "posterFile": "2026-09-17_girls-soccer.jpg"
+  },
+  {
+    "eventDate": "2026-09-17",
+    "cleanDate": "09/17",
+    "sport": "Boys Soccer",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Hubbard",
+    "opponentMascot": "Eagles",
+    "opponentComplete": "Hubbard Eagles",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-09-17_boys-soccer",
+    "posterFile": "2026-09-17_boys-soccer.jpg"
+  },
+  {
+    "eventDate": "2026-09-17",
+    "cleanDate": "09/17",
+    "sport": "Volleyball",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Lakeview",
+    "opponentMascot": "Bulldogs",
+    "opponentComplete": "Lakeview Bulldogs",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-09-17_volleyball",
+    "posterFile": "2026-09-17_volleyball.jpg"
   }
 ]
