@@ -993,10 +993,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 4,
+    "opponentScore": 1,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Crestview High School (Columbiana)",
+        "teamScore": 4,
+        "opponentScore": 1,
+        "result": "Win"
+      }
+    ],
     "_time24": "17:00"
   },
   {

@@ -14350,10 +14350,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 179,
+    "opponentScore": 184,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Niles McKinley High School",
+        "teamScore": 179,
+        "opponentScore": 184,
+        "result": "Win"
+      }
+    ],
     "_time24": "16:00"
   },
   {
@@ -14386,10 +14393,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 4,
+    "opponentScore": 1,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Crestview High School (Columbiana)",
+        "teamScore": 4,
+        "opponentScore": 1,
+        "result": "Win"
+      }
+    ],
     "_time24": "17:00"
   },
   {
@@ -14458,10 +14472,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 13,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Struthers High School",
+        "teamScore": 13,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "19:00"
   },
   {
