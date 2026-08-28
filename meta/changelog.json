@@ -73785,5 +73785,51 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-28T04:20:37.611Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "53d7d8d4-5788-48ca-b1c4-3e69e75afd9d",
+        "eventDate": "2025-08-27",
+        "sport": "Girls Tennis",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Boardman Spartans",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "e2b7bccb-ba17-4666-bacc-33d770cf996d",
+        "eventDate": "2025-08-27",
+        "sport": "Volleyball",
+        "levelLabel": "7th Grade",
+        "vsOrAt": "@",
+        "opponentComplete": "Girard Sr High School",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "92beff71-4d42-4418-9dd7-47836deccc4f",
+        "eventDate": "2025-08-27",
+        "sport": "Volleyball",
+        "levelLabel": "8th Grade",
+        "vsOrAt": "@",
+        "opponentComplete": "Girard Sr High School",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
