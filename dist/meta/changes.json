@@ -1,13 +1,40 @@
 {
-  "generatedAt": "2026-08-27T20:01:59.850Z",
-  "added": [
+  "generatedAt": "2026-08-28T04:20:37.611Z",
+  "added": [],
+  "removed": [
     {
-      "eventId": "6e5b1ea6-8a5c-4b92-b915-593e2824c680",
-      "eventDate": "2027-04-10",
-      "sport": "Baseball",
+      "eventId": "53d7d8d4-5788-48ca-b1c4-3e69e75afd9d",
+      "eventDate": "2025-08-27",
+      "sport": "Girls Tennis",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "Mineral Ridge Rams",
+      "opponentComplete": "Boardman Spartans",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "e2b7bccb-ba17-4666-bacc-33d770cf996d",
+      "eventDate": "2025-08-27",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "@",
+      "opponentComplete": "Girard Sr High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "92beff71-4d42-4418-9dd7-47836deccc4f",
+      "eventDate": "2025-08-27",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "@",
+      "opponentComplete": "Girard Sr High School",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -15,51 +42,5 @@
       "result": null
     }
   ],
-  "removed": [],
-  "changed": [
-    {
-      "eventId": "b6d1bf28-ef0a-4380-8a4e-ffc624b48c56",
-      "eventDate": "2026-09-14",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Girard Indians",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
-      "fields": [
-        "eventTime"
-      ],
-      "before": {
-        "eventTime": "07:00 PM"
-      },
-      "after": {
-        "eventTime": "05:00 PM"
-      }
-    },
-    {
-      "eventId": "1b36103b-92e2-46c5-a9cc-5fce5aebe374",
-      "eventDate": "2026-09-14",
-      "sport": "Boys Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Girard Indians",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
-      "fields": [
-        "eventTime"
-      ],
-      "before": {
-        "eventTime": "05:00 PM"
-      },
-      "after": {
-        "eventTime": "07:00 PM"
-      }
-    }
-  ]
+  "changed": []
 }

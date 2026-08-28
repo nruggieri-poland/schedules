@@ -1,61 +1,5 @@
 [
   {
-    "eventDate": "2026-08-27",
-    "cleanDate": "08/27",
-    "sport": "Boys Golf",
-    "eventTime": "04:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Niles",
-    "opponentMascot": "Red Dragons",
-    "opponentComplete": "Niles Red Dragons",
-    "location": "Old Avalon",
-    "postSlug": "2026-08-27_boys-golf",
-    "posterFile": "2026-08-27_boys-golf.jpg"
-  },
-  {
-    "eventDate": "2026-08-27",
-    "cleanDate": "08/27",
-    "sport": "Boys Soccer",
-    "eventTime": "05:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Crestview",
-    "opponentMascot": "Rebels",
-    "opponentComplete": "Crestview Rebels",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-08-27_boys-soccer",
-    "posterFile": "2026-08-27_boys-soccer.jpg"
-  },
-  {
-    "eventDate": "2026-08-27",
-    "cleanDate": "08/27",
-    "sport": "Volleyball",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "South Range",
-    "opponentMascot": "Raiders",
-    "opponentComplete": "South Range Raiders",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-08-27_volleyball",
-    "posterFile": "2026-08-27_volleyball.jpg"
-  },
-  {
-    "eventDate": "2026-08-27",
-    "cleanDate": "08/27",
-    "sport": "Girls Soccer",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Struthers",
-    "opponentMascot": "Wildcats",
-    "opponentComplete": "Struthers Wildcats",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-08-27_girls-soccer",
-    "posterFile": "2026-08-27_girls-soccer.jpg"
-  },
-  {
     "eventDate": "2026-08-28",
     "cleanDate": "08/28",
     "sport": "Football",
@@ -656,5 +600,19 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-09-17_volleyball",
     "posterFile": "2026-09-17_volleyball.jpg"
+  },
+  {
+    "eventDate": "2026-09-18",
+    "cleanDate": "09/18",
+    "sport": "Football",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Hubbard",
+    "opponentMascot": "Eagles",
+    "opponentComplete": "Hubbard Eagles",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-09-18_football",
+    "posterFile": "2026-09-18_football.jpg"
   }
 ]
