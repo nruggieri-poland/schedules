@@ -73904,5 +73904,54 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-28T21:01:16.900Z",
+    "added": [
+      {
+        "eventId": "3b75c751-2cca-4793-8db0-ed9b55924034",
+        "eventDate": "2026-09-15",
+        "sport": "Boys Soccer",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "Liberty Leopards",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "967a8cc4-e199-4a04-9379-5944027acd1b",
+        "eventDate": "2026-09-01",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Poland Seminary Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "homeOrAway",
+          "opponent",
+          "location"
+        ],
+        "before": {
+          "homeOrAway": "Away",
+          "opponent": "McDonald",
+          "location": "Woodland Park"
+        },
+        "after": {
+          "homeOrAway": "Home",
+          "opponent": "Poland Seminary",
+          "location": "Poland Township Park"
+        }
+      }
+    ]
   }
 ]

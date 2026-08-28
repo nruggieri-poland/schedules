@@ -1,72 +1,48 @@
 {
-  "generatedAt": "2026-08-28T10:58:31.653Z",
-  "added": [],
+  "generatedAt": "2026-08-28T21:01:16.900Z",
+  "added": [
+    {
+      "eventId": "3b75c751-2cca-4793-8db0-ed9b55924034",
+      "eventDate": "2026-09-15",
+      "sport": "Boys Soccer",
+      "levelLabel": "JV",
+      "vsOrAt": "@",
+      "opponentComplete": "Liberty Leopards",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    }
+  ],
   "removed": [],
   "changed": [
     {
-      "eventId": "9583a6c3-ef90-4e15-a9ae-c054c6898c94",
-      "eventDate": "2026-08-27",
-      "sport": "Boys Golf",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Niles Red Dragons",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 179,
-      "opponentScore": 184,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
-    },
-    {
-      "eventId": "c98360ea-1676-4d2c-81e3-f9f1e768c686",
-      "eventDate": "2026-08-27",
-      "sport": "Boys Soccer",
+      "eventId": "967a8cc4-e199-4a04-9379-5944027acd1b",
+      "eventDate": "2026-09-01",
+      "sport": "Cross Country",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "Crestview Rebels",
+      "opponentComplete": "Poland Seminary Bulldogs",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 4,
-      "opponentScore": 1,
-      "result": "Win",
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
       "fields": [
-        "result"
+        "homeOrAway",
+        "opponent",
+        "location"
       ],
       "before": {
-        "result": null
+        "homeOrAway": "Away",
+        "opponent": "McDonald",
+        "location": "Woodland Park"
       },
       "after": {
-        "result": "Win"
-      }
-    },
-    {
-      "eventId": "83656ff5-8ff6-47d6-a327-b7f8b4c2c46b",
-      "eventDate": "2026-08-27",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Struthers Wildcats",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 13,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
+        "homeOrAway": "Home",
+        "opponent": "Poland Seminary",
+        "location": "Poland Township Park"
       }
     }
   ]
