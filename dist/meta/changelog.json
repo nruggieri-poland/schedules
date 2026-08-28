@@ -73831,5 +73831,78 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-08-28T10:58:31.653Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "9583a6c3-ef90-4e15-a9ae-c054c6898c94",
+        "eventDate": "2026-08-27",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 179,
+        "opponentScore": 184,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      },
+      {
+        "eventId": "c98360ea-1676-4d2c-81e3-f9f1e768c686",
+        "eventDate": "2026-08-27",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Crestview Rebels",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 4,
+        "opponentScore": 1,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      },
+      {
+        "eventId": "83656ff5-8ff6-47d6-a327-b7f8b4c2c46b",
+        "eventDate": "2026-08-27",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 13,
+        "opponentScore": 0,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
