@@ -576,10 +576,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 34,
+    "opponentScore": 36,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "Kirtland High School",
+        "teamScore": 34,
+        "opponentScore": 36,
+        "result": "Loss"
+      }
+    ],
     "_time24": "19:00"
   },
   {
