@@ -74107,5 +74107,70 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-08-30T04:56:57.475Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "bb172071-c109-4390-a05b-4f398b2a80e8",
+        "eventDate": "2025-08-29",
+        "sport": "Football",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Youngstown East Golden Bears",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": [
+      {
+        "eventId": "96f48919-2fe3-4600-b17c-c96e8e12fb8d",
+        "eventDate": "2026-08-21",
+        "sport": "Football",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Salem Quakers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": "Loss"
+        },
+        "after": {
+          "result": null
+        }
+      },
+      {
+        "eventId": "ee68199c-b7cf-4a77-8714-234df91b0c7e",
+        "eventDate": "2026-08-28",
+        "sport": "Football",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Kirtland Hornets",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": "Loss"
+        },
+        "after": {
+          "result": null
+        }
+      }
+    ]
   }
 ]
