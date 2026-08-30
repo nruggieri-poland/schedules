@@ -74172,5 +74172,56 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-30T14:32:39.567Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "96f48919-2fe3-4600-b17c-c96e8e12fb8d",
+        "eventDate": "2026-08-21",
+        "sport": "Football",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Salem Quakers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 17,
+        "opponentScore": 21,
+        "result": "Loss",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Loss"
+        }
+      },
+      {
+        "eventId": "ee68199c-b7cf-4a77-8714-234df91b0c7e",
+        "eventDate": "2026-08-28",
+        "sport": "Football",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Kirtland Hornets",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 34,
+        "opponentScore": 36,
+        "result": "Loss",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Loss"
+        }
+      }
+    ]
   }
 ]
