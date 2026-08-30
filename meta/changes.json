@@ -1,53 +1,14 @@
 {
-  "generatedAt": "2026-08-29T06:43:54.997Z",
+  "generatedAt": "2026-08-30T00:38:33.846Z",
   "added": [],
   "removed": [
     {
-      "eventId": "24d07bc5-8946-4045-8eec-abb34e9c6854",
-      "eventDate": "2025-08-28",
-      "sport": "Girls Golf",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "South Range Raiders",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "8389a5e7-50ad-4f0b-b334-5f8eb659cee9",
-      "eventDate": "2025-08-28",
-      "sport": "Boys Golf",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Niles Red Dragons",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "71c2c323-c4a0-4459-91f5-dbfaa1e872e2",
-      "eventDate": "2025-08-28",
-      "sport": "Football",
-      "levelLabel": "8th Grade",
-      "vsOrAt": "@",
-      "opponentComplete": "Lakeview Bulldogs",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "889d9bc9-fb03-4adb-a471-079c6220fc9d",
-      "eventDate": "2025-08-28",
+      "eventId": "8bde5501-a250-4ff3-9ccb-f85c5ff074d7",
+      "eventDate": "2026-09-19",
       "sport": "Volleyball",
       "levelLabel": "JV",
       "vsOrAt": "@",
-      "opponentComplete": "Girard Indians",
+      "opponentComplete": "Campbell Red Devils",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -55,38 +16,12 @@
       "result": null
     },
     {
-      "eventId": "b09e2d2a-96d9-4d16-a706-15990a7379ff",
-      "eventDate": "2025-08-28",
-      "sport": "Boys Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Niles Red Dragons",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "d383f1fc-eade-40fd-9629-fe5eaa349a27",
-      "eventDate": "2025-08-28",
+      "eventId": "8ddbebc3-bea1-491f-9932-f3a50d56e1bd",
+      "eventDate": "2026-09-26",
       "sport": "Volleyball",
-      "levelLabel": "Varsity",
+      "levelLabel": "JV",
       "vsOrAt": "@",
-      "opponentComplete": "Girard Indians",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "a13dd1df-c410-45ea-a9c4-937d49f3d597",
-      "eventDate": "2025-08-28",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Niles Red Dragons",
+      "opponentComplete": "Campbell Red Devils",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -94,28 +29,5 @@
       "result": null
     }
   ],
-  "changed": [
-    {
-      "eventId": "ee68199c-b7cf-4a77-8714-234df91b0c7e",
-      "eventDate": "2026-08-28",
-      "sport": "Football",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Kirtland Hornets",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 34,
-      "opponentScore": 36,
-      "result": "Loss",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Loss"
-      }
-    }
-  ]
+  "changed": []
 }
