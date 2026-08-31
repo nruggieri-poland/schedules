@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T23:25:50.999Z",
+  "generatedAt": "2026-08-31T01:25:22.414Z",
   "added": [],
   "removed": [],
   "changed": [
@@ -12,17 +12,17 @@
       "opponentComplete": "Howland Tigers",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 6,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -34,17 +34,17 @@
       "opponentComplete": "Hubbard Eagles",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 6,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -56,17 +56,17 @@
       "opponentComplete": "Niles Red Dragons",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 1,
+      "opponentScore": 5,
+      "result": "Loss",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Loss"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Loss"
       }
     },
     {
@@ -78,17 +78,39 @@
       "opponentComplete": "Struthers Wildcats",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 13,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "abbc1975-f3b6-4965-93ed-7c5bba455ecc",
+      "eventDate": "2026-09-02",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Canfield Cardinals",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "eventTime"
+      ],
+      "before": {
+        "eventTime": "07:00 PM"
+      },
+      "after": {
+        "eventTime": "06:00 PM"
       }
     }
   ]

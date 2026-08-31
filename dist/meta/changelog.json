@@ -74318,5 +74318,122 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-31T01:25:22.414Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "ad73135e-9436-4522-a25a-947245f0cf39",
+        "eventDate": "2026-08-17",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Howland Tigers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 6,
+        "opponentScore": 0,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      },
+      {
+        "eventId": "5a52d88a-ed64-48a2-8dd9-f16707c82a4b",
+        "eventDate": "2026-08-20",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 6,
+        "opponentScore": 0,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      },
+      {
+        "eventId": "01568123-b0ad-43b2-ad25-ab44100d3682",
+        "eventDate": "2026-08-24",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 1,
+        "opponentScore": 5,
+        "result": "Loss",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Loss"
+        }
+      },
+      {
+        "eventId": "83656ff5-8ff6-47d6-a327-b7f8b4c2c46b",
+        "eventDate": "2026-08-27",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 13,
+        "opponentScore": 0,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      },
+      {
+        "eventId": "abbc1975-f3b6-4965-93ed-7c5bba455ecc",
+        "eventDate": "2026-09-02",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Canfield Cardinals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "07:00 PM"
+        },
+        "after": {
+          "eventTime": "06:00 PM"
+        }
+      }
+    ]
   }
 ]
