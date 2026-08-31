@@ -785,10 +785,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 6,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Howland High School",
+        "teamScore": 6,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "19:00"
   },
   {
@@ -821,10 +828,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 6,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Hubbard High School",
+        "teamScore": 6,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "19:00"
   },
   {
@@ -857,10 +871,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 1,
+    "opponentScore": 5,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "Niles McKinley High School",
+        "teamScore": 1,
+        "opponentScore": 5,
+        "result": "Loss"
+      }
+    ],
     "_time24": "19:00"
   },
   {
@@ -893,10 +914,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 13,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Struthers High School",
+        "teamScore": 13,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "19:00"
   },
   {
@@ -947,7 +975,7 @@
     "levelLabel": "Varsity",
     "levelGroup": "varsity",
     "teamSlug": "girls-soccer-varsity",
-    "eventTime": "07:00 PM",
+    "eventTime": "06:00 PM",
     "homeOrAway": "Home",
     "vsOrAt": "vs",
     "opponent": "Canfield",
@@ -969,7 +997,7 @@
     "opponentScore": null,
     "result": null,
     "allResults": [],
-    "_time24": "19:00"
+    "_time24": "18:00"
   },
   {
     "eventId": "2a8411ed-242b-45b0-8111-4cd1303b4323",

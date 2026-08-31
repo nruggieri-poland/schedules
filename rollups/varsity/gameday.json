@@ -1,19 +1,5 @@
 [
   {
-    "eventDate": "2026-08-30",
-    "cleanDate": "08/30",
-    "sport": "Boys Golf",
-    "eventTime": "05:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "OPEN Senior Night",
-    "opponentMascot": null,
-    "opponentComplete": "OPEN Senior Night",
-    "location": "Knoll Run",
-    "postSlug": "2026-08-30_boys-golf",
-    "posterFile": "2026-08-30_boys-golf.jpg"
-  },
-  {
     "eventDate": "2026-08-31",
     "cleanDate": "08/31",
     "sport": "Girls Tennis",
@@ -143,7 +129,7 @@
     "eventDate": "2026-09-02",
     "cleanDate": "09/02",
     "sport": "Girls Soccer",
-    "eventTime": "07:00 PM",
+    "eventTime": "06:00 PM",
     "vsOrAt": "vs",
     "homeOrAway": "Home",
     "opponent": "Canfield",
@@ -586,5 +572,61 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-09-18_football",
     "posterFile": "2026-09-18_football.jpg"
+  },
+  {
+    "eventDate": "2026-09-21",
+    "cleanDate": "09/21",
+    "sport": "Girls Tennis",
+    "eventTime": "04:00 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Girard",
+    "opponentMascot": "Indians",
+    "opponentComplete": "Girard Indians",
+    "location": "Girard Sr High School",
+    "postSlug": "2026-09-21_girls-tennis",
+    "posterFile": "2026-09-21_girls-tennis.jpg"
+  },
+  {
+    "eventDate": "2026-09-21",
+    "cleanDate": "09/21",
+    "sport": "Boys Soccer",
+    "eventTime": "05:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Niles",
+    "opponentMascot": "Red Dragons",
+    "opponentComplete": "Niles Red Dragons",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-09-21_boys-soccer",
+    "posterFile": "2026-09-21_boys-soccer.jpg"
+  },
+  {
+    "eventDate": "2026-09-21",
+    "cleanDate": "09/21",
+    "sport": "Volleyball",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Canfield",
+    "opponentMascot": "Cardinals",
+    "opponentComplete": "Canfield Cardinals",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-09-21_volleyball",
+    "posterFile": "2026-09-21_volleyball.jpg"
+  },
+  {
+    "eventDate": "2026-09-21",
+    "cleanDate": "09/21",
+    "sport": "Girls Soccer",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Niles",
+    "opponentMascot": "Red Dragons",
+    "opponentComplete": "Niles Red Dragons",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-09-21_girls-soccer",
+    "posterFile": "2026-09-21_girls-soccer.jpg"
   }
 ]
