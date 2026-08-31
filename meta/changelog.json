@@ -74435,5 +74435,38 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-31T05:01:57.277Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "33521b0d-70b1-4885-b2a7-067b7b9dc59c",
+        "eventDate": "2025-08-30",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "\"The List\" Race",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "b8211f26-ef30-4fca-ae61-8a1c77da5e42",
+        "eventDate": "2025-08-30",
+        "sport": "Football",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "Youngstown East Golden Bears",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
