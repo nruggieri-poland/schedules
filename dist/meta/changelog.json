@@ -74522,5 +74522,34 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-08-31T21:54:15.983Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "a3ceedef-54e7-436f-a282-d5ed55485239",
+        "eventDate": "2026-09-17",
+        "sport": "Football",
+        "levelLabel": "7th Grade",
+        "vsOrAt": "@",
+        "opponentComplete": "HOLY FAMILY ELEMENTARY SCHOOL",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "location"
+        ],
+        "before": {
+          "location": "TBD"
+        },
+        "after": {
+          "location": "723 Elm Street, Youngstown, OH 44502"
+        }
+      }
+    ]
   }
 ]

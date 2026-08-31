@@ -1,53 +1,28 @@
 {
-  "generatedAt": "2026-08-31T17:16:18.946Z",
+  "generatedAt": "2026-08-31T21:54:15.983Z",
   "added": [],
   "removed": [],
   "changed": [
     {
-      "eventId": "35aa512e-636d-442f-9eb7-0fd183823db4",
-      "eventDate": "2026-09-30",
-      "sport": "Boys Soccer",
-      "levelLabel": "JV",
-      "vsOrAt": "vs",
-      "opponentComplete": "Warren G. Harding Raiders",
+      "eventId": "a3ceedef-54e7-436f-a282-d5ed55485239",
+      "eventDate": "2026-09-17",
+      "sport": "Football",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "@",
+      "opponentComplete": "HOLY FAMILY ELEMENTARY SCHOOL",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
       "result": null,
       "fields": [
-        "opponent"
+        "location"
       ],
       "before": {
-        "opponent": "Marlington"
+        "location": "TBD"
       },
       "after": {
-        "opponent": "Warren G. Harding"
-      }
-    },
-    {
-      "eventId": "493c93ea-e5c9-434d-902e-b5c4b5d67581",
-      "eventDate": "2026-10-17",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Boardman Spartans",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
-      "fields": [
-        "eventDate",
-        "eventTime"
-      ],
-      "before": {
-        "eventDate": "2026-10-03",
-        "eventTime": "10:00 AM"
-      },
-      "after": {
-        "eventDate": "2026-10-17",
-        "eventTime": "12:30 PM"
+        "location": "723 Elm Street, Youngstown, OH 44502"
       }
     }
   ]
