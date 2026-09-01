@@ -74551,5 +74551,34 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-09-01T17:53:08.506Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "ee2ef54b-47dc-4ade-a4f3-598a7fd1f17e",
+        "eventDate": "2026-08-31",
+        "sport": "Girls Tennis",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Austintown Fitch Falcons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 5,
+        "opponentScore": 0,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]

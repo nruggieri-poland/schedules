@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-08-31T21:54:15.983Z",
+  "generatedAt": "2026-09-01T17:53:08.506Z",
   "added": [],
   "removed": [],
   "changed": [
     {
-      "eventId": "a3ceedef-54e7-436f-a282-d5ed55485239",
-      "eventDate": "2026-09-17",
-      "sport": "Football",
-      "levelLabel": "7th Grade",
-      "vsOrAt": "@",
-      "opponentComplete": "HOLY FAMILY ELEMENTARY SCHOOL",
+      "eventId": "ee2ef54b-47dc-4ade-a4f3-598a7fd1f17e",
+      "eventDate": "2026-08-31",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Austintown Fitch Falcons",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 5,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
-        "location"
+        "result"
       ],
       "before": {
-        "location": "TBD"
+        "result": null
       },
       "after": {
-        "location": "723 Elm Street, Youngstown, OH 44502"
+        "result": "Win"
       }
     }
   ]
