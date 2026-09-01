@@ -1,33 +1,5 @@
 [
   {
-    "eventDate": "2026-08-31",
-    "cleanDate": "08/31",
-    "sport": "Girls Tennis",
-    "eventTime": "04:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Austintown Fitch",
-    "opponentMascot": "Falcons",
-    "opponentComplete": "Austintown Fitch Falcons",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-08-31_girls-tennis",
-    "posterFile": "2026-08-31_girls-tennis.jpg"
-  },
-  {
-    "eventDate": "2026-08-31",
-    "cleanDate": "08/31",
-    "sport": "Volleyball",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Howland",
-    "opponentMascot": "Tigers",
-    "opponentComplete": "Howland Tigers",
-    "location": "Howland High School",
-    "postSlug": "2026-08-31_volleyball",
-    "posterFile": "2026-08-31_volleyball.jpg"
-  },
-  {
     "eventDate": "2026-09-01",
     "cleanDate": "09/01",
     "sport": "Girls Tennis",
@@ -628,5 +600,47 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-09-21_girls-soccer",
     "posterFile": "2026-09-21_girls-soccer.jpg"
+  },
+  {
+    "eventDate": "2026-09-22",
+    "cleanDate": "09/22",
+    "sport": "Girls Tennis",
+    "eventTime": "04:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Boardman",
+    "opponentMascot": "Spartans",
+    "opponentComplete": "Boardman Spartans",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-09-22_girls-tennis",
+    "posterFile": "2026-09-22_girls-tennis.jpg"
+  },
+  {
+    "eventDate": "2026-09-22",
+    "cleanDate": "09/22",
+    "sport": "Cross Country",
+    "eventTime": "04:45 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Suburban Championships",
+    "opponentMascot": null,
+    "opponentComplete": "Suburban Championships",
+    "location": "Canfield Fairgrounds",
+    "postSlug": "2026-09-22_cross-country",
+    "posterFile": "2026-09-22_cross-country.jpg"
+  },
+  {
+    "eventDate": "2026-09-22",
+    "cleanDate": "09/22",
+    "sport": "Volleyball",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "South Range",
+    "opponentMascot": "Raiders",
+    "opponentComplete": "South Range Raiders",
+    "location": "South Range High School",
+    "postSlug": "2026-09-22_volleyball",
+    "posterFile": "2026-09-22_volleyball.jpg"
   }
 ]
