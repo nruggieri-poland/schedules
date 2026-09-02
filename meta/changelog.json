@@ -74660,5 +74660,34 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-09-02T04:02:09.594Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "bd809743-dbc0-4a02-8a3d-9c9d3833491b",
+        "eventDate": "2026-09-01",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 173,
+        "opponentScore": 191,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
