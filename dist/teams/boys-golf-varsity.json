@@ -1020,10 +1020,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 173,
+    "opponentScore": 191,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Struthers High School",
+        "teamScore": 173,
+        "opponentScore": 191,
+        "result": "Win"
+      }
+    ],
     "_time24": "18:00"
   },
   {
