@@ -74689,5 +74689,25 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-09-02T17:28:22.106Z",
+    "added": [
+      {
+        "eventId": "2bb83149-148c-4f39-8763-5cebdb62b659",
+        "eventDate": "2027-03-24",
+        "sport": "Baseball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Mohawk High School",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "removed": [],
+    "changed": []
   }
 ]
