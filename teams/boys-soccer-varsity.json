@@ -1000,10 +1000,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 5,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Lakeview High School",
+        "teamScore": 5,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "17:00"
   },
   {

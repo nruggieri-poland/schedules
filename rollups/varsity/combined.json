@@ -14457,10 +14457,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 5,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Liberty High School",
+        "teamScore": 5,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "16:00"
   },
   {
@@ -14529,10 +14536,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 5,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Lakeview High School",
+        "teamScore": 5,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "17:00"
   },
   {
