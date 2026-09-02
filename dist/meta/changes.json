@@ -1,29 +1,20 @@
 {
-  "generatedAt": "2026-09-02T04:02:09.594Z",
-  "added": [],
-  "removed": [],
-  "changed": [
+  "generatedAt": "2026-09-02T17:28:22.106Z",
+  "added": [
     {
-      "eventId": "bd809743-dbc0-4a02-8a3d-9c9d3833491b",
-      "eventDate": "2026-09-01",
-      "sport": "Boys Golf",
+      "eventId": "2bb83149-148c-4f39-8763-5cebdb62b659",
+      "eventDate": "2027-03-24",
+      "sport": "Baseball",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Struthers Wildcats",
+      "opponentComplete": "Mohawk High School",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 173,
-      "opponentScore": 191,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     }
-  ]
+  ],
+  "removed": [],
+  "changed": []
 }
