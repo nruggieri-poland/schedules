@@ -1,40 +1,18 @@
 {
-  "generatedAt": "2026-09-02T00:29:34.392Z",
+  "generatedAt": "2026-09-02T02:40:41.173Z",
   "added": [],
   "removed": [],
   "changed": [
     {
-      "eventId": "52d56352-f8f5-4692-a56f-fe7377cef88f",
+      "eventId": "e5736122-6e15-4651-86de-d98a4e8bbba3",
       "eventDate": "2026-09-01",
-      "sport": "Girls Tennis",
+      "sport": "Volleyball",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "Liberty Leopards",
+      "opponentComplete": "Girard Indians",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 5,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
-    },
-    {
-      "eventId": "3740b996-072e-4865-af54-73524129520a",
-      "eventDate": "2026-09-01",
-      "sport": "Boys Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Lakeview Bulldogs",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 5,
+      "teamScore": 3,
       "opponentScore": 0,
       "result": "Win",
       "fields": [

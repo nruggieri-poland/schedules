@@ -74631,5 +74631,34 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-09-02T02:40:41.173Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "e5736122-6e15-4651-86de-d98a4e8bbba3",
+        "eventDate": "2026-09-01",
+        "sport": "Volleyball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 3,
+        "opponentScore": 0,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
