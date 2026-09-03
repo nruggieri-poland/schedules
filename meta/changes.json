@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T13:57:37.139Z",
+  "generatedAt": "2026-09-03T17:26:52.770Z",
   "added": [],
   "removed": [],
   "changed": [
@@ -12,17 +12,17 @@
       "opponentComplete": "Howland Tigers",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 6,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -34,17 +34,17 @@
       "opponentComplete": "Hubbard Eagles",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 6,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -56,17 +56,17 @@
       "opponentComplete": "Niles Red Dragons",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 1,
+      "opponentScore": 5,
+      "result": "Loss",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Loss"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Loss"
       }
     },
     {
@@ -78,17 +78,17 @@
       "opponentComplete": "Struthers Wildcats",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 13,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     }
   ]
