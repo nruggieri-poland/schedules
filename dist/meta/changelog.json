@@ -74820,5 +74820,100 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-09-03T13:57:37.139Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "ad73135e-9436-4522-a25a-947245f0cf39",
+        "eventDate": "2026-08-17",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Howland Tigers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": "Win"
+        },
+        "after": {
+          "result": null
+        }
+      },
+      {
+        "eventId": "5a52d88a-ed64-48a2-8dd9-f16707c82a4b",
+        "eventDate": "2026-08-20",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": "Win"
+        },
+        "after": {
+          "result": null
+        }
+      },
+      {
+        "eventId": "01568123-b0ad-43b2-ad25-ab44100d3682",
+        "eventDate": "2026-08-24",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": "Loss"
+        },
+        "after": {
+          "result": null
+        }
+      },
+      {
+        "eventId": "83656ff5-8ff6-47d6-a327-b7f8b4c2c46b",
+        "eventDate": "2026-08-27",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": "Win"
+        },
+        "after": {
+          "result": null
+        }
+      }
+    ]
   }
 ]
