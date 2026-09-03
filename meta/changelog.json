@@ -74709,5 +74709,116 @@
     ],
     "removed": [],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-09-03T04:00:49.528Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "a9ac42df-71b6-4d39-9819-7ac785fbebe7",
+        "eventDate": "2025-09-02",
+        "sport": "Girls Tennis",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Liberty Leopards",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "291444b0-9d9e-44d5-b456-b2a12eba5628",
+        "eventDate": "2025-09-02",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "OPEN",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "d59f3dcc-9320-4ffd-a441-b2423157525b",
+        "eventDate": "2025-09-02",
+        "sport": "Volleyball",
+        "levelLabel": "7th Grade",
+        "vsOrAt": "@",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "12152038-659a-4000-9c63-04ed9469e93f",
+        "eventDate": "2025-09-02",
+        "sport": "Volleyball",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "037118cd-8c8e-4113-95f1-092e48533c58",
+        "eventDate": "2025-09-02",
+        "sport": "Cross Country",
+        "levelLabel": "Middle School",
+        "vsOrAt": "vs",
+        "opponentComplete": "OPEN",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "ac48131a-6e6c-4265-98c9-d79553e0040b",
+        "eventDate": "2025-09-02",
+        "sport": "Volleyball",
+        "levelLabel": "8th Grade",
+        "vsOrAt": "@",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "5277acdd-1669-4fc4-9cfd-fd91b1ad19ad",
+        "eventDate": "2025-09-02",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Beaver Local Beavers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "c59b9749-98a8-4cb1-8c29-692da6281e8a",
+        "eventDate": "2025-09-02",
+        "sport": "Volleyball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
