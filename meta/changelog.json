@@ -75010,5 +75010,56 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-09-03T22:20:37.690Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "897efc54-99ea-48bb-8895-f4514abd3a4e",
+        "eventDate": "2026-09-02",
+        "sport": "Girls Tennis",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Canfield Cardinals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 0,
+        "opponentScore": 5,
+        "result": "Loss",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Loss"
+        }
+      },
+      {
+        "eventId": "abbc1975-f3b6-4965-93ed-7c5bba455ecc",
+        "eventDate": "2026-09-02",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Canfield Cardinals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 2,
+        "opponentScore": 0,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]

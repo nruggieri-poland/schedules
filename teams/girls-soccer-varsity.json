@@ -993,10 +993,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 2,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Canfield High School",
+        "teamScore": 2,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "18:00"
   },
   {
