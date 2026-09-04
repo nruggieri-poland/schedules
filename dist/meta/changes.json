@@ -1,51 +1,33 @@
 {
-  "generatedAt": "2026-09-03T22:20:37.690Z",
+  "generatedAt": "2026-09-04T04:05:33.261Z",
   "added": [],
-  "removed": [],
-  "changed": [
+  "removed": [
     {
-      "eventId": "897efc54-99ea-48bb-8895-f4514abd3a4e",
-      "eventDate": "2026-09-02",
-      "sport": "Girls Tennis",
+      "eventId": "eaad5bf5-ec18-49a0-b791-3ca0f0a12b51",
+      "eventDate": "2025-09-03",
+      "sport": "Boys Golf",
       "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Canfield Cardinals",
+      "vsOrAt": "@",
+      "opponentComplete": "Shenango Wildcats",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 0,
-      "opponentScore": 5,
-      "result": "Loss",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Loss"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     },
     {
-      "eventId": "abbc1975-f3b6-4965-93ed-7c5bba455ecc",
-      "eventDate": "2026-09-02",
+      "eventId": "7be83262-c89a-4649-9ec6-870f148eb11b",
+      "eventDate": "2025-09-03",
       "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Canfield Cardinals",
+      "levelLabel": "JV",
+      "vsOrAt": "@",
+      "opponentComplete": "West Branch Warriors",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 2,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     }
-  ]
+  ],
+  "changed": []
 }
