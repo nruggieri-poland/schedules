@@ -1,47 +1,5 @@
 [
   {
-    "eventDate": "2026-09-03",
-    "cleanDate": "09/03",
-    "sport": "Boys Golf",
-    "eventTime": "03:15 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Columbiana",
-    "opponentMascot": "Clippers",
-    "opponentComplete": "Columbiana Clippers",
-    "location": "Valley Golf Course",
-    "postSlug": "2026-09-03_boys-golf",
-    "posterFile": "2026-09-03_boys-golf.jpg"
-  },
-  {
-    "eventDate": "2026-09-03",
-    "cleanDate": "09/03",
-    "sport": "Volleyball",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Hubbard",
-    "opponentMascot": "Eagles",
-    "opponentComplete": "Hubbard Eagles",
-    "location": "Hubbard High School",
-    "postSlug": "2026-09-03_volleyball",
-    "posterFile": "2026-09-03_volleyball.jpg"
-  },
-  {
-    "eventDate": "2026-09-03",
-    "cleanDate": "09/03",
-    "sport": "Boys Soccer",
-    "eventTime": "07:15 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Canfield",
-    "opponentMascot": "Cardinals",
-    "opponentComplete": "Canfield Cardinals",
-    "location": "Canfield High School",
-    "postSlug": "2026-09-03_boys-soccer",
-    "posterFile": "2026-09-03_boys-soccer.jpg"
-  },
-  {
     "eventDate": "2026-09-04",
     "cleanDate": "09/04",
     "sport": "Football",
@@ -586,5 +544,19 @@
     "location": "Girard Sr High School",
     "postSlug": "2026-09-24_volleyball",
     "posterFile": "2026-09-24_volleyball.jpg"
+  },
+  {
+    "eventDate": "2026-09-25",
+    "cleanDate": "09/25",
+    "sport": "Football",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "South Range",
+    "opponentMascot": "Raiders",
+    "opponentComplete": "South Range Raiders",
+    "location": "South Range High School",
+    "postSlug": "2026-09-25_football",
+    "posterFile": "2026-09-25_football.jpg"
   }
 ]
