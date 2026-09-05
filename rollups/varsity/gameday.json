@@ -1,19 +1,5 @@
 [
   {
-    "eventDate": "2026-09-04",
-    "cleanDate": "09/04",
-    "sport": "Football",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Field",
-    "opponentMascot": "Falcons",
-    "opponentComplete": "Field Falcons",
-    "location": "Field High School",
-    "postSlug": "2026-09-04_football",
-    "posterFile": "2026-09-04_football.jpg"
-  },
-  {
     "eventDate": "2026-09-05",
     "cleanDate": "09/05",
     "sport": "Cross Country",
@@ -558,5 +544,33 @@
     "location": "South Range High School",
     "postSlug": "2026-09-25_football",
     "posterFile": "2026-09-25_football.jpg"
+  },
+  {
+    "eventDate": "2026-09-26",
+    "cleanDate": "09/26",
+    "sport": "Cross Country",
+    "eventTime": "09:15 AM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Sharpsville Invitational",
+    "opponentMascot": null,
+    "opponentComplete": "Sharpsville Invitational",
+    "location": "Buhl Park",
+    "postSlug": "2026-09-26_cross-country",
+    "posterFile": "2026-09-26_cross-country.jpg"
+  },
+  {
+    "eventDate": "2026-09-26",
+    "cleanDate": "09/26",
+    "sport": "Girls Soccer",
+    "eventTime": "12:00 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "West Branch",
+    "opponentMascot": "Warriors",
+    "opponentComplete": "West Branch Warriors",
+    "location": "West Branch High School",
+    "postSlug": "2026-09-26_girls-soccer",
+    "posterFile": "2026-09-26_girls-soccer.jpg"
   }
 ]
