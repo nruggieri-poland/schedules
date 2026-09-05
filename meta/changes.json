@@ -1,31 +1,28 @@
 {
-  "generatedAt": "2026-09-04T17:12:39.379Z",
+  "generatedAt": "2026-09-05T03:29:33.479Z",
   "added": [],
   "removed": [],
   "changed": [
     {
-      "eventId": "bc0165e1-e832-4140-8c35-fdd802f74d38",
-      "eventDate": "2026-09-05",
+      "eventId": "20090fe6-9165-4c20-ab30-e575ad806418",
+      "eventDate": "2026-09-04",
       "sport": "Football",
-      "levelLabel": "8th Grade",
-      "vsOrAt": "vs",
-      "opponentComplete": "Struthers Wildcats",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Field Falcons",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 49,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
-        "eventDate",
-        "eventTime"
+        "result"
       ],
       "before": {
-        "eventDate": "2026-09-03",
-        "eventTime": "06:00 PM"
+        "result": null
       },
       "after": {
-        "eventDate": "2026-09-05",
-        "eventTime": "11:15 AM"
+        "result": "Win"
       }
     }
   ]
