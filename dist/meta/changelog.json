@@ -75126,5 +75126,34 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-09-05T03:29:33.479Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "20090fe6-9165-4c20-ab30-e575ad806418",
+        "eventDate": "2026-09-04",
+        "sport": "Football",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Field Falcons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 49,
+        "opponentScore": 0,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
