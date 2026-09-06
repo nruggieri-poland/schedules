@@ -75279,5 +75279,38 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-09-06T04:06:59.996Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "0aac0d5d-38da-40ef-8746-ce0e1b93dce6",
+        "eventDate": "2025-09-05",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Tam O'Shanter Invitational",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "7d6b31fb-3b8e-4dbb-bd72-0d9ff7d52e55",
+        "eventDate": "2025-09-05",
+        "sport": "Football",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Field Falcons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
