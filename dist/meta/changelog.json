@@ -75312,5 +75312,64 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-09-07T04:06:01.873Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "c3de7361-8da4-4695-9cc2-0cde58620242",
+        "eventDate": "2025-09-06",
+        "sport": "Boys Soccer",
+        "levelLabel": "JV",
+        "vsOrAt": "vs",
+        "opponentComplete": "Marlington Dukes",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "114c6542-1fe3-4ee8-805e-187021b58303",
+        "eventDate": "2025-09-06",
+        "sport": "Football",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "73a02df8-ce89-4cf6-8106-322f53549e66",
+        "eventDate": "2025-09-06",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Walsh Jesuit Warriors",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "1cbfa6cc-1b85-4802-bd27-2676a6c00d18",
+        "eventDate": "2025-09-06",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Marlington Dukes",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
