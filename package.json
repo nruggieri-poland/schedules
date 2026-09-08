@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "fetch": "node fetch.js"
+    "fetch": "node fetch.js",
+    "graphic": "node scripts/build-today-graphic.js"
   },
   "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
     "ical-generator": "^8.1.1",
-    "luxon": "^3.7.1"
+    "luxon": "^3.7.1",
+    "satori": "^0.33.4"
   }
 }

@@ -37,6 +37,9 @@ jobs:
           EVENTLINK_CALENDAR_IDS: ${{ secrets.EVENTLINK_CALENDAR_IDS }}
           EVENTLINK_ICAL_URL: ${{ secrets.EVENTLINK_ICAL_URL }}
 
+      - name: Build today's-changes graphic
+        run: node scripts/build-today-graphic.js
+
       - name: Commit updated data files
         run: |
           git config user.name "github-actions"
