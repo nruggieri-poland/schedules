@@ -75404,5 +75404,75 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-09-08T15:30:10.662Z",
+    "added": [
+      {
+        "eventId": "7a1998ca-5a81-4a82-ba0b-1856e87a31ff",
+        "eventDate": "2026-12-01",
+        "sport": "Boys Basketball",
+        "levelLabel": "Freshman",
+        "vsOrAt": "vs",
+        "opponentComplete": "Boardman Spartans",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "fefe8e64-f7f9-4c37-9f33-eba7b4edbb76",
+        "eventDate": "2026-12-28",
+        "sport": "Boys Basketball",
+        "levelLabel": "Freshman",
+        "vsOrAt": "@",
+        "opponentComplete": "Boardman Spartans",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "removed": [
+      {
+        "eventId": "0e90b4af-70d1-48a2-9a02-092062add4bd",
+        "eventDate": "2026-09-08",
+        "sport": "Girls Soccer",
+        "levelLabel": "JV",
+        "vsOrAt": "vs",
+        "opponentComplete": "Kenston Bombers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": [
+      {
+        "eventId": "28d705a5-f4a5-4d80-b927-ce8a52b48b67",
+        "eventDate": "2026-09-08",
+        "sport": "Boys Soccer",
+        "levelLabel": "JV",
+        "vsOrAt": "vs",
+        "opponentComplete": "Boardman Spartans",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "06:30 PM"
+        },
+        "after": {
+          "eventTime": "05:00 PM"
+        }
+      }
+    ]
   }
 ]

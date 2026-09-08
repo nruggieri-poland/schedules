@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-08",
+  "items": {
+    "0e90b4af-70d1-48a2-9a02-092062add4bd": {
+      "eventId": "0e90b4af-70d1-48a2-9a02-092062add4bd",
+      "sport": "Girls Soccer",
+      "levelLabel": "JV",
+      "vsOrAt": "vs",
+      "opponentComplete": "Kenston Bombers",
+      "status": "removed",
+      "detail": "vs Kenston Bombers"
+    },
+    "28d705a5-f4a5-4d80-b927-ce8a52b48b67": {
+      "eventId": "28d705a5-f4a5-4d80-b927-ce8a52b48b67",
+      "sport": "Boys Soccer",
+      "levelLabel": "JV",
+      "vsOrAt": "vs",
+      "opponentComplete": "Boardman Spartans",
+      "status": "time-changed",
+      "detail": "vs Boardman Spartans",
+      "timeBefore": "06:30 PM",
+      "timeAfter": "05:00 PM"
+    }
+  }
+}

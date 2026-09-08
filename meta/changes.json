@@ -1,14 +1,13 @@
 {
-  "generatedAt": "2026-09-08T04:07:45.087Z",
-  "added": [],
-  "removed": [
+  "generatedAt": "2026-09-08T15:30:10.662Z",
+  "added": [
     {
-      "eventId": "2ca94f32-4504-41cf-b6c3-0d5fd58a8f6d",
-      "eventDate": "2025-09-07",
-      "sport": "Boys Golf",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Kiely Cup",
+      "eventId": "7a1998ca-5a81-4a82-ba0b-1856e87a31ff",
+      "eventDate": "2026-12-01",
+      "sport": "Boys Basketball",
+      "levelLabel": "Freshman",
+      "vsOrAt": "vs",
+      "opponentComplete": "Boardman Spartans",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -16,12 +15,12 @@
       "result": null
     },
     {
-      "eventId": "338e9285-af4c-4811-a99a-9f8ca52d7007",
-      "eventDate": "2025-09-07",
-      "sport": "Softball",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Softball Information Meeting",
+      "eventId": "fefe8e64-f7f9-4c37-9f33-eba7b4edbb76",
+      "eventDate": "2026-12-28",
+      "sport": "Boys Basketball",
+      "levelLabel": "Freshman",
+      "vsOrAt": "@",
+      "opponentComplete": "Boardman Spartans",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -29,5 +28,43 @@
       "result": null
     }
   ],
-  "changed": []
+  "removed": [
+    {
+      "eventId": "0e90b4af-70d1-48a2-9a02-092062add4bd",
+      "eventDate": "2026-09-08",
+      "sport": "Girls Soccer",
+      "levelLabel": "JV",
+      "vsOrAt": "vs",
+      "opponentComplete": "Kenston Bombers",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    }
+  ],
+  "changed": [
+    {
+      "eventId": "28d705a5-f4a5-4d80-b927-ce8a52b48b67",
+      "eventDate": "2026-09-08",
+      "sport": "Boys Soccer",
+      "levelLabel": "JV",
+      "vsOrAt": "vs",
+      "opponentComplete": "Boardman Spartans",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "eventTime"
+      ],
+      "before": {
+        "eventTime": "06:30 PM"
+      },
+      "after": {
+        "eventTime": "05:00 PM"
+      }
+    }
+  ]
 }
