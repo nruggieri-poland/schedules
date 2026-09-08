@@ -52,6 +52,34 @@ jobs:
             git push
           fi
 
+      # Runs after the push above so dist/history/*.png is already live at
+      # raw.githubusercontent.com by the time Buffer fetches it. No-ops
+      # quietly if BUFFER_ACCESS_TOKEN isn't set, and only actually posts
+      # when today's set of changes differs from the last thing it posted —
+      # see scripts/post-to-buffer.js for the dedup logic.
+      - name: Post schedule-change alerts to Buffer
+        run: node scripts/post-to-buffer.js
+        env:
+          BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
+          BUFFER_CHANNEL_ID_INSTAGRAM: ${{ secrets.BUFFER_CHANNEL_ID_INSTAGRAM }}
+          BUFFER_CHANNEL_ID_FACEBOOK: ${{ secrets.BUFFER_CHANNEL_ID_FACEBOOK }}
+          BUFFER_CHANNEL_ID_TWITTER: ${{ secrets.BUFFER_CHANNEL_ID_TWITTER }}
+          MEDIA_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/main/dist
+
+      # Separate from the commit above: post-to-buffer.js writes its dedup
+      # record (dist/meta/buffer-post-state.json) only after posting, so it
+      # has to be committed in its own step — otherwise a fresh checkout next
+      # run would never see it and would repost the same alert forever.
+      - name: Commit Buffer post state
+        run: |
+          git add dist/meta/buffer-post-state.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Record Buffer post state"
+            git push
+          fi
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:

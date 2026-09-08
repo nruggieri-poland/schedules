@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "fetch": "node fetch.js",
-    "graphic": "node scripts/build-today-graphic.js"
+    "graphic": "node scripts/build-today-graphic.js",
+    "post-to-buffer": "node scripts/post-to-buffer.js",
+    "list-buffer-channels": "node scripts/list-buffer-channels.js"
   },
   "dependencies": {
     "@resvg/resvg-js": "^2.6.2",

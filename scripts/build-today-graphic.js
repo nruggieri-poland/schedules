@@ -1,9 +1,12 @@
 /**
  * build-today-graphic.js
  *
- * Renders a square (2160x2160, exported from a 1080 layout) social-ready
- * graphic summarizing every schedule change made TODAY — postponements,
- * cancellations, time moves, location moves, and same-day adds/drops.
+ * Renders social-ready graphics summarizing every schedule change made
+ * TODAY — postponements, cancellations, time moves, location moves, and
+ * same-day adds/drops. Two variants are produced from the same layout:
+ *   - square  (1080x1080, exported at 2x) — feed-friendly, used for X/Twitter
+ *   - story   (1080x1920, exported at 2x) — full-bleed vertical, used for
+ *             Instagram/Facebook Stories
  *
  * Change detection already happens in fetch.js (see diffEvents/writeChangelog),
  * which runs every ~10 min and overwrites dist/meta/changes.json with only the
@@ -15,9 +18,15 @@
  * authoritative current time/location/home-away even for change types
  * (postponed, cancelled, etc.) whose slim changes.json record doesn't carry them.
  *
+ * Every render is also copied into dist/history/ under a filename keyed by
+ * today's date + a content signature (see lib/change-signature.js). That
+ * gives post-to-buffer.js a URL that's never been requested before, so a
+ * social platform fetching it immediately after publish can't be served a
+ * stale cached copy of a previous version at the same "latest" path.
+ *
  * Usage: node scripts/build-today-graphic.js
  * Run this right after fetch.js in the pipeline. No-ops (and removes any
- * stale graphic) when there are no changes affecting today's events.
+ * stale "latest" graphic) when there are no changes affecting today's events.
  */
 
 import fs from 'fs';
@@ -26,6 +35,7 @@ import { fileURLToPath } from 'url';
 import { DateTime } from 'luxon';
 import satori from 'satori';
 import { Resvg } from '@resvg/resvg-js';
+import { computeSignature } from './lib/change-signature.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
@@ -35,6 +45,9 @@ const CHANGES_PATH     = path.join(META_DIR, 'changes.json');
 const SNAPSHOT_PATH    = path.join(META_DIR, 'diff-snapshot.json');
 const TODAY_PATH       = path.join(META_DIR, 'today-changes.json');
 const OUTPUT_PATH      = path.join(ROOT, 'dist', 'today-changes.png');
+const STORY_OUTPUT_PATH = path.join(ROOT, 'dist', 'today-changes-story.png');
+const HISTORY_DIR      = path.join(ROOT, 'dist', 'history');
+const HISTORY_KEEP     = 40; // ~20 posted updates worth of square+story pairs
 
 const FONTS_DIR = path.join(ROOT, 'assets', 'fonts');
 const LOGO_PATH = path.join(ROOT, 'assets', 'images', 'poland-bulldogs-logo.png');
@@ -136,12 +149,25 @@ function updateTodayAccumulator(today) {
   for (const item of candidates) {
     // Later runs win for status/detail, but keep remembering the same eventId
     // across the day so a game that moves twice still shows one card. If an
-    // earlier run already captured the original pre-change time, keep that
-    // as timeBefore so a game moved twice still shows its true original slot.
+    // earlier run already captured the original pre-change value, keep that
+    // as the "before" so a game moved twice still shows its true original
+    // slot/location rather than the midpoint of the two moves.
     const prior = accumulator.items[item.eventId];
     const merged = { ...prior, ...item };
     if (prior?.timeBefore && item.timeBefore) merged.timeBefore = prior.timeBefore;
-    accumulator.items[item.eventId] = merged;
+    if (prior?.locationBefore && item.locationBefore) merged.locationBefore = prior.locationBefore;
+
+    // If a time/location move gets reverted back to its true original value
+    // later the same day, there's no net change left to report — drop the
+    // card entirely instead of showing a "changed" badge with identical
+    // before/after values.
+    const isNetZeroTimeChange = merged.status === 'time-changed' && merged.timeBefore === merged.timeAfter;
+    const isNetZeroLocationChange = merged.status === 'location-changed' && merged.locationBefore === merged.locationAfter;
+    if (isNetZeroTimeChange || isNetZeroLocationChange) {
+      delete accumulator.items[item.eventId];
+    } else {
+      accumulator.items[item.eventId] = merged;
+    }
   }
 
   fs.writeFileSync(TODAY_PATH, JSON.stringify(accumulator, null, 2));
@@ -220,20 +246,57 @@ function detailLine(item, size) {
 
 // Sizing tiers keyed by how many cards need to fit in the fixed body height —
 // keeps 5-6 changes from overflowing into the footer while letting 1-3
-// changes breathe with larger type.
+// changes breathe with larger type. Font sizes stay fixed across variants
+// (the card is always 1080 wide, so scaling text up risks overflow/wrap) —
+// only vertical padding and the inter-card gap grow to fill extra height.
 const CARD_TIERS = [
   { max: 3, sportSize: 30, detailSize: 22, timeSize: 50, padding: '30px 34px', gap: 22 },
   { max: 4, sportSize: 26, detailSize: 20, timeSize: 42, padding: '22px 32px', gap: 16 },
   { max: 6, sportSize: 22, detailSize: 18, timeSize: 33, padding: '15px 28px', gap: 9 },
 ];
 
-function buildTree({ items, dateLabel, updatedLabel, logoDataUri }) {
+// Fixed regardless of width/height (header/footer content doesn't scale) —
+// used to work out how much body height is actually available to fill.
+const HEADER_TOTAL_HEIGHT = 282; // 58+50 padding + 168 logo badge + 6 accent bar
+const FOOTER_TOTAL_HEIGHT = 110; // 104 height + 6 accent bar
+const BODY_PADDING_V       = 72;  // 36px top + 36px bottom (see body style below)
+const BODY_FILL_RATIO      = 0.82; // rest stays as centered safe-zone margin
+
+function buildTree({ items, dateLabel, updatedLabel, logoDataUri, width, height }) {
   const shown = items.slice(0, MAX_CARDS);
   const overflow = items.length - shown.length;
-  const tier = CARD_TIERS.find(t => shown.length <= t.max) || CARD_TIERS[CARD_TIERS.length - 1];
+  const count = shown.length;
+  const tier = CARD_TIERS.find(t => count <= t.max) || CARD_TIERS[CARD_TIERS.length - 1];
 
-  const { sportSize, detailSize, timeSize, gap: cardGap } = tier;
-  const cardPadding = tier.padding;
+  const { sportSize, detailSize, timeSize } = tier;
+  const [basePadV, basePadH] = tier.padding.split(' ').map(v => parseInt(v, 10));
+
+  // In the tall "story" variant there's much more body height than the base
+  // tier numbers assume (they're tuned to just fit the square format). Grow
+  // padding/gap — not font size — to use most of that extra room, so a
+  // full 6-card stack doesn't float in a sea of blank space.
+  let cardGap = tier.gap;
+  let padV = basePadV;
+  if (count > 0) {
+    const contentHeight = Math.max(timeSize * 1.2, sportSize + detailSize + 6);
+    const naturalStack = count * (contentHeight + basePadV * 2) + Math.max(0, count - 1) * cardGap;
+    const bodyAvailable = height - HEADER_TOTAL_HEIGHT - FOOTER_TOTAL_HEIGHT - BODY_PADDING_V;
+    const targetStack = bodyAvailable * BODY_FILL_RATIO;
+    if (targetStack > naturalStack) {
+      const surplus = targetStack - naturalStack;
+      // Cap how far padding/gap can grow relative to the content itself —
+      // otherwise a low card count (lots of surplus per card) turns each
+      // card into a mostly-empty box. Whatever surplus the cap can't
+      // absorb is left as outer centered margin instead (body's
+      // justifyContent: 'center'), which reads as intentional breathing
+      // room rather than an accident.
+      const maxPadV = basePadV + contentHeight * 0.9;
+      const maxGap  = tier.gap + contentHeight * 0.6;
+      padV = Math.min(basePadV + (surplus * 0.7) / count / 2, maxPadV);
+      if (count > 1) cardGap = Math.min(tier.gap + (surplus * 0.3) / (count - 1), maxGap);
+    }
+  }
+  const cardPadding = `${Math.round(padV)}px ${basePadH}px`;
 
   const decorCircle = (extra) => h('div', {
     style: {
@@ -242,9 +305,14 @@ function buildTree({ items, dateLabel, updatedLabel, logoDataUri }) {
     },
   });
 
+  // The extra vertical room in the tall "story" variant is left as centered
+  // whitespace above/below the card stack (via the body's justifyContent:
+  // 'center' below) rather than stretched into bigger cards — which doubles
+  // as the safe-zone margin Stories need to clear the platform's own UI
+  // (profile bar up top, reply field at the bottom).
   return h('div', {
     style: {
-      width: '1080px', height: '1080px', display: 'flex', flexDirection: 'column',
+      width: `${width}px`, height: `${height}px`, display: 'flex', flexDirection: 'column',
       backgroundColor: '#ffffff', fontFamily: 'Public Sans',
     },
   },
@@ -348,8 +416,8 @@ function buildTree({ items, dateLabel, updatedLabel, logoDataUri }) {
   );
 }
 
-async function render(items, now) {
-  const fonts = [
+function loadFonts() {
+  return [
     { name: 'Public Sans', weight: 400, style: 'normal', data: fs.readFileSync(path.join(FONTS_DIR, 'PublicSans-Regular.ttf')) },
     { name: 'Public Sans', weight: 500, style: 'normal', data: fs.readFileSync(path.join(FONTS_DIR, 'PublicSans-Medium.ttf')) },
     { name: 'Public Sans', weight: 600, style: 'normal', data: fs.readFileSync(path.join(FONTS_DIR, 'PublicSans-SemiBold.ttf')) },
@@ -357,19 +425,30 @@ async function render(items, now) {
     { name: 'Public Sans', weight: 800, style: 'normal', data: fs.readFileSync(path.join(FONTS_DIR, 'PublicSans-ExtraBold.ttf')) },
     { name: 'Public Sans', weight: 900, style: 'normal', data: fs.readFileSync(path.join(FONTS_DIR, 'PublicSans-Black.ttf')) },
   ];
+}
 
-  const logoDataUri = `data:image/png;base64,${fs.readFileSync(LOGO_PATH).toString('base64')}`;
-
+async function render(items, now, { width, height, fonts, logoDataUri }) {
   const dateLabel = now.toFormat('cccc, LLLL d');
   const updatedLabel = `Updated ${now.toFormat('h:mm a ZZZZ')}`;
 
-  const tree = buildTree({ items, dateLabel, updatedLabel, logoDataUri });
+  const tree = buildTree({ items, dateLabel, updatedLabel, logoDataUri, width, height });
 
-  const svg = await satori(tree, { width: 1080, height: 1080, fonts });
+  const svg = await satori(tree, { width, height, fonts });
 
   // Rasterize at 2x for crisper text on high-density feeds/screens.
-  const resvg = new Resvg(svg, { fitTo: { mode: 'width', value: 2160 } });
+  const resvg = new Resvg(svg, { fitTo: { mode: 'width', value: width * 2 } });
   return resvg.render().asPng();
+}
+
+// Keep only the most recent HISTORY_KEEP files (square+story pairs sort
+// together since filenames are date+signature prefixed) so the repo doesn't
+// grow unbounded over a season.
+function pruneHistory() {
+  const files = fs.readdirSync(HISTORY_DIR).sort();
+  const excess = files.length - HISTORY_KEEP;
+  for (const file of files.slice(0, Math.max(0, excess))) {
+    fs.unlinkSync(path.join(HISTORY_DIR, file));
+  }
 }
 
 async function main() {
@@ -380,13 +459,28 @@ async function main() {
 
   if (items.length === 0) {
     if (fs.existsSync(OUTPUT_PATH)) fs.unlinkSync(OUTPUT_PATH);
+    if (fs.existsSync(STORY_OUTPUT_PATH)) fs.unlinkSync(STORY_OUTPUT_PATH);
     console.log('No changes affecting today — no graphic generated.\n');
     return;
   }
 
-  const png = await render(items, now);
-  fs.writeFileSync(OUTPUT_PATH, png);
-  console.log(`Wrote ${OUTPUT_PATH} (${items.length} change${items.length === 1 ? '' : 's'} today).\n`);
+  const fonts = loadFonts();
+  const logoDataUri = `data:image/png;base64,${fs.readFileSync(LOGO_PATH).toString('base64')}`;
+
+  const squarePng = await render(items, now, { width: 1080, height: 1080, fonts, logoDataUri });
+  const storyPng  = await render(items, now, { width: 1080, height: 1920, fonts, logoDataUri });
+
+  fs.writeFileSync(OUTPUT_PATH, squarePng);
+  fs.writeFileSync(STORY_OUTPUT_PATH, storyPng);
+
+  fs.mkdirSync(HISTORY_DIR, { recursive: true });
+  const signature = computeSignature(items);
+  const base = `${today}_${signature}`;
+  fs.writeFileSync(path.join(HISTORY_DIR, `${base}_square.png`), squarePng);
+  fs.writeFileSync(path.join(HISTORY_DIR, `${base}_story.png`), storyPng);
+  pruneHistory();
+
+  console.log(`Wrote ${OUTPUT_PATH} and ${STORY_OUTPUT_PATH} (${items.length} change${items.length === 1 ? '' : 's'} today, signature ${signature}).\n`);
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
