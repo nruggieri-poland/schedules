@@ -1,24 +1,56 @@
 {
-  "generatedAt": "2026-09-09T04:14:27.499Z",
+  "generatedAt": "2026-09-09T19:59:21.324Z",
   "added": [],
-  "removed": [
+  "removed": [],
+  "changed": [
     {
-      "eventId": "1466170c-92c7-41c0-b383-b5ad13874340",
-      "eventDate": "2025-09-08",
-      "sport": "Boys Golf",
+      "eventId": "ad73135e-9436-4522-a25a-947245f0cf39",
+      "eventDate": "2026-08-17",
+      "sport": "Girls Soccer",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Kiely Cup",
+      "opponentComplete": "Howland Tigers",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
     },
     {
-      "eventId": "3ac79211-c230-4f9e-9228-d22bfb3b9562",
-      "eventDate": "2025-09-08",
-      "sport": "Girls Tennis",
+      "eventId": "5a52d88a-ed64-48a2-8dd9-f16707c82a4b",
+      "eventDate": "2026-08-20",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "01568123-b0ad-43b2-ad25-ab44100d3682",
+      "eventDate": "2026-08-24",
+      "sport": "Girls Soccer",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
       "opponentComplete": "Niles Red Dragons",
@@ -26,86 +58,60 @@
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Loss"
+      },
+      "after": {
+        "result": null
+      }
     },
     {
-      "eventId": "9c247730-b38d-417c-bcb3-60cbb378cc5a",
-      "eventDate": "2025-09-08",
-      "sport": "Volleyball",
-      "levelLabel": "7th Grade",
-      "vsOrAt": "vs",
-      "opponentComplete": "Struthers Wildcats",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "a1a5de96-36e1-419e-97b6-2f464a301244",
-      "eventDate": "2025-09-08",
-      "sport": "Volleyball",
-      "levelLabel": "JV",
-      "vsOrAt": "@",
-      "opponentComplete": "Boardman Spartans",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "86572716-17e9-44bb-be13-ad004e75f312",
-      "eventDate": "2025-09-08",
-      "sport": "Boys Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Lakeview Bulldogs",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "87c23f88-d5ca-409d-832c-f2e3a119ff14",
-      "eventDate": "2025-09-08",
-      "sport": "Volleyball",
-      "levelLabel": "8th Grade",
-      "vsOrAt": "vs",
-      "opponentComplete": "Struthers Wildcats",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "a242cd77-a73d-40c5-93aa-62efdfaaf9be",
-      "eventDate": "2025-09-08",
-      "sport": "Volleyball",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Boardman Spartans",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "18ef8ac5-3a23-4583-9b54-08b61827d2e1",
-      "eventDate": "2025-09-08",
+      "eventId": "83656ff5-8ff6-47d6-a327-b7f8b4c2c46b",
+      "eventDate": "2026-08-27",
       "sport": "Girls Soccer",
       "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Lakeview Bulldogs",
+      "vsOrAt": "vs",
+      "opponentComplete": "Struthers Wildcats",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "abbc1975-f3b6-4965-93ed-7c5bba455ecc",
+      "eventDate": "2026-09-02",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Canfield Cardinals",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
     }
-  ],
-  "changed": []
+  ]
 }
