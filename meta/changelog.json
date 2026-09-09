@@ -75474,5 +75474,116 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-09-09T04:14:27.499Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "1466170c-92c7-41c0-b383-b5ad13874340",
+        "eventDate": "2025-09-08",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Kiely Cup",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "3ac79211-c230-4f9e-9228-d22bfb3b9562",
+        "eventDate": "2025-09-08",
+        "sport": "Girls Tennis",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "9c247730-b38d-417c-bcb3-60cbb378cc5a",
+        "eventDate": "2025-09-08",
+        "sport": "Volleyball",
+        "levelLabel": "7th Grade",
+        "vsOrAt": "vs",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "a1a5de96-36e1-419e-97b6-2f464a301244",
+        "eventDate": "2025-09-08",
+        "sport": "Volleyball",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "Boardman Spartans",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "86572716-17e9-44bb-be13-ad004e75f312",
+        "eventDate": "2025-09-08",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "87c23f88-d5ca-409d-832c-f2e3a119ff14",
+        "eventDate": "2025-09-08",
+        "sport": "Volleyball",
+        "levelLabel": "8th Grade",
+        "vsOrAt": "vs",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "a242cd77-a73d-40c5-93aa-62efdfaaf9be",
+        "eventDate": "2025-09-08",
+        "sport": "Volleyball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Boardman Spartans",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "18ef8ac5-3a23-4583-9b54-08b61827d2e1",
+        "eventDate": "2025-09-08",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
