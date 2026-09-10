@@ -81880,5 +81880,43 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-09-10T19:52:04.208Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "5a726b5e-4722-4157-bdbe-1bdf5794a19a",
+        "eventDate": "2026-09-10",
+        "sport": "Football",
+        "levelLabel": "Freshman",
+        "vsOrAt": "@",
+        "opponentComplete": "Canfield Cardinals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "eventDate",
+          "eventTime",
+          "homeOrAway",
+          "location"
+        ],
+        "before": {
+          "eventDate": "2026-09-09",
+          "eventTime": "07:30 PM",
+          "homeOrAway": "Home",
+          "location": "Poland Seminary High School"
+        },
+        "after": {
+          "eventDate": "2026-09-10",
+          "eventTime": "05:30 PM",
+          "homeOrAway": "Away",
+          "location": "Canfield High School"
+        }
+      }
+    ]
   }
 ]
