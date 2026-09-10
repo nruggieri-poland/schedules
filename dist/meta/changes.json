@@ -1,107 +1,85 @@
 {
-  "generatedAt": "2026-09-09T22:16:19.407Z",
+  "generatedAt": "2026-09-10T04:11:33.865Z",
   "added": [],
-  "removed": [],
-  "changed": [
+  "removed": [
     {
-      "eventId": "ad73135e-9436-4522-a25a-947245f0cf39",
-      "eventDate": "2026-08-17",
-      "sport": "Girls Soccer",
+      "eventId": "f4be32fa-65f4-4ac4-bf14-b4c13bbef437",
+      "eventDate": "2025-09-09",
+      "sport": "Girls Golf",
       "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Howland Tigers",
-      "isCancelled": false,
+      "vsOrAt": "vs",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": true,
       "isPostponed": false,
-      "teamScore": 6,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     },
     {
-      "eventId": "5a52d88a-ed64-48a2-8dd9-f16707c82a4b",
-      "eventDate": "2026-08-20",
-      "sport": "Girls Soccer",
+      "eventId": "31716018-103d-4c39-8c6d-df2dc434770b",
+      "eventDate": "2025-09-09",
+      "sport": "Cross Country",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Hubbard Eagles",
+      "opponentComplete": "OPEN",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 6,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     },
     {
-      "eventId": "01568123-b0ad-43b2-ad25-ab44100d3682",
-      "eventDate": "2026-08-24",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
+      "eventId": "0c63601c-eab5-4314-b3e2-133048dc3982",
+      "eventDate": "2025-09-09",
+      "sport": "Volleyball",
+      "levelLabel": "JV",
+      "vsOrAt": "vs",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "e1f0feb7-f17d-408f-a8e6-a9244caf0edd",
+      "eventDate": "2025-09-09",
+      "sport": "Cross Country",
+      "levelLabel": "Middle School",
       "vsOrAt": "@",
-      "opponentComplete": "Niles Red Dragons",
+      "opponentComplete": "OPEN",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 1,
-      "opponentScore": 5,
-      "result": "Loss",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Loss"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     },
     {
-      "eventId": "83656ff5-8ff6-47d6-a327-b7f8b4c2c46b",
-      "eventDate": "2026-08-27",
-      "sport": "Girls Soccer",
+      "eventId": "fb28ecde-82a1-4d54-9b64-6257bdf462b4",
+      "eventDate": "2025-09-09",
+      "sport": "Volleyball",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
       "opponentComplete": "Struthers Wildcats",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 13,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
-    },
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    }
+  ],
+  "changed": [
     {
-      "eventId": "abbc1975-f3b6-4965-93ed-7c5bba455ecc",
-      "eventDate": "2026-09-02",
-      "sport": "Girls Soccer",
+      "eventId": "4bb6f4cf-3721-4279-be74-86eb4808778a",
+      "eventDate": "2026-09-09",
+      "sport": "Girls Tennis",
       "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Canfield Cardinals",
+      "vsOrAt": "@",
+      "opponentComplete": "Niles Red Dragons",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 2,
-      "opponentScore": 0,
+      "teamScore": 3,
+      "opponentScore": 1,
       "result": "Win",
       "fields": [
         "result"
