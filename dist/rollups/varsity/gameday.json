@@ -1,33 +1,5 @@
 [
   {
-    "eventDate": "2026-09-09",
-    "cleanDate": "09/09",
-    "sport": "Boys Golf",
-    "eventTime": "08:00 AM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "NorthEast 8 Championship",
-    "opponentMascot": null,
-    "opponentComplete": "NorthEast 8 Championship",
-    "location": "Squaw Creek",
-    "postSlug": "2026-09-09_boys-golf",
-    "posterFile": "2026-09-09_boys-golf.jpg"
-  },
-  {
-    "eventDate": "2026-09-09",
-    "cleanDate": "09/09",
-    "sport": "Girls Tennis",
-    "eventTime": "04:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Niles",
-    "opponentMascot": "Red Dragons",
-    "opponentComplete": "Niles Red Dragons",
-    "location": "Niles McKinley High School",
-    "postSlug": "2026-09-09_girls-tennis",
-    "posterFile": "2026-09-09_girls-tennis.jpg"
-  },
-  {
     "eventDate": "2026-09-10",
     "cleanDate": "09/10",
     "sport": "Boys Soccer",
@@ -586,5 +558,33 @@
     "location": "Austintown Township Park",
     "postSlug": "2026-09-30_cross-country",
     "posterFile": "2026-09-30_cross-country.jpg"
+  },
+  {
+    "eventDate": "2026-10-01",
+    "cleanDate": "10/01",
+    "sport": "Boys Soccer",
+    "eventTime": "05:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Champion",
+    "opponentMascot": "Golden Flashes",
+    "opponentComplete": "Champion Golden Flashes",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-10-01_boys-soccer",
+    "posterFile": "2026-10-01_boys-soccer.jpg"
+  },
+  {
+    "eventDate": "2026-10-01",
+    "cleanDate": "10/01",
+    "sport": "Girls Soccer",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "St. Vincent-St. Mary",
+    "opponentMascot": "Fighting Irish",
+    "opponentComplete": "St. Vincent-St. Mary Fighting Irish",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-10-01_girls-soccer",
+    "posterFile": "2026-10-01_girls-soccer.jpg"
   }
 ]
