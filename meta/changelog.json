@@ -75819,5 +75819,100 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-09-10T04:11:33.865Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "f4be32fa-65f4-4ac4-bf14-b4c13bbef437",
+        "eventDate": "2025-09-09",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": true,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "31716018-103d-4c39-8c6d-df2dc434770b",
+        "eventDate": "2025-09-09",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "OPEN",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "0c63601c-eab5-4314-b3e2-133048dc3982",
+        "eventDate": "2025-09-09",
+        "sport": "Volleyball",
+        "levelLabel": "JV",
+        "vsOrAt": "vs",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "e1f0feb7-f17d-408f-a8e6-a9244caf0edd",
+        "eventDate": "2025-09-09",
+        "sport": "Cross Country",
+        "levelLabel": "Middle School",
+        "vsOrAt": "@",
+        "opponentComplete": "OPEN",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "fb28ecde-82a1-4d54-9b64-6257bdf462b4",
+        "eventDate": "2025-09-09",
+        "sport": "Volleyball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": [
+      {
+        "eventId": "4bb6f4cf-3721-4279-be74-86eb4808778a",
+        "eventDate": "2026-09-09",
+        "sport": "Girls Tennis",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 3,
+        "opponentScore": 1,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
