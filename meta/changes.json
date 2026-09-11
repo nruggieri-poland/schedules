@@ -1,73 +1,72 @@
 {
-  "generatedAt": "2026-09-11T02:29:19.472Z",
+  "generatedAt": "2026-09-11T04:10:48.345Z",
   "added": [],
-  "removed": [],
-  "changed": [
+  "removed": [
     {
-      "eventId": "e7429983-9f4e-4f52-8758-a88e3157a8a1",
-      "eventDate": "2026-09-10",
-      "sport": "Boys Soccer",
+      "eventId": "092e2510-ca25-4a14-b00c-8fa24f7837e9",
+      "eventDate": "2025-09-10",
+      "sport": "Girls Tennis",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "South Range Raiders",
+      "opponentComplete": "Girard Indians",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 7,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     },
     {
-      "eventId": "2a8411ed-242b-45b0-8111-4cd1303b4323",
-      "eventDate": "2026-09-10",
+      "eventId": "99a2b944-48d4-4a81-85dd-b5e8cc89637f",
+      "eventDate": "2025-09-10",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "@",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "8f3e0c04-4237-4070-8c41-fa36ba315eeb",
+      "eventDate": "2025-09-10",
+      "sport": "Girls Soccer",
+      "levelLabel": "JV",
+      "vsOrAt": "@",
+      "opponentComplete": "St. Vincent-St. Mary Fighting Irish",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "f43af7db-e565-4213-9632-e3598e2f27a2",
+      "eventDate": "2025-09-10",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "@",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "5a06ee47-08bf-40c7-8aa2-e27146cad0c1",
+      "eventDate": "2025-09-10",
       "sport": "Girls Soccer",
       "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "South Range Raiders",
+      "vsOrAt": "@",
+      "opponentComplete": "St. Vincent-St. Mary Fighting Irish",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 9,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
-    },
-    {
-      "eventId": "51313b94-e6e1-4e01-ba8f-be32828f6fd7",
-      "eventDate": "2026-09-10",
-      "sport": "Volleyball",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Struthers Wildcats",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 3,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     }
-  ]
+  ],
+  "changed": []
 }
