@@ -1,37 +1,72 @@
 {
-  "generatedAt": "2026-09-10T19:52:04.208Z",
+  "generatedAt": "2026-09-11T02:29:19.472Z",
   "added": [],
   "removed": [],
   "changed": [
     {
-      "eventId": "5a726b5e-4722-4157-bdbe-1bdf5794a19a",
+      "eventId": "e7429983-9f4e-4f52-8758-a88e3157a8a1",
       "eventDate": "2026-09-10",
-      "sport": "Football",
-      "levelLabel": "Freshman",
-      "vsOrAt": "@",
-      "opponentComplete": "Canfield Cardinals",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "South Range Raiders",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 7,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
-        "eventDate",
-        "eventTime",
-        "homeOrAway",
-        "location"
+        "result"
       ],
       "before": {
-        "eventDate": "2026-09-09",
-        "eventTime": "07:30 PM",
-        "homeOrAway": "Home",
-        "location": "Poland Seminary High School"
+        "result": null
       },
       "after": {
-        "eventDate": "2026-09-10",
-        "eventTime": "05:30 PM",
-        "homeOrAway": "Away",
-        "location": "Canfield High School"
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "2a8411ed-242b-45b0-8111-4cd1303b4323",
+      "eventDate": "2026-09-10",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 9,
+      "opponentScore": 0,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "51313b94-e6e1-4e01-ba8f-be32828f6fd7",
+      "eventDate": "2026-09-10",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 3,
+      "opponentScore": 0,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
       }
     }
   ]

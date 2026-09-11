@@ -25167,10 +25167,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 7,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "South Range High School",
+        "teamScore": 7,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "17:00"
   },
   {
@@ -25275,10 +25282,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 9,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "South Range High School",
+        "teamScore": 9,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "19:00"
   },
   {
@@ -25311,10 +25325,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 3,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Struthers High School",
+        "teamScore": 3,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "19:00"
   },
   {
