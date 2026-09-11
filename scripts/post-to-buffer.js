@@ -2,7 +2,8 @@
  * post-to-buffer.js
  *
  * Posts today's schedule-change graphic (built by build-today-graphic.js) to
- * Buffer as an Instagram Story, a Facebook Story, and an X/Twitter post.
+ * Buffer as a Facebook Story and an X/Twitter post.
+ * (Instagram posting is disabled — see the commented-out block in main().)
  *
  * Posting cadence (see shouldPostNow below):
  *   - First distinct change of the day → post right away.
@@ -216,14 +217,15 @@ async function main() {
   const text = buildCaption(items, now.toFormat('cccc, LLLL d'));
   const results = {};
 
-  if (CHANNEL_INSTAGRAM) {
-    results.instagram = await createPost({
-      channelId: CHANNEL_INSTAGRAM, text, imageUrl: storyUrl,
-      metadata: { instagram: { type: 'story', shouldShareToFeed: false } },
-    });
-  } else {
-    console.log('BUFFER_CHANNEL_ID_INSTAGRAM not set — skipping Instagram.');
-  }
+  // Instagram posting disabled — only Twitter/X and Facebook for now.
+  // if (CHANNEL_INSTAGRAM) {
+  //   results.instagram = await createPost({
+  //     channelId: CHANNEL_INSTAGRAM, text, imageUrl: storyUrl,
+  //     metadata: { instagram: { type: 'story', shouldShareToFeed: false } },
+  //   });
+  // } else {
+  //   console.log('BUFFER_CHANNEL_ID_INSTAGRAM not set — skipping Instagram.');
+  // }
 
   if (CHANNEL_FACEBOOK) {
     results.facebook = await createPost({
