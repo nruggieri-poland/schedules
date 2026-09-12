@@ -82063,5 +82063,139 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-09-12T04:10:29.094Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "801a1b87-f612-4e69-a21f-cd859c35410a",
+        "eventDate": "2025-09-11",
+        "sport": "Girls Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "NE 8 Championship",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "9636624c-72c1-4248-a945-cd79f2c7582e",
+        "eventDate": "2025-09-11",
+        "sport": "Football",
+        "levelLabel": "7th Grade",
+        "vsOrAt": "@",
+        "opponentComplete": "Canfield Cardinals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "7b65afaa-54c5-4062-8848-c150f976e652",
+        "eventDate": "2025-09-11",
+        "sport": "Boys Soccer",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "Salem Quakers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "3b953d46-8ee9-4ed1-a73b-134a26a24438",
+        "eventDate": "2025-09-11",
+        "sport": "Football",
+        "levelLabel": "8th Grade",
+        "vsOrAt": "@",
+        "opponentComplete": "Canfield Cardinals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "12d0c2ee-cc1d-4779-8a00-858b16327ec7",
+        "eventDate": "2025-09-11",
+        "sport": "Volleyball",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "c2bd8a02-2d17-4711-8ad6-f8450ce4cf48",
+        "eventDate": "2025-09-11",
+        "sport": "Football",
+        "levelLabel": "Freshman",
+        "vsOrAt": "@",
+        "opponentComplete": "Canfield Cardinals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "273ee225-9b2a-4d4a-972e-a412ebefcade",
+        "eventDate": "2025-09-11",
+        "sport": "Volleyball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "31a09577-b8b2-451b-b527-13fdb28250cc",
+        "eventDate": "2025-09-11",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Salem Quakers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": [
+      {
+        "eventId": "94d4eab9-f229-4770-a494-fb61441ac404",
+        "eventDate": "2026-09-11",
+        "sport": "Football",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Canfield Cardinals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 24,
+        "opponentScore": 21,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
