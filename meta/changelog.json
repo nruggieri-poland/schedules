@@ -82197,5 +82197,25 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-09-13T04:22:18.011Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "1876567c-ce99-460b-85a9-037f915bc927",
+        "eventDate": "2025-09-12",
+        "sport": "Football",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Canfield Cardinals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
