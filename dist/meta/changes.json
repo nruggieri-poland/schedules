@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-09-14T16:01:24.930Z",
+  "generatedAt": "2026-09-14T23:09:11.714Z",
   "added": [],
   "removed": [],
   "changed": [
     {
-      "eventId": "3b75c751-2cca-4793-8db0-ed9b55924034",
-      "eventDate": "2026-09-15",
-      "sport": "Boys Soccer",
-      "levelLabel": "JV",
+      "eventId": "ac2ddb42-27c8-44a7-b09b-ac0001afc5e4",
+      "eventDate": "2026-09-14",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Liberty Leopards",
+      "opponentComplete": "Struthers Wildcats",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 3,
+      "opponentScore": 2,
+      "result": "Win",
       "fields": [
-        "eventTime"
+        "result"
       ],
       "before": {
-        "eventTime": "07:00 PM"
+        "result": null
       },
       "after": {
-        "eventTime": "06:00 PM"
+        "result": "Win"
       }
     }
   ]
