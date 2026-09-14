@@ -1,72 +1,29 @@
 {
-  "generatedAt": "2026-09-14T04:29:01.025Z",
+  "generatedAt": "2026-09-14T16:01:24.930Z",
   "added": [],
-  "removed": [
+  "removed": [],
+  "changed": [
     {
-      "eventId": "c59f3126-96ad-41f2-9303-009d8ba3b7f3",
-      "eventDate": "2025-09-13",
-      "sport": "Cross Country",
-      "levelLabel": "Middle School",
-      "vsOrAt": "@",
-      "opponentComplete": "Boardman Spartan Invitational",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "9c3a0112-0710-4dcc-9747-0c8a899a5655",
-      "eventDate": "2025-09-13",
-      "sport": "Cross Country",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Boardman Spartan Invitational",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "868cdc64-d22f-43b5-a070-94bf668e4538",
-      "eventDate": "2025-09-13",
-      "sport": "Football",
+      "eventId": "3b75c751-2cca-4793-8db0-ed9b55924034",
+      "eventDate": "2026-09-15",
+      "sport": "Boys Soccer",
       "levelLabel": "JV",
       "vsOrAt": "@",
-      "opponentComplete": "Canfield Cardinals",
+      "opponentComplete": "Liberty Leopards",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "a54d4daa-bb92-4be1-b5a1-692b4be7147e",
-      "eventDate": "2025-09-13",
-      "sport": "Girls Soccer",
-      "levelLabel": "JV",
-      "vsOrAt": "vs",
-      "opponentComplete": "West Branch Warriors",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "5b968af4-dca1-4539-a985-b8a4ab44dab1",
-      "eventDate": "2025-09-13",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "West Branch Warriors",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
+      "result": null,
+      "fields": [
+        "eventTime"
+      ],
+      "before": {
+        "eventTime": "07:00 PM"
+      },
+      "after": {
+        "eventTime": "06:00 PM"
+      }
     }
-  ],
-  "changed": []
+  ]
 }
