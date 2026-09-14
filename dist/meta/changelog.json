@@ -82289,5 +82289,34 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-09-14T16:01:24.930Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "3b75c751-2cca-4793-8db0-ed9b55924034",
+        "eventDate": "2026-09-15",
+        "sport": "Boys Soccer",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "Liberty Leopards",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "07:00 PM"
+        },
+        "after": {
+          "eventTime": "06:00 PM"
+        }
+      }
+    ]
   }
 ]
