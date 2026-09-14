@@ -82318,5 +82318,34 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-09-14T23:09:11.714Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "ac2ddb42-27c8-44a7-b09b-ac0001afc5e4",
+        "eventDate": "2026-09-14",
+        "sport": "Girls Tennis",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 3,
+        "opponentScore": 2,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
