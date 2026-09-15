@@ -82376,5 +82376,34 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-09-15T04:29:28.782Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "1b36103b-92e2-46c5-a9cc-5fce5aebe374",
+        "eventDate": "2026-09-14",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 3,
+        "opponentScore": 0,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
