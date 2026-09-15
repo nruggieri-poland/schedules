@@ -82347,5 +82347,34 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-09-15T01:23:54.836Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "b6d1bf28-ef0a-4380-8a4e-ffc624b48c56",
+        "eventDate": "2026-09-14",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 3,
+        "opponentScore": 0,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
