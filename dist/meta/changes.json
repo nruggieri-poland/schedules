@@ -1,29 +1,20 @@
 {
-  "generatedAt": "2026-09-15T04:29:28.782Z",
+  "generatedAt": "2026-09-15T14:31:06.491Z",
   "added": [],
-  "removed": [],
-  "changed": [
+  "removed": [
     {
-      "eventId": "1b36103b-92e2-46c5-a9cc-5fce5aebe374",
-      "eventDate": "2026-09-14",
-      "sport": "Boys Soccer",
-      "levelLabel": "Varsity",
+      "eventId": "ad407382-cb02-466f-94bc-c7b0cc1e7224",
+      "eventDate": "2026-09-15",
+      "sport": "Girls Soccer",
+      "levelLabel": "JV",
       "vsOrAt": "@",
-      "opponentComplete": "Girard Indians",
+      "opponentComplete": "Cardinal Mooney Cardinals",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 3,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     }
-  ]
+  ],
+  "changed": []
 }
