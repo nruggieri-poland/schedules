@@ -1,47 +1,5 @@
 [
   {
-    "eventDate": "2026-09-15",
-    "cleanDate": "09/15",
-    "sport": "Girls Tennis",
-    "eventTime": "04:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Salem",
-    "opponentMascot": "Quakers",
-    "opponentComplete": "Salem Quakers",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-09-15_girls-tennis",
-    "posterFile": "2026-09-15_girls-tennis.jpg"
-  },
-  {
-    "eventDate": "2026-09-15",
-    "cleanDate": "09/15",
-    "sport": "Cross Country",
-    "eventTime": "04:45 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Columbiana",
-    "opponentMascot": "Clippers",
-    "opponentComplete": "Columbiana Clippers",
-    "location": "Columbiana High School",
-    "postSlug": "2026-09-15_cross-country",
-    "posterFile": "2026-09-15_cross-country.jpg"
-  },
-  {
-    "eventDate": "2026-09-15",
-    "cleanDate": "09/15",
-    "sport": "Volleyball",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Niles",
-    "opponentMascot": "Red Dragons",
-    "opponentComplete": "Niles Red Dragons",
-    "location": "Niles McKinley High School",
-    "postSlug": "2026-09-15_volleyball",
-    "posterFile": "2026-09-15_volleyball.jpg"
-  },
-  {
     "eventDate": "2026-09-16",
     "cleanDate": "09/16",
     "sport": "Girls Tennis",
@@ -502,5 +460,33 @@
     "location": "Struthers High School",
     "postSlug": "2026-10-06_volleyball",
     "posterFile": "2026-10-06_volleyball.jpg"
+  },
+  {
+    "eventDate": "2026-10-07",
+    "cleanDate": "10/07",
+    "sport": "Girls Soccer",
+    "eventTime": "05:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Girard",
+    "opponentMascot": "Indians",
+    "opponentComplete": "Girard Indians",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-10-07_girls-soccer",
+    "posterFile": "2026-10-07_girls-soccer.jpg"
+  },
+  {
+    "eventDate": "2026-10-07",
+    "cleanDate": "10/07",
+    "sport": "Boys Soccer",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Girard",
+    "opponentMascot": "Indians",
+    "opponentComplete": "Girard Indians",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-10-07_boys-soccer",
+    "posterFile": "2026-10-07_boys-soccer.jpg"
   }
 ]
