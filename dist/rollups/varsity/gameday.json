@@ -1,19 +1,5 @@
 [
   {
-    "eventDate": "2026-09-16",
-    "cleanDate": "09/16",
-    "sport": "Girls Tennis",
-    "eventTime": "04:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Lakeview",
-    "opponentMascot": "Bulldogs",
-    "opponentComplete": "Lakeview Bulldogs",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-09-16_girls-tennis",
-    "posterFile": "2026-09-16_girls-tennis.jpg"
-  },
-  {
     "eventDate": "2026-09-17",
     "cleanDate": "09/17",
     "sport": "Girls Tennis",
@@ -488,5 +474,19 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-10-07_boys-soccer",
     "posterFile": "2026-10-07_boys-soccer.jpg"
+  },
+  {
+    "eventDate": "2026-10-08",
+    "cleanDate": "10/08",
+    "sport": "Volleyball",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Niles",
+    "opponentMascot": "Red Dragons",
+    "opponentComplete": "Niles Red Dragons",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-10-08_volleyball",
+    "posterFile": "2026-10-08_volleyball.jpg"
   }
 ]
