@@ -82572,5 +82572,90 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-09-17T04:30:43.961Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "384c7888-de6b-43da-b251-627f9564bff8",
+        "eventDate": "2025-09-16",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Springfield Tigers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "215a65da-596d-4144-a24b-53faf6313df9",
+        "eventDate": "2025-09-16",
+        "sport": "Girls Tennis",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Boardman Spartans",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "9db9a6aa-e7b4-4cc1-9109-ceeb2f833c8e",
+        "eventDate": "2025-09-16",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Suburban Championship",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "ca9272d5-d393-486e-ad36-63e7c7998334",
+        "eventDate": "2025-09-16",
+        "sport": "Volleyball",
+        "levelLabel": "JV",
+        "vsOrAt": "vs",
+        "opponentComplete": "South Range Raiders",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "9bc138a7-191b-4425-98c9-73468c16025c",
+        "eventDate": "2025-09-16",
+        "sport": "Cross Country",
+        "levelLabel": "Middle School",
+        "vsOrAt": "@",
+        "opponentComplete": "Suburban Championship",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "8110491e-6d9a-4ae5-9947-557d495dcdbf",
+        "eventDate": "2025-09-16",
+        "sport": "Volleyball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "South Range Raiders",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
