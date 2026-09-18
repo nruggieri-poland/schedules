@@ -1,9 +1,10 @@
 {
-  "generatedAt": "2026-09-18T17:22:11.706Z",
-  "added": [
+  "generatedAt": "2026-09-18T19:47:00.151Z",
+  "added": [],
+  "removed": [
     {
-      "eventId": "93f67c8f-4183-4467-855b-3db11e9b6c1c",
-      "eventDate": "2027-04-29",
+      "eventId": "be65ed0d-969f-4565-863d-25a32058fb42",
+      "eventDate": "2027-04-01",
       "sport": "Baseball",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
@@ -15,46 +16,5 @@
       "result": null
     }
   ],
-  "removed": [
-    {
-      "eventId": "44136a1b-661e-458f-a609-7c276437d64b",
-      "eventDate": "2027-04-29",
-      "sport": "Baseball",
-      "levelLabel": "JV",
-      "vsOrAt": "vs",
-      "opponentComplete": "New Castle HS",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    }
-  ],
-  "changed": [
-    {
-      "eventId": "245c686d-4f78-473b-b3f4-72b899091bdb",
-      "eventDate": "2027-04-29",
-      "sport": "Baseball",
-      "levelLabel": "JV",
-      "vsOrAt": "@",
-      "opponentComplete": "New Castle HS",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
-      "fields": [
-        "homeOrAway",
-        "location"
-      ],
-      "before": {
-        "homeOrAway": "Home",
-        "location": "Poland Seminary High School"
-      },
-      "after": {
-        "homeOrAway": "Away",
-        "location": "New Castle HS"
-      }
-    }
-  ]
+  "changed": []
 }

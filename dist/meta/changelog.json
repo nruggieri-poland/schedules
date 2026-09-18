@@ -82880,5 +82880,25 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-09-18T19:47:00.151Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "be65ed0d-969f-4565-863d-25a32058fb42",
+        "eventDate": "2027-04-01",
+        "sport": "Baseball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "New Castle HS",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
