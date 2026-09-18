@@ -1,61 +1,5 @@
 [
   {
-    "eventDate": "2026-09-17",
-    "cleanDate": "09/17",
-    "sport": "Girls Tennis",
-    "eventTime": "04:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Boardman",
-    "opponentMascot": "Spartans",
-    "opponentComplete": "Boardman Spartans",
-    "location": "Boardman High School",
-    "postSlug": "2026-09-17_girls-tennis",
-    "posterFile": "2026-09-17_girls-tennis.jpg"
-  },
-  {
-    "eventDate": "2026-09-17",
-    "cleanDate": "09/17",
-    "sport": "Girls Soccer",
-    "eventTime": "05:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Hubbard",
-    "opponentMascot": "Eagles",
-    "opponentComplete": "Hubbard Eagles",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-09-17_girls-soccer",
-    "posterFile": "2026-09-17_girls-soccer.jpg"
-  },
-  {
-    "eventDate": "2026-09-17",
-    "cleanDate": "09/17",
-    "sport": "Volleyball",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Lakeview",
-    "opponentMascot": "Bulldogs",
-    "opponentComplete": "Lakeview Bulldogs",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-09-17_volleyball",
-    "posterFile": "2026-09-17_volleyball.jpg"
-  },
-  {
-    "eventDate": "2026-09-17",
-    "cleanDate": "09/17",
-    "sport": "Boys Soccer",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Hubbard",
-    "opponentMascot": "Eagles",
-    "opponentComplete": "Hubbard Eagles",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-09-17_boys-soccer",
-    "posterFile": "2026-09-17_boys-soccer.jpg"
-  },
-  {
     "eventDate": "2026-09-18",
     "cleanDate": "09/18",
     "sport": "Football",
@@ -488,5 +432,19 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-10-08_volleyball",
     "posterFile": "2026-10-08_volleyball.jpg"
+  },
+  {
+    "eventDate": "2026-10-09",
+    "cleanDate": "10/09",
+    "sport": "Football",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Girard",
+    "opponentMascot": "Indians",
+    "opponentComplete": "Girard Indians",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-10-09_football",
+    "posterFile": "2026-10-09_football.jpg"
   }
 ]
