@@ -1,27 +1,13 @@
 {
-  "generatedAt": "2026-09-18T04:15:14.402Z",
-  "added": [],
-  "removed": [
+  "generatedAt": "2026-09-18T13:56:24.702Z",
+  "added": [
     {
-      "eventId": "e8351d02-fa2a-4712-aaa5-e4b3c4b0421b",
-      "eventDate": "2025-09-17",
-      "sport": "Boys Golf",
+      "eventId": "be65ed0d-969f-4565-863d-25a32058fb42",
+      "eventDate": "2027-04-01",
+      "sport": "Baseball",
       "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "John F. Kennedy Fighting Eagles",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "100d3ca1-5b41-4933-9cd4-858890ba99d6",
-      "eventDate": "2025-09-17",
-      "sport": "Volleyball",
-      "levelLabel": "7th Grade",
       "vsOrAt": "vs",
-      "opponentComplete": "Lakeview Bulldogs",
+      "opponentComplete": "New Castle HS",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -29,25 +15,38 @@
       "result": null
     },
     {
-      "eventId": "03752471-b9a5-4494-a372-06d75e7317ac",
-      "eventDate": "2025-09-17",
-      "sport": "Volleyball",
-      "levelLabel": "8th Grade",
-      "vsOrAt": "vs",
-      "opponentComplete": "Lakeview Bulldogs",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "6f1a7071-c12f-4674-8f44-a4ccd416f886",
-      "eventDate": "2025-09-17",
-      "sport": "Boys Soccer",
+      "eventId": "44136a1b-661e-458f-a609-7c276437d64b",
+      "eventDate": "2027-04-29",
+      "sport": "Baseball",
       "levelLabel": "JV",
-      "vsOrAt": "@",
-      "opponentComplete": "West Branch Warriors",
+      "vsOrAt": "vs",
+      "opponentComplete": "New Castle HS",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "245c686d-4f78-473b-b3f4-72b899091bdb",
+      "eventDate": "2027-04-29",
+      "sport": "Baseball",
+      "levelLabel": "JV",
+      "vsOrAt": "vs",
+      "opponentComplete": "New Castle HS",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "737dfe40-ef2c-4256-a3eb-d050ea8ab1e0",
+      "eventDate": "2027-05-13",
+      "sport": "Baseball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Columbiana Clippers",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -55,50 +54,6 @@
       "result": null
     }
   ],
-  "changed": [
-    {
-      "eventId": "18e77d45-a840-48f9-b0e0-04871ac021f3",
-      "eventDate": "2026-09-17",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Hubbard Eagles",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 2,
-      "opponentScore": 1,
-      "result": "Loss",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Loss"
-      }
-    },
-    {
-      "eventId": "250f4aae-6ced-4076-a3e2-693586e7ea18",
-      "eventDate": "2026-09-17",
-      "sport": "Boys Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Hubbard Eagles",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 4,
-      "opponentScore": 1,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
-    }
-  ]
+  "removed": [],
+  "changed": []
 }
