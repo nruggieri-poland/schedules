@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T21:54:15.206Z",
+  "generatedAt": "2026-09-18T23:41:51.268Z",
   "added": [],
   "removed": [],
   "changed": [
@@ -12,17 +12,17 @@
       "opponentComplete": "Howland Tigers",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 6,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -34,17 +34,17 @@
       "opponentComplete": "Hubbard Eagles",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 6,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -56,17 +56,17 @@
       "opponentComplete": "Niles Red Dragons",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 1,
+      "opponentScore": 5,
+      "result": "Loss",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Loss"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Loss"
       }
     },
     {
@@ -78,17 +78,17 @@
       "opponentComplete": "Struthers Wildcats",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 13,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -100,17 +100,17 @@
       "opponentComplete": "Canfield Cardinals",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 2,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -122,17 +122,17 @@
       "opponentComplete": "South Range Raiders",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 9,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -144,17 +144,17 @@
       "opponentComplete": "Girard Indians",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 3,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -166,17 +166,17 @@
       "opponentComplete": "Hubbard Eagles",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 2,
+      "opponentScore": 1,
+      "result": "Loss",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Loss"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Loss"
       }
     }
   ]
