@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-18T13:56:24.702Z",
+  "generatedAt": "2026-09-18T17:22:11.706Z",
   "added": [
     {
-      "eventId": "be65ed0d-969f-4565-863d-25a32058fb42",
-      "eventDate": "2027-04-01",
+      "eventId": "93f67c8f-4183-4467-855b-3db11e9b6c1c",
+      "eventDate": "2027-04-29",
       "sport": "Baseball",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
@@ -13,7 +13,9 @@
       "teamScore": null,
       "opponentScore": null,
       "result": null
-    },
+    }
+  ],
+  "removed": [
     {
       "eventId": "44136a1b-661e-458f-a609-7c276437d64b",
       "eventDate": "2027-04-29",
@@ -26,34 +28,33 @@
       "teamScore": null,
       "opponentScore": null,
       "result": null
-    },
+    }
+  ],
+  "changed": [
     {
       "eventId": "245c686d-4f78-473b-b3f4-72b899091bdb",
       "eventDate": "2027-04-29",
       "sport": "Baseball",
       "levelLabel": "JV",
-      "vsOrAt": "vs",
+      "vsOrAt": "@",
       "opponentComplete": "New Castle HS",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "737dfe40-ef2c-4256-a3eb-d050ea8ab1e0",
-      "eventDate": "2027-05-13",
-      "sport": "Baseball",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Columbiana Clippers",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
+      "result": null,
+      "fields": [
+        "homeOrAway",
+        "location"
+      ],
+      "before": {
+        "homeOrAway": "Home",
+        "location": "Poland Seminary High School"
+      },
+      "after": {
+        "homeOrAway": "Away",
+        "location": "New Castle HS"
+      }
     }
-  ],
-  "removed": [],
-  "changed": []
+  ]
 }
