@@ -83351,5 +83351,34 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-09-19T08:51:39.509Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "facbd6b0-89de-45f7-88d9-7933e058379f",
+        "eventDate": "2026-09-18",
+        "sport": "Football",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 35,
+        "opponentScore": 24,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
