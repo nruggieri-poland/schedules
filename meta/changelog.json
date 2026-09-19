@@ -83266,5 +83266,90 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-09-19T04:12:03.261Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "fbf0b8d1-7a06-49d2-90cc-7aa297e83e83",
+        "eventDate": "2025-09-18",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "21bb58d8-8fef-4039-bd3f-61e78010921b",
+        "eventDate": "2025-09-18",
+        "sport": "Volleyball",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "52fa8dcb-adcf-4b3d-8a57-4ad9e829d494",
+        "eventDate": "2025-09-18",
+        "sport": "Football",
+        "levelLabel": "8th Grade",
+        "vsOrAt": "vs",
+        "opponentComplete": "Hubbard High School",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "8f37f312-4d3e-4f1f-a772-312be49d47eb",
+        "eventDate": "2025-09-18",
+        "sport": "Volleyball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "09277c83-badb-4d28-81de-7020a085dc8e",
+        "eventDate": "2025-09-18",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "a0594402-3b31-4fa9-a327-fc3f54bb51b1",
+        "eventDate": "2025-09-18",
+        "sport": "Football",
+        "levelLabel": "Freshman",
+        "vsOrAt": "vs",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
