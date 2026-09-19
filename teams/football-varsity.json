@@ -597,10 +597,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 35,
+    "opponentScore": 24,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Hubbard High School",
+        "teamScore": 35,
+        "opponentScore": 24,
+        "result": "Win"
+      }
+    ],
     "_time24": "19:00"
   },
   {
