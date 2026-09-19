@@ -1,19 +1,5 @@
 [
   {
-    "eventDate": "2026-09-18",
-    "cleanDate": "09/18",
-    "sport": "Football",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Hubbard",
-    "opponentMascot": "Eagles",
-    "opponentComplete": "Hubbard Eagles",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-09-18_football",
-    "posterFile": "2026-09-18_football.jpg"
-  },
-  {
     "eventDate": "2026-09-21",
     "cleanDate": "09/21",
     "sport": "Girls Tennis",
@@ -446,5 +432,33 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-10-09_football",
     "posterFile": "2026-10-09_football.jpg"
+  },
+  {
+    "eventDate": "2026-10-10",
+    "cleanDate": "10/10",
+    "sport": "Cross Country",
+    "eventTime": "11:00 AM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Legends Invite",
+    "opponentMascot": null,
+    "opponentComplete": "Legends Invite",
+    "location": "Trumbull County Fairgrouds",
+    "postSlug": "2026-10-10_cross-country",
+    "posterFile": "2026-10-10_cross-country.jpg"
+  },
+  {
+    "eventDate": "2026-10-10",
+    "cleanDate": "10/10",
+    "sport": "Volleyball",
+    "eventTime": "11:30 AM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Columbiana",
+    "opponentMascot": "Clippers",
+    "opponentComplete": "Columbiana Clippers",
+    "location": "Columbiana High School",
+    "postSlug": "2026-10-10_volleyball",
+    "posterFile": "2026-10-10_volleyball.jpg"
   }
 ]
