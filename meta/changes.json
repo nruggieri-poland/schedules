@@ -1,15 +1,29 @@
 {
-  "generatedAt": "2026-09-20T04:30:47.489Z",
-  "added": [],
+  "generatedAt": "2026-09-20T17:00:13.151Z",
+  "added": [
+    {
+      "eventId": "434fd0e5-cbf9-4b3f-a149-6e63bf291c0e",
+      "eventDate": "2026-10-15",
+      "sport": "Football",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "John F Kennedy High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    }
+  ],
   "removed": [
     {
-      "eventId": "856b34a2-4280-41b0-aa29-ed8e3bdaf40c",
-      "eventDate": "2025-09-19",
+      "eventId": "0e918c8f-17bd-4cd1-a82b-92c5e1b5f697",
+      "eventDate": "2026-08-26",
       "sport": "Football",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Hubbard Eagles",
-      "isCancelled": false,
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": true,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
