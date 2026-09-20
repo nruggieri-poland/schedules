@@ -83434,5 +83434,25 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-09-20T19:21:15.667Z",
+    "added": [
+      {
+        "eventId": "1eb5d6cd-1c01-483e-b7c1-5f63196a4c13",
+        "eventDate": "2026-10-15",
+        "sport": "Football",
+        "levelLabel": "Freshman",
+        "vsOrAt": "vs",
+        "opponentComplete": "Conneaut Spartans",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "removed": [],
+    "changed": []
   }
 ]
