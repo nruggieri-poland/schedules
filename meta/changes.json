@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-20T17:00:13.151Z",
+  "generatedAt": "2026-09-20T19:21:15.667Z",
   "added": [
     {
-      "eventId": "434fd0e5-cbf9-4b3f-a149-6e63bf291c0e",
+      "eventId": "1eb5d6cd-1c01-483e-b7c1-5f63196a4c13",
       "eventDate": "2026-10-15",
       "sport": "Football",
-      "levelLabel": "7th Grade",
+      "levelLabel": "Freshman",
       "vsOrAt": "vs",
-      "opponentComplete": "John F Kennedy High School",
+      "opponentComplete": "Conneaut Spartans",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -15,20 +15,6 @@
       "result": null
     }
   ],
-  "removed": [
-    {
-      "eventId": "0e918c8f-17bd-4cd1-a82b-92c5e1b5f697",
-      "eventDate": "2026-08-26",
-      "sport": "Football",
-      "levelLabel": "7th Grade",
-      "vsOrAt": "vs",
-      "opponentComplete": "Niles Red Dragons",
-      "isCancelled": true,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    }
-  ],
+  "removed": [],
   "changed": []
 }
