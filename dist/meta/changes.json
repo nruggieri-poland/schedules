@@ -1,59 +1,29 @@
 {
-  "generatedAt": "2026-09-21T04:29:03.754Z",
+  "generatedAt": "2026-09-21T16:03:03.754Z",
   "added": [],
-  "removed": [
+  "removed": [],
+  "changed": [
     {
-      "eventId": "65ab2ae6-9ee1-4768-b900-e2b7437da8dd",
-      "eventDate": "2025-09-20",
-      "sport": "Football",
-      "levelLabel": "JV",
-      "vsOrAt": "vs",
-      "opponentComplete": "Hubbard Eagles",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "593c6698-a33a-4645-8169-557ab46bed46",
-      "eventDate": "2025-09-20",
-      "sport": "Girls Soccer",
-      "levelLabel": "JV",
-      "vsOrAt": "@",
-      "opponentComplete": "Boardman Spartans",
-      "isCancelled": true,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "bdb12e46-eeb3-421a-bc7a-b4dd9efc2841",
-      "eventDate": "2025-09-20",
-      "sport": "Girls Soccer",
+      "eventId": "dee8ea10-bc06-4076-b658-7a7c7f881fa0",
+      "eventDate": "2026-09-24",
+      "sport": "Girls Tennis",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Boardman Spartans",
+      "opponentComplete": "Girard Indians",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "b40ece8b-fa9b-4c7b-9cee-84c883d3857f",
-      "eventDate": "2025-09-20",
-      "sport": "Cross Country",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "OPEN",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
+      "result": null,
+      "fields": [
+        "eventDate"
+      ],
+      "before": {
+        "eventDate": "2026-09-21"
+      },
+      "after": {
+        "eventDate": "2026-09-24"
+      }
     }
-  ],
-  "changed": []
+  ]
 }
