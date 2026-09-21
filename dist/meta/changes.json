@@ -1,13 +1,53 @@
 {
-  "generatedAt": "2026-09-20T19:21:15.667Z",
-  "added": [
+  "generatedAt": "2026-09-21T04:29:03.754Z",
+  "added": [],
+  "removed": [
     {
-      "eventId": "1eb5d6cd-1c01-483e-b7c1-5f63196a4c13",
-      "eventDate": "2026-10-15",
+      "eventId": "65ab2ae6-9ee1-4768-b900-e2b7437da8dd",
+      "eventDate": "2025-09-20",
       "sport": "Football",
-      "levelLabel": "Freshman",
+      "levelLabel": "JV",
       "vsOrAt": "vs",
-      "opponentComplete": "Conneaut Spartans",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "593c6698-a33a-4645-8169-557ab46bed46",
+      "eventDate": "2025-09-20",
+      "sport": "Girls Soccer",
+      "levelLabel": "JV",
+      "vsOrAt": "@",
+      "opponentComplete": "Boardman Spartans",
+      "isCancelled": true,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "bdb12e46-eeb3-421a-bc7a-b4dd9efc2841",
+      "eventDate": "2025-09-20",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Boardman Spartans",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "b40ece8b-fa9b-4c7b-9cee-84c883d3857f",
+      "eventDate": "2025-09-20",
+      "sport": "Cross Country",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "OPEN",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -15,6 +55,5 @@
       "result": null
     }
   ],
-  "removed": [],
   "changed": []
 }
