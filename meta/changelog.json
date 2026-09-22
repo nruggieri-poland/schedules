@@ -83571,5 +83571,178 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-09-22T18:05:45.169Z",
+    "added": [
+      {
+        "eventId": "f4683868-4584-488b-9452-08ff39caeaa5",
+        "eventDate": "2026-11-28",
+        "sport": "Swim & Dive",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "OPEN",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "9dbb3c0a-0a35-41b3-b8cb-a4dd7af940b0",
+        "eventDate": "2026-12-05",
+        "sport": "Swim & Dive",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "8f6c6681-4962-4e56-b8a9-9b3ebcc7dfe7",
+        "eventDate": "2026-12-11",
+        "sport": "Swim & Dive",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Salem Quakers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "41c2d1b7-ab7e-4db8-af48-eb5921a7ba4f",
+        "eventDate": "2026-12-16",
+        "sport": "Swim & Dive",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Ursuline Fighting Irish",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "0dbb7728-0207-424a-a17c-f806bfc7587e",
+        "eventDate": "2027-01-02",
+        "sport": "Swim & Dive",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "OPEN",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "96def92e-a738-4f90-a408-fd0b7941adf1",
+        "eventDate": "2027-01-07",
+        "sport": "Swim & Dive",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Howland Tigers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "391cc664-efd0-413d-96a9-5d416f95fb91",
+        "eventDate": "2027-01-11",
+        "sport": "Swim & Dive",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Canfield Cardinals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "b285c649-fb22-480c-ab86-acc47322723d",
+        "eventDate": "2027-01-16",
+        "sport": "Swim & Dive",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "OPEN",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "ac2c4c6f-002f-4259-acfb-7fa69699aea0",
+        "eventDate": "2027-01-23",
+        "sport": "Swim & Dive",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Jefferson Falcons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "aef1f62f-51e6-45fe-9649-2a20ddf093cd",
+        "eventDate": "2027-02-19",
+        "sport": "Swim & Dive",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "OPEN",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "243f9d64-f6bf-4f09-aad1-7db4d557e860",
+        "eventDate": "2027-02-19",
+        "sport": "Swim & Dive",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "OPEN",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "c2dbd243-f169-47d1-935b-f7b1b900f32e",
+        "eventDate": "2026-09-26",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "West Branch Warriors",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "12:00 PM"
+        },
+        "after": {
+          "eventTime": "11:30 AM"
+        }
+      }
+    ]
   }
 ]
