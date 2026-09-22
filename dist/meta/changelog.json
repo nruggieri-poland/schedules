@@ -83542,5 +83542,34 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-09-22T04:24:43.412Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "4f8dcb4f-95bc-4ed2-ae05-5e8c9f9d7212",
+        "eventDate": "2026-09-21",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 8,
+        "opponentScore": 0,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
