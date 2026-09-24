@@ -1,53 +1,13 @@
 {
-  "generatedAt": "2026-09-24T04:18:39.195Z",
-  "added": [],
-  "removed": [
+  "generatedAt": "2026-09-24T18:32:24.279Z",
+  "added": [
     {
-      "eventId": "1c30d67f-8416-401a-8c15-3b87d9dfa8e2",
-      "eventDate": "2025-09-23",
-      "sport": "Girls Golf",
+      "eventId": "2bd08052-a8dc-4e8f-8d12-b49e5ad4df8a",
+      "eventDate": "2027-04-16",
+      "sport": "Baseball",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "OPEN Senior Night",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "7f166bba-b216-4696-929f-d0f487cc1bba",
-      "eventDate": "2025-09-23",
-      "sport": "Boys Soccer",
-      "levelLabel": "JV",
-      "vsOrAt": "@",
-      "opponentComplete": "Crestview Rebels",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "8e5708d7-2062-4f4e-9e12-3d8c707809f6",
-      "eventDate": "2025-09-23",
-      "sport": "Volleyball",
-      "levelLabel": "JV",
-      "vsOrAt": "vs",
-      "opponentComplete": "Girard Indians",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "e1ca5f30-2ab0-4615-8064-990c86fd0e2c",
-      "eventDate": "2025-09-23",
-      "sport": "Volleyball",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Girard Indians",
+      "opponentComplete": "McDonald Blue Devils",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -55,5 +15,6 @@
       "result": null
     }
   ],
+  "removed": [],
   "changed": []
 }

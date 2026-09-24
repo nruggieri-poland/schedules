@@ -83914,5 +83914,25 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-09-24T18:32:24.279Z",
+    "added": [
+      {
+        "eventId": "2bd08052-a8dc-4e8f-8d12-b49e5ad4df8a",
+        "eventDate": "2027-04-16",
+        "sport": "Baseball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "McDonald Blue Devils",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "removed": [],
+    "changed": []
   }
 ]
