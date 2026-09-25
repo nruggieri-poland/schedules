@@ -1,13 +1,53 @@
 {
-  "generatedAt": "2026-09-24T18:32:24.279Z",
-  "added": [
+  "generatedAt": "2026-09-25T04:29:53.165Z",
+  "added": [],
+  "removed": [
     {
-      "eventId": "2bd08052-a8dc-4e8f-8d12-b49e5ad4df8a",
-      "eventDate": "2027-04-16",
-      "sport": "Baseball",
+      "eventId": "457d7196-cf8d-470b-af6b-f747ade4825f",
+      "eventDate": "2025-09-24",
+      "sport": "Cross Country",
       "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Mahoning County Meet",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "bc221c68-5ed1-4f91-877b-13eb8e3849d4",
+      "eventDate": "2025-09-24",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
       "vsOrAt": "vs",
-      "opponentComplete": "McDonald Blue Devils",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "dc0ab054-aac2-4b27-b209-b321e5740bea",
+      "eventDate": "2025-09-24",
+      "sport": "Cross Country",
+      "levelLabel": "Middle School",
+      "vsOrAt": "@",
+      "opponentComplete": "Mahoning County Meet",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "acd2b3ef-7661-4088-bb7d-9d8effa1eaf0",
+      "eventDate": "2025-09-24",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Hubbard Eagles",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -15,6 +55,50 @@
       "result": null
     }
   ],
-  "removed": [],
-  "changed": []
+  "changed": [
+    {
+      "eventId": "66494a87-5981-4a9c-994e-c057fa32b962",
+      "eventDate": "2026-09-24",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 13,
+      "opponentScore": 0,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "74f9bfb6-dc7b-4038-b976-0604b1eebd4a",
+      "eventDate": "2026-09-24",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Salem Quakers",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 0,
+      "opponentScore": 1,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
+    }
+  ]
 }
