@@ -1,41 +1,5 @@
 [
   {
-    "eventId": "457d7196-cf8d-470b-af6b-f747ade4825f",
-    "eventDate": "2025-09-24",
-    "season": "2025",
-    "seasonType": "Fall",
-    "sport": "Cross Country",
-    "sportSlug": "cross-country",
-    "gender": "Co-ed",
-    "levelSlug": "varsity",
-    "levelLabel": "Varsity",
-    "levelGroup": "varsity",
-    "teamSlug": "cross-country-varsity",
-    "eventTime": "04:45 PM",
-    "homeOrAway": "Away",
-    "vsOrAt": "@",
-    "opponent": "Mahoning County Meet",
-    "opponentMascot": null,
-    "opponentComplete": "Mahoning County Meet",
-    "opponentLogo": null,
-    "otherOpponents": [],
-    "cleanDate": "09/24",
-    "posterFile": "2025-09-24_cross-country.jpg",
-    "postSlug": "2025-09-24_cross-country",
-    "title": "Mahoning County Meet",
-    "location": "Austintown Township Park",
-    "eventType": "Game",
-    "isCancelled": false,
-    "isPostponed": false,
-    "isTimeTBD": false,
-    "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
-    "_time24": "16:45"
-  },
-  {
     "eventId": "619dcd42-362c-429f-bfda-4c18232d94d1",
     "eventDate": "2025-09-25",
     "season": "2025",
@@ -14417,10 +14381,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 13,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Struthers High School",
+        "teamScore": 13,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "17:00"
   },
   {
@@ -14489,10 +14460,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 0,
+    "opponentScore": 1,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "Salem High School",
+        "teamScore": 0,
+        "opponentScore": 1,
+        "result": "Loss"
+      }
+    ],
     "_time24": "19:00"
   },
   {
@@ -17592,7 +17570,7 @@
     "_time24": "19:00"
   },
   {
-    "eventId": "aef1f62f-51e6-45fe-9649-2a20ddf093cd",
+    "eventId": "243f9d64-f6bf-4f09-aad1-7db4d557e860",
     "eventDate": "2027-02-19",
     "season": "2026-2027",
     "seasonType": "Winter",
@@ -17615,7 +17593,7 @@
     "posterFile": "2027-02-19_swim-dive.jpg",
     "postSlug": "2027-02-19_swim-dive",
     "title": "OPEN",
-    "location": "Cleveland State University",
+    "location": "University of Akron",
     "eventType": "Game",
     "isCancelled": false,
     "isPostponed": false,
@@ -17628,7 +17606,7 @@
     "_time24": null
   },
   {
-    "eventId": "243f9d64-f6bf-4f09-aad1-7db4d557e860",
+    "eventId": "aef1f62f-51e6-45fe-9649-2a20ddf093cd",
     "eventDate": "2027-02-19",
     "season": "2026-2027",
     "seasonType": "Winter",
@@ -17651,7 +17629,7 @@
     "posterFile": "2027-02-19_swim-dive-1.jpg",
     "postSlug": "2027-02-19_swim-dive-1",
     "title": "OPEN",
-    "location": "University of Akron",
+    "location": "Cleveland State University",
     "eventType": "Game",
     "isCancelled": false,
     "isPostponed": false,
