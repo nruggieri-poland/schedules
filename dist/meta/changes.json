@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-25T04:29:53.165Z",
+  "generatedAt": "2026-09-26T04:34:30.840Z",
   "added": [],
   "removed": [
     {
-      "eventId": "457d7196-cf8d-470b-af6b-f747ade4825f",
-      "eventDate": "2025-09-24",
-      "sport": "Cross Country",
+      "eventId": "619dcd42-362c-429f-bfda-4c18232d94d1",
+      "eventDate": "2025-09-25",
+      "sport": "Girls Golf",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Mahoning County Meet",
+      "opponentComplete": "Sectionals",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -16,38 +16,103 @@
       "result": null
     },
     {
-      "eventId": "bc221c68-5ed1-4f91-877b-13eb8e3849d4",
-      "eventDate": "2025-09-24",
-      "sport": "Volleyball",
-      "levelLabel": "7th Grade",
+      "eventId": "8e1a36e0-0eca-449d-87e5-be8abb01350e",
+      "eventDate": "2025-09-25",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "Hubbard Eagles",
-      "isCancelled": false,
+      "opponentComplete": "Canfield Cardinals",
+      "isCancelled": true,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
       "result": null
     },
     {
-      "eventId": "dc0ab054-aac2-4b27-b209-b321e5740bea",
-      "eventDate": "2025-09-24",
-      "sport": "Cross Country",
-      "levelLabel": "Middle School",
-      "vsOrAt": "@",
-      "opponentComplete": "Mahoning County Meet",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "acd2b3ef-7661-4088-bb7d-9d8effa1eaf0",
-      "eventDate": "2025-09-24",
-      "sport": "Volleyball",
+      "eventId": "60d4cbf6-8217-4666-bc89-b63220614d2d",
+      "eventDate": "2025-09-25",
+      "sport": "Football",
       "levelLabel": "8th Grade",
+      "vsOrAt": "@",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "dafbe69b-e606-4b44-9719-414d89237515",
+      "eventDate": "2025-09-25",
+      "sport": "Football",
+      "levelLabel": "Freshman",
+      "vsOrAt": "@",
+      "opponentComplete": "Conneaut Spartans",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "823c8bbd-6390-4e26-8b7f-5cd3c6b42c46",
+      "eventDate": "2025-09-25",
+      "sport": "Volleyball",
+      "levelLabel": "JV",
       "vsOrAt": "vs",
       "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "73ceeabb-414c-48c7-96cd-f0cddc3c8cfd",
+      "eventDate": "2025-09-25",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "caabd443-75c4-493b-a044-c972b086ae5c",
+      "eventDate": "2025-09-25",
+      "sport": "Football",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "@",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "11c54a03-2dee-4f6a-88d9-260b3278d378",
+      "eventDate": "2025-09-25",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "1f0b567e-44d3-4097-bde7-f19efe5d781e",
+      "eventDate": "2025-09-25",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Niles Red Dragons",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -55,50 +120,5 @@
       "result": null
     }
   ],
-  "changed": [
-    {
-      "eventId": "66494a87-5981-4a9c-994e-c057fa32b962",
-      "eventDate": "2026-09-24",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Struthers Wildcats",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 13,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
-    },
-    {
-      "eventId": "74f9bfb6-dc7b-4038-b976-0604b1eebd4a",
-      "eventDate": "2026-09-24",
-      "sport": "Boys Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Salem Quakers",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 0,
-      "opponentScore": 1,
-      "result": "Loss",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Loss"
-      }
-    }
-  ]
+  "changed": []
 }
