@@ -1,19 +1,5 @@
 [
   {
-    "eventDate": "2026-09-25",
-    "cleanDate": "09/25",
-    "sport": "Football",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "South Range",
-    "opponentMascot": "Raiders",
-    "opponentComplete": "South Range Raiders",
-    "location": "South Range High School",
-    "postSlug": "2026-09-25_football",
-    "posterFile": "2026-09-25_football.jpg"
-  },
-  {
     "eventDate": "2026-09-26",
     "cleanDate": "09/26",
     "sport": "Cross Country",
@@ -334,5 +320,33 @@
     "location": "Lakeview High School",
     "postSlug": "2026-10-16_football",
     "posterFile": "2026-10-16_football.jpg"
+  },
+  {
+    "eventDate": "2026-10-17",
+    "cleanDate": "10/17",
+    "sport": "Cross Country",
+    "eventTime": "10:00 AM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Northeast 8 Cross Country Championship",
+    "opponentMascot": null,
+    "opponentComplete": "Northeast 8 Cross Country Championship",
+    "location": "Poland Township Park",
+    "postSlug": "2026-10-17_cross-country",
+    "posterFile": "2026-10-17_cross-country.jpg"
+  },
+  {
+    "eventDate": "2026-10-17",
+    "cleanDate": "10/17",
+    "sport": "Girls Soccer",
+    "eventTime": "12:30 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Boardman",
+    "opponentMascot": "Spartans",
+    "opponentComplete": "Boardman Spartans",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-10-17_girls-soccer",
+    "posterFile": "2026-10-17_girls-soccer.jpg"
   }
 ]
