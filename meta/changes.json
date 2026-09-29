@@ -1,50 +1,42 @@
 {
-  "generatedAt": "2026-09-29T02:19:43.034Z",
+  "generatedAt": "2026-09-29T23:58:25.304Z",
   "added": [],
-  "removed": [],
+  "removed": [
+    {
+      "eventId": "44f712da-e832-4c00-ba61-9228850f5360",
+      "eventDate": "2026-10-17",
+      "sport": "Boys Soccer",
+      "levelLabel": "JV",
+      "vsOrAt": "@",
+      "opponentComplete": "Austintown Fitch Falcons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    }
+  ],
   "changed": [
     {
-      "eventId": "c2dbd243-f169-47d1-935b-f7b1b900f32e",
-      "eventDate": "2026-09-26",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "West Branch Warriors",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 1,
-      "opponentScore": 3,
-      "result": "Loss",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Loss"
-      }
-    },
-    {
-      "eventId": "52cbe4f6-67e7-494d-aa34-bfc88be95264",
-      "eventDate": "2026-09-28",
+      "eventId": "ed924342-d37e-4bf8-b726-65e8d036bee2",
+      "eventDate": "2026-10-10",
       "sport": "Boys Soccer",
-      "levelLabel": "Varsity",
+      "levelLabel": "JV",
       "vsOrAt": "vs",
-      "opponentComplete": "Lakeview Bulldogs",
+      "opponentComplete": "Warren G. Harding Raiders",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 1,
-      "opponentScore": 0,
-      "result": "Win",
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
       "fields": [
-        "result"
+        "opponent"
       ],
       "before": {
-        "result": null
+        "opponent": "Conneaut"
       },
       "after": {
-        "result": "Win"
+        "opponent": "Warren G. Harding"
       }
     }
   ]

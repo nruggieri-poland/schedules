@@ -84253,5 +84253,48 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-09-29T23:58:25.304Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "44f712da-e832-4c00-ba61-9228850f5360",
+        "eventDate": "2026-10-17",
+        "sport": "Boys Soccer",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "Austintown Fitch Falcons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": [
+      {
+        "eventId": "ed924342-d37e-4bf8-b726-65e8d036bee2",
+        "eventDate": "2026-10-10",
+        "sport": "Boys Soccer",
+        "levelLabel": "JV",
+        "vsOrAt": "vs",
+        "opponentComplete": "Warren G. Harding Raiders",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "opponent"
+        ],
+        "before": {
+          "opponent": "Conneaut"
+        },
+        "after": {
+          "opponent": "Warren G. Harding"
+        }
+      }
+    ]
   }
 ]
