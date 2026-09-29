@@ -1,20 +1,51 @@
 {
-  "generatedAt": "2026-09-28T04:55:11.238Z",
+  "generatedAt": "2026-09-29T02:19:43.034Z",
   "added": [],
-  "removed": [
+  "removed": [],
+  "changed": [
     {
-      "eventId": "704a539f-f306-4bcc-b23d-052507130612",
-      "eventDate": "2025-09-27",
-      "sport": "Football",
-      "levelLabel": "JV",
+      "eventId": "c2dbd243-f169-47d1-935b-f7b1b900f32e",
+      "eventDate": "2026-09-26",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "South Range Raiders",
+      "opponentComplete": "West Branch Warriors",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
+      "teamScore": 1,
+      "opponentScore": 3,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
+    },
+    {
+      "eventId": "52cbe4f6-67e7-494d-aa34-bfc88be95264",
+      "eventDate": "2026-09-28",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 1,
+      "opponentScore": 0,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
     }
-  ],
-  "changed": []
+  ]
 }
