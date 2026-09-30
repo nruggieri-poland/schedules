@@ -84296,5 +84296,77 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-09-30T05:08:08.451Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "e40ce896-03b6-4615-976b-97788beacb4d",
+        "eventDate": "2025-09-29",
+        "sport": "Volleyball",
+        "levelLabel": "7th Grade",
+        "vsOrAt": "@",
+        "opponentComplete": "Boardman Spartans",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "59aa8e6d-53cc-4ee0-a9d1-696bb8cb3eb2",
+        "eventDate": "2025-09-29",
+        "sport": "Volleyball",
+        "levelLabel": "JV",
+        "vsOrAt": "vs",
+        "opponentComplete": "Chaney Cowboys",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "11362f12-2d76-4cf6-bf43-9f768ef0ecd4",
+        "eventDate": "2025-09-29",
+        "sport": "Volleyball",
+        "levelLabel": "8th Grade",
+        "vsOrAt": "@",
+        "opponentComplete": "Boardman Spartans",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "395a0211-7e9c-4f17-8240-b10429b2ae7b",
+        "eventDate": "2025-09-29",
+        "sport": "Volleyball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Chaney Cowboys",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "7c46e552-5103-4e1a-b28b-defbfd09a993",
+        "eventDate": "2025-09-29",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
