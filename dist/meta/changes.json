@@ -1,72 +1,101 @@
 {
-  "generatedAt": "2026-09-30T05:08:08.451Z",
+  "generatedAt": "2026-09-30T16:07:58.053Z",
   "added": [],
-  "removed": [
+  "removed": [],
+  "changed": [
     {
-      "eventId": "e40ce896-03b6-4615-976b-97788beacb4d",
-      "eventDate": "2025-09-29",
-      "sport": "Volleyball",
-      "levelLabel": "7th Grade",
-      "vsOrAt": "@",
-      "opponentComplete": "Boardman Spartans",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "59aa8e6d-53cc-4ee0-a9d1-696bb8cb3eb2",
-      "eventDate": "2025-09-29",
-      "sport": "Volleyball",
+      "eventId": "d1f94406-fafc-4d87-85a2-528695e23d77",
+      "eventDate": "2027-01-09",
+      "sport": "Boys Basketball",
       "levelLabel": "JV",
-      "vsOrAt": "vs",
-      "opponentComplete": "Chaney Cowboys",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "11362f12-2d76-4cf6-bf43-9f768ef0ecd4",
-      "eventDate": "2025-09-29",
-      "sport": "Volleyball",
-      "levelLabel": "8th Grade",
       "vsOrAt": "@",
-      "opponentComplete": "Boardman Spartans",
+      "opponentComplete": "Springfield Tigers",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null
+      "result": null,
+      "fields": [
+        "eventTime"
+      ],
+      "before": {
+        "eventTime": "11:00 AM"
+      },
+      "after": {
+        "eventTime": "10:30 AM"
+      }
     },
     {
-      "eventId": "395a0211-7e9c-4f17-8240-b10429b2ae7b",
-      "eventDate": "2025-09-29",
-      "sport": "Volleyball",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Chaney Cowboys",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "7c46e552-5103-4e1a-b28b-defbfd09a993",
-      "eventDate": "2025-09-29",
-      "sport": "Girls Soccer",
+      "eventId": "a71fffe3-8a93-4a14-86f0-c942fda10882",
+      "eventDate": "2027-01-09",
+      "sport": "Boys Basketball",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Struthers Wildcats",
+      "opponentComplete": "Springfield Tigers",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null
+      "result": null,
+      "fields": [
+        "eventTime"
+      ],
+      "before": {
+        "eventTime": "01:30 PM"
+      },
+      "after": {
+        "eventTime": "12:00 PM"
+      }
+    },
+    {
+      "eventId": "ac2c4c6f-002f-4259-acfb-7fa69699aea0",
+      "eventDate": "2027-01-21",
+      "sport": "Swim & Dive",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Archbishop Hoban Knights",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "eventDate",
+        "opponent",
+        "location"
+      ],
+      "before": {
+        "eventDate": "2027-01-23",
+        "opponent": "Jefferson",
+        "location": "Spire Institute"
+      },
+      "after": {
+        "eventDate": "2027-01-21",
+        "opponent": "Archbishop Hoban",
+        "location": "University of Akron"
+      }
+    },
+    {
+      "eventId": "243f9d64-f6bf-4f09-aad1-7db4d557e860",
+      "eventDate": "2027-02-12",
+      "sport": "Swim & Dive",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "OPEN",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "eventDate"
+      ],
+      "before": {
+        "eventDate": "2027-02-19"
+      },
+      "after": {
+        "eventDate": "2027-02-12"
+      }
     }
-  ],
-  "changed": []
+  ]
 }
