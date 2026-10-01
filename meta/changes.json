@@ -1,101 +1,33 @@
 {
-  "generatedAt": "2026-09-30T16:07:58.053Z",
+  "generatedAt": "2026-10-01T05:22:54.273Z",
   "added": [],
-  "removed": [],
-  "changed": [
+  "removed": [
     {
-      "eventId": "d1f94406-fafc-4d87-85a2-528695e23d77",
-      "eventDate": "2027-01-09",
-      "sport": "Boys Basketball",
-      "levelLabel": "JV",
-      "vsOrAt": "@",
-      "opponentComplete": "Springfield Tigers",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
-      "fields": [
-        "eventTime"
-      ],
-      "before": {
-        "eventTime": "11:00 AM"
-      },
-      "after": {
-        "eventTime": "10:30 AM"
-      }
-    },
-    {
-      "eventId": "a71fffe3-8a93-4a14-86f0-c942fda10882",
-      "eventDate": "2027-01-09",
-      "sport": "Boys Basketball",
+      "eventId": "21aed022-371d-4e7b-86e6-fb14de815c48",
+      "eventDate": "2025-09-30",
+      "sport": "Boys Golf",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Springfield Tigers",
+      "opponentComplete": "Districts",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null,
-      "fields": [
-        "eventTime"
-      ],
-      "before": {
-        "eventTime": "01:30 PM"
-      },
-      "after": {
-        "eventTime": "12:00 PM"
-      }
+      "result": null
     },
     {
-      "eventId": "ac2c4c6f-002f-4259-acfb-7fa69699aea0",
-      "eventDate": "2027-01-21",
-      "sport": "Swim & Dive",
+      "eventId": "9b9812ba-742d-4a29-af15-c0957b2bc156",
+      "eventDate": "2025-09-30",
+      "sport": "Boys Soccer",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Archbishop Hoban Knights",
+      "opponentComplete": "Champion Golden Flashes",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null,
-      "fields": [
-        "eventDate",
-        "opponent",
-        "location"
-      ],
-      "before": {
-        "eventDate": "2027-01-23",
-        "opponent": "Jefferson",
-        "location": "Spire Institute"
-      },
-      "after": {
-        "eventDate": "2027-01-21",
-        "opponent": "Archbishop Hoban",
-        "location": "University of Akron"
-      }
-    },
-    {
-      "eventId": "243f9d64-f6bf-4f09-aad1-7db4d557e860",
-      "eventDate": "2027-02-12",
-      "sport": "Swim & Dive",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "OPEN",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
-      "fields": [
-        "eventDate"
-      ],
-      "before": {
-        "eventDate": "2027-02-19"
-      },
-      "after": {
-        "eventDate": "2027-02-12"
-      }
+      "result": null
     }
-  ]
+  ],
+  "changed": []
 }
