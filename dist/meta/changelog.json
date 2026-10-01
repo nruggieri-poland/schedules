@@ -84502,5 +84502,34 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-10-01T16:44:29.732Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "b1ffa245-4438-4f54-aef3-890746a80977",
+        "eventDate": "2026-10-07",
+        "sport": "Football",
+        "levelLabel": "7th Grade",
+        "vsOrAt": "@",
+        "opponentComplete": "Liberty High School",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "05:00 PM"
+        },
+        "after": {
+          "eventTime": "07:00 PM"
+        }
+      }
+    ]
   }
 ]
