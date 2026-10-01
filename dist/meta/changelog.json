@@ -84469,5 +84469,38 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-10-01T05:22:54.273Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "21aed022-371d-4e7b-86e6-fb14de815c48",
+        "eventDate": "2025-09-30",
+        "sport": "Boys Golf",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Districts",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "9b9812ba-742d-4a29-af15-c0957b2bc156",
+        "eventDate": "2025-09-30",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Champion Golden Flashes",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
