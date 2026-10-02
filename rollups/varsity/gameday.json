@@ -1,33 +1,5 @@
 [
   {
-    "eventDate": "2026-10-01",
-    "cleanDate": "10/01",
-    "sport": "Boys Soccer",
-    "eventTime": "05:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Champion",
-    "opponentMascot": "Golden Flashes",
-    "opponentComplete": "Champion Golden Flashes",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-10-01_boys-soccer",
-    "posterFile": "2026-10-01_boys-soccer.jpg"
-  },
-  {
-    "eventDate": "2026-10-01",
-    "cleanDate": "10/01",
-    "sport": "Girls Soccer",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "St. Vincent-St. Mary",
-    "opponentMascot": "Fighting Irish",
-    "opponentComplete": "St. Vincent-St. Mary Fighting Irish",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-10-01_girls-soccer",
-    "posterFile": "2026-10-01_girls-soccer.jpg"
-  },
-  {
     "eventDate": "2026-10-02",
     "cleanDate": "10/02",
     "sport": "Football",
@@ -250,5 +222,19 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-10-17_girls-soccer",
     "posterFile": "2026-10-17_girls-soccer.jpg"
+  },
+  {
+    "eventDate": "2026-10-23",
+    "cleanDate": "10/23",
+    "sport": "Football",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Struthers",
+    "opponentMascot": "Wildcats",
+    "opponentComplete": "Struthers Wildcats",
+    "location": "Struthers High School",
+    "postSlug": "2026-10-23_football",
+    "posterFile": "2026-10-23_football.jpg"
   }
 ]
