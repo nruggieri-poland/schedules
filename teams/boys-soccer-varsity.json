@@ -977,10 +977,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 1,
+    "opponentScore": 2,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "Champion High School",
+        "teamScore": 1,
+        "opponentScore": 2,
+        "result": "Loss"
+      }
+    ],
     "_time24": "17:00"
   },
   {

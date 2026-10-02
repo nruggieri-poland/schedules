@@ -1,72 +1,51 @@
 {
-  "generatedAt": "2026-10-02T05:10:55.459Z",
+  "generatedAt": "2026-10-02T15:59:42.197Z",
   "added": [],
-  "removed": [
+  "removed": [],
+  "changed": [
     {
-      "eventId": "0b89d63b-079f-48df-a736-6555645f25d3",
-      "eventDate": "2025-10-01",
-      "sport": "Girls Tennis",
+      "eventId": "6fd976e0-5ab4-43d9-a361-2522adcf470f",
+      "eventDate": "2026-10-01",
+      "sport": "Boys Soccer",
       "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Struthers Wildcats",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "cccc2503-be16-43ab-9873-ed988a8e3893",
-      "eventDate": "2025-10-01",
-      "sport": "Football",
-      "levelLabel": "7th Grade",
       "vsOrAt": "vs",
-      "opponentComplete": "Niles Red Dragons",
+      "opponentComplete": "Champion Golden Flashes",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
+      "teamScore": 1,
+      "opponentScore": 2,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
     },
     {
-      "eventId": "d8d1fe1f-2ab6-40e6-b936-41d1354ff8eb",
-      "eventDate": "2025-10-01",
-      "sport": "Volleyball",
-      "levelLabel": "7th Grade",
-      "vsOrAt": "@",
-      "opponentComplete": "Struthers Wildcats",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "2892ca12-cfdb-41ae-bed2-76eab1255d1c",
-      "eventDate": "2025-10-01",
-      "sport": "Volleyball",
-      "levelLabel": "8th Grade",
-      "vsOrAt": "@",
-      "opponentComplete": "Struthers Wildcats",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "8e0c636f-36f8-40f9-85d1-d7df3ceb5fb2",
-      "eventDate": "2025-10-01",
-      "sport": "Football",
-      "levelLabel": "8th Grade",
+      "eventId": "ae328dea-c7c9-45d2-aafa-c6c18d84bf07",
+      "eventDate": "2026-10-01",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "Niles Red Dragons",
+      "opponentComplete": "St. Vincent-St. Mary Fighting Irish",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
+      "teamScore": 3,
+      "opponentScore": 1,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
     }
-  ],
-  "changed": []
+  ]
 }

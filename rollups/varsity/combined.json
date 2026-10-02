@@ -14445,10 +14445,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 1,
+    "opponentScore": 2,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "Champion High School",
+        "teamScore": 1,
+        "opponentScore": 2,
+        "result": "Loss"
+      }
+    ],
     "_time24": "17:00"
   },
   {
@@ -14481,10 +14488,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 3,
+    "opponentScore": 1,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "St. Vincent-St. Mary H.S.",
+        "teamScore": 3,
+        "opponentScore": 1,
+        "result": "Win"
+      }
+    ],
     "_time24": "19:00"
   },
   {
