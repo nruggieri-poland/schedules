@@ -84654,5 +84654,38 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-10-02T20:22:40.373Z",
+    "added": [
+      {
+        "eventId": "fa020f7a-6ea0-4acb-9d26-b31e8ae719d4",
+        "eventDate": "2027-04-14",
+        "sport": "Baseball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "29538276-724b-432c-8745-e548681e2fab",
+        "eventDate": "2027-05-12",
+        "sport": "Baseball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Hubbard Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "removed": [],
+    "changed": []
   }
 ]
