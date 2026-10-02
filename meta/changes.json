@@ -1,29 +1,72 @@
 {
-  "generatedAt": "2026-10-01T16:44:29.732Z",
+  "generatedAt": "2026-10-02T05:10:55.459Z",
   "added": [],
-  "removed": [],
-  "changed": [
+  "removed": [
     {
-      "eventId": "b1ffa245-4438-4f54-aef3-890746a80977",
-      "eventDate": "2026-10-07",
-      "sport": "Football",
-      "levelLabel": "7th Grade",
+      "eventId": "0b89d63b-079f-48df-a736-6555645f25d3",
+      "eventDate": "2025-10-01",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Liberty High School",
+      "opponentComplete": "Struthers Wildcats",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null,
-      "fields": [
-        "eventTime"
-      ],
-      "before": {
-        "eventTime": "05:00 PM"
-      },
-      "after": {
-        "eventTime": "07:00 PM"
-      }
+      "result": null
+    },
+    {
+      "eventId": "cccc2503-be16-43ab-9873-ed988a8e3893",
+      "eventDate": "2025-10-01",
+      "sport": "Football",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "d8d1fe1f-2ab6-40e6-b936-41d1354ff8eb",
+      "eventDate": "2025-10-01",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "@",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "2892ca12-cfdb-41ae-bed2-76eab1255d1c",
+      "eventDate": "2025-10-01",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "@",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "8e0c636f-36f8-40f9-85d1-d7df3ceb5fb2",
+      "eventDate": "2025-10-01",
+      "sport": "Football",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     }
-  ]
+  ],
+  "changed": []
 }
