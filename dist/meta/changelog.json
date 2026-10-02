@@ -84603,5 +84603,56 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-10-02T15:59:42.197Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "6fd976e0-5ab4-43d9-a361-2522adcf470f",
+        "eventDate": "2026-10-01",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Champion Golden Flashes",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 1,
+        "opponentScore": 2,
+        "result": "Loss",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Loss"
+        }
+      },
+      {
+        "eventId": "ae328dea-c7c9-45d2-aafa-c6c18d84bf07",
+        "eventDate": "2026-10-01",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "St. Vincent-St. Mary Fighting Irish",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 3,
+        "opponentScore": 1,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
