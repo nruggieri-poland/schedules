@@ -1,51 +1,33 @@
 {
-  "generatedAt": "2026-10-02T15:59:42.197Z",
-  "added": [],
-  "removed": [],
-  "changed": [
+  "generatedAt": "2026-10-02T20:22:40.373Z",
+  "added": [
     {
-      "eventId": "6fd976e0-5ab4-43d9-a361-2522adcf470f",
-      "eventDate": "2026-10-01",
-      "sport": "Boys Soccer",
+      "eventId": "fa020f7a-6ea0-4acb-9d26-b31e8ae719d4",
+      "eventDate": "2027-04-14",
+      "sport": "Baseball",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "Champion Golden Flashes",
+      "opponentComplete": "Hubbard Eagles",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 1,
-      "opponentScore": 2,
-      "result": "Loss",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Loss"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     },
     {
-      "eventId": "ae328dea-c7c9-45d2-aafa-c6c18d84bf07",
-      "eventDate": "2026-10-01",
-      "sport": "Girls Soccer",
+      "eventId": "29538276-724b-432c-8745-e548681e2fab",
+      "eventDate": "2027-05-12",
+      "sport": "Baseball",
       "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "St. Vincent-St. Mary Fighting Irish",
+      "vsOrAt": "@",
+      "opponentComplete": "Hubbard Eagles",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 3,
-      "opponentScore": 1,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     }
-  ]
+  ],
+  "removed": [],
+  "changed": []
 }
