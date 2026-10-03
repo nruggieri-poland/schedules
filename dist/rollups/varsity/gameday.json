@@ -1,19 +1,5 @@
 [
   {
-    "eventDate": "2026-10-02",
-    "cleanDate": "10/02",
-    "sport": "Football",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Niles",
-    "opponentMascot": "Red Dragons",
-    "opponentComplete": "Niles Red Dragons",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-10-02_football",
-    "posterFile": "2026-10-02_football.jpg"
-  },
-  {
     "eventDate": "2026-10-03",
     "cleanDate": "10/03",
     "sport": "Cross Country",
@@ -236,5 +222,19 @@
     "location": "Struthers High School",
     "postSlug": "2026-10-23_football",
     "posterFile": "2026-10-23_football.jpg"
+  },
+  {
+    "eventDate": "2026-10-24",
+    "cleanDate": "10/24",
+    "sport": "Cross Country",
+    "eventTime": "11:50 AM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "District Championship",
+    "opponentMascot": null,
+    "opponentComplete": "District Championship",
+    "location": "GlenOak High School",
+    "postSlug": "2026-10-24_cross-country",
+    "posterFile": "2026-10-24_cross-country.jpg"
   }
 ]

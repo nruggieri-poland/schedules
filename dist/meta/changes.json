@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-10-02T20:22:40.373Z",
-  "added": [
+  "generatedAt": "2026-10-03T04:53:17.412Z",
+  "added": [],
+  "removed": [
     {
-      "eventId": "fa020f7a-6ea0-4acb-9d26-b31e8ae719d4",
-      "eventDate": "2027-04-14",
-      "sport": "Baseball",
+      "eventId": "e7a1ae86-19b1-45ac-81f5-dd17f51effb3",
+      "eventDate": "2025-10-02",
+      "sport": "Girls Soccer",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "Hubbard Eagles",
+      "opponentComplete": "Lakeview Bulldogs",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -15,12 +16,38 @@
       "result": null
     },
     {
-      "eventId": "29538276-724b-432c-8745-e548681e2fab",
-      "eventDate": "2027-05-12",
-      "sport": "Baseball",
+      "eventId": "3b1207af-9894-4cac-a9ba-86855ac7ff1d",
+      "eventDate": "2025-10-02",
+      "sport": "Volleyball",
+      "levelLabel": "JV",
+      "vsOrAt": "@",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "6dab7769-fbc0-4f98-a774-c5d5efdbf435",
+      "eventDate": "2025-10-02",
+      "sport": "Volleyball",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Hubbard Eagles",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "0de7706b-e90d-4fce-aec0-acd27c5d78cc",
+      "eventDate": "2025-10-02",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -28,6 +55,5 @@
       "result": null
     }
   ],
-  "removed": [],
   "changed": []
 }
