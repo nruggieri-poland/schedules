@@ -1,117 +1,46 @@
 {
-  "generatedAt": "2026-10-05T00:16:39.740Z",
+  "generatedAt": "2026-10-05T05:09:24.669Z",
   "added": [],
-  "removed": [],
-  "changed": [
+  "removed": [
     {
-      "eventId": "96f48919-2fe3-4600-b17c-c96e8e12fb8d",
-      "eventDate": "2026-08-21",
-      "sport": "Football",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Salem Quakers",
+      "eventId": "f9034ef1-6de0-4fe7-87a9-cfc02e0d510e",
+      "eventDate": "2025-10-04",
+      "sport": "Cross Country",
+      "levelLabel": "Middle School",
+      "vsOrAt": "@",
+      "opponentComplete": "Legends Invite",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 17,
-      "opponentScore": 21,
-      "result": "Loss",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Loss"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     },
     {
-      "eventId": "ee68199c-b7cf-4a77-8714-234df91b0c7e",
-      "eventDate": "2026-08-28",
+      "eventId": "287bd178-5d56-4473-83ca-ac1dc30dd366",
+      "eventDate": "2025-10-04",
       "sport": "Football",
-      "levelLabel": "Varsity",
+      "levelLabel": "JV",
       "vsOrAt": "vs",
-      "opponentComplete": "Kirtland Hornets",
+      "opponentComplete": "Niles Red Dragons",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 34,
-      "opponentScore": 36,
-      "result": "Loss",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Loss"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     },
     {
-      "eventId": "20090fe6-9165-4c20-ab30-e575ad806418",
-      "eventDate": "2026-09-04",
-      "sport": "Football",
+      "eventId": "f791d756-9b68-4d18-bb8e-28c980514d69",
+      "eventDate": "2025-10-04",
+      "sport": "Cross Country",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Field Falcons",
+      "opponentComplete": "Legends Invite",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 49,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
-    },
-    {
-      "eventId": "94d4eab9-f229-4770-a494-fb61441ac404",
-      "eventDate": "2026-09-11",
-      "sport": "Football",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Canfield Cardinals",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 24,
-      "opponentScore": 21,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
-    },
-    {
-      "eventId": "facbd6b0-89de-45f7-88d9-7933e058379f",
-      "eventDate": "2026-09-18",
-      "sport": "Football",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Hubbard Eagles",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 35,
-      "opponentScore": 24,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     }
-  ]
+  ],
+  "changed": []
 }
