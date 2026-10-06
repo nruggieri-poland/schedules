@@ -532,10 +532,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 7,
+    "opponentScore": 47,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "South Range High School",
+        "teamScore": 7,
+        "opponentScore": 47,
+        "result": "Loss"
+      }
+    ],
     "_time24": "19:00"
   },
   {
