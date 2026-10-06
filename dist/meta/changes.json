@@ -1,34 +1,557 @@
 {
-  "generatedAt": "2026-10-06T00:25:32.000Z",
-  "added": [
+  "generatedAt": "2026-10-06T04:30:57.444Z",
+  "added": [],
+  "removed": [],
+  "changed": [
     {
-      "eventId": "3a26c854-75cc-430c-ab81-d0e33cd0ee68",
-      "eventDate": "2026-10-08",
-      "sport": "Football",
-      "levelLabel": "Freshman",
+      "eventId": "8a2482bf-d241-45f7-bef3-7791cb573a5e",
+      "eventDate": "2026-08-18",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "St Edward High School",
+      "opponentComplete": "Ursuline Fighting Irish",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    }
-  ],
-  "removed": [
+      "teamScore": 1,
+      "opponentScore": 4,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
+    },
     {
-      "eventId": "66e37572-91f6-4d5c-9ed9-31a538cf706d",
-      "eventDate": "2026-10-08",
-      "sport": "Football",
-      "levelLabel": "Freshman",
-      "vsOrAt": "vs",
-      "opponentComplete": "Beaver Local Beavers",
+      "eventId": "30e396ad-1fae-43a7-bdac-60723b64cc4f",
+      "eventDate": "2026-08-25",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Lakeview Bulldogs",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
+      "teamScore": 0,
+      "opponentScore": 3,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
+    },
+    {
+      "eventId": "421f7dc6-028c-41c9-99f3-86e1f2ffa185",
+      "eventDate": "2026-08-27",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 0,
+      "opponentScore": 3,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
+    },
+    {
+      "eventId": "1853f3d7-8122-4c6f-b504-354e260e9764",
+      "eventDate": "2026-08-31",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Howland Tigers",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 1,
+      "opponentScore": 3,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
+    },
+    {
+      "eventId": "aa2012fe-6c66-4a72-b9b9-a89a50ce91e6",
+      "eventDate": "2026-09-01",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 6,
+      "opponentScore": 0,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "f09aecf9-f738-4d87-8aae-c476719e0ba3",
+      "eventDate": "2026-09-03",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 0,
+      "opponentScore": 3,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
+    },
+    {
+      "eventId": "332dcfbe-d3c5-44c3-b1cb-684cfee382c8",
+      "eventDate": "2026-09-08",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Boardman Spartans",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 0,
+      "opponentScore": 3,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
+    },
+    {
+      "eventId": "3f9a0add-6097-483b-bf46-e650e1c17f6c",
+      "eventDate": "2026-09-14",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "United Golden Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 1,
+      "opponentScore": 3,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
+    },
+    {
+      "eventId": "1ae10c22-448a-46b2-b00c-eee24ed2b9b4",
+      "eventDate": "2026-09-15",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 3,
+      "opponentScore": 0,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "2db4a838-f95e-457d-90e0-504e9a973dc4",
+      "eventDate": "2026-09-16",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 2,
+      "opponentScore": 3,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
+    },
+    {
+      "eventId": "f9cd4098-0d5e-44b7-b7a8-bf5977f94a1b",
+      "eventDate": "2026-09-17",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Boardman Spartans",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 0,
+      "opponentScore": 5,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
+    },
+    {
+      "eventId": "dc025fc6-0f38-4efd-a72e-c1d5dd6ced00",
+      "eventDate": "2026-09-17",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 1,
+      "opponentScore": 3,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
+    },
+    {
+      "eventId": "a3d208f9-10ee-4597-807e-41b621ef04e3",
+      "eventDate": "2026-09-21",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Canfield Cardinals",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 0,
+      "opponentScore": 3,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
+    },
+    {
+      "eventId": "3dcc5406-b3ac-4964-a658-0720e0f5753b",
+      "eventDate": "2026-09-21",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 3,
+      "opponentScore": 6,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
+    },
+    {
+      "eventId": "f30aacae-6681-4e7d-961a-99c596e1f013",
+      "eventDate": "2026-09-22",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 0,
+      "opponentScore": 3,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
+    },
+    {
+      "eventId": "bd6ee895-d624-47ea-bf34-5e1721a9b71b",
+      "eventDate": "2026-09-23",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 3,
+      "opponentScore": 2,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "dee8ea10-bc06-4076-b658-7a7c7f881fa0",
+      "eventDate": "2026-09-24",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Girard Indians",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 5,
+      "opponentScore": 0,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "fb9576c1-b385-4cda-bc9f-89feea4755e7",
+      "eventDate": "2026-09-24",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Girard Indians",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 3,
+      "opponentScore": 1,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "d77fb5a6-bf8c-4936-99b9-ad45ebe673bd",
+      "eventDate": "2026-09-28",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Champion Golden Flashes",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 3,
+      "opponentScore": 0,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "c9cdbb4c-0ad0-4e03-a13e-22191694e612",
+      "eventDate": "2026-09-28",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 5,
+      "opponentScore": 0,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "b4f53dff-f2d5-443b-91d2-c575d0160de0",
+      "eventDate": "2026-09-29",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 0,
+      "opponentScore": 3,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
+    },
+    {
+      "eventId": "01671902-5bf0-426a-9dc4-10675f6d1520",
+      "eventDate": "2026-10-02",
+      "sport": "Football",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 41,
+      "opponentScore": 0,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "60cc655d-635a-4a9e-94e4-4ed980e8a996",
+      "eventDate": "2026-10-05",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 5,
+      "opponentScore": 1,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "e454254c-4115-43c0-a7e5-d52f759ce615",
+      "eventDate": "2026-10-05",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 8,
+      "opponentScore": 0,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "672f3d70-4a54-4d45-9ee0-f9768018839d",
+      "eventDate": "2026-10-05",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Springfield Tigers",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 3,
+      "opponentScore": 1,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
     }
-  ],
-  "changed": []
+  ]
 }

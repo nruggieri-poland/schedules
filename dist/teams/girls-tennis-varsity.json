@@ -194,10 +194,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 1,
+    "opponentScore": 4,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "Ursuline High School",
+        "teamScore": 1,
+        "opponentScore": 4,
+        "result": "Loss"
+      }
+    ],
     "_time24": "16:00"
   },
   {
@@ -574,10 +581,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 2,
+    "opponentScore": 3,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "Lakeview High School",
+        "teamScore": 2,
+        "opponentScore": 3,
+        "result": "Loss"
+      }
+    ],
     "_time24": "16:00"
   },
   {
@@ -610,10 +624,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 0,
+    "opponentScore": 5,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "Boardman High School",
+        "teamScore": 0,
+        "opponentScore": 5,
+        "result": "Loss"
+      }
+    ],
     "_time24": "16:00"
   },
   {
@@ -682,10 +703,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 3,
+    "opponentScore": 2,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Struthers High School",
+        "teamScore": 3,
+        "opponentScore": 2,
+        "result": "Win"
+      }
+    ],
     "_time24": "16:00"
   },
   {
@@ -718,10 +746,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 5,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Girard Sr High School",
+        "teamScore": 5,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "16:00"
   }
 ]
