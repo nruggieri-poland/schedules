@@ -1,41 +1,5 @@
 [
   {
-    "eventId": "9ff8108c-25d5-4b3d-81c9-54378605ec58",
-    "eventDate": "2025-10-06",
-    "season": "2025",
-    "seasonType": "Fall",
-    "sport": "Volleyball",
-    "sportSlug": "volleyball",
-    "gender": "Girls",
-    "levelSlug": "varsity",
-    "levelLabel": "Varsity",
-    "levelGroup": "varsity",
-    "teamSlug": "volleyball-varsity",
-    "eventTime": "07:00 PM",
-    "homeOrAway": "Away",
-    "vsOrAt": "@",
-    "opponent": "Springfield",
-    "opponentMascot": "Tigers",
-    "opponentComplete": "Springfield Tigers",
-    "opponentLogo": null,
-    "otherOpponents": [],
-    "cleanDate": "10/06",
-    "posterFile": "2025-10-06_volleyball.jpg",
-    "postSlug": "2025-10-06_volleyball",
-    "title": "Springfield High School",
-    "location": "Springfield High School",
-    "eventType": "Game",
-    "isCancelled": false,
-    "isPostponed": false,
-    "isTimeTBD": false,
-    "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
-    "_time24": "19:00"
-  },
-  {
     "eventId": "527aa34a-ce5f-4fe5-bac9-531c8afbbb99",
     "eventDate": "2025-10-09",
     "season": "2025",
@@ -1012,10 +976,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 3,
+    "opponentScore": 1,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Struthers High School",
+        "teamScore": 3,
+        "opponentScore": 1,
+        "result": "Win"
+      }
+    ],
     "_time24": "19:00"
   },
   {
