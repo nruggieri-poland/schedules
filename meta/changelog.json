@@ -1,22 +1,5 @@
 [
   {
-    "generatedAt": "2026-07-10T14:09:03.782Z",
-    "added": [],
-    "removed": [
-      {
-        "eventId": "284564e0-ce10-4340-8535-8e7752a37b3b",
-        "eventDate": "2025-07-10",
-        "sport": "Volleyball",
-        "levelLabel": "Varsity",
-        "vsOrAt": "vs",
-        "opponentComplete": "Practice: Open Gym",
-        "isCancelled": false,
-        "isPostponed": false
-      }
-    ],
-    "changed": []
-  },
-  {
     "generatedAt": "2026-07-13T14:20:24.348Z",
     "added": [],
     "removed": [
@@ -66191,6 +66174,49 @@
         },
         "after": {
           "result": "Win"
+        }
+      }
+    ]
+  },
+  {
+    "generatedAt": "2026-10-08T17:01:35.683Z",
+    "added": [
+      {
+        "eventId": "b7ad945e-6954-4708-b30a-f501a4d7fe3e",
+        "eventDate": "2027-03-14",
+        "sport": "Softball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Scrimmage",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "59fae6fd-e35a-4df2-b800-a097c5e67b4f",
+        "eventDate": "2026-10-10",
+        "sport": "Girls Soccer",
+        "levelLabel": "JV",
+        "vsOrAt": "vs",
+        "opponentComplete": "Cardinal Mooney Cardinals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "opponent"
+        ],
+        "before": {
+          "opponent": "Girard"
+        },
+        "after": {
+          "opponent": "Cardinal Mooney"
         }
       }
     ]
