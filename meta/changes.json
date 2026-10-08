@@ -1,98 +1,41 @@
 {
-  "generatedAt": "2026-10-07T04:28:23.815Z",
+  "generatedAt": "2026-10-08T01:25:10.667Z",
   "added": [],
-  "removed": [
-    {
-      "eventId": "02e2c982-aa1e-4727-9647-cac82c59eb3b",
-      "eventDate": "2025-10-06",
-      "sport": "Volleyball",
-      "levelLabel": "7th Grade",
-      "vsOrAt": "vs",
-      "opponentComplete": "Lakeview Bulldogs",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "cd46a1a8-0077-4610-8118-bfaa21e6aab7",
-      "eventDate": "2025-10-06",
-      "sport": "Girls Soccer",
-      "levelLabel": "JV",
-      "vsOrAt": "@",
-      "opponentComplete": "Canfield Cardinals",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "02f312dd-71ad-44f5-906f-15b5a7e0ca98",
-      "eventDate": "2025-10-06",
-      "sport": "Volleyball",
-      "levelLabel": "8th Grade",
-      "vsOrAt": "vs",
-      "opponentComplete": "Girard Sr High School",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "5561fa27-3c81-4583-abba-6a9f208eafb8",
-      "eventDate": "2025-10-06",
-      "sport": "Volleyball",
-      "levelLabel": "JV",
-      "vsOrAt": "@",
-      "opponentComplete": "Springfield Tigers",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "53679e13-1785-42fe-b053-a1b66a167c48",
-      "eventDate": "2025-10-06",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Canfield Cardinals",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "9ff8108c-25d5-4b3d-81c9-54378605ec58",
-      "eventDate": "2025-10-06",
-      "sport": "Volleyball",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Springfield Tigers",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    }
-  ],
+  "removed": [],
   "changed": [
     {
-      "eventId": "d6137cdc-5bb9-403b-aff3-657a07f344e7",
-      "eventDate": "2026-10-06",
-      "sport": "Volleyball",
+      "eventId": "739b6fa8-6e70-4fab-a37b-6d89eb5b4899",
+      "eventDate": "2026-10-07",
+      "sport": "Girls Soccer",
       "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Struthers Wildcats",
+      "vsOrAt": "vs",
+      "opponentComplete": "Girard Indians",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 3,
-      "opponentScore": 1,
+      "teamScore": 6,
+      "opponentScore": 0,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "631d8e11-d95b-4d20-b0b8-429bf31da3b6",
+      "eventDate": "2026-10-07",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Girard Indians",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 2,
+      "opponentScore": 0,
       "result": "Win",
       "fields": [
         "result"
