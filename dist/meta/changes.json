@@ -1,50 +1,42 @@
 {
-  "generatedAt": "2026-10-08T01:25:10.667Z",
-  "added": [],
+  "generatedAt": "2026-10-08T17:01:35.683Z",
+  "added": [
+    {
+      "eventId": "b7ad945e-6954-4708-b30a-f501a4d7fe3e",
+      "eventDate": "2027-03-14",
+      "sport": "Softball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Scrimmage",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    }
+  ],
   "removed": [],
   "changed": [
     {
-      "eventId": "739b6fa8-6e70-4fab-a37b-6d89eb5b4899",
-      "eventDate": "2026-10-07",
+      "eventId": "59fae6fd-e35a-4df2-b800-a097c5e67b4f",
+      "eventDate": "2026-10-10",
       "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
+      "levelLabel": "JV",
       "vsOrAt": "vs",
-      "opponentComplete": "Girard Indians",
+      "opponentComplete": "Cardinal Mooney Cardinals",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 6,
-      "opponentScore": 0,
-      "result": "Win",
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
       "fields": [
-        "result"
+        "opponent"
       ],
       "before": {
-        "result": null
+        "opponent": "Girard"
       },
       "after": {
-        "result": "Win"
-      }
-    },
-    {
-      "eventId": "631d8e11-d95b-4d20-b0b8-429bf31da3b6",
-      "eventDate": "2026-10-07",
-      "sport": "Boys Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Girard Indians",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 2,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
+        "opponent": "Cardinal Mooney"
       }
     }
   ]
