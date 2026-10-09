@@ -1,22 +1,5 @@
 [
   {
-    "generatedAt": "2026-07-14T13:20:33.346Z",
-    "added": [],
-    "removed": [
-      {
-        "eventId": "ad07898f-7751-4cbf-9069-907f31dd4593",
-        "eventDate": "2025-07-14",
-        "sport": "Football",
-        "levelLabel": "Varsity",
-        "vsOrAt": "vs",
-        "opponentComplete": "Practice: Football 7 on 7",
-        "isCancelled": false,
-        "isPostponed": false
-      }
-    ],
-    "changed": []
-  },
-  {
     "generatedAt": "2026-07-15T13:24:02.297Z",
     "added": [],
     "removed": [],
@@ -66561,5 +66544,113 @@
     ],
     "removed": [],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-10-09T05:41:36.152Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "9ad0417a-4bce-4c85-9a31-9a6790a7bcee",
+        "eventDate": "2025-10-08",
+        "sport": "Football",
+        "levelLabel": "Freshman",
+        "vsOrAt": "@",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "b037a0c7-f0a3-427d-baff-24bfe26492f5",
+        "eventDate": "2025-10-08",
+        "sport": "Football",
+        "levelLabel": "7th Grade",
+        "vsOrAt": "@",
+        "opponentComplete": "Beaver Local Beavers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "f88cb2e7-7869-4109-b811-9b62e6860534",
+        "eventDate": "2025-10-08",
+        "sport": "Volleyball",
+        "levelLabel": "7th Grade",
+        "vsOrAt": "vs",
+        "opponentComplete": "NE 8 Championship",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "d9759712-48da-4619-a428-c58b3c97d12e",
+        "eventDate": "2025-10-08",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "South Range Raiders",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "a1fdd874-f5fe-4df9-bdd5-7696470fee94",
+        "eventDate": "2025-10-08",
+        "sport": "Volleyball",
+        "levelLabel": "8th Grade",
+        "vsOrAt": "vs",
+        "opponentComplete": "NE 8 Championship",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "a700016a-a531-4d48-a0f6-4d594017f212",
+        "eventDate": "2025-10-08",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "South Range Raiders",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": [
+      {
+        "eventId": "ef21cdce-d6e4-42bd-886d-3bd3f713f5b5",
+        "eventDate": "2026-10-08",
+        "sport": "Volleyball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 3,
+        "opponentScore": 0,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
