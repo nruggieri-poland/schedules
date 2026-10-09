@@ -1,50 +1,5 @@
 [
   {
-    "generatedAt": "2026-07-15T13:24:02.297Z",
-    "added": [],
-    "removed": [],
-    "changed": [
-      {
-        "eventId": "89bda499-3d21-40c8-bf60-72114eee0686",
-        "eventDate": "2026-12-12",
-        "sport": "Girls Basketball",
-        "levelLabel": "Varsity",
-        "vsOrAt": "vs",
-        "opponentComplete": "United Way (vs Fitch)",
-        "isCancelled": false,
-        "isPostponed": false,
-        "fields": [
-          "opponent"
-        ],
-        "before": {
-          "opponent": "UNITED WAY CLASSIC"
-        },
-        "after": {
-          "opponent": "United Way (vs Fitch)"
-        }
-      },
-      {
-        "eventId": "1d2369fe-7af9-4166-9677-69bb82073e4f",
-        "eventDate": "2026-12-12",
-        "sport": "Boys Basketball",
-        "levelLabel": "Varsity",
-        "vsOrAt": "vs",
-        "opponentComplete": "United Way (vs Neshannock)",
-        "isCancelled": false,
-        "isPostponed": false,
-        "fields": [
-          "opponent"
-        ],
-        "before": {
-          "opponent": "United Way Classic"
-        },
-        "after": {
-          "opponent": "United Way (vs Neshannock)"
-        }
-      }
-    ]
-  },
-  {
     "generatedAt": "2026-07-16T13:38:22.369Z",
     "added": [],
     "removed": [
@@ -66649,6 +66604,38 @@
         },
         "after": {
           "result": "Win"
+        }
+      }
+    ]
+  },
+  {
+    "generatedAt": "2026-10-09T16:39:37.210Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "ce43af9d-ab14-4e8a-9721-95ef3037d588",
+        "eventDate": "2027-04-30",
+        "sport": "Softball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "LaBrae Vikings",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "homeOrAway",
+          "location"
+        ],
+        "before": {
+          "homeOrAway": "Away",
+          "location": "Labrae High School"
+        },
+        "after": {
+          "homeOrAway": "Home",
+          "location": "Poland Seminary High School"
         }
       }
     ]
