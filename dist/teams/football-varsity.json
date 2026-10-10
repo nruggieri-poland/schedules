@@ -618,10 +618,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 31,
+    "opponentScore": 35,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "Girard Sr High School",
+        "teamScore": 31,
+        "opponentScore": 35,
+        "result": "Loss"
+      }
+    ],
     "_time24": "19:00"
   },
   {

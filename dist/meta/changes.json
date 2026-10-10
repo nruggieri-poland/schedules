@@ -1,31 +1,68 @@
 {
-  "generatedAt": "2026-10-09T16:39:37.210Z",
+  "generatedAt": "2026-10-10T05:25:11.091Z",
   "added": [],
-  "removed": [],
-  "changed": [
+  "removed": [
     {
-      "eventId": "ce43af9d-ab14-4e8a-9721-95ef3037d588",
-      "eventDate": "2027-04-30",
-      "sport": "Softball",
-      "levelLabel": "Varsity",
+      "eventId": "1a5fbd0c-bffe-4e81-a2ea-da8be383430b",
+      "eventDate": "2025-10-09",
+      "sport": "Volleyball",
+      "levelLabel": "JV",
       "vsOrAt": "vs",
-      "opponentComplete": "LaBrae Vikings",
+      "opponentComplete": "Howland Tigers",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null,
+      "result": null
+    },
+    {
+      "eventId": "0c7e9f4a-3214-4de1-b644-067a078434de",
+      "eventDate": "2025-10-09",
+      "sport": "Football",
+      "levelLabel": "8th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Girard Sr High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "527aa34a-ce5f-4fe5-bac9-531c8afbbb99",
+      "eventDate": "2025-10-09",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Howland Tigers",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    }
+  ],
+  "changed": [
+    {
+      "eventId": "729ffa9d-c4f0-4afa-bcf9-fb7659baf20f",
+      "eventDate": "2026-10-09",
+      "sport": "Football",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Girard Indians",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 31,
+      "opponentScore": 35,
+      "result": "Loss",
       "fields": [
-        "homeOrAway",
-        "location"
+        "result"
       ],
       "before": {
-        "homeOrAway": "Away",
-        "location": "Labrae High School"
+        "result": null
       },
       "after": {
-        "homeOrAway": "Home",
-        "location": "Poland Seminary High School"
+        "result": "Loss"
       }
     }
   ]
