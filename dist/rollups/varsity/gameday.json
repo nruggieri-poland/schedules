@@ -1,19 +1,5 @@
 [
   {
-    "eventDate": "2026-10-09",
-    "cleanDate": "10/09",
-    "sport": "Football",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "Girard",
-    "opponentMascot": "Indians",
-    "opponentComplete": "Girard Indians",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-10-09_football",
-    "posterFile": "2026-10-09_football.jpg"
-  },
-  {
     "eventDate": "2026-10-10",
     "cleanDate": "10/10",
     "sport": "Cross Country",
@@ -124,5 +110,19 @@
     "location": "GlenOak High School",
     "postSlug": "2026-10-24_cross-country",
     "posterFile": "2026-10-24_cross-country.jpg"
+  },
+  {
+    "eventDate": "2026-10-31",
+    "cleanDate": "10/31",
+    "sport": "Cross Country",
+    "eventTime": "11:50 AM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "Regional Championship",
+    "opponentMascot": null,
+    "opponentComplete": "Regional Championship",
+    "location": "Boardman High School",
+    "postSlug": "2026-10-31_cross-country",
+    "posterFile": "2026-10-31_cross-country.jpg"
   }
 ]
