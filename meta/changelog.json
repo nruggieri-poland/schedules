@@ -1,22 +1,5 @@
 [
   {
-    "generatedAt": "2026-07-16T13:38:22.369Z",
-    "added": [],
-    "removed": [
-      {
-        "eventId": "73d39242-7931-4d94-9002-e0934f3a41c7",
-        "eventDate": "2025-07-16",
-        "sport": "Volleyball",
-        "levelLabel": "Varsity",
-        "vsOrAt": "vs",
-        "opponentComplete": "Cardinal Mooney Cardinals",
-        "isCancelled": false,
-        "isPostponed": false
-      }
-    ],
-    "changed": []
-  },
-  {
     "generatedAt": "2026-07-18T13:01:30.199Z",
     "added": [],
     "removed": [],
@@ -66636,6 +66619,75 @@
         "after": {
           "homeOrAway": "Home",
           "location": "Poland Seminary High School"
+        }
+      }
+    ]
+  },
+  {
+    "generatedAt": "2026-10-10T05:25:11.091Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "1a5fbd0c-bffe-4e81-a2ea-da8be383430b",
+        "eventDate": "2025-10-09",
+        "sport": "Volleyball",
+        "levelLabel": "JV",
+        "vsOrAt": "vs",
+        "opponentComplete": "Howland Tigers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "0c7e9f4a-3214-4de1-b644-067a078434de",
+        "eventDate": "2025-10-09",
+        "sport": "Football",
+        "levelLabel": "8th Grade",
+        "vsOrAt": "vs",
+        "opponentComplete": "Girard Sr High School",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "527aa34a-ce5f-4fe5-bac9-531c8afbbb99",
+        "eventDate": "2025-10-09",
+        "sport": "Volleyball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Howland Tigers",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": [
+      {
+        "eventId": "729ffa9d-c4f0-4afa-bcf9-fb7659baf20f",
+        "eventDate": "2026-10-09",
+        "sport": "Football",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Girard Indians",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 31,
+        "opponentScore": 35,
+        "result": "Loss",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Loss"
         }
       }
     ]
