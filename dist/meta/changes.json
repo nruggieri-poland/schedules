@@ -1,40 +1,14 @@
 {
-  "generatedAt": "2026-10-10T05:25:11.091Z",
+  "generatedAt": "2026-10-11T05:18:17.038Z",
   "added": [],
   "removed": [
     {
-      "eventId": "1a5fbd0c-bffe-4e81-a2ea-da8be383430b",
-      "eventDate": "2025-10-09",
-      "sport": "Volleyball",
-      "levelLabel": "JV",
-      "vsOrAt": "vs",
-      "opponentComplete": "Howland Tigers",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "0c7e9f4a-3214-4de1-b644-067a078434de",
-      "eventDate": "2025-10-09",
+      "eventId": "e7975371-a528-48ee-88de-40e49d914a21",
+      "eventDate": "2025-10-10",
       "sport": "Football",
-      "levelLabel": "8th Grade",
-      "vsOrAt": "vs",
-      "opponentComplete": "Girard Sr High School",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "527aa34a-ce5f-4fe5-bac9-531c8afbbb99",
-      "eventDate": "2025-10-09",
-      "sport": "Volleyball",
       "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Howland Tigers",
+      "vsOrAt": "@",
+      "opponentComplete": "Girard Indians",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -44,6 +18,160 @@
   ],
   "changed": [
     {
+      "eventId": "96f48919-2fe3-4600-b17c-c96e8e12fb8d",
+      "eventDate": "2026-08-21",
+      "sport": "Football",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Salem Quakers",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Loss"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "ee68199c-b7cf-4a77-8714-234df91b0c7e",
+      "eventDate": "2026-08-28",
+      "sport": "Football",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Kirtland Hornets",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Loss"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "20090fe6-9165-4c20-ab30-e575ad806418",
+      "eventDate": "2026-09-04",
+      "sport": "Football",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Field Falcons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "94d4eab9-f229-4770-a494-fb61441ac404",
+      "eventDate": "2026-09-11",
+      "sport": "Football",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Canfield Cardinals",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "facbd6b0-89de-45f7-88d9-7933e058379f",
+      "eventDate": "2026-09-18",
+      "sport": "Football",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "db3d467c-3e99-4056-9c7e-b3dea482066c",
+      "eventDate": "2026-09-25",
+      "sport": "Football",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Loss"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "01671902-5bf0-426a-9dc4-10675f6d1520",
+      "eventDate": "2026-10-02",
+      "sport": "Football",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
       "eventId": "729ffa9d-c4f0-4afa-bcf9-fb7659baf20f",
       "eventDate": "2026-10-09",
       "sport": "Football",
@@ -52,17 +180,17 @@
       "opponentComplete": "Girard Indians",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 31,
-      "opponentScore": 35,
-      "result": "Loss",
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
       "fields": [
         "result"
       ],
       "before": {
-        "result": null
+        "result": "Loss"
       },
       "after": {
-        "result": "Loss"
+        "result": null
       }
     }
   ]
