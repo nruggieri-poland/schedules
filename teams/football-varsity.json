@@ -281,10 +281,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 17,
+    "opponentScore": 21,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "Salem High School",
+        "teamScore": 17,
+        "opponentScore": 21,
+        "result": "Loss"
+      }
+    ],
     "_time24": "19:00"
   },
   {
@@ -317,10 +324,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 34,
+    "opponentScore": 36,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "Kirtland High School",
+        "teamScore": 34,
+        "opponentScore": 36,
+        "result": "Loss"
+      }
+    ],
     "_time24": "19:00"
   },
   {
@@ -353,10 +367,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 49,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Field High School",
+        "teamScore": 49,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "19:00"
   },
   {
@@ -389,10 +410,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 24,
+    "opponentScore": 21,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Canfield High School",
+        "teamScore": 24,
+        "opponentScore": 21,
+        "result": "Win"
+      }
+    ],
     "_time24": "19:00"
   },
   {
@@ -425,10 +453,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 35,
+    "opponentScore": 24,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Hubbard High School",
+        "teamScore": 35,
+        "opponentScore": 24,
+        "result": "Win"
+      }
+    ],
     "_time24": "19:00"
   },
   {
@@ -461,10 +496,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 7,
+    "opponentScore": 47,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "South Range High School",
+        "teamScore": 7,
+        "opponentScore": 47,
+        "result": "Loss"
+      }
+    ],
     "_time24": "19:00"
   },
   {
@@ -497,10 +539,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 41,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Niles McKinley High School",
+        "teamScore": 41,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "19:00"
   },
   {
@@ -533,10 +582,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 31,
+    "opponentScore": 35,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "Girard Sr High School",
+        "teamScore": 31,
+        "opponentScore": 35,
+        "result": "Loss"
+      }
+    ],
     "_time24": "19:00"
   },
   {
