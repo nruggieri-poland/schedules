@@ -1,85 +1,63 @@
 {
-  "generatedAt": "2026-10-12T05:30:28.288Z",
+  "generatedAt": "2026-10-12T19:27:43.854Z",
   "added": [],
-  "removed": [
+  "removed": [],
+  "changed": [
     {
-      "eventId": "2beea4f9-8c61-4866-9faf-f9c700040f29",
-      "eventDate": "2025-10-11",
-      "sport": "Football",
-      "levelLabel": "JV",
-      "vsOrAt": "vs",
-      "opponentComplete": "Girard Indians",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "02a27bad-c71f-4d27-93b6-e3cdebb72f8f",
-      "eventDate": "2025-10-11",
-      "sport": "Cross Country",
-      "levelLabel": "Varsity",
+      "eventId": "9485c891-1b91-49cb-9fe4-18ff85f4289d",
+      "eventDate": "2026-10-12",
+      "sport": "Volleyball",
+      "levelLabel": "7th Grade",
       "vsOrAt": "@",
-      "opponentComplete": "NE8 Championship",
+      "opponentComplete": "NE8 Tournament",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null
+      "result": null,
+      "fields": [
+        "eventTime",
+        "location",
+        "isTimeTBD"
+      ],
+      "before": {
+        "eventTime": "TBA",
+        "location": "TBD",
+        "isTimeTBD": true
+      },
+      "after": {
+        "eventTime": "05:00 PM",
+        "location": "LAKEVIEW MIDDLE SCHOOL",
+        "isTimeTBD": false
+      }
     },
     {
-      "eventId": "47089ca3-1ad5-420f-a737-df7a45fea989",
-      "eventDate": "2025-10-11",
-      "sport": "Boys Soccer",
-      "levelLabel": "JV",
+      "eventId": "3b73175c-51d7-45a2-8847-a4b98c5e2356",
+      "eventDate": "2026-10-12",
+      "sport": "Volleyball",
+      "levelLabel": "8th Grade",
       "vsOrAt": "@",
-      "opponentComplete": "Marlington Dukes",
+      "opponentComplete": "Ne 8 Tournament",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "9079bb7f-0f43-48ca-8ecc-f8ba23ff0203",
-      "eventDate": "2025-10-11",
-      "sport": "Cross Country",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Zombie Run",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "f0f659ef-36fb-4894-b5ac-eae5634295e8",
-      "eventDate": "2025-10-11",
-      "sport": "Cross Country",
-      "levelLabel": "Middle School",
-      "vsOrAt": "vs",
-      "opponentComplete": "Zombie Run",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "47dbde06-a484-40a0-9dff-3d715305aa7d",
-      "eventDate": "2025-10-11",
-      "sport": "Cross Country",
-      "levelLabel": "Middle School",
-      "vsOrAt": "@",
-      "opponentComplete": "NE8 Championship",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
+      "result": null,
+      "fields": [
+        "eventTime",
+        "location",
+        "isTimeTBD"
+      ],
+      "before": {
+        "eventTime": "TBA",
+        "location": "TBD",
+        "isTimeTBD": true
+      },
+      "after": {
+        "eventTime": "05:30 PM",
+        "location": "Girard Sr High School",
+        "isTimeTBD": false
+      }
     }
-  ],
-  "changed": []
+  ]
 }
