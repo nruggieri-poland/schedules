@@ -1,63 +1,111 @@
 {
-  "generatedAt": "2026-10-12T19:27:43.854Z",
-  "added": [],
-  "removed": [],
-  "changed": [
+  "generatedAt": "2026-10-14T00:41:55.657Z",
+  "added": [
     {
-      "eventId": "9485c891-1b91-49cb-9fe4-18ff85f4289d",
-      "eventDate": "2026-10-12",
-      "sport": "Volleyball",
-      "levelLabel": "7th Grade",
-      "vsOrAt": "@",
-      "opponentComplete": "NE8 Tournament",
+      "eventId": "47437943-5d8e-403c-b4e9-8545a422585e",
+      "eventDate": "2026-10-21",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Hubbard Eagles",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null,
-      "fields": [
-        "eventTime",
-        "location",
-        "isTimeTBD"
-      ],
-      "before": {
-        "eventTime": "TBA",
-        "location": "TBD",
-        "isTimeTBD": true
-      },
-      "after": {
-        "eventTime": "05:00 PM",
-        "location": "LAKEVIEW MIDDLE SCHOOL",
-        "isTimeTBD": false
-      }
+      "result": null
     },
     {
-      "eventId": "3b73175c-51d7-45a2-8847-a4b98c5e2356",
-      "eventDate": "2026-10-12",
+      "eventId": "def0e6dc-03a7-4ad4-a87c-cf843c096312",
+      "eventDate": "2026-10-22",
       "sport": "Volleyball",
-      "levelLabel": "8th Grade",
+      "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Ne 8 Tournament",
+      "opponentComplete": "Liberty Leopards",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null,
-      "fields": [
-        "eventTime",
-        "location",
-        "isTimeTBD"
-      ],
-      "before": {
-        "eventTime": "TBA",
-        "location": "TBD",
-        "isTimeTBD": true
-      },
-      "after": {
-        "eventTime": "05:30 PM",
-        "location": "Girard Sr High School",
-        "isTimeTBD": false
-      }
+      "result": null
+    },
+    {
+      "eventId": "de4d9515-1a3c-467f-b6ab-d5c9bd98e93b",
+      "eventDate": "2026-10-22",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Shaw Cardinals",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "899b2a6d-518e-4343-8327-0952f8747f30",
+      "eventDate": "2026-10-27",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "cbc9eb7a-6c9d-497e-9c90-5c38f66f2ff5",
+      "eventDate": "2026-10-27",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "0434fc7f-1938-42ba-aeaf-54d0de2bf965",
+      "eventDate": "2026-10-29",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "The Andrews School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "474af76f-bba7-4d29-a3ad-842b918f3528",
+      "eventDate": "2026-10-31",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Hubbard Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "53c84192-ca66-41ee-bed8-4e7c99e1faff",
+      "eventDate": "2026-10-31",
+      "sport": "Boys Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Lake Center Christian Tigers",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     }
-  ]
+  ],
+  "removed": [],
+  "changed": []
 }
