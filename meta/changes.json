@@ -1,27 +1,14 @@
 {
-  "generatedAt": "2026-10-14T04:28:49.672Z",
+  "generatedAt": "2026-10-16T04:07:29.706Z",
   "added": [],
   "removed": [
     {
-      "eventId": "f8079b77-2606-463a-8591-b6855fdbc543",
-      "eventDate": "2025-10-13",
-      "sport": "Boys Soccer",
-      "levelLabel": "JV",
-      "vsOrAt": "vs",
-      "opponentComplete": "Canfield Cardinals",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "c3db97a4-ae76-4c6d-8cad-ebae5378a1ea",
-      "eventDate": "2025-10-13",
+      "eventId": "2d384261-ebdd-4814-9903-3988701cc84d",
+      "eventDate": "2025-10-15",
       "sport": "Boys Soccer",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "Canfield Cardinals",
+      "opponentComplete": "Sectional Tournament",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -29,28 +16,5 @@
       "result": null
     }
   ],
-  "changed": [
-    {
-      "eventId": "de11c348-e44c-46df-9500-9031106520d7",
-      "eventDate": "2026-10-13",
-      "sport": "Boys Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "West Branch Warriors",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 3,
-      "opponentScore": 2,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
-    }
-  ]
+  "changed": []
 }
