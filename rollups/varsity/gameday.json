@@ -1,19 +1,5 @@
 [
   {
-    "eventDate": "2026-10-16",
-    "cleanDate": "10/16",
-    "sport": "Football",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "Lakeview",
-    "opponentMascot": "Bulldogs",
-    "opponentComplete": "Lakeview Bulldogs",
-    "location": "Lakeview High School",
-    "postSlug": "2026-10-16_football",
-    "posterFile": "2026-10-16_football.jpg"
-  },
-  {
     "eventDate": "2026-10-17",
     "cleanDate": "10/17",
     "sport": "Cross Country",
@@ -194,5 +180,19 @@
     "location": "Avon Lake High School",
     "postSlug": "2026-10-31_boys-soccer",
     "posterFile": "2026-10-31_boys-soccer.jpg"
+  },
+  {
+    "eventDate": "2026-11-07",
+    "cleanDate": "11/07",
+    "sport": "Cross Country",
+    "eventTime": "11:50 AM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "State Championship",
+    "opponentMascot": null,
+    "opponentComplete": "State Championship",
+    "location": "Fortress Obetz",
+    "postSlug": "2026-11-07_cross-country",
+    "posterFile": "2026-11-07_cross-country.jpg"
   }
 ]
