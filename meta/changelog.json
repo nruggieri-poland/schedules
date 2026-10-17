@@ -1,22 +1,5 @@
 [
   {
-    "generatedAt": "2026-07-27T15:37:42.899Z",
-    "added": [
-      {
-        "eventId": "9683c889-636c-4631-b804-8ad4fc3cdb0a",
-        "eventDate": "2026-07-30",
-        "sport": "Volleyball",
-        "levelLabel": "Varsity",
-        "vsOrAt": "vs",
-        "opponentComplete": "Scrimmage",
-        "isCancelled": false,
-        "isPostponed": false
-      }
-    ],
-    "removed": [],
-    "changed": []
-  },
-  {
     "generatedAt": "2026-07-27T17:20:45.615Z",
     "added": [
       {
@@ -65589,5 +65572,25 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-10-17T08:29:07.397Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "c9c43451-15d3-4be6-b9c6-52bc6ca0ed80",
+        "eventDate": "2025-10-16",
+        "sport": "Volleyball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Sectional Tournament",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]

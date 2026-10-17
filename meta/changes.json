@@ -1,29 +1,20 @@
 {
-  "generatedAt": "2026-10-17T01:57:05.595Z",
+  "generatedAt": "2026-10-17T08:29:07.397Z",
   "added": [],
-  "removed": [],
-  "changed": [
+  "removed": [
     {
-      "eventId": "3e632576-440a-4234-8371-9b95be753726",
-      "eventDate": "2026-10-16",
-      "sport": "Football",
+      "eventId": "c9c43451-15d3-4be6-b9c6-52bc6ca0ed80",
+      "eventDate": "2025-10-16",
+      "sport": "Volleyball",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Lakeview Bulldogs",
+      "opponentComplete": "Sectional Tournament",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 35,
-      "opponentScore": 3,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
     }
-  ]
+  ],
+  "changed": []
 }
