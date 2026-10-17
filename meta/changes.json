@@ -1,20 +1,29 @@
 {
-  "generatedAt": "2026-10-16T04:07:29.706Z",
+  "generatedAt": "2026-10-17T01:57:05.595Z",
   "added": [],
-  "removed": [
+  "removed": [],
+  "changed": [
     {
-      "eventId": "2d384261-ebdd-4814-9903-3988701cc84d",
-      "eventDate": "2025-10-15",
-      "sport": "Boys Soccer",
+      "eventId": "3e632576-440a-4234-8371-9b95be753726",
+      "eventDate": "2026-10-16",
+      "sport": "Football",
       "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Sectional Tournament",
+      "vsOrAt": "@",
+      "opponentComplete": "Lakeview Bulldogs",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
+      "teamScore": 35,
+      "opponentScore": 3,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
     }
-  ],
-  "changed": []
+  ]
 }
