@@ -1,22 +1,5 @@
 [
   {
-    "generatedAt": "2026-07-27T17:20:45.615Z",
-    "added": [
-      {
-        "eventId": "0edb4a10-0ad6-4d27-93da-006ea4697897",
-        "eventDate": "2026-08-20",
-        "sport": "Football",
-        "levelLabel": "Freshman",
-        "vsOrAt": "@",
-        "opponentComplete": "Salem Quakers",
-        "isCancelled": false,
-        "isPostponed": false
-      }
-    ],
-    "removed": [],
-    "changed": []
-  },
-  {
     "generatedAt": "2026-07-27T18:53:10.899Z",
     "added": [],
     "removed": [],
@@ -65584,6 +65567,26 @@
         "levelLabel": "Varsity",
         "vsOrAt": "@",
         "opponentComplete": "Sectional Tournament",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
+  },
+  {
+    "generatedAt": "2026-10-18T04:04:27.908Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "f84fbbb6-4d3b-4097-8fb1-0d9abfba835b",
+        "eventDate": "2025-10-17",
+        "sport": "Football",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Lakeview Bulldogs",
         "isCancelled": false,
         "isPostponed": false,
         "teamScore": null,
