@@ -1,50 +1,5 @@
 [
   {
-    "generatedAt": "2026-07-27T18:53:10.899Z",
-    "added": [],
-    "removed": [],
-    "changed": [
-      {
-        "eventId": "7beb835f-85b5-4de9-ab2e-4e82bf5c4cb1",
-        "eventDate": "2026-08-06",
-        "sport": "Boys Soccer",
-        "levelLabel": "Varsity",
-        "vsOrAt": "vs",
-        "opponentComplete": "Louisville Leopards",
-        "isCancelled": false,
-        "isPostponed": false,
-        "fields": [
-          "eventType"
-        ],
-        "before": {
-          "eventType": "Game"
-        },
-        "after": {
-          "eventType": "Scrimmage"
-        }
-      },
-      {
-        "eventId": "cb4f29b9-904f-46f8-a2af-d0003b02c1ec",
-        "eventDate": "2026-08-12",
-        "sport": "Boys Soccer",
-        "levelLabel": "Varsity",
-        "vsOrAt": "@",
-        "opponentComplete": "Chagrin Falls Tigers",
-        "isCancelled": false,
-        "isPostponed": false,
-        "fields": [
-          "eventType"
-        ],
-        "before": {
-          "eventType": "Game"
-        },
-        "after": {
-          "eventType": "Scrimmage"
-        }
-      }
-    ]
-  },
-  {
     "generatedAt": "2026-07-27T20:14:11.740Z",
     "added": [],
     "removed": [],
@@ -65587,6 +65542,39 @@
         "levelLabel": "Varsity",
         "vsOrAt": "vs",
         "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
+  },
+  {
+    "generatedAt": "2026-10-19T04:13:39.704Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "fca2b4b7-ed48-43aa-ae5f-1d810e003f4a",
+        "eventDate": "2025-10-18",
+        "sport": "Football",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "United Golden Eagles",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "15d39068-4490-4e39-9a35-ca05ad6ddfc2",
+        "eventDate": "2025-10-18",
+        "sport": "Cross Country",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "District Championship",
         "isCancelled": false,
         "isPostponed": false,
         "teamScore": null,
