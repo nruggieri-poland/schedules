@@ -1,14 +1,27 @@
 {
-  "generatedAt": "2026-10-18T04:04:27.908Z",
+  "generatedAt": "2026-10-19T04:13:39.704Z",
   "added": [],
   "removed": [
     {
-      "eventId": "f84fbbb6-4d3b-4097-8fb1-0d9abfba835b",
-      "eventDate": "2025-10-17",
+      "eventId": "fca2b4b7-ed48-43aa-ae5f-1d810e003f4a",
+      "eventDate": "2025-10-18",
       "sport": "Football",
+      "levelLabel": "JV",
+      "vsOrAt": "@",
+      "opponentComplete": "United Golden Eagles",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "15d39068-4490-4e39-9a35-ca05ad6ddfc2",
+      "eventDate": "2025-10-18",
+      "sport": "Cross Country",
       "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Lakeview Bulldogs",
+      "vsOrAt": "@",
+      "opponentComplete": "District Championship",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
