@@ -1,27 +1,13 @@
 {
-  "generatedAt": "2026-10-19T04:13:39.704Z",
-  "added": [],
-  "removed": [
+  "generatedAt": "2026-10-21T18:56:52.110Z",
+  "added": [
     {
-      "eventId": "fca2b4b7-ed48-43aa-ae5f-1d810e003f4a",
-      "eventDate": "2025-10-18",
-      "sport": "Football",
-      "levelLabel": "JV",
-      "vsOrAt": "@",
-      "opponentComplete": "United Golden Eagles",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "15d39068-4490-4e39-9a35-ca05ad6ddfc2",
-      "eventDate": "2025-10-18",
-      "sport": "Cross Country",
+      "eventId": "7d6e8a8d-2955-41d7-bc3b-5205cf34a4cb",
+      "eventDate": "2026-12-19",
+      "sport": "Swim & Dive",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "District Championship",
+      "opponentComplete": "Jim Stacy Memorial 2026 HS Winter Championships-Divers only",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -29,5 +15,29 @@
       "result": null
     }
   ],
-  "changed": []
+  "removed": [],
+  "changed": [
+    {
+      "eventId": "493c93ea-e5c9-434d-902e-b5c4b5d67581",
+      "eventDate": "2026-10-17",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Boardman Spartans",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 5,
+      "opponentScore": 2,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
+    }
+  ]
 }
