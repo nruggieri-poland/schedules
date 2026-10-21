@@ -1005,10 +1005,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 5,
+    "opponentScore": 2,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Boardman High School",
+        "teamScore": 5,
+        "opponentScore": 2,
+        "result": "Win"
+      }
+    ],
     "_time24": "12:30"
   },
   {

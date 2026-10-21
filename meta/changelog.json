@@ -1,50 +1,5 @@
 [
   {
-    "generatedAt": "2026-07-27T20:14:11.740Z",
-    "added": [],
-    "removed": [],
-    "changed": [
-      {
-        "eventId": "11d6bb13-9975-4271-b740-15789a03a297",
-        "eventDate": "2026-08-06",
-        "sport": "Boys Soccer",
-        "levelLabel": "JV",
-        "vsOrAt": "vs",
-        "opponentComplete": "Louisville Leopards",
-        "isCancelled": false,
-        "isPostponed": false,
-        "fields": [
-          "eventType"
-        ],
-        "before": {
-          "eventType": "Game"
-        },
-        "after": {
-          "eventType": "Scrimmage"
-        }
-      },
-      {
-        "eventId": "a1b33971-d4f7-4b31-b0c2-aa274c8b95b7",
-        "eventDate": "2026-08-12",
-        "sport": "Boys Soccer",
-        "levelLabel": "JV",
-        "vsOrAt": "@",
-        "opponentComplete": "Chagrin Falls Tigers",
-        "isCancelled": false,
-        "isPostponed": false,
-        "fields": [
-          "eventType"
-        ],
-        "before": {
-          "eventType": "Game"
-        },
-        "after": {
-          "eventType": "Scrimmage"
-        }
-      }
-    ]
-  },
-  {
     "generatedAt": "2026-07-28T02:47:25.143Z",
     "added": [],
     "removed": [],
@@ -65583,5 +65538,48 @@
       }
     ],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-10-21T18:56:52.110Z",
+    "added": [
+      {
+        "eventId": "7d6e8a8d-2955-41d7-bc3b-5205cf34a4cb",
+        "eventDate": "2026-12-19",
+        "sport": "Swim & Dive",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Jim Stacy Memorial 2026 HS Winter Championships-Divers only",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "493c93ea-e5c9-434d-902e-b5c4b5d67581",
+        "eventDate": "2026-10-17",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Boardman Spartans",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 5,
+        "opponentScore": 2,
+        "result": "Win",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Win"
+        }
+      }
+    ]
   }
 ]
