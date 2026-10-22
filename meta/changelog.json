@@ -1,88 +1,5 @@
 [
   {
-    "generatedAt": "2026-07-28T13:41:05.311Z",
-    "added": [],
-    "removed": [],
-    "changed": [
-      {
-        "eventId": "72f101df-9ddf-4ac9-b251-b1d884287168",
-        "eventDate": "2026-08-05",
-        "sport": "Boys Golf",
-        "levelLabel": "Varsity",
-        "vsOrAt": "@",
-        "opponentComplete": "Brookfield Invitational",
-        "isCancelled": false,
-        "isPostponed": false,
-        "fields": [
-          "homeOrAway"
-        ],
-        "before": {
-          "homeOrAway": "Home"
-        },
-        "after": {
-          "homeOrAway": "Away"
-        }
-      },
-      {
-        "eventId": "f09aecf9-f738-4d87-8aae-c476719e0ba3",
-        "eventDate": "2026-09-03",
-        "sport": "Volleyball",
-        "levelLabel": "Varsity",
-        "vsOrAt": "@",
-        "opponentComplete": "Hubbard Eagles",
-        "isCancelled": false,
-        "isPostponed": false,
-        "fields": [
-          "eventTime"
-        ],
-        "before": {
-          "eventTime": "06:30 PM"
-        },
-        "after": {
-          "eventTime": "07:00 PM"
-        }
-      },
-      {
-        "eventId": "d77fb5a6-bf8c-4936-99b9-ad45ebe673bd",
-        "eventDate": "2026-09-28",
-        "sport": "Volleyball",
-        "levelLabel": "Varsity",
-        "vsOrAt": "@",
-        "opponentComplete": "Champion Golden Flashes",
-        "isCancelled": false,
-        "isPostponed": false,
-        "fields": [
-          "eventTime"
-        ],
-        "before": {
-          "eventTime": "07:00 PM"
-        },
-        "after": {
-          "eventTime": "06:45 PM"
-        }
-      },
-      {
-        "eventId": "b4f53dff-f2d5-443b-91d2-c575d0160de0",
-        "eventDate": "2026-09-29",
-        "sport": "Volleyball",
-        "levelLabel": "Varsity",
-        "vsOrAt": "vs",
-        "opponentComplete": "Hubbard Eagles",
-        "isCancelled": false,
-        "isPostponed": false,
-        "fields": [
-          "eventTime"
-        ],
-        "before": {
-          "eventTime": "06:30 PM"
-        },
-        "after": {
-          "eventTime": "07:00 PM"
-        }
-      }
-    ]
-  },
-  {
     "generatedAt": "2026-07-29T11:54:58.290Z",
     "added": [],
     "removed": [
@@ -64610,5 +64527,90 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-10-22T18:50:43.058Z",
+    "added": [
+      {
+        "eventId": "def35e13-ec90-4c10-96bc-a3e591c7ea54",
+        "eventDate": "2026-12-01",
+        "sport": "Boys Wrestling",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Dog Duals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "24797a25-2e4f-45e1-8542-39a140b6e7ef",
+        "eventDate": "2026-12-19",
+        "sport": "Boys Wrestling",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Hoppell",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "5f8eea9b-5bd6-42bc-816e-407827bb6288",
+        "eventDate": "2027-01-09",
+        "sport": "Boys Wrestling",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Jackson Milton",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "bc73a4a6-1bd9-40e7-b63c-9fcef9cf1777",
+        "eventDate": "2027-01-13",
+        "sport": "Boys Wrestling",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Senior Night",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "ece09815-d3e5-4968-b658-ff139e0e004f",
+        "eventDate": "2027-01-16",
+        "sport": "Boys Wrestling",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Berkshire",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "025ac1b0-bdbd-4efa-b4af-e36091c6076a",
+        "eventDate": "2027-01-20",
+        "sport": "Boys Wrestling",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Jackson Milton Duals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "removed": [],
+    "changed": []
   }
 ]
