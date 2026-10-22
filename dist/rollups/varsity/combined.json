@@ -1,41 +1,5 @@
 [
   {
-    "eventId": "4852aadf-26d5-4343-b7c9-c3690d75bc95",
-    "eventDate": "2025-10-21",
-    "season": "2025",
-    "seasonType": "Fall",
-    "sport": "Girls Soccer",
-    "sportSlug": "girls-soccer",
-    "gender": "Girls",
-    "levelSlug": "varsity",
-    "levelLabel": "Varsity",
-    "levelGroup": "varsity",
-    "teamSlug": "girls-soccer-varsity",
-    "eventTime": "07:00 PM",
-    "homeOrAway": "Home",
-    "vsOrAt": "vs",
-    "opponent": "District Semi-Finals",
-    "opponentMascot": null,
-    "opponentComplete": "District Semi-Finals",
-    "opponentLogo": null,
-    "otherOpponents": [],
-    "cleanDate": "10/21",
-    "posterFile": "2025-10-21_girls-soccer.jpg",
-    "postSlug": "2025-10-21_girls-soccer",
-    "title": "District Semi-Finals",
-    "location": "Poland Seminary High School",
-    "eventType": "Game",
-    "isCancelled": false,
-    "isPostponed": false,
-    "isTimeTBD": false,
-    "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
-    "_time24": "19:00"
-  },
-  {
     "eventId": "d21ee311-a5b7-466d-9d34-2d27123bcd4c",
     "eventDate": "2025-10-23",
     "season": "2025",
@@ -14697,10 +14661,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 8,
+    "opponentScore": 2,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Hubbard High School",
+        "teamScore": 8,
+        "opponentScore": 2,
+        "result": "Win"
+      }
+    ],
     "_time24": "19:00"
   },
   {

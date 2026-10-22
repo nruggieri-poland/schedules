@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-10-21T18:56:52.110Z",
-  "added": [
+  "generatedAt": "2026-10-22T04:16:13.918Z",
+  "added": [],
+  "removed": [
     {
-      "eventId": "7d6e8a8d-2955-41d7-bc3b-5205cf34a4cb",
-      "eventDate": "2026-12-19",
-      "sport": "Swim & Dive",
+      "eventId": "4852aadf-26d5-4343-b7c9-c3690d75bc95",
+      "eventDate": "2025-10-21",
+      "sport": "Girls Soccer",
       "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Jim Stacy Memorial 2026 HS Winter Championships-Divers only",
+      "vsOrAt": "vs",
+      "opponentComplete": "District Semi-Finals",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -15,18 +16,17 @@
       "result": null
     }
   ],
-  "removed": [],
   "changed": [
     {
-      "eventId": "493c93ea-e5c9-434d-902e-b5c4b5d67581",
-      "eventDate": "2026-10-17",
-      "sport": "Girls Soccer",
+      "eventId": "47437943-5d8e-403c-b4e9-8545a422585e",
+      "eventDate": "2026-10-21",
+      "sport": "Boys Soccer",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "Boardman Spartans",
+      "opponentComplete": "Hubbard Eagles",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 5,
+      "teamScore": 8,
       "opponentScore": 2,
       "result": "Win",
       "fields": [
