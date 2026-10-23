@@ -1,22 +1,5 @@
 [
   {
-    "generatedAt": "2026-07-29T11:54:58.290Z",
-    "added": [],
-    "removed": [
-      {
-        "eventId": "ad7afba4-2f36-439e-aedb-c615f752e17d",
-        "eventDate": "2025-07-28",
-        "sport": "Girls Golf",
-        "levelLabel": "Varsity",
-        "vsOrAt": "vs",
-        "opponentComplete": "Hubbard Eagles",
-        "isCancelled": false,
-        "isPostponed": false
-      }
-    ],
-    "changed": []
-  },
-  {
     "generatedAt": "2026-07-29T20:34:14.521Z",
     "added": [
       {
@@ -64612,5 +64595,43 @@
     ],
     "removed": [],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-10-23T14:29:59.741Z",
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "eventId": "9dbb3c0a-0a35-41b3-b8cb-a4dd7af940b0",
+        "eventDate": "2026-12-12",
+        "sport": "Swim & Dive",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Hubbard High School-Dive Only",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "eventDate",
+          "eventTime",
+          "opponent",
+          "isTimeTBD"
+        ],
+        "before": {
+          "eventDate": "2026-12-05",
+          "eventTime": "TBA",
+          "opponent": "Hubbard",
+          "isTimeTBD": true
+        },
+        "after": {
+          "eventDate": "2026-12-12",
+          "eventTime": "02:30 PM",
+          "opponent": "Hubbard High School-Dive Only",
+          "isTimeTBD": false
+        }
+      }
+    ]
   }
 ]
