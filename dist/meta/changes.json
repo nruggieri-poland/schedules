@@ -1,85 +1,38 @@
 {
-  "generatedAt": "2026-10-22T18:50:43.058Z",
-  "added": [
-    {
-      "eventId": "def35e13-ec90-4c10-96bc-a3e591c7ea54",
-      "eventDate": "2026-12-01",
-      "sport": "Boys Wrestling",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Dog Duals",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "24797a25-2e4f-45e1-8542-39a140b6e7ef",
-      "eventDate": "2026-12-19",
-      "sport": "Boys Wrestling",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Hoppell",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "5f8eea9b-5bd6-42bc-816e-407827bb6288",
-      "eventDate": "2027-01-09",
-      "sport": "Boys Wrestling",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Jackson Milton",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "bc73a4a6-1bd9-40e7-b63c-9fcef9cf1777",
-      "eventDate": "2027-01-13",
-      "sport": "Boys Wrestling",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Senior Night",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "ece09815-d3e5-4968-b658-ff139e0e004f",
-      "eventDate": "2027-01-16",
-      "sport": "Boys Wrestling",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Berkshire",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "025ac1b0-bdbd-4efa-b4af-e36091c6076a",
-      "eventDate": "2027-01-20",
-      "sport": "Boys Wrestling",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Jackson Milton Duals",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    }
-  ],
+  "generatedAt": "2026-10-23T14:29:59.741Z",
+  "added": [],
   "removed": [],
-  "changed": []
+  "changed": [
+    {
+      "eventId": "9dbb3c0a-0a35-41b3-b8cb-a4dd7af940b0",
+      "eventDate": "2026-12-12",
+      "sport": "Swim & Dive",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Hubbard High School-Dive Only",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "eventDate",
+        "eventTime",
+        "opponent",
+        "isTimeTBD"
+      ],
+      "before": {
+        "eventDate": "2026-12-05",
+        "eventTime": "TBA",
+        "opponent": "Hubbard",
+        "isTimeTBD": true
+      },
+      "after": {
+        "eventDate": "2026-12-12",
+        "eventTime": "02:30 PM",
+        "opponent": "Hubbard High School-Dive Only",
+        "isTimeTBD": false
+      }
+    }
+  ]
 }
