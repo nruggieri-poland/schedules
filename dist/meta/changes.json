@@ -1,15 +1,142 @@
 {
-  "generatedAt": "2026-10-23T14:29:59.741Z",
-  "added": [],
+  "generatedAt": "2026-10-23T18:36:56.166Z",
+  "added": [
+    {
+      "eventId": "de5fc8a7-e8f5-492d-a61a-13eb7b949119",
+      "eventDate": "2027-01-22",
+      "sport": "Boys Wrestling",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Hephner Invitational",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "43a88853-eff9-405d-bfa1-8b10bfcc09a3",
+      "eventDate": "2027-01-23",
+      "sport": "Boys Wrestling",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Hephner Invitational",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "c588ab5f-3ad0-4b1c-be4a-adf934bf2cba",
+      "eventDate": "2027-01-29",
+      "sport": "Boys Wrestling",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "EOWL",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "f3aaf2cd-b61d-46ef-80c9-f5d1f5b5617e",
+      "eventDate": "2027-01-30",
+      "sport": "Boys Wrestling",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "EOWL",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "7e702cff-6457-4e87-b7c0-536f9cdd55bc",
+      "eventDate": "2027-02-06",
+      "sport": "Boys Wrestling",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Cleveland Shaw Duals",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "b4e9645a-9fdc-401b-bba0-21ea37b25052",
+      "eventDate": "2027-02-11",
+      "sport": "Boys Wrestling",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Alliance Aviators",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "efb52290-f899-4786-83db-ff89dcd106ba",
+      "eventDate": "2027-02-13",
+      "sport": "Boys Wrestling",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "NE8 Duals",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "f322b618-de6c-4fd6-8340-27e69a317fb8",
+      "eventDate": "2027-02-17",
+      "sport": "Boys Wrestling",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "vs Marlington",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    }
+  ],
   "removed": [],
   "changed": [
     {
-      "eventId": "9dbb3c0a-0a35-41b3-b8cb-a4dd7af940b0",
-      "eventDate": "2026-12-12",
+      "eventId": "f4683868-4584-488b-9452-08ff39caeaa5",
+      "eventDate": "2026-11-28",
       "sport": "Swim & Dive",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Hubbard High School-Dive Only",
+      "opponentComplete": "OPEN",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "location"
+      ],
+      "before": {
+        "location": "OPEN"
+      },
+      "after": {
+        "location": "Downtown YMCA"
+      }
+    },
+    {
+      "eventId": "def35e13-ec90-4c10-96bc-a3e591c7ea54",
+      "eventDate": "2026-12-05",
+      "sport": "Boys Wrestling",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Dog Duals",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -17,21 +144,125 @@
       "result": null,
       "fields": [
         "eventDate",
-        "eventTime",
-        "opponent",
-        "isTimeTBD"
+        "eventTime"
       ],
       "before": {
-        "eventDate": "2026-12-05",
-        "eventTime": "TBA",
-        "opponent": "Hubbard",
-        "isTimeTBD": true
+        "eventDate": "2026-12-01",
+        "eventTime": "01:00 PM"
       },
       "after": {
-        "eventDate": "2026-12-12",
-        "eventTime": "02:30 PM",
-        "opponent": "Hubbard High School-Dive Only",
-        "isTimeTBD": false
+        "eventDate": "2026-12-05",
+        "eventTime": "10:00 AM"
+      }
+    },
+    {
+      "eventId": "9dbb3c0a-0a35-41b3-b8cb-a4dd7af940b0",
+      "eventDate": "2026-12-12",
+      "sport": "Swim & Dive",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "High School Season Opener-Dive Only",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "opponent"
+      ],
+      "before": {
+        "opponent": "Hubbard High School-Dive Only"
+      },
+      "after": {
+        "opponent": "High School Season Opener-Dive Only"
+      }
+    },
+    {
+      "eventId": "0dbb7728-0207-424a-a17c-f806bfc7587e",
+      "eventDate": "2027-01-02",
+      "sport": "Swim & Dive",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "New Years Classic Invite",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "opponent"
+      ],
+      "before": {
+        "opponent": "OPEN"
+      },
+      "after": {
+        "opponent": "New Years Classic Invite"
+      }
+    },
+    {
+      "eventId": "b285c649-fb22-480c-ab86-acc47322723d",
+      "eventDate": "2027-01-16",
+      "sport": "Swim & Dive",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "NE8 Championship",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "opponent"
+      ],
+      "before": {
+        "opponent": "OPEN"
+      },
+      "after": {
+        "opponent": "NE8 Championship"
+      }
+    },
+    {
+      "eventId": "243f9d64-f6bf-4f09-aad1-7db4d557e860",
+      "eventDate": "2027-02-12",
+      "sport": "Swim & Dive",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "DII Sectionals",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "opponent"
+      ],
+      "before": {
+        "opponent": "OPEN"
+      },
+      "after": {
+        "opponent": "DII Sectionals"
+      }
+    },
+    {
+      "eventId": "aef1f62f-51e6-45fe-9649-2a20ddf093cd",
+      "eventDate": "2027-02-19",
+      "sport": "Swim & Dive",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "DII District Championship",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "opponent"
+      ],
+      "before": {
+        "opponent": "OPEN"
+      },
+      "after": {
+        "opponent": "DII District Championship"
       }
     }
   ]
