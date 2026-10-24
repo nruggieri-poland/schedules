@@ -1,32 +1,5 @@
 [
   {
-    "generatedAt": "2026-07-31T11:52:43.171Z",
-    "added": [],
-    "removed": [
-      {
-        "eventId": "47e527fb-9396-475d-af16-5ab0c54c4fc8",
-        "eventDate": "2025-07-30",
-        "sport": "Boys Golf",
-        "levelLabel": "Varsity",
-        "vsOrAt": "vs",
-        "opponentComplete": "Hubbard Eagles",
-        "isCancelled": false,
-        "isPostponed": false
-      },
-      {
-        "eventId": "2ba30bfc-312f-4f48-843a-ad836b93a803",
-        "eventDate": "2025-07-30",
-        "sport": "Girls Golf",
-        "levelLabel": "Varsity",
-        "vsOrAt": "@",
-        "opponentComplete": "Columbiana Clippers",
-        "isCancelled": false,
-        "isPostponed": false
-      }
-    ],
-    "changed": []
-  },
-  {
     "generatedAt": "2026-08-01T11:10:52.564Z",
     "added": [],
     "removed": [
@@ -64885,5 +64858,25 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-10-24T04:11:05.588Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "d21ee311-a5b7-466d-9d34-2d27123bcd4c",
+        "eventDate": "2025-10-23",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "District Semi Finals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
