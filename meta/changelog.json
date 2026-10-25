@@ -1,32 +1,5 @@
 [
   {
-    "generatedAt": "2026-08-01T11:10:52.564Z",
-    "added": [],
-    "removed": [
-      {
-        "eventId": "783bbf40-b0bc-42dc-8e16-0c417b082611",
-        "eventDate": "2025-07-31",
-        "sport": "Boys Golf",
-        "levelLabel": "Varsity",
-        "vsOrAt": "vs",
-        "opponentComplete": "Springfield Tigers",
-        "isCancelled": false,
-        "isPostponed": false
-      },
-      {
-        "eventId": "59a76e53-3356-400b-89a9-6fd1b584bd0d",
-        "eventDate": "2025-07-31",
-        "sport": "Girls Golf",
-        "levelLabel": "Varsity",
-        "vsOrAt": "@",
-        "opponentComplete": "Hubbard Eagles",
-        "isCancelled": false,
-        "isPostponed": false
-      }
-    ],
-    "changed": []
-  },
-  {
     "generatedAt": "2026-08-01T15:56:35.491Z",
     "added": [
       {
@@ -64870,6 +64843,26 @@
         "levelLabel": "Varsity",
         "vsOrAt": "vs",
         "opponentComplete": "District Semi Finals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
+  },
+  {
+    "generatedAt": "2026-10-25T04:13:47.365Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "7addd576-fd88-4bac-8ed0-6e3cd8fa1f17",
+        "eventDate": "2025-10-24",
+        "sport": "Football",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Struthers Wildcats",
         "isCancelled": false,
         "isPostponed": false,
         "teamScore": null,
