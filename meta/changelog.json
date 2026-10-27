@@ -1,50 +1,5 @@
 [
   {
-    "generatedAt": "2026-08-01T16:54:21.586Z",
-    "added": [],
-    "removed": [],
-    "changed": [
-      {
-        "eventId": "6fabda4c-ceec-4edb-8703-38f154d9faed",
-        "eventDate": "2026-08-07",
-        "sport": "Girls Tennis",
-        "levelLabel": "Varsity",
-        "vsOrAt": "@",
-        "opponentComplete": "Austintown Fitch Falcons",
-        "isCancelled": false,
-        "isPostponed": false,
-        "fields": [
-          "eventTime"
-        ],
-        "before": {
-          "eventTime": "04:00 PM"
-        },
-        "after": {
-          "eventTime": "11:00 AM"
-        }
-      },
-      {
-        "eventId": "9fd02d89-006e-415f-8bd2-fa75cd6fb4a0",
-        "eventDate": "2026-08-19",
-        "sport": "Football",
-        "levelLabel": "8th Grade",
-        "vsOrAt": "@",
-        "opponentComplete": "Boardman High School",
-        "isCancelled": false,
-        "isPostponed": false,
-        "fields": [
-          "eventTime"
-        ],
-        "before": {
-          "eventTime": "06:45 PM"
-        },
-        "after": {
-          "eventTime": "07:15 PM"
-        }
-      }
-    ]
-  },
-  {
     "generatedAt": "2026-08-03T04:06:54.003Z",
     "added": [],
     "removed": [
@@ -64868,6 +64823,117 @@
         "result": null
       }
     ],
+    "changed": []
+  },
+  {
+    "generatedAt": "2026-10-27T15:34:57.638Z",
+    "added": [
+      {
+        "eventId": "c8511296-fcfd-41a7-9c47-68c8f8c228c9",
+        "eventDate": "2026-12-05",
+        "sport": "Boys Wrestling",
+        "levelLabel": "Middle School",
+        "vsOrAt": "@",
+        "opponentComplete": "Rhinoh Rumble",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "891c35e5-cf15-4df3-b177-6b6f3596b698",
+        "eventDate": "2026-12-19",
+        "sport": "Boys Wrestling",
+        "levelLabel": "Middle School",
+        "vsOrAt": "@",
+        "opponentComplete": "Hubbard Invitational",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "d6759ee2-7b9d-44d3-853c-c2420ea623b8",
+        "eventDate": "2027-01-06",
+        "sport": "Boys Wrestling",
+        "levelLabel": "Middle School",
+        "vsOrAt": "@",
+        "opponentComplete": "NE8 Championship",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "2952abfb-0761-4a3e-8a6d-046029c5f28b",
+        "eventDate": "2027-01-09",
+        "sport": "Boys Wrestling",
+        "levelLabel": "Middle School",
+        "vsOrAt": "@",
+        "opponentComplete": "Fitch Duals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "b0290101-699a-4e80-bf4b-c3013c4d41a7",
+        "eventDate": "2027-01-20",
+        "sport": "Boys Wrestling",
+        "levelLabel": "Middle School",
+        "vsOrAt": "@",
+        "opponentComplete": "Jackson-Milton High School",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "221aea05-a1ec-4551-95ce-aa709260bff0",
+        "eventDate": "2027-01-23",
+        "sport": "Boys Wrestling",
+        "levelLabel": "Middle School",
+        "vsOrAt": "@",
+        "opponentComplete": "Canfield Duals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "881fdfdc-0a34-41ff-994e-cf6c82268ffe",
+        "eventDate": "2027-02-05",
+        "sport": "Boys Wrestling",
+        "levelLabel": "Middle School",
+        "vsOrAt": "@",
+        "opponentComplete": "EOWL League Tournament",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "6a9f72df-6433-4079-8f31-420bb3a8a18b",
+        "eventDate": "2027-02-06",
+        "sport": "Boys Wrestling",
+        "levelLabel": "Middle School",
+        "vsOrAt": "@",
+        "opponentComplete": "EOWL League Tournament",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "removed": [],
     "changed": []
   }
 ]
