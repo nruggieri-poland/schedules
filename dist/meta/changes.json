@@ -1,33 +1,29 @@
 {
-  "generatedAt": "2026-10-27T20:13:04.590Z",
-  "added": [
+  "generatedAt": "2026-10-28T16:18:40.274Z",
+  "added": [],
+  "removed": [],
+  "changed": [
     {
-      "eventId": "ba51c05c-b692-4bb4-9fbb-dfdec0f0af6b",
-      "eventDate": "2026-12-06",
-      "sport": "Girls Wrestling",
+      "eventId": "474af76f-bba7-4d29-a3ad-842b918f3528",
+      "eventDate": "2026-10-31",
+      "sport": "Girls Soccer",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Mike Fording Invitational",
+      "opponentComplete": "Beachwood Bison",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "5edf6de9-7d0f-418f-a10a-79f8945d7c90",
-      "eventDate": "2027-01-13",
-      "sport": "Boys Wrestling",
-      "levelLabel": "Middle School",
-      "vsOrAt": "vs",
-      "opponentComplete": "Salem",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
+      "result": null,
+      "fields": [
+        "opponent"
+      ],
+      "before": {
+        "opponent": "Hubbard"
+      },
+      "after": {
+        "opponent": "Beachwood"
+      }
     }
-  ],
-  "removed": [],
-  "changed": []
+  ]
 }
