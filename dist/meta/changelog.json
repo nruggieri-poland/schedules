@@ -1,22 +1,5 @@
 [
   {
-    "generatedAt": "2026-08-03T19:05:50.763Z",
-    "added": [
-      {
-        "eventId": "a4848dd7-5d33-41ff-8481-2119e5fb94c9",
-        "eventDate": "2026-09-03",
-        "sport": "Football",
-        "levelLabel": "7th Grade",
-        "vsOrAt": "vs",
-        "opponentComplete": "Lakeview Bulldogs",
-        "isCancelled": false,
-        "isPostponed": false
-      }
-    ],
-    "removed": [],
-    "changed": []
-  },
-  {
     "generatedAt": "2026-08-03T20:37:10.720Z",
     "added": [],
     "removed": [],
@@ -59359,5 +59342,25 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-10-29T05:21:25.016Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "b6de0471-9749-4944-8639-b991a7de00aa",
+        "eventDate": "2025-10-28",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Regional Semi Finals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]

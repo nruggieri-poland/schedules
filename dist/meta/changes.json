@@ -1,29 +1,20 @@
 {
-  "generatedAt": "2026-10-29T00:51:03.246Z",
+  "generatedAt": "2026-10-29T05:21:25.016Z",
   "added": [],
-  "removed": [],
-  "changed": [
+  "removed": [
     {
-      "eventId": "899b2a6d-518e-4343-8327-0952f8747f30",
-      "eventDate": "2026-10-27",
+      "eventId": "b6de0471-9749-4944-8639-b991a7de00aa",
+      "eventDate": "2025-10-28",
       "sport": "Girls Soccer",
       "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Manchester Panthers",
+      "vsOrAt": "@",
+      "opponentComplete": "Regional Semi Finals",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null,
-      "fields": [
-        "opponent"
-      ],
-      "before": {
-        "opponent": "Lakeview"
-      },
-      "after": {
-        "opponent": "Manchester"
-      }
+      "result": null
     }
-  ]
+  ],
+  "changed": []
 }
