@@ -791,6 +791,66 @@ async function fetchEventResults(calendarId, startISO, endISO) {
   }
 }
 
+// EventLink's newer score store (what widget.eventlink.com reads). Returns
+// every scored event for the team's NFHS season containing `dateISO`, as flat
+// rows: per event, one row for us (Opponent === null) plus one per opponent,
+// each with its own TotalScore. Scores entered since ~Oct 2026 only show up
+// here — the legacy EventResults on GetForEventWidget stopped being filled.
+async function fetchTeamSeasonScores(teamId, dateISO) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+  try {
+    const url = `https://api.eventlink.com/api/EventScores/GetEventScoresForTeamSeason`
+      + `?date=${dateISO}&teamID=${teamId}`;
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'pshs-schedule-proxy/3.0', accept: 'application/json, text/plain, */*' },
+      signal:  controller.signal,
+    });
+    if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+    const json = await res.json();
+    if (!Array.isArray(json)) throw new Error('EventScores response was not an array');
+    return json;
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+// Turns one event's EventScores rows into the same shape the legacy
+// EventResults path produces. Rows pair up by GroupOrder (multi-heat meets);
+// our row is the one with no Opponent and carries our Result.
+function resultsFromScoreRows(rows, primaryOpponentId) {
+  const selfByGroup = new Map();
+  for (const r of rows) if (!r.Opponent && !selfByGroup.has(r.GroupOrder)) selfByGroup.set(r.GroupOrder, r);
+  const self0 = selfByGroup.get(0) ?? [...selfByGroup.values()][0];
+  if (!self0) return null;
+
+  const allResults = rows.filter(r => r.Opponent).map(r => {
+    const self = selfByGroup.get(r.GroupOrder) ?? self0;
+    return {
+      opponentId:    r.Opponent.ID,
+      opponentName:  r.Opponent.Title ?? null,
+      teamScore:     self.TotalScore,
+      opponentScore: r.TotalScore,
+      result:        self.Result,
+    };
+  });
+
+  const primary = allResults.find(r => r.opponentId === primaryOpponentId) ?? allResults[0];
+  return {
+    teamScore:     self0.TotalScore,
+    opponentScore: primary?.opponentScore ?? null,
+    result:        self0.Result,
+    allResults:    allResults.map(({ opponentId, ...rest }) => rest),
+  };
+}
+
+// NFHS school years run early July → early July; any date inside one returns
+// that whole season from GetEventScoresForTeamSeason.
+function nfhsSeasonKey(isoDate) {
+  const d = DateTime.fromISO(isoDate);
+  return d.month >= 7 ? d.year : d.year - 1;
+}
+
 // Fetches final scores/results for every known varsity calendar and returns a
 // map of eventId → { teamScore, opponentScore, result, allResults }.
 // Best-effort: one calendar failing (rate limit, transient error) is logged
@@ -808,8 +868,41 @@ async function fetchResultsByEventId(startISO, endISO) {
       return;
     }
 
+    // Newer EventScores store first — one call per team per season present
+    // in the window. Failures fall through to the legacy EventResults below.
+    const seasonDates = new Map(); // `${teamId}|${seasonKey}` → { teamId, date }
+    for (const ev of events) {
+      const teamId = ev.Team?.ID;
+      const date   = ev.StartDateTime?.slice(0, 10);
+      if (!teamId || !date) continue;
+      seasonDates.set(`${teamId}|${nfhsSeasonKey(date)}`, { teamId, date });
+    }
+    const eventsById = new Map(events.map(ev => [ev.ID, ev]));
+    for (const { teamId, date } of seasonDates.values()) {
+      let rows;
+      try {
+        rows = await fetchTeamSeasonScores(teamId, date);
+      } catch (err) {
+        console.warn(`  [scores fetch failed] team ${teamId} (${date}): ${err.message}`);
+        continue;
+      }
+      const rowsByEvent = new Map();
+      for (const r of rows) {
+        if (!eventsById.has(r.EventID)) continue;
+        if (!rowsByEvent.has(r.EventID)) rowsByEvent.set(r.EventID, []);
+        rowsByEvent.get(r.EventID).push(r);
+      }
+      for (const [eventId, eventRows] of rowsByEvent) {
+        const primaryOpponentId = eventsById.get(eventId).OpponentDetails?.[0]?.Opponent?.ID;
+        const result = resultsFromScoreRows(eventRows, primaryOpponentId);
+        if (result) resultsByEventId.set(eventId, result);
+      }
+    }
+
+    // Legacy EventResults — still the only source for older seasons.
     for (const ev of events) {
       if (!ev.EventResults?.length) continue;
+      if (resultsByEventId.has(ev.ID)) continue; // already set from EventScores
 
       const allResults = ev.EventResults.map(r => ({
         opponentName:  r.Opponent?.Title ?? null,
