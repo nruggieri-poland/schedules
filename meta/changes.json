@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-10-31T19:25:03.636Z",
-  "added": [
+  "generatedAt": "2026-10-31T20:18:48.400Z",
+  "added": [],
+  "removed": [
     {
-      "eventId": "a28aa214-3d57-48d8-982d-4c994328ecee",
-      "eventDate": "2026-10-30",
-      "sport": "Football",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Woodridge High School",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 41,
-      "opponentScore": 38,
-      "result": "Win"
-    }
-  ],
-  "removed": [],
-  "changed": [
-    {
-      "eventId": "0434fc7f-1938-42ba-aeaf-54d0de2bf965",
-      "eventDate": "2026-10-29",
+      "eventId": "53c84192-ca66-41ee-bed8-4e7c99e1faff",
+      "eventDate": "2026-10-31",
       "sport": "Boys Soccer",
       "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "The Andrews School",
+      "vsOrAt": "@",
+      "opponentComplete": "Lake Center Christian Tigers",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 0,
-      "opponentScore": 2,
-      "result": "Loss",
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    }
+  ],
+  "changed": [
+    {
+      "eventId": "474af76f-bba7-4d29-a3ad-842b918f3528",
+      "eventDate": "2026-10-31",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Beachwood Bison",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 1,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
         "result"
       ],
@@ -36,7 +36,7 @@
         "result": null
       },
       "after": {
-        "result": "Loss"
+        "result": "Win"
       }
     }
   ]
