@@ -1,98 +1,117 @@
 {
-  "generatedAt": "2026-10-29T16:28:55.977Z",
-  "added": [
-    {
-      "eventId": "d4e26322-b090-4de5-a4bb-2604b5f96352",
-      "eventDate": "2026-12-20",
-      "sport": "Girls Wrestling",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Hubbard Girls",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "ea7093d9-ea23-4b5b-a540-75760f3ffd2a",
-      "eventDate": "2026-12-27",
-      "sport": "Girls Wrestling",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "East Liverpool Tournament",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "f385e0a9-0153-4b99-b60e-69d3314a8107",
-      "eventDate": "2027-01-02",
-      "sport": "Girls Wrestling",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Fitch Girls Invitational",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "a0bf492c-39fe-468b-814f-560f10888651",
-      "eventDate": "2027-01-17",
-      "sport": "Girls Wrestling",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Top Gun Invitational",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "8ff9d069-291e-4794-bb55-deea0518d25c",
-      "eventDate": "2027-01-24",
-      "sport": "Girls Wrestling",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Girls EOWL",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "d5e9faf7-4a5a-45e3-a3cb-59b6c67f2e16",
-      "eventDate": "2027-02-08",
-      "sport": "Girls Wrestling",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Nordonia Girls Invitational",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "161579ed-e9e5-46e2-8baa-ddd82fafaacb",
-      "eventDate": "2027-02-20",
-      "sport": "Girls Wrestling",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Carrollton Invitational",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    }
-  ],
+  "generatedAt": "2026-10-31T19:11:34.419Z",
+  "added": [],
   "removed": [],
-  "changed": []
+  "changed": [
+    {
+      "eventId": "def0e6dc-03a7-4ad4-a87c-cf843c096312",
+      "eventDate": "2026-10-22",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Liberty Leopards",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 3,
+      "opponentScore": 0,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "de4d9515-1a3c-467f-b6ab-d5c9bd98e93b",
+      "eventDate": "2026-10-22",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Shaw Cardinals",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 12,
+      "opponentScore": 0,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "47f97bae-ebac-41f4-9581-7782ae9c518d",
+      "eventDate": "2026-10-23",
+      "sport": "Football",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 34,
+      "opponentScore": 14,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "899b2a6d-518e-4343-8327-0952f8747f30",
+      "eventDate": "2026-10-27",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Manchester Panthers",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 3,
+      "opponentScore": 0,
+      "result": "Win",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Win"
+      }
+    },
+    {
+      "eventId": "cbc9eb7a-6c9d-497e-9c90-5c38f66f2ff5",
+      "eventDate": "2026-10-27",
+      "sport": "Volleyball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": 0,
+      "opponentScore": 3,
+      "result": "Loss",
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": null
+      },
+      "after": {
+        "result": "Loss"
+      }
+    }
+  ]
 }
