@@ -9097,14 +9097,7 @@
     "teamScore": 318,
     "opponentScore": null,
     "result": "Second",
-    "allResults": [
-      {
-        "opponentName": "Brookfield High School",
-        "teamScore": 318,
-        "opponentScore": null,
-        "result": "Second"
-      }
-    ],
+    "allResults": [],
     "_time24": "08:30"
   },
   {
@@ -9176,14 +9169,7 @@
     "teamScore": 287,
     "opponentScore": null,
     "result": "First",
-    "allResults": [
-      {
-        "opponentName": "Poland Seminary High School",
-        "teamScore": 287,
-        "opponentScore": null,
-        "result": "First"
-      }
-    ],
+    "allResults": [],
     "_time24": "08:00"
   },
   {
@@ -9363,14 +9349,7 @@
     "teamScore": 303,
     "opponentScore": null,
     "result": "First",
-    "allResults": [
-      {
-        "opponentName": "Poland Seminary High School",
-        "teamScore": 303,
-        "opponentScore": null,
-        "result": "First"
-      }
-    ],
+    "allResults": [],
     "_time24": "12:10"
   },
   {
@@ -9593,14 +9572,7 @@
     "teamScore": 303,
     "opponentScore": null,
     "result": "First",
-    "allResults": [
-      {
-        "opponentName": "Poland Seminary High School",
-        "teamScore": 303,
-        "opponentScore": null,
-        "result": "First"
-      }
-    ],
+    "allResults": [],
     "_time24": "08:15"
   },
   {
@@ -14488,10 +14460,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 3,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Liberty High School",
+        "teamScore": 3,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "17:00"
   },
   {
@@ -14524,10 +14503,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 12,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Shaw High School",
+        "teamScore": 12,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "19:00"
   },
   {
@@ -14560,10 +14546,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 34,
+    "opponentScore": 14,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Struthers High School",
+        "teamScore": 34,
+        "opponentScore": 14,
+        "result": "Win"
+      }
+    ],
     "_time24": "19:00"
   },
   {
@@ -14632,10 +14625,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": true,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 0,
+    "opponentScore": 3,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "South Range High School",
+        "teamScore": 0,
+        "opponentScore": 3,
+        "result": "Loss"
+      }
+    ],
     "_time24": "19:00"
   },
   {
@@ -14668,10 +14668,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 3,
+    "opponentScore": 0,
+    "result": "Win",
+    "allResults": [
+      {
+        "opponentName": "Manchester High School",
+        "teamScore": 3,
+        "opponentScore": 0,
+        "result": "Win"
+      }
+    ],
     "_time24": "19:00"
   },
   {
