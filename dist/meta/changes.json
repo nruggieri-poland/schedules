@@ -1,107 +1,33 @@
 {
-  "generatedAt": "2026-10-31T19:11:34.419Z",
-  "added": [],
-  "removed": [],
-  "changed": [
+  "generatedAt": "2026-10-31T19:25:03.636Z",
+  "added": [
     {
-      "eventId": "def0e6dc-03a7-4ad4-a87c-cf843c096312",
-      "eventDate": "2026-10-22",
-      "sport": "Volleyball",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Liberty Leopards",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 3,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
-    },
-    {
-      "eventId": "de4d9515-1a3c-467f-b6ab-d5c9bd98e93b",
-      "eventDate": "2026-10-22",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "vs",
-      "opponentComplete": "Shaw Cardinals",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 12,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
-    },
-    {
-      "eventId": "47f97bae-ebac-41f4-9581-7782ae9c518d",
-      "eventDate": "2026-10-23",
+      "eventId": "a28aa214-3d57-48d8-982d-4c994328ecee",
+      "eventDate": "2026-10-30",
       "sport": "Football",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Struthers Wildcats",
+      "opponentComplete": "Woodridge High School",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 34,
-      "opponentScore": 14,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
-    },
+      "teamScore": 41,
+      "opponentScore": 38,
+      "result": "Win"
+    }
+  ],
+  "removed": [],
+  "changed": [
     {
-      "eventId": "899b2a6d-518e-4343-8327-0952f8747f30",
-      "eventDate": "2026-10-27",
-      "sport": "Girls Soccer",
+      "eventId": "0434fc7f-1938-42ba-aeaf-54d0de2bf965",
+      "eventDate": "2026-10-29",
+      "sport": "Boys Soccer",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "Manchester Panthers",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 3,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
-    },
-    {
-      "eventId": "cbc9eb7a-6c9d-497e-9c90-5c38f66f2ff5",
-      "eventDate": "2026-10-27",
-      "sport": "Volleyball",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "South Range Raiders",
+      "opponentComplete": "The Andrews School",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": 0,
-      "opponentScore": 3,
+      "opponentScore": 2,
       "result": "Loss",
       "fields": [
         "result"
