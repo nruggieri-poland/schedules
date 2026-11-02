@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-11-02T05:32:27.389Z",
-  "added": [],
+  "generatedAt": "2026-11-02T19:51:44.035Z",
+  "added": [
+    {
+      "eventId": "2e24959a-33a5-48fa-8d33-04833e99c1a4",
+      "eventDate": "2026-11-03",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "West Branch Warriors",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "8f670fe2-14fb-4296-bd69-85b9bb2765e8",
+      "eventDate": "2026-11-06",
+      "sport": "Football",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "West Branch Warriors",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    }
+  ],
   "removed": [
     {
-      "eventId": "78156e36-d6dc-4f30-b926-314185122bdf",
-      "eventDate": "2025-11-01",
+      "eventId": "392c85e8-7dea-457e-838b-608505a94653",
+      "eventDate": "2026-11-07",
       "sport": "Cross Country",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
