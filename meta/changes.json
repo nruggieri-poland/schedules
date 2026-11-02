@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-31T20:18:48.400Z",
+  "generatedAt": "2026-11-02T05:32:27.389Z",
   "added": [],
   "removed": [
     {
-      "eventId": "53c84192-ca66-41ee-bed8-4e7c99e1faff",
-      "eventDate": "2026-10-31",
-      "sport": "Boys Soccer",
+      "eventId": "78156e36-d6dc-4f30-b926-314185122bdf",
+      "eventDate": "2025-11-01",
+      "sport": "Cross Country",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "Lake Center Christian Tigers",
+      "opponentComplete": "State Championship",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -16,28 +16,5 @@
       "result": null
     }
   ],
-  "changed": [
-    {
-      "eventId": "474af76f-bba7-4d29-a3ad-842b918f3528",
-      "eventDate": "2026-10-31",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Beachwood Bison",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": 1,
-      "opponentScore": 0,
-      "result": "Win",
-      "fields": [
-        "result"
-      ],
-      "before": {
-        "result": null
-      },
-      "after": {
-        "result": "Win"
-      }
-    }
-  ]
+  "changed": []
 }
