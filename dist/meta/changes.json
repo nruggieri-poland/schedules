@@ -1,47 +1,359 @@
 {
-  "generatedAt": "2026-11-02T19:51:44.035Z",
-  "added": [
+  "generatedAt": "2026-11-03T22:24:04.748Z",
+  "added": [],
+  "removed": [],
+  "changed": [
     {
-      "eventId": "2e24959a-33a5-48fa-8d33-04833e99c1a4",
-      "eventDate": "2026-11-03",
-      "sport": "Girls Soccer",
+      "eventId": "cb85a889-e5d4-4aca-b0eb-aaf9a6274071",
+      "eventDate": "2026-08-10",
+      "sport": "Girls Tennis",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "West Branch Warriors",
+      "opponentComplete": "Ursuline Fighting Irish",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Loss"
+      },
+      "after": {
+        "result": null
+      }
     },
     {
-      "eventId": "8f670fe2-14fb-4296-bd69-85b9bb2765e8",
-      "eventDate": "2026-11-06",
-      "sport": "Football",
+      "eventId": "e2c2f3e5-903a-434f-b5f9-02a4b01b1ba2",
+      "eventDate": "2026-08-13",
+      "sport": "Girls Tennis",
       "levelLabel": "Varsity",
       "vsOrAt": "@",
-      "opponentComplete": "West Branch Warriors",
+      "opponentComplete": "Liberty Leopards",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null
-    }
-  ],
-  "removed": [
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
+    },
     {
-      "eventId": "392c85e8-7dea-457e-838b-608505a94653",
-      "eventDate": "2026-11-07",
-      "sport": "Cross Country",
+      "eventId": "7551ab6f-6312-4033-b4a8-52d22d985e82",
+      "eventDate": "2026-08-17",
+      "sport": "Girls Tennis",
       "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "State Championship",
+      "vsOrAt": "vs",
+      "opponentComplete": "Niles Red Dragons",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "8a2482bf-d241-45f7-bef3-7791cb573a5e",
+      "eventDate": "2026-08-18",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Ursuline Fighting Irish",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Loss"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "38b424c4-7263-4314-90c2-c69aaa139682",
+      "eventDate": "2026-08-19",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Girard Indians",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "cf230b77-13df-4c2f-bc74-9bf725cbe3d7",
+      "eventDate": "2026-08-25",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "ee2ef54b-47dc-4ade-a4f3-598a7fd1f17e",
+      "eventDate": "2026-08-31",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Austintown Fitch Falcons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "52d56352-f8f5-4692-a56f-fe7377cef88f",
+      "eventDate": "2026-09-01",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Liberty Leopards",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "897efc54-99ea-48bb-8895-f4514abd3a4e",
+      "eventDate": "2026-09-02",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Canfield Cardinals",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Loss"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "4bb6f4cf-3721-4279-be74-86eb4808778a",
+      "eventDate": "2026-09-09",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Niles Red Dragons",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "ac2ddb42-27c8-44a7-b09b-ac0001afc5e4",
+      "eventDate": "2026-09-14",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "7e09fe41-df57-4128-9561-cb1235d2988c",
+      "eventDate": "2026-09-15",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Salem Quakers",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "2db4a838-f95e-457d-90e0-504e9a973dc4",
+      "eventDate": "2026-09-16",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Loss"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "f9cd4098-0d5e-44b7-b7a8-bf5977f94a1b",
+      "eventDate": "2026-09-17",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Boardman Spartans",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Loss"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "bd6ee895-d624-47ea-bf34-5e1721a9b71b",
+      "eventDate": "2026-09-23",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "Struthers Wildcats",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
+    },
+    {
+      "eventId": "dee8ea10-bc06-4076-b658-7a7c7f881fa0",
+      "eventDate": "2026-09-24",
+      "sport": "Girls Tennis",
+      "levelLabel": "Varsity",
+      "vsOrAt": "@",
+      "opponentComplete": "Girard Indians",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "result"
+      ],
+      "before": {
+        "result": "Win"
+      },
+      "after": {
+        "result": null
+      }
     }
-  ],
-  "changed": []
+  ]
 }
