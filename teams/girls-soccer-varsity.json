@@ -1069,10 +1069,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 0,
+    "opponentScore": 4,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "West Branch High School",
+        "teamScore": 0,
+        "opponentScore": 4,
+        "result": "Loss"
+      }
+    ],
     "_time24": "19:00"
   }
 ]
