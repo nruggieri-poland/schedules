@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T22:24:04.748Z",
+  "generatedAt": "2026-11-04T02:29:16.287Z",
   "added": [],
   "removed": [],
   "changed": [
@@ -12,17 +12,17 @@
       "opponentComplete": "Ursuline Fighting Irish",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 1,
+      "opponentScore": 4,
+      "result": "Loss",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Loss"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Loss"
       }
     },
     {
@@ -34,17 +34,17 @@
       "opponentComplete": "Liberty Leopards",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 4,
+      "opponentScore": 1,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -56,17 +56,17 @@
       "opponentComplete": "Niles Red Dragons",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 5,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -78,17 +78,17 @@
       "opponentComplete": "Ursuline Fighting Irish",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 1,
+      "opponentScore": 4,
+      "result": "Loss",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Loss"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Loss"
       }
     },
     {
@@ -100,17 +100,17 @@
       "opponentComplete": "Girard Indians",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 4,
+      "opponentScore": 1,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -122,17 +122,17 @@
       "opponentComplete": "Lakeview Bulldogs",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 3,
+      "opponentScore": 2,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -144,17 +144,17 @@
       "opponentComplete": "Austintown Fitch Falcons",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 5,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -166,17 +166,17 @@
       "opponentComplete": "Liberty Leopards",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 5,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -188,17 +188,17 @@
       "opponentComplete": "Canfield Cardinals",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 0,
+      "opponentScore": 5,
+      "result": "Loss",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Loss"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Loss"
       }
     },
     {
@@ -210,17 +210,17 @@
       "opponentComplete": "Niles Red Dragons",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 3,
+      "opponentScore": 1,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -232,17 +232,17 @@
       "opponentComplete": "Struthers Wildcats",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 3,
+      "opponentScore": 2,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -254,17 +254,17 @@
       "opponentComplete": "Salem Quakers",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 5,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -276,17 +276,17 @@
       "opponentComplete": "Lakeview Bulldogs",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 2,
+      "opponentScore": 3,
+      "result": "Loss",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Loss"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Loss"
       }
     },
     {
@@ -298,17 +298,17 @@
       "opponentComplete": "Boardman Spartans",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 0,
+      "opponentScore": 5,
+      "result": "Loss",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Loss"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Loss"
       }
     },
     {
@@ -320,17 +320,17 @@
       "opponentComplete": "Struthers Wildcats",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 3,
+      "opponentScore": 2,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     },
     {
@@ -342,17 +342,17 @@
       "opponentComplete": "Girard Indians",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
+      "teamScore": 5,
+      "opponentScore": 0,
+      "result": "Win",
       "fields": [
         "result"
       ],
       "before": {
-        "result": "Win"
+        "result": null
       },
       "after": {
-        "result": null
+        "result": "Win"
       }
     }
   ]
