@@ -1,34 +1,5 @@
 [
   {
-    "generatedAt": "2026-08-05T18:59:36.354Z",
-    "added": [],
-    "removed": [],
-    "changed": [
-      {
-        "eventId": "72f101df-9ddf-4ac9-b251-b1d884287168",
-        "eventDate": "2026-08-05",
-        "sport": "Boys Golf",
-        "levelLabel": "Varsity",
-        "vsOrAt": "@",
-        "opponentComplete": "Brookfield Invitational",
-        "isCancelled": false,
-        "isPostponed": false,
-        "teamScore": 318,
-        "opponentScore": null,
-        "result": "Second",
-        "fields": [
-          "result"
-        ],
-        "before": {
-          "result": null
-        },
-        "after": {
-          "result": "Second"
-        }
-      }
-    ]
-  },
-  {
     "generatedAt": "2026-08-06T11:57:22.322Z",
     "added": [],
     "removed": [
@@ -37929,6 +37900,49 @@
         },
         "after": {
           "result": "Win"
+        }
+      }
+    ]
+  },
+  {
+    "generatedAt": "2026-11-04T05:50:00.083Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "07e4f8c5-1931-45d2-bcc6-5bc31318c49e",
+        "eventDate": "2025-11-03",
+        "sport": "Boys Basketball",
+        "levelLabel": "7th Grade",
+        "vsOrAt": "vs",
+        "opponentComplete": "7th grade boys basketball tryouts",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": [
+      {
+        "eventId": "2e24959a-33a5-48fa-8d33-04833e99c1a4",
+        "eventDate": "2026-11-03",
+        "sport": "Girls Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "West Branch Warriors",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": 0,
+        "opponentScore": 4,
+        "result": "Loss",
+        "fields": [
+          "result"
+        ],
+        "before": {
+          "result": null
+        },
+        "after": {
+          "result": "Loss"
         }
       }
     ]
