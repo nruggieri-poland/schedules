@@ -1,51 +1,5 @@
 [
   {
-    "generatedAt": "2026-08-06T11:57:22.322Z",
-    "added": [],
-    "removed": [
-      {
-        "eventId": "756db717-7ab7-47cf-b502-7cf543ef2e9f",
-        "eventDate": "2025-08-05",
-        "sport": "Girls Golf",
-        "levelLabel": "Varsity",
-        "vsOrAt": "@",
-        "opponentComplete": "Tiger Invitational",
-        "isCancelled": false,
-        "isPostponed": false,
-        "teamScore": null,
-        "opponentScore": null,
-        "result": null
-      },
-      {
-        "eventId": "21e5bde5-b66e-43c5-8895-389b023c4a62",
-        "eventDate": "2025-08-05",
-        "sport": "Volleyball",
-        "levelLabel": "Varsity",
-        "vsOrAt": "vs",
-        "opponentComplete": "Ursuline Fighting Irish",
-        "isCancelled": false,
-        "isPostponed": false,
-        "teamScore": null,
-        "opponentScore": null,
-        "result": null
-      },
-      {
-        "eventId": "c3cd01dc-977d-4346-ac64-82770d0fb64b",
-        "eventDate": "2025-08-05",
-        "sport": "Boys Golf",
-        "levelLabel": "Varsity",
-        "vsOrAt": "@",
-        "opponentComplete": "South Range HS",
-        "isCancelled": false,
-        "isPostponed": false,
-        "teamScore": null,
-        "opponentScore": null,
-        "result": null
-      }
-    ],
-    "changed": []
-  },
-  {
     "generatedAt": "2026-08-06T13:58:38.291Z",
     "added": [
       {
@@ -37946,5 +37900,25 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-11-05T06:10:16.352Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "79e82eb8-9fcb-4fbe-b3d2-fbca63c32a25",
+        "eventDate": "2025-11-04",
+        "sport": "Boys Basketball",
+        "levelLabel": "7th Grade",
+        "vsOrAt": "vs",
+        "opponentComplete": "7th grade boys basketball tryouts",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
