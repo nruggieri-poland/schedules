@@ -1,19 +1,5 @@
 [
   {
-    "eventDate": "2026-11-06",
-    "cleanDate": "11/06",
-    "sport": "Football",
-    "eventTime": "07:00 PM",
-    "vsOrAt": "@",
-    "homeOrAway": "Away",
-    "opponent": "West Branch",
-    "opponentMascot": "Warriors",
-    "opponentComplete": "West Branch Warriors",
-    "location": "West Branch High School",
-    "postSlug": "2026-11-06_football",
-    "posterFile": "2026-11-06_football.jpg"
-  },
-  {
     "eventDate": "2026-11-22",
     "cleanDate": "11/22",
     "sport": "Cheerleading",
@@ -40,5 +26,19 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-11-23_girls-basketball",
     "posterFile": "2026-11-23_girls-basketball.jpg"
+  },
+  {
+    "eventDate": "2026-11-28",
+    "cleanDate": "11/28",
+    "sport": "Swim & Dive",
+    "eventTime": "09:30 AM",
+    "vsOrAt": "@",
+    "homeOrAway": "Away",
+    "opponent": "OPEN",
+    "opponentMascot": null,
+    "opponentComplete": "OPEN",
+    "location": "Downtown YMCA",
+    "postSlug": "2026-11-28_swim-dive",
+    "posterFile": "2026-11-28_swim-dive.jpg"
   }
 ]
