@@ -1,20 +1,29 @@
 {
-  "generatedAt": "2026-11-08T05:37:35.886Z",
+  "generatedAt": "2026-11-09T20:14:02.563Z",
   "added": [],
-  "removed": [
+  "removed": [],
+  "changed": [
     {
-      "eventId": "3f7bacd9-5d21-4452-aaeb-c6fc7f67c50e",
-      "eventDate": "2025-11-07",
-      "sport": "Football",
+      "eventId": "5f5b2db1-5e2a-4656-9139-af0aa77cbcfe",
+      "eventDate": "2027-02-08",
+      "sport": "Girls Basketball",
       "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "Liberty Leopards",
+      "opponentComplete": "Cardinal Mooney Cardinals",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null
+      "result": null,
+      "fields": [
+        "eventTime"
+      ],
+      "before": {
+        "eventTime": "07:00 PM"
+      },
+      "after": {
+        "eventTime": "06:00 PM"
+      }
     }
-  ],
-  "changed": []
+  ]
 }
