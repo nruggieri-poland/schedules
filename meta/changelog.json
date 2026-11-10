@@ -1,38 +1,5 @@
 [
   {
-    "generatedAt": "2026-08-07T13:46:35.809Z",
-    "added": [
-      {
-        "eventId": "cdd23091-b419-4f1a-afde-174979a59e6f",
-        "eventDate": "2026-08-13",
-        "sport": "Girls Soccer",
-        "levelLabel": "JV",
-        "vsOrAt": "@",
-        "opponentComplete": "Austintown Fitch Falcons",
-        "isCancelled": false,
-        "isPostponed": false,
-        "teamScore": null,
-        "opponentScore": null,
-        "result": null
-      },
-      {
-        "eventId": "a4273591-388f-4fb7-a195-60cbb102bb36",
-        "eventDate": "2026-08-13",
-        "sport": "Girls Soccer",
-        "levelLabel": "Varsity",
-        "vsOrAt": "@",
-        "opponentComplete": "Austintown Fitch Falcons",
-        "isCancelled": false,
-        "isPostponed": false,
-        "teamScore": null,
-        "opponentScore": null,
-        "result": null
-      }
-    ],
-    "removed": [],
-    "changed": []
-  },
-  {
     "generatedAt": "2026-08-07T16:29:58.388Z",
     "added": [
       {
@@ -37851,6 +37818,89 @@
         },
         "after": {
           "eventTime": "06:00 PM"
+        }
+      }
+    ]
+  },
+  {
+    "generatedAt": "2026-11-10T17:20:41.434Z",
+    "added": [
+      {
+        "eventId": "1786ff12-bb03-4bb0-945b-3195e9d3c935",
+        "eventDate": "2026-12-14",
+        "sport": "Boys Basketball",
+        "levelLabel": "7th Grade",
+        "vsOrAt": "@",
+        "opponentComplete": "Niles Red Dragons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "8b2f639a-dad0-4610-90c3-da709dcd6190",
+        "eventDate": "2027-01-20",
+        "sport": "Girls Basketball",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "Liberty Leopards",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "removed": [
+      {
+        "eventId": "a606aded-bec5-4626-8900-7d83ef5ce613",
+        "eventDate": "2027-01-07",
+        "sport": "Girls Basketball",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "Struthers Wildcats",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "aee048e8-29a1-4392-964c-ab6f17483ef9",
+        "eventDate": "2027-01-21",
+        "sport": "Girls Basketball",
+        "levelLabel": "JV",
+        "vsOrAt": "@",
+        "opponentComplete": "Lakeview Bulldogs",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": [
+      {
+        "eventId": "e016f556-7505-4171-89ab-54fff4a5ebbe",
+        "eventDate": "2026-12-21",
+        "sport": "Girls Basketball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "Crestview Rebels",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "07:00 PM"
+        },
+        "after": {
+          "eventTime": "06:15 PM"
         }
       }
     ]
