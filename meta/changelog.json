@@ -1,51 +1,5 @@
 [
   {
-    "generatedAt": "2026-08-07T16:29:58.388Z",
-    "added": [
-      {
-        "eventId": "84dcd463-6db6-405c-9149-88daea885215",
-        "eventDate": "2026-08-31",
-        "sport": "Boys Soccer",
-        "levelLabel": "JV",
-        "vsOrAt": "@",
-        "opponentComplete": "Louisville Leopards",
-        "isCancelled": false,
-        "isPostponed": false,
-        "teamScore": null,
-        "opponentScore": null,
-        "result": null
-      },
-      {
-        "eventId": "e8d1af2d-5d14-4dc5-bbbe-e93040b923cd",
-        "eventDate": "2026-09-08",
-        "sport": "Boys Soccer",
-        "levelLabel": "JV",
-        "vsOrAt": "vs",
-        "opponentComplete": "Boardman Spartans",
-        "isCancelled": false,
-        "isPostponed": false,
-        "teamScore": null,
-        "opponentScore": null,
-        "result": null
-      },
-      {
-        "eventId": "44f712da-e832-4c00-ba61-9228850f5360",
-        "eventDate": "2026-10-17",
-        "sport": "Boys Soccer",
-        "levelLabel": "JV",
-        "vsOrAt": "@",
-        "opponentComplete": "Austintown Fitch Falcons",
-        "isCancelled": false,
-        "isPostponed": false,
-        "teamScore": null,
-        "opponentScore": null,
-        "result": null
-      }
-    ],
-    "removed": [],
-    "changed": []
-  },
-  {
     "generatedAt": "2026-08-07T21:22:42.627Z",
     "added": [
       {
@@ -37904,5 +37858,25 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-11-11T05:43:37.670Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "410fb093-9aab-4c41-8c72-2ffbba2b1e79",
+        "eventDate": "2025-11-10",
+        "sport": "Volleyball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Volleyball Banquet",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
