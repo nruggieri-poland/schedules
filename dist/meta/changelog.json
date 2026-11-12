@@ -1,38 +1,5 @@
 [
   {
-    "generatedAt": "2026-08-07T21:22:42.627Z",
-    "added": [
-      {
-        "eventId": "8bde5501-a250-4ff3-9ccb-f85c5ff074d7",
-        "eventDate": "2026-09-19",
-        "sport": "Volleyball",
-        "levelLabel": "JV",
-        "vsOrAt": "@",
-        "opponentComplete": "Campbell Red Devils",
-        "isCancelled": false,
-        "isPostponed": false,
-        "teamScore": null,
-        "opponentScore": null,
-        "result": null
-      },
-      {
-        "eventId": "8ddbebc3-bea1-491f-9932-f3a50d56e1bd",
-        "eventDate": "2026-09-26",
-        "sport": "Volleyball",
-        "levelLabel": "JV",
-        "vsOrAt": "@",
-        "opponentComplete": "Campbell Red Devils",
-        "isCancelled": false,
-        "isPostponed": false,
-        "teamScore": null,
-        "opponentScore": null,
-        "result": null
-      }
-    ],
-    "removed": [],
-    "changed": []
-  },
-  {
     "generatedAt": "2026-08-08T10:22:16.288Z",
     "added": [],
     "removed": [
@@ -37870,6 +37837,26 @@
         "levelLabel": "Varsity",
         "vsOrAt": "vs",
         "opponentComplete": "Volleyball Banquet",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
+  },
+  {
+    "generatedAt": "2026-11-12T06:49:51.279Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "94a9a928-989b-4382-ad4b-63386a93cd13",
+        "eventDate": "2025-11-11",
+        "sport": "Boys Soccer",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Boys Soccer Banquet",
         "isCancelled": false,
         "isPostponed": false,
         "teamScore": null,
