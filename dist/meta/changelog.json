@@ -1,38 +1,5 @@
 [
   {
-    "generatedAt": "2026-08-08T10:22:16.288Z",
-    "added": [],
-    "removed": [
-      {
-        "eventId": "20ff6804-f2a4-4fbe-bd7d-de8cafff3ff6",
-        "eventDate": "2025-08-07",
-        "sport": "Boys Golf",
-        "levelLabel": "Varsity",
-        "vsOrAt": "@",
-        "opponentComplete": "Ravenna Yank Heisler Invitational",
-        "isCancelled": false,
-        "isPostponed": false,
-        "teamScore": null,
-        "opponentScore": null,
-        "result": null
-      },
-      {
-        "eventId": "7d61eabd-acd7-4483-ade0-9e32fb432ba3",
-        "eventDate": "2025-08-07",
-        "sport": "Girls Golf",
-        "levelLabel": "Varsity",
-        "vsOrAt": "@",
-        "opponentComplete": "Lakeview Bulldogs",
-        "isCancelled": false,
-        "isPostponed": false,
-        "teamScore": null,
-        "opponentScore": null,
-        "result": null
-      }
-    ],
-    "changed": []
-  },
-  {
     "generatedAt": "2026-08-08T19:58:00.436Z",
     "added": [
       {
@@ -37857,6 +37824,26 @@
         "levelLabel": "Varsity",
         "vsOrAt": "vs",
         "opponentComplete": "Boys Soccer Banquet",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
+  },
+  {
+    "generatedAt": "2026-11-15T05:55:36.152Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "3020af18-b042-4d5a-8119-70abeeda1cd7",
+        "eventDate": "2025-11-14",
+        "sport": "Football",
+        "levelLabel": "Varsity",
+        "vsOrAt": "@",
+        "opponentComplete": "OHSAA PLayoff",
         "isCancelled": false,
         "isPostponed": false,
         "teamScore": null,
