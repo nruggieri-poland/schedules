@@ -1,51 +1,33 @@
 {
-  "generatedAt": "2026-11-15T16:40:27.424Z",
-  "added": [],
-  "removed": [],
-  "changed": [
+  "generatedAt": "2026-11-16T19:54:35.016Z",
+  "added": [
     {
-      "eventId": "77f15d21-8f75-42b0-a0fa-5ed42cfe9710",
-      "eventDate": "2027-01-07",
-      "sport": "Girls Basketball",
+      "eventId": "05d78ba3-b6f7-41d2-a701-04f60ca0c459",
+      "eventDate": "2026-11-17",
+      "sport": "Boys Basketball",
       "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Struthers Wildcats",
+      "vsOrAt": "vs",
+      "opponentComplete": "Cardinal Mooney Cardinals",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null,
-      "fields": [
-        "eventTime"
-      ],
-      "before": {
-        "eventTime": "07:00 PM"
-      },
-      "after": {
-        "eventTime": "06:00 PM"
-      }
+      "result": null
     },
     {
-      "eventId": "7ce20151-3bfc-44d6-9dc4-b5b87da0393e",
-      "eventDate": "2027-01-21",
-      "sport": "Girls Basketball",
+      "eventId": "bec6ad27-a4fe-4585-9777-2f3bfedc47f8",
+      "eventDate": "2026-11-25",
+      "sport": "Boys Basketball",
       "levelLabel": "Varsity",
-      "vsOrAt": "@",
-      "opponentComplete": "Lakeview Bulldogs",
+      "vsOrAt": "vs",
+      "opponentComplete": "Columbiana Clippers",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
-      "result": null,
-      "fields": [
-        "eventTime"
-      ],
-      "before": {
-        "eventTime": "07:00 PM"
-      },
-      "after": {
-        "eventTime": "06:00 PM"
-      }
+      "result": null
     }
-  ]
+  ],
+  "removed": [],
+  "changed": []
 }
