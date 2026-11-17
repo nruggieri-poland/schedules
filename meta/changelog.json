@@ -1,38 +1,5 @@
 [
   {
-    "generatedAt": "2026-08-09T10:23:16.615Z",
-    "added": [],
-    "removed": [
-      {
-        "eventId": "0cb42221-50fd-4530-87cc-d5122a45737c",
-        "eventDate": "2025-08-08",
-        "sport": "Boys Golf",
-        "levelLabel": "Varsity",
-        "vsOrAt": "@",
-        "opponentComplete": "Joe Eaton Golf Invitational",
-        "isCancelled": false,
-        "isPostponed": false,
-        "teamScore": null,
-        "opponentScore": null,
-        "result": null
-      },
-      {
-        "eventId": "f86953e1-935a-447f-ae70-7bcc06321498",
-        "eventDate": "2025-08-08",
-        "sport": "Football",
-        "levelLabel": "Varsity",
-        "vsOrAt": "@",
-        "opponentComplete": "Streetsboro Rockets",
-        "isCancelled": false,
-        "isPostponed": false,
-        "teamScore": null,
-        "opponentScore": null,
-        "result": null
-      }
-    ],
-    "changed": []
-  },
-  {
     "generatedAt": "2026-08-10T10:59:04.694Z",
     "added": [],
     "removed": [
@@ -31362,5 +31329,61 @@
     ],
     "removed": [],
     "changed": []
+  },
+  {
+    "generatedAt": "2026-11-17T18:49:12.740Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "7a1998ca-5a81-4a82-ba0b-1856e87a31ff",
+        "eventDate": "2026-12-01",
+        "sport": "Boys Basketball",
+        "levelLabel": "Freshman",
+        "vsOrAt": "vs",
+        "opponentComplete": "Boardman Spartans",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "864ce6f3-4004-418f-b408-09d88db78547",
+        "eventDate": "2026-12-10",
+        "sport": "Boys Basketball",
+        "levelLabel": "Freshman",
+        "vsOrAt": "vs",
+        "opponentComplete": "Canfield Cardinals",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": [
+      {
+        "eventId": "51aa2427-6f81-42d2-8f03-e91dd5a907fb",
+        "eventDate": "2026-11-23",
+        "sport": "Girls Basketball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "LaBrae Vikings",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null,
+        "fields": [
+          "eventTime"
+        ],
+        "before": {
+          "eventTime": "07:00 PM"
+        },
+        "after": {
+          "eventTime": "06:00 PM"
+        }
+      }
+    ]
   }
 ]

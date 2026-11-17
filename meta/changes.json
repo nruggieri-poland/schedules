@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-11-16T19:54:35.016Z",
-  "added": [
+  "generatedAt": "2026-11-17T18:49:12.740Z",
+  "added": [],
+  "removed": [
     {
-      "eventId": "05d78ba3-b6f7-41d2-a701-04f60ca0c459",
-      "eventDate": "2026-11-17",
+      "eventId": "7a1998ca-5a81-4a82-ba0b-1856e87a31ff",
+      "eventDate": "2026-12-01",
       "sport": "Boys Basketball",
-      "levelLabel": "Varsity",
+      "levelLabel": "Freshman",
       "vsOrAt": "vs",
-      "opponentComplete": "Cardinal Mooney Cardinals",
+      "opponentComplete": "Boardman Spartans",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -15,12 +16,12 @@
       "result": null
     },
     {
-      "eventId": "bec6ad27-a4fe-4585-9777-2f3bfedc47f8",
-      "eventDate": "2026-11-25",
+      "eventId": "864ce6f3-4004-418f-b408-09d88db78547",
+      "eventDate": "2026-12-10",
       "sport": "Boys Basketball",
-      "levelLabel": "Varsity",
+      "levelLabel": "Freshman",
       "vsOrAt": "vs",
-      "opponentComplete": "Columbiana Clippers",
+      "opponentComplete": "Canfield Cardinals",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -28,6 +29,28 @@
       "result": null
     }
   ],
-  "removed": [],
-  "changed": []
+  "changed": [
+    {
+      "eventId": "51aa2427-6f81-42d2-8f03-e91dd5a907fb",
+      "eventDate": "2026-11-23",
+      "sport": "Girls Basketball",
+      "levelLabel": "Varsity",
+      "vsOrAt": "vs",
+      "opponentComplete": "LaBrae Vikings",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
+      "fields": [
+        "eventTime"
+      ],
+      "before": {
+        "eventTime": "07:00 PM"
+      },
+      "after": {
+        "eventTime": "06:00 PM"
+      }
+    }
+  ]
 }
