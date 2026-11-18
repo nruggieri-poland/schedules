@@ -1,55 +1,28 @@
 {
-  "generatedAt": "2026-11-17T18:49:12.740Z",
+  "generatedAt": "2026-11-18T06:56:02.181Z",
   "added": [],
-  "removed": [
-    {
-      "eventId": "7a1998ca-5a81-4a82-ba0b-1856e87a31ff",
-      "eventDate": "2026-12-01",
-      "sport": "Boys Basketball",
-      "levelLabel": "Freshman",
-      "vsOrAt": "vs",
-      "opponentComplete": "Boardman Spartans",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "864ce6f3-4004-418f-b408-09d88db78547",
-      "eventDate": "2026-12-10",
-      "sport": "Boys Basketball",
-      "levelLabel": "Freshman",
-      "vsOrAt": "vs",
-      "opponentComplete": "Canfield Cardinals",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    }
-  ],
+  "removed": [],
   "changed": [
     {
-      "eventId": "51aa2427-6f81-42d2-8f03-e91dd5a907fb",
-      "eventDate": "2026-11-23",
+      "eventId": "e09c144e-d5e0-4c09-a05e-16b2954f14e7",
+      "eventDate": "2026-12-03",
       "sport": "Girls Basketball",
-      "levelLabel": "Varsity",
+      "levelLabel": "JV",
       "vsOrAt": "vs",
-      "opponentComplete": "LaBrae Vikings",
+      "opponentComplete": "Champion Golden Flashes",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
       "opponentScore": null,
       "result": null,
       "fields": [
-        "eventTime"
+        "opponent"
       ],
       "before": {
-        "eventTime": "07:00 PM"
+        "opponent": "Struthers"
       },
       "after": {
-        "eventTime": "06:00 PM"
+        "opponent": "Champion"
       }
     }
   ]
