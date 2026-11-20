@@ -1,25 +1,5 @@
 [
   {
-    "generatedAt": "2026-08-10T12:34:21.797Z",
-    "added": [
-      {
-        "eventId": "50cf8b4f-12ba-4969-a5bf-06c5c070d6e9",
-        "eventDate": "2026-08-10",
-        "sport": "Volleyball",
-        "levelLabel": "Varsity",
-        "vsOrAt": "@",
-        "opponentComplete": "Springfield Local",
-        "isCancelled": false,
-        "isPostponed": false,
-        "teamScore": null,
-        "opponentScore": null,
-        "result": null
-      }
-    ],
-    "removed": [],
-    "changed": []
-  },
-  {
     "generatedAt": "2026-08-10T14:01:33.192Z",
     "added": [
       {
@@ -31381,5 +31361,51 @@
         }
       }
     ]
+  },
+  {
+    "generatedAt": "2026-11-20T06:48:13.181Z",
+    "added": [],
+    "removed": [
+      {
+        "eventId": "e0df71fc-2f41-4b01-ba03-efd380a63588",
+        "eventDate": "2025-11-19",
+        "sport": "Boys Basketball",
+        "levelLabel": "7th Grade",
+        "vsOrAt": "vs",
+        "opponentComplete": "Warren G Harding High School",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "b49cbcaa-ae1f-413c-9c6f-fdd3974ad47c",
+        "eventDate": "2025-11-19",
+        "sport": "Boys Basketball",
+        "levelLabel": "8th Grade",
+        "vsOrAt": "vs",
+        "opponentComplete": "Warren G Harding High School",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      },
+      {
+        "eventId": "580074f8-0436-4c66-bb18-a1d887c89707",
+        "eventDate": "2025-11-19",
+        "sport": "Boys Basketball",
+        "levelLabel": "Varsity",
+        "vsOrAt": "vs",
+        "opponentComplete": "Austintown Fitch Falcons",
+        "isCancelled": false,
+        "isPostponed": false,
+        "teamScore": null,
+        "opponentScore": null,
+        "result": null
+      }
+    ],
+    "changed": []
   }
 ]
