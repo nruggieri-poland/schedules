@@ -1,19 +1,5 @@
 [
   {
-    "eventDate": "2026-11-22",
-    "cleanDate": "11/22",
-    "sport": "Cheerleading",
-    "eventTime": "TBA",
-    "vsOrAt": "vs",
-    "homeOrAway": "Home",
-    "opponent": "OASSA Cheerleading Regional Qualifier",
-    "opponentMascot": null,
-    "opponentComplete": "OASSA Cheerleading Regional Qualifier",
-    "location": "Poland Seminary High School",
-    "postSlug": "2026-11-22_cheerleading",
-    "posterFile": "2026-11-22_cheerleading.jpg"
-  },
-  {
     "eventDate": "2026-11-23",
     "cleanDate": "11/23",
     "sport": "Girls Basketball",
@@ -264,5 +250,19 @@
     "location": "Poland Seminary High School",
     "postSlug": "2026-12-13_cheerleading",
     "posterFile": "2026-12-13_cheerleading.jpg"
+  },
+  {
+    "eventDate": "2026-12-14",
+    "cleanDate": "12/14",
+    "sport": "Girls Basketball",
+    "eventTime": "07:00 PM",
+    "vsOrAt": "vs",
+    "homeOrAway": "Home",
+    "opponent": "Lakeview",
+    "opponentMascot": "Bulldogs",
+    "opponentComplete": "Lakeview Bulldogs",
+    "location": "Poland Seminary High School",
+    "postSlug": "2026-12-14_girls-basketball",
+    "posterFile": "2026-12-14_girls-basketball.jpg"
   }
 ]
