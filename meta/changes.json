@@ -1,28 +1,98 @@
 {
-  "generatedAt": "2026-11-24T05:34:22.943Z",
-  "added": [],
-  "removed": [],
-  "changed": [
+  "generatedAt": "2026-11-24T20:24:20.819Z",
+  "added": [
     {
-      "eventId": "51aa2427-6f81-42d2-8f03-e91dd5a907fb",
-      "eventDate": "2026-11-23",
-      "sport": "Girls Basketball",
-      "levelLabel": "Varsity",
+      "eventId": "0975227f-4fed-498b-bd7d-aba43327810b",
+      "eventDate": "2026-12-23",
+      "sport": "Boys Wrestling",
+      "levelLabel": "Middle School",
       "vsOrAt": "vs",
-      "opponentComplete": "LaBrae Vikings",
+      "opponentComplete": "Youth Wrestling Tournament",
       "isCancelled": false,
       "isPostponed": false,
-      "teamScore": 40,
-      "opponentScore": 52,
-      "result": "Loss",
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    }
+  ],
+  "removed": [
+    {
+      "eventId": "fefe8e64-f7f9-4c37-9f33-eba7b4edbb76",
+      "eventDate": "2026-12-28",
+      "sport": "Boys Basketball",
+      "levelLabel": "Freshman",
+      "vsOrAt": "@",
+      "opponentComplete": "Boardman Spartans",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "98215d64-7eb3-41dd-8036-978c280ad290",
+      "eventDate": "2027-01-06",
+      "sport": "Boys Basketball",
+      "levelLabel": "Freshman",
+      "vsOrAt": "vs",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "1441d156-5aa7-44c7-a90c-ae8ff112a34e",
+      "eventDate": "2027-01-13",
+      "sport": "Boys Basketball",
+      "levelLabel": "Freshman",
+      "vsOrAt": "@",
+      "opponentComplete": "Canfield Cardinals",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "ebc65f58-12d1-403a-937d-b390b7a935c3",
+      "eventDate": "2027-02-03",
+      "sport": "Boys Basketball",
+      "levelLabel": "Freshman",
+      "vsOrAt": "@",
+      "opponentComplete": "Lakeview Bulldogs",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    }
+  ],
+  "changed": [
+    {
+      "eventId": "1d1de572-4656-46af-a587-28973a7a52ca",
+      "eventDate": "2027-02-03",
+      "sport": "Boys Basketball",
+      "levelLabel": "Freshman",
+      "vsOrAt": "@",
+      "opponentComplete": "South Range Raiders",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null,
       "fields": [
-        "result"
+        "eventDate",
+        "eventTime"
       ],
       "before": {
-        "result": null
+        "eventDate": "2026-12-14",
+        "eventTime": "05:00 PM"
       },
       "after": {
-        "result": "Loss"
+        "eventDate": "2027-02-03",
+        "eventTime": "06:00 PM"
       }
     }
   ]
