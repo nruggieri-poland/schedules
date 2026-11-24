@@ -1001,10 +1001,17 @@
     "isPostponed": false,
     "isTimeTBD": false,
     "conferenceGame": false,
-    "teamScore": null,
-    "opponentScore": null,
-    "result": null,
-    "allResults": [],
+    "teamScore": 40,
+    "opponentScore": 52,
+    "result": "Loss",
+    "allResults": [
+      {
+        "opponentName": "Labrae High School",
+        "teamScore": 40,
+        "opponentScore": 52,
+        "result": "Loss"
+      }
+    ],
     "_time24": "18:00"
   },
   {
