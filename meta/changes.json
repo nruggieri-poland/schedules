@@ -1,67 +1,14 @@
 {
-  "generatedAt": "2026-11-24T20:24:20.819Z",
-  "added": [
-    {
-      "eventId": "0975227f-4fed-498b-bd7d-aba43327810b",
-      "eventDate": "2026-12-23",
-      "sport": "Boys Wrestling",
-      "levelLabel": "Middle School",
-      "vsOrAt": "vs",
-      "opponentComplete": "Youth Wrestling Tournament",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    }
-  ],
+  "generatedAt": "2026-11-25T07:59:18.785Z",
+  "added": [],
   "removed": [
     {
-      "eventId": "fefe8e64-f7f9-4c37-9f33-eba7b4edbb76",
-      "eventDate": "2026-12-28",
-      "sport": "Boys Basketball",
-      "levelLabel": "Freshman",
-      "vsOrAt": "@",
-      "opponentComplete": "Boardman Spartans",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "98215d64-7eb3-41dd-8036-978c280ad290",
-      "eventDate": "2027-01-06",
-      "sport": "Boys Basketball",
-      "levelLabel": "Freshman",
+      "eventId": "0907745f-4c68-441e-8208-1f57b692f7e9",
+      "eventDate": "2025-11-24",
+      "sport": "Girls Soccer",
+      "levelLabel": "Varsity",
       "vsOrAt": "vs",
-      "opponentComplete": "Lakeview Bulldogs",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "1441d156-5aa7-44c7-a90c-ae8ff112a34e",
-      "eventDate": "2027-01-13",
-      "sport": "Boys Basketball",
-      "levelLabel": "Freshman",
-      "vsOrAt": "@",
-      "opponentComplete": "Canfield Cardinals",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null
-    },
-    {
-      "eventId": "ebc65f58-12d1-403a-937d-b390b7a935c3",
-      "eventDate": "2027-02-03",
-      "sport": "Boys Basketball",
-      "levelLabel": "Freshman",
-      "vsOrAt": "@",
-      "opponentComplete": "Lakeview Bulldogs",
+      "opponentComplete": "Girls Soccer Banquet",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
@@ -69,31 +16,5 @@
       "result": null
     }
   ],
-  "changed": [
-    {
-      "eventId": "1d1de572-4656-46af-a587-28973a7a52ca",
-      "eventDate": "2027-02-03",
-      "sport": "Boys Basketball",
-      "levelLabel": "Freshman",
-      "vsOrAt": "@",
-      "opponentComplete": "South Range Raiders",
-      "isCancelled": false,
-      "isPostponed": false,
-      "teamScore": null,
-      "opponentScore": null,
-      "result": null,
-      "fields": [
-        "eventDate",
-        "eventTime"
-      ],
-      "before": {
-        "eventDate": "2026-12-14",
-        "eventTime": "05:00 PM"
-      },
-      "after": {
-        "eventDate": "2027-02-03",
-        "eventTime": "06:00 PM"
-      }
-    }
-  ]
+  "changed": []
 }
