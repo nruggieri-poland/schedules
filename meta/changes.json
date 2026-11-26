@@ -1,14 +1,27 @@
 {
-  "generatedAt": "2026-11-25T07:59:18.785Z",
+  "generatedAt": "2026-11-26T07:51:21.805Z",
   "added": [],
   "removed": [
     {
-      "eventId": "0907745f-4c68-441e-8208-1f57b692f7e9",
-      "eventDate": "2025-11-24",
-      "sport": "Girls Soccer",
-      "levelLabel": "Varsity",
+      "eventId": "7a982913-a38a-4345-8ef4-42cd08359c90",
+      "eventDate": "2025-11-25",
+      "sport": "Boys Basketball",
+      "levelLabel": "8th Grade",
       "vsOrAt": "vs",
-      "opponentComplete": "Girls Soccer Banquet",
+      "opponentComplete": "Howland High School",
+      "isCancelled": false,
+      "isPostponed": false,
+      "teamScore": null,
+      "opponentScore": null,
+      "result": null
+    },
+    {
+      "eventId": "b34d90ab-d165-4f98-8279-3feae051a0b7",
+      "eventDate": "2025-11-25",
+      "sport": "Boys Basketball",
+      "levelLabel": "7th Grade",
+      "vsOrAt": "vs",
+      "opponentComplete": "Howland High School",
       "isCancelled": false,
       "isPostponed": false,
       "teamScore": null,
